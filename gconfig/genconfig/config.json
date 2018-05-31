@@ -1,0 +1,7 @@
+{
+    "output" : "../",
+    "tables" : [
+        ["LordBaseConfig",0],
+        ["LordConfig",2]
+    ]
+}
