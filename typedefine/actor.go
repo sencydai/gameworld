@@ -32,7 +32,7 @@ type ActorBaseData struct {
 }
 
 type ActorExData struct {
-	pf     string
+	Pf     string
 	NewDay int64
 }
 
