@@ -29,10 +29,10 @@ type SystemStaticRankData struct {
 }
 
 type SystemStaticGuildData struct {
-	NewDay int64
 }
 
 type SystemStaticCommonData struct {
+	NewDay int64
 }
 
 type SystemDynamicData struct {

@@ -18,9 +18,10 @@ type Account struct {
 	AccountId int
 	Actor     *Actor
 	GmLevel   byte
-	conn      *websocket.Conn
-	closed    bool
-	mutex     sync.RWMutex
+
+	conn   *websocket.Conn
+	closed bool
+	mutex  sync.RWMutex
 
 	writer chan []byte
 }
@@ -52,7 +53,7 @@ func (account *Account) Reply(data []byte) {
 	account.mutex.RLock()
 	defer account.mutex.RUnlock()
 
-	if account.closed {
+	if account.closed || (account.Actor != nil && account.Actor.Account == nil) {
 		return
 	}
 

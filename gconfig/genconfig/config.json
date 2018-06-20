@@ -1,7 +1,13 @@
 {
-    "output" : "../",
-    "tables" : [
-        ["LordBaseConfig",0],
-        ["LordConfig",2]
-    ]
+	"output" : "D:\\gopath\\src\\github.com\\sencydai\\gameworld\\gconfig",
+	"tables" : [
+		["LordBaseConfig",0],
+		["LordConfig",2],
+		["LordLevelConfig",1],
+		["LordEquipConfig",1],
+		["LordEquipStrengConfig",2],
+		["ItemConfig",1],
+		["ItemGroupConfig",2],
+		["VirtualCurrencyConfig",1]
+	]
 }

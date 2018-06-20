@@ -1,8 +1,9 @@
 package gconfig
 
 import (
-	"github.com/sencydai/utils/log"
 	"sync"
+
+	"github.com/sencydai/utils/log"
 )
 
 type gameConfig struct {
@@ -13,6 +14,7 @@ type gameConfig struct {
 	MaxConnection int
 	ConfigPath    string
 	Database      string
+	CrossUrl      string
 
 	gameClose bool
 }
@@ -33,6 +35,5 @@ func CloseGame() {
 func IsGameClose() bool {
 	closeMu.RLock()
 	defer closeMu.RUnlock()
-
 	return GameConfig.gameClose
 }

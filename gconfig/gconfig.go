@@ -23,8 +23,14 @@ func loadConfig(path, name string, v interface{}) {
 }
 
 var (
-	GLordBaseConfig LordBaseConfig
-	GLordConfig     map[int]map[int]LordConfig
+	GLordBaseConfig        LordBaseConfig
+	GLordConfig            map[int]map[int]LordConfig
+	GLordLevelConfig       map[int]LordLevelConfig
+	GLordEquipConfig       map[int]LordEquipConfig
+	GLordEquipStrengConfig map[int]map[int]LordEquipStrengConfig
+	GItemConfig            map[int]ItemConfig
+	GItemGroupConfig       map[int]map[int]ItemGroupConfig
+	GVirtualCurrencyConfig map[int]VirtualCurrencyConfig
 )
 
 func LoadConfigs(path string) {
@@ -35,4 +41,28 @@ func LoadConfigs(path string) {
 	gLordConfig := make(map[int]map[int]LordConfig)
 	loadConfig(path, "LordConfig", &gLordConfig)
 	GLordConfig = gLordConfig
+
+	gLordLevelConfig := make(map[int]LordLevelConfig)
+	loadConfig(path, "LordLevelConfig", &gLordLevelConfig)
+	GLordLevelConfig = gLordLevelConfig
+
+	gLordEquipConfig := make(map[int]LordEquipConfig)
+	loadConfig(path, "LordEquipConfig", &gLordEquipConfig)
+	GLordEquipConfig = gLordEquipConfig
+
+	gLordEquipStrengConfig := make(map[int]map[int]LordEquipStrengConfig)
+	loadConfig(path, "LordEquipStrengConfig", &gLordEquipStrengConfig)
+	GLordEquipStrengConfig = gLordEquipStrengConfig
+
+	gItemConfig := make(map[int]ItemConfig)
+	loadConfig(path, "ItemConfig", &gItemConfig)
+	GItemConfig = gItemConfig
+
+	gItemGroupConfig := make(map[int]map[int]ItemGroupConfig)
+	loadConfig(path, "ItemGroupConfig", &gItemGroupConfig)
+	GItemGroupConfig = gItemGroupConfig
+
+	gVirtualCurrencyConfig := make(map[int]VirtualCurrencyConfig)
+	loadConfig(path, "VirtualCurrencyConfig", &gVirtualCurrencyConfig)
+	GVirtualCurrencyConfig = gVirtualCurrencyConfig
 }

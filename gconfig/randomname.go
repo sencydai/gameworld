@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	fileName = "randomname.txt"
+	fileName = "randomnames.txt"
 )
 
 var (

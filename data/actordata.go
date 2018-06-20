@@ -1,10 +1,11 @@
 package data
 
 import (
+	"time"
+
 	"github.com/sencydai/gameworld/engine"
 	. "github.com/sencydai/gameworld/typedefine"
 	"github.com/sencydai/utils/log"
-	"time"
 )
 
 var (

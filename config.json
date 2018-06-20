@@ -1,0 +1,10 @@
+{
+	"logPath": "d:/gamelog",
+	"logLevel": 1,
+	"port": 9402,
+	"serverId": 10,
+	"maxConnection": 5000,
+	"configPath": "D:/gopath/src/github.com/sencydai/gamecommon/configfiles",
+	"database": "root:0987abc123@tcp(127.0.0.1:3306)/game_10?loc=Local&parseTime=true&readTimeout=5s&writeTimeout=5s",
+	"crossUrl": "nats://localhost:4222"
+}

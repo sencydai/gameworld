@@ -7,6 +7,7 @@ import (
 	"github.com/sencydai/gameworld/base"
 	"github.com/sencydai/gameworld/dispatch"
 	. "github.com/sencydai/gameworld/typedefine"
+
 	"github.com/sencydai/utils/log"
 )
 
@@ -25,7 +26,6 @@ func addTimer(actor *Actor, name string, delay time.Duration) *time.Timer {
 			log.Errorf("timer %s is existed", name)
 			return nil
 		}
-
 		t := time.NewTimer(delay)
 		sysTimers[name] = t
 		return t
@@ -33,9 +33,9 @@ func addTimer(actor *Actor, name string, delay time.Duration) *time.Timer {
 
 	actors, ok := actorTimers[actor.ActorId]
 	if !ok {
-		actors := make(map[string]*time.Timer)
+		actors = make(map[string]*time.Timer)
 		actorTimers[actor.ActorId] = actors
-	} else if _, ok := actors[name]; ok {
+	} else if _, ok = actors[name]; ok {
 		log.Errorf("timer %s is existed", name)
 		return nil
 	}
@@ -54,10 +54,8 @@ func StopTimer(actor *Actor, name string) {
 			timer.Stop()
 			delete(sysTimers, name)
 		}
-
 		return
 	}
-
 	actors, ok := actorTimers[actor.ActorId]
 	if !ok {
 		return
@@ -85,18 +83,13 @@ func After(actor *Actor, name string, delay time.Duration, cbFunc interface{}, a
 	if t == nil {
 		return
 	}
-
 	go func() {
 		select {
 		case <-t.C:
 			if actor == nil {
 				dispatch.PushSystemMsg(cbFunc, args...)
-			} else if actor.Account != nil {
-				if len(args) == 0 {
-					dispatch.PushSystemMsg(cbFunc, actor)
-				} else {
-					dispatch.PushSystemMsg(cbFunc, append([]interface{}{actor}, args...)...)
-				}
+			} else {
+				dispatch.PushActorMsg(actor, cbFunc, args...)
 			}
 		}
 		StopTimer(actor, name)
@@ -125,16 +118,11 @@ func Loop(actor *Actor, name string, delay, interval time.Duration, times int, c
 				} else {
 					t.Reset(interval)
 				}
-
 				go func() {
 					if actor == nil {
 						dispatch.PushSystemMsg(cbFunc, args...)
-					} else if actor.Account != nil {
-						if len(args) == 0 {
-							dispatch.PushSystemMsg(cbFunc, actor)
-						} else {
-							dispatch.PushSystemMsg(cbFunc, append([]interface{}{actor}, args...)...)
-						}
+					} else {
+						dispatch.PushActorMsg(actor, cbFunc, args...)
 					}
 				}()
 			}

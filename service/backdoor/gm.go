@@ -1,4 +1,4 @@
-package backdoor
+package gm
 
 import (
 	"fmt"
@@ -18,7 +18,8 @@ type gmCmdReturnCode struct {
 }
 
 var (
-	json      = jsoniter.ConfigCompatibleWithStandardLibrary
+	json = jsoniter.ConfigCompatibleWithStandardLibrary
+
 	gmCmdCode = &gmCmdReturnCode{}
 )
 
@@ -37,7 +38,6 @@ func handleGmCmd(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(400)
 		return
 	}
-
 	handle := service.GetGmHandle(cmd)
 	if handle == nil {
 		w.WriteHeader(400)
@@ -52,11 +52,11 @@ func handleGmCmd(w http.ResponseWriter, r *http.Request) {
 				gmCmdCode.Data = fmt.Sprint(err)
 			}
 			data, _ := json.Marshal(gmCmdCode)
-			log.Infof("handle cmd: %v, result: %s", values, string(data))
+			log.Infof("handle cmd: %v, result: %s", r.Form, string(data))
 			ch <- data
 		}()
 		gmCmdCode.Code, gmCmdCode.Data = handle(values)
-	})
+	}, r.Form)
 
 	w.Write(<-ch)
 }
@@ -64,6 +64,7 @@ func handleGmCmd(w http.ResponseWriter, r *http.Request) {
 func onGameStart() {
 	server := http.NewServeMux()
 	server.HandleFunc("/backdoor/gmcmd", handleGmCmd)
-
 	go http.ListenAndServe(fmt.Sprintf(":%d", gconfig.GameConfig.Port+1), server)
+
+	log.Info("start backdoor service")
 }

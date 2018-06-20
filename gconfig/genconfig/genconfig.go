@@ -17,8 +17,8 @@ type Config struct {
 var (
 	config Config
 
-	header = `package gconfig //自动生成，不要手动修改
-
+	header = `package gconfig	//自动生成，不要手动修改
+	
 	import (
 		"fmt"
 		"io/ioutil"

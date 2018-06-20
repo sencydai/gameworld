@@ -4,11 +4,13 @@ import (
 	"database/sql"
 	"sync"
 
+	//
 	_ "github.com/go-sql-driver/mysql"
 
 	"github.com/json-iterator/go"
 	"github.com/sencydai/gameworld/gconfig"
 	. "github.com/sencydai/gameworld/typedefine"
+
 	"github.com/sencydai/utils"
 	"github.com/sencydai/utils/log"
 )
@@ -151,6 +153,7 @@ func UpdateSystemData(index int, value string, flush chan bool) {
 			log.Errorf("update system data %d error: %s", index, err.Error())
 		}
 	}()
+
 }
 
 func GetAccountInfo(name string) (int, string, byte, error) {
@@ -264,13 +267,14 @@ func QueryActorCache(actorId int64) (*Actor, error) {
 func UpdateActor(actor *Actor, flush chan bool) {
 	baseData, err := json.Marshal(actor.BaseData)
 	if err != nil {
-		log.Errorf("marshal actor(%d) base data error: %s", actor.ActorId, err.Error())
+		log.Errorf("marshal actor(%d) baseData error: %s", actor.ActorId, err.Error())
 		return
 	}
 
 	exData, err := json.Marshal(actor.ExData)
 	if err != nil {
-		log.Errorf("marshal actor(%d) ex data error: %s", actor.ActorId, err.Error())
+		log.Errorf("marshal actor(%d) exData error: %s", actor.ActorId, err.Error())
+		return
 	}
 
 	actorId, actorName, level, power, logintime, logouttime := actor.ActorId, actor.ActorName, actor.Level, actor.Power, actor.LoginTime, actor.LogoutTime

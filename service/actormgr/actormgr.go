@@ -82,12 +82,12 @@ func init() {
 	dispatch.RegAccountMsgHandle(proto.SystemCLoginGame, onActorLogin)
 }
 
+//账号登录
 func onAccountLogin(account *Account, reader *bytes.Reader) {
 	if account.AccountId != 0 {
 		account.Close()
 		return
 	}
-
 	var (
 		serverId    int
 		accountName string
@@ -98,27 +98,28 @@ func onAccountLogin(account *Account, reader *bytes.Reader) {
 		account.Close()
 		return
 	}
-
-	dispatch.PushSystemAsynMsg(func(accountId int, pass string, gmLevel byte, err error) {
+	dispatch.PushSystemAsynMsg(func(accountId int, pass string, gmlevel byte, err error) {
 		if err != nil || pass != password {
 			account.Close()
 			return
 		}
+
+		//账号已登录
 		if account.AccountId != 0 {
 			account.Close()
 			return
 		}
 
+		//账号已登陆
 		if data.GetAccount(accountId) != nil {
 			account.Close()
 			return
 		}
 
 		account.AccountId = accountId
-		account.GmLevel = gmLevel
+		account.GmLevel = gmlevel
 		account.Reply(pack.EncodeData(proto.System, proto.SystemSLogin, byte(0)))
 		data.AppendAccount(account)
-
 	}, engine.GetAccountInfo, accountName)
 }
 
@@ -137,9 +138,7 @@ func onGetActorList(account *Account, reader *bytes.Reader) {
 			conf := gconfig.GLordConfig[actor.Camp][actor.Sex]
 			pack.Write(writer, actor.ActorId, actor.ActorName, conf.Head, actor.Sex, actor.Level, actor.Camp, account.AccountId)
 		}
-
 		account.Reply(pack.EncodeWriter(writer))
-
 	}, engine.GetAccountActors, account.AccountId)
 }
 
@@ -162,10 +161,8 @@ func onCreateActor(account *Account, reader *bytes.Reader) {
 		return
 	}
 
-	var (
-		errCode int
-		actorId int64
-	)
+	var errCode int
+	var actorId int64
 
 	defer func() {
 		account.Reply(pack.EncodeData(proto.System, proto.SystemSCreateActor, float64(actorId), errCode))
@@ -178,27 +175,32 @@ func onCreateActor(account *Account, reader *bytes.Reader) {
 		icon int
 		pf   string
 	)
+
 	pack.Read(reader, &name, &camp, &sex, &icon, &pf)
 	confs, ok := gconfig.GLordConfig[camp]
+	//阵营错误
 	if !ok {
 		errCode = -11
 		return
 	}
-
+	//性别错误
 	_, ok = confs[sex]
 	if !ok {
 		errCode = -8
 		return
 	}
+	//角色名已存在
 	if IsActorNameExist(name) {
 		errCode = -6
 		return
 	}
 	rName := []rune(name)
+	//名称不合法
 	if len(rName) == 0 || len(rName) > MaxActorNameLen || gconfig.QueryName(name) {
 		errCode = -12
 		return
 	}
+
 	count, err := engine.GetActorCount(account.AccountId)
 	if err != nil {
 		log.Errorf("GetActorCount %d error: %s", account.AccountId, err.Error())
@@ -226,13 +228,16 @@ func onCreateActor(account *Account, reader *bytes.Reader) {
 		ExData:     &ActorExData{Pf: pf},
 	}
 	service.OnActorCreate(actor)
+
 	if err = engine.InsertActor(actor); err != nil {
 		log.Errorf("create actor error: %s", err.Error())
 		errCode = -1
 		return
 	}
+
 	AppendActorName(name, actorId)
 	gconfig.UseRandomName(name)
+
 	log.Infof("account(%d) create actor(%d) success", account.AccountId, actorId)
 }
 
@@ -240,7 +245,6 @@ func onActorLogin(account *Account, reader *bytes.Reader) {
 	if account.AccountId == 0 || account.Actor != nil {
 		return
 	}
-
 	var (
 		aId float64
 		pf  string
@@ -263,15 +267,17 @@ func onActorLogin(account *Account, reader *bytes.Reader) {
 	exData.Pf = pf
 	account.Actor = actor
 	data.AddOnlineActor(actor)
-	offTime := time.Duration(math.Max(float64(actor.LoginTime.Sub(actor.LogoutTime)), 0))
 
-	service.OnActorBeforeLogin(actor, offTime)
+	offtime := time.Duration(math.Max(float64(actor.LoginTime.Sub(actor.LogoutTime)), 0))
+
+	service.OnActorBeforeLogin(actor, offtime)
 
 	if !base.IsSameDay(time.Now(), base.Unix(exData.NewDay)) {
 		service.OnActorNewDay(actor)
 	}
+
 	actor.Account = account
-	service.OnActorLogin(actor, offTime)
+	service.OnActorLogin(actor, offtime)
 
 	log.Infof("actor(%d) init success", actor.ActorId)
 	var ch chan bool

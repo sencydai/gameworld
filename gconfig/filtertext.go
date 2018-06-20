@@ -7,17 +7,17 @@ import (
 	"strings"
 )
 
-type treeNode struct {
-	nodes map[rune]*treeNode
+type trieNode struct {
+	nodes map[rune]*trieNode
 	match bool
 }
 
 const (
-	maxAscii           = '\u007f'
+	maxASCII           = '\u007f'
 	deltaChar          = 'a' - 'A'
 	chStar             = '*'
 	filterTextFileName = "filtertext.txt"
-	filterNames        = " `~!@#$%^&*()_-+={[}]|\\:;\"'<,>.?/\t\r\n"
+	filterNames        = " ~@#$%^&*()_+-={[}]:;\"'|\\<,>.?/`\t\r\n"
 )
 
 func toUpper(r rune) rune {
@@ -28,8 +28,8 @@ func toUpper(r rune) rune {
 }
 
 var (
-	filterTextRoot = &treeNode{nodes: make(map[rune]*treeNode)}
-	filterNameRoot = &treeNode{nodes: make(map[rune]*treeNode)}
+	filterTextRoot = &trieNode{nodes: make(map[rune]*trieNode)}
+	filterNameRoot = &trieNode{nodes: make(map[rune]*trieNode)}
 )
 
 func init() {
@@ -38,7 +38,7 @@ func init() {
 	}
 }
 
-func addNode(root *treeNode, text string) {
+func addNode(root *trieNode, text string) {
 	chars := []rune(strings.ToUpper(text))
 	l := len(chars)
 	if l == 0 {
@@ -48,14 +48,22 @@ func addNode(root *treeNode, text string) {
 	for i := 0; i < l; i++ {
 		ch := chars[i]
 		if _, ok := node.nodes[ch]; !ok {
-			node.nodes[ch] = &treeNode{nodes: make(map[rune]*treeNode)}
+			node.nodes[ch] = &trieNode{nodes: make(map[rune]*trieNode)}
 		}
 		node = node.nodes[ch]
 	}
 	node.match = true
 }
 
-func queryText(root *treeNode, text string) bool {
+func QueryName(text string) bool {
+	return queryText(filterNameRoot, text) || QueryText(text)
+}
+
+func QueryText(text string) bool {
+	return queryText(filterTextRoot, text)
+}
+
+func queryText(root *trieNode, text string) bool {
 	chars := []rune(text)
 	l := len(chars)
 	if l == 0 {
@@ -89,14 +97,6 @@ func queryText(root *treeNode, text string) bool {
 	return false
 }
 
-func QueryName(text string) bool {
-	return queryText(filterNameRoot, text) || queryText(filterTextRoot, text)
-}
-
-func QueryText(text string) bool {
-	return queryText(filterTextRoot, text)
-}
-
 func FilterText(text string) string {
 	chars := []rune(text)
 	l := len(chars)
@@ -122,9 +122,10 @@ func FilterText(text string) string {
 			node, ok := nodes[ch]
 			if !ok {
 				if pos > 0 {
-					for idx := j; idx <= pos; idx++ {
+					for idx := i; idx <= pos; idx++ {
 						chars[idx] = chStar
 					}
+					i = pos
 				}
 				break
 			}
@@ -153,7 +154,7 @@ func LoadFilterTexts(path string) {
 	defer f.Close()
 
 	reader := bufio.NewReader(f)
-	filter := &treeNode{nodes: make(map[rune]*treeNode)}
+	filter := &trieNode{nodes: make(map[rune]*trieNode)}
 	for {
 		line, _, _ := reader.ReadLine()
 		if len(line) == 0 {
