@@ -8,6 +8,10 @@ const (
 	DATETIME_FORMAT = "2006-01-02 15:04:05"
 	DATE_FORMAT     = "2006-01-02"
 	TIME_FORMAT     = "15:04:05"
+
+	Day = time.Hour * 24
+
+	DaySec = 24 * 3600
 )
 
 func Format(t time.Time, layout string) string {
@@ -42,8 +46,16 @@ func ParseTime(value string) (time.Time, error) {
 	return time.ParseInLocation(TIME_FORMAT, value, time.Local)
 }
 
+func Date(year int, month time.Month, day, hour, min, sec int) time.Time {
+	return time.Date(year, month, day, hour, min, sec, 0, time.Local)
+}
+
 func Unix(sec int64) time.Time {
 	return time.Unix(sec, 0)
+}
+
+func IntSecond(sec int) time.Duration {
+	return time.Second * time.Duration(sec)
 }
 
 func IsSameDay(t1, t2 time.Time) bool {
@@ -72,4 +84,30 @@ func GetMomentDelay(hour, min, sec int) time.Duration {
 		return moment.Sub(now)
 	}
 	return time.Hour*24 - now.Sub(moment)
+}
+
+func GetZero(t time.Time) time.Time {
+	return time.Date(t.Year(), t.Month(), t.Day(), 0, 0, 0, 0, time.Local)
+}
+
+//GetDeltaDays t1-t2
+func GetDeltaDays(t1, t2 time.Time) int {
+	return int(GetZero(t1).Sub(GetZero(t2)) / Day)
+}
+
+//WeekDay 1~7
+func WeekDay(t time.Time) int {
+	week := int(t.Weekday())
+	if week == 0 {
+		week = 7
+	}
+
+	return week
+}
+
+func IsSameWeek(t1, t2 time.Time) bool {
+	year1, week1 := t1.ISOWeek()
+	year2, week2 := t1.ISOWeek()
+
+	return week1 == week2 && year1 == year2
 }

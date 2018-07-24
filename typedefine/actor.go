@@ -1,7 +1,11 @@
 package typedefine
 
 import (
+	"bytes"
 	"time"
+
+	"github.com/sencydai/gamecommon/pack"
+	proto "github.com/sencydai/gamecommon/protocol"
 )
 
 type Actor struct {
@@ -28,25 +32,6 @@ type ActorCache struct {
 	Refresh time.Time
 }
 
-type ActorBaseData struct {
-	Bag *ActorBaseBagData //背包
-}
-
-type ActorBaseBagData struct {
-	Currency    map[int]int         //货币id:数量
-	AccCurrency map[int]int         //历史累积货币 id:数量
-	Items       map[int]map[int]int //道具 类型:id:数量
-}
-
-type ActorExData struct {
-	Pf     string //平台
-	NewDay int64  //上次newday时间
-}
-
-type ActorDynamicData struct {
-	Attr *ActorDynamicAttrData
-}
-
 func (actor *Actor) GetBaseData() *ActorBaseData {
 	return actor.BaseData
 }
@@ -67,8 +52,26 @@ func (actor *Actor) GetDynamicData() *ActorDynamicData {
 	return actor.DynamicData
 }
 
-func (actor *Actor) Reply(data []byte) {
-	if actor.Account != nil {
-		actor.Account.Reply(data)
+func (actor *Actor) Reply(sysId, cmdId byte, data ...interface{}) {
+	actor.ReplyWriter(pack.AllocPack(sysId, cmdId, data...))
+}
+
+func (actor *Actor) ReplyData(data []byte) {
+	if account := actor.Account; account != nil {
+		account.Reply(data)
 	}
+}
+
+func (actor *Actor) ReplyWriter(writer *bytes.Buffer) {
+	if account := actor.Account; account != nil {
+		account.Reply(pack.EncodeWriter(writer))
+	}
+}
+
+func (actor *Actor) SendTips(msg string) {
+	actor.Reply(proto.Chat, proto.ChatSTips, 0, msg)
+}
+
+func (actor *Actor) IsOnline() bool {
+	return actor.Account != nil
 }

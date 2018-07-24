@@ -1,16 +1,16 @@
 package data
 
 import (
-	. "github.com/sencydai/gameworld/typedefine"
-	"github.com/sencydai/utils/log"
+	"github.com/sencydai/gameworld/log"
+	t "github.com/sencydai/gameworld/typedefine"
 )
 
 var (
-	accounts = make(map[int]*Account)
+	accounts = make(map[int]*t.Account)
 )
 
-func AppendAccount(account *Account) {
-	if account.AccountId != 0 {
+func AppendAccount(account *t.Account) {
+	if !account.IsClose() {
 		accounts[account.AccountId] = account
 		log.Infof("account(%d) login", account.AccountId)
 	}
@@ -23,16 +23,10 @@ func RemoveAccount(accountId int) {
 	}
 }
 
-func GetAccount(accountId int) *Account {
+func GetAccount(accountId int) *t.Account {
 	return accounts[accountId]
 }
 
-type LoopAccountsHandle func(*Account) bool
-
-func LoopAccounts(handle LoopAccountsHandle) {
-	for _, account := range accounts {
-		if ok := handle(account); !ok {
-			break
-		}
-	}
+func GetAccountCount() int {
+	return len(accounts)
 }

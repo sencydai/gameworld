@@ -5,18 +5,17 @@ import (
 	"fmt"
 	"math/rand"
 	"net/http"
-	"runtime/debug"
 	"sync"
-	"time"
 
 	"github.com/gorilla/websocket"
 	"github.com/sencydai/gamecommon/pack"
-	"github.com/sencydai/utils/log"
+	proto "github.com/sencydai/gamecommon/protocol"
+	"github.com/sencydai/gameworld/log"
 
 	"github.com/sencydai/gameworld/dispatch"
-	"github.com/sencydai/gameworld/gconfig"
+	g "github.com/sencydai/gameworld/gconfig"
 	"github.com/sencydai/gameworld/service/actormgr"
-	. "github.com/sencydai/gameworld/typedefine"
+	t "github.com/sencydai/gameworld/typedefine"
 )
 
 var (
@@ -28,6 +27,8 @@ var (
 		},
 	}
 
+	systemId = proto.System
+
 	connCount   = 0
 	connCountMu sync.Mutex
 )
@@ -35,7 +36,7 @@ var (
 func addConnCount() bool {
 	connCountMu.Lock()
 	defer connCountMu.Unlock()
-	if connCount >= gconfig.GameConfig.MaxConnection {
+	if connCount >= g.GameConfig.MaxConnection {
 		return false
 	}
 	connCount++
@@ -84,88 +85,61 @@ func handleConnection(w http.ResponseWriter, r *http.Request) {
 		conn.Close()
 		return
 	}
-	errChan := make(chan bool, 2)
-	account := NewAccount(conn)
-	//读
-	go func(errChan chan bool) {
-		defer func() {
-			if err := recover(); err != nil {
-				log.Fatalf("%v : %s", err, string(debug.Stack()))
-			}
-			errChan <- true
-		}()
-		for {
-			_, data, err := conn.ReadMessage()
-			if err != nil {
-				break
-			}
-			if gconfig.IsGameClose() {
-				break
-			}
-			if len(data) < pack.HEAD_SIZE {
-				break
-			}
-			reader := bytes.NewReader(data)
-			var tag int
-			pack.Read(reader, &tag)
-			if tag != pack.DEFAULT_TAG {
-				break
-			}
 
-			var dataLen int
-			pack.Read(reader, &dataLen)
-			if dataLen < 2 {
-				break
-			}
-			data = data[pack.HEAD_SIZE:]
-			if dataLen != len(data) {
-				break
-			}
-			reader.Reset(data)
-			var (
-				pid   uint32
-				sysId byte
-				cmdId byte
-			)
-			pack.Read(reader, &pid, &sysId, &cmdId)
-			dispatch.PushClientMsg(account, sysId, cmdId, reader)
-			time.Sleep(time.Millisecond * 150)
+	account := t.NewAccount(conn)
+
+	defer func() {
+		if err := recover(); err != nil {
 		}
-	}(errChan)
 
-	//写
-	go func(errChan chan bool) {
-		defer func() {
-			if err := recover(); err != nil {
-				log.Fatalf("%v : %s", err, string(debug.Stack()))
-			}
-			errChan <- true
-		}()
-
-		for data := range account.GetData() {
-			if gconfig.IsGameClose() {
-				break
-			}
-			if err := conn.WriteMessage(websocket.BinaryMessage, data); err != nil {
-				break
-			}
+		subConnCount()
+		if g.IsGameClose() {
+			return
 		}
-	}(errChan)
 
-	<-errChan
+		account.Close()
+		dispatch.PushSystemMsg(actormgr.OnAccountLogout, account)
+	}()
 
-	subConnCount()
-	account.Close()
-	if gconfig.IsGameClose() {
-		return
+	var (
+		tag     int
+		dataLen int
+
+		pid   uint32
+		sysId byte
+		cmdId byte
+	)
+	headSize := pack.HEAD_SIZE
+	defTag := pack.DEFAULT_TAG
+	for {
+		_, data, err := conn.ReadMessage()
+		if err != nil || g.IsGameClose() || len(data) < headSize {
+			break
+		}
+
+		reader := bytes.NewReader(data)
+		pack.Read(reader, &tag)
+		if tag != defTag {
+			break
+		}
+		pack.Read(reader, &dataLen)
+		if dataLen < 2 {
+			break
+		}
+		data = data[headSize:]
+		if dataLen != len(data) {
+			break
+		}
+		reader.Reset(data)
+		pack.Read(reader, &pid, &sysId, &cmdId)
+		dispatch.PushClientMsg(account, sysId, cmdId, reader)
 	}
-	dispatch.PushSystemMsg(actormgr.OnAccountLogout, account)
 }
 
 func startGateWay() {
 	server := http.NewServeMux()
 	server.HandleFunc("/", handleConnection)
-	go http.ListenAndServe(fmt.Sprintf(":%d", gconfig.GameConfig.Port), server)
+	go http.ListenAndServe(fmt.Sprintf(":%d", g.GameConfig.Port), server)
 
 	log.Info("gateway started...")
 }

@@ -24,7 +24,7 @@ var (
 		"io/ioutil"
 	
 		"github.com/json-iterator/go"
-		. "github.com/sencydai/gameworld/typedefine"
+		t "github.com/sencydai/gameworld/typedefine"
 	)
 	
 	var (
@@ -66,17 +66,19 @@ func main() {
 	for _, tables := range config.Tables {
 		name := tables[0].(string)
 		keys := int(tables[1].(float64))
-		varTypes := getMapType(keys) + name
+		varTypes := getMapType(keys) + fmt.Sprintf("*t.%s", name)
 
 		varDefines = append(varDefines, fmt.Sprintf("G%s %s", name, varTypes))
 
 		configs := make([]string, 3)
 		if keys == 0 {
-			configs[0] = fmt.Sprintf("g%s := %s{}", name, varTypes)
+			configs[0] = fmt.Sprintf("g%s := &t.%s{}", name, name)
+			configs[1] = fmt.Sprintf("loadConfig(path,\"%s\",g%s)", name, name)
 		} else {
 			configs[0] = fmt.Sprintf("g%s := make(%s)", name, varTypes)
+			configs[1] = fmt.Sprintf("loadConfig(path,\"%s\",&g%s)", name, name)
 		}
-		configs[1] = fmt.Sprintf("loadConfig(path,\"%s\",&g%s)", name, name)
+
 		configs[2] = fmt.Sprintf("G%s = g%s", name, name)
 
 		loadConfigs = append(loadConfigs, strings.Join(configs, "\n")+"\n")

@@ -3,25 +3,37 @@ package engine
 import (
 	"database/sql"
 	"sync"
+	"time"
 
 	//
 	_ "github.com/go-sql-driver/mysql"
 
 	"github.com/json-iterator/go"
-	"github.com/sencydai/gameworld/gconfig"
-	. "github.com/sencydai/gameworld/typedefine"
+	g "github.com/sencydai/gameworld/gconfig"
+	t "github.com/sencydai/gameworld/typedefine"
 
-	"github.com/sencydai/utils"
-	"github.com/sencydai/utils/log"
+	"github.com/sencydai/gameworld/log"
 )
+
+type actorBuffer struct {
+	ActorName  string
+	AccountId  int
+	Camp       int
+	Sex        int
+	Level      int
+	Power      int
+	LoginTime  time.Time
+	LogoutTime time.Time
+	BaseData   []byte
+	ExData     []byte
+}
 
 var (
 	json = jsoniter.ConfigCompatibleWithStandardLibrary
 
 	engine *sql.DB
 
-	stmtSysData  *sql.Stmt
-	stmtSysMutex = utils.NewSemaphore(4)
+	stmtSysMutex sync.Mutex
 
 	stmtAccount      *sql.Stmt
 	stmtAccountMutex sync.Mutex
@@ -36,20 +48,15 @@ var (
 	stmtQueryActor      *sql.Stmt
 	stmtQueryCacheActor *sql.Stmt
 
-	stmtUpdateActor      *sql.Stmt
-	stmtUpdateActorMutex = utils.NewSemaphore(4)
+	actorBuffers  = make(map[int64]*actorBuffer)
+	actorBufferMu sync.RWMutex
 )
 
 func InitEngine() {
 	var err error
-	if engine, err = sql.Open("mysql", gconfig.GameConfig.Database); err != nil {
+	if engine, err = sql.Open("mysql", g.GameConfig.Database); err != nil {
 		panic(err)
 	} else if err = engine.Ping(); err != nil {
-		panic(err)
-	}
-
-	stmtSysData, err = engine.Prepare("update sysdata set data = ? where id = ?")
-	if err != nil {
 		panic(err)
 	}
 
@@ -82,16 +89,11 @@ func InitEngine() {
 	if err != nil {
 		panic(err)
 	}
-
-	stmtUpdateActor, err = engine.Prepare("update actor set actorname=?,level=?,power=?,logintime=?,logouttime=?,basedata=?,exdata=? where actorid=?")
-	if err != nil {
-		panic(err)
-	}
 }
 
 func GetMaxActorId() (int64, error) {
 	var maxId sql.NullInt64
-	err := engine.QueryRow("select max(actorid) from actor where serverid=?", gconfig.GameConfig.ServerId).Scan(&maxId)
+	err := engine.QueryRow("select max(actorid) from actor where serverid=?", g.GameConfig.ServerId).Scan(&maxId)
 	if err != nil {
 		return 0, err
 	}
@@ -138,22 +140,37 @@ func GetSystemData(index int, defValue string) (string, error) {
 	return data.String, nil
 }
 
-func UpdateSystemData(index int, value string, flush chan bool) {
-	go func() {
-		defer func() {
-			if flush != nil {
-				flush <- true
-			}
-		}()
+func FlushSystemData(values map[int]string) {
+	stmtSysMutex.Lock()
+	defer stmtSysMutex.Unlock()
 
-		stmtSysMutex.Require()
-		defer stmtSysMutex.Release()
+	tx, err := engine.Begin()
+	if err != nil {
+		log.Errorf("FlushSystemData begin error: %s", err.Error())
+		return
+	}
 
-		if _, err := stmtSysData.Exec(value, index); err != nil {
-			log.Errorf("update system data %d error: %s", index, err.Error())
+	defer tx.Rollback()
+
+	stmt, err := tx.Prepare("update sysdata set data = ? where id = ?")
+	if err != nil {
+		log.Errorf("FlushSystemData prepare error: %s", err.Error())
+		return
+	}
+
+	for index, text := range values {
+		_, err := stmt.Exec(text, index)
+		if err != nil {
+			log.Errorf("FlushSystemData index(%d) error: %s", index, err.Error())
 		}
-	}()
+	}
 
+	stmt.Close()
+
+	err = tx.Commit()
+	if err != nil {
+		log.Errorf("FlushSystemData commit error: %s", err.Error())
+	}
 }
 
 func GetAccountInfo(name string) (int, string, byte, error) {
@@ -169,7 +186,7 @@ func GetAccountInfo(name string) (int, string, byte, error) {
 	return accountid, password, gmlevel, err
 }
 
-func GetAccountActors(accountId int) ([]*AccountActor, error) {
+func GetAccountActors(accountId int) ([]*t.AccountActor, error) {
 	stmtAccountActorsMutex.Lock()
 	defer stmtAccountActorsMutex.Unlock()
 
@@ -183,11 +200,16 @@ func GetAccountActors(accountId int) ([]*AccountActor, error) {
 
 	defer rows.Close()
 
-	actors := make([]*AccountActor, 0)
+	actors := make([]*t.AccountActor, 0)
 	for rows.Next() {
-		actor := &AccountActor{}
+		actor := &t.AccountActor{}
 		if err := rows.Scan(&actor.ActorId, &actor.ActorName, &actor.Camp, &actor.Sex, &actor.Level); err != nil {
 			return nil, err
+		}
+		buff := getActorBuffer(int64(actor.ActorId))
+		if buff != nil {
+			actor.ActorName = buff.ActorName
+			actor.Level = buff.Level
 		}
 		actors = append(actors, actor)
 	}
@@ -204,23 +226,40 @@ func GetActorCount(accountId int) (int, error) {
 	return int(result.Int64), nil
 }
 
-func InsertActor(actor *Actor) error {
-	baseData, err := json.Marshal(actor.BaseData)
+func InsertActor(actor *t.Actor) error {
+	baseData, err := json.MarshalIndent(actor.BaseData, "", " ")
 	if err != nil {
 		return err
 	}
-	exData, err := json.Marshal(actor.ExData)
+	exData, err := json.MarshalIndent(actor.ExData, "", " ")
 	if err != nil {
 		return err
 	}
 	_, err = stmtInsertActor.Exec(actor.ActorId, actor.ActorName, actor.AccountId,
-		gconfig.GameConfig.ServerId, actor.Camp, actor.Sex, actor.Level, actor.Power,
+		g.GameConfig.ServerId, actor.Camp, actor.Sex, actor.Level, actor.Power,
 		actor.CreateTime, actor.LoginTime, actor.LogoutTime, string(baseData), string(exData))
 	return err
 }
 
-func QueryActor(actorId int64) (*Actor, error) {
-	actor := &Actor{ActorId: actorId}
+func QueryActor(actorId int64) (*t.Actor, error) {
+	actor := &t.Actor{ActorId: actorId}
+	buff := getActorBuffer(actorId)
+	if buff != nil {
+		actor.ActorName = buff.ActorName
+		actor.AccountId = buff.AccountId
+		actor.Camp = buff.Camp
+		actor.Sex = buff.Sex
+		actor.Level = buff.Level
+		actor.Power = buff.Power
+		actor.LoginTime = buff.LoginTime
+		actor.LogoutTime = buff.LogoutTime
+		actor.BaseData = &t.ActorBaseData{}
+		json.Unmarshal(buff.BaseData, actor.BaseData)
+		actor.ExData = &t.ActorExData{}
+		json.Unmarshal(buff.ExData, actor.ExData)
+		return actor, nil
+	}
+
 	var (
 		baseData sql.NullString
 		exData   sql.NullString
@@ -230,8 +269,8 @@ func QueryActor(actorId int64) (*Actor, error) {
 	if err != nil {
 		return nil, err
 	}
-	actor.BaseData = &ActorBaseData{}
-	actor.ExData = &ActorExData{}
+	actor.BaseData = &t.ActorBaseData{}
+	actor.ExData = &t.ActorExData{}
 	if baseData.Valid {
 		if err = json.Unmarshal([]byte(baseData.String), actor.BaseData); err != nil {
 			return nil, err
@@ -245,17 +284,32 @@ func QueryActor(actorId int64) (*Actor, error) {
 	return actor, nil
 }
 
-func QueryActorCache(actorId int64) (*Actor, error) {
-	actor := &Actor{ActorId: actorId}
+func QueryActorCache(actorId int64) (*t.Actor, error) {
+	actor := &t.Actor{ActorId: actorId}
+	buff := getActorBuffer(actorId)
+	if buff != nil {
+		actor.ActorName = buff.ActorName
+		actor.AccountId = buff.AccountId
+		actor.Camp = buff.Camp
+		actor.Sex = buff.Sex
+		actor.Level = buff.Level
+		actor.Power = buff.Power
+		actor.LoginTime = buff.LoginTime
+		actor.LogoutTime = buff.LogoutTime
+		actor.BaseData = &t.ActorBaseData{}
+		json.Unmarshal(buff.BaseData, actor.BaseData)
+		return actor, nil
+	}
+
 	var (
 		baseData sql.NullString
 	)
-	err := stmtQueryActor.QueryRow(actorId).Scan(&actor.ActorName, &actor.AccountId, &actor.Camp,
+	err := stmtQueryCacheActor.QueryRow(actorId).Scan(&actor.ActorName, &actor.AccountId, &actor.Camp,
 		&actor.Sex, &actor.Level, &actor.Power, &actor.LoginTime, &actor.LogoutTime, &baseData)
 	if err != nil {
 		return nil, err
 	}
-	actor.BaseData = &ActorBaseData{}
+	actor.BaseData = &t.ActorBaseData{}
 	if baseData.Valid {
 		if err = json.Unmarshal([]byte(baseData.String), actor.BaseData); err != nil {
 			return nil, err
@@ -264,32 +318,100 @@ func QueryActorCache(actorId int64) (*Actor, error) {
 	return actor, nil
 }
 
-func UpdateActor(actor *Actor, flush chan bool) {
-	baseData, err := json.Marshal(actor.BaseData)
+func UpdateActor(actor *t.Actor) {
+	actorBufferMu.Lock()
+	defer actorBufferMu.Unlock()
+
+	baseData, err := json.MarshalIndent(actor.BaseData, "", " ")
 	if err != nil {
 		log.Errorf("marshal actor(%d) baseData error: %s", actor.ActorId, err.Error())
 		return
 	}
 
-	exData, err := json.Marshal(actor.ExData)
+	exData, err := json.MarshalIndent(actor.ExData, "", " ")
 	if err != nil {
 		log.Errorf("marshal actor(%d) exData error: %s", actor.ActorId, err.Error())
 		return
 	}
-
-	actorId, actorName, level, power, logintime, logouttime := actor.ActorId, actor.ActorName, actor.Level, actor.Power, actor.LoginTime, actor.LogoutTime
-	go func() {
-		defer func() {
-			if flush != nil {
-				flush <- true
-			}
-		}()
-		stmtUpdateActorMutex.Require()
-		defer stmtUpdateActorMutex.Release()
-
-		_, err = stmtUpdateActor.Exec(actorName, level, power, logintime, logouttime, string(baseData), string(exData), actorId)
-		if err != nil {
-			log.Errorf("update actor(%d) error: %s", actorId, err.Error())
+	if buff, ok := actorBuffers[actor.ActorId]; ok {
+		buff.ActorName = actor.ActorName
+		// buff.AccountId = actor.AccountId
+		// buff.Camp = actor.Camp
+		// buff.Sex = actor.Sex
+		buff.Level = actor.Level
+		buff.Power = actor.Power
+		buff.LoginTime = actor.LoginTime
+		buff.LogoutTime = actor.LogoutTime
+		buff.BaseData = baseData
+		buff.ExData = exData
+	} else {
+		actorBuffers[actor.ActorId] = &actorBuffer{
+			ActorName:  actor.ActorName,
+			AccountId:  actor.AccountId,
+			Camp:       actor.Camp,
+			Sex:        actor.Sex,
+			Level:      actor.Level,
+			Power:      actor.Power,
+			LoginTime:  actor.LoginTime,
+			LogoutTime: actor.LogoutTime,
+			BaseData:   baseData,
+			ExData:     exData,
 		}
-	}()
+	}
+}
+
+func getActorBuffer(actorId int64) *actorBuffer {
+	actorBufferMu.RLock()
+	defer actorBufferMu.RUnlock()
+
+	return actorBuffers[actorId]
+}
+
+func FlushActorBuffers() {
+	actorBufferMu.Lock()
+	defer actorBufferMu.Unlock()
+	if len(actorBuffers) == 0 {
+		return
+	}
+
+	tx, err := engine.Begin()
+	if err != nil {
+		log.Errorf("FlushActorBuffers error: %s", err.Error())
+		return
+	}
+
+	defer tx.Rollback()
+
+	stmt, err := tx.Prepare("update actor set actorname=?,level=?,power=?,logintime=?,logouttime=?,basedata=?,exdata=? where actorid=?")
+	if err != nil {
+		log.Errorf("FlushActorBuffers prepare error: %s", err.Error())
+		return
+	}
+
+	for actorId, buff := range actorBuffers {
+		//actorName, level, power, logintime, logouttime, string(baseData), string(exData), actorId
+		_, err := stmt.Exec(buff.ActorName, buff.Level, buff.Power, buff.LoginTime, buff.LogoutTime, string(buff.BaseData), string(buff.ExData), actorId)
+		if err != nil {
+			log.Errorf("save actor(%d) data error: %s", actorId, err.Error())
+		}
+	}
+
+	stmt.Close()
+
+	err = tx.Commit()
+	if err != nil {
+		log.Errorf("FlushActorBuffers commit error: %s", err.Error())
+	} else {
+		for actorId := range actorBuffers {
+			delete(actorBuffers, actorId)
+		}
+		//actorBuffers = make(map[int64]*actorBuffer)
+	}
+}
+
+func GetCacheCount() int {
+	actorBufferMu.RLock()
+	defer actorBufferMu.RUnlock()
+
+	return len(actorBuffers)
 }

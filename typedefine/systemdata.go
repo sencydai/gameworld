@@ -2,6 +2,8 @@ package typedefine
 
 import (
 	"time"
+
+	"github.com/sencydai/gameworld/rank"
 )
 
 const (
@@ -14,7 +16,7 @@ const (
 
 type SystemData struct {
 	Actors     map[int64]*SystemStaticActorData
-	Rank       *SystemStaticRankData
+	Rank       map[string]*rank.RankData
 	Guild      *SystemStaticGuildData
 	Data       *SystemStaticCommonData
 	OpenServer time.Time
@@ -22,10 +24,18 @@ type SystemData struct {
 	DynamicData *SystemDynamicData
 }
 
-type SystemStaticActorData struct {
-}
+var (
+	sysData = &SystemData{
+		Actors:      make(map[int64]*SystemStaticActorData),
+		Rank:        make(map[string]*rank.RankData),
+		Guild:       &SystemStaticGuildData{},
+		Data:        &SystemStaticCommonData{},
+		OpenServer:  time.Now(),
+		DynamicData: &SystemDynamicData{},
+	}
+)
 
-type SystemStaticRankData struct {
+type SystemStaticActorData struct {
 }
 
 type SystemStaticGuildData struct {
@@ -36,4 +46,50 @@ type SystemStaticCommonData struct {
 }
 
 type SystemDynamicData struct {
+}
+
+func GetSysData() *SystemData {
+	return sysData
+}
+
+func GetSysActorData(actorId int64) *SystemStaticActorData {
+	data, ok := sysData.Actors[actorId]
+	if !ok {
+		data = &SystemStaticActorData{}
+		sysData.Actors[actorId] = data
+	}
+	return data
+}
+
+func GetRank(name string) *rank.RankData {
+	return sysData.Rank[name]
+}
+
+func NewRank(name string, maxRankCount int) *rank.RankData {
+	rankData, ok := sysData.Rank[name]
+	if ok {
+		if rankData.MaxCount != maxRankCount {
+			rankData.SetMaxRankCount(maxRankCount)
+		}
+		return rankData
+	}
+
+	sysData.Rank[name] = rank.NewRank(maxRankCount)
+	return sysData.Rank[name]
+}
+
+func GetSysGuildData() *SystemStaticGuildData {
+	return sysData.Guild
+}
+
+func GetSysCommonData() *SystemStaticCommonData {
+	return sysData.Data
+}
+
+func GetSysOpenServerTime() time.Time {
+	return sysData.OpenServer
+}
+
+func GetSysDynamicData() *SystemDynamicData {
+	return sysData.DynamicData
 }

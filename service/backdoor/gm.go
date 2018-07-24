@@ -3,24 +3,24 @@ package gm
 import (
 	"fmt"
 	"net/http"
-	"net/url"
+	"strings"
+	"time"
 
 	"github.com/json-iterator/go"
 	"github.com/sencydai/gameworld/dispatch"
-	"github.com/sencydai/gameworld/gconfig"
+	g "github.com/sencydai/gameworld/gconfig"
+	"github.com/sencydai/gameworld/log"
 	"github.com/sencydai/gameworld/service"
-	"github.com/sencydai/utils/log"
 )
 
 type gmCmdReturnCode struct {
 	Code int
 	Data string
+	Cost string
 }
 
 var (
 	json = jsoniter.ConfigCompatibleWithStandardLibrary
-
-	gmCmdCode = &gmCmdReturnCode{}
 )
 
 func init() {
@@ -33,30 +33,48 @@ func handleGmCmd(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	r.ParseForm()
-	cmd := r.Form.Get("cmd")
-	if cmd == "" {
+
+	values := make(map[string]string)
+	for k, v := range r.Form {
+		if len(v) == 0 {
+			continue
+		}
+		values[strings.ToLower(k)] = v[0]
+	}
+
+	cmd, ok := values["cmd"]
+	if !ok {
 		w.WriteHeader(400)
 		return
 	}
+
 	handle := service.GetGmHandle(cmd)
 	if handle == nil {
 		w.WriteHeader(400)
 		return
 	}
 
+	delete(values, "cmd")
+
+	now := time.Now()
 	ch := make(chan []byte, 1)
-	dispatch.PushSystemMsg(func(values url.Values) {
+	dispatch.PushSystemMsg(func(cmd string, values map[string]string) {
+		gmCmdCode := &gmCmdReturnCode{}
+
 		defer func() {
 			if err := recover(); err != nil {
 				gmCmdCode.Code = -1
 				gmCmdCode.Data = fmt.Sprint(err)
 			}
+			gmCmdCode.Cost = fmt.Sprint(time.Since(now))
 			data, _ := json.Marshal(gmCmdCode)
-			log.Infof("handle cmd: %v, result: %s", r.Form, string(data))
+			cmdData, _ := json.Marshal(values)
+			log.Infof("handle backdoor gmcmd [%s : %s] result: %s", cmd, string(cmdData), string(data))
 			ch <- data
 		}()
+
 		gmCmdCode.Code, gmCmdCode.Data = handle(values)
-	}, r.Form)
+	}, cmd, values)
 
 	w.Write(<-ch)
 }
@@ -64,7 +82,7 @@ func handleGmCmd(w http.ResponseWriter, r *http.Request) {
 func onGameStart() {
 	server := http.NewServeMux()
 	server.HandleFunc("/backdoor/gmcmd", handleGmCmd)
-	go http.ListenAndServe(fmt.Sprintf(":%d", gconfig.GameConfig.Port+1), server)
+	go http.ListenAndServe(fmt.Sprintf(":%d", g.GameConfig.Port+1), server)
 
 	log.Info("start backdoor service")
 }

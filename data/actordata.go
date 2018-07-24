@@ -1,42 +1,60 @@
 package data
 
 import (
+	"bytes"
 	"time"
 
+	"github.com/sencydai/gamecommon/pack"
 	"github.com/sencydai/gameworld/engine"
-	. "github.com/sencydai/gameworld/typedefine"
-	"github.com/sencydai/utils/log"
+	g "github.com/sencydai/gameworld/gconfig"
+	"github.com/sencydai/gameworld/log"
+	"github.com/sencydai/gameworld/service"
+	t "github.com/sencydai/gameworld/typedefine"
 )
 
 var (
-	onlineActors = make(map[int64]*Actor)
-	actorCaches  = make(map[int64]*ActorCache)
-	cacheTimeout = time.Hour * 12
+	onlineActors = make(map[int64]*t.Actor)
+	actorCaches  = make(map[int64]*t.ActorCache)
+	cacheTimeout = time.Hour * 2
 )
 
-func AddOnlineActor(actor *Actor) {
+func init() {
+	service.RegActorDataLoad(onActorDataLoad)
+}
+
+func onActorDataLoad(actor *t.Actor) {
+	//领主模型
+	lordConf := g.GLordConfig[actor.Camp][actor.Sex]
+	dynamicData := actor.GetDynamicData()
+	dynamicData.LordModel = lordConf.Model
+}
+
+func AddOnlineActor(actor *t.Actor) {
 	actor.LoginTime = time.Now()
 	onlineActors[actor.ActorId] = actor
 	log.Infof("actor(%d,%d,%s) login", actor.AccountId, actor.ActorId, actor.ActorName)
 	delete(actorCaches, actor.ActorId)
+
+	service.OnActorDataLoad(actor)
 }
 
-func RemoveOnlineActor(actor *Actor, flush chan bool) {
+func RemoveOnlineActor(actor *t.Actor) {
 	if actor, ok := onlineActors[actor.ActorId]; ok {
-		actor.LogoutTime = time.Now()
 		delete(onlineActors, actor.ActorId)
-		engine.UpdateActor(actor, flush)
+		actor.Account = nil
+		actor.LogoutTime = time.Now()
+		engine.UpdateActor(actor)
 		log.Infof("actor(%d,%d,%s) logout", actor.AccountId, actor.ActorId, actor.ActorName)
 		actor.DynamicData = nil
 		actor.ExData = nil
-		actor.Account = nil
-		actorCaches[actor.ActorId] = &ActorCache{Actor: actor, Refresh: time.Now()}
+
+		actorCaches[actor.ActorId] = &t.ActorCache{Actor: actor, Refresh: time.Now()}
+
+		service.OnActorDataLoad(actor)
 	}
 }
 
-type LoopActorsHandle func(actor *Actor) bool
-
-func LoopActors(handle LoopActorsHandle) {
+func LoopActors(handle func(actor *t.Actor) bool) {
 	for _, actor := range onlineActors {
 		if ok := handle(actor); !ok {
 			break
@@ -44,11 +62,28 @@ func LoopActors(handle LoopActorsHandle) {
 	}
 }
 
-func GetOnlineActor(actorId int64) *Actor {
+func Broadcast(sysId, cmdId byte, data ...interface{}) {
+	BroadcastWriter(pack.AllocPack(sysId, cmdId, data...))
+}
+
+func BroadcastData(data []byte) {
+	for _, actor := range onlineActors {
+		actor.ReplyData(data)
+	}
+}
+
+func BroadcastWriter(writer *bytes.Buffer) {
+	data := pack.EncodeWriter(writer)
+	for _, actor := range onlineActors {
+		actor.ReplyData(data)
+	}
+}
+
+func GetOnlineActor(actorId int64) *t.Actor {
 	return onlineActors[actorId]
 }
 
-func GetActor(actorId int64) *Actor {
+func GetActor(actorId int64) *t.Actor {
 	actor := onlineActors[actorId]
 	if actor != nil {
 		return actor
@@ -62,15 +97,26 @@ func GetActor(actorId int64) *Actor {
 	if err != nil {
 		return nil
 	}
-	actorCaches[actorId] = &ActorCache{Actor: actor, Refresh: time.Now()}
+
+	service.OnActorDataLoad(actor)
+
+	actorCaches[actorId] = &t.ActorCache{Actor: actor, Refresh: time.Now()}
 	return actor
 }
 
 func clearTimeoutActorCache() {
 	now := time.Now()
 	for actorId, cache := range actorCaches {
-		if now.Sub(cache.Refresh) > cacheTimeout {
+		if now.Sub(cache.Refresh) >= cacheTimeout {
 			delete(actorCaches, actorId)
 		}
 	}
+}
+
+func GetOnlineCount() int {
+	return len(onlineActors)
+}
+
+func GetCacheCount() int {
+	return len(actorCaches)
 }

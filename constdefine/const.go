@@ -85,7 +85,7 @@ const (
 	CTAreaMaterial CurrencyType = 12 //地区物资
 	CTOrigiStone   CurrencyType = 13 //原石
 
-	CTMax CurrencyType = 14
+	CTMax CurrencyType = 13
 )
 
 //材料类型
@@ -102,4 +102,105 @@ const (
 	MTEquipEssence    MaterialType = 8  //装备精华
 	MTArtifactEssence MaterialType = 9  //神器精华
 	MTSkillPoint      MaterialType = 10 //领主技能点
+)
+
+//领主装饰类型
+type LordDecorType = int
+
+const (
+	LDTHead  LordDecorType = 1 //头像
+	LDTFrame LordDecorType = 2 //边框
+	LDTChat  LordDecorType = 3 //聊天框
+
+	LDTMax LordDecorType = 3
+)
+
+//领主装备部位
+type LordEquipPos = int
+
+const (
+	LEPWeapon LordEquipPos = 1 //武器
+	LEPArmor  LordEquipPos = 2 //铠甲
+	LEPHelmet LordEquipPos = 3 //头盔
+	LEPMount  LordEquipPos = 4 //坐骑
+
+	LEPMax LordEquipPos = 4
+)
+
+//英雄位置类型
+type HeroPosType = int
+
+const (
+	HPTFight      HeroPosType = 1 //出战
+	HPTAssist     HeroPosType = 2 //助战
+	HPTExpedition HeroPosType = 3 //远征
+)
+
+//系统类型
+const (
+	SystemChat             = 1   //聊天
+	SystemAltar            = 2   //祭坛
+	SystemGuard            = 3   //亲卫
+	SystemSoul             = 4   //英灵
+	SystemLordEquip        = 5   //领主装备
+	SystemLordSkill        = 6   //领主技能
+	SystemHeroEquip        = 7   //英雄装备
+	SystemHeroArti         = 8   //英雄神器
+	SystemStore            = 9   //商店
+	SystemQuickFight       = 10  //快速战斗
+	SystemLadderChallenge  = 101 //天梯挑战赛
+	SystemDanChallenge     = 102 //段位晋级赛
+	SystemEliteFuben       = 103 //精英副本
+	SystemMine             = 104 //矿产争夺战
+	SystemWorldBoss        = 105 //世界boss
+	SystemLegendBattle     = 109 //传奇战役
+	SystemMainFuben        = 110 //主线副本
+	SystemHookEvent        = 111 //野外挂机杀怪
+	SystemDailyFuben       = 112 //每日副本（总的）
+	SystemEndlessTower     = 113 //无尽塔
+	SystemAreaEvent        = 115 //地区事件
+	SystemHonorRoad        = 116 //荣耀之路
+	SystemCourageChallenge = 117 //勇气试炼
+	SystemRobberFuben      = 118 //强盗来袭
+)
+
+//建筑
+const (
+	BuildingMainCity    = 1 //主城
+	BuildingMine        = 2 //矿井
+	BuildingShop        = 3 //商店
+	BuildingHouse       = 4 //房子
+	BuildingSmithy      = 5 //铁匠铺
+	BuildingHeroAltar   = 6 //英雄祭坛
+	BuildingTagBuilding = 7 //标识性建筑
+)
+
+//排行榜
+const (
+	RankLevel      = "rankdb_level"
+	RankLevelCount = 100
+	RankPower      = "rankdb_fight"
+	RankPowerCount = 100
+)
+
+//时间类型
+const (
+	TimeTypeUnlimit    = 0
+	TimeTypeWeek       = 1
+	TimeTypeOpenServer = 2
+	TimeTypeFixed      = 3
+)
+
+//时间子类型
+const (
+	TimeSubDay  = 1
+	TimeSubLast = 2
+)
+
+//时间状态
+const (
+	TimeStatusUnlimit = 0
+	TimeStatusExpire  = 1
+	TimeStatusOutside = 2
+	TimeStatusInRange = 3
 )

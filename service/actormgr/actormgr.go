@@ -3,21 +3,22 @@ package actormgr
 import (
 	"bytes"
 	"database/sql"
+	"fmt"
 	"math"
 	"time"
 
 	"github.com/sencydai/gamecommon/pack"
 	proto "github.com/sencydai/gamecommon/protocol"
 	"github.com/sencydai/gameworld/base"
-	. "github.com/sencydai/gameworld/constdefine"
+	c "github.com/sencydai/gameworld/constdefine"
 	"github.com/sencydai/gameworld/data"
 	"github.com/sencydai/gameworld/dispatch"
 	"github.com/sencydai/gameworld/engine"
-	"github.com/sencydai/gameworld/gconfig"
+	g "github.com/sencydai/gameworld/gconfig"
+	"github.com/sencydai/gameworld/log"
 	"github.com/sencydai/gameworld/service"
 	"github.com/sencydai/gameworld/timer"
-	. "github.com/sencydai/gameworld/typedefine"
-	"github.com/sencydai/utils/log"
+	t "github.com/sencydai/gameworld/typedefine"
 )
 
 var (
@@ -35,7 +36,7 @@ func OnLoadMaxActorId() {
 	}
 
 	if maxActorId == 0 {
-		maxActorId = gconfig.ServerIdML
+		maxActorId = g.ServerIdML
 	}
 }
 
@@ -52,7 +53,7 @@ func OnLoadAllActorNames() {
 	}
 
 	for name := range actorNames {
-		gconfig.UseRandomName(name)
+		g.UseRandomName(name)
 	}
 }
 
@@ -80,10 +81,13 @@ func init() {
 	dispatch.RegAccountMsgHandle(proto.SystemCRandomName, onGetRandName)
 	dispatch.RegAccountMsgHandle(proto.SystemCCreateActor, onCreateActor)
 	dispatch.RegAccountMsgHandle(proto.SystemCLoginGame, onActorLogin)
+
+	service.RegGameStart(onGameStart)
+	service.RegGm("stat", onGetActorCount)
 }
 
 //账号登录
-func onAccountLogin(account *Account, reader *bytes.Reader) {
+func onAccountLogin(account *t.Account, reader *bytes.Reader) {
 	if account.AccountId != 0 {
 		account.Close()
 		return
@@ -94,7 +98,7 @@ func onAccountLogin(account *Account, reader *bytes.Reader) {
 		password    string
 	)
 	pack.Read(reader, &serverId, &accountName, &password)
-	if serverId != gconfig.GameConfig.ServerId {
+	if serverId != g.GameConfig.ServerId {
 		account.Close()
 		return
 	}
@@ -112,41 +116,44 @@ func onAccountLogin(account *Account, reader *bytes.Reader) {
 
 		//账号已登陆
 		if data.GetAccount(accountId) != nil {
+			log.Errorf("acccount(%d) is connected", accountId)
 			account.Close()
 			return
 		}
-
 		account.AccountId = accountId
 		account.GmLevel = gmlevel
-		account.Reply(pack.EncodeData(proto.System, proto.SystemSLogin, byte(0)))
 		data.AppendAccount(account)
+
+		account.Reply(pack.EncodeData(proto.System, proto.SystemSLogin, byte(0)))
+
 	}, engine.GetAccountInfo, accountName)
 }
 
-func onGetActorList(account *Account, reader *bytes.Reader) {
+func onGetActorList(account *t.Account, reader *bytes.Reader) {
 	if account.AccountId == 0 || account.Actor != nil {
 		return
 	}
 
-	dispatch.PushSystemAsynMsg(func(actors []*AccountActor, err error) {
+	dispatch.PushSystemAsynMsg(func(actors []*t.AccountActor, err error) {
 		if err != nil {
 			account.Reply(pack.EncodeData(proto.System, proto.SystemSActorLists, account.AccountId, -1))
 			return
 		}
 		writer := pack.AllocPack(proto.System, proto.SystemSActorLists, account.AccountId, len(actors))
 		for _, actor := range actors {
-			conf := gconfig.GLordConfig[actor.Camp][actor.Sex]
+			conf := g.GLordConfig[actor.Camp][actor.Sex]
 			pack.Write(writer, actor.ActorId, actor.ActorName, conf.Head, actor.Sex, actor.Level, actor.Camp, account.AccountId)
 		}
 		account.Reply(pack.EncodeWriter(writer))
 	}, engine.GetAccountActors, account.AccountId)
 }
 
-func onGetRandName(account *Account, reader *bytes.Reader) {
+func onGetRandName(account *t.Account, reader *bytes.Reader) {
 	if account.AccountId == 0 {
 		return
 	}
-	name := gconfig.GetRandomName()
+	//name := g.GetRandomName()
+	name := "unknown"
 	writer := pack.AllocPack(proto.System, proto.SystemSRandomName)
 	if len(name) == 0 {
 		pack.Write(writer, -9, 1, "")
@@ -156,7 +163,7 @@ func onGetRandName(account *Account, reader *bytes.Reader) {
 	account.Reply(pack.EncodeWriter(writer))
 }
 
-func onCreateActor(account *Account, reader *bytes.Reader) {
+func onCreateActor(account *t.Account, reader *bytes.Reader) {
 	if account.AccountId == 0 || account.Actor != nil {
 		return
 	}
@@ -177,7 +184,7 @@ func onCreateActor(account *Account, reader *bytes.Reader) {
 	)
 
 	pack.Read(reader, &name, &camp, &sex, &icon, &pf)
-	confs, ok := gconfig.GLordConfig[camp]
+	confs, ok := g.GLordConfig[camp]
 	//阵营错误
 	if !ok {
 		errCode = -11
@@ -189,6 +196,7 @@ func onCreateActor(account *Account, reader *bytes.Reader) {
 		errCode = -8
 		return
 	}
+	name = g.GetRandomName()
 	//角色名已存在
 	if IsActorNameExist(name) {
 		errCode = -6
@@ -196,7 +204,7 @@ func onCreateActor(account *Account, reader *bytes.Reader) {
 	}
 	rName := []rune(name)
 	//名称不合法
-	if len(rName) == 0 || len(rName) > MaxActorNameLen || gconfig.QueryName(name) {
+	if len(rName) == 0 || len(rName) > c.MaxActorNameLen || g.QueryName(name) {
 		errCode = -12
 		return
 	}
@@ -213,7 +221,7 @@ func onCreateActor(account *Account, reader *bytes.Reader) {
 	}
 	actorId = newActorId()
 	nowT := time.Now()
-	actor := &Actor{
+	actor := &t.Actor{
 		ActorId:    actorId,
 		ActorName:  name,
 		AccountId:  account.AccountId,
@@ -224,10 +232,11 @@ func onCreateActor(account *Account, reader *bytes.Reader) {
 		CreateTime: nowT,
 		LoginTime:  nowT,
 		LogoutTime: nowT,
-		BaseData:   &ActorBaseData{},
-		ExData:     &ActorExData{Pf: pf},
+		BaseData:   &t.ActorBaseData{},
+		ExData:     &t.ActorExData{Pf: pf},
 	}
 	service.OnActorCreate(actor)
+	service.OnActorUpgrade(actor, 0)
 
 	if err = engine.InsertActor(actor); err != nil {
 		log.Errorf("create actor error: %s", err.Error())
@@ -236,15 +245,16 @@ func onCreateActor(account *Account, reader *bytes.Reader) {
 	}
 
 	AppendActorName(name, actorId)
-	gconfig.UseRandomName(name)
+	g.UseRandomName(name)
 
 	log.Infof("account(%d) create actor(%d) success", account.AccountId, actorId)
 }
 
-func onActorLogin(account *Account, reader *bytes.Reader) {
+func onActorLogin(account *t.Account, reader *bytes.Reader) {
 	if account.AccountId == 0 || account.Actor != nil {
 		return
 	}
+	tick := time.Now()
 	var (
 		aId float64
 		pf  string
@@ -266,50 +276,70 @@ func onActorLogin(account *Account, reader *bytes.Reader) {
 	exData := actor.GetExData()
 	exData.Pf = pf
 	account.Actor = actor
+
+	account.Reply(pack.EncodeData(proto.Lord, proto.LordSCreateActor,
+		float64(actor.ActorId), float64(actor.ActorId),
+		g.GameConfig.ServerId, actor.ActorName))
+
 	data.AddOnlineActor(actor)
 
-	offtime := time.Duration(math.Max(float64(actor.LoginTime.Sub(actor.LogoutTime)), 0))
+	offSec := int(time.Duration(math.Max(float64(actor.LoginTime.Sub(actor.LogoutTime)), 0)) / time.Second)
 
-	service.OnActorBeforeLogin(actor, offtime)
+	service.OnActorBeforeLogin(actor, offSec)
 
 	if !base.IsSameDay(time.Now(), base.Unix(exData.NewDay)) {
 		service.OnActorNewDay(actor)
 	}
 
 	actor.Account = account
-	service.OnActorLogin(actor, offtime)
+	service.OnActorLogin(actor, offSec)
 
-	log.Infof("actor(%d) init success", actor.ActorId)
-	var ch chan bool
-	timer.Loop(actor, "actorSaveData", time.Minute*30, time.Minute*30, -1, engine.UpdateActor, ch)
+	log.Infof("actor(%d) init success, cost %v", actor.ActorId, time.Since(tick))
+	timer.Loop(actor, "actorSaveData", time.Minute*30, time.Minute*30, -1, engine.UpdateActor)
 }
 
-func actorLogout(actor *Actor, flush chan bool) {
+func actorLogout(actor *t.Actor) {
 	timer.StopActorTimers(actor)
 	service.OnActorLogout(actor)
-	data.RemoveOnlineActor(actor, flush)
+	data.RemoveOnlineActor(actor)
 }
 
-func OnAccountLogout(account *Account) {
+func OnAccountLogout(account *t.Account) {
 	if account.Actor != nil {
-		flush := make(chan bool, 1)
-		actorLogout(account.Actor, flush)
-		<-flush
+		actorLogout(account.Actor)
+		account.Actor = nil
 	}
 	if account.AccountId != 0 {
 		data.RemoveAccount(account.AccountId)
 	}
 }
 
+func onGameStart() {
+	timer.Loop(nil, "flushactors", time.Minute*5, time.Minute*5, -1, func() {
+		go func() {
+			engine.FlushActorBuffers()
+		}()
+	})
+}
+
 func OnGameClose() {
-	chs := make(map[chan bool]bool)
-	data.LoopActors(func(actor *Actor) bool {
-		flush := make(chan bool, 1)
-		chs[flush] = false
-		actorLogout(actor, flush)
+	tick := time.Now()
+	data.LoopActors(func(actor *t.Actor) bool {
+		service.OnActorLogout(actor)
+		actor.LogoutTime = time.Now()
+		engine.UpdateActor(actor)
 		return true
 	})
-	for ch := range chs {
-		<-ch
-	}
+	engine.FlushActorBuffers()
+	log.Infof("save actors data: %v", time.Since(tick))
+}
+
+func onGetActorCount(map[string]string) (int, string) {
+	return 0, fmt.Sprintf(
+		"account: %d, online: %d, offline: %d, engineBuff: %d",
+		data.GetAccountCount(),
+		data.GetOnlineCount(),
+		data.GetCacheCount(),
+		engine.GetCacheCount(),
+	)
 }

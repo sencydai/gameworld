@@ -7,11 +7,11 @@ import (
 
 	"github.com/nats-io/go-nats"
 	"github.com/sencydai/gameworld/dispatch"
-	"github.com/sencydai/gameworld/gconfig"
+	g "github.com/sencydai/gameworld/gconfig"
 	"github.com/sencydai/gameworld/service"
 
 	"github.com/sencydai/gamecommon/pack"
-	"github.com/sencydai/utils/log"
+	"github.com/sencydai/gameworld/log"
 )
 
 var (
@@ -33,7 +33,7 @@ func onReconnect(*nats.Conn) {
 func onGameStart() {
 	var err error
 	conn, err = nats.Connect(
-		gconfig.GameConfig.CrossUrl,
+		g.GameConfig.CrossUrl,
 		nats.ReconnectWait(time.Second*1),
 		nats.MaxReconnects(-1),
 		nats.DisconnectHandler(onDisconnect),
@@ -47,7 +47,7 @@ func onGameStart() {
 		panic(err)
 	}
 
-	_, err = conn.Subscribe(fmt.Sprintf("crossMsg_%d", gconfig.GameConfig.ServerId), onRecvMsg)
+	_, err = conn.Subscribe(fmt.Sprintf("crossMsg_%d", g.GameConfig.ServerId), onRecvMsg)
 	if err != nil {
 		panic(err)
 	}
@@ -63,7 +63,7 @@ func onRecvMsg(msg *nats.Msg) {
 	)
 	pack.Read(reader, &serverId, &msgId)
 
-	dispatch.PushCrossMsg(msgId, reader)
+	dispatch.PushCrossMsg(serverId, msgId, reader)
 }
 
 func PublishAllServerMsg(msgId int, data ...interface{}) {
@@ -78,7 +78,7 @@ func publishMsg(sub string, msgId int, data ...interface{}) {
 	if conn.IsReconnecting() {
 		return
 	}
-	writer := pack.NewWriter(gconfig.GameConfig.ServerId, msgId)
+	writer := pack.NewWriter(g.GameConfig.ServerId, msgId)
 	pack.Write(writer, data...)
 
 	conn.Publish(sub, writer.Bytes())

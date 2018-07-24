@@ -6,26 +6,18 @@ import (
 
 	"github.com/json-iterator/go"
 
+	proto "github.com/sencydai/gamecommon/protocol"
 	"github.com/sencydai/gameworld/base"
 	"github.com/sencydai/gameworld/engine"
+	"github.com/sencydai/gameworld/log"
 	"github.com/sencydai/gameworld/service"
 	"github.com/sencydai/gameworld/timer"
-	. "github.com/sencydai/gameworld/typedefine"
-	"github.com/sencydai/utils/log"
+	t "github.com/sencydai/gameworld/typedefine"
 )
 
 var (
 	json         = jsoniter.ConfigCompatibleWithStandardLibrary
-	sysDataIndex = []int{SYSTEM_ACTOR_INDEX, SYSTEM_RANK_INDEX, SYSTEM_GUILD_INDEX, SYSTEM_COMMON_INDEX}
-
-	sysData = &SystemData{
-		Actors:      make(map[int64]*SystemStaticActorData),
-		Rank:        &SystemStaticRankData{},
-		Guild:       &SystemStaticGuildData{},
-		Data:        &SystemStaticCommonData{},
-		OpenServer:  time.Now(),
-		DynamicData: &SystemDynamicData{},
-	}
+	sysDataIndex = []int{t.SYSTEM_ACTOR_INDEX, t.SYSTEM_RANK_INDEX, t.SYSTEM_GUILD_INDEX, t.SYSTEM_COMMON_INDEX}
 )
 
 func init() {
@@ -41,103 +33,105 @@ func loadData(index int, data interface{}, defValue string) {
 }
 
 func OnLoadSystemData() {
-	loadData(SYSTEM_ACTOR_INDEX, &sysData.Actors, "{}")
-	loadData(SYSTEM_RANK_INDEX, sysData.Rank, "{}")
-	loadData(SYSTEM_GUILD_INDEX, sysData.Guild, "{}")
-	loadData(SYSTEM_COMMON_INDEX, sysData.Data, "{}")
+	sysData := t.GetSysData()
+	loadData(t.SYSTEM_ACTOR_INDEX, &sysData.Actors, "{}")
+	loadData(t.SYSTEM_RANK_INDEX, &sysData.Rank, "{}")
+	loadData(t.SYSTEM_GUILD_INDEX, sysData.Guild, "{}")
+	loadData(t.SYSTEM_COMMON_INDEX, sysData.Data, "{}")
 
-	if text, err := engine.GetSystemData(SYSTEM_OPENSERVER_INDEX, base.FormatDateTime(time.Now())); err != nil {
+	if text, err := engine.GetSystemData(t.SYSTEM_OPENSERVER_INDEX, base.FormatDateTime(time.Now())); err != nil {
 		panic(err)
 	} else if sysData.OpenServer, err = base.ParseDateTime(text); err != nil {
 		panic(err)
 	}
+
+	for _, rankData := range sysData.Rank {
+		rankData.OnDataLoaded()
+	}
 }
 
 func marshalSystemData(index int) ([]byte, error) {
+	sysData := t.GetSysData()
 	switch index {
-	case SYSTEM_ACTOR_INDEX:
-		return json.Marshal(sysData.Actors)
-	case SYSTEM_RANK_INDEX:
-		return json.Marshal(sysData.Rank)
-	case SYSTEM_GUILD_INDEX:
-		return json.Marshal(sysData.Guild)
-	case SYSTEM_COMMON_INDEX:
-		return json.Marshal(sysData.Data)
+	case t.SYSTEM_ACTOR_INDEX:
+		return json.MarshalIndent(sysData.Actors, "", " ")
+	case t.SYSTEM_RANK_INDEX:
+		return json.MarshalIndent(sysData.Rank, "", " ")
+	case t.SYSTEM_GUILD_INDEX:
+		return json.MarshalIndent(sysData.Guild, "", " ")
+	case t.SYSTEM_COMMON_INDEX:
+		return json.MarshalIndent(sysData.Data, "", " ")
 	default:
 		return nil, fmt.Errorf("error system data index")
 	}
 }
 
-func saveSystemData() {
+func PackSystemDatas() map[int]string {
+	values := make(map[int]string)
 	for _, index := range sysDataIndex {
 		if data, err := marshalSystemData(index); err != nil {
 			log.Errorf("json marshal system data %d error: %s", index, err.Error())
 		} else {
-			engine.UpdateSystemData(index, string(data), nil)
+			values[index] = string(data)
 		}
 	}
+
+	return values
 }
 
 func onGameStart() {
-	timer.Loop(nil, "savesystemdata", time.Hour, time.Hour, -1, saveSystemData)
-	timer.Loop(nil, "clearactorcache", time.Hour*12, time.Hour*12, -1, clearTimeoutActorCache)
-	data := GetSysData()
+	timer.Loop(nil, "savesystemdata", time.Hour, time.Hour, -1, func() {
+		go func(values map[int]string) {
+			engine.FlushSystemData(values)
+		}(PackSystemDatas())
+	})
+
+	timer.Loop(nil, "clearactorcache", cacheTimeout, cacheTimeout, -1, clearTimeoutActorCache)
+	data := t.GetSysCommonData()
 	timer.LoopDayMoment("newday", base.Unix(data.NewDay), 0, 0, 10, onNewDay)
+
+	service.RegGm("flush", func(map[string]string) (int, string) {
+		saveData()
+		return 0, "success"
+	})
+
+	service.RegGm("newday", func(map[string]string) (int, string) {
+		onNewDay()
+		return 0, "success"
+	})
 }
 
 func onNewDay() {
 	log.Info("==============newday============")
 	service.OnSystemNewDay()
-	data := GetSysData()
-	data.NewDay = time.Now().Unix()
 
-	LoopActors(service.OnActorNewDay)
+	//newday
+	Broadcast(proto.Base, proto.BaseSNewDay)
+
+	now := time.Now()
+	nowS := now.Unix()
+	open := t.GetSysOpenServerTime()
+	openS := open.Unix()
+	deltaOpen := base.GetDeltaDays(now, open)
+
+	data := t.GetSysCommonData()
+	data.NewDay = nowS
+
+	//同步服务器时间
+	Broadcast(proto.Base, proto.BaseSSyncTime, int(nowS), openS, deltaOpen)
+
+	LoopActors(func(actor *t.Actor) bool {
+		service.OnActorNewDay(actor)
+		return true
+	})
+}
+
+func saveData() {
+	tick := time.Now()
+	engine.FlushSystemData(PackSystemDatas())
+	log.Infof("save system data: %v", time.Since(tick))
 }
 
 func OnGameClose() {
-	chs := make(map[chan bool]bool)
-	for _, index := range sysDataIndex {
-		if data, err := marshalSystemData(index); err != nil {
-			log.Errorf("json marshal system data %d error: %s", index, err.Error())
-		} else {
-			ch := make(chan bool, 1)
-			chs[ch] = true
-			engine.UpdateSystemData(index, string(data), ch)
-		}
-	}
-
-	for ch := range chs {
-		<-ch
-	}
-
-	log.Info("save system data success")
-}
-
-func GetSysActorData(actorId int64) *SystemStaticActorData {
-	data, ok := sysData.Actors[actorId]
-	if !ok {
-		data = &SystemStaticActorData{}
-		sysData.Actors[actorId] = data
-	}
-	return data
-}
-
-func GetSysRankData() *SystemStaticRankData {
-	return sysData.Rank
-}
-
-func GetSysGuildData() *SystemStaticGuildData {
-	return sysData.Guild
-}
-
-func GetSysData() *SystemStaticCommonData {
-	return sysData.Data
-}
-
-func GetSysOpenServerTime() time.Time {
-	return sysData.OpenServer
-}
-
-func GetSysDynamicData() *SystemDynamicData {
-	return sysData.DynamicData
+	saveData()
 }

@@ -1,9 +1,7 @@
 package gconfig
 
 import (
-	"sync"
-
-	"github.com/sencydai/utils/log"
+	"github.com/sencydai/gameworld/log"
 )
 
 type gameConfig struct {
@@ -22,18 +20,12 @@ type gameConfig struct {
 var (
 	GameConfig = gameConfig{}
 	ServerIdML int64
-	closeMu    sync.RWMutex
 )
 
 func CloseGame() {
-	closeMu.Lock()
-	defer closeMu.Unlock()
-
 	GameConfig.gameClose = true
 }
 
 func IsGameClose() bool {
-	closeMu.RLock()
-	defer closeMu.RUnlock()
 	return GameConfig.gameClose
 }
