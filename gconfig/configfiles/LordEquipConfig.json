@@ -1,0 +1,410 @@
+{
+	"8001": {
+		"attrs": {
+			"1": {
+				"type": 29,
+				"value": 100
+			}
+		},
+		"id": 8001,
+		"name": "基础木杖",
+		"pos": 1,
+		"priority": 1,
+		"rarity": 1,
+		"type": 0
+	},
+	"8002": {
+		"attrs": {
+			"1": {
+				"type": 30,
+				"value": 100
+			}
+		},
+		"id": 8002,
+		"name": "基础铠甲",
+		"pos": 2,
+		"priority": 2,
+		"rarity": 1,
+		"type": 0
+	},
+	"8003": {
+		"attrs": {
+			"1": {
+				"type": 27,
+				"value": 100
+			}
+		},
+		"id": 8003,
+		"name": "基础头盔",
+		"pos": 3,
+		"priority": 3,
+		"rarity": 1,
+		"type": 0
+	},
+	"8004": {
+		"attrs": {
+			"1": {
+				"type": 28,
+				"value": 100
+			}
+		},
+		"id": 8004,
+		"name": "基础戒指",
+		"pos": 4,
+		"priority": 4,
+		"rarity": 1,
+		"type": 0
+	},
+	"8011": {
+		"attrs": {
+			"1": {
+				"type": 29,
+				"value": 200
+			}
+		},
+		"id": 8011,
+		"name": "初级木杖",
+		"pos": 1,
+		"priority": 5,
+		"rarity": 2,
+		"type": 0
+	},
+	"8012": {
+		"attrs": {
+			"1": {
+				"type": 30,
+				"value": 200
+			}
+		},
+		"id": 8012,
+		"name": "初级铠甲",
+		"pos": 2,
+		"priority": 6,
+		"rarity": 2,
+		"type": 0
+	},
+	"8013": {
+		"attrs": {
+			"1": {
+				"type": 27,
+				"value": 200
+			}
+		},
+		"id": 8013,
+		"name": "初级头盔",
+		"pos": 3,
+		"priority": 7,
+		"rarity": 2,
+		"type": 0
+	},
+	"8014": {
+		"attrs": {
+			"1": {
+				"type": 28,
+				"value": 200
+			}
+		},
+		"id": 8014,
+		"name": "初级戒指",
+		"pos": 4,
+		"priority": 8,
+		"rarity": 2,
+		"type": 0
+	},
+	"8021": {
+		"attrs": {
+			"1": {
+				"type": 29,
+				"value": 300
+			}
+		},
+		"id": 8021,
+		"name": "精致木杖",
+		"pos": 1,
+		"priority": 9,
+		"rarity": 3,
+		"type": 0
+	},
+	"8022": {
+		"attrs": {
+			"1": {
+				"type": 30,
+				"value": 300
+			}
+		},
+		"id": 8022,
+		"name": "精制铠甲",
+		"pos": 2,
+		"priority": 10,
+		"rarity": 3,
+		"type": 0
+	},
+	"8023": {
+		"attrs": {
+			"1": {
+				"type": 27,
+				"value": 300
+			}
+		},
+		"id": 8023,
+		"name": "精制头盔",
+		"pos": 3,
+		"priority": 11,
+		"rarity": 3,
+		"type": 0
+	},
+	"8024": {
+		"attrs": {
+			"1": {
+				"type": 28,
+				"value": 300
+			}
+		},
+		"id": 8024,
+		"name": "精制戒指",
+		"pos": 4,
+		"priority": 12,
+		"rarity": 3,
+		"type": 0
+	},
+	"8031": {
+		"attrs": {
+			"1": {
+				"type": 29,
+				"value": 400
+			}
+		},
+		"id": 8031,
+		"limitTime": 3,
+		"name": "秘法之杖",
+		"pos": 1,
+		"priority": 13,
+		"rarity": 4,
+		"type": 0
+	},
+	"8032": {
+		"attrs": {
+			"1": {
+				"type": 30,
+				"value": 400
+			}
+		},
+		"id": 8032,
+		"limitTime": 4,
+		"name": "秘法之铠",
+		"pos": 2,
+		"priority": 14,
+		"rarity": 4,
+		"type": 0
+	},
+	"8033": {
+		"attrs": {
+			"1": {
+				"type": 27,
+				"value": 400
+			}
+		},
+		"id": 8033,
+		"limitTime": 5,
+		"name": "秘法之盔",
+		"pos": 3,
+		"priority": 15,
+		"rarity": 4,
+		"type": 0
+	},
+	"8034": {
+		"attrs": {
+			"1": {
+				"type": 28,
+				"value": 400
+			}
+		},
+		"id": 8034,
+		"limitTime": 1,
+		"name": "秘法之戒",
+		"pos": 4,
+		"priority": 16,
+		"rarity": 4,
+		"type": 0
+	},
+	"8041": {
+		"attrs": {
+			"1": {
+				"type": 29,
+				"value": 500
+			}
+		},
+		"id": 8041,
+		"limitTime": 2,
+		"name": "幽冥镰刀",
+		"pos": 1,
+		"priority": 17,
+		"rarity": 5,
+		"type": 0
+	},
+	"8042": {
+		"attrs": {
+			"1": {
+				"type": 30,
+				"value": 500
+			}
+		},
+		"id": 8042,
+		"limitTime": 3,
+		"name": "幽冥铠甲",
+		"pos": 2,
+		"priority": 18,
+		"rarity": 5,
+		"type": 0
+	},
+	"8043": {
+		"attrs": {
+			"1": {
+				"type": 27,
+				"value": 500
+			}
+		},
+		"id": 8043,
+		"limitTime": 4,
+		"name": "幽冥面具",
+		"pos": 3,
+		"priority": 19,
+		"rarity": 5,
+		"type": 0
+	},
+	"8044": {
+		"attrs": {
+			"1": {
+				"type": 28,
+				"value": 500
+			}
+		},
+		"id": 8044,
+		"limitTime": 5,
+		"name": "幽冥指环",
+		"pos": 4,
+		"priority": 20,
+		"rarity": 5,
+		"type": 0
+	},
+	"8051": {
+		"attrs": {
+			"1": {
+				"type": 29,
+				"value": 500
+			}
+		},
+		"id": 8051,
+		"limitTime": 1,
+		"name": "阳炎法杖",
+		"pos": 1,
+		"priority": 21,
+		"rarity": 5,
+		"type": 0
+	},
+	"8052": {
+		"attrs": {
+			"1": {
+				"type": 30,
+				"value": 500
+			}
+		},
+		"id": 8052,
+		"limitTime": 2,
+		"name": "阳炎铠甲",
+		"pos": 2,
+		"priority": 22,
+		"rarity": 5,
+		"type": 0
+	},
+	"8053": {
+		"attrs": {
+			"1": {
+				"type": 27,
+				"value": 500
+			}
+		},
+		"id": 8053,
+		"limitTime": 3,
+		"name": "阳炎头环",
+		"pos": 3,
+		"priority": 23,
+		"rarity": 5,
+		"type": 0
+	},
+	"8054": {
+		"attrs": {
+			"1": {
+				"type": 28,
+				"value": 500
+			}
+		},
+		"id": 8054,
+		"limitTime": 4,
+		"name": "阳炎戒指",
+		"pos": 4,
+		"priority": 24,
+		"rarity": 5,
+		"type": 0
+	},
+	"8061": {
+		"attrs": {
+			"1": {
+				"type": 29,
+				"value": 500
+			}
+		},
+		"id": 8061,
+		"limitTime": 5,
+		"name": "至尊魔杖",
+		"pos": 1,
+		"priority": 25,
+		"rarity": 5,
+		"type": 0
+	},
+	"8062": {
+		"attrs": {
+			"1": {
+				"type": 30,
+				"value": 500
+			}
+		},
+		"id": 8062,
+		"limitTime": 1,
+		"name": "至尊魔铠",
+		"pos": 2,
+		"priority": 26,
+		"rarity": 5,
+		"type": 0
+	},
+	"8063": {
+		"attrs": {
+			"1": {
+				"type": 27,
+				"value": 500
+			}
+		},
+		"id": 8063,
+		"limitTime": 2,
+		"name": "至尊头环",
+		"pos": 3,
+		"priority": 27,
+		"rarity": 5,
+		"type": 0
+	},
+	"8064": {
+		"attrs": {
+			"1": {
+				"type": 28,
+				"value": 500
+			}
+		},
+		"id": 8064,
+		"limitTime": 3,
+		"name": "至尊魔戒",
+		"pos": 4,
+		"priority": 28,
+		"rarity": 5,
+		"type": 0
+	}
+}

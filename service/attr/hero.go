@@ -7,8 +7,8 @@ import (
 	g "github.com/sencydai/gameworld/gconfig"
 	t "github.com/sencydai/gameworld/typedefine"
 
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	"github.com/sencydai/gameworld/service"
 
 	_ "github.com/sencydai/gameworld/log"
@@ -25,7 +25,7 @@ var (
 	heroBaseAttrWorthRatio map[int]float64
 )
 
-func onConfigLoadFinish() {
+func onConfigLoadFinish(isGameStart bool) {
 	baseConf := g.GHeroBaseConfig
 	heroBaseLevelExp = float64(baseConf.LevelExp) / 10000
 	heroBaseLevelMult = float64(baseConf.LevelMult) / 10000
@@ -82,6 +82,11 @@ func refreshHeroTotalAttr(actor *t.Actor, hero *t.HeroStaticData) {
 	}
 	//等阶
 	for t, v := range heroAttr.Stage {
+		attrs[t] += v
+	}
+
+	//gm
+	for t, v := range heroAttr.GM {
 		attrs[t] += v
 	}
 

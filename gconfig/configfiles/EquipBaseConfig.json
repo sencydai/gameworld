@@ -1,0 +1,37 @@
+{
+	"attrScale": {
+		"1": {
+			"type": 7,
+			"value": 10000
+		},
+		"2": {
+			"type": 8,
+			"value": 4000
+		},
+		"3": {
+			"type": 9,
+			"value": 6000
+		}
+	},
+	"attrWorthRatio": {
+		"1": {
+			"type": 7,
+			"value": 10000
+		},
+		"2": {
+			"type": 8,
+			"value": 10000
+		},
+		"3": {
+			"type": 9,
+			"value": 800
+		}
+	},
+	"exStrengLimit": 2,
+	"initLevel": 3,
+	"maxCount": 200,
+	"recast": 100,
+	"strengConst": 0,
+	"strengExp": 16000,
+	"strengMult": 260000
+}

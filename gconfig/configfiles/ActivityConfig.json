@@ -1,0 +1,209 @@
+{
+	"1": {
+		"activityType": 1,
+		"hTimeType": 0,
+		"id": 1,
+		"idLimit": {
+			"1": 1
+		},
+		"level": 1,
+		"timeType": 0
+	},
+	"10": {
+		"activityType": 7,
+		"hTime": {
+			"eHour": 4,
+			"eMin": 59,
+			"eSec": 59,
+			"sHour": 5,
+			"week": {
+				"1": {
+					"1": 4,
+					"2": 7
+				}
+			}
+		},
+		"hTimeSubType": 2,
+		"hTimeType": 1,
+		"id": 10,
+		"reset": 1,
+		"time": {
+			"eHour": 4,
+			"eMin": 59,
+			"eSec": 59,
+			"sHour": 5,
+			"week": {
+				"1": {
+					"1": 4,
+					"2": 7
+				}
+			}
+		},
+		"timeSubType": 2,
+		"timeType": 1
+	},
+	"11": {
+		"activityType": 8,
+		"hTimeType": 0,
+		"id": 11,
+		"timeType": 0
+	},
+	"2": {
+		"activityType": 2,
+		"hTimeType": 0,
+		"id": 2,
+		"timeType": 0
+	},
+	"3": {
+		"activityType": 2,
+		"hTime": {
+			"eDay": 200,
+			"eHour": 4,
+			"eMin": 59,
+			"eSec": 59,
+			"sDay": 5,
+			"sHour": 5
+		},
+		"hTimeSubType": 1,
+		"hTimeType": 2,
+		"id": 3,
+		"reset": 1,
+		"time": {
+			"eDay": 200,
+			"eHour": 4,
+			"eMin": 59,
+			"eSec": 59,
+			"sDay": 5,
+			"sHour": 5
+		},
+		"timeSubType": 1,
+		"timeType": 2
+	},
+	"4": {
+		"activityType": 2,
+		"hTime": {
+			"eDay": 31,
+			"eHour": 4,
+			"eMin": 59,
+			"eMonth": 12,
+			"eSec": 59,
+			"eYear": 2019,
+			"sDay": 1,
+			"sHour": 5,
+			"sMonth": 11,
+			"sYear": 2017
+		},
+		"hTimeSubType": 2,
+		"hTimeType": 3,
+		"id": 4,
+		"reset": 1,
+		"time": {
+			"eDay": 31,
+			"eHour": 4,
+			"eMin": 59,
+			"eMonth": 12,
+			"eSec": 59,
+			"eYear": 2019,
+			"sDay": 1,
+			"sHour": 5,
+			"sMonth": 11,
+			"sYear": 2017
+		},
+		"timeSubType": 2,
+		"timeType": 3
+	},
+	"5": {
+		"activityType": 3,
+		"hTime": {
+			"eDay": 200,
+			"eHour": 4,
+			"eMin": 59,
+			"eSec": 59,
+			"sDay": 1,
+			"sHour": 5
+		},
+		"hTimeSubType": 1,
+		"hTimeType": 2,
+		"id": 5,
+		"time": {
+			"eDay": 200,
+			"eHour": 4,
+			"eMin": 59,
+			"eSec": 59,
+			"sDay": 1,
+			"sHour": 5
+		},
+		"timeSubType": 1,
+		"timeType": 2
+	},
+	"6": {
+		"activityType": 4,
+		"hTime": {
+			"eDay": 200,
+			"eHour": 4,
+			"eMin": 59,
+			"eSec": 59,
+			"sDay": 1,
+			"sHour": 5
+		},
+		"hTimeSubType": 2,
+		"hTimeType": 2,
+		"id": 6,
+		"time": {
+			"eDay": 200,
+			"eHour": 4,
+			"eMin": 59,
+			"eSec": 59,
+			"sDay": 1,
+			"sHour": 5
+		},
+		"timeSubType": 2,
+		"timeType": 2
+	},
+	"7": {
+		"activityType": 5,
+		"hTime": {
+			"eHour": 4,
+			"eMin": 59,
+			"eSec": 59,
+			"sHour": 5,
+			"week": {
+				"1": {
+					"1": 3,
+					"2": 7
+				}
+			}
+		},
+		"hTimeSubType": 1,
+		"hTimeType": 1,
+		"id": 7,
+		"reset": 1,
+		"time": {
+			"eHour": 4,
+			"eMin": 59,
+			"eSec": 59,
+			"sHour": 5,
+			"week": {
+				"1": {
+					"1": 3,
+					"2": 7
+				}
+			}
+		},
+		"timeSubType": 1,
+		"timeType": 1
+	},
+	"8": {
+		"activityType": 6,
+		"hTimeType": 0,
+		"id": 8,
+		"timeType": 0
+	},
+	"9": {
+		"activityType": 7,
+		"hTimeType": 0,
+		"id": 9,
+		"reset": 1,
+		"timeType": 0
+	}
+}

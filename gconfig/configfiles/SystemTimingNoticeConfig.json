@@ -1,0 +1,138 @@
+{
+	"1": {
+		"channel": "1,2,3",
+		"content": "测试公告，固定时间段20171020-20191021，每天9点43到16点45，传闻，滚动间隔30秒",
+		"id": 1,
+		"interval": 30,
+		"noticeType": 0,
+		"roll": 1,
+		"time": {
+			"eDay": 20,
+			"eHour": 16,
+			"eMin": 45,
+			"eMonth": 10,
+			"eYear": 2019,
+			"sDay": 20,
+			"sHour": 9,
+			"sMin": 43,
+			"sMonth": 10,
+			"sYear": 2017
+		},
+		"timeSubType": 1,
+		"timeType": 3
+	},
+	"2": {
+		"channel": "1,2,3",
+		"content": "测试公告，固定时间段20171020的1点43-20191020的23点45，开始到结束，系统，滚动间隔30秒",
+		"id": 2,
+		"interval": 30,
+		"noticeType": 1,
+		"roll": 1,
+		"time": {
+			"eDay": 20,
+			"eHour": 23,
+			"eMin": 45,
+			"eMonth": 10,
+			"eYear": 2019,
+			"sDay": 20,
+			"sHour": 1,
+			"sMin": 43,
+			"sMonth": 10,
+			"sYear": 2017
+		},
+		"timeSubType": 2,
+		"timeType": 3
+	},
+	"3": {
+		"channel": "1,2,3",
+		"content": "测试公告，每周一三五七，每天9点45分30秒到16点55分30秒，传闻，滚动间隔30秒",
+		"id": 3,
+		"interval": 30,
+		"noticeType": 0,
+		"roll": 1,
+		"time": {
+			"eHour": 16,
+			"eMin": 55,
+			"eSec": 30,
+			"sHour": 9,
+			"sMin": 45,
+			"sSec": 30,
+			"week": {
+				"1": 1,
+				"2": 3,
+				"3": 5,
+				"4": 7
+			}
+		},
+		"timeSubType": 1,
+		"timeType": 1
+	},
+	"4": {
+		"channel": "1,2,3",
+		"content": "测试公告，每周，周一到二，周五到六，开始9点45分到结束16点55分，系统，滚动间隔30秒",
+		"id": 4,
+		"interval": 30,
+		"noticeType": 1,
+		"roll": 1,
+		"time": {
+			"eHour": 16,
+			"eMin": 55,
+			"eSec": 30,
+			"sHour": 9,
+			"sMin": 45,
+			"sSec": 30,
+			"week": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 5,
+					"2": 6
+				}
+			}
+		},
+		"timeSubType": 2,
+		"timeType": 1
+	},
+	"5": {
+		"channel": "1,2,3",
+		"content": "测试公告，开服时间，前100天每天16点45分30秒到20点55分30秒，传闻，滚动间隔30秒",
+		"id": 5,
+		"interval": 30,
+		"noticeType": 0,
+		"roll": 1,
+		"time": {
+			"eDay": 100,
+			"eHour": 20,
+			"eMin": 55,
+			"eSec": 30,
+			"sDay": 1,
+			"sHour": 16,
+			"sMin": 45,
+			"sSec": 30
+		},
+		"timeSubType": 1,
+		"timeType": 2
+	},
+	"6": {
+		"channel": "1,2,3",
+		"content": "测试公告，开服时间，第1天的1点45分30秒到第100天的23点55分30秒，系统，滚动间隔30秒",
+		"id": 6,
+		"interval": 30,
+		"noticeType": 1,
+		"roll": 1,
+		"time": {
+			"eDay": 100,
+			"eHour": 23,
+			"eMin": 55,
+			"eSec": 30,
+			"sDay": 1,
+			"sHour": 1,
+			"sMin": 45,
+			"sSec": 30
+		},
+		"timeSubType": 2,
+		"timeType": 2
+	}
+}

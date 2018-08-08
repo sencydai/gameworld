@@ -3,11 +3,10 @@ package mainfuben
 import (
 	"bytes"
 
-	_ "github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
 	c "github.com/sencydai/gameworld/constdefine"
 	"github.com/sencydai/gameworld/dispatch"
 	g "github.com/sencydai/gameworld/gconfig"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	"github.com/sencydai/gameworld/service"
 	"github.com/sencydai/gameworld/service/bag"
 	"github.com/sencydai/gameworld/service/fight"
@@ -41,7 +40,7 @@ func onLoginMainFuben(actor *t.Actor, reader *bytes.Reader) {
 	}
 
 	fight.NewPvE(actor, fight.MainFuben,
-		fubenConf.Lord, fubenConf.Monster, "", 0,
+		fubenConf.Lord, fubenConf.Monster, "", 0, nil,
 		[]interface{}{fubenId})
 }
 

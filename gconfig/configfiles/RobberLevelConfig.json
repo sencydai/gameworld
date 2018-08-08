@@ -1,0 +1,10202 @@
+{
+	"1": {
+		"award": {
+			"1": {
+				"count": 1000,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 2500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 20000,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 30000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 1,
+		"level": 1
+	},
+	"10": {
+		"award": {
+			"1": {
+				"count": 1140,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 3125,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 22800,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 37500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 10,
+		"level": 3
+	},
+	"100": {
+		"award": {
+			"1": {
+				"count": 4430,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 9875,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 88600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 118500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 100,
+		"level": 81
+	},
+	"101": {
+		"award": {
+			"1": {
+				"count": 4480,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 9950,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 89600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 119400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 101,
+		"level": 81
+	},
+	"102": {
+		"award": {
+			"1": {
+				"count": 4530,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 10025,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 90600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 120300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 102,
+		"level": 82
+	},
+	"103": {
+		"award": {
+			"1": {
+				"count": 4580,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 10100,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 91600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 121200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 103,
+		"level": 83
+	},
+	"104": {
+		"award": {
+			"1": {
+				"count": 4630,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 10175,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 92600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 122100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 104,
+		"level": 84
+	},
+	"105": {
+		"award": {
+			"1": {
+				"count": 4680,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 10250,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 93600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 123000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 105,
+		"level": 85
+	},
+	"106": {
+		"award": {
+			"1": {
+				"count": 4730,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 10325,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 94600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 123900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 106,
+		"level": 86
+	},
+	"107": {
+		"award": {
+			"1": {
+				"count": 4780,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 10400,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 95600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 124800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 107,
+		"level": 87
+	},
+	"108": {
+		"award": {
+			"1": {
+				"count": 4830,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 10475,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 96600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 125700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 108,
+		"level": 87
+	},
+	"109": {
+		"award": {
+			"1": {
+				"count": 4880,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 10550,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 97600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 126600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 109,
+		"level": 88
+	},
+	"11": {
+		"award": {
+			"1": {
+				"count": 1150,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 3200,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 23000,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 38400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 11,
+		"level": 4
+	},
+	"110": {
+		"award": {
+			"1": {
+				"count": 4930,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 10625,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 98600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 127500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 110,
+		"level": 89
+	},
+	"111": {
+		"award": {
+			"1": {
+				"count": 4980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 10700,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 99600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 128400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 111,
+		"level": 90
+	},
+	"112": {
+		"award": {
+			"1": {
+				"count": 5030,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 10775,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 100600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 129300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 112,
+		"level": 91
+	},
+	"113": {
+		"award": {
+			"1": {
+				"count": 5080,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 10850,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 101600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 130200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 113,
+		"level": 92
+	},
+	"114": {
+		"award": {
+			"1": {
+				"count": 5130,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 10925,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 102600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 131100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 114,
+		"level": 93
+	},
+	"115": {
+		"award": {
+			"1": {
+				"count": 5180,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 11000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 103600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 132000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 115,
+		"level": 93
+	},
+	"116": {
+		"award": {
+			"1": {
+				"count": 5230,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 11075,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 104600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 132900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 116,
+		"level": 94
+	},
+	"117": {
+		"award": {
+			"1": {
+				"count": 5280,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 11150,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 105600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 133800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 117,
+		"level": 95
+	},
+	"118": {
+		"award": {
+			"1": {
+				"count": 5330,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 11225,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 106600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 134700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 118,
+		"level": 96
+	},
+	"119": {
+		"award": {
+			"1": {
+				"count": 5380,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 11300,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 107600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 135600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 119,
+		"level": 97
+	},
+	"12": {
+		"award": {
+			"1": {
+				"count": 1170,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 3275,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 23400,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 39300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 12,
+		"level": 5
+	},
+	"120": {
+		"award": {
+			"1": {
+				"count": 5430,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 11375,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 108600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 136500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 120,
+		"level": 98
+	},
+	"121": {
+		"award": {
+			"1": {
+				"count": 5480,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 11450,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 109600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 137400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 121,
+		"level": 99
+	},
+	"122": {
+		"award": {
+			"1": {
+				"count": 5530,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 11525,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 110600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 138300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 122,
+		"level": 99
+	},
+	"123": {
+		"award": {
+			"1": {
+				"count": 5580,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 11600,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 111600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 139200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 123,
+		"level": 100
+	},
+	"124": {
+		"award": {
+			"1": {
+				"count": 5630,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 11675,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 112600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 140100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 124,
+		"level": 101
+	},
+	"125": {
+		"award": {
+			"1": {
+				"count": 5680,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 11750,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 113600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 141000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 125,
+		"level": 102
+	},
+	"126": {
+		"award": {
+			"1": {
+				"count": 5730,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 11825,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 114600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 141900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 126,
+		"level": 103
+	},
+	"127": {
+		"award": {
+			"1": {
+				"count": 5780,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 11900,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 115600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 142800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 127,
+		"level": 104
+	},
+	"128": {
+		"award": {
+			"1": {
+				"count": 5830,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 11975,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 116600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 143700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 128,
+		"level": 105
+	},
+	"129": {
+		"award": {
+			"1": {
+				"count": 5880,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 12050,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 117600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 144600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 129,
+		"level": 105
+	},
+	"13": {
+		"award": {
+			"1": {
+				"count": 1180,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 3350,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 23600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 40200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 13,
+		"level": 6
+	},
+	"130": {
+		"award": {
+			"1": {
+				"count": 5930,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 12125,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 118600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 145500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 130,
+		"level": 106
+	},
+	"131": {
+		"award": {
+			"1": {
+				"count": 5980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 12200,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 119600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 146400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 131,
+		"level": 107
+	},
+	"132": {
+		"award": {
+			"1": {
+				"count": 6030,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 12275,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 120600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 147300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 132,
+		"level": 108
+	},
+	"133": {
+		"award": {
+			"1": {
+				"count": 6080,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 12350,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 121600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 148200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 133,
+		"level": 109
+	},
+	"134": {
+		"award": {
+			"1": {
+				"count": 6130,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 12425,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 122600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 149100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 134,
+		"level": 110
+	},
+	"135": {
+		"award": {
+			"1": {
+				"count": 6180,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 12500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 123600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 150000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 135,
+		"level": 111
+	},
+	"136": {
+		"award": {
+			"1": {
+				"count": 6230,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 12575,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 124600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 150900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 136,
+		"level": 111
+	},
+	"137": {
+		"award": {
+			"1": {
+				"count": 6280,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 12650,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 125600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 151800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 137,
+		"level": 112
+	},
+	"138": {
+		"award": {
+			"1": {
+				"count": 6330,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 12725,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 126600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 152700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 138,
+		"level": 113
+	},
+	"139": {
+		"award": {
+			"1": {
+				"count": 6380,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 12800,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 127600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 153600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 139,
+		"level": 114
+	},
+	"14": {
+		"award": {
+			"1": {
+				"count": 1200,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 3425,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 24000,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 41100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 14,
+		"level": 7
+	},
+	"140": {
+		"award": {
+			"1": {
+				"count": 6430,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 12875,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 128600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 154500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 140,
+		"level": 115
+	},
+	"141": {
+		"award": {
+			"1": {
+				"count": 6480,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 12950,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 129600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 155400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 141,
+		"level": 116
+	},
+	"142": {
+		"award": {
+			"1": {
+				"count": 6530,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 13025,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 130600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 156300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 142,
+		"level": 117
+	},
+	"143": {
+		"award": {
+			"1": {
+				"count": 6580,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 13100,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 131600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 157200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 143,
+		"level": 117
+	},
+	"144": {
+		"award": {
+			"1": {
+				"count": 6630,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 13175,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 132600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 158100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 144,
+		"level": 118
+	},
+	"145": {
+		"award": {
+			"1": {
+				"count": 6680,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 13250,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 133600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 159000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 145,
+		"level": 119
+	},
+	"146": {
+		"award": {
+			"1": {
+				"count": 6730,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 13325,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 134600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 159900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 146,
+		"level": 120
+	},
+	"147": {
+		"award": {
+			"1": {
+				"count": 6780,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 13400,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 135600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 160800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 147,
+		"level": 121
+	},
+	"148": {
+		"award": {
+			"1": {
+				"count": 6830,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 13475,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 136600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 161700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 148,
+		"level": 122
+	},
+	"149": {
+		"award": {
+			"1": {
+				"count": 6880,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 13550,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 137600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 162600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 149,
+		"level": 123
+	},
+	"15": {
+		"award": {
+			"1": {
+				"count": 1210,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 3500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 24200,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 42000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 15,
+		"level": 7
+	},
+	"150": {
+		"award": {
+			"1": {
+				"count": 6930,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 13625,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 138600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 163500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 150,
+		"level": 124
+	},
+	"151": {
+		"award": {
+			"1": {
+				"count": 6980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 13700,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 139600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 164400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 151,
+		"level": 124
+	},
+	"152": {
+		"award": {
+			"1": {
+				"count": 7030,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 13775,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 140600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 165300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 152,
+		"level": 125
+	},
+	"153": {
+		"award": {
+			"1": {
+				"count": 7080,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 13850,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 141600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 166200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 153,
+		"level": 126
+	},
+	"154": {
+		"award": {
+			"1": {
+				"count": 7130,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 13925,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 142600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 167100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 154,
+		"level": 127
+	},
+	"155": {
+		"award": {
+			"1": {
+				"count": 7180,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 14000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 143600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 168000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 155,
+		"level": 128
+	},
+	"156": {
+		"award": {
+			"1": {
+				"count": 7230,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 14075,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 144600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 168900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 156,
+		"level": 129
+	},
+	"157": {
+		"award": {
+			"1": {
+				"count": 7280,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 14150,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 145600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 169800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 157,
+		"level": 130
+	},
+	"158": {
+		"award": {
+			"1": {
+				"count": 7330,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 14225,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 146600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 170700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 158,
+		"level": 130
+	},
+	"159": {
+		"award": {
+			"1": {
+				"count": 7380,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 14300,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 147600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 171600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 159,
+		"level": 131
+	},
+	"16": {
+		"award": {
+			"1": {
+				"count": 1230,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 3575,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 24600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 42900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 16,
+		"level": 8
+	},
+	"160": {
+		"award": {
+			"1": {
+				"count": 7430,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 14375,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 148600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 172500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 160,
+		"level": 132
+	},
+	"161": {
+		"award": {
+			"1": {
+				"count": 7480,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 14450,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 149600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 173400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 161,
+		"level": 133
+	},
+	"162": {
+		"award": {
+			"1": {
+				"count": 7530,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 14525,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 150600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 174300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 162,
+		"level": 134
+	},
+	"163": {
+		"award": {
+			"1": {
+				"count": 7580,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 14600,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 151600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 175200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 163,
+		"level": 135
+	},
+	"164": {
+		"award": {
+			"1": {
+				"count": 7630,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 14675,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 152600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 176100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 164,
+		"level": 136
+	},
+	"165": {
+		"award": {
+			"1": {
+				"count": 7680,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 14750,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 153600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 177000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 165,
+		"level": 136
+	},
+	"166": {
+		"award": {
+			"1": {
+				"count": 7730,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 14825,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 154600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 177900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 166,
+		"level": 137
+	},
+	"167": {
+		"award": {
+			"1": {
+				"count": 7780,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 14900,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 155600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 178800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 167,
+		"level": 138
+	},
+	"168": {
+		"award": {
+			"1": {
+				"count": 7830,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 14975,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 156600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 179700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 168,
+		"level": 139
+	},
+	"169": {
+		"award": {
+			"1": {
+				"count": 7880,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 15050,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 157600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 180600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 169,
+		"level": 140
+	},
+	"17": {
+		"award": {
+			"1": {
+				"count": 1250,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 3650,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 25000,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 43800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 17,
+		"level": 9
+	},
+	"170": {
+		"award": {
+			"1": {
+				"count": 7930,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 15125,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 158600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 181500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 170,
+		"level": 141
+	},
+	"171": {
+		"award": {
+			"1": {
+				"count": 7980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 15200,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 159600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 182400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 171,
+		"level": 142
+	},
+	"172": {
+		"award": {
+			"1": {
+				"count": 8030,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 15275,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 160600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 183300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 172,
+		"level": 142
+	},
+	"173": {
+		"award": {
+			"1": {
+				"count": 8080,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 15350,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 161600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 184200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 173,
+		"level": 143
+	},
+	"174": {
+		"award": {
+			"1": {
+				"count": 8130,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 15425,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 162600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 185100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 174,
+		"level": 144
+	},
+	"175": {
+		"award": {
+			"1": {
+				"count": 8180,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 15500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 163600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 186000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 175,
+		"level": 145
+	},
+	"176": {
+		"award": {
+			"1": {
+				"count": 8230,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 15575,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 164600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 186900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 176,
+		"level": 146
+	},
+	"177": {
+		"award": {
+			"1": {
+				"count": 8280,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 15650,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 165600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 187800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 177,
+		"level": 147
+	},
+	"178": {
+		"award": {
+			"1": {
+				"count": 8330,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 15725,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 166600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 188700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 178,
+		"level": 148
+	},
+	"179": {
+		"award": {
+			"1": {
+				"count": 8380,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 15800,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 167600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 189600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 179,
+		"level": 148
+	},
+	"18": {
+		"award": {
+			"1": {
+				"count": 1270,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 3725,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 25400,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 44700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 18,
+		"level": 10
+	},
+	"180": {
+		"award": {
+			"1": {
+				"count": 8430,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 15875,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 168600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 190500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 180,
+		"level": 149
+	},
+	"181": {
+		"award": {
+			"1": {
+				"count": 8480,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 15950,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 169600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 191400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 181,
+		"level": 150
+	},
+	"182": {
+		"award": {
+			"1": {
+				"count": 8530,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 16025,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 170600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 192300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 182,
+		"level": 151
+	},
+	"183": {
+		"award": {
+			"1": {
+				"count": 8580,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 16100,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 171600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 193200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 183,
+		"level": 152
+	},
+	"184": {
+		"award": {
+			"1": {
+				"count": 8630,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 16175,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 172600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 194100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 184,
+		"level": 153
+	},
+	"185": {
+		"award": {
+			"1": {
+				"count": 8680,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 16250,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 173600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 195000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 185,
+		"level": 154
+	},
+	"186": {
+		"award": {
+			"1": {
+				"count": 8730,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 16325,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 174600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 195900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 186,
+		"level": 154
+	},
+	"187": {
+		"award": {
+			"1": {
+				"count": 8780,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 16400,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 175600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 196800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 187,
+		"level": 155
+	},
+	"188": {
+		"award": {
+			"1": {
+				"count": 8830,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 16475,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 176600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 197700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 188,
+		"level": 156
+	},
+	"189": {
+		"award": {
+			"1": {
+				"count": 8880,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 16550,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 177600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 198600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 189,
+		"level": 157
+	},
+	"19": {
+		"award": {
+			"1": {
+				"count": 1290,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 3800,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 25800,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 45600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 19,
+		"level": 11
+	},
+	"190": {
+		"award": {
+			"1": {
+				"count": 8930,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 16625,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 178600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 199500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 190,
+		"level": 158
+	},
+	"191": {
+		"award": {
+			"1": {
+				"count": 8980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 16700,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 179600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 200400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 191,
+		"level": 159
+	},
+	"192": {
+		"award": {
+			"1": {
+				"count": 9030,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 16775,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 180600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 201300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 192,
+		"level": 160
+	},
+	"193": {
+		"award": {
+			"1": {
+				"count": 9080,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 16850,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 181600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 202200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 193,
+		"level": 160
+	},
+	"194": {
+		"award": {
+			"1": {
+				"count": 9130,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 16925,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 182600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 203100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 194,
+		"level": 161
+	},
+	"195": {
+		"award": {
+			"1": {
+				"count": 9180,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 17000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 183600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 204000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 195,
+		"level": 162
+	},
+	"196": {
+		"award": {
+			"1": {
+				"count": 9230,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 17075,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 184600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 204900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 196,
+		"level": 163
+	},
+	"197": {
+		"award": {
+			"1": {
+				"count": 9280,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 17150,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 185600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 205800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 197,
+		"level": 164
+	},
+	"198": {
+		"award": {
+			"1": {
+				"count": 9330,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 17225,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 186600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 206700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 198,
+		"level": 165
+	},
+	"199": {
+		"award": {
+			"1": {
+				"count": 9380,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 17300,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 187600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 207600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 199,
+		"level": 166
+	},
+	"2": {
+		"award": {
+			"1": {
+				"count": 1020,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 2550,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 20400,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 30600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 2,
+		"level": 1
+	},
+	"20": {
+		"award": {
+			"1": {
+				"count": 1310,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 3875,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 26200,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 46500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 20,
+		"level": 12
+	},
+	"200": {
+		"award": {
+			"1": {
+				"count": 9430,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 17375,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 188600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 208500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 200,
+		"level": 167
+	},
+	"201": {
+		"award": {
+			"1": {
+				"count": 9480,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 17450,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 189600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 209400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 201,
+		"level": 167
+	},
+	"202": {
+		"award": {
+			"1": {
+				"count": 9530,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 17525,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 190600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 210300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 202,
+		"level": 168
+	},
+	"203": {
+		"award": {
+			"1": {
+				"count": 9580,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 17600,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 191600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 211200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 203,
+		"level": 169
+	},
+	"204": {
+		"award": {
+			"1": {
+				"count": 9630,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 17675,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 192600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 212100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 204,
+		"level": 170
+	},
+	"205": {
+		"award": {
+			"1": {
+				"count": 9680,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 17750,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 193600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 213000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 205,
+		"level": 171
+	},
+	"206": {
+		"award": {
+			"1": {
+				"count": 9730,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 17825,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 194600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 213900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 206,
+		"level": 172
+	},
+	"207": {
+		"award": {
+			"1": {
+				"count": 9780,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 17900,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 195600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 214800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 207,
+		"level": 173
+	},
+	"208": {
+		"award": {
+			"1": {
+				"count": 9830,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 17975,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 196600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 215700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 208,
+		"level": 173
+	},
+	"209": {
+		"award": {
+			"1": {
+				"count": 9880,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 18050,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 197600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 216600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 209,
+		"level": 174
+	},
+	"21": {
+		"award": {
+			"1": {
+				"count": 1330,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 3950,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 26600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 47400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 21,
+		"level": 13
+	},
+	"210": {
+		"award": {
+			"1": {
+				"count": 9930,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 18125,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 198600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 217500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 210,
+		"level": 175
+	},
+	"211": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 18200,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 218400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 211,
+		"level": 176
+	},
+	"212": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 18275,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 219300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 212,
+		"level": 177
+	},
+	"213": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 18350,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 220200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 213,
+		"level": 178
+	},
+	"214": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 18425,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 221100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 214,
+		"level": 179
+	},
+	"215": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 18500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 222000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 215,
+		"level": 179
+	},
+	"216": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 18575,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 222900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 216,
+		"level": 180
+	},
+	"217": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 18650,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 223800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 217,
+		"level": 181
+	},
+	"218": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 18725,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 224700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 218,
+		"level": 182
+	},
+	"219": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 18800,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 225600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 219,
+		"level": 183
+	},
+	"22": {
+		"award": {
+			"1": {
+				"count": 1350,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 4025,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 27000,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 48300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 22,
+		"level": 13
+	},
+	"220": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 18875,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 226500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 220,
+		"level": 184
+	},
+	"221": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 18950,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 227400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 221,
+		"level": 185
+	},
+	"222": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 19025,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 228300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 222,
+		"level": 185
+	},
+	"223": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 19100,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 229200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 223,
+		"level": 186
+	},
+	"224": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 19175,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 230100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 224,
+		"level": 187
+	},
+	"225": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 19250,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 231000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 225,
+		"level": 188
+	},
+	"226": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 19325,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 231900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 226,
+		"level": 189
+	},
+	"227": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 19400,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 232800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 227,
+		"level": 190
+	},
+	"228": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 19475,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 233700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 228,
+		"level": 191
+	},
+	"229": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 19550,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 234600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 229,
+		"level": 191
+	},
+	"23": {
+		"award": {
+			"1": {
+				"count": 1370,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 4100,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 27400,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 49200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 23,
+		"level": 14
+	},
+	"230": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 19625,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 235500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 230,
+		"level": 192
+	},
+	"231": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 19700,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 236400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 231,
+		"level": 193
+	},
+	"232": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 19775,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 237300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 232,
+		"level": 194
+	},
+	"233": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 19850,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 238200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 233,
+		"level": 195
+	},
+	"234": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 19925,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 239100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 234,
+		"level": 196
+	},
+	"235": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 20000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 240000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 235,
+		"level": 197
+	},
+	"236": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 20075,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 240900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 236,
+		"level": 197
+	},
+	"237": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 20150,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 241800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 237,
+		"level": 198
+	},
+	"238": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 20225,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 242700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 238,
+		"level": 199
+	},
+	"239": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 20300,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 243600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 239,
+		"level": 200
+	},
+	"24": {
+		"award": {
+			"1": {
+				"count": 1390,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 4175,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 27800,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 50100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 24,
+		"level": 15
+	},
+	"240": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 20375,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 244500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 240,
+		"level": 201
+	},
+	"241": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 20450,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 245400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 241,
+		"level": 202
+	},
+	"242": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 20525,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 246300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 242,
+		"level": 203
+	},
+	"243": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 20600,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 247200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 243,
+		"level": 203
+	},
+	"244": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 20675,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 248100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 244,
+		"level": 204
+	},
+	"245": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 20750,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 249000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 245,
+		"level": 205
+	},
+	"246": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 20825,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 249900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 246,
+		"level": 206
+	},
+	"247": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 20900,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 250800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 247,
+		"level": 207
+	},
+	"248": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 20975,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 251700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 248,
+		"level": 208
+	},
+	"249": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 21050,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 252600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 249,
+		"level": 209
+	},
+	"25": {
+		"award": {
+			"1": {
+				"count": 1410,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 4250,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 28200,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 51000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 25,
+		"level": 16
+	},
+	"250": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 21125,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 253500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 250,
+		"level": 210
+	},
+	"251": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 21200,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 254400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 251,
+		"level": 210
+	},
+	"252": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 21275,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 255300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 252,
+		"level": 211
+	},
+	"253": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 21350,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 256200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 253,
+		"level": 212
+	},
+	"254": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 21425,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 257100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 254,
+		"level": 213
+	},
+	"255": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 21500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 258000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 255,
+		"level": 214
+	},
+	"256": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 21575,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 258900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 256,
+		"level": 215
+	},
+	"257": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 21650,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 259800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 257,
+		"level": 216
+	},
+	"258": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 21725,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 260700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 258,
+		"level": 216
+	},
+	"259": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 21800,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 261600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 259,
+		"level": 217
+	},
+	"26": {
+		"award": {
+			"1": {
+				"count": 1430,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 4325,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 28600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 51900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 26,
+		"level": 17
+	},
+	"260": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 21875,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 262500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 260,
+		"level": 218
+	},
+	"261": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 21950,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 263400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 261,
+		"level": 219
+	},
+	"262": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 22025,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 264300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 262,
+		"level": 220
+	},
+	"263": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 22100,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 265200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 263,
+		"level": 221
+	},
+	"264": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 22175,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 266100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 264,
+		"level": 222
+	},
+	"265": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 22250,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 267000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 265,
+		"level": 222
+	},
+	"266": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 22325,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 267900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 266,
+		"level": 223
+	},
+	"267": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 22400,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 268800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 267,
+		"level": 224
+	},
+	"268": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 22475,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 269700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 268,
+		"level": 225
+	},
+	"269": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 22550,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 270600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 269,
+		"level": 226
+	},
+	"27": {
+		"award": {
+			"1": {
+				"count": 1450,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 4400,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 29000,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 52800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 27,
+		"level": 18
+	},
+	"270": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 22625,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 271500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 270,
+		"level": 227
+	},
+	"271": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 22700,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 272400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 271,
+		"level": 228
+	},
+	"272": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 22775,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 273300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 272,
+		"level": 228
+	},
+	"273": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 22850,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 274200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 273,
+		"level": 229
+	},
+	"274": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 22925,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 275100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 274,
+		"level": 230
+	},
+	"275": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 23000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 276000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 275,
+		"level": 231
+	},
+	"276": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 23075,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 276900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 276,
+		"level": 232
+	},
+	"277": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 23150,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 277800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 277,
+		"level": 233
+	},
+	"278": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 23225,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 278700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 278,
+		"level": 234
+	},
+	"279": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 23300,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 279600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 279,
+		"level": 234
+	},
+	"28": {
+		"award": {
+			"1": {
+				"count": 1470,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 4475,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 29400,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 53700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 28,
+		"level": 19
+	},
+	"280": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 23375,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 280500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 280,
+		"level": 235
+	},
+	"281": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 23450,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 281400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 281,
+		"level": 236
+	},
+	"282": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 23525,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 282300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 282,
+		"level": 237
+	},
+	"283": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 23600,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 283200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 283,
+		"level": 238
+	},
+	"284": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 23675,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 284100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 284,
+		"level": 239
+	},
+	"285": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 23750,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 285000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 285,
+		"level": 240
+	},
+	"286": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 23825,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 285900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 286,
+		"level": 240
+	},
+	"287": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 23900,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 286800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 287,
+		"level": 241
+	},
+	"288": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 23975,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 287700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 288,
+		"level": 242
+	},
+	"289": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 24050,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 288600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 289,
+		"level": 243
+	},
+	"29": {
+		"award": {
+			"1": {
+				"count": 1490,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 4550,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 29800,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 54600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 29,
+		"level": 19
+	},
+	"290": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 24125,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 289500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 290,
+		"level": 244
+	},
+	"291": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 24200,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 290400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 291,
+		"level": 245
+	},
+	"292": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 24275,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 291300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 292,
+		"level": 246
+	},
+	"293": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 24350,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 292200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 293,
+		"level": 246
+	},
+	"294": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 24425,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 293100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 294,
+		"level": 247
+	},
+	"295": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 24500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 294000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 295,
+		"level": 248
+	},
+	"296": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 24575,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 294900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 296,
+		"level": 249
+	},
+	"297": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 24650,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 295800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 297,
+		"level": 250
+	},
+	"298": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 24725,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 296700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 298,
+		"level": 251
+	},
+	"299": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 24800,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 297600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 299,
+		"level": 252
+	},
+	"3": {
+		"award": {
+			"1": {
+				"count": 1030,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 2600,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 20600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 31200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 3,
+		"level": 1
+	},
+	"30": {
+		"award": {
+			"1": {
+				"count": 1510,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 4625,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 30200,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 55500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 30,
+		"level": 20
+	},
+	"300": {
+		"award": {
+			"1": {
+				"count": 9980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 24875,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 199600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 298500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 300,
+		"level": 253
+	},
+	"31": {
+		"award": {
+			"1": {
+				"count": 1530,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 4700,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 30600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 56400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 31,
+		"level": 21
+	},
+	"32": {
+		"award": {
+			"1": {
+				"count": 1550,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 4775,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 31000,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 57300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 32,
+		"level": 22
+	},
+	"33": {
+		"award": {
+			"1": {
+				"count": 1570,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 4850,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 31400,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 58200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 33,
+		"level": 23
+	},
+	"34": {
+		"award": {
+			"1": {
+				"count": 1590,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 4925,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 31800,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 59100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 34,
+		"level": 24
+	},
+	"35": {
+		"award": {
+			"1": {
+				"count": 1610,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 5000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 32200,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 60000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 35,
+		"level": 25
+	},
+	"36": {
+		"award": {
+			"1": {
+				"count": 1630,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 5075,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 32600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 60900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 36,
+		"level": 25
+	},
+	"37": {
+		"award": {
+			"1": {
+				"count": 1650,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 5150,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 33000,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 61800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 37,
+		"level": 26
+	},
+	"38": {
+		"award": {
+			"1": {
+				"count": 1670,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 5225,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 33400,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 62700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 38,
+		"level": 27
+	},
+	"39": {
+		"award": {
+			"1": {
+				"count": 1690,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 5300,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 33800,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 63600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 39,
+		"level": 28
+	},
+	"4": {
+		"award": {
+			"1": {
+				"count": 1050,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 2675,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 21000,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 32100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 4,
+		"level": 1
+	},
+	"40": {
+		"award": {
+			"1": {
+				"count": 1710,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 5375,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 34200,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 64500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 40,
+		"level": 29
+	},
+	"41": {
+		"award": {
+			"1": {
+				"count": 1740,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 5450,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 34800,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 65400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 41,
+		"level": 30
+	},
+	"42": {
+		"award": {
+			"1": {
+				"count": 1770,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 5525,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 35400,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 66300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 42,
+		"level": 31
+	},
+	"43": {
+		"award": {
+			"1": {
+				"count": 1800,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 5600,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 36000,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 67200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 43,
+		"level": 31
+	},
+	"44": {
+		"award": {
+			"1": {
+				"count": 1830,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 5675,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 36600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 68100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 44,
+		"level": 32
+	},
+	"45": {
+		"award": {
+			"1": {
+				"count": 1860,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 5750,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 37200,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 69000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 45,
+		"level": 33
+	},
+	"46": {
+		"award": {
+			"1": {
+				"count": 1890,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 5825,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 37800,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 69900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 46,
+		"level": 34
+	},
+	"47": {
+		"award": {
+			"1": {
+				"count": 1920,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 5900,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 38400,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 70800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 47,
+		"level": 35
+	},
+	"48": {
+		"award": {
+			"1": {
+				"count": 1950,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 5975,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 39000,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 71700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 48,
+		"level": 36
+	},
+	"49": {
+		"award": {
+			"1": {
+				"count": 1980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 6050,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 39600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 72600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 49,
+		"level": 37
+	},
+	"5": {
+		"award": {
+			"1": {
+				"count": 1060,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 2750,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 21200,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 33000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 5,
+		"level": 1
+	},
+	"50": {
+		"award": {
+			"1": {
+				"count": 2020,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 6125,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 40400,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 73500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 50,
+		"level": 38
+	},
+	"51": {
+		"award": {
+			"1": {
+				"count": 2060,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 6200,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 41200,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 74400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 51,
+		"level": 38
+	},
+	"52": {
+		"award": {
+			"1": {
+				"count": 2100,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 6275,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 42000,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 75300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 52,
+		"level": 39
+	},
+	"53": {
+		"award": {
+			"1": {
+				"count": 2140,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 6350,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 42800,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 76200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 53,
+		"level": 40
+	},
+	"54": {
+		"award": {
+			"1": {
+				"count": 2180,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 6425,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 43600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 77100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 54,
+		"level": 41
+	},
+	"55": {
+		"award": {
+			"1": {
+				"count": 2220,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 6500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 44400,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 78000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 55,
+		"level": 42
+	},
+	"56": {
+		"award": {
+			"1": {
+				"count": 2260,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 6575,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 45200,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 78900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 56,
+		"level": 43
+	},
+	"57": {
+		"award": {
+			"1": {
+				"count": 2300,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 6650,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 46000,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 79800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 57,
+		"level": 44
+	},
+	"58": {
+		"award": {
+			"1": {
+				"count": 2340,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 6725,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 46800,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 80700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 58,
+		"level": 44
+	},
+	"59": {
+		"award": {
+			"1": {
+				"count": 2380,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 6800,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 47600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 81600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 59,
+		"level": 45
+	},
+	"6": {
+		"award": {
+			"1": {
+				"count": 1080,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 2825,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 21600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 33900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 6,
+		"level": 1
+	},
+	"60": {
+		"award": {
+			"1": {
+				"count": 2430,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 6875,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 48600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 82500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 60,
+		"level": 46
+	},
+	"61": {
+		"award": {
+			"1": {
+				"count": 2480,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 6950,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 49600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 83400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 61,
+		"level": 47
+	},
+	"62": {
+		"award": {
+			"1": {
+				"count": 2530,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 7025,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 50600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 84300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 62,
+		"level": 48
+	},
+	"63": {
+		"award": {
+			"1": {
+				"count": 2580,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 7100,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 51600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 85200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 63,
+		"level": 49
+	},
+	"64": {
+		"award": {
+			"1": {
+				"count": 2630,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 7175,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 52600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 86100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 64,
+		"level": 50
+	},
+	"65": {
+		"award": {
+			"1": {
+				"count": 2680,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 7250,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 53600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 87000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 65,
+		"level": 50
+	},
+	"66": {
+		"award": {
+			"1": {
+				"count": 2730,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 7325,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 54600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 87900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 66,
+		"level": 51
+	},
+	"67": {
+		"award": {
+			"1": {
+				"count": 2780,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 7400,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 55600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 88800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 67,
+		"level": 52
+	},
+	"68": {
+		"award": {
+			"1": {
+				"count": 2830,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 7475,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 56600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 89700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 68,
+		"level": 53
+	},
+	"69": {
+		"award": {
+			"1": {
+				"count": 2880,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 7550,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 57600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 90600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 69,
+		"level": 54
+	},
+	"7": {
+		"award": {
+			"1": {
+				"count": 1090,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 2900,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 21800,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 34800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 7,
+		"level": 1
+	},
+	"70": {
+		"award": {
+			"1": {
+				"count": 2930,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 7625,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 58600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 91500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 70,
+		"level": 55
+	},
+	"71": {
+		"award": {
+			"1": {
+				"count": 2980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 7700,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 59600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 92400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 71,
+		"level": 56
+	},
+	"72": {
+		"award": {
+			"1": {
+				"count": 3030,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 7775,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 60600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 93300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 72,
+		"level": 56
+	},
+	"73": {
+		"award": {
+			"1": {
+				"count": 3080,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 7850,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 61600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 94200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 73,
+		"level": 57
+	},
+	"74": {
+		"award": {
+			"1": {
+				"count": 3130,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 7925,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 62600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 95100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 74,
+		"level": 58
+	},
+	"75": {
+		"award": {
+			"1": {
+				"count": 3180,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 8000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 63600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 96000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 75,
+		"level": 59
+	},
+	"76": {
+		"award": {
+			"1": {
+				"count": 3230,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 8075,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 64600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 96900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 76,
+		"level": 60
+	},
+	"77": {
+		"award": {
+			"1": {
+				"count": 3280,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 8150,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 65600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 97800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 77,
+		"level": 61
+	},
+	"78": {
+		"award": {
+			"1": {
+				"count": 3330,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 8225,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 66600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 98700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 78,
+		"level": 62
+	},
+	"79": {
+		"award": {
+			"1": {
+				"count": 3380,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 8300,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 67600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 99600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 79,
+		"level": 62
+	},
+	"8": {
+		"award": {
+			"1": {
+				"count": 1110,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 2975,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 22200,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 35700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 8,
+		"level": 1
+	},
+	"80": {
+		"award": {
+			"1": {
+				"count": 3430,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 8375,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 68600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 100500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 80,
+		"level": 63
+	},
+	"81": {
+		"award": {
+			"1": {
+				"count": 3480,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 8450,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 69600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 101400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 81,
+		"level": 64
+	},
+	"82": {
+		"award": {
+			"1": {
+				"count": 3530,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 8525,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 70600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 102300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 82,
+		"level": 65
+	},
+	"83": {
+		"award": {
+			"1": {
+				"count": 3580,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 8600,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 71600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 103200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 83,
+		"level": 66
+	},
+	"84": {
+		"award": {
+			"1": {
+				"count": 3630,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 8675,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 72600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 104100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 84,
+		"level": 67
+	},
+	"85": {
+		"award": {
+			"1": {
+				"count": 3680,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 8750,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 73600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 105000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 85,
+		"level": 68
+	},
+	"86": {
+		"award": {
+			"1": {
+				"count": 3730,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 8825,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 74600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 105900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 86,
+		"level": 68
+	},
+	"87": {
+		"award": {
+			"1": {
+				"count": 3780,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 8900,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 75600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 106800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 87,
+		"level": 69
+	},
+	"88": {
+		"award": {
+			"1": {
+				"count": 3830,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 8975,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 76600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 107700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 88,
+		"level": 70
+	},
+	"89": {
+		"award": {
+			"1": {
+				"count": 3880,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 9050,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 77600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 108600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 89,
+		"level": 71
+	},
+	"9": {
+		"award": {
+			"1": {
+				"count": 1120,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 3050,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 22400,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 36600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 9,
+		"level": 2
+	},
+	"90": {
+		"award": {
+			"1": {
+				"count": 3930,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 9125,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 78600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 109500,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 90,
+		"level": 72
+	},
+	"91": {
+		"award": {
+			"1": {
+				"count": 3980,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 9200,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 79600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 110400,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 91,
+		"level": 73
+	},
+	"92": {
+		"award": {
+			"1": {
+				"count": 4030,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 9275,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 80600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 111300,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 92,
+		"level": 74
+	},
+	"93": {
+		"award": {
+			"1": {
+				"count": 4080,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 9350,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 81600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 112200,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 93,
+		"level": 74
+	},
+	"94": {
+		"award": {
+			"1": {
+				"count": 4130,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 9425,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 82600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 113100,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 94,
+		"level": 75
+	},
+	"95": {
+		"award": {
+			"1": {
+				"count": 4180,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 9500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 83600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 114000,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 95,
+		"level": 76
+	},
+	"96": {
+		"award": {
+			"1": {
+				"count": 4230,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 9575,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 84600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 114900,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 96,
+		"level": 77
+	},
+	"97": {
+		"award": {
+			"1": {
+				"count": 4280,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 9650,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 85600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 115800,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 97,
+		"level": 78
+	},
+	"98": {
+		"award": {
+			"1": {
+				"count": 4330,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 9725,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 86600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 116700,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 98,
+		"level": 79
+	},
+	"99": {
+		"award": {
+			"1": {
+				"count": 4380,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 9800,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"extraAward": {
+			"1": {
+				"count": 87600,
+				"id": 4,
+				"type": 1
+			},
+			"2": {
+				"count": 117600,
+				"id": 1,
+				"type": 1
+			},
+			"3": {
+				"count": 1000,
+				"id": 2,
+				"type": 1
+			}
+		},
+		"formation": 1,
+		"id": 99,
+		"level": 80
+	}
+}

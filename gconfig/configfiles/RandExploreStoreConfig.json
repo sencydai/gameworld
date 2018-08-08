@@ -1,0 +1,137 @@
+{
+	"1": {
+		"discount": {
+			"1": {
+				"discount": 50,
+				"weight": 100
+			}
+		},
+		"floor": 1,
+		"id": 1,
+		"items": {
+			"1": {
+				"costCount": 50,
+				"costId": 3,
+				"count": 1,
+				"id": 3012,
+				"level": 1,
+				"weight": 200
+			},
+			"2": {
+				"costCount": 50,
+				"costId": 3,
+				"count": 50,
+				"id": 2003,
+				"level": 1,
+				"weight": 100
+			},
+			"3": {
+				"costCount": 30,
+				"costId": 3,
+				"count": 50,
+				"id": 2005,
+				"level": 1,
+				"weight": 100
+			},
+			"4": {
+				"costCount": 30,
+				"costId": 3,
+				"count": 50,
+				"id": 2006,
+				"level": 1,
+				"weight": 100
+			}
+		},
+		"upper": 1000
+	},
+	"2": {
+		"discount": {
+			"1": {
+				"discount": 50,
+				"weight": 100
+			}
+		},
+		"floor": 1001,
+		"id": 2,
+		"items": {
+			"1": {
+				"costCount": 50,
+				"costId": 3,
+				"count": 1,
+				"id": 3012,
+				"level": 1,
+				"weight": 200
+			},
+			"2": {
+				"costCount": 50,
+				"costId": 3,
+				"count": 50,
+				"id": 2003,
+				"level": 1,
+				"weight": 100
+			},
+			"3": {
+				"costCount": 30,
+				"costId": 3,
+				"count": 50,
+				"id": 2005,
+				"level": 1,
+				"weight": 100
+			},
+			"4": {
+				"costCount": 30,
+				"costId": 3,
+				"count": 50,
+				"id": 2006,
+				"level": 1,
+				"weight": 100
+			}
+		},
+		"upper": 2000
+	},
+	"3": {
+		"discount": {
+			"1": {
+				"discount": 50,
+				"weight": 100
+			}
+		},
+		"floor": 2001,
+		"id": 3,
+		"items": {
+			"1": {
+				"costCount": 50,
+				"costId": 3,
+				"count": 1,
+				"id": 3012,
+				"level": 1,
+				"weight": 200
+			},
+			"2": {
+				"costCount": 50,
+				"costId": 3,
+				"count": 50,
+				"id": 2003,
+				"level": 1,
+				"weight": 100
+			},
+			"3": {
+				"costCount": 30,
+				"costId": 3,
+				"count": 50,
+				"id": 2005,
+				"level": 1,
+				"weight": 100
+			},
+			"4": {
+				"costCount": 30,
+				"costId": 3,
+				"count": 50,
+				"id": 2006,
+				"level": 1,
+				"weight": 100
+			}
+		},
+		"upper": 999999
+	}
+}

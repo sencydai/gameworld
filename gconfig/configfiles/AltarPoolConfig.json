@@ -1,0 +1,41 @@
+{
+	"1": {
+		"awards": {
+			"count": 1,
+			"id": 2000
+		},
+		"currencyType": 2,
+		"floorDist": {
+			"1": 4,
+			"2": 1,
+			"3": 2,
+			"4": 3
+		},
+		"floorType": 1,
+		"freeCount": 5,
+		"id": 1,
+		"onePrice": 50,
+		"tenPrice": 450,
+		"timeType": 0
+	},
+	"2": {
+		"awards": {
+			"count": 1,
+			"id": 2003
+		},
+		"currencyType": 3,
+		"floorDist": {
+			"1": 4,
+			"2": 3,
+			"3": 1,
+			"4": 1
+		},
+		"floorType": 2,
+		"freeCount": 1,
+		"id": 2,
+		"onePrice": 100,
+		"payCount": 50,
+		"tenPrice": 900,
+		"timeType": 0
+	}
+}

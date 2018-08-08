@@ -10,8 +10,9 @@ import (
 
 type gameStartHandle func()
 type gameCloseHandle func()
-type configLoadFinishHandle func()
+type configLoadFinishHandle func(bool)
 type systemNewDayHandle func()
+type systemTimeChangeHandle func()
 
 type gmHandle func(map[string]string) (int, string)
 
@@ -23,12 +24,14 @@ type actorLogoutHandle func(*t.Actor)
 type actorNewDayHandle func(*t.Actor)
 type actorMinTimerHandle func(*t.Actor, int)
 type actorUpgradeHandle func(*t.Actor, int)
+type actorTimeChangeHandle func(*t.Actor)
 
 var (
-	gameStartHandles    = make([]gameStartHandle, 0)
-	gameCloseHandles    = make([]gameCloseHandle, 0)
-	configLoadHandles   = make([]configLoadFinishHandle, 0)
-	systemNewDayHandles = make([]systemNewDayHandle, 0)
+	gameStartHandles        = make([]gameStartHandle, 0)
+	gameCloseHandles        = make([]gameCloseHandle, 0)
+	configLoadHandles       = make([]configLoadFinishHandle, 0)
+	systemNewDayHandles     = make([]systemNewDayHandle, 0)
+	systemTimeChangeHandles = make([]systemTimeChangeHandle, 0)
 
 	gmHandles = make(map[string]gmHandle)
 
@@ -50,12 +53,16 @@ func RegGameClose(handle func()) {
 	gameCloseHandles = append(gameCloseHandles, handle)
 }
 
-func RegConfigLoadFinish(handle func()) {
+func RegConfigLoadFinish(handle func(isGameStart bool)) {
 	configLoadHandles = append(configLoadHandles, handle)
 }
 
 func RegSystemNewDay(handle func()) {
 	systemNewDayHandles = append(systemNewDayHandles, handle)
+}
+
+func RegSystemTimeChange(handle func()) {
+	systemTimeChangeHandles = append(systemTimeChangeHandles, handle)
 }
 
 func RegGm(cmd string, handle func(values map[string]string) (int, string)) {
@@ -110,14 +117,20 @@ func OnGameClose() {
 	}
 }
 
-func OnConfigReloadFinish() {
+func OnConfigReloadFinish(isGameStart bool) {
 	for _, handle := range configLoadHandles {
-		handle()
+		handle(isGameStart)
 	}
 }
 
 func OnSystemNewDay() {
 	for _, handle := range systemNewDayHandles {
+		handle()
+	}
+}
+
+func OnSystemTimeChange() {
+	for _, handle := range systemTimeChangeHandles {
 		handle()
 	}
 }

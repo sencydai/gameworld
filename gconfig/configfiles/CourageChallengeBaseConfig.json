@@ -1,0 +1,17 @@
+{
+	"count": 2,
+	"levelAttrConsume": {
+		"1": 3,
+		"2": 20,
+		"3": 40
+	},
+	"randAwardWeight": {
+		"1": 100,
+		"2": 100,
+		"3": 100
+	},
+	"rankNum": 50,
+	"relive": 2,
+	"taskHeroNum": 0,
+	"taskHpLeft": 5000
+}

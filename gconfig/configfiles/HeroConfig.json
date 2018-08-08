@@ -1,0 +1,6654 @@
+{
+	"100000": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100000",
+		"id": 100000,
+		"jobLevel": 0,
+		"model": 100000,
+		"powerRatio": 10000,
+		"rawHero": 100000,
+		"skills": {
+			"1": 12007
+		}
+	},
+	"100010": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100000",
+		"id": 100010,
+		"jobLevel": 1,
+		"model": 100000,
+		"powerRatio": 11000,
+		"rawHero": 100000,
+		"skills": {
+			"1": 12007
+		}
+	},
+	"100020": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100000",
+		"id": 100020,
+		"jobLevel": 2,
+		"model": 100000,
+		"powerRatio": 12000,
+		"rawHero": 100000,
+		"skills": {
+			"1": 12007
+		}
+	},
+	"100021": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100000",
+		"id": 100021,
+		"jobLevel": 2,
+		"model": 100000,
+		"powerRatio": 12000,
+		"rawHero": 100000,
+		"skills": {
+			"1": 12007
+		}
+	},
+	"100030": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100000",
+		"id": 100030,
+		"jobLevel": 3,
+		"model": 100000,
+		"powerRatio": 13000,
+		"rawHero": 100000,
+		"skills": {
+			"1": 12007
+		}
+	},
+	"100031": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100000",
+		"id": 100031,
+		"jobLevel": 3,
+		"model": 100000,
+		"powerRatio": 13000,
+		"rawHero": 100000,
+		"skills": {
+			"1": 12007
+		}
+	},
+	"100040": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100000",
+		"id": 100040,
+		"jobLevel": 4,
+		"model": 100000,
+		"powerRatio": 14000,
+		"rawHero": 100000,
+		"skills": {
+			"1": 12007
+		}
+	},
+	"100041": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100000",
+		"id": 100041,
+		"jobLevel": 4,
+		"model": 100000,
+		"powerRatio": 14000,
+		"rawHero": 100000,
+		"skills": {
+			"1": 12007
+		}
+	},
+	"100042": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100000",
+		"id": 100042,
+		"jobLevel": 4,
+		"model": 100000,
+		"powerRatio": 14000,
+		"rawHero": 100000,
+		"skills": {
+			"1": 12007
+		}
+	},
+	"100050": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100000",
+		"id": 100050,
+		"jobLevel": 5,
+		"model": 100000,
+		"powerRatio": 15000,
+		"rawHero": 100000,
+		"skills": {
+			"1": 12007
+		}
+	},
+	"100051": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100000",
+		"id": 100051,
+		"jobLevel": 5,
+		"model": 100000,
+		"powerRatio": 15000,
+		"rawHero": 100000,
+		"skills": {
+			"1": 12007
+		}
+	},
+	"100052": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100000",
+		"id": 100052,
+		"jobLevel": 5,
+		"model": 100000,
+		"powerRatio": 15000,
+		"rawHero": 100000,
+		"skills": {
+			"1": 12007
+		}
+	},
+	"100100": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 100100,
+		"jobLevel": 0,
+		"model": 100100,
+		"powerRatio": 10000,
+		"rawHero": 100100,
+		"skills": {
+			"1": 12008
+		}
+	},
+	"100110": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 100110,
+		"jobLevel": 1,
+		"model": 100100,
+		"powerRatio": 11000,
+		"rawHero": 100100,
+		"skills": {
+			"1": 12008
+		}
+	},
+	"100120": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 100120,
+		"jobLevel": 2,
+		"model": 100100,
+		"powerRatio": 12000,
+		"rawHero": 100100,
+		"skills": {
+			"1": 12008
+		}
+	},
+	"100121": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 100121,
+		"jobLevel": 2,
+		"model": 100100,
+		"powerRatio": 12000,
+		"rawHero": 100100,
+		"skills": {
+			"1": 12008
+		}
+	},
+	"100130": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 100130,
+		"jobLevel": 3,
+		"model": 100100,
+		"powerRatio": 13000,
+		"rawHero": 100100,
+		"skills": {
+			"1": 12008
+		}
+	},
+	"100131": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 100131,
+		"jobLevel": 3,
+		"model": 100100,
+		"powerRatio": 13000,
+		"rawHero": 100100,
+		"skills": {
+			"1": 12008
+		}
+	},
+	"100140": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 100140,
+		"jobLevel": 4,
+		"model": 100100,
+		"powerRatio": 14000,
+		"rawHero": 100100,
+		"skills": {
+			"1": 12008
+		}
+	},
+	"100141": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 100141,
+		"jobLevel": 4,
+		"model": 100100,
+		"powerRatio": 14000,
+		"rawHero": 100100,
+		"skills": {
+			"1": 12008
+		}
+	},
+	"100142": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 100142,
+		"jobLevel": 4,
+		"model": 100100,
+		"powerRatio": 14000,
+		"rawHero": 100100,
+		"skills": {
+			"1": 12008
+		}
+	},
+	"100150": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 100150,
+		"jobLevel": 5,
+		"model": 100100,
+		"powerRatio": 15000,
+		"rawHero": 100100,
+		"skills": {
+			"1": 12008
+		}
+	},
+	"100151": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 100151,
+		"jobLevel": 5,
+		"model": 100100,
+		"powerRatio": 15000,
+		"rawHero": 100100,
+		"skills": {
+			"1": 12008
+		}
+	},
+	"100152": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 100152,
+		"jobLevel": 5,
+		"model": 100100,
+		"powerRatio": 15000,
+		"rawHero": 100100,
+		"skills": {
+			"1": 12008
+		}
+	},
+	"100200": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100200",
+		"id": 100200,
+		"jobLevel": 0,
+		"model": 100200,
+		"powerRatio": 10000,
+		"rawHero": 100200
+	},
+	"100210": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100200",
+		"id": 100210,
+		"jobLevel": 1,
+		"model": 100200,
+		"powerRatio": 11000,
+		"rawHero": 100200
+	},
+	"100220": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100200",
+		"id": 100220,
+		"jobLevel": 2,
+		"model": 100200,
+		"powerRatio": 12000,
+		"rawHero": 100200
+	},
+	"100221": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100200",
+		"id": 100221,
+		"jobLevel": 2,
+		"model": 100200,
+		"powerRatio": 12000,
+		"rawHero": 100200
+	},
+	"100230": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100200",
+		"id": 100230,
+		"jobLevel": 3,
+		"model": 100200,
+		"powerRatio": 13000,
+		"rawHero": 100200
+	},
+	"100231": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100200",
+		"id": 100231,
+		"jobLevel": 3,
+		"model": 100200,
+		"powerRatio": 13000,
+		"rawHero": 100200
+	},
+	"100240": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100200",
+		"id": 100240,
+		"jobLevel": 4,
+		"model": 100200,
+		"powerRatio": 14000,
+		"rawHero": 100200
+	},
+	"100241": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100200",
+		"id": 100241,
+		"jobLevel": 4,
+		"model": 100200,
+		"powerRatio": 14000,
+		"rawHero": 100200
+	},
+	"100242": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100200",
+		"id": 100242,
+		"jobLevel": 4,
+		"model": 100200,
+		"powerRatio": 14000,
+		"rawHero": 100200
+	},
+	"100250": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100200",
+		"id": 100250,
+		"jobLevel": 5,
+		"model": 100200,
+		"powerRatio": 15000,
+		"rawHero": 100200
+	},
+	"100251": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100200",
+		"id": 100251,
+		"jobLevel": 5,
+		"model": 100200,
+		"powerRatio": 15000,
+		"rawHero": 100200
+	},
+	"100252": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100200",
+		"id": 100252,
+		"jobLevel": 5,
+		"model": 100200,
+		"powerRatio": 15000,
+		"rawHero": 100200
+	},
+	"100300": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100000",
+		"id": 100300,
+		"jobLevel": 0,
+		"model": 100300,
+		"powerRatio": 10000,
+		"rawHero": 100300
+	},
+	"100310": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100000",
+		"id": 100310,
+		"jobLevel": 1,
+		"model": 100300,
+		"powerRatio": 11000,
+		"rawHero": 100300
+	},
+	"100320": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100000",
+		"id": 100320,
+		"jobLevel": 2,
+		"model": 100300,
+		"powerRatio": 12000,
+		"rawHero": 100300
+	},
+	"100321": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100000",
+		"id": 100321,
+		"jobLevel": 2,
+		"model": 100300,
+		"powerRatio": 12000,
+		"rawHero": 100300
+	},
+	"100330": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100000",
+		"id": 100330,
+		"jobLevel": 3,
+		"model": 100300,
+		"powerRatio": 13000,
+		"rawHero": 100300
+	},
+	"100331": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100000",
+		"id": 100331,
+		"jobLevel": 3,
+		"model": 100300,
+		"powerRatio": 13000,
+		"rawHero": 100300
+	},
+	"100340": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100000",
+		"id": 100340,
+		"jobLevel": 4,
+		"model": 100300,
+		"powerRatio": 14000,
+		"rawHero": 100300
+	},
+	"100341": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100000",
+		"id": 100341,
+		"jobLevel": 4,
+		"model": 100300,
+		"powerRatio": 14000,
+		"rawHero": 100300
+	},
+	"100342": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100000",
+		"id": 100342,
+		"jobLevel": 4,
+		"model": 100300,
+		"powerRatio": 14000,
+		"rawHero": 100300
+	},
+	"100350": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100000",
+		"id": 100350,
+		"jobLevel": 5,
+		"model": 100300,
+		"powerRatio": 15000,
+		"rawHero": 100300
+	},
+	"100351": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100000",
+		"id": 100351,
+		"jobLevel": 5,
+		"model": 100300,
+		"powerRatio": 15000,
+		"rawHero": 100300
+	},
+	"100352": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100000",
+		"id": 100352,
+		"jobLevel": 5,
+		"model": 100300,
+		"powerRatio": 15000,
+		"rawHero": 100300
+	},
+	"100400": {
+		"icon": "hIcon100000",
+		"id": 100400,
+		"jobLevel": 0,
+		"model": 100400,
+		"powerRatio": 10000,
+		"rawHero": 100400
+	},
+	"100410": {
+		"icon": "hIcon100000",
+		"id": 100410,
+		"jobLevel": 1,
+		"model": 100400,
+		"powerRatio": 11000,
+		"rawHero": 100400
+	},
+	"100420": {
+		"icon": "hIcon100000",
+		"id": 100420,
+		"jobLevel": 2,
+		"model": 100400,
+		"powerRatio": 12000,
+		"rawHero": 100400
+	},
+	"100421": {
+		"icon": "hIcon100000",
+		"id": 100421,
+		"jobLevel": 2,
+		"model": 100400,
+		"powerRatio": 12000,
+		"rawHero": 100400
+	},
+	"100430": {
+		"icon": "hIcon100000",
+		"id": 100430,
+		"jobLevel": 3,
+		"model": 100400,
+		"powerRatio": 13000,
+		"rawHero": 100400
+	},
+	"100431": {
+		"icon": "hIcon100000",
+		"id": 100431,
+		"jobLevel": 3,
+		"model": 100400,
+		"powerRatio": 13000,
+		"rawHero": 100400
+	},
+	"100440": {
+		"icon": "hIcon100000",
+		"id": 100440,
+		"jobLevel": 4,
+		"model": 100400,
+		"powerRatio": 14000,
+		"rawHero": 100400
+	},
+	"100441": {
+		"icon": "hIcon100000",
+		"id": 100441,
+		"jobLevel": 4,
+		"model": 100400,
+		"powerRatio": 14000,
+		"rawHero": 100400
+	},
+	"100442": {
+		"icon": "hIcon100000",
+		"id": 100442,
+		"jobLevel": 4,
+		"model": 100400,
+		"powerRatio": 14000,
+		"rawHero": 100400
+	},
+	"100450": {
+		"icon": "hIcon100000",
+		"id": 100450,
+		"jobLevel": 5,
+		"model": 100400,
+		"powerRatio": 15000,
+		"rawHero": 100400
+	},
+	"100451": {
+		"icon": "hIcon100000",
+		"id": 100451,
+		"jobLevel": 5,
+		"model": 100400,
+		"powerRatio": 15000,
+		"rawHero": 100400
+	},
+	"100452": {
+		"icon": "hIcon100000",
+		"id": 100452,
+		"jobLevel": 5,
+		"model": 100400,
+		"powerRatio": 15000,
+		"rawHero": 100400
+	},
+	"100500": {
+		"icon": "hIcon100000",
+		"id": 100500,
+		"jobLevel": 0,
+		"model": 100500,
+		"powerRatio": 10000,
+		"rawHero": 100500
+	},
+	"100510": {
+		"icon": "hIcon100000",
+		"id": 100510,
+		"jobLevel": 1,
+		"model": 100500,
+		"powerRatio": 11000,
+		"rawHero": 100500
+	},
+	"100520": {
+		"icon": "hIcon100000",
+		"id": 100520,
+		"jobLevel": 2,
+		"model": 100500,
+		"powerRatio": 12000,
+		"rawHero": 100500
+	},
+	"100521": {
+		"icon": "hIcon100000",
+		"id": 100521,
+		"jobLevel": 2,
+		"model": 100500,
+		"powerRatio": 12000,
+		"rawHero": 100500
+	},
+	"100530": {
+		"icon": "hIcon100000",
+		"id": 100530,
+		"jobLevel": 3,
+		"model": 100500,
+		"powerRatio": 13000,
+		"rawHero": 100500
+	},
+	"100531": {
+		"icon": "hIcon100000",
+		"id": 100531,
+		"jobLevel": 3,
+		"model": 100500,
+		"powerRatio": 13000,
+		"rawHero": 100500
+	},
+	"100540": {
+		"icon": "hIcon100000",
+		"id": 100540,
+		"jobLevel": 4,
+		"model": 100500,
+		"powerRatio": 14000,
+		"rawHero": 100500
+	},
+	"100541": {
+		"icon": "hIcon100000",
+		"id": 100541,
+		"jobLevel": 4,
+		"model": 100500,
+		"powerRatio": 14000,
+		"rawHero": 100500
+	},
+	"100542": {
+		"icon": "hIcon100000",
+		"id": 100542,
+		"jobLevel": 4,
+		"model": 100500,
+		"powerRatio": 14000,
+		"rawHero": 100500
+	},
+	"100550": {
+		"icon": "hIcon100000",
+		"id": 100550,
+		"jobLevel": 5,
+		"model": 100500,
+		"powerRatio": 15000,
+		"rawHero": 100500
+	},
+	"100551": {
+		"icon": "hIcon100000",
+		"id": 100551,
+		"jobLevel": 5,
+		"model": 100500,
+		"powerRatio": 15000,
+		"rawHero": 100500
+	},
+	"100552": {
+		"icon": "hIcon100000",
+		"id": 100552,
+		"jobLevel": 5,
+		"model": 100500,
+		"powerRatio": 15000,
+		"rawHero": 100500
+	},
+	"100600": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100600",
+		"id": 100600,
+		"jobLevel": 0,
+		"model": 100600,
+		"powerRatio": 10000,
+		"rawHero": 100600
+	},
+	"100610": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100600",
+		"id": 100610,
+		"jobLevel": 1,
+		"model": 100600,
+		"powerRatio": 11000,
+		"rawHero": 100600
+	},
+	"100620": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100600",
+		"id": 100620,
+		"jobLevel": 2,
+		"model": 100600,
+		"powerRatio": 12000,
+		"rawHero": 100600
+	},
+	"100621": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100600",
+		"id": 100621,
+		"jobLevel": 2,
+		"model": 100600,
+		"powerRatio": 12000,
+		"rawHero": 100600
+	},
+	"100630": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100600",
+		"id": 100630,
+		"jobLevel": 3,
+		"model": 100600,
+		"powerRatio": 13000,
+		"rawHero": 100600
+	},
+	"100631": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100600",
+		"id": 100631,
+		"jobLevel": 3,
+		"model": 100600,
+		"powerRatio": 13000,
+		"rawHero": 100600
+	},
+	"100640": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100600",
+		"id": 100640,
+		"jobLevel": 4,
+		"model": 100600,
+		"powerRatio": 14000,
+		"rawHero": 100600
+	},
+	"100641": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100600",
+		"id": 100641,
+		"jobLevel": 4,
+		"model": 100600,
+		"powerRatio": 14000,
+		"rawHero": 100600
+	},
+	"100642": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100600",
+		"id": 100642,
+		"jobLevel": 4,
+		"model": 100600,
+		"powerRatio": 14000,
+		"rawHero": 100600
+	},
+	"100650": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100600",
+		"id": 100650,
+		"jobLevel": 5,
+		"model": 100600,
+		"powerRatio": 15000,
+		"rawHero": 100600
+	},
+	"100651": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100600",
+		"id": 100651,
+		"jobLevel": 5,
+		"model": 100600,
+		"powerRatio": 15000,
+		"rawHero": 100600
+	},
+	"100652": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100600",
+		"id": 100652,
+		"jobLevel": 5,
+		"model": 100600,
+		"powerRatio": 15000,
+		"rawHero": 100600
+	},
+	"100700": {
+		"icon": "hIcon100000",
+		"id": 100700,
+		"jobLevel": 0,
+		"model": 100700,
+		"powerRatio": 10000,
+		"rawHero": 100700
+	},
+	"100710": {
+		"icon": "hIcon100000",
+		"id": 100710,
+		"jobLevel": 1,
+		"model": 100700,
+		"powerRatio": 11000,
+		"rawHero": 100700
+	},
+	"100720": {
+		"icon": "hIcon100000",
+		"id": 100720,
+		"jobLevel": 2,
+		"model": 100700,
+		"powerRatio": 12000,
+		"rawHero": 100700
+	},
+	"100721": {
+		"icon": "hIcon100000",
+		"id": 100721,
+		"jobLevel": 2,
+		"model": 100700,
+		"powerRatio": 12000,
+		"rawHero": 100700
+	},
+	"100730": {
+		"icon": "hIcon100000",
+		"id": 100730,
+		"jobLevel": 3,
+		"model": 100700,
+		"powerRatio": 13000,
+		"rawHero": 100700
+	},
+	"100731": {
+		"icon": "hIcon100000",
+		"id": 100731,
+		"jobLevel": 3,
+		"model": 100700,
+		"powerRatio": 13000,
+		"rawHero": 100700
+	},
+	"100740": {
+		"icon": "hIcon100000",
+		"id": 100740,
+		"jobLevel": 4,
+		"model": 100700,
+		"powerRatio": 14000,
+		"rawHero": 100700
+	},
+	"100741": {
+		"icon": "hIcon100000",
+		"id": 100741,
+		"jobLevel": 4,
+		"model": 100700,
+		"powerRatio": 14000,
+		"rawHero": 100700
+	},
+	"100742": {
+		"icon": "hIcon100000",
+		"id": 100742,
+		"jobLevel": 4,
+		"model": 100700,
+		"powerRatio": 14000,
+		"rawHero": 100700
+	},
+	"100750": {
+		"icon": "hIcon100000",
+		"id": 100750,
+		"jobLevel": 5,
+		"model": 100700,
+		"powerRatio": 15000,
+		"rawHero": 100700
+	},
+	"100751": {
+		"icon": "hIcon100000",
+		"id": 100751,
+		"jobLevel": 5,
+		"model": 100700,
+		"powerRatio": 15000,
+		"rawHero": 100700
+	},
+	"100752": {
+		"icon": "hIcon100000",
+		"id": 100752,
+		"jobLevel": 5,
+		"model": 100700,
+		"powerRatio": 15000,
+		"rawHero": 100700
+	},
+	"100800": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100800",
+		"id": 100800,
+		"jobLevel": 0,
+		"model": 100800,
+		"powerRatio": 10000,
+		"rawHero": 100800,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100810": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100800",
+		"id": 100810,
+		"jobLevel": 1,
+		"model": 100810,
+		"powerRatio": 11000,
+		"rawHero": 100800,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100820": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100800",
+		"id": 100820,
+		"jobLevel": 2,
+		"model": 100810,
+		"powerRatio": 12000,
+		"rawHero": 100800,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100821": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100800",
+		"id": 100821,
+		"jobLevel": 2,
+		"model": 100810,
+		"powerRatio": 12000,
+		"rawHero": 100800,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100830": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100800",
+		"id": 100830,
+		"jobLevel": 3,
+		"model": 100810,
+		"powerRatio": 13000,
+		"rawHero": 100800,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100831": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100800",
+		"id": 100831,
+		"jobLevel": 3,
+		"model": 100810,
+		"powerRatio": 13000,
+		"rawHero": 100800,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100840": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100800",
+		"id": 100840,
+		"jobLevel": 4,
+		"model": 100810,
+		"powerRatio": 14000,
+		"rawHero": 100800,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100841": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100800",
+		"id": 100841,
+		"jobLevel": 4,
+		"model": 100810,
+		"powerRatio": 14000,
+		"rawHero": 100800,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100842": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100800",
+		"id": 100842,
+		"jobLevel": 4,
+		"model": 100810,
+		"powerRatio": 14000,
+		"rawHero": 100800,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100850": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100800",
+		"id": 100850,
+		"jobLevel": 5,
+		"model": 100810,
+		"powerRatio": 15000,
+		"rawHero": 100800,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100851": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100800",
+		"id": 100851,
+		"jobLevel": 5,
+		"model": 100810,
+		"powerRatio": 15000,
+		"rawHero": 100800,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100852": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100800",
+		"id": 100852,
+		"jobLevel": 5,
+		"model": 100810,
+		"powerRatio": 15000,
+		"rawHero": 100800,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100900": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100900",
+		"id": 100900,
+		"jobLevel": 0,
+		"model": 100900,
+		"powerRatio": 10000,
+		"rawHero": 100900,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100910": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100900",
+		"id": 100910,
+		"jobLevel": 1,
+		"model": 100900,
+		"powerRatio": 11000,
+		"rawHero": 100900,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100920": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100900",
+		"id": 100920,
+		"jobLevel": 2,
+		"model": 100900,
+		"powerRatio": 12000,
+		"rawHero": 100900,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100921": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100900",
+		"id": 100921,
+		"jobLevel": 2,
+		"model": 100900,
+		"powerRatio": 12000,
+		"rawHero": 100900,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100930": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100900",
+		"id": 100930,
+		"jobLevel": 3,
+		"model": 100900,
+		"powerRatio": 13000,
+		"rawHero": 100900,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100931": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100900",
+		"id": 100931,
+		"jobLevel": 3,
+		"model": 100900,
+		"powerRatio": 13000,
+		"rawHero": 100900,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100940": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100900",
+		"id": 100940,
+		"jobLevel": 4,
+		"model": 100900,
+		"powerRatio": 14000,
+		"rawHero": 100900,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100941": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100900",
+		"id": 100941,
+		"jobLevel": 4,
+		"model": 100900,
+		"powerRatio": 14000,
+		"rawHero": 100900,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100942": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100900",
+		"id": 100942,
+		"jobLevel": 4,
+		"model": 100900,
+		"powerRatio": 14000,
+		"rawHero": 100900,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100950": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100900",
+		"id": 100950,
+		"jobLevel": 5,
+		"model": 100900,
+		"powerRatio": 15000,
+		"rawHero": 100900,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100951": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100900",
+		"id": 100951,
+		"jobLevel": 5,
+		"model": 100900,
+		"powerRatio": 15000,
+		"rawHero": 100900,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"100952": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100900",
+		"id": 100952,
+		"jobLevel": 5,
+		"model": 100900,
+		"powerRatio": 15000,
+		"rawHero": 100900,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"110000": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110000",
+		"id": 110000,
+		"jobLevel": 0,
+		"model": 110000,
+		"powerRatio": 10000,
+		"rawHero": 110000,
+		"skills": {
+			"1": 700000
+		}
+	},
+	"110010": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110000",
+		"id": 110010,
+		"jobLevel": 1,
+		"model": 110010,
+		"powerRatio": 11000,
+		"rawHero": 110000,
+		"skills": {
+			"1": 700000,
+			"2": 700100
+		}
+	},
+	"110020": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110000",
+		"id": 110020,
+		"jobLevel": 2,
+		"model": 110020,
+		"powerRatio": 12000,
+		"rawHero": 110000,
+		"skills": {
+			"1": 700000,
+			"2": 700100,
+			"3": 700200
+		}
+	},
+	"110021": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110000",
+		"id": 110021,
+		"jobLevel": 2,
+		"model": 110020,
+		"powerRatio": 12000,
+		"rawHero": 110000,
+		"skills": {
+			"1": 700000,
+			"2": 700100,
+			"3": 700210
+		}
+	},
+	"110030": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110000",
+		"id": 110030,
+		"jobLevel": 3,
+		"model": 110020,
+		"powerRatio": 13000,
+		"rawHero": 110000,
+		"skills": {
+			"1": 700000,
+			"2": 700100,
+			"3": 700300
+		}
+	},
+	"110031": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110000",
+		"id": 110031,
+		"jobLevel": 3,
+		"model": 110020,
+		"powerRatio": 13000,
+		"rawHero": 110000,
+		"skills": {
+			"1": 700000,
+			"2": 700100,
+			"3": 700310
+		}
+	},
+	"110040": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110000",
+		"id": 110040,
+		"jobLevel": 4,
+		"model": 110020,
+		"powerRatio": 14000,
+		"rawHero": 110000,
+		"skills": {
+			"1": 700000,
+			"2": 700100,
+			"3": 700300,
+			"4": 700400
+		}
+	},
+	"110041": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110000",
+		"id": 110041,
+		"jobLevel": 4,
+		"model": 110020,
+		"powerRatio": 14000,
+		"rawHero": 110000,
+		"skills": {
+			"1": 700000,
+			"2": 700100,
+			"3": 700310,
+			"4": 700410
+		}
+	},
+	"110042": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110000",
+		"id": 110042,
+		"jobLevel": 4,
+		"model": 110020,
+		"powerRatio": 14000,
+		"rawHero": 110000,
+		"skills": {
+			"1": 700000,
+			"2": 700100,
+			"3": 700420
+		}
+	},
+	"110050": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110000",
+		"id": 110050,
+		"jobLevel": 5,
+		"model": 110020,
+		"powerRatio": 15000,
+		"rawHero": 110000,
+		"skills": {
+			"1": 700000,
+			"2": 700100,
+			"3": 700300,
+			"4": 700500
+		}
+	},
+	"110051": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110000",
+		"id": 110051,
+		"jobLevel": 5,
+		"model": 110020,
+		"powerRatio": 15000,
+		"rawHero": 110000,
+		"skills": {
+			"1": 700000,
+			"2": 700100,
+			"3": 700310,
+			"4": 700510
+		}
+	},
+	"110052": {
+		"commSkill": 700001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110000",
+		"id": 110052,
+		"jobLevel": 5,
+		"model": 110020,
+		"powerRatio": 15000,
+		"rawHero": 110000,
+		"skills": {
+			"1": 700000,
+			"2": 700100,
+			"3": 700520
+		}
+	},
+	"110100": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon110100",
+		"id": 110100,
+		"jobLevel": 0,
+		"model": 110100,
+		"powerRatio": 10000,
+		"rawHero": 110100,
+		"skills": {
+			"1": 14002
+		}
+	},
+	"110110": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon110100",
+		"id": 110110,
+		"jobLevel": 1,
+		"model": 110100,
+		"powerRatio": 11000,
+		"rawHero": 110100,
+		"skills": {
+			"1": 14002
+		}
+	},
+	"110120": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon110100",
+		"id": 110120,
+		"jobLevel": 2,
+		"model": 110100,
+		"powerRatio": 12000,
+		"rawHero": 110100,
+		"skills": {
+			"1": 14002
+		}
+	},
+	"110121": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon110100",
+		"id": 110121,
+		"jobLevel": 2,
+		"model": 110100,
+		"powerRatio": 12000,
+		"rawHero": 110100,
+		"skills": {
+			"1": 14002
+		}
+	},
+	"110130": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon110100",
+		"id": 110130,
+		"jobLevel": 3,
+		"model": 110100,
+		"powerRatio": 13000,
+		"rawHero": 110100,
+		"skills": {
+			"1": 14002
+		}
+	},
+	"110131": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon110100",
+		"id": 110131,
+		"jobLevel": 3,
+		"model": 110100,
+		"powerRatio": 13000,
+		"rawHero": 110100,
+		"skills": {
+			"1": 14002
+		}
+	},
+	"110140": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon110100",
+		"id": 110140,
+		"jobLevel": 4,
+		"model": 110100,
+		"powerRatio": 14000,
+		"rawHero": 110100,
+		"skills": {
+			"1": 14002
+		}
+	},
+	"110141": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon110100",
+		"id": 110141,
+		"jobLevel": 4,
+		"model": 110100,
+		"powerRatio": 14000,
+		"rawHero": 110100,
+		"skills": {
+			"1": 14002
+		}
+	},
+	"110142": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon110100",
+		"id": 110142,
+		"jobLevel": 4,
+		"model": 110100,
+		"powerRatio": 14000,
+		"rawHero": 110100,
+		"skills": {
+			"1": 14002
+		}
+	},
+	"110150": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon110100",
+		"id": 110150,
+		"jobLevel": 5,
+		"model": 110100,
+		"powerRatio": 15000,
+		"rawHero": 110100,
+		"skills": {
+			"1": 14002
+		}
+	},
+	"110151": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon110100",
+		"id": 110151,
+		"jobLevel": 5,
+		"model": 110100,
+		"powerRatio": 15000,
+		"rawHero": 110100,
+		"skills": {
+			"1": 14002
+		}
+	},
+	"110152": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon110100",
+		"id": 110152,
+		"jobLevel": 5,
+		"model": 110100,
+		"powerRatio": 15000,
+		"rawHero": 110100,
+		"skills": {
+			"1": 14002
+		}
+	},
+	"110200": {
+		"icon": "hIcon110100",
+		"id": 110200,
+		"jobLevel": 0,
+		"model": 110200,
+		"powerRatio": 10000,
+		"rawHero": 110200
+	},
+	"110210": {
+		"icon": "hIcon110100",
+		"id": 110210,
+		"jobLevel": 1,
+		"model": 110200,
+		"powerRatio": 11000,
+		"rawHero": 110200
+	},
+	"110220": {
+		"icon": "hIcon110100",
+		"id": 110220,
+		"jobLevel": 2,
+		"model": 110200,
+		"powerRatio": 12000,
+		"rawHero": 110200
+	},
+	"110221": {
+		"icon": "hIcon110100",
+		"id": 110221,
+		"jobLevel": 2,
+		"model": 110200,
+		"powerRatio": 12000,
+		"rawHero": 110200
+	},
+	"110230": {
+		"icon": "hIcon110100",
+		"id": 110230,
+		"jobLevel": 3,
+		"model": 110200,
+		"powerRatio": 13000,
+		"rawHero": 110200
+	},
+	"110231": {
+		"icon": "hIcon110100",
+		"id": 110231,
+		"jobLevel": 3,
+		"model": 110200,
+		"powerRatio": 13000,
+		"rawHero": 110200
+	},
+	"110240": {
+		"icon": "hIcon110100",
+		"id": 110240,
+		"jobLevel": 4,
+		"model": 110200,
+		"powerRatio": 14000,
+		"rawHero": 110200
+	},
+	"110241": {
+		"icon": "hIcon110100",
+		"id": 110241,
+		"jobLevel": 4,
+		"model": 110200,
+		"powerRatio": 14000,
+		"rawHero": 110200
+	},
+	"110242": {
+		"icon": "hIcon110100",
+		"id": 110242,
+		"jobLevel": 4,
+		"model": 110200,
+		"powerRatio": 14000,
+		"rawHero": 110200
+	},
+	"110250": {
+		"icon": "hIcon110100",
+		"id": 110250,
+		"jobLevel": 5,
+		"model": 110200,
+		"powerRatio": 15000,
+		"rawHero": 110200
+	},
+	"110251": {
+		"icon": "hIcon110100",
+		"id": 110251,
+		"jobLevel": 5,
+		"model": 110200,
+		"powerRatio": 15000,
+		"rawHero": 110200
+	},
+	"110252": {
+		"icon": "hIcon110100",
+		"id": 110252,
+		"jobLevel": 5,
+		"model": 110200,
+		"powerRatio": 15000,
+		"rawHero": 110200
+	},
+	"110300": {
+		"commSkill": 703002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110300",
+		"id": 110300,
+		"jobLevel": 0,
+		"model": 110300,
+		"powerRatio": 10000,
+		"rawHero": 110300,
+		"skills": {
+			"1": 703000
+		}
+	},
+	"110310": {
+		"commSkill": 703002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110300",
+		"id": 110310,
+		"jobLevel": 1,
+		"model": 110300,
+		"powerRatio": 11000,
+		"rawHero": 110300,
+		"skills": {
+			"1": 703000,
+			"2": 703001,
+			"3": 703100
+		}
+	},
+	"110320": {
+		"commSkill": 703002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110300",
+		"id": 110320,
+		"jobLevel": 2,
+		"model": 110300,
+		"powerRatio": 12000,
+		"rawHero": 110300,
+		"skills": {
+			"1": 703000,
+			"2": 703001,
+			"3": 703100,
+			"4": 703200
+		}
+	},
+	"110321": {
+		"commSkill": 703002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110300",
+		"id": 110321,
+		"jobLevel": 2,
+		"model": 110300,
+		"powerRatio": 12000,
+		"rawHero": 110300,
+		"skills": {
+			"1": 703000,
+			"2": 703001,
+			"3": 703100,
+			"4": 703210
+		}
+	},
+	"110330": {
+		"commSkill": 703002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110300",
+		"id": 110330,
+		"jobLevel": 3,
+		"model": 110300,
+		"powerRatio": 13000,
+		"rawHero": 110300,
+		"skills": {
+			"1": 703000,
+			"2": 703001,
+			"3": 703100,
+			"4": 703300
+		}
+	},
+	"110331": {
+		"commSkill": 703002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110300",
+		"id": 110331,
+		"jobLevel": 3,
+		"model": 110300,
+		"powerRatio": 13000,
+		"rawHero": 110300,
+		"skills": {
+			"1": 703000,
+			"2": 703001,
+			"3": 703100,
+			"4": 703310
+		}
+	},
+	"110340": {
+		"commSkill": 703002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110300",
+		"id": 110340,
+		"jobLevel": 4,
+		"model": 110300,
+		"powerRatio": 14000,
+		"rawHero": 110300,
+		"skills": {
+			"1": 703000,
+			"2": 703001,
+			"3": 703100,
+			"4": 703300
+		}
+	},
+	"110341": {
+		"commSkill": 703002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110300",
+		"id": 110341,
+		"jobLevel": 4,
+		"model": 110300,
+		"powerRatio": 14000,
+		"rawHero": 110300,
+		"skills": {
+			"1": 703000,
+			"2": 703001,
+			"3": 703100,
+			"4": 703410,
+			"5": 703411
+		}
+	},
+	"110342": {
+		"commSkill": 703422,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110300",
+		"id": 110342,
+		"jobLevel": 4,
+		"model": 110300,
+		"powerRatio": 14000,
+		"rawHero": 110300,
+		"skills": {
+			"1": 703421,
+			"2": 703001,
+			"3": 703423
+		}
+	},
+	"110350": {
+		"commSkill": 703002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110300",
+		"id": 110350,
+		"jobLevel": 5,
+		"model": 110300,
+		"powerRatio": 15000,
+		"rawHero": 110300,
+		"skills": {
+			"1": 703000,
+			"2": 703001,
+			"3": 703100,
+			"4": 703300
+		}
+	},
+	"110351": {
+		"commSkill": 703002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110300",
+		"id": 110351,
+		"jobLevel": 5,
+		"model": 110300,
+		"powerRatio": 15000,
+		"rawHero": 110300,
+		"skills": {
+			"1": 703000,
+			"2": 703001,
+			"3": 703100,
+			"4": 703510,
+			"5": 703511
+		}
+	},
+	"110352": {
+		"commSkill": 703422,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110300",
+		"id": 110352,
+		"jobLevel": 5,
+		"model": 110300,
+		"powerRatio": 15000,
+		"rawHero": 110300,
+		"skills": {
+			"1": 703421,
+			"2": 703001,
+			"3": 703423
+		}
+	},
+	"110400": {
+		"icon": "hIcon110100",
+		"id": 110400,
+		"jobLevel": 0,
+		"model": 110400,
+		"powerRatio": 10000,
+		"rawHero": 110400
+	},
+	"110410": {
+		"icon": "hIcon110100",
+		"id": 110410,
+		"jobLevel": 1,
+		"model": 110400,
+		"powerRatio": 11000,
+		"rawHero": 110400
+	},
+	"110420": {
+		"icon": "hIcon110100",
+		"id": 110420,
+		"jobLevel": 2,
+		"model": 110400,
+		"powerRatio": 12000,
+		"rawHero": 110400
+	},
+	"110421": {
+		"icon": "hIcon110100",
+		"id": 110421,
+		"jobLevel": 2,
+		"model": 110400,
+		"powerRatio": 12000,
+		"rawHero": 110400
+	},
+	"110430": {
+		"icon": "hIcon110100",
+		"id": 110430,
+		"jobLevel": 3,
+		"model": 110400,
+		"powerRatio": 13000,
+		"rawHero": 110400
+	},
+	"110431": {
+		"icon": "hIcon110100",
+		"id": 110431,
+		"jobLevel": 3,
+		"model": 110400,
+		"powerRatio": 13000,
+		"rawHero": 110400
+	},
+	"110440": {
+		"icon": "hIcon110100",
+		"id": 110440,
+		"jobLevel": 4,
+		"model": 110400,
+		"powerRatio": 14000,
+		"rawHero": 110400
+	},
+	"110441": {
+		"icon": "hIcon110100",
+		"id": 110441,
+		"jobLevel": 4,
+		"model": 110400,
+		"powerRatio": 14000,
+		"rawHero": 110400
+	},
+	"110442": {
+		"icon": "hIcon110100",
+		"id": 110442,
+		"jobLevel": 4,
+		"model": 110400,
+		"powerRatio": 14000,
+		"rawHero": 110400
+	},
+	"110450": {
+		"icon": "hIcon110100",
+		"id": 110450,
+		"jobLevel": 5,
+		"model": 110400,
+		"powerRatio": 15000,
+		"rawHero": 110400
+	},
+	"110451": {
+		"icon": "hIcon110100",
+		"id": 110451,
+		"jobLevel": 5,
+		"model": 110400,
+		"powerRatio": 15000,
+		"rawHero": 110400
+	},
+	"110452": {
+		"icon": "hIcon110100",
+		"id": 110452,
+		"jobLevel": 5,
+		"model": 110400,
+		"powerRatio": 15000,
+		"rawHero": 110400
+	},
+	"110500": {
+		"icon": "hIcon110100",
+		"id": 110500,
+		"jobLevel": 0,
+		"model": 110500,
+		"powerRatio": 10000,
+		"rawHero": 110500
+	},
+	"110510": {
+		"icon": "hIcon110100",
+		"id": 110510,
+		"jobLevel": 1,
+		"model": 110500,
+		"powerRatio": 11000,
+		"rawHero": 110500
+	},
+	"110520": {
+		"icon": "hIcon110100",
+		"id": 110520,
+		"jobLevel": 2,
+		"model": 110500,
+		"powerRatio": 12000,
+		"rawHero": 110500
+	},
+	"110521": {
+		"icon": "hIcon110100",
+		"id": 110521,
+		"jobLevel": 2,
+		"model": 110500,
+		"powerRatio": 12000,
+		"rawHero": 110500
+	},
+	"110530": {
+		"icon": "hIcon110100",
+		"id": 110530,
+		"jobLevel": 3,
+		"model": 110500,
+		"powerRatio": 13000,
+		"rawHero": 110500
+	},
+	"110531": {
+		"icon": "hIcon110100",
+		"id": 110531,
+		"jobLevel": 3,
+		"model": 110500,
+		"powerRatio": 13000,
+		"rawHero": 110500
+	},
+	"110540": {
+		"icon": "hIcon110100",
+		"id": 110540,
+		"jobLevel": 4,
+		"model": 110500,
+		"powerRatio": 14000,
+		"rawHero": 110500
+	},
+	"110541": {
+		"icon": "hIcon110100",
+		"id": 110541,
+		"jobLevel": 4,
+		"model": 110500,
+		"powerRatio": 14000,
+		"rawHero": 110500
+	},
+	"110542": {
+		"icon": "hIcon110100",
+		"id": 110542,
+		"jobLevel": 4,
+		"model": 110500,
+		"powerRatio": 14000,
+		"rawHero": 110500
+	},
+	"110550": {
+		"icon": "hIcon110100",
+		"id": 110550,
+		"jobLevel": 5,
+		"model": 110500,
+		"powerRatio": 15000,
+		"rawHero": 110500
+	},
+	"110551": {
+		"icon": "hIcon110100",
+		"id": 110551,
+		"jobLevel": 5,
+		"model": 110500,
+		"powerRatio": 15000,
+		"rawHero": 110500
+	},
+	"110552": {
+		"icon": "hIcon110100",
+		"id": 110552,
+		"jobLevel": 5,
+		"model": 110500,
+		"powerRatio": 15000,
+		"rawHero": 110500
+	},
+	"110600": {
+		"icon": "hIcon110100",
+		"id": 110600,
+		"jobLevel": 0,
+		"model": 110600,
+		"powerRatio": 10000,
+		"rawHero": 110600
+	},
+	"110610": {
+		"icon": "hIcon110100",
+		"id": 110610,
+		"jobLevel": 1,
+		"model": 110600,
+		"powerRatio": 11000,
+		"rawHero": 110600
+	},
+	"110620": {
+		"icon": "hIcon110100",
+		"id": 110620,
+		"jobLevel": 2,
+		"model": 110600,
+		"powerRatio": 12000,
+		"rawHero": 110600
+	},
+	"110621": {
+		"icon": "hIcon110100",
+		"id": 110621,
+		"jobLevel": 2,
+		"model": 110600,
+		"powerRatio": 12000,
+		"rawHero": 110600
+	},
+	"110630": {
+		"icon": "hIcon110100",
+		"id": 110630,
+		"jobLevel": 3,
+		"model": 110600,
+		"powerRatio": 13000,
+		"rawHero": 110600
+	},
+	"110631": {
+		"icon": "hIcon110100",
+		"id": 110631,
+		"jobLevel": 3,
+		"model": 110600,
+		"powerRatio": 13000,
+		"rawHero": 110600
+	},
+	"110640": {
+		"icon": "hIcon110100",
+		"id": 110640,
+		"jobLevel": 4,
+		"model": 110600,
+		"powerRatio": 14000,
+		"rawHero": 110600
+	},
+	"110641": {
+		"icon": "hIcon110100",
+		"id": 110641,
+		"jobLevel": 4,
+		"model": 110600,
+		"powerRatio": 14000,
+		"rawHero": 110600
+	},
+	"110642": {
+		"icon": "hIcon110100",
+		"id": 110642,
+		"jobLevel": 4,
+		"model": 110600,
+		"powerRatio": 14000,
+		"rawHero": 110600
+	},
+	"110650": {
+		"icon": "hIcon110100",
+		"id": 110650,
+		"jobLevel": 5,
+		"model": 110600,
+		"powerRatio": 15000,
+		"rawHero": 110600
+	},
+	"110651": {
+		"icon": "hIcon110100",
+		"id": 110651,
+		"jobLevel": 5,
+		"model": 110600,
+		"powerRatio": 15000,
+		"rawHero": 110600
+	},
+	"110652": {
+		"icon": "hIcon110100",
+		"id": 110652,
+		"jobLevel": 5,
+		"model": 110600,
+		"powerRatio": 15000,
+		"rawHero": 110600
+	},
+	"110700": {
+		"icon": "hIcon110100",
+		"id": 110700,
+		"jobLevel": 0,
+		"model": 110700,
+		"powerRatio": 10000,
+		"rawHero": 110700
+	},
+	"110710": {
+		"icon": "hIcon110100",
+		"id": 110710,
+		"jobLevel": 1,
+		"model": 110700,
+		"powerRatio": 11000,
+		"rawHero": 110700
+	},
+	"110720": {
+		"icon": "hIcon110100",
+		"id": 110720,
+		"jobLevel": 2,
+		"model": 110700,
+		"powerRatio": 12000,
+		"rawHero": 110700
+	},
+	"110721": {
+		"icon": "hIcon110100",
+		"id": 110721,
+		"jobLevel": 2,
+		"model": 110700,
+		"powerRatio": 12000,
+		"rawHero": 110700
+	},
+	"110730": {
+		"icon": "hIcon110100",
+		"id": 110730,
+		"jobLevel": 3,
+		"model": 110700,
+		"powerRatio": 13000,
+		"rawHero": 110700
+	},
+	"110731": {
+		"icon": "hIcon110100",
+		"id": 110731,
+		"jobLevel": 3,
+		"model": 110700,
+		"powerRatio": 13000,
+		"rawHero": 110700
+	},
+	"110740": {
+		"icon": "hIcon110100",
+		"id": 110740,
+		"jobLevel": 4,
+		"model": 110700,
+		"powerRatio": 14000,
+		"rawHero": 110700
+	},
+	"110741": {
+		"icon": "hIcon110100",
+		"id": 110741,
+		"jobLevel": 4,
+		"model": 110700,
+		"powerRatio": 14000,
+		"rawHero": 110700
+	},
+	"110742": {
+		"icon": "hIcon110100",
+		"id": 110742,
+		"jobLevel": 4,
+		"model": 110700,
+		"powerRatio": 14000,
+		"rawHero": 110700
+	},
+	"110750": {
+		"icon": "hIcon110100",
+		"id": 110750,
+		"jobLevel": 5,
+		"model": 110700,
+		"powerRatio": 15000,
+		"rawHero": 110700
+	},
+	"110751": {
+		"icon": "hIcon110100",
+		"id": 110751,
+		"jobLevel": 5,
+		"model": 110700,
+		"powerRatio": 15000,
+		"rawHero": 110700
+	},
+	"110752": {
+		"icon": "hIcon110100",
+		"id": 110752,
+		"jobLevel": 5,
+		"model": 110700,
+		"powerRatio": 15000,
+		"rawHero": 110700
+	},
+	"110800": {
+		"commSkill": 708001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110800",
+		"id": 110800,
+		"jobLevel": 0,
+		"model": 110800,
+		"powerRatio": 10000,
+		"rawHero": 110800,
+		"skills": {
+			"1": 708000
+		}
+	},
+	"110810": {
+		"commSkill": 708001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110800",
+		"id": 110810,
+		"jobLevel": 1,
+		"model": 110800,
+		"powerRatio": 11000,
+		"rawHero": 110800,
+		"skills": {
+			"1": 708000,
+			"2": 708100
+		}
+	},
+	"110820": {
+		"commSkill": 708001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110800",
+		"id": 110820,
+		"jobLevel": 2,
+		"model": 110800,
+		"powerRatio": 12000,
+		"rawHero": 110800,
+		"skills": {
+			"1": 708000,
+			"2": 708100,
+			"3": 708200
+		}
+	},
+	"110821": {
+		"commSkill": 708001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110800",
+		"id": 110821,
+		"jobLevel": 2,
+		"model": 110800,
+		"powerRatio": 12000,
+		"rawHero": 110800,
+		"skills": {
+			"1": 708000,
+			"2": 708100,
+			"3": 708210
+		}
+	},
+	"110830": {
+		"commSkill": 708001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110800",
+		"id": 110830,
+		"jobLevel": 3,
+		"model": 110800,
+		"powerRatio": 13000,
+		"rawHero": 110800,
+		"skills": {
+			"1": 708000,
+			"2": 708100,
+			"3": 708300
+		}
+	},
+	"110831": {
+		"commSkill": 708001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110800",
+		"id": 110831,
+		"jobLevel": 3,
+		"model": 110800,
+		"powerRatio": 13000,
+		"rawHero": 110800,
+		"skills": {
+			"1": 708000,
+			"2": 708100,
+			"3": 708310
+		}
+	},
+	"110840": {
+		"commSkill": 708001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110800",
+		"id": 110840,
+		"jobLevel": 4,
+		"model": 110800,
+		"powerRatio": 14000,
+		"rawHero": 110800,
+		"skills": {
+			"1": 708000,
+			"2": 708100,
+			"3": 708300,
+			"4": 708400
+		}
+	},
+	"110841": {
+		"commSkill": 708001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110800",
+		"id": 110841,
+		"jobLevel": 4,
+		"model": 110800,
+		"powerRatio": 14000,
+		"rawHero": 110800,
+		"skills": {
+			"1": 708000,
+			"2": 708100,
+			"3": 708310,
+			"4": 708410
+		}
+	},
+	"110842": {
+		"commSkill": 708001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110800",
+		"id": 110842,
+		"jobLevel": 4,
+		"model": 110800,
+		"powerRatio": 14000,
+		"rawHero": 110800,
+		"skills": {
+			"1": 708000,
+			"2": 708100,
+			"3": 708420
+		}
+	},
+	"110850": {
+		"commSkill": 708001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110800",
+		"id": 110850,
+		"jobLevel": 5,
+		"model": 110800,
+		"powerRatio": 15000,
+		"rawHero": 110800,
+		"skills": {
+			"1": 708000,
+			"2": 708100,
+			"3": 708300,
+			"4": 708500
+		}
+	},
+	"110851": {
+		"commSkill": 708001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110800",
+		"id": 110851,
+		"jobLevel": 5,
+		"model": 110800,
+		"powerRatio": 15000,
+		"rawHero": 110800,
+		"skills": {
+			"1": 708000,
+			"2": 708100,
+			"3": 708310,
+			"4": 708510
+		}
+	},
+	"110852": {
+		"commSkill": 708001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110800",
+		"id": 110852,
+		"jobLevel": 5,
+		"model": 110800,
+		"powerRatio": 15000,
+		"rawHero": 110800,
+		"skills": {
+			"1": 708000,
+			"2": 708100,
+			"3": 708520
+		}
+	},
+	"110900": {
+		"commSkill": 709001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110900",
+		"id": 110900,
+		"jobLevel": 0,
+		"model": 110900,
+		"powerRatio": 10000,
+		"rawHero": 110900,
+		"skills": {
+			"1": 709000
+		}
+	},
+	"110910": {
+		"commSkill": 709001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110900",
+		"id": 110910,
+		"jobLevel": 1,
+		"model": 110900,
+		"powerRatio": 11000,
+		"rawHero": 110900,
+		"skills": {
+			"1": 709000,
+			"2": 709100
+		}
+	},
+	"110920": {
+		"commSkill": 709001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110900",
+		"id": 110920,
+		"jobLevel": 2,
+		"model": 110900,
+		"powerRatio": 12000,
+		"rawHero": 110900,
+		"skills": {
+			"1": 709000,
+			"2": 709100,
+			"3": 709200
+		}
+	},
+	"110921": {
+		"commSkill": 709001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110900",
+		"id": 110921,
+		"jobLevel": 2,
+		"model": 110900,
+		"powerRatio": 12000,
+		"rawHero": 110900,
+		"skills": {
+			"1": 709000,
+			"2": 709100,
+			"3": 709210
+		}
+	},
+	"110930": {
+		"commSkill": 709001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110900",
+		"id": 110930,
+		"jobLevel": 3,
+		"model": 110900,
+		"powerRatio": 13000,
+		"rawHero": 110900,
+		"skills": {
+			"1": 709000,
+			"2": 709100,
+			"3": 709300
+		}
+	},
+	"110931": {
+		"commSkill": 709001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110900",
+		"id": 110931,
+		"jobLevel": 3,
+		"model": 110900,
+		"powerRatio": 13000,
+		"rawHero": 110900,
+		"skills": {
+			"1": 709000,
+			"2": 709100,
+			"3": 709310
+		}
+	},
+	"110940": {
+		"commSkill": 709001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110900",
+		"id": 110940,
+		"jobLevel": 4,
+		"model": 110900,
+		"powerRatio": 14000,
+		"rawHero": 110900,
+		"skills": {
+			"1": 709000,
+			"2": 709100,
+			"3": 709300,
+			"4": 709400
+		}
+	},
+	"110941": {
+		"commSkill": 709001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110900",
+		"id": 110941,
+		"jobLevel": 4,
+		"model": 110900,
+		"powerRatio": 14000,
+		"rawHero": 110900,
+		"skills": {
+			"1": 709000,
+			"2": 709100,
+			"3": 709310,
+			"4": 709410
+		}
+	},
+	"110942": {
+		"commSkill": 709001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110900",
+		"id": 110942,
+		"jobLevel": 4,
+		"model": 110900,
+		"powerRatio": 14000,
+		"rawHero": 110900,
+		"skills": {
+			"1": 709000,
+			"2": 709100,
+			"3": 709420
+		}
+	},
+	"110950": {
+		"commSkill": 709001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110900",
+		"id": 110950,
+		"jobLevel": 5,
+		"model": 110900,
+		"powerRatio": 15000,
+		"rawHero": 110900,
+		"skills": {
+			"1": 709000,
+			"2": 709100,
+			"3": 709300,
+			"4": 709500
+		}
+	},
+	"110951": {
+		"commSkill": 709001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110900",
+		"id": 110951,
+		"jobLevel": 5,
+		"model": 110900,
+		"powerRatio": 15000,
+		"rawHero": 110900,
+		"skills": {
+			"1": 709000,
+			"2": 709100,
+			"3": 709310,
+			"4": 709510
+		}
+	},
+	"110952": {
+		"commSkill": 709001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110900",
+		"id": 110952,
+		"jobLevel": 5,
+		"model": 110900,
+		"powerRatio": 15000,
+		"rawHero": 110900,
+		"skills": {
+			"1": 709000,
+			"2": 709100,
+			"3": 709520
+		}
+	},
+	"120000": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120000,
+		"jobLevel": 0,
+		"model": 120000,
+		"powerRatio": 10000,
+		"rawHero": 120000
+	},
+	"120010": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120010,
+		"jobLevel": 1,
+		"model": 120000,
+		"powerRatio": 11000,
+		"rawHero": 120000
+	},
+	"120020": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120020,
+		"jobLevel": 2,
+		"model": 120000,
+		"powerRatio": 12000,
+		"rawHero": 120000
+	},
+	"120021": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120021,
+		"jobLevel": 2,
+		"model": 120000,
+		"powerRatio": 12000,
+		"rawHero": 120000
+	},
+	"120030": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120030,
+		"jobLevel": 3,
+		"model": 120000,
+		"powerRatio": 13000,
+		"rawHero": 120000
+	},
+	"120031": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120031,
+		"jobLevel": 3,
+		"model": 120000,
+		"powerRatio": 13000,
+		"rawHero": 120000
+	},
+	"120040": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120040,
+		"jobLevel": 4,
+		"model": 120000,
+		"powerRatio": 14000,
+		"rawHero": 120000
+	},
+	"120041": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120041,
+		"jobLevel": 4,
+		"model": 120000,
+		"powerRatio": 14000,
+		"rawHero": 120000
+	},
+	"120042": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120042,
+		"jobLevel": 4,
+		"model": 120000,
+		"powerRatio": 14000,
+		"rawHero": 120000
+	},
+	"120050": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120050,
+		"jobLevel": 5,
+		"model": 120000,
+		"powerRatio": 15000,
+		"rawHero": 120000
+	},
+	"120051": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120051,
+		"jobLevel": 5,
+		"model": 120000,
+		"powerRatio": 15000,
+		"rawHero": 120000
+	},
+	"120052": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120052,
+		"jobLevel": 5,
+		"model": 120000,
+		"powerRatio": 15000,
+		"rawHero": 120000
+	},
+	"120100": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120100,
+		"jobLevel": 0,
+		"model": 120100,
+		"powerRatio": 10000,
+		"rawHero": 120100
+	},
+	"120110": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120110,
+		"jobLevel": 1,
+		"model": 120100,
+		"powerRatio": 11000,
+		"rawHero": 120100
+	},
+	"120120": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120120,
+		"jobLevel": 2,
+		"model": 120100,
+		"powerRatio": 12000,
+		"rawHero": 120100
+	},
+	"120121": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120121,
+		"jobLevel": 2,
+		"model": 120100,
+		"powerRatio": 12000,
+		"rawHero": 120100
+	},
+	"120130": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120130,
+		"jobLevel": 3,
+		"model": 120100,
+		"powerRatio": 13000,
+		"rawHero": 120100
+	},
+	"120131": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120131,
+		"jobLevel": 3,
+		"model": 120100,
+		"powerRatio": 13000,
+		"rawHero": 120100
+	},
+	"120140": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120140,
+		"jobLevel": 4,
+		"model": 120100,
+		"powerRatio": 14000,
+		"rawHero": 120100
+	},
+	"120141": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120141,
+		"jobLevel": 4,
+		"model": 120100,
+		"powerRatio": 14000,
+		"rawHero": 120100
+	},
+	"120142": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120142,
+		"jobLevel": 4,
+		"model": 120100,
+		"powerRatio": 14000,
+		"rawHero": 120100
+	},
+	"120150": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120150,
+		"jobLevel": 5,
+		"model": 120100,
+		"powerRatio": 15000,
+		"rawHero": 120100
+	},
+	"120151": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120151,
+		"jobLevel": 5,
+		"model": 120100,
+		"powerRatio": 15000,
+		"rawHero": 120100
+	},
+	"120152": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 120152,
+		"jobLevel": 5,
+		"model": 120100,
+		"powerRatio": 15000,
+		"rawHero": 120100
+	},
+	"120200": {
+		"commSkill": 802001,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon120200",
+		"id": 120200,
+		"jobLevel": 0,
+		"model": 120200,
+		"powerRatio": 10000,
+		"rawHero": 120200,
+		"skills": {
+			"1": 802000
+		}
+	},
+	"120210": {
+		"commSkill": 802001,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon120200",
+		"id": 120210,
+		"jobLevel": 1,
+		"model": 120200,
+		"powerRatio": 11000,
+		"rawHero": 120200,
+		"skills": {
+			"1": 802000,
+			"2": 802100,
+			"3": 802101
+		}
+	},
+	"120220": {
+		"commSkill": 802001,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon120200",
+		"id": 120220,
+		"jobLevel": 2,
+		"model": 120200,
+		"powerRatio": 12000,
+		"rawHero": 120200,
+		"skills": {
+			"1": 802000,
+			"2": 802100,
+			"3": 802101,
+			"4": 802200
+		}
+	},
+	"120221": {
+		"commSkill": 802001,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon120200",
+		"id": 120221,
+		"jobLevel": 2,
+		"model": 120200,
+		"powerRatio": 12000,
+		"rawHero": 120200,
+		"skills": {
+			"1": 802000,
+			"2": 802100,
+			"3": 802101,
+			"4": 802210
+		}
+	},
+	"120230": {
+		"commSkill": 802001,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon120200",
+		"id": 120230,
+		"jobLevel": 3,
+		"model": 120200,
+		"powerRatio": 13000,
+		"rawHero": 120200,
+		"skills": {
+			"1": 802000,
+			"2": 802100,
+			"3": 802101,
+			"4": 802300
+		}
+	},
+	"120231": {
+		"commSkill": 802001,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon120200",
+		"id": 120231,
+		"jobLevel": 3,
+		"model": 120200,
+		"powerRatio": 13000,
+		"rawHero": 120200,
+		"skills": {
+			"1": 802000,
+			"2": 802100,
+			"3": 802101,
+			"4": 802310
+		}
+	},
+	"120240": {
+		"commSkill": 802001,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon120200",
+		"id": 120240,
+		"jobLevel": 4,
+		"model": 120200,
+		"powerRatio": 14000,
+		"rawHero": 120200,
+		"skills": {
+			"1": 802000,
+			"2": 802100,
+			"3": 802101,
+			"4": 802400
+		}
+	},
+	"120241": {
+		"commSkill": 802001,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon120200",
+		"id": 120241,
+		"jobLevel": 4,
+		"model": 120200,
+		"powerRatio": 14000,
+		"rawHero": 120200,
+		"skills": {
+			"1": 802000,
+			"2": 802100,
+			"3": 802101,
+			"4": 802410
+		}
+	},
+	"120242": {
+		"commSkill": 802001,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon120200",
+		"id": 120242,
+		"jobLevel": 4,
+		"model": 120200,
+		"powerRatio": 14000,
+		"rawHero": 120200,
+		"skills": {
+			"1": 802000,
+			"2": 802100,
+			"3": 802101,
+			"4": 802420,
+			"5": 802421,
+			"6": 802422
+		}
+	},
+	"120250": {
+		"commSkill": 802001,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon120200",
+		"id": 120250,
+		"jobLevel": 5,
+		"model": 120200,
+		"powerRatio": 15000,
+		"rawHero": 120200,
+		"skills": {
+			"1": 802000,
+			"2": 802100,
+			"3": 802101,
+			"4": 802500
+		}
+	},
+	"120251": {
+		"commSkill": 802001,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon120200",
+		"id": 120251,
+		"jobLevel": 5,
+		"model": 120200,
+		"powerRatio": 15000,
+		"rawHero": 120200,
+		"skills": {
+			"1": 802000,
+			"2": 802100,
+			"3": 802101,
+			"4": 802510
+		}
+	},
+	"120252": {
+		"commSkill": 802001,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon120200",
+		"id": 120252,
+		"jobLevel": 5,
+		"model": 120200,
+		"powerRatio": 15000,
+		"rawHero": 120200,
+		"skills": {
+			"1": 802000,
+			"2": 802100,
+			"3": 802101,
+			"4": 802420,
+			"5": 802520
+		}
+	},
+	"120300": {
+		"commSkill": 803001,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120300",
+		"id": 120300,
+		"jobLevel": 0,
+		"model": 120300,
+		"powerRatio": 10000,
+		"rawHero": 120300,
+		"skills": {
+			"1": 803000
+		}
+	},
+	"120310": {
+		"commSkill": 803001,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120300",
+		"id": 120310,
+		"jobLevel": 1,
+		"model": 120300,
+		"powerRatio": 11000,
+		"rawHero": 120300,
+		"skills": {
+			"1": 803000,
+			"2": 803100
+		}
+	},
+	"120320": {
+		"commSkill": 803001,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120300",
+		"id": 120320,
+		"jobLevel": 2,
+		"model": 120300,
+		"powerRatio": 12000,
+		"rawHero": 120300,
+		"skills": {
+			"1": 803000,
+			"2": 803100,
+			"3": 803200
+		}
+	},
+	"120321": {
+		"commSkill": 803001,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120300",
+		"id": 120321,
+		"jobLevel": 2,
+		"model": 120300,
+		"powerRatio": 12000,
+		"rawHero": 120300,
+		"skills": {
+			"1": 803000,
+			"2": 803100,
+			"3": 803210
+		}
+	},
+	"120330": {
+		"commSkill": 803001,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120300",
+		"id": 120330,
+		"jobLevel": 3,
+		"model": 120300,
+		"powerRatio": 13000,
+		"rawHero": 120300,
+		"skills": {
+			"1": 803000,
+			"2": 803100,
+			"3": 803300
+		}
+	},
+	"120331": {
+		"commSkill": 803001,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120300",
+		"id": 120331,
+		"jobLevel": 3,
+		"model": 120300,
+		"powerRatio": 13000,
+		"rawHero": 120300,
+		"skills": {
+			"1": 803000,
+			"2": 803100,
+			"3": 803310
+		}
+	},
+	"120340": {
+		"commSkill": 803001,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120300",
+		"id": 120340,
+		"jobLevel": 4,
+		"model": 120300,
+		"powerRatio": 14000,
+		"rawHero": 120300,
+		"skills": {
+			"1": 803000,
+			"2": 803100,
+			"3": 803300,
+			"4": 803400
+		}
+	},
+	"120341": {
+		"commSkill": 803001,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120300",
+		"id": 120341,
+		"jobLevel": 4,
+		"model": 120300,
+		"powerRatio": 14000,
+		"rawHero": 120300,
+		"skills": {
+			"1": 803000,
+			"2": 803100,
+			"3": 803310,
+			"4": 803410
+		}
+	},
+	"120342": {
+		"commSkill": 803001,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120300",
+		"id": 120342,
+		"jobLevel": 4,
+		"model": 120300,
+		"powerRatio": 14000,
+		"rawHero": 120300,
+		"skills": {
+			"1": 803000,
+			"2": 803100,
+			"3": 803420
+		}
+	},
+	"120350": {
+		"commSkill": 803001,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120300",
+		"id": 120350,
+		"jobLevel": 5,
+		"model": 120300,
+		"powerRatio": 15000,
+		"rawHero": 120300,
+		"skills": {
+			"1": 803000,
+			"2": 803100,
+			"3": 803300,
+			"4": 803500
+		}
+	},
+	"120351": {
+		"commSkill": 803001,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120300",
+		"id": 120351,
+		"jobLevel": 5,
+		"model": 120300,
+		"powerRatio": 15000,
+		"rawHero": 120300,
+		"skills": {
+			"1": 803000,
+			"2": 803100,
+			"3": 803310,
+			"4": 803510
+		}
+	},
+	"120352": {
+		"commSkill": 803001,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120300",
+		"id": 120352,
+		"jobLevel": 5,
+		"model": 120300,
+		"powerRatio": 15000,
+		"rawHero": 120300,
+		"skills": {
+			"1": 803000,
+			"2": 803100,
+			"3": 803520
+		}
+	},
+	"120400": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120400",
+		"id": 120400,
+		"jobLevel": 0,
+		"model": 120400,
+		"powerRatio": 10000,
+		"rawHero": 120400
+	},
+	"120410": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120400",
+		"id": 120410,
+		"jobLevel": 1,
+		"model": 120400,
+		"powerRatio": 11000,
+		"rawHero": 120400
+	},
+	"120420": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120400",
+		"id": 120420,
+		"jobLevel": 2,
+		"model": 120400,
+		"powerRatio": 12000,
+		"rawHero": 120400
+	},
+	"120421": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120400",
+		"id": 120421,
+		"jobLevel": 2,
+		"model": 120400,
+		"powerRatio": 12000,
+		"rawHero": 120400
+	},
+	"120430": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120400",
+		"id": 120430,
+		"jobLevel": 3,
+		"model": 120400,
+		"powerRatio": 13000,
+		"rawHero": 120400
+	},
+	"120431": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120400",
+		"id": 120431,
+		"jobLevel": 3,
+		"model": 120400,
+		"powerRatio": 13000,
+		"rawHero": 120400
+	},
+	"120440": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120400",
+		"id": 120440,
+		"jobLevel": 4,
+		"model": 120400,
+		"powerRatio": 14000,
+		"rawHero": 120400
+	},
+	"120441": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120400",
+		"id": 120441,
+		"jobLevel": 4,
+		"model": 120400,
+		"powerRatio": 14000,
+		"rawHero": 120400
+	},
+	"120442": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120400",
+		"id": 120442,
+		"jobLevel": 4,
+		"model": 120400,
+		"powerRatio": 14000,
+		"rawHero": 120400
+	},
+	"120450": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120400",
+		"id": 120450,
+		"jobLevel": 5,
+		"model": 120400,
+		"powerRatio": 15000,
+		"rawHero": 120400
+	},
+	"120451": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120400",
+		"id": 120451,
+		"jobLevel": 5,
+		"model": 120400,
+		"powerRatio": 15000,
+		"rawHero": 120400
+	},
+	"120452": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120400",
+		"id": 120452,
+		"jobLevel": 5,
+		"model": 120400,
+		"powerRatio": 15000,
+		"rawHero": 120400
+	},
+	"120500": {
+		"icon": "hIcon120000",
+		"id": 120500,
+		"jobLevel": 0,
+		"model": 120500,
+		"powerRatio": 10000,
+		"rawHero": 120500
+	},
+	"120510": {
+		"icon": "hIcon120000",
+		"id": 120510,
+		"jobLevel": 1,
+		"model": 120500,
+		"powerRatio": 11000,
+		"rawHero": 120500
+	},
+	"120520": {
+		"icon": "hIcon120000",
+		"id": 120520,
+		"jobLevel": 2,
+		"model": 120500,
+		"powerRatio": 12000,
+		"rawHero": 120500
+	},
+	"120521": {
+		"icon": "hIcon120000",
+		"id": 120521,
+		"jobLevel": 2,
+		"model": 120500,
+		"powerRatio": 12000,
+		"rawHero": 120500
+	},
+	"120530": {
+		"icon": "hIcon120000",
+		"id": 120530,
+		"jobLevel": 3,
+		"model": 120500,
+		"powerRatio": 13000,
+		"rawHero": 120500
+	},
+	"120531": {
+		"icon": "hIcon120000",
+		"id": 120531,
+		"jobLevel": 3,
+		"model": 120500,
+		"powerRatio": 13000,
+		"rawHero": 120500
+	},
+	"120540": {
+		"icon": "hIcon120000",
+		"id": 120540,
+		"jobLevel": 4,
+		"model": 120500,
+		"powerRatio": 14000,
+		"rawHero": 120500
+	},
+	"120541": {
+		"icon": "hIcon120000",
+		"id": 120541,
+		"jobLevel": 4,
+		"model": 120500,
+		"powerRatio": 14000,
+		"rawHero": 120500
+	},
+	"120542": {
+		"icon": "hIcon120000",
+		"id": 120542,
+		"jobLevel": 4,
+		"model": 120500,
+		"powerRatio": 14000,
+		"rawHero": 120500
+	},
+	"120550": {
+		"icon": "hIcon120000",
+		"id": 120550,
+		"jobLevel": 5,
+		"model": 120500,
+		"powerRatio": 15000,
+		"rawHero": 120500
+	},
+	"120551": {
+		"icon": "hIcon120000",
+		"id": 120551,
+		"jobLevel": 5,
+		"model": 120500,
+		"powerRatio": 15000,
+		"rawHero": 120500
+	},
+	"120552": {
+		"icon": "hIcon120000",
+		"id": 120552,
+		"jobLevel": 5,
+		"model": 120500,
+		"powerRatio": 15000,
+		"rawHero": 120500
+	},
+	"120600": {
+		"commSkill": 806002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120600",
+		"id": 120600,
+		"jobLevel": 0,
+		"model": 120600,
+		"powerRatio": 10000,
+		"rawHero": 120600,
+		"skills": {
+			"1": 806000
+		}
+	},
+	"120610": {
+		"commSkill": 806002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120600",
+		"id": 120610,
+		"jobLevel": 1,
+		"model": 120600,
+		"powerRatio": 11000,
+		"rawHero": 120600,
+		"skills": {
+			"1": 806000,
+			"2": 806001,
+			"3": 806100
+		}
+	},
+	"120620": {
+		"commSkill": 806002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120600",
+		"id": 120620,
+		"jobLevel": 2,
+		"model": 120600,
+		"powerRatio": 12000,
+		"rawHero": 120600,
+		"skills": {
+			"1": 806000,
+			"2": 806001,
+			"3": 806100,
+			"4": 806200
+		}
+	},
+	"120621": {
+		"commSkill": 806002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120600",
+		"id": 120621,
+		"jobLevel": 2,
+		"model": 120600,
+		"powerRatio": 12000,
+		"rawHero": 120600,
+		"skills": {
+			"1": 806000,
+			"2": 806001,
+			"3": 806100,
+			"4": 806210
+		}
+	},
+	"120630": {
+		"commSkill": 806002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120600",
+		"id": 120630,
+		"jobLevel": 3,
+		"model": 120600,
+		"powerRatio": 13000,
+		"rawHero": 120600,
+		"skills": {
+			"1": 806000,
+			"2": 806001,
+			"3": 806100,
+			"4": 806300
+		}
+	},
+	"120631": {
+		"commSkill": 806002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120600",
+		"id": 120631,
+		"jobLevel": 3,
+		"model": 120600,
+		"powerRatio": 13000,
+		"rawHero": 120600,
+		"skills": {
+			"1": 806000,
+			"2": 806001,
+			"3": 806100,
+			"4": 806310
+		}
+	},
+	"120640": {
+		"commSkill": 806002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120600",
+		"id": 120640,
+		"jobLevel": 4,
+		"model": 120600,
+		"powerRatio": 14000,
+		"rawHero": 120600,
+		"skills": {
+			"1": 806000,
+			"2": 806001,
+			"3": 806100,
+			"4": 806300,
+			"5": 806400
+		}
+	},
+	"120641": {
+		"commSkill": 806002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120600",
+		"id": 120641,
+		"jobLevel": 4,
+		"model": 120600,
+		"powerRatio": 14000,
+		"rawHero": 120600,
+		"skills": {
+			"1": 806000,
+			"2": 806001,
+			"3": 806100,
+			"4": 806310,
+			"5": 806410
+		}
+	},
+	"120642": {
+		"commSkill": 806422,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120600",
+		"id": 120642,
+		"jobLevel": 4,
+		"model": 120600,
+		"powerRatio": 14000,
+		"rawHero": 120600,
+		"skills": {
+			"1": 806421,
+			"2": 806001,
+			"3": 806100,
+			"4": 806420
+		}
+	},
+	"120650": {
+		"commSkill": 806002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120600",
+		"id": 120650,
+		"jobLevel": 5,
+		"model": 120600,
+		"powerRatio": 15000,
+		"rawHero": 120600,
+		"skills": {
+			"1": 806000,
+			"2": 806001,
+			"3": 806100,
+			"4": 806300,
+			"5": 806500
+		}
+	},
+	"120651": {
+		"commSkill": 806002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120600",
+		"id": 120651,
+		"jobLevel": 5,
+		"model": 120600,
+		"powerRatio": 15000,
+		"rawHero": 120600,
+		"skills": {
+			"1": 806000,
+			"2": 806001,
+			"3": 806100,
+			"4": 806310,
+			"5": 806510
+		}
+	},
+	"120652": {
+		"commSkill": 806422,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120600",
+		"id": 120652,
+		"jobLevel": 5,
+		"model": 120600,
+		"powerRatio": 15000,
+		"rawHero": 120600,
+		"skills": {
+			"1": 806421,
+			"2": 806001,
+			"3": 806100,
+			"4": 806520
+		}
+	},
+	"120700": {
+		"icon": "hIcon120000",
+		"id": 120700,
+		"jobLevel": 0,
+		"model": 120700,
+		"powerRatio": 10000,
+		"rawHero": 120700
+	},
+	"120710": {
+		"icon": "hIcon120000",
+		"id": 120710,
+		"jobLevel": 1,
+		"model": 120700,
+		"powerRatio": 11000,
+		"rawHero": 120700
+	},
+	"120720": {
+		"icon": "hIcon120000",
+		"id": 120720,
+		"jobLevel": 2,
+		"model": 120700,
+		"powerRatio": 12000,
+		"rawHero": 120700
+	},
+	"120721": {
+		"icon": "hIcon120000",
+		"id": 120721,
+		"jobLevel": 2,
+		"model": 120700,
+		"powerRatio": 12000,
+		"rawHero": 120700
+	},
+	"120730": {
+		"icon": "hIcon120000",
+		"id": 120730,
+		"jobLevel": 3,
+		"model": 120700,
+		"powerRatio": 13000,
+		"rawHero": 120700
+	},
+	"120731": {
+		"icon": "hIcon120000",
+		"id": 120731,
+		"jobLevel": 3,
+		"model": 120700,
+		"powerRatio": 13000,
+		"rawHero": 120700
+	},
+	"120740": {
+		"icon": "hIcon120000",
+		"id": 120740,
+		"jobLevel": 4,
+		"model": 120700,
+		"powerRatio": 14000,
+		"rawHero": 120700
+	},
+	"120741": {
+		"icon": "hIcon120000",
+		"id": 120741,
+		"jobLevel": 4,
+		"model": 120700,
+		"powerRatio": 14000,
+		"rawHero": 120700
+	},
+	"120742": {
+		"icon": "hIcon120000",
+		"id": 120742,
+		"jobLevel": 4,
+		"model": 120700,
+		"powerRatio": 14000,
+		"rawHero": 120700
+	},
+	"120750": {
+		"icon": "hIcon120000",
+		"id": 120750,
+		"jobLevel": 5,
+		"model": 120700,
+		"powerRatio": 15000,
+		"rawHero": 120700
+	},
+	"120751": {
+		"icon": "hIcon120000",
+		"id": 120751,
+		"jobLevel": 5,
+		"model": 120700,
+		"powerRatio": 15000,
+		"rawHero": 120700
+	},
+	"120752": {
+		"icon": "hIcon120000",
+		"id": 120752,
+		"jobLevel": 5,
+		"model": 120700,
+		"powerRatio": 15000,
+		"rawHero": 120700
+	},
+	"120800": {
+		"icon": "hIcon120000",
+		"id": 120800,
+		"jobLevel": 0,
+		"model": 120800,
+		"powerRatio": 10000,
+		"rawHero": 120800
+	},
+	"120810": {
+		"icon": "hIcon120000",
+		"id": 120810,
+		"jobLevel": 1,
+		"model": 120800,
+		"powerRatio": 11000,
+		"rawHero": 120800
+	},
+	"120820": {
+		"icon": "hIcon120000",
+		"id": 120820,
+		"jobLevel": 2,
+		"model": 120800,
+		"powerRatio": 12000,
+		"rawHero": 120800
+	},
+	"120821": {
+		"icon": "hIcon120000",
+		"id": 120821,
+		"jobLevel": 2,
+		"model": 120800,
+		"powerRatio": 12000,
+		"rawHero": 120800
+	},
+	"120830": {
+		"icon": "hIcon120000",
+		"id": 120830,
+		"jobLevel": 3,
+		"model": 120800,
+		"powerRatio": 13000,
+		"rawHero": 120800
+	},
+	"120831": {
+		"icon": "hIcon120000",
+		"id": 120831,
+		"jobLevel": 3,
+		"model": 120800,
+		"powerRatio": 13000,
+		"rawHero": 120800
+	},
+	"120840": {
+		"icon": "hIcon120000",
+		"id": 120840,
+		"jobLevel": 4,
+		"model": 120800,
+		"powerRatio": 14000,
+		"rawHero": 120800
+	},
+	"120841": {
+		"icon": "hIcon120000",
+		"id": 120841,
+		"jobLevel": 4,
+		"model": 120800,
+		"powerRatio": 14000,
+		"rawHero": 120800
+	},
+	"120842": {
+		"icon": "hIcon120000",
+		"id": 120842,
+		"jobLevel": 4,
+		"model": 120800,
+		"powerRatio": 14000,
+		"rawHero": 120800
+	},
+	"120850": {
+		"icon": "hIcon120000",
+		"id": 120850,
+		"jobLevel": 5,
+		"model": 120800,
+		"powerRatio": 15000,
+		"rawHero": 120800
+	},
+	"120851": {
+		"icon": "hIcon120000",
+		"id": 120851,
+		"jobLevel": 5,
+		"model": 120800,
+		"powerRatio": 15000,
+		"rawHero": 120800
+	},
+	"120852": {
+		"icon": "hIcon120000",
+		"id": 120852,
+		"jobLevel": 5,
+		"model": 120800,
+		"powerRatio": 15000,
+		"rawHero": 120800
+	},
+	"120900": {
+		"commSkill": 809002,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120900",
+		"id": 120900,
+		"jobLevel": 0,
+		"model": 120900,
+		"powerRatio": 10000,
+		"rawHero": 120900,
+		"skills": {
+			"1": 809000
+		}
+	},
+	"120910": {
+		"commSkill": 809002,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120900",
+		"id": 120910,
+		"jobLevel": 1,
+		"model": 120900,
+		"powerRatio": 11000,
+		"rawHero": 120900,
+		"skills": {
+			"1": 809000,
+			"2": 809001,
+			"3": 809110
+		}
+	},
+	"120920": {
+		"commSkill": 809002,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120900",
+		"id": 120920,
+		"jobLevel": 2,
+		"model": 120900,
+		"powerRatio": 12000,
+		"rawHero": 120900,
+		"skills": {
+			"1": 809200,
+			"2": 809001,
+			"3": 809100
+		}
+	},
+	"120921": {
+		"commSkill": 809002,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120900",
+		"id": 120921,
+		"jobLevel": 2,
+		"model": 120900,
+		"powerRatio": 12000,
+		"rawHero": 120900,
+		"skills": {
+			"1": 809000,
+			"2": 809001,
+			"3": 809210
+		}
+	},
+	"120930": {
+		"commSkill": 809002,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120900",
+		"id": 120930,
+		"jobLevel": 3,
+		"model": 120900,
+		"powerRatio": 13000,
+		"rawHero": 120900,
+		"skills": {
+			"1": 809300,
+			"2": 809001,
+			"3": 809100
+		}
+	},
+	"120931": {
+		"commSkill": 809002,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120900",
+		"id": 120931,
+		"jobLevel": 3,
+		"model": 120900,
+		"powerRatio": 13000,
+		"rawHero": 120900,
+		"skills": {
+			"1": 809000,
+			"2": 809001,
+			"3": 809310
+		}
+	},
+	"120940": {
+		"commSkill": 809002,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120900",
+		"id": 120940,
+		"jobLevel": 4,
+		"model": 120900,
+		"powerRatio": 14000,
+		"rawHero": 120900,
+		"skills": {
+			"1": 809400,
+			"2": 809401,
+			"3": 809001,
+			"4": 809100
+		}
+	},
+	"120941": {
+		"commSkill": 809002,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120900",
+		"id": 120941,
+		"jobLevel": 4,
+		"model": 120900,
+		"powerRatio": 14000,
+		"rawHero": 120900,
+		"skills": {
+			"1": 809000,
+			"2": 809001,
+			"3": 809310,
+			"4": 809410
+		}
+	},
+	"120942": {
+		"commSkill": 809002,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120900",
+		"id": 120942,
+		"jobLevel": 4,
+		"model": 120900,
+		"powerRatio": 14000,
+		"rawHero": 120900,
+		"skills": {
+			"1": 809000,
+			"2": 809001,
+			"3": 809110,
+			"4": 809420
+		}
+	},
+	"120950": {
+		"commSkill": 809002,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120900",
+		"id": 120950,
+		"jobLevel": 5,
+		"model": 120900,
+		"powerRatio": 15000,
+		"rawHero": 120900,
+		"skills": {
+			"1": 809500,
+			"2": 809401,
+			"3": 809001,
+			"4": 809100
+		}
+	},
+	"120951": {
+		"commSkill": 809002,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120900",
+		"id": 120951,
+		"jobLevel": 5,
+		"model": 120900,
+		"powerRatio": 15000,
+		"rawHero": 120900,
+		"skills": {
+			"1": 809000,
+			"2": 809001,
+			"3": 809310,
+			"4": 809510
+		}
+	},
+	"120952": {
+		"commSkill": 809002,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120900",
+		"id": 120952,
+		"jobLevel": 5,
+		"model": 120900,
+		"powerRatio": 15000,
+		"rawHero": 120900,
+		"skills": {
+			"1": 809000,
+			"2": 809001,
+			"3": 809110,
+			"4": 809520
+		}
+	},
+	"130000": {
+		"icon": "hIcon130100",
+		"id": 130000,
+		"jobLevel": 0,
+		"model": 130000,
+		"powerRatio": 10000,
+		"rawHero": 130000
+	},
+	"130010": {
+		"icon": "hIcon130100",
+		"id": 130010,
+		"jobLevel": 1,
+		"model": 130000,
+		"powerRatio": 11000,
+		"rawHero": 130000
+	},
+	"130020": {
+		"icon": "hIcon130100",
+		"id": 130020,
+		"jobLevel": 2,
+		"model": 130000,
+		"powerRatio": 12000,
+		"rawHero": 130000
+	},
+	"130021": {
+		"icon": "hIcon130100",
+		"id": 130021,
+		"jobLevel": 2,
+		"model": 130000,
+		"powerRatio": 12000,
+		"rawHero": 130000
+	},
+	"130030": {
+		"icon": "hIcon130100",
+		"id": 130030,
+		"jobLevel": 3,
+		"model": 130000,
+		"powerRatio": 13000,
+		"rawHero": 130000
+	},
+	"130031": {
+		"icon": "hIcon130100",
+		"id": 130031,
+		"jobLevel": 3,
+		"model": 130000,
+		"powerRatio": 13000,
+		"rawHero": 130000
+	},
+	"130040": {
+		"icon": "hIcon130100",
+		"id": 130040,
+		"jobLevel": 4,
+		"model": 130000,
+		"powerRatio": 14000,
+		"rawHero": 130000
+	},
+	"130041": {
+		"icon": "hIcon130100",
+		"id": 130041,
+		"jobLevel": 4,
+		"model": 130000,
+		"powerRatio": 14000,
+		"rawHero": 130000
+	},
+	"130042": {
+		"icon": "hIcon130100",
+		"id": 130042,
+		"jobLevel": 4,
+		"model": 130000,
+		"powerRatio": 14000,
+		"rawHero": 130000
+	},
+	"130050": {
+		"icon": "hIcon130100",
+		"id": 130050,
+		"jobLevel": 5,
+		"model": 130000,
+		"powerRatio": 15000,
+		"rawHero": 130000
+	},
+	"130051": {
+		"icon": "hIcon130100",
+		"id": 130051,
+		"jobLevel": 5,
+		"model": 130000,
+		"powerRatio": 15000,
+		"rawHero": 130000
+	},
+	"130052": {
+		"icon": "hIcon130100",
+		"id": 130052,
+		"jobLevel": 5,
+		"model": 130000,
+		"powerRatio": 15000,
+		"rawHero": 130000
+	},
+	"130100": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon130100",
+		"id": 130100,
+		"jobLevel": 0,
+		"model": 130100,
+		"powerRatio": 10000,
+		"rawHero": 130100,
+		"skills": {
+			"1": 14005
+		}
+	},
+	"130110": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon130100",
+		"id": 130110,
+		"jobLevel": 1,
+		"model": 130100,
+		"powerRatio": 11000,
+		"rawHero": 130100,
+		"skills": {
+			"1": 14005
+		}
+	},
+	"130120": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon130100",
+		"id": 130120,
+		"jobLevel": 2,
+		"model": 130100,
+		"powerRatio": 12000,
+		"rawHero": 130100,
+		"skills": {
+			"1": 14005
+		}
+	},
+	"130121": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon130100",
+		"id": 130121,
+		"jobLevel": 2,
+		"model": 130100,
+		"powerRatio": 12000,
+		"rawHero": 130100,
+		"skills": {
+			"1": 14005
+		}
+	},
+	"130130": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon130100",
+		"id": 130130,
+		"jobLevel": 3,
+		"model": 130100,
+		"powerRatio": 13000,
+		"rawHero": 130100,
+		"skills": {
+			"1": 14005
+		}
+	},
+	"130131": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon130100",
+		"id": 130131,
+		"jobLevel": 3,
+		"model": 130100,
+		"powerRatio": 13000,
+		"rawHero": 130100,
+		"skills": {
+			"1": 14005
+		}
+	},
+	"130140": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon130100",
+		"id": 130140,
+		"jobLevel": 4,
+		"model": 130100,
+		"powerRatio": 14000,
+		"rawHero": 130100,
+		"skills": {
+			"1": 14005
+		}
+	},
+	"130141": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon130100",
+		"id": 130141,
+		"jobLevel": 4,
+		"model": 130100,
+		"powerRatio": 14000,
+		"rawHero": 130100,
+		"skills": {
+			"1": 14005
+		}
+	},
+	"130142": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon130100",
+		"id": 130142,
+		"jobLevel": 4,
+		"model": 130100,
+		"powerRatio": 14000,
+		"rawHero": 130100,
+		"skills": {
+			"1": 14005
+		}
+	},
+	"130150": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon130100",
+		"id": 130150,
+		"jobLevel": 5,
+		"model": 130100,
+		"powerRatio": 15000,
+		"rawHero": 130100,
+		"skills": {
+			"1": 14005
+		}
+	},
+	"130151": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon130100",
+		"id": 130151,
+		"jobLevel": 5,
+		"model": 130100,
+		"powerRatio": 15000,
+		"rawHero": 130100,
+		"skills": {
+			"1": 14005
+		}
+	},
+	"130152": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon130100",
+		"id": 130152,
+		"jobLevel": 5,
+		"model": 130100,
+		"powerRatio": 15000,
+		"rawHero": 130100,
+		"skills": {
+			"1": 14005
+		}
+	},
+	"130200": {
+		"commSkill": 902000,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon130200",
+		"id": 130200,
+		"jobLevel": 0,
+		"model": 130200,
+		"powerRatio": 10000,
+		"rawHero": 130200,
+		"skills": {
+			"1": 902002
+		}
+	},
+	"130210": {
+		"commSkill": 902000,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon130200",
+		"id": 130210,
+		"jobLevel": 1,
+		"model": 130200,
+		"powerRatio": 11000,
+		"rawHero": 130200,
+		"skills": {
+			"1": 902002,
+			"2": 902100
+		}
+	},
+	"130220": {
+		"commSkill": 902000,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon130200",
+		"id": 130220,
+		"jobLevel": 2,
+		"model": 130200,
+		"powerRatio": 12000,
+		"rawHero": 130200,
+		"skills": {
+			"1": 902002,
+			"2": 902100,
+			"3": 902200,
+			"4": 902201
+		}
+	},
+	"130221": {
+		"commSkill": 902000,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon130200",
+		"id": 130221,
+		"jobLevel": 2,
+		"model": 130200,
+		"powerRatio": 12000,
+		"rawHero": 130200,
+		"skills": {
+			"1": 902002,
+			"2": 902100,
+			"3": 902210,
+			"4": 902211
+		}
+	},
+	"130230": {
+		"commSkill": 902000,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon130200",
+		"id": 130230,
+		"jobLevel": 3,
+		"model": 130200,
+		"powerRatio": 13000,
+		"rawHero": 130200,
+		"skills": {
+			"1": 902002,
+			"2": 902100,
+			"3": 902200,
+			"4": 902300
+		}
+	},
+	"130231": {
+		"commSkill": 902000,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon130200",
+		"id": 130231,
+		"jobLevel": 3,
+		"model": 130200,
+		"powerRatio": 13000,
+		"rawHero": 130200,
+		"skills": {
+			"1": 902002,
+			"2": 902100,
+			"3": 902210,
+			"4": 902310
+		}
+	},
+	"130240": {
+		"commSkill": 902000,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon130200",
+		"id": 130240,
+		"jobLevel": 4,
+		"model": 130200,
+		"powerRatio": 14000,
+		"rawHero": 130200,
+		"skills": {
+			"1": 902401,
+			"2": 902002,
+			"3": 902100,
+			"4": 902200,
+			"5": 902300,
+			"6": 902400
+		}
+	},
+	"130241": {
+		"commSkill": 902000,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon130200",
+		"id": 130241,
+		"jobLevel": 4,
+		"model": 130200,
+		"powerRatio": 14000,
+		"rawHero": 130200,
+		"skills": {
+			"1": 902002,
+			"2": 902100,
+			"3": 902210,
+			"4": 902310,
+			"5": 902410
+		}
+	},
+	"130242": {
+		"commSkill": 902000,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon130200",
+		"id": 130242,
+		"jobLevel": 4,
+		"model": 130200,
+		"powerRatio": 14000,
+		"rawHero": 130200,
+		"skills": {
+			"1": 902421,
+			"2": 902002,
+			"3": 902420,
+			"4": 902422
+		}
+	},
+	"130250": {
+		"commSkill": 902000,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon130200",
+		"id": 130250,
+		"jobLevel": 5,
+		"model": 130200,
+		"powerRatio": 15000,
+		"rawHero": 130200,
+		"skills": {
+			"1": 902401,
+			"2": 902002,
+			"3": 902100,
+			"4": 902200,
+			"5": 902300,
+			"6": 902500
+		}
+	},
+	"130251": {
+		"commSkill": 902000,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon130200",
+		"id": 130251,
+		"jobLevel": 5,
+		"model": 130200,
+		"powerRatio": 15000,
+		"rawHero": 130200,
+		"skills": {
+			"1": 902002,
+			"2": 902100,
+			"3": 902210,
+			"4": 902310,
+			"5": 902510
+		}
+	},
+	"130252": {
+		"commSkill": 902000,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon130200",
+		"id": 130252,
+		"jobLevel": 5,
+		"model": 130200,
+		"powerRatio": 15000,
+		"rawHero": 130200,
+		"skills": {
+			"1": 902421,
+			"2": 902002,
+			"3": 902520,
+			"4": 902422
+		}
+	},
+	"130300": {
+		"icon": "hIcon130100",
+		"id": 130300,
+		"jobLevel": 0,
+		"model": 130300,
+		"powerRatio": 10000,
+		"rawHero": 130300
+	},
+	"130310": {
+		"icon": "hIcon130100",
+		"id": 130310,
+		"jobLevel": 1,
+		"model": 130300,
+		"powerRatio": 11000,
+		"rawHero": 130300
+	},
+	"130320": {
+		"icon": "hIcon130100",
+		"id": 130320,
+		"jobLevel": 2,
+		"model": 130300,
+		"powerRatio": 12000,
+		"rawHero": 130300
+	},
+	"130321": {
+		"icon": "hIcon130100",
+		"id": 130321,
+		"jobLevel": 2,
+		"model": 130300,
+		"powerRatio": 12000,
+		"rawHero": 130300
+	},
+	"130330": {
+		"icon": "hIcon130100",
+		"id": 130330,
+		"jobLevel": 3,
+		"model": 130300,
+		"powerRatio": 13000,
+		"rawHero": 130300
+	},
+	"130331": {
+		"icon": "hIcon130100",
+		"id": 130331,
+		"jobLevel": 3,
+		"model": 130300,
+		"powerRatio": 13000,
+		"rawHero": 130300
+	},
+	"130340": {
+		"icon": "hIcon130100",
+		"id": 130340,
+		"jobLevel": 4,
+		"model": 130300,
+		"powerRatio": 14000,
+		"rawHero": 130300
+	},
+	"130341": {
+		"icon": "hIcon130100",
+		"id": 130341,
+		"jobLevel": 4,
+		"model": 130300,
+		"powerRatio": 14000,
+		"rawHero": 130300
+	},
+	"130342": {
+		"icon": "hIcon130100",
+		"id": 130342,
+		"jobLevel": 4,
+		"model": 130300,
+		"powerRatio": 14000,
+		"rawHero": 130300
+	},
+	"130350": {
+		"icon": "hIcon130100",
+		"id": 130350,
+		"jobLevel": 5,
+		"model": 130300,
+		"powerRatio": 15000,
+		"rawHero": 130300
+	},
+	"130351": {
+		"icon": "hIcon130100",
+		"id": 130351,
+		"jobLevel": 5,
+		"model": 130300,
+		"powerRatio": 15000,
+		"rawHero": 130300
+	},
+	"130352": {
+		"icon": "hIcon130100",
+		"id": 130352,
+		"jobLevel": 5,
+		"model": 130300,
+		"powerRatio": 15000,
+		"rawHero": 130300
+	},
+	"130400": {
+		"commSkill": 904002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130400",
+		"id": 130400,
+		"jobLevel": 0,
+		"model": 130400,
+		"powerRatio": 10000,
+		"rawHero": 130400,
+		"skills": {
+			"1": 904000
+		}
+	},
+	"130410": {
+		"commSkill": 904002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130400",
+		"id": 130410,
+		"jobLevel": 1,
+		"model": 130400,
+		"powerRatio": 11000,
+		"rawHero": 130400,
+		"skills": {
+			"1": 904000,
+			"2": 904001,
+			"3": 904100
+		}
+	},
+	"130420": {
+		"commSkill": 904002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130400",
+		"id": 130420,
+		"jobLevel": 2,
+		"model": 130400,
+		"powerRatio": 12000,
+		"rawHero": 130400,
+		"skills": {
+			"1": 904200,
+			"2": 904001,
+			"3": 904100,
+			"4": 904201,
+			"5": 904202
+		}
+	},
+	"130421": {
+		"commSkill": 904002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130400",
+		"id": 130421,
+		"jobLevel": 2,
+		"model": 130400,
+		"powerRatio": 12000,
+		"rawHero": 130400,
+		"skills": {
+			"1": 904210,
+			"2": 904001,
+			"3": 904100,
+			"4": 904211
+		}
+	},
+	"130430": {
+		"commSkill": 904002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130400",
+		"id": 130430,
+		"jobLevel": 3,
+		"model": 130400,
+		"powerRatio": 13000,
+		"rawHero": 130400,
+		"skills": {
+			"1": 904200,
+			"2": 904001,
+			"3": 904100,
+			"4": 904300,
+			"5": 904301
+		}
+	},
+	"130431": {
+		"commSkill": 904002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130400",
+		"id": 130431,
+		"jobLevel": 3,
+		"model": 130400,
+		"powerRatio": 13000,
+		"rawHero": 130400,
+		"skills": {
+			"1": 904210,
+			"2": 904001,
+			"3": 904100,
+			"4": 904310
+		}
+	},
+	"130440": {
+		"commSkill": 904002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130400",
+		"id": 130440,
+		"jobLevel": 4,
+		"model": 130400,
+		"powerRatio": 14000,
+		"rawHero": 130400,
+		"skills": {
+			"1": 904400,
+			"2": 904001,
+			"3": 904100,
+			"4": 904401
+		}
+	},
+	"130441": {
+		"commSkill": 904002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130400",
+		"id": 130441,
+		"jobLevel": 4,
+		"model": 130400,
+		"powerRatio": 14000,
+		"rawHero": 130400,
+		"skills": {
+			"1": 904410,
+			"2": 904001,
+			"3": 904100,
+			"4": 904310,
+			"5": 904411
+		}
+	},
+	"130442": {
+		"commSkill": 904002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130400",
+		"id": 130442,
+		"jobLevel": 4,
+		"model": 130400,
+		"powerRatio": 14000,
+		"rawHero": 130400,
+		"skills": {
+			"1": 904000,
+			"2": 904001,
+			"3": 904420,
+			"4": 904421
+		}
+	},
+	"130450": {
+		"commSkill": 904002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130400",
+		"id": 130450,
+		"jobLevel": 5,
+		"model": 130400,
+		"powerRatio": 15000,
+		"rawHero": 130400,
+		"skills": {
+			"1": 904400,
+			"2": 904001,
+			"3": 904100,
+			"4": 904500
+		}
+	},
+	"130451": {
+		"commSkill": 904002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130400",
+		"id": 130451,
+		"jobLevel": 5,
+		"model": 130400,
+		"powerRatio": 15000,
+		"rawHero": 130400,
+		"skills": {
+			"1": 904410,
+			"2": 904001,
+			"3": 904100,
+			"4": 904310,
+			"5": 904510
+		}
+	},
+	"130452": {
+		"commSkill": 904002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130400",
+		"id": 130452,
+		"jobLevel": 5,
+		"model": 130400,
+		"powerRatio": 15000,
+		"rawHero": 130400,
+		"skills": {
+			"1": 904000,
+			"2": 904001,
+			"3": 904520,
+			"4": 904521
+		}
+	},
+	"130500": {
+		"commSkill": 905001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130500",
+		"id": 130500,
+		"jobLevel": 0,
+		"model": 130500,
+		"powerRatio": 10000,
+		"rawHero": 130500,
+		"skills": {
+			"1": 905000
+		}
+	},
+	"130510": {
+		"commSkill": 905001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130500",
+		"id": 130510,
+		"jobLevel": 1,
+		"model": 130500,
+		"powerRatio": 11000,
+		"rawHero": 130500,
+		"skills": {
+			"1": 905100
+		}
+	},
+	"130520": {
+		"commSkill": 905001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130500",
+		"id": 130520,
+		"jobLevel": 2,
+		"model": 130500,
+		"powerRatio": 12000,
+		"rawHero": 130500,
+		"skills": {
+			"1": 905100,
+			"2": 905200
+		}
+	},
+	"130521": {
+		"commSkill": 905001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130500",
+		"id": 130521,
+		"jobLevel": 2,
+		"model": 130500,
+		"powerRatio": 12000,
+		"rawHero": 130500,
+		"skills": {
+			"1": 905100,
+			"2": 905210,
+			"3": 905211
+		}
+	},
+	"130530": {
+		"commSkill": 905001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130500",
+		"id": 130530,
+		"jobLevel": 3,
+		"model": 130500,
+		"powerRatio": 13000,
+		"rawHero": 130500,
+		"skills": {
+			"1": 905100,
+			"2": 905300
+		}
+	},
+	"130531": {
+		"commSkill": 905001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130500",
+		"id": 130531,
+		"jobLevel": 3,
+		"model": 130500,
+		"powerRatio": 13000,
+		"rawHero": 130500,
+		"skills": {
+			"1": 905100,
+			"2": 905210,
+			"3": 905310
+		}
+	},
+	"130540": {
+		"commSkill": 905001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130500",
+		"id": 130540,
+		"jobLevel": 4,
+		"model": 130500,
+		"powerRatio": 14000,
+		"rawHero": 130500,
+		"skills": {
+			"1": 905100,
+			"2": 905300,
+			"3": 905400
+		}
+	},
+	"130541": {
+		"commSkill": 905001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130500",
+		"id": 130541,
+		"jobLevel": 4,
+		"model": 130500,
+		"powerRatio": 14000,
+		"rawHero": 130500,
+		"skills": {
+			"1": 905100,
+			"2": 905210,
+			"3": 905410
+		}
+	},
+	"130542": {
+		"commSkill": 905001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130500",
+		"id": 130542,
+		"jobLevel": 4,
+		"model": 130500,
+		"powerRatio": 14000,
+		"rawHero": 130500,
+		"skills": {
+			"1": 905100,
+			"2": 905420,
+			"3": 905421
+		}
+	},
+	"130550": {
+		"commSkill": 905001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130500",
+		"id": 130550,
+		"jobLevel": 5,
+		"model": 130500,
+		"powerRatio": 15000,
+		"rawHero": 130500,
+		"skills": {
+			"1": 905100,
+			"2": 905300,
+			"3": 905500
+		}
+	},
+	"130551": {
+		"commSkill": 905001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130500",
+		"id": 130551,
+		"jobLevel": 5,
+		"model": 130500,
+		"powerRatio": 15000,
+		"rawHero": 130500,
+		"skills": {
+			"1": 905100,
+			"2": 905210,
+			"3": 905510
+		}
+	},
+	"130552": {
+		"commSkill": 905001,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130500",
+		"id": 130552,
+		"jobLevel": 5,
+		"model": 130500,
+		"powerRatio": 15000,
+		"rawHero": 130500,
+		"skills": {
+			"1": 905100,
+			"2": 905520,
+			"3": 905521
+		}
+	},
+	"130600": {
+		"commSkill": 906001,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon130600",
+		"id": 130600,
+		"jobLevel": 0,
+		"model": 130600,
+		"powerRatio": 10000,
+		"rawHero": 130600,
+		"skills": {
+			"1": 906000
+		}
+	},
+	"130610": {
+		"commSkill": 906001,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon130600",
+		"id": 130610,
+		"jobLevel": 1,
+		"model": 130600,
+		"powerRatio": 11000,
+		"rawHero": 130600,
+		"skills": {
+			"1": 906000,
+			"2": 906100
+		}
+	},
+	"130620": {
+		"commSkill": 906001,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon130600",
+		"id": 130620,
+		"jobLevel": 2,
+		"model": 130600,
+		"powerRatio": 12000,
+		"rawHero": 130600,
+		"skills": {
+			"1": 906200,
+			"2": 906100
+		}
+	},
+	"130621": {
+		"commSkill": 906001,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon130600",
+		"id": 130621,
+		"jobLevel": 2,
+		"model": 130600,
+		"powerRatio": 12000,
+		"rawHero": 130600,
+		"skills": {
+			"1": 906210,
+			"2": 906100
+		}
+	},
+	"130630": {
+		"commSkill": 906001,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon130600",
+		"id": 130630,
+		"jobLevel": 3,
+		"model": 130600,
+		"powerRatio": 13000,
+		"rawHero": 130600,
+		"skills": {
+			"1": 906300,
+			"2": 906100
+		}
+	},
+	"130631": {
+		"commSkill": 906001,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon130600",
+		"id": 130631,
+		"jobLevel": 3,
+		"model": 130600,
+		"powerRatio": 13000,
+		"rawHero": 130600,
+		"skills": {
+			"1": 906310,
+			"2": 906100
+		}
+	},
+	"130640": {
+		"commSkill": 906001,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon130600",
+		"id": 130640,
+		"jobLevel": 4,
+		"model": 130600,
+		"powerRatio": 14000,
+		"rawHero": 130600,
+		"skills": {
+			"1": 906401,
+			"2": 906100,
+			"3": 906400
+		}
+	},
+	"130641": {
+		"commSkill": 906001,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon130600",
+		"id": 130641,
+		"jobLevel": 4,
+		"model": 130600,
+		"powerRatio": 14000,
+		"rawHero": 130600,
+		"skills": {
+			"1": 906310,
+			"2": 906100,
+			"3": 906410
+		}
+	},
+	"130642": {
+		"commSkill": 906001,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon130600",
+		"id": 130642,
+		"jobLevel": 4,
+		"model": 130600,
+		"powerRatio": 14000,
+		"rawHero": 130600,
+		"skills": {
+			"1": 906000,
+			"2": 906100,
+			"3": 906420
+		}
+	},
+	"130650": {
+		"commSkill": 906001,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon130600",
+		"id": 130650,
+		"jobLevel": 5,
+		"model": 130600,
+		"powerRatio": 15000,
+		"rawHero": 130600,
+		"skills": {
+			"1": 906401,
+			"2": 906100,
+			"3": 906500
+		}
+	},
+	"130651": {
+		"commSkill": 906001,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon130600",
+		"id": 130651,
+		"jobLevel": 5,
+		"model": 130600,
+		"powerRatio": 15000,
+		"rawHero": 130600,
+		"skills": {
+			"1": 906310,
+			"2": 906100,
+			"3": 906510
+		}
+	},
+	"130652": {
+		"commSkill": 906001,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon130600",
+		"id": 130652,
+		"jobLevel": 5,
+		"model": 130600,
+		"powerRatio": 15000,
+		"rawHero": 130600,
+		"skills": {
+			"1": 906000,
+			"2": 906100,
+			"3": 906520
+		}
+	},
+	"130700": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130700",
+		"id": 130700,
+		"jobLevel": 0,
+		"model": 130700,
+		"powerRatio": 10000,
+		"rawHero": 130700,
+		"skills": {
+			"1": 12006
+		}
+	},
+	"130710": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130700",
+		"id": 130710,
+		"jobLevel": 1,
+		"model": 130700,
+		"powerRatio": 11000,
+		"rawHero": 130700,
+		"skills": {
+			"1": 12006
+		}
+	},
+	"130720": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130700",
+		"id": 130720,
+		"jobLevel": 2,
+		"model": 130700,
+		"powerRatio": 12000,
+		"rawHero": 130700,
+		"skills": {
+			"1": 12006
+		}
+	},
+	"130721": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130700",
+		"id": 130721,
+		"jobLevel": 2,
+		"model": 130700,
+		"powerRatio": 12000,
+		"rawHero": 130700,
+		"skills": {
+			"1": 12006
+		}
+	},
+	"130730": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130700",
+		"id": 130730,
+		"jobLevel": 3,
+		"model": 130700,
+		"powerRatio": 13000,
+		"rawHero": 130700,
+		"skills": {
+			"1": 12006
+		}
+	},
+	"130731": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130700",
+		"id": 130731,
+		"jobLevel": 3,
+		"model": 130700,
+		"powerRatio": 13000,
+		"rawHero": 130700,
+		"skills": {
+			"1": 12006
+		}
+	},
+	"130740": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130700",
+		"id": 130740,
+		"jobLevel": 4,
+		"model": 130700,
+		"powerRatio": 14000,
+		"rawHero": 130700,
+		"skills": {
+			"1": 12006
+		}
+	},
+	"130741": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130700",
+		"id": 130741,
+		"jobLevel": 4,
+		"model": 130700,
+		"powerRatio": 14000,
+		"rawHero": 130700,
+		"skills": {
+			"1": 12006
+		}
+	},
+	"130742": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130700",
+		"id": 130742,
+		"jobLevel": 4,
+		"model": 130700,
+		"powerRatio": 14000,
+		"rawHero": 130700,
+		"skills": {
+			"1": 12006
+		}
+	},
+	"130750": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130700",
+		"id": 130750,
+		"jobLevel": 5,
+		"model": 130700,
+		"powerRatio": 15000,
+		"rawHero": 130700,
+		"skills": {
+			"1": 12006
+		}
+	},
+	"130751": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130700",
+		"id": 130751,
+		"jobLevel": 5,
+		"model": 130700,
+		"powerRatio": 15000,
+		"rawHero": 130700,
+		"skills": {
+			"1": 12006
+		}
+	},
+	"130752": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130700",
+		"id": 130752,
+		"jobLevel": 5,
+		"model": 130700,
+		"powerRatio": 15000,
+		"rawHero": 130700,
+		"skills": {
+			"1": 12006
+		}
+	},
+	"130800": {
+		"icon": "hIcon130100",
+		"id": 130800,
+		"jobLevel": 0,
+		"model": 130800,
+		"powerRatio": 10000,
+		"rawHero": 130800
+	},
+	"130810": {
+		"icon": "hIcon130100",
+		"id": 130810,
+		"jobLevel": 1,
+		"model": 130800,
+		"powerRatio": 11000,
+		"rawHero": 130800
+	},
+	"130820": {
+		"icon": "hIcon130100",
+		"id": 130820,
+		"jobLevel": 2,
+		"model": 130800,
+		"powerRatio": 12000,
+		"rawHero": 130800
+	},
+	"130821": {
+		"icon": "hIcon130100",
+		"id": 130821,
+		"jobLevel": 2,
+		"model": 130800,
+		"powerRatio": 12000,
+		"rawHero": 130800
+	},
+	"130830": {
+		"icon": "hIcon130100",
+		"id": 130830,
+		"jobLevel": 3,
+		"model": 130800,
+		"powerRatio": 13000,
+		"rawHero": 130800
+	},
+	"130831": {
+		"icon": "hIcon130100",
+		"id": 130831,
+		"jobLevel": 3,
+		"model": 130800,
+		"powerRatio": 13000,
+		"rawHero": 130800
+	},
+	"130840": {
+		"icon": "hIcon130100",
+		"id": 130840,
+		"jobLevel": 4,
+		"model": 130800,
+		"powerRatio": 14000,
+		"rawHero": 130800
+	},
+	"130841": {
+		"icon": "hIcon130100",
+		"id": 130841,
+		"jobLevel": 4,
+		"model": 130800,
+		"powerRatio": 14000,
+		"rawHero": 130800
+	},
+	"130842": {
+		"icon": "hIcon130100",
+		"id": 130842,
+		"jobLevel": 4,
+		"model": 130800,
+		"powerRatio": 14000,
+		"rawHero": 130800
+	},
+	"130850": {
+		"icon": "hIcon130100",
+		"id": 130850,
+		"jobLevel": 5,
+		"model": 130800,
+		"powerRatio": 15000,
+		"rawHero": 130800
+	},
+	"130851": {
+		"icon": "hIcon130100",
+		"id": 130851,
+		"jobLevel": 5,
+		"model": 130800,
+		"powerRatio": 15000,
+		"rawHero": 130800
+	},
+	"130852": {
+		"icon": "hIcon130100",
+		"id": 130852,
+		"jobLevel": 5,
+		"model": 130800,
+		"powerRatio": 15000,
+		"rawHero": 130800
+	},
+	"130900": {
+		"icon": "hIcon130100",
+		"id": 130900,
+		"jobLevel": 0,
+		"model": 130900,
+		"powerRatio": 10000,
+		"rawHero": 130900
+	},
+	"130910": {
+		"icon": "hIcon130100",
+		"id": 130910,
+		"jobLevel": 1,
+		"model": 130900,
+		"powerRatio": 11000,
+		"rawHero": 130900
+	},
+	"130920": {
+		"icon": "hIcon130100",
+		"id": 130920,
+		"jobLevel": 2,
+		"model": 130900,
+		"powerRatio": 12000,
+		"rawHero": 130900
+	},
+	"130921": {
+		"icon": "hIcon130100",
+		"id": 130921,
+		"jobLevel": 2,
+		"model": 130900,
+		"powerRatio": 12000,
+		"rawHero": 130900
+	},
+	"130930": {
+		"icon": "hIcon130100",
+		"id": 130930,
+		"jobLevel": 3,
+		"model": 130900,
+		"powerRatio": 13000,
+		"rawHero": 130900
+	},
+	"130931": {
+		"icon": "hIcon130100",
+		"id": 130931,
+		"jobLevel": 3,
+		"model": 130900,
+		"powerRatio": 13000,
+		"rawHero": 130900
+	},
+	"130940": {
+		"icon": "hIcon130100",
+		"id": 130940,
+		"jobLevel": 4,
+		"model": 130900,
+		"powerRatio": 14000,
+		"rawHero": 130900
+	},
+	"130941": {
+		"icon": "hIcon130100",
+		"id": 130941,
+		"jobLevel": 4,
+		"model": 130900,
+		"powerRatio": 14000,
+		"rawHero": 130900
+	},
+	"130942": {
+		"icon": "hIcon130100",
+		"id": 130942,
+		"jobLevel": 4,
+		"model": 130900,
+		"powerRatio": 14000,
+		"rawHero": 130900
+	},
+	"130950": {
+		"icon": "hIcon130100",
+		"id": 130950,
+		"jobLevel": 5,
+		"model": 130900,
+		"powerRatio": 15000,
+		"rawHero": 130900
+	},
+	"130951": {
+		"icon": "hIcon130100",
+		"id": 130951,
+		"jobLevel": 5,
+		"model": 130900,
+		"powerRatio": 15000,
+		"rawHero": 130900
+	},
+	"130952": {
+		"icon": "hIcon130100",
+		"id": 130952,
+		"jobLevel": 5,
+		"model": 130900,
+		"powerRatio": 15000,
+		"rawHero": 130900
+	},
+	"200000": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100000",
+		"id": 200000,
+		"jobLevel": 1,
+		"model": 100000,
+		"powerRatio": 10000,
+		"rawHero": 100000
+	},
+	"200001": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 200001,
+		"jobLevel": 1,
+		"model": 100100,
+		"powerRatio": 11000,
+		"rawHero": 100100,
+		"skills": {
+			"1": 12014,
+			"2": 12015,
+			"3": 14005,
+			"4": 12017
+		}
+	},
+	"200002": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 200002,
+		"jobLevel": 1,
+		"model": 100200,
+		"powerRatio": 12000,
+		"rawHero": 100200
+	},
+	"200003": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 4
+		},
+		"icon": "hIcon100100",
+		"id": 200003,
+		"jobLevel": 1,
+		"model": 100600,
+		"powerRatio": 12000,
+		"rawHero": 100600
+	},
+	"200004": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon100100",
+		"id": 200004,
+		"jobLevel": 1,
+		"model": 100900,
+		"powerRatio": 13000,
+		"rawHero": 100900
+	},
+	"200005": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon110100",
+		"id": 200005,
+		"jobLevel": 1,
+		"model": 110100,
+		"powerRatio": 13000,
+		"rawHero": 110100
+	},
+	"200006": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110100",
+		"id": 200006,
+		"jobLevel": 1,
+		"model": 110300,
+		"powerRatio": 14000,
+		"rawHero": 110300
+	},
+	"200007": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110800",
+		"id": 200007,
+		"jobLevel": 1,
+		"model": 110800,
+		"powerRatio": 14000,
+		"rawHero": 110800
+	},
+	"200008": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon110900",
+		"id": 200008,
+		"jobLevel": 1,
+		"model": 110900,
+		"powerRatio": 14000,
+		"rawHero": 110900
+	},
+	"200009": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120000",
+		"id": 200009,
+		"jobLevel": 1,
+		"model": 120000,
+		"powerRatio": 15000,
+		"rawHero": 120000
+	},
+	"200010": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon120200",
+		"id": 200010,
+		"jobLevel": 1,
+		"model": 120200,
+		"powerRatio": 15000,
+		"rawHero": 120200,
+		"skills": {
+			"1": 802000,
+			"2": 12016,
+			"3": 12017,
+			"4": 13025
+		}
+	},
+	"200011": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120000",
+		"id": 200011,
+		"jobLevel": 1,
+		"model": 120400,
+		"powerRatio": 15000,
+		"rawHero": 120400
+	},
+	"200012": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon120600",
+		"id": 200012,
+		"jobLevel": 1,
+		"model": 120600,
+		"powerRatio": 10000,
+		"rawHero": 120600,
+		"skills": {
+			"1": 10011,
+			"2": 10012,
+			"3": 12017
+		}
+	},
+	"200013": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon120000",
+		"id": 200013,
+		"jobLevel": 1,
+		"model": 120900,
+		"powerRatio": 11000,
+		"rawHero": 120900,
+		"skills": {
+			"1": 13027,
+			"2": 13028,
+			"3": 12017
+		}
+	},
+	"200014": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon130100",
+		"id": 200014,
+		"jobLevel": 1,
+		"model": 130100,
+		"powerRatio": 12000,
+		"rawHero": 130100,
+		"skills": {
+			"1": 13026,
+			"2": 11017,
+			"3": 12003,
+			"4": 12019,
+			"5": 12017
+		}
+	},
+	"200015": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 4
+		},
+		"icon": "hIcon130100",
+		"id": 200015,
+		"jobLevel": 1,
+		"model": 130200,
+		"powerRatio": 12000,
+		"rawHero": 130200
+	},
+	"200016": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130100",
+		"id": 200016,
+		"jobLevel": 1,
+		"model": 130400,
+		"powerRatio": 13000,
+		"rawHero": 130400
+	},
+	"200017": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130500",
+		"id": 200017,
+		"jobLevel": 1,
+		"model": 130500,
+		"powerRatio": 13000,
+		"rawHero": 130500
+	},
+	"200018": {
+		"commSkill": 10006,
+		"feature": {
+			"1": 2,
+			"2": 3
+		},
+		"icon": "hIcon130600",
+		"id": 200018,
+		"jobLevel": 1,
+		"model": 130600,
+		"powerRatio": 14000,
+		"rawHero": 130600
+	},
+	"200019": {
+		"commSkill": 10002,
+		"feature": {
+			"1": 1,
+			"2": 3
+		},
+		"icon": "hIcon130700",
+		"id": 200019,
+		"jobLevel": 1,
+		"model": 130700,
+		"powerRatio": 14000,
+		"rawHero": 130700
+	}
+}

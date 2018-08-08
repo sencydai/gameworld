@@ -1,0 +1,3842 @@
+{
+	"100000": {
+		"id": 100000,
+		"monster": {
+			"id": 100000,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100010": {
+		"id": 100010,
+		"monster": {
+			"id": 100010,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100020": {
+		"id": 100020,
+		"monster": {
+			"id": 100020,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100021": {
+		"id": 100021,
+		"monster": {
+			"id": 100021,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100030": {
+		"id": 100030,
+		"monster": {
+			"id": 100030,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100031": {
+		"id": 100031,
+		"monster": {
+			"id": 100031,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100040": {
+		"id": 100040,
+		"monster": {
+			"id": 100040,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100041": {
+		"id": 100041,
+		"monster": {
+			"id": 100041,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100042": {
+		"id": 100042,
+		"monster": {
+			"id": 100042,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100050": {
+		"id": 100050,
+		"monster": {
+			"id": 100050,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100051": {
+		"id": 100051,
+		"monster": {
+			"id": 100051,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100052": {
+		"id": 100052,
+		"monster": {
+			"id": 100052,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100100": {
+		"id": 100100,
+		"monster": {
+			"id": 100100,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100110": {
+		"id": 100110,
+		"monster": {
+			"id": 100110,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100120": {
+		"id": 100120,
+		"monster": {
+			"id": 100120,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100121": {
+		"id": 100121,
+		"monster": {
+			"id": 100121,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100130": {
+		"id": 100130,
+		"monster": {
+			"id": 100130,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100131": {
+		"id": 100131,
+		"monster": {
+			"id": 100131,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100140": {
+		"id": 100140,
+		"monster": {
+			"id": 100140,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100141": {
+		"id": 100141,
+		"monster": {
+			"id": 100141,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100142": {
+		"id": 100142,
+		"monster": {
+			"id": 100142,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100150": {
+		"id": 100150,
+		"monster": {
+			"id": 100150,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100151": {
+		"id": 100151,
+		"monster": {
+			"id": 100151,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100152": {
+		"id": 100152,
+		"monster": {
+			"id": 100152,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100200": {
+		"id": 100200,
+		"monster": {
+			"id": 100200,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100210": {
+		"id": 100210,
+		"monster": {
+			"id": 100210,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100220": {
+		"id": 100220,
+		"monster": {
+			"id": 100220,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100221": {
+		"id": 100221,
+		"monster": {
+			"id": 100221,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100230": {
+		"id": 100230,
+		"monster": {
+			"id": 100230,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100231": {
+		"id": 100231,
+		"monster": {
+			"id": 100231,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100240": {
+		"id": 100240,
+		"monster": {
+			"id": 100240,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100241": {
+		"id": 100241,
+		"monster": {
+			"id": 100241,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100242": {
+		"id": 100242,
+		"monster": {
+			"id": 100242,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100250": {
+		"id": 100250,
+		"monster": {
+			"id": 100250,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100251": {
+		"id": 100251,
+		"monster": {
+			"id": 100251,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100252": {
+		"id": 100252,
+		"monster": {
+			"id": 100252,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100300": {
+		"id": 100300,
+		"monster": {
+			"id": 100300,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100310": {
+		"id": 100310,
+		"monster": {
+			"id": 100310,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100320": {
+		"id": 100320,
+		"monster": {
+			"id": 100320,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100321": {
+		"id": 100321,
+		"monster": {
+			"id": 100321,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100330": {
+		"id": 100330,
+		"monster": {
+			"id": 100330,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100331": {
+		"id": 100331,
+		"monster": {
+			"id": 100331,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100340": {
+		"id": 100340,
+		"monster": {
+			"id": 100340,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100341": {
+		"id": 100341,
+		"monster": {
+			"id": 100341,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100342": {
+		"id": 100342,
+		"monster": {
+			"id": 100342,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100350": {
+		"id": 100350,
+		"monster": {
+			"id": 100350,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100351": {
+		"id": 100351,
+		"monster": {
+			"id": 100351,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100352": {
+		"id": 100352,
+		"monster": {
+			"id": 100352,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100400": {
+		"id": 100400,
+		"monster": {
+			"id": 100400,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100410": {
+		"id": 100410,
+		"monster": {
+			"id": 100410,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100420": {
+		"id": 100420,
+		"monster": {
+			"id": 100420,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100421": {
+		"id": 100421,
+		"monster": {
+			"id": 100421,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100430": {
+		"id": 100430,
+		"monster": {
+			"id": 100430,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100431": {
+		"id": 100431,
+		"monster": {
+			"id": 100431,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100440": {
+		"id": 100440,
+		"monster": {
+			"id": 100440,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100441": {
+		"id": 100441,
+		"monster": {
+			"id": 100441,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100442": {
+		"id": 100442,
+		"monster": {
+			"id": 100442,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100450": {
+		"id": 100450,
+		"monster": {
+			"id": 100450,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100451": {
+		"id": 100451,
+		"monster": {
+			"id": 100451,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100452": {
+		"id": 100452,
+		"monster": {
+			"id": 100452,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100500": {
+		"id": 100500,
+		"monster": {
+			"id": 100500,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100510": {
+		"id": 100510,
+		"monster": {
+			"id": 100510,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100520": {
+		"id": 100520,
+		"monster": {
+			"id": 100520,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100521": {
+		"id": 100521,
+		"monster": {
+			"id": 100521,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100530": {
+		"id": 100530,
+		"monster": {
+			"id": 100530,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100531": {
+		"id": 100531,
+		"monster": {
+			"id": 100531,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100540": {
+		"id": 100540,
+		"monster": {
+			"id": 100540,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100541": {
+		"id": 100541,
+		"monster": {
+			"id": 100541,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100542": {
+		"id": 100542,
+		"monster": {
+			"id": 100542,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100550": {
+		"id": 100550,
+		"monster": {
+			"id": 100550,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100551": {
+		"id": 100551,
+		"monster": {
+			"id": 100551,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100552": {
+		"id": 100552,
+		"monster": {
+			"id": 100552,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100600": {
+		"id": 100600,
+		"monster": {
+			"id": 100600,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100610": {
+		"id": 100610,
+		"monster": {
+			"id": 100610,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100620": {
+		"id": 100620,
+		"monster": {
+			"id": 100620,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100621": {
+		"id": 100621,
+		"monster": {
+			"id": 100621,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100630": {
+		"id": 100630,
+		"monster": {
+			"id": 100630,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100631": {
+		"id": 100631,
+		"monster": {
+			"id": 100631,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100640": {
+		"id": 100640,
+		"monster": {
+			"id": 100640,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100641": {
+		"id": 100641,
+		"monster": {
+			"id": 100641,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100642": {
+		"id": 100642,
+		"monster": {
+			"id": 100642,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100650": {
+		"id": 100650,
+		"monster": {
+			"id": 100650,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100651": {
+		"id": 100651,
+		"monster": {
+			"id": 100651,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100652": {
+		"id": 100652,
+		"monster": {
+			"id": 100652,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100700": {
+		"id": 100700,
+		"monster": {
+			"id": 100700,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100710": {
+		"id": 100710,
+		"monster": {
+			"id": 100710,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100720": {
+		"id": 100720,
+		"monster": {
+			"id": 100720,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100721": {
+		"id": 100721,
+		"monster": {
+			"id": 100721,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100730": {
+		"id": 100730,
+		"monster": {
+			"id": 100730,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100731": {
+		"id": 100731,
+		"monster": {
+			"id": 100731,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100740": {
+		"id": 100740,
+		"monster": {
+			"id": 100740,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100741": {
+		"id": 100741,
+		"monster": {
+			"id": 100741,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100742": {
+		"id": 100742,
+		"monster": {
+			"id": 100742,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100750": {
+		"id": 100750,
+		"monster": {
+			"id": 100750,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100751": {
+		"id": 100751,
+		"monster": {
+			"id": 100751,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100752": {
+		"id": 100752,
+		"monster": {
+			"id": 100752,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100800": {
+		"id": 100800,
+		"monster": {
+			"id": 100800,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100810": {
+		"id": 100810,
+		"monster": {
+			"id": 100810,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100820": {
+		"id": 100820,
+		"monster": {
+			"id": 100820,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100821": {
+		"id": 100821,
+		"monster": {
+			"id": 100821,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100830": {
+		"id": 100830,
+		"monster": {
+			"id": 100830,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100831": {
+		"id": 100831,
+		"monster": {
+			"id": 100831,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100840": {
+		"id": 100840,
+		"monster": {
+			"id": 100840,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100841": {
+		"id": 100841,
+		"monster": {
+			"id": 100841,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100842": {
+		"id": 100842,
+		"monster": {
+			"id": 100842,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100850": {
+		"id": 100850,
+		"monster": {
+			"id": 100850,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100851": {
+		"id": 100851,
+		"monster": {
+			"id": 100851,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100852": {
+		"id": 100852,
+		"monster": {
+			"id": 100852,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100900": {
+		"id": 100900,
+		"monster": {
+			"id": 100900,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100910": {
+		"id": 100910,
+		"monster": {
+			"id": 100910,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100920": {
+		"id": 100920,
+		"monster": {
+			"id": 100920,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100921": {
+		"id": 100921,
+		"monster": {
+			"id": 100921,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100930": {
+		"id": 100930,
+		"monster": {
+			"id": 100930,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100931": {
+		"id": 100931,
+		"monster": {
+			"id": 100931,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100940": {
+		"id": 100940,
+		"monster": {
+			"id": 100940,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100941": {
+		"id": 100941,
+		"monster": {
+			"id": 100941,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100942": {
+		"id": 100942,
+		"monster": {
+			"id": 100942,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100950": {
+		"id": 100950,
+		"monster": {
+			"id": 100950,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100951": {
+		"id": 100951,
+		"monster": {
+			"id": 100951,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"100952": {
+		"id": 100952,
+		"monster": {
+			"id": 100952,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110000": {
+		"id": 110000,
+		"monster": {
+			"id": 110000,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110010": {
+		"id": 110010,
+		"monster": {
+			"id": 110010,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110020": {
+		"id": 110020,
+		"monster": {
+			"id": 110020,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110021": {
+		"id": 110021,
+		"monster": {
+			"id": 110021,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110030": {
+		"id": 110030,
+		"monster": {
+			"id": 110030,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110031": {
+		"id": 110031,
+		"monster": {
+			"id": 110031,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110040": {
+		"id": 110040,
+		"monster": {
+			"id": 110040,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110041": {
+		"id": 110041,
+		"monster": {
+			"id": 110041,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110042": {
+		"id": 110042,
+		"monster": {
+			"id": 110042,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110050": {
+		"id": 110050,
+		"monster": {
+			"id": 110050,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110051": {
+		"id": 110051,
+		"monster": {
+			"id": 110051,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110052": {
+		"id": 110052,
+		"monster": {
+			"id": 110052,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110100": {
+		"id": 110100,
+		"monster": {
+			"id": 110100,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110110": {
+		"id": 110110,
+		"monster": {
+			"id": 110110,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110120": {
+		"id": 110120,
+		"monster": {
+			"id": 110120,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110121": {
+		"id": 110121,
+		"monster": {
+			"id": 110121,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110130": {
+		"id": 110130,
+		"monster": {
+			"id": 110130,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110131": {
+		"id": 110131,
+		"monster": {
+			"id": 110131,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110140": {
+		"id": 110140,
+		"monster": {
+			"id": 110140,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110141": {
+		"id": 110141,
+		"monster": {
+			"id": 110141,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110142": {
+		"id": 110142,
+		"monster": {
+			"id": 110142,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110150": {
+		"id": 110150,
+		"monster": {
+			"id": 110150,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110151": {
+		"id": 110151,
+		"monster": {
+			"id": 110151,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110152": {
+		"id": 110152,
+		"monster": {
+			"id": 110152,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110200": {
+		"id": 110200,
+		"monster": {
+			"id": 110200,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110210": {
+		"id": 110210,
+		"monster": {
+			"id": 110210,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110220": {
+		"id": 110220,
+		"monster": {
+			"id": 110220,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110221": {
+		"id": 110221,
+		"monster": {
+			"id": 110221,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110230": {
+		"id": 110230,
+		"monster": {
+			"id": 110230,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110231": {
+		"id": 110231,
+		"monster": {
+			"id": 110231,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110240": {
+		"id": 110240,
+		"monster": {
+			"id": 110240,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110241": {
+		"id": 110241,
+		"monster": {
+			"id": 110241,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110242": {
+		"id": 110242,
+		"monster": {
+			"id": 110242,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110250": {
+		"id": 110250,
+		"monster": {
+			"id": 110250,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110251": {
+		"id": 110251,
+		"monster": {
+			"id": 110251,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110252": {
+		"id": 110252,
+		"monster": {
+			"id": 110252,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110300": {
+		"id": 110300,
+		"monster": {
+			"id": 110300,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110310": {
+		"id": 110310,
+		"monster": {
+			"id": 110310,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110320": {
+		"id": 110320,
+		"monster": {
+			"id": 110320,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110321": {
+		"id": 110321,
+		"monster": {
+			"id": 110321,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110330": {
+		"id": 110330,
+		"monster": {
+			"id": 110330,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110331": {
+		"id": 110331,
+		"monster": {
+			"id": 110331,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110340": {
+		"id": 110340,
+		"monster": {
+			"id": 110340,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110341": {
+		"id": 110341,
+		"monster": {
+			"id": 110341,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110342": {
+		"id": 110342,
+		"monster": {
+			"id": 110342,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110350": {
+		"id": 110350,
+		"monster": {
+			"id": 110350,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110351": {
+		"id": 110351,
+		"monster": {
+			"id": 110351,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110352": {
+		"id": 110352,
+		"monster": {
+			"id": 110352,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110400": {
+		"id": 110400,
+		"monster": {
+			"id": 110400,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110410": {
+		"id": 110410,
+		"monster": {
+			"id": 110410,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110420": {
+		"id": 110420,
+		"monster": {
+			"id": 110420,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110421": {
+		"id": 110421,
+		"monster": {
+			"id": 110421,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110430": {
+		"id": 110430,
+		"monster": {
+			"id": 110430,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110431": {
+		"id": 110431,
+		"monster": {
+			"id": 110431,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110440": {
+		"id": 110440,
+		"monster": {
+			"id": 110440,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110441": {
+		"id": 110441,
+		"monster": {
+			"id": 110441,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110442": {
+		"id": 110442,
+		"monster": {
+			"id": 110442,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110450": {
+		"id": 110450,
+		"monster": {
+			"id": 110450,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110451": {
+		"id": 110451,
+		"monster": {
+			"id": 110451,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110452": {
+		"id": 110452,
+		"monster": {
+			"id": 110452,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110500": {
+		"id": 110500,
+		"monster": {
+			"id": 110500,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110510": {
+		"id": 110510,
+		"monster": {
+			"id": 110510,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110520": {
+		"id": 110520,
+		"monster": {
+			"id": 110520,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110521": {
+		"id": 110521,
+		"monster": {
+			"id": 110521,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110530": {
+		"id": 110530,
+		"monster": {
+			"id": 110530,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110531": {
+		"id": 110531,
+		"monster": {
+			"id": 110531,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110540": {
+		"id": 110540,
+		"monster": {
+			"id": 110540,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110541": {
+		"id": 110541,
+		"monster": {
+			"id": 110541,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110542": {
+		"id": 110542,
+		"monster": {
+			"id": 110542,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110550": {
+		"id": 110550,
+		"monster": {
+			"id": 110550,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110551": {
+		"id": 110551,
+		"monster": {
+			"id": 110551,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110552": {
+		"id": 110552,
+		"monster": {
+			"id": 110552,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110600": {
+		"id": 110600,
+		"monster": {
+			"id": 110600,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110610": {
+		"id": 110610,
+		"monster": {
+			"id": 110610,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110620": {
+		"id": 110620,
+		"monster": {
+			"id": 110620,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110621": {
+		"id": 110621,
+		"monster": {
+			"id": 110621,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110630": {
+		"id": 110630,
+		"monster": {
+			"id": 110630,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110631": {
+		"id": 110631,
+		"monster": {
+			"id": 110631,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110640": {
+		"id": 110640,
+		"monster": {
+			"id": 110640,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110641": {
+		"id": 110641,
+		"monster": {
+			"id": 110641,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110642": {
+		"id": 110642,
+		"monster": {
+			"id": 110642,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110650": {
+		"id": 110650,
+		"monster": {
+			"id": 110650,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110651": {
+		"id": 110651,
+		"monster": {
+			"id": 110651,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110652": {
+		"id": 110652,
+		"monster": {
+			"id": 110652,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110700": {
+		"id": 110700,
+		"monster": {
+			"id": 110700,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110710": {
+		"id": 110710,
+		"monster": {
+			"id": 110710,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110720": {
+		"id": 110720,
+		"monster": {
+			"id": 110720,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110721": {
+		"id": 110721,
+		"monster": {
+			"id": 110721,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110730": {
+		"id": 110730,
+		"monster": {
+			"id": 110730,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110731": {
+		"id": 110731,
+		"monster": {
+			"id": 110731,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110740": {
+		"id": 110740,
+		"monster": {
+			"id": 110740,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110741": {
+		"id": 110741,
+		"monster": {
+			"id": 110741,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110742": {
+		"id": 110742,
+		"monster": {
+			"id": 110742,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110750": {
+		"id": 110750,
+		"monster": {
+			"id": 110750,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110751": {
+		"id": 110751,
+		"monster": {
+			"id": 110751,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110752": {
+		"id": 110752,
+		"monster": {
+			"id": 110752,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110800": {
+		"id": 110800,
+		"monster": {
+			"id": 110800,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110810": {
+		"id": 110810,
+		"monster": {
+			"id": 110810,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110820": {
+		"id": 110820,
+		"monster": {
+			"id": 110820,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110821": {
+		"id": 110821,
+		"monster": {
+			"id": 110821,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110830": {
+		"id": 110830,
+		"monster": {
+			"id": 110830,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110831": {
+		"id": 110831,
+		"monster": {
+			"id": 110831,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110840": {
+		"id": 110840,
+		"monster": {
+			"id": 110840,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110841": {
+		"id": 110841,
+		"monster": {
+			"id": 110841,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110842": {
+		"id": 110842,
+		"monster": {
+			"id": 110842,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110850": {
+		"id": 110850,
+		"monster": {
+			"id": 110850,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110851": {
+		"id": 110851,
+		"monster": {
+			"id": 110851,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110852": {
+		"id": 110852,
+		"monster": {
+			"id": 110852,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110900": {
+		"id": 110900,
+		"monster": {
+			"id": 110900,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110910": {
+		"id": 110910,
+		"monster": {
+			"id": 110910,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110920": {
+		"id": 110920,
+		"monster": {
+			"id": 110920,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110921": {
+		"id": 110921,
+		"monster": {
+			"id": 110921,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110930": {
+		"id": 110930,
+		"monster": {
+			"id": 110930,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110931": {
+		"id": 110931,
+		"monster": {
+			"id": 110931,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110940": {
+		"id": 110940,
+		"monster": {
+			"id": 110940,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110941": {
+		"id": 110941,
+		"monster": {
+			"id": 110941,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110942": {
+		"id": 110942,
+		"monster": {
+			"id": 110942,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110950": {
+		"id": 110950,
+		"monster": {
+			"id": 110950,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110951": {
+		"id": 110951,
+		"monster": {
+			"id": 110951,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"110952": {
+		"id": 110952,
+		"monster": {
+			"id": 110952,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120000": {
+		"id": 120000,
+		"monster": {
+			"id": 120000,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120010": {
+		"id": 120010,
+		"monster": {
+			"id": 120010,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120020": {
+		"id": 120020,
+		"monster": {
+			"id": 120020,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120021": {
+		"id": 120021,
+		"monster": {
+			"id": 120021,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120030": {
+		"id": 120030,
+		"monster": {
+			"id": 120030,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120031": {
+		"id": 120031,
+		"monster": {
+			"id": 120031,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120040": {
+		"id": 120040,
+		"monster": {
+			"id": 120040,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120041": {
+		"id": 120041,
+		"monster": {
+			"id": 120041,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120042": {
+		"id": 120042,
+		"monster": {
+			"id": 120042,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120050": {
+		"id": 120050,
+		"monster": {
+			"id": 120050,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120051": {
+		"id": 120051,
+		"monster": {
+			"id": 120051,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120052": {
+		"id": 120052,
+		"monster": {
+			"id": 120052,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120100": {
+		"id": 120100,
+		"monster": {
+			"id": 120100,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120110": {
+		"id": 120110,
+		"monster": {
+			"id": 120110,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120120": {
+		"id": 120120,
+		"monster": {
+			"id": 120120,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120121": {
+		"id": 120121,
+		"monster": {
+			"id": 120121,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120130": {
+		"id": 120130,
+		"monster": {
+			"id": 120130,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120131": {
+		"id": 120131,
+		"monster": {
+			"id": 120131,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120140": {
+		"id": 120140,
+		"monster": {
+			"id": 120140,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120141": {
+		"id": 120141,
+		"monster": {
+			"id": 120141,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120142": {
+		"id": 120142,
+		"monster": {
+			"id": 120142,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120150": {
+		"id": 120150,
+		"monster": {
+			"id": 120150,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120151": {
+		"id": 120151,
+		"monster": {
+			"id": 120151,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120152": {
+		"id": 120152,
+		"monster": {
+			"id": 120152,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120200": {
+		"id": 120200,
+		"monster": {
+			"id": 120200,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120210": {
+		"id": 120210,
+		"monster": {
+			"id": 120210,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120220": {
+		"id": 120220,
+		"monster": {
+			"id": 120220,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120221": {
+		"id": 120221,
+		"monster": {
+			"id": 120221,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120230": {
+		"id": 120230,
+		"monster": {
+			"id": 120230,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120231": {
+		"id": 120231,
+		"monster": {
+			"id": 120231,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120240": {
+		"id": 120240,
+		"monster": {
+			"id": 120240,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120241": {
+		"id": 120241,
+		"monster": {
+			"id": 120241,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120242": {
+		"id": 120242,
+		"monster": {
+			"id": 120242,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120250": {
+		"id": 120250,
+		"monster": {
+			"id": 120250,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120251": {
+		"id": 120251,
+		"monster": {
+			"id": 120251,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120252": {
+		"id": 120252,
+		"monster": {
+			"id": 120252,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120300": {
+		"id": 120300,
+		"monster": {
+			"id": 120300,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120310": {
+		"id": 120310,
+		"monster": {
+			"id": 120310,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120320": {
+		"id": 120320,
+		"monster": {
+			"id": 120320,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120321": {
+		"id": 120321,
+		"monster": {
+			"id": 120321,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120330": {
+		"id": 120330,
+		"monster": {
+			"id": 120330,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120331": {
+		"id": 120331,
+		"monster": {
+			"id": 120331,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120340": {
+		"id": 120340,
+		"monster": {
+			"id": 120340,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120341": {
+		"id": 120341,
+		"monster": {
+			"id": 120341,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120342": {
+		"id": 120342,
+		"monster": {
+			"id": 120342,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120350": {
+		"id": 120350,
+		"monster": {
+			"id": 120350,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120351": {
+		"id": 120351,
+		"monster": {
+			"id": 120351,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120352": {
+		"id": 120352,
+		"monster": {
+			"id": 120352,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120400": {
+		"id": 120400,
+		"monster": {
+			"id": 120400,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120410": {
+		"id": 120410,
+		"monster": {
+			"id": 120410,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120420": {
+		"id": 120420,
+		"monster": {
+			"id": 120420,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120421": {
+		"id": 120421,
+		"monster": {
+			"id": 120421,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120430": {
+		"id": 120430,
+		"monster": {
+			"id": 120430,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120431": {
+		"id": 120431,
+		"monster": {
+			"id": 120431,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120440": {
+		"id": 120440,
+		"monster": {
+			"id": 120440,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120441": {
+		"id": 120441,
+		"monster": {
+			"id": 120441,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120442": {
+		"id": 120442,
+		"monster": {
+			"id": 120442,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120450": {
+		"id": 120450,
+		"monster": {
+			"id": 120450,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120451": {
+		"id": 120451,
+		"monster": {
+			"id": 120451,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120452": {
+		"id": 120452,
+		"monster": {
+			"id": 120452,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120500": {
+		"id": 120500,
+		"monster": {
+			"id": 120500,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120510": {
+		"id": 120510,
+		"monster": {
+			"id": 120510,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120520": {
+		"id": 120520,
+		"monster": {
+			"id": 120520,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120521": {
+		"id": 120521,
+		"monster": {
+			"id": 120521,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120530": {
+		"id": 120530,
+		"monster": {
+			"id": 120530,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120531": {
+		"id": 120531,
+		"monster": {
+			"id": 120531,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120540": {
+		"id": 120540,
+		"monster": {
+			"id": 120540,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120541": {
+		"id": 120541,
+		"monster": {
+			"id": 120541,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120542": {
+		"id": 120542,
+		"monster": {
+			"id": 120542,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120550": {
+		"id": 120550,
+		"monster": {
+			"id": 120550,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120551": {
+		"id": 120551,
+		"monster": {
+			"id": 120551,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120552": {
+		"id": 120552,
+		"monster": {
+			"id": 120552,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120600": {
+		"id": 120600,
+		"monster": {
+			"id": 120600,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120610": {
+		"id": 120610,
+		"monster": {
+			"id": 120610,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120620": {
+		"id": 120620,
+		"monster": {
+			"id": 120620,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120621": {
+		"id": 120621,
+		"monster": {
+			"id": 120621,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120630": {
+		"id": 120630,
+		"monster": {
+			"id": 120630,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120631": {
+		"id": 120631,
+		"monster": {
+			"id": 120631,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120640": {
+		"id": 120640,
+		"monster": {
+			"id": 120640,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120641": {
+		"id": 120641,
+		"monster": {
+			"id": 120641,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120642": {
+		"id": 120642,
+		"monster": {
+			"id": 120642,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120650": {
+		"id": 120650,
+		"monster": {
+			"id": 120650,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120651": {
+		"id": 120651,
+		"monster": {
+			"id": 120651,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120652": {
+		"id": 120652,
+		"monster": {
+			"id": 120652,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120700": {
+		"id": 120700,
+		"monster": {
+			"id": 120700,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120710": {
+		"id": 120710,
+		"monster": {
+			"id": 120710,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120720": {
+		"id": 120720,
+		"monster": {
+			"id": 120720,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120721": {
+		"id": 120721,
+		"monster": {
+			"id": 120721,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120730": {
+		"id": 120730,
+		"monster": {
+			"id": 120730,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120731": {
+		"id": 120731,
+		"monster": {
+			"id": 120731,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120740": {
+		"id": 120740,
+		"monster": {
+			"id": 120740,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120741": {
+		"id": 120741,
+		"monster": {
+			"id": 120741,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120742": {
+		"id": 120742,
+		"monster": {
+			"id": 120742,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120750": {
+		"id": 120750,
+		"monster": {
+			"id": 120750,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120751": {
+		"id": 120751,
+		"monster": {
+			"id": 120751,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120752": {
+		"id": 120752,
+		"monster": {
+			"id": 120752,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120800": {
+		"id": 120800,
+		"monster": {
+			"id": 120800,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120810": {
+		"id": 120810,
+		"monster": {
+			"id": 120810,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120820": {
+		"id": 120820,
+		"monster": {
+			"id": 120820,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120821": {
+		"id": 120821,
+		"monster": {
+			"id": 120821,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120830": {
+		"id": 120830,
+		"monster": {
+			"id": 120830,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120831": {
+		"id": 120831,
+		"monster": {
+			"id": 120831,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120840": {
+		"id": 120840,
+		"monster": {
+			"id": 120840,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120841": {
+		"id": 120841,
+		"monster": {
+			"id": 120841,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120842": {
+		"id": 120842,
+		"monster": {
+			"id": 120842,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120850": {
+		"id": 120850,
+		"monster": {
+			"id": 120850,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120851": {
+		"id": 120851,
+		"monster": {
+			"id": 120851,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120852": {
+		"id": 120852,
+		"monster": {
+			"id": 120852,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120900": {
+		"id": 120900,
+		"monster": {
+			"id": 120900,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120910": {
+		"id": 120910,
+		"monster": {
+			"id": 120910,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120920": {
+		"id": 120920,
+		"monster": {
+			"id": 120920,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120921": {
+		"id": 120921,
+		"monster": {
+			"id": 120921,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120930": {
+		"id": 120930,
+		"monster": {
+			"id": 120930,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120931": {
+		"id": 120931,
+		"monster": {
+			"id": 120931,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120940": {
+		"id": 120940,
+		"monster": {
+			"id": 120940,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120941": {
+		"id": 120941,
+		"monster": {
+			"id": 120941,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120942": {
+		"id": 120942,
+		"monster": {
+			"id": 120942,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120950": {
+		"id": 120950,
+		"monster": {
+			"id": 120950,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120951": {
+		"id": 120951,
+		"monster": {
+			"id": 120951,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"120952": {
+		"id": 120952,
+		"monster": {
+			"id": 120952,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130000": {
+		"id": 130000,
+		"monster": {
+			"id": 130000,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130010": {
+		"id": 130010,
+		"monster": {
+			"id": 130010,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130020": {
+		"id": 130020,
+		"monster": {
+			"id": 130020,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130021": {
+		"id": 130021,
+		"monster": {
+			"id": 130021,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130030": {
+		"id": 130030,
+		"monster": {
+			"id": 130030,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130031": {
+		"id": 130031,
+		"monster": {
+			"id": 130031,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130040": {
+		"id": 130040,
+		"monster": {
+			"id": 130040,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130041": {
+		"id": 130041,
+		"monster": {
+			"id": 130041,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130042": {
+		"id": 130042,
+		"monster": {
+			"id": 130042,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130050": {
+		"id": 130050,
+		"monster": {
+			"id": 130050,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130051": {
+		"id": 130051,
+		"monster": {
+			"id": 130051,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130052": {
+		"id": 130052,
+		"monster": {
+			"id": 130052,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130100": {
+		"id": 130100,
+		"monster": {
+			"id": 130100,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130110": {
+		"id": 130110,
+		"monster": {
+			"id": 130110,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130120": {
+		"id": 130120,
+		"monster": {
+			"id": 130120,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130121": {
+		"id": 130121,
+		"monster": {
+			"id": 130121,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130130": {
+		"id": 130130,
+		"monster": {
+			"id": 130130,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130131": {
+		"id": 130131,
+		"monster": {
+			"id": 130131,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130140": {
+		"id": 130140,
+		"monster": {
+			"id": 130140,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130141": {
+		"id": 130141,
+		"monster": {
+			"id": 130141,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130142": {
+		"id": 130142,
+		"monster": {
+			"id": 130142,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130150": {
+		"id": 130150,
+		"monster": {
+			"id": 130150,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130151": {
+		"id": 130151,
+		"monster": {
+			"id": 130151,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130152": {
+		"id": 130152,
+		"monster": {
+			"id": 130152,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130200": {
+		"id": 130200,
+		"monster": {
+			"id": 130200,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130210": {
+		"id": 130210,
+		"monster": {
+			"id": 130210,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130220": {
+		"id": 130220,
+		"monster": {
+			"id": 130220,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130221": {
+		"id": 130221,
+		"monster": {
+			"id": 130221,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130230": {
+		"id": 130230,
+		"monster": {
+			"id": 130230,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130231": {
+		"id": 130231,
+		"monster": {
+			"id": 130231,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130240": {
+		"id": 130240,
+		"monster": {
+			"id": 130240,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130241": {
+		"id": 130241,
+		"monster": {
+			"id": 130241,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130242": {
+		"id": 130242,
+		"monster": {
+			"id": 130242,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130250": {
+		"id": 130250,
+		"monster": {
+			"id": 130250,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130251": {
+		"id": 130251,
+		"monster": {
+			"id": 130251,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130252": {
+		"id": 130252,
+		"monster": {
+			"id": 130252,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130300": {
+		"id": 130300,
+		"monster": {
+			"id": 130300,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130310": {
+		"id": 130310,
+		"monster": {
+			"id": 130310,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130320": {
+		"id": 130320,
+		"monster": {
+			"id": 130320,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130321": {
+		"id": 130321,
+		"monster": {
+			"id": 130321,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130330": {
+		"id": 130330,
+		"monster": {
+			"id": 130330,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130331": {
+		"id": 130331,
+		"monster": {
+			"id": 130331,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130340": {
+		"id": 130340,
+		"monster": {
+			"id": 130340,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130341": {
+		"id": 130341,
+		"monster": {
+			"id": 130341,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130342": {
+		"id": 130342,
+		"monster": {
+			"id": 130342,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130350": {
+		"id": 130350,
+		"monster": {
+			"id": 130350,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130351": {
+		"id": 130351,
+		"monster": {
+			"id": 130351,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130352": {
+		"id": 130352,
+		"monster": {
+			"id": 130352,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130400": {
+		"id": 130400,
+		"monster": {
+			"id": 130400,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130410": {
+		"id": 130410,
+		"monster": {
+			"id": 130410,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130420": {
+		"id": 130420,
+		"monster": {
+			"id": 130420,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130421": {
+		"id": 130421,
+		"monster": {
+			"id": 130421,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130430": {
+		"id": 130430,
+		"monster": {
+			"id": 130430,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130431": {
+		"id": 130431,
+		"monster": {
+			"id": 130431,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130440": {
+		"id": 130440,
+		"monster": {
+			"id": 130440,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130441": {
+		"id": 130441,
+		"monster": {
+			"id": 130441,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130442": {
+		"id": 130442,
+		"monster": {
+			"id": 130442,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130450": {
+		"id": 130450,
+		"monster": {
+			"id": 130450,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130451": {
+		"id": 130451,
+		"monster": {
+			"id": 130451,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130452": {
+		"id": 130452,
+		"monster": {
+			"id": 130452,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130500": {
+		"id": 130500,
+		"monster": {
+			"id": 130500,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130510": {
+		"id": 130510,
+		"monster": {
+			"id": 130510,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130520": {
+		"id": 130520,
+		"monster": {
+			"id": 130520,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130521": {
+		"id": 130521,
+		"monster": {
+			"id": 130521,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130530": {
+		"id": 130530,
+		"monster": {
+			"id": 130530,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130531": {
+		"id": 130531,
+		"monster": {
+			"id": 130531,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130540": {
+		"id": 130540,
+		"monster": {
+			"id": 130540,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130541": {
+		"id": 130541,
+		"monster": {
+			"id": 130541,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130542": {
+		"id": 130542,
+		"monster": {
+			"id": 130542,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130550": {
+		"id": 130550,
+		"monster": {
+			"id": 130550,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130551": {
+		"id": 130551,
+		"monster": {
+			"id": 130551,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130552": {
+		"id": 130552,
+		"monster": {
+			"id": 130552,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130600": {
+		"id": 130600,
+		"monster": {
+			"id": 130600,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130610": {
+		"id": 130610,
+		"monster": {
+			"id": 130610,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130620": {
+		"id": 130620,
+		"monster": {
+			"id": 130620,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130621": {
+		"id": 130621,
+		"monster": {
+			"id": 130621,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130630": {
+		"id": 130630,
+		"monster": {
+			"id": 130630,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130631": {
+		"id": 130631,
+		"monster": {
+			"id": 130631,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130640": {
+		"id": 130640,
+		"monster": {
+			"id": 130640,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130641": {
+		"id": 130641,
+		"monster": {
+			"id": 130641,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130642": {
+		"id": 130642,
+		"monster": {
+			"id": 130642,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130650": {
+		"id": 130650,
+		"monster": {
+			"id": 130650,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130651": {
+		"id": 130651,
+		"monster": {
+			"id": 130651,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130652": {
+		"id": 130652,
+		"monster": {
+			"id": 130652,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130700": {
+		"id": 130700,
+		"monster": {
+			"id": 130700,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130710": {
+		"id": 130710,
+		"monster": {
+			"id": 130710,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130720": {
+		"id": 130720,
+		"monster": {
+			"id": 130720,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130721": {
+		"id": 130721,
+		"monster": {
+			"id": 130721,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130730": {
+		"id": 130730,
+		"monster": {
+			"id": 130730,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130731": {
+		"id": 130731,
+		"monster": {
+			"id": 130731,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130740": {
+		"id": 130740,
+		"monster": {
+			"id": 130740,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130741": {
+		"id": 130741,
+		"monster": {
+			"id": 130741,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130742": {
+		"id": 130742,
+		"monster": {
+			"id": 130742,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130750": {
+		"id": 130750,
+		"monster": {
+			"id": 130750,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130751": {
+		"id": 130751,
+		"monster": {
+			"id": 130751,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130752": {
+		"id": 130752,
+		"monster": {
+			"id": 130752,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130800": {
+		"id": 130800,
+		"monster": {
+			"id": 130800,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130810": {
+		"id": 130810,
+		"monster": {
+			"id": 130810,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130820": {
+		"id": 130820,
+		"monster": {
+			"id": 130820,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130821": {
+		"id": 130821,
+		"monster": {
+			"id": 130821,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130830": {
+		"id": 130830,
+		"monster": {
+			"id": 130830,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130831": {
+		"id": 130831,
+		"monster": {
+			"id": 130831,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130840": {
+		"id": 130840,
+		"monster": {
+			"id": 130840,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130841": {
+		"id": 130841,
+		"monster": {
+			"id": 130841,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130842": {
+		"id": 130842,
+		"monster": {
+			"id": 130842,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130850": {
+		"id": 130850,
+		"monster": {
+			"id": 130850,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130851": {
+		"id": 130851,
+		"monster": {
+			"id": 130851,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130852": {
+		"id": 130852,
+		"monster": {
+			"id": 130852,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130900": {
+		"id": 130900,
+		"monster": {
+			"id": 130900,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130910": {
+		"id": 130910,
+		"monster": {
+			"id": 130910,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130920": {
+		"id": 130920,
+		"monster": {
+			"id": 130920,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130921": {
+		"id": 130921,
+		"monster": {
+			"id": 130921,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130930": {
+		"id": 130930,
+		"monster": {
+			"id": 130930,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130931": {
+		"id": 130931,
+		"monster": {
+			"id": 130931,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130940": {
+		"id": 130940,
+		"monster": {
+			"id": 130940,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130941": {
+		"id": 130941,
+		"monster": {
+			"id": 130941,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130942": {
+		"id": 130942,
+		"monster": {
+			"id": 130942,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130950": {
+		"id": 130950,
+		"monster": {
+			"id": 130950,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130951": {
+		"id": 130951,
+		"monster": {
+			"id": 130951,
+			"level": 3,
+			"template": 3
+		}
+	},
+	"130952": {
+		"id": 130952,
+		"monster": {
+			"id": 130952,
+			"level": 3,
+			"template": 3
+		}
+	}
+}

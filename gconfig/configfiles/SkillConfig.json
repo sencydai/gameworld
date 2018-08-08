@@ -1,0 +1,2786 @@
+{
+	"10001": {
+		"repeatCount": 99999,
+		"skill": 10001
+	},
+	"10002": {
+		"attr": {
+			"1": {
+				"type": 1,
+				"value": 1
+			}
+		},
+		"skill": 10002,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"10003": {
+		"skill": 10003,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"10004": {
+		"skill": 10004,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"10005": {
+		"skill": 10005,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"10006": {
+		"skill": 10006,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"10007": {
+		"skill": 10007,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"10008": {
+		"skill": 10008,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"10009": {
+		"skill": 10009,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"10010": {
+		"skill": 10010,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"10011": {
+		"skill": 10011,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"10012": {
+		"skill": 10012,
+		"skillRandom": 2500,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11001": {
+		"skill": 11001,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11002": {
+		"skill": 11002,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11003": {
+		"skill": 11003,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11004": {
+		"skill": 11004,
+		"skillRandom": 2500,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11005": {
+		"skill": 11005,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11006": {
+		"skill": 11006,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11007": {
+		"skill": 11007,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11008": {
+		"skill": 11008,
+		"skillRandom": 2500,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11009": {
+		"skill": 11009,
+		"skillRandom": 3000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11010": {
+		"skill": 11010,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"11011": {
+		"skill": 11011,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"11012": {
+		"skill": 11012,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11013": {
+		"skill": 11013,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11014": {
+		"skill": 11014,
+		"skillRandom": 1500,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11015": {
+		"skill": 11015,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11016": {
+		"skill": 11016,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"11017": {
+		"skill": 11017,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"11018": {
+		"skill": 11018,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"12000": {
+		"skill": 12000,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"12001": {
+		"skill": 12001,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"12002": {
+		"skill": 12002,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"12003": {
+		"skill": 12003,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"12004": {
+		"skill": 12004,
+		"skillRandom": 2500,
+		"skillType": 1,
+		"trigger": 8
+	},
+	"12005": {
+		"skill": 12005,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 9
+	},
+	"12006": {
+		"skill": 12006,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 10
+	},
+	"12007": {
+		"skill": 12007,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 11
+	},
+	"12008": {
+		"skill": 12008,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 12
+	},
+	"12009": {
+		"skill": 12009,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 14
+	},
+	"12010": {
+		"skill": 12010,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"12011": {
+		"skill": 12011,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 4
+	},
+	"12012": {
+		"skill": 12012,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 13
+	},
+	"12013": {
+		"skill": 12013,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"12014": {
+		"skill": 12014,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 15
+	},
+	"12015": {
+		"skill": 12015,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 16
+	},
+	"12016": {
+		"skill": 12016,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"12017": {
+		"skill": 12017,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 20
+	},
+	"12018": {
+		"skill": 12018,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 14
+	},
+	"12019": {
+		"skill": 12019,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 14
+	},
+	"13002": {
+		"skill": 13002,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"13003": {
+		"skill": 13003,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"13004": {
+		"skill": 13004,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"13005": {
+		"skill": 13005,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 7
+	},
+	"13010": {
+		"skill": 13010,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"13011": {
+		"skill": 13011,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"13013": {
+		"skill": 13013,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"13014": {
+		"skill": 13014,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"13015": {
+		"skill": 13015,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"13016": {
+		"skill": 13016,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"13017": {
+		"skill": 13017,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"13018": {
+		"skill": 13018,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"13019": {
+		"skill": 13019,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"13020": {
+		"skill": 13020,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"13021": {
+		"skill": 13021,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"13022": {
+		"skill": 13022,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"13023": {
+		"skill": 13023,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"13024": {
+		"skill": 13024,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"13025": {
+		"skill": 13025,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 4
+	},
+	"13026": {
+		"skill": 13026,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"13027": {
+		"skill": 13027,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"13028": {
+		"skill": 13028,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"14001": {
+		"skill": 14001,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"14002": {
+		"skill": 14002,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"14003": {
+		"skill": 14003,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"14004": {
+		"skill": 14004,
+		"skillRandom": 1000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"14005": {
+		"skill": 14005,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"14006": {
+		"skill": 14006,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"15001": {
+		"skill": 15001,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15002": {
+		"skill": 15002,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15003": {
+		"skill": 15003,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15004": {
+		"skill": 15004,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15005": {
+		"skill": 15005,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15006": {
+		"skill": 15006,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15007": {
+		"skill": 15007,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15008": {
+		"skill": 15008,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15009": {
+		"skill": 15009,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15010": {
+		"skill": 15010,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15011": {
+		"skill": 15011,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15012": {
+		"skill": 15012,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15013": {
+		"skill": 15013,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15014": {
+		"skill": 15014,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15015": {
+		"skill": 15015,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15016": {
+		"skill": 15016,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15017": {
+		"skill": 15017,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15018": {
+		"skill": 15018,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15019": {
+		"skill": 15019,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15020": {
+		"skill": 15020,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15021": {
+		"skill": 15021,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15022": {
+		"skill": 15022,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15023": {
+		"skill": 15023,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15024": {
+		"skill": 15024,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15025": {
+		"skill": 15025,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15026": {
+		"skill": 15026,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15027": {
+		"skill": 15027,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15028": {
+		"skill": 15028,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15029": {
+		"skill": 15029,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15030": {
+		"skill": 15030,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15031": {
+		"skill": 15031,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15032": {
+		"skill": 15032,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15033": {
+		"skill": 15033,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15034": {
+		"skill": 15034,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15035": {
+		"skill": 15035,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15036": {
+		"skill": 15036,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15037": {
+		"skill": 15037,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15038": {
+		"skill": 15038,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15039": {
+		"skill": 15039,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15040": {
+		"skill": 15040,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15041": {
+		"skill": 15041,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15042": {
+		"skill": 15042,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15043": {
+		"skill": 15043,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15044": {
+		"skill": 15044,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15045": {
+		"skill": 15045,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15046": {
+		"skill": 15046,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15047": {
+		"skill": 15047,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15048": {
+		"skill": 15048,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15049": {
+		"skill": 15049,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15050": {
+		"skill": 15050,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"15051": {
+		"skill": 15051,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15052": {
+		"skill": 15052,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15053": {
+		"skill": 15053,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15054": {
+		"skill": 15054,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"15055": {
+		"skill": 15055,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16001": {
+		"skill": 16001,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"16002": {
+		"skill": 16002,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"16003": {
+		"skill": 16003,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"16004": {
+		"skill": 16004,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"16005": {
+		"skill": 16005,
+		"skillRandom": 10000,
+		"skillType": 2
+	},
+	"16006": {
+		"skill": 16006,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16007": {
+		"skill": 16007,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16008": {
+		"skill": 16008,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16009": {
+		"skill": 16009,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16010": {
+		"skill": 16010,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16011": {
+		"skill": 16011,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16012": {
+		"skill": 16012,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16013": {
+		"skill": 16013,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16014": {
+		"skill": 16014,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16015": {
+		"skill": 16015,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16016": {
+		"skill": 16016,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16017": {
+		"skill": 16017,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16018": {
+		"skill": 16018,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16019": {
+		"skill": 16019,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16020": {
+		"skill": 16020,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16021": {
+		"skill": 16021,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16022": {
+		"skill": 16022,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16023": {
+		"skill": 16023,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16024": {
+		"skill": 16024,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16025": {
+		"skill": 16025,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16026": {
+		"skill": 16026,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16027": {
+		"skill": 16027,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16028": {
+		"skill": 16028,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16029": {
+		"skill": 16029,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16030": {
+		"skill": 16030,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16031": {
+		"skill": 16031,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16032": {
+		"skill": 16032,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16033": {
+		"skill": 16033,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16034": {
+		"skill": 16034,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16035": {
+		"skill": 16035,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16036": {
+		"skill": 16036,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16037": {
+		"skill": 16037,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16038": {
+		"skill": 16038,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16039": {
+		"skill": 16039,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16040": {
+		"skill": 16040,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16041": {
+		"skill": 16041,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16042": {
+		"skill": 16042,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16043": {
+		"skill": 16043,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16044": {
+		"skill": 16044,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"16045": {
+		"skill": 16045,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500011": {
+		"skill": 500011,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500012": {
+		"skill": 500012,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500013": {
+		"skill": 500013,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500014": {
+		"skill": 500014,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500021": {
+		"skill": 500021,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500022": {
+		"skill": 500022,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500023": {
+		"skill": 500023,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500024": {
+		"skill": 500024,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500031": {
+		"skill": 500031,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500032": {
+		"skill": 500032,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500033": {
+		"skill": 500033,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500034": {
+		"skill": 500034,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500041": {
+		"skill": 500041,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500042": {
+		"skill": 500042,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500043": {
+		"skill": 500043,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"500044": {
+		"skill": 500044,
+		"skillRandom": 10000,
+		"skillType": 1
+	},
+	"600000": {
+		"repeatCount": 9999,
+		"skill": 600000,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"600001": {
+		"skill": 600001,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"600100": {
+		"skill": 600100,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"600200": {
+		"skill": 600200,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 20
+	},
+	"600210": {
+		"skill": 600210,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"600300": {
+		"skill": 600300,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 20
+	},
+	"600310": {
+		"skill": 600310,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"600400": {
+		"skill": 600400,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 20
+	},
+	"600410": {
+		"skill": 600410,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 20
+	},
+	"600420": {
+		"skill": 600420,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"600500": {
+		"skill": 600500,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 20
+	},
+	"600510": {
+		"skill": 600510,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 20
+	},
+	"600520": {
+		"skill": 600520,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"601000": {
+		"skill": 601000,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"601001": {
+		"skill": 601001,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"601100": {
+		"skill": 601100,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"601200": {
+		"skill": 601200,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"601210": {
+		"skill": 601210,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"601300": {
+		"skill": 601300,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"601310": {
+		"skill": 601310,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"601400": {
+		"attr": {
+			"1": {
+				"type": 6,
+				"value": 50
+			}
+		},
+		"skill": 601400,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"601410": {
+		"skill": 601410,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"601420": {
+		"skill": 601420,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"601500": {
+		"attr": {
+			"1": {
+				"type": 6,
+				"value": 100
+			}
+		},
+		"skill": 601500,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"601510": {
+		"skill": 601510,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"601520": {
+		"skill": 601520,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"606000": {
+		"skill": 606000,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"606001": {
+		"skill": 606001,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"606100": {
+		"skill": 606100,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"606200": {
+		"skill": 606200,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"606210": {
+		"skill": 606210,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"606300": {
+		"skill": 606300,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"606310": {
+		"skill": 606310,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"606400": {
+		"skill": 606400,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"606410": {
+		"skill": 606410,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"606420": {
+		"skill": 606420,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"606500": {
+		"skill": 606500,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"606510": {
+		"skill": 606510,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"606520": {
+		"skill": 606520,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"700000": {
+		"skill": 700000,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"700001": {
+		"skill": 700001,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"700100": {
+		"attr": {
+			"1": {
+				"type": 5,
+				"value": 200
+			}
+		},
+		"skill": 700100
+	},
+	"700200": {
+		"skill": 700200,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"700210": {
+		"attr": {
+			"1": {
+				"type": 5,
+				"value": 300
+			}
+		},
+		"skill": 700210
+	},
+	"700300": {
+		"skill": 700300,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"700310": {
+		"attr": {
+			"1": {
+				"type": 5,
+				"value": 400
+			}
+		},
+		"skill": 700310
+	},
+	"700400": {
+		"skill": 700400,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"700410": {
+		"attr": {
+			"1": {
+				"type": 13,
+				"value": 1000
+			}
+		},
+		"skill": 700410
+	},
+	"700420": {
+		"skill": 700420,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"700500": {
+		"skill": 700500,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"700510": {
+		"attr": {
+			"1": {
+				"type": 13,
+				"value": 1000
+			}
+		},
+		"skill": 700510
+	},
+	"700520": {
+		"skill": 700520,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"701000": {
+		"skill": 701000,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"701001": {
+		"skill": 701001,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"701100": {
+		"skill": 701100,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 12
+	},
+	"701200": {
+		"skill": 701200,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"701210": {
+		"attr": {
+			"1": {
+				"type": 14,
+				"value": 2000
+			}
+		},
+		"skill": 701210,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"701300": {
+		"skill": 701300,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"701310": {
+		"attr": {
+			"1": {
+				"type": 14,
+				"value": 3000
+			}
+		},
+		"skill": 701310,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"701400": {
+		"skill": 701400,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"701410": {
+		"skill": 701410,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 12
+	},
+	"701420": {
+		"skill": 701420,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 20
+	},
+	"701500": {
+		"skill": 701500,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"701510": {
+		"skill": 701510,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 12
+	},
+	"701520": {
+		"skill": 701520,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 20
+	},
+	"703000": {
+		"skill": 703000,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"703001": {
+		"skill": 703001,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"703002": {
+		"skill": 703002,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"703100": {
+		"skill": 703100,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"703200": {
+		"skill": 703200,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"703210": {
+		"skill": 703210,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"703300": {
+		"skill": 703300,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"703310": {
+		"skill": 703310,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"703400": {
+		"skill": 703400,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 4
+	},
+	"703410": {
+		"skill": 703410,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"703411": {
+		"skill": 703411,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 14
+	},
+	"703420": {
+		"skill": 703420,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 20
+	},
+	"703421": {
+		"skill": 703421,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"703422": {
+		"skill": 703422,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"703423": {
+		"skill": 703423,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"703500": {
+		"skill": 703500,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 4
+	},
+	"703510": {
+		"skill": 703510,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"703511": {
+		"skill": 703511,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 14
+	},
+	"703520": {
+		"skill": 703520,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 20
+	},
+	"708000": {
+		"skill": 708000,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"708001": {
+		"skill": 708001,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"708100": {
+		"skill": 708100,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"708200": {
+		"skill": 708200,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"708210": {
+		"skill": 708210,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"708300": {
+		"skill": 708300,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"708310": {
+		"skill": 708310,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"708400": {
+		"skill": 708400,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"708410": {
+		"skill": 708410,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"708420": {
+		"skill": 708420,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"708500": {
+		"skill": 708500,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"708510": {
+		"skill": 708510,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"708520": {
+		"skill": 708520,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"709000": {
+		"skill": 709000,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"709001": {
+		"skill": 709001,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"709100": {
+		"attr": {
+			"1": {
+				"type": 6,
+				"value": 50
+			},
+			"2": {
+				"type": 18,
+				"value": 500
+			}
+		},
+		"skill": 709100
+	},
+	"709200": {
+		"skill": 709200,
+		"skillRandom": 1000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"709210": {
+		"skill": 709210,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"709300": {
+		"skill": 709300,
+		"skillRandom": 1500,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"709310": {
+		"skill": 709310,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"709400": {
+		"skill": 709400,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"709410": {
+		"skill": 709410,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"709420": {
+		"skill": 709420,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 4
+	},
+	"709500": {
+		"skill": 709500,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"709510": {
+		"skill": 709510,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"709520": {
+		"skill": 709520,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 4
+	},
+	"802000": {
+		"skill": 802000,
+		"skillRandom": 4000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"802001": {
+		"skill": 802001,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"802100": {
+		"skill": 802100,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 12
+	},
+	"802101": {
+		"attr": {
+			"1": {
+				"type": 16,
+				"value": 5000
+			}
+		},
+		"skill": 802101
+	},
+	"802200": {
+		"skill": 802200,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"802210": {
+		"skill": 802210,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"802300": {
+		"skill": 802300,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"802310": {
+		"skill": 802310,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"802400": {
+		"skill": 802400,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 12
+	},
+	"802410": {
+		"skill": 802410,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 12
+	},
+	"802420": {
+		"skill": 802420,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 12
+	},
+	"802421": {
+		"attr": {
+			"1": {
+				"type": 16,
+				"value": 10000
+			}
+		},
+		"skill": 802421
+	},
+	"802422": {
+		"skill": 802422,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"802500": {
+		"skill": 802500,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 12
+	},
+	"802510": {
+		"skill": 802510,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 12
+	},
+	"802520": {
+		"attr": {
+			"1": {
+				"type": 16,
+				"value": 15000
+			}
+		},
+		"skill": 802520
+	},
+	"803000": {
+		"skill": 803000,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"803001": {
+		"skill": 803001,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"803100": {
+		"skill": 803100,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"803200": {
+		"skill": 803200,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"803210": {
+		"skill": 803210,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"803300": {
+		"skill": 803300,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"803310": {
+		"skill": 803310,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"803400": {
+		"skill": 803400,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"803410": {
+		"skill": 803410,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"803420": {
+		"skill": 803420,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"803500": {
+		"skill": 803500,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"803510": {
+		"skill": 803510,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"803520": {
+		"skill": 803520,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"806000": {
+		"skill": 806000,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"806001": {
+		"skill": 806001,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"806002": {
+		"skill": 806002,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"806100": {
+		"skill": 806100,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 4
+	},
+	"806200": {
+		"skill": 806200,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"806210": {
+		"skill": 806210,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"806300": {
+		"skill": 806300,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"806310": {
+		"skill": 806310,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"806400": {
+		"skill": 806400,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"806410": {
+		"skill": 806410,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"806420": {
+		"skill": 806420,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"806421": {
+		"skill": 806421,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"806422": {
+		"skill": 806422,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"806500": {
+		"skill": 806500,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"806510": {
+		"skill": 806510,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"806520": {
+		"skill": 806520,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"809000": {
+		"skill": 809000,
+		"skillRandom": 4000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"809001": {
+		"skill": 809001,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"809002": {
+		"skill": 809002,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"809100": {
+		"skill": 809100,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"809110": {
+		"skill": 809110,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"809200": {
+		"skill": 809200,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"809210": {
+		"skill": 809210,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"809300": {
+		"skill": 809300,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"809310": {
+		"skill": 809310,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"809400": {
+		"skill": 809400,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"809401": {
+		"skill": 809401,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"809410": {
+		"skill": 809410,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 4
+	},
+	"809420": {
+		"attr": {
+			"1": {
+				"type": 6,
+				"value": 100
+			}
+		},
+		"skill": 809420,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"809500": {
+		"skill": 809500,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"809510": {
+		"skill": 809510,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 4
+	},
+	"809520": {
+		"attr": {
+			"1": {
+				"type": 6,
+				"value": 100
+			}
+		},
+		"skill": 809520,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"901000": {
+		"skill": 901000,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"901001": {
+		"skill": 901001,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"901100": {
+		"skill": 901100,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"901200": {
+		"skill": 901200,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"901210": {
+		"skill": 901210,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"901300": {
+		"skill": 901300,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"901310": {
+		"skill": 901310,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"901400": {
+		"skill": 901400,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"901410": {
+		"skill": 901410,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"901420": {
+		"skill": 901420,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"901421": {
+		"skill": 901421,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"901500": {
+		"skill": 901500,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"901510": {
+		"skill": 901510,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"901520": {
+		"skill": 901520,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"902000": {
+		"skill": 902000,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"902001": {
+		"skill": 902001,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"902002": {
+		"skill": 902002,
+		"skillRandom": 2500,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"902100": {
+		"skill": 902100,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"902200": {
+		"skill": 902200,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"902201": {
+		"skill": 902201,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"902210": {
+		"skill": 902210,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"902211": {
+		"skill": 902211,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"902300": {
+		"skill": 902300,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"902310": {
+		"skill": 902310,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"902400": {
+		"skill": 902400,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"902401": {
+		"skill": 902401,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"902410": {
+		"skill": 902410,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"902420": {
+		"skill": 902420,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"902421": {
+		"skill": 902421,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"902422": {
+		"skill": 902422,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"902500": {
+		"skill": 902500,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"902510": {
+		"skill": 902510,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"902520": {
+		"skill": 902520,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"904000": {
+		"skill": 904000,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"904001": {
+		"skill": 904001,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"904002": {
+		"skill": 904002,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"904100": {
+		"skill": 904100,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"904200": {
+		"skill": 904200,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"904201": {
+		"skill": 904201,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"904202": {
+		"skill": 904202,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"904210": {
+		"skill": 904210,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"904211": {
+		"skill": 904211,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"904300": {
+		"skill": 904300,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"904301": {
+		"skill": 904301,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"904310": {
+		"skill": 904310,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"904400": {
+		"skill": 904400,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"904401": {
+		"skill": 904401,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"904410": {
+		"skill": 904410,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"904411": {
+		"skill": 904411,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"904420": {
+		"attr": {
+			"1": {
+				"type": 18,
+				"value": 2000
+			}
+		},
+		"skill": 904420,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"904421": {
+		"skill": 904421,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"904500": {
+		"skill": 904500,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"904510": {
+		"skill": 904510,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"904520": {
+		"attr": {
+			"1": {
+				"type": 18,
+				"value": 2000
+			}
+		},
+		"skill": 904520,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"904521": {
+		"skill": 904521,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"905000": {
+		"skill": 905000,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"905001": {
+		"skill": 905001,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"905100": {
+		"skill": 905100,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"905200": {
+		"skill": 905200,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"905210": {
+		"skill": 905210,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"905211": {
+		"attr": {
+			"1": {
+				"type": 11,
+				"value": 3000
+			},
+			"2": {
+				"type": 12,
+				"value": 3000
+			},
+			"3": {
+				"type": 13,
+				"value": 3000
+			}
+		},
+		"skill": 905211
+	},
+	"905300": {
+		"skill": 905300,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"905310": {
+		"attr": {
+			"1": {
+				"type": 11,
+				"value": 3000
+			},
+			"2": {
+				"type": 12,
+				"value": 3000
+			},
+			"3": {
+				"type": 13,
+				"value": 3000
+			}
+		},
+		"skill": 905310
+	},
+	"905400": {
+		"skill": 905400,
+		"skillRandom": 1000,
+		"skillType": 1,
+		"trigger": 15
+	},
+	"905410": {
+		"attr": {
+			"1": {
+				"type": 11,
+				"value": 6000
+			},
+			"2": {
+				"type": 12,
+				"value": 6000
+			},
+			"3": {
+				"type": 13,
+				"value": 6000
+			}
+		},
+		"skill": 905410
+	},
+	"905420": {
+		"skill": 905420,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"905421": {
+		"skill": 905421,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"905500": {
+		"skill": 905500,
+		"skillRandom": 2000,
+		"skillType": 1,
+		"trigger": 15
+	},
+	"905510": {
+		"attr": {
+			"1": {
+				"type": 11,
+				"value": 6000
+			},
+			"2": {
+				"type": 12,
+				"value": 6000
+			},
+			"3": {
+				"type": 13,
+				"value": 6000
+			}
+		},
+		"skill": 905510
+	},
+	"905520": {
+		"skill": 905520,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 6
+	},
+	"905521": {
+		"skill": 905521,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"906000": {
+		"skill": 906000,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"906001": {
+		"skill": 906001,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"906100": {
+		"skill": 906100,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"906200": {
+		"skill": 906200,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"906210": {
+		"skill": 906210,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"906300": {
+		"skill": 906300,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"906310": {
+		"skill": 906310,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"906400": {
+		"skill": 906400,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"906401": {
+		"skill": 906401,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"906410": {
+		"skill": 906410,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"906420": {
+		"skill": 906420,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"906500": {
+		"skill": 906500,
+		"skillRandom": 10000,
+		"skillType": 1,
+		"trigger": 1
+	},
+	"906511": {
+		"skill": 906511,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 17
+	},
+	"906520": {
+		"skill": 906520,
+		"skillRandom": 5000,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"907000": {
+		"skill": 907000,
+		"skillRandom": 5000,
+		"skillType": 2,
+		"trigger": 6
+	},
+	"907100": {
+		"skill": 907100,
+		"skillRandom": 5000,
+		"skillType": 2,
+		"trigger": 6
+	},
+	"907200": {
+		"skill": 907200,
+		"skillRandom": 4000,
+		"skillType": 2,
+		"trigger": 6
+	},
+	"907210": {
+		"skill": 907210,
+		"skillRandom": 2614,
+		"skillType": 1,
+		"trigger": 3
+	},
+	"907300": {
+		"skill": 907300,
+		"skillRandom": 4000,
+		"skillType": 2,
+		"trigger": 6
+	},
+	"907310": {
+		"skill": 907310,
+		"skillRandom": 4372,
+		"skillType": 1,
+		"trigger": 2
+	},
+	"907400": {
+		"skill": 907400,
+		"skillRandom": 10000,
+		"skillType": 2,
+		"trigger": 1
+	},
+	"907410": {
+		"skill": 907410,
+		"skillRandom": 10000,
+		"skillType": 2,
+		"trigger": 6
+	},
+	"907420": {
+		"skill": 907420,
+		"skillRandom": 8000,
+		"skillType": 2,
+		"trigger": 6
+	},
+	"907500": {
+		"skill": 907500,
+		"skillRandom": 10000,
+		"skillType": 2,
+		"trigger": 1
+	},
+	"907510": {
+		"skill": 907510,
+		"skillRandom": 10000,
+		"skillType": 2,
+		"trigger": 6
+	},
+	"907520": {
+		"skill": 907520,
+		"skillRandom": 8000,
+		"skillType": 2,
+		"trigger": 6
+	}
+}

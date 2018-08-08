@@ -5,21 +5,23 @@ import (
 	"fmt"
 	"math"
 	"sort"
-	"time"
 
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
 	"github.com/sencydai/gameworld/base"
 	c "github.com/sencydai/gameworld/constdefine"
 	"github.com/sencydai/gameworld/dispatch"
 	g "github.com/sencydai/gameworld/gconfig"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	"github.com/sencydai/gameworld/service"
 	"github.com/sencydai/gameworld/service/bag"
+	"github.com/sencydai/gameworld/timer"
 	t "github.com/sencydai/gameworld/typedefine"
 )
 
 func init() {
 	dispatch.RegActorMsgHandle(proto.Fight, proto.FightCGetAwards, onGetFightAwards)
+	dispatch.RegActorMsgHandle(proto.Fight, proto.FightCGiveup, onGiveupFight)
+	dispatch.RegActorMsgHandle(proto.Fight, proto.FightCNextRound, onNextRound)
 	service.RegActorLogout(onActorLogout)
 }
 
@@ -803,10 +805,13 @@ func onSendFightLogs(actor *t.Actor, fightData *t.FightData) {
 	fightData.Logs = make([]*t.FightLog, 0)
 }
 
-func onFightClear(actor *t.Actor, fightData *t.FightData) {
-	if fightData.RealResult != 0 {
+func OnFightClear(actor *t.Actor, fightData *t.FightData) {
+	data := actor.GetFightData()
+	if data == nil || data != fightData || data.RealResult != 0 {
 		return
 	}
+	//log.Infof("OnFightClear: actor:%d,type:%d", actor.ActorId, fightData.Type)
+
 	fightData.RealResult = fightData.FightResult
 
 	if handle, ok := actorFightClearHandles[fightData.Type]; ok {
@@ -820,14 +825,15 @@ func onFightClear(actor *t.Actor, fightData *t.FightData) {
 	pack.Write(writer, fightData.ClearArgs...)
 	actor.ReplyWriter(writer)
 
-	actor.SendTips(fmt.Sprintf("战斗结束，%d，回合:%d，耗时：%v", fightData.Guid, fightData.Round, time.Since(fightData.StartTime)))
+	//actor.SendTips(fmt.Sprintf("战斗结束，%d，回合:%d，耗时：%v", fightData.Guid, fightData.Round, time.Since(fightData.StartTime)))
 }
 
-func getFightAwards(actor *t.Actor) {
+func getFightAwards(actor *t.Actor, skip int) {
 	fightData := actor.GetFightData()
 	if fightData == nil || fightData.RealResult == 0 {
 		return
 	}
+	//log.Infof("getFightAwards: actor:%d,type:%d", actor.ActorId, fightData.Type)
 	if handle, ok := actorFightAwardHandles[fightData.Type]; ok {
 		handle(actor, fightData)
 	}
@@ -835,7 +841,13 @@ func getFightAwards(actor *t.Actor) {
 		bag.PutAwards2Bag(actor, fightData.Awards, false, true, c.ASNoAction, fmt.Sprintf("fight_%d", fightData.Type))
 	}
 
-	writer := pack.AllocPack(proto.Fight, proto.FightSGetAwards, fightData.Type, 0, 0)
+	writer := pack.AllocPack(proto.Fight, proto.FightSGetAwards, fightData.Type, skip, 0)
+	if skip == 0 {
+		pack.Write(writer, int16(len(fightData.Entities)))
+		for _, entity := range fightData.Entities {
+			pack.Write(writer, entity.Pos, entity.Attrs[c.AttrHp])
+		}
+	}
 	actor.ReplyWriter(writer)
 
 	dynamicData := actor.GetDynamicData()
@@ -843,9 +855,57 @@ func getFightAwards(actor *t.Actor) {
 }
 
 func onGetFightAwards(actor *t.Actor, reader *bytes.Reader) {
-	getFightAwards(actor)
+	var skip int
+	pack.Read(reader, &skip)
+	getFightAwards(actor, skip)
+}
+
+func onGiveupFight(actor *t.Actor, reader *bytes.Reader) {
+	fightData := actor.GetFightData()
+	if fightData == nil {
+		return
+	}
+
+	if _, ok := g.GFightSkipConfig[fightData.Type]; ok {
+		return
+	}
+
+	dynamicData := actor.GetDynamicData()
+	dynamicData.FightData = nil
+
+	timer.StopTimer(actor, fmt.Sprintf("triggerFighting_%d", fightData.Type))
+	timer.StopTimer(actor, fmt.Sprintf("OnFightClear_%d", fightData.Type))
+
+	if handle, ok := actorFightGiveupHandles[fightData.Type]; ok {
+		handle(actor, fightData)
+	}
+
+	writer := pack.AllocPack(proto.Fight, proto.FightSGiveup, float64(fightData.Guid), int16(len(fightData.Entities)))
+	for _, entity := range fightData.Entities {
+		pack.Write(writer, entity.Pos, entity.Attrs[c.AttrHp])
+	}
+	actor.ReplyWriter(writer)
+}
+
+func onNextRound(actor *t.Actor, reader *bytes.Reader) {
+	fightData := actor.GetFightData()
+	if fightData == nil || fightData.FightResult != 0 {
+		return
+	}
+	_, ok := actorFightHpSyncHandles[fightData.Type]
+	if ok {
+		roundFighting(actor, fightData)
+	}
 }
 
 func onActorLogout(actor *t.Actor) {
-	getFightAwards(actor)
+	fightData := actor.GetFightData()
+	if fightData == nil {
+		return
+	}
+	if fightData.RealResult != 0 {
+		getFightAwards(actor, 0)
+	} else if handle, ok := actorFightGiveupHandles[fightData.Type]; ok {
+		handle(actor, fightData)
+	}
 }

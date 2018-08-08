@@ -1,0 +1,200 @@
+{
+	"14": {
+		"attrType": 14,
+		"attrValue": 30,
+		"levelValue": {
+			"1": {
+				"level": 1,
+				"value": 10
+			},
+			"2": {
+				"level": 10,
+				"value": 20
+			}
+		},
+		"rarityValue": {
+			"1": 10,
+			"2": 20,
+			"3": 40,
+			"4": 60,
+			"5": 80
+		},
+		"weight": 1
+	},
+	"15": {
+		"attrType": 15,
+		"attrValue": 30,
+		"levelValue": {
+			"1": {
+				"level": 1,
+				"value": 10
+			},
+			"2": {
+				"level": 10,
+				"value": 20
+			}
+		},
+		"rarityValue": {
+			"1": 10,
+			"2": 20,
+			"3": 40,
+			"4": 60,
+			"5": 80
+		},
+		"weight": 1
+	},
+	"16": {
+		"attrType": 16,
+		"attrValue": 30,
+		"levelValue": {
+			"1": {
+				"level": 1,
+				"value": 10
+			},
+			"2": {
+				"level": 10,
+				"value": 20
+			}
+		},
+		"rarityValue": {
+			"1": 10,
+			"2": 20,
+			"3": 40,
+			"4": 60,
+			"5": 80
+		},
+		"weight": 1
+	},
+	"17": {
+		"attrType": 17,
+		"attrValue": 30,
+		"levelValue": {
+			"1": {
+				"level": 1,
+				"value": 10
+			},
+			"2": {
+				"level": 10,
+				"value": 20
+			}
+		},
+		"rarityValue": {
+			"1": 10,
+			"2": 20,
+			"3": 40,
+			"4": 60,
+			"5": 80
+		},
+		"weight": 1
+	},
+	"18": {
+		"attrType": 18,
+		"attrValue": 30,
+		"levelValue": {
+			"1": {
+				"level": 1,
+				"value": 10
+			},
+			"2": {
+				"level": 10,
+				"value": 20
+			}
+		},
+		"rarityValue": {
+			"1": 10,
+			"2": 20,
+			"3": 40,
+			"4": 60,
+			"5": 80
+		},
+		"weight": 1
+	},
+	"19": {
+		"attrType": 19,
+		"attrValue": 30,
+		"levelValue": {
+			"1": {
+				"level": 1,
+				"value": 10
+			},
+			"2": {
+				"level": 10,
+				"value": 20
+			}
+		},
+		"rarityValue": {
+			"1": 10,
+			"2": 20,
+			"3": 40,
+			"4": 60,
+			"5": 80
+		},
+		"weight": 1
+	},
+	"20": {
+		"attrType": 20,
+		"attrValue": 30,
+		"levelValue": {
+			"1": {
+				"level": 1,
+				"value": 10
+			},
+			"2": {
+				"level": 10,
+				"value": 20
+			}
+		},
+		"rarityValue": {
+			"1": 10,
+			"2": 20,
+			"3": 40,
+			"4": 60,
+			"5": 80
+		},
+		"weight": 1
+	},
+	"21": {
+		"attrType": 21,
+		"attrValue": 30,
+		"levelValue": {
+			"1": {
+				"level": 1,
+				"value": 10
+			},
+			"2": {
+				"level": 10,
+				"value": 20
+			}
+		},
+		"rarityValue": {
+			"1": 10,
+			"2": 20,
+			"3": 40,
+			"4": 60,
+			"5": 80
+		},
+		"weight": 1
+	},
+	"22": {
+		"attrType": 22,
+		"attrValue": 30,
+		"levelValue": {
+			"1": {
+				"level": 1,
+				"value": 10
+			},
+			"2": {
+				"level": 10,
+				"value": 20
+			}
+		},
+		"rarityValue": {
+			"1": 10,
+			"2": 20,
+			"3": 40,
+			"4": 60,
+			"5": 80
+		},
+		"weight": 1
+	}
+}

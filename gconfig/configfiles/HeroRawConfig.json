@@ -1,0 +1,4565 @@
+{
+	"100000": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8240
+			},
+			"2": {
+				"type": 3,
+				"value": 12360
+			},
+			"3": {
+				"type": 4,
+				"value": 9700
+			},
+			"4": {
+				"type": 5,
+				"value": 9700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 80
+			},
+			"2": {
+				"type": 3,
+				"value": 120
+			},
+			"3": {
+				"type": 4,
+				"value": 40
+			},
+			"4": {
+				"type": 5,
+				"value": 750
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "骷髅兵",
+		"piece": 6000,
+		"race": 3,
+		"rarity": 2,
+		"rawHero": 100000
+	},
+	"100100": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7680
+			},
+			"2": {
+				"type": 3,
+				"value": 11520
+			},
+			"3": {
+				"type": 4,
+				"value": 10850
+			},
+			"4": {
+				"type": 5,
+				"value": 10100
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 120
+			},
+			"2": {
+				"type": 3,
+				"value": 180
+			},
+			"3": {
+				"type": 4,
+				"value": 60
+			},
+			"4": {
+				"type": 5,
+				"value": 1125
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "恶魔",
+		"piece": 6001,
+		"race": 3,
+		"rarity": 3,
+		"rawHero": 100100
+	},
+	"100200": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7680
+			},
+			"2": {
+				"type": 3,
+				"value": 11520
+			},
+			"3": {
+				"type": 4,
+				"value": 10400
+			},
+			"4": {
+				"type": 5,
+				"value": 10400
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "憎恶",
+		"piece": 6002,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 100200
+	},
+	"100300": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8320
+			},
+			"2": {
+				"type": 3,
+				"value": 12480
+			},
+			"3": {
+				"type": 4,
+				"value": 9600
+			},
+			"4": {
+				"type": 5,
+				"value": 9600
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "女妖",
+		"piece": 6003,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 100300
+	},
+	"100400": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8400
+			},
+			"2": {
+				"type": 3,
+				"value": 12600
+			},
+			"3": {
+				"type": 4,
+				"value": 9500
+			},
+			"4": {
+				"type": 5,
+				"value": 9500
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "绞肉车",
+		"piece": 6004,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 100400
+	},
+	"100500": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8360
+			},
+			"2": {
+				"type": 3,
+				"value": 12540
+			},
+			"3": {
+				"type": 4,
+				"value": 9550
+			},
+			"4": {
+				"type": 5,
+				"value": 9550
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "亡灵巫师",
+		"piece": 6005,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 100500
+	},
+	"100600": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8400
+			},
+			"2": {
+				"type": 3,
+				"value": 12600
+			},
+			"3": {
+				"type": 4,
+				"value": 9500
+			},
+			"4": {
+				"type": 5,
+				"value": 9500
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "魅魔",
+		"piece": 6006,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 100600
+	},
+	"100700": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7640
+			},
+			"2": {
+				"type": 3,
+				"value": 11460
+			},
+			"3": {
+				"type": 4,
+				"value": 10450
+			},
+			"4": {
+				"type": 5,
+				"value": 10450
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "紫色未有",
+		"piece": 6007,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 100700
+	},
+	"100800": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8480
+			},
+			"2": {
+				"type": 3,
+				"value": 12720
+			},
+			"3": {
+				"type": 4,
+				"value": 9550
+			},
+			"4": {
+				"type": 5,
+				"value": 9300
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "冰霜巨龙",
+		"piece": 6008,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 100800
+	},
+	"100900": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8080
+			},
+			"2": {
+				"type": 3,
+				"value": 12120
+			},
+			"3": {
+				"type": 4,
+				"value": 9900
+			},
+			"4": {
+				"type": 5,
+				"value": 9900
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 240
+			},
+			"2": {
+				"type": 3,
+				"value": 360
+			},
+			"3": {
+				"type": 4,
+				"value": 120
+			},
+			"4": {
+				"type": 5,
+				"value": 2250
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "死亡骑士",
+		"piece": 6009,
+		"race": 3,
+		"rarity": 5,
+		"rawHero": 100900
+	},
+	"101": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8000
+			},
+			"2": {
+				"type": 3,
+				"value": 12000
+			},
+			"3": {
+				"type": 4,
+				"value": 10000
+			},
+			"4": {
+				"type": 5,
+				"value": 10000
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 31
+			},
+			"2": {
+				"type": 3,
+				"value": 47
+			},
+			"3": {
+				"type": 4,
+				"value": 15
+			},
+			"4": {
+				"type": 5,
+				"value": 297
+			},
+			"5": {
+				"type": 6,
+				"value": 33
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "食尸鬼",
+		"piece": 6002,
+		"race": 5,
+		"rarity": 2,
+		"rawHero": 101
+	},
+	"102": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7760
+			},
+			"2": {
+				"type": 3,
+				"value": 11640
+			},
+			"3": {
+				"type": 4,
+				"value": 10300
+			},
+			"4": {
+				"type": 5,
+				"value": 10300
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 49
+			},
+			"2": {
+				"type": 3,
+				"value": 74
+			},
+			"3": {
+				"type": 4,
+				"value": 24
+			},
+			"4": {
+				"type": 5,
+				"value": 466
+			},
+			"5": {
+				"type": 6,
+				"value": 38
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6002,
+		"race": 5,
+		"rarity": 3,
+		"rawHero": 102
+	},
+	"103": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7600
+			},
+			"2": {
+				"type": 3,
+				"value": 11400
+			},
+			"3": {
+				"type": 4,
+				"value": 10200
+			},
+			"4": {
+				"type": 5,
+				"value": 10700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 72
+			},
+			"2": {
+				"type": 3,
+				"value": 108
+			},
+			"3": {
+				"type": 4,
+				"value": 36
+			},
+			"4": {
+				"type": 5,
+				"value": 679
+			},
+			"5": {
+				"type": 6,
+				"value": 41
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6002,
+		"race": 5,
+		"rarity": 4,
+		"rawHero": 103
+	},
+	"104": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8240
+			},
+			"2": {
+				"type": 3,
+				"value": 12360
+			},
+			"3": {
+				"type": 4,
+				"value": 9700
+			},
+			"4": {
+				"type": 5,
+				"value": 9700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 74
+			},
+			"2": {
+				"type": 3,
+				"value": 111
+			},
+			"3": {
+				"type": 4,
+				"value": 35
+			},
+			"4": {
+				"type": 5,
+				"value": 658
+			},
+			"5": {
+				"type": 6,
+				"value": 49
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6003,
+		"race": 5,
+		"rarity": 4,
+		"rawHero": 104
+	},
+	"105": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7680
+			},
+			"2": {
+				"type": 3,
+				"value": 11520
+			},
+			"3": {
+				"type": 4,
+				"value": 10850
+			},
+			"4": {
+				"type": 5,
+				"value": 10100
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 69
+			},
+			"2": {
+				"type": 3,
+				"value": 104
+			},
+			"3": {
+				"type": 4,
+				"value": 39
+			},
+			"4": {
+				"type": 5,
+				"value": 685
+			},
+			"5": {
+				"type": 6,
+				"value": 47
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6004,
+		"race": 5,
+		"rarity": 4,
+		"rawHero": 105
+	},
+	"106": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7680
+			},
+			"2": {
+				"type": 3,
+				"value": 11520
+			},
+			"3": {
+				"type": 4,
+				"value": 10400
+			},
+			"4": {
+				"type": 5,
+				"value": 10400
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 69
+			},
+			"2": {
+				"type": 3,
+				"value": 104
+			},
+			"3": {
+				"type": 4,
+				"value": 37
+			},
+			"4": {
+				"type": 5,
+				"value": 706
+			},
+			"5": {
+				"type": 6,
+				"value": 46
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6005,
+		"race": 5,
+		"rarity": 4,
+		"rawHero": 106
+	},
+	"107": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8320
+			},
+			"2": {
+				"type": 3,
+				"value": 12480
+			},
+			"3": {
+				"type": 4,
+				"value": 9600
+			},
+			"4": {
+				"type": 5,
+				"value": 9600
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 75
+			},
+			"2": {
+				"type": 3,
+				"value": 113
+			},
+			"3": {
+				"type": 4,
+				"value": 34
+			},
+			"4": {
+				"type": 5,
+				"value": 651
+			},
+			"5": {
+				"type": 6,
+				"value": 47
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6006,
+		"race": 5,
+		"rarity": 4,
+		"rawHero": 107
+	},
+	"108": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8400
+			},
+			"2": {
+				"type": 3,
+				"value": 12600
+			},
+			"3": {
+				"type": 4,
+				"value": 9500
+			},
+			"4": {
+				"type": 5,
+				"value": 9500
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 76
+			},
+			"2": {
+				"type": 3,
+				"value": 114
+			},
+			"3": {
+				"type": 4,
+				"value": 34
+			},
+			"4": {
+				"type": 5,
+				"value": 645
+			},
+			"5": {
+				"type": 6,
+				"value": 48
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6007,
+		"race": 5,
+		"rarity": 4,
+		"rawHero": 108
+	},
+	"109": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8360
+			},
+			"2": {
+				"type": 3,
+				"value": 12540
+			},
+			"3": {
+				"type": 4,
+				"value": 9550
+			},
+			"4": {
+				"type": 5,
+				"value": 9550
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 75
+			},
+			"2": {
+				"type": 3,
+				"value": 113
+			},
+			"3": {
+				"type": 4,
+				"value": 34
+			},
+			"4": {
+				"type": 5,
+				"value": 648
+			},
+			"5": {
+				"type": 6,
+				"value": 49
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6008,
+		"race": 5,
+		"rarity": 4,
+		"rawHero": 109
+	},
+	"110": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8400
+			},
+			"2": {
+				"type": 3,
+				"value": 12600
+			},
+			"3": {
+				"type": 4,
+				"value": 9500
+			},
+			"4": {
+				"type": 5,
+				"value": 9500
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 76
+			},
+			"2": {
+				"type": 3,
+				"value": 114
+			},
+			"3": {
+				"type": 4,
+				"value": 34
+			},
+			"4": {
+				"type": 5,
+				"value": 645
+			},
+			"5": {
+				"type": 6,
+				"value": 50
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6009,
+		"race": 5,
+		"rarity": 4,
+		"rawHero": 110
+	},
+	"110000": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8160
+			},
+			"2": {
+				"type": 3,
+				"value": 12240
+			},
+			"3": {
+				"type": 4,
+				"value": 9800
+			},
+			"4": {
+				"type": 5,
+				"value": 9800
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 80
+			},
+			"2": {
+				"type": 3,
+				"value": 120
+			},
+			"3": {
+				"type": 4,
+				"value": 40
+			},
+			"4": {
+				"type": 5,
+				"value": 300
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "索伦",
+		"piece": 6100,
+		"race": 2,
+		"rarity": 2,
+		"rawHero": 110000
+	},
+	"110100": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8240
+			},
+			"2": {
+				"type": 3,
+				"value": 12360
+			},
+			"3": {
+				"type": 4,
+				"value": 9700
+			},
+			"4": {
+				"type": 5,
+				"value": 9700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 120
+			},
+			"2": {
+				"type": 3,
+				"value": 180
+			},
+			"3": {
+				"type": 4,
+				"value": 60
+			},
+			"4": {
+				"type": 5,
+				"value": 1125
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "哥布林投矛手",
+		"piece": 6101,
+		"race": 2,
+		"rarity": 3,
+		"rawHero": 110100
+	},
+	"110200": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7840
+			},
+			"2": {
+				"type": 3,
+				"value": 11760
+			},
+			"3": {
+				"type": 4,
+				"value": 10200
+			},
+			"4": {
+				"type": 5,
+				"value": 10200
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "狼骑兵",
+		"piece": 6102,
+		"race": 2,
+		"rarity": 4,
+		"rawHero": 110200
+	},
+	"110300": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8280
+			},
+			"2": {
+				"type": 3,
+				"value": 12420
+			},
+			"3": {
+				"type": 4,
+				"value": 9650
+			},
+			"4": {
+				"type": 5,
+				"value": 9650
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 600
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "穆勒",
+		"piece": 6103,
+		"race": 2,
+		"rarity": 4,
+		"rawHero": 110300
+	},
+	"110400": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7680
+			},
+			"2": {
+				"type": 3,
+				"value": 11520
+			},
+			"3": {
+				"type": 4,
+				"value": 9950
+			},
+			"4": {
+				"type": 5,
+				"value": 10700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "狼人",
+		"piece": 6104,
+		"race": 2,
+		"rarity": 4,
+		"rawHero": 110400
+	},
+	"110500": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8360
+			},
+			"2": {
+				"type": 3,
+				"value": 12540
+			},
+			"3": {
+				"type": 4,
+				"value": 9930
+			},
+			"4": {
+				"type": 5,
+				"value": 9300
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "科多兽",
+		"piece": 6105,
+		"race": 2,
+		"rarity": 4,
+		"rawHero": 110500
+	},
+	"110600": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8000
+			},
+			"2": {
+				"type": 3,
+				"value": 12000
+			},
+			"3": {
+				"type": 4,
+				"value": 10000
+			},
+			"4": {
+				"type": 5,
+				"value": 10000
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "投石车",
+		"piece": 6106,
+		"race": 2,
+		"rarity": 4,
+		"rawHero": 110600
+	},
+	"110700": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7760
+			},
+			"2": {
+				"type": 3,
+				"value": 11640
+			},
+			"3": {
+				"type": 4,
+				"value": 10300
+			},
+			"4": {
+				"type": 5,
+				"value": 10300
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "鹰身人斥候",
+		"piece": 6107,
+		"race": 2,
+		"rarity": 4,
+		"rawHero": 110700
+	},
+	"110800": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7600
+			},
+			"2": {
+				"type": 3,
+				"value": 11400
+			},
+			"3": {
+				"type": 4,
+				"value": 10200
+			},
+			"4": {
+				"type": 5,
+				"value": 10700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 600
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "古尔丹",
+		"piece": 6108,
+		"race": 2,
+		"rarity": 4,
+		"rawHero": 110800
+	},
+	"110900": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8240
+			},
+			"2": {
+				"type": 3,
+				"value": 12360
+			},
+			"3": {
+				"type": 4,
+				"value": 9700
+			},
+			"4": {
+				"type": 5,
+				"value": 9700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 240
+			},
+			"2": {
+				"type": 3,
+				"value": 360
+			},
+			"3": {
+				"type": 4,
+				"value": 120
+			},
+			"4": {
+				"type": 5,
+				"value": 900
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "萨穆罗",
+		"piece": 6109,
+		"race": 2,
+		"rarity": 5,
+		"rawHero": 110900
+	},
+	"111": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7640
+			},
+			"2": {
+				"type": 3,
+				"value": 11460
+			},
+			"3": {
+				"type": 4,
+				"value": 10450
+			},
+			"4": {
+				"type": 5,
+				"value": 10450
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 103
+			},
+			"2": {
+				"type": 3,
+				"value": 155
+			},
+			"3": {
+				"type": 4,
+				"value": 56
+			},
+			"4": {
+				"type": 5,
+				"value": 1064
+			},
+			"5": {
+				"type": 6,
+				"value": 45
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6009,
+		"race": 5,
+		"rarity": 5,
+		"rawHero": 111
+	},
+	"112": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8480
+			},
+			"2": {
+				"type": 3,
+				"value": 12720
+			},
+			"3": {
+				"type": 4,
+				"value": 9550
+			},
+			"4": {
+				"type": 5,
+				"value": 9300
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 115
+			},
+			"2": {
+				"type": 3,
+				"value": 172
+			},
+			"3": {
+				"type": 4,
+				"value": 51
+			},
+			"4": {
+				"type": 5,
+				"value": 947
+			},
+			"5": {
+				"type": 6,
+				"value": 53
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6009,
+		"race": 5,
+		"rarity": 5,
+		"rawHero": 112
+	},
+	"113": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8080
+			},
+			"2": {
+				"type": 3,
+				"value": 12120
+			},
+			"3": {
+				"type": 4,
+				"value": 9900
+			},
+			"4": {
+				"type": 5,
+				"value": 9900
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 32
+			},
+			"2": {
+				"type": 3,
+				"value": 48
+			},
+			"3": {
+				"type": 4,
+				"value": 15
+			},
+			"4": {
+				"type": 5,
+				"value": 294
+			},
+			"5": {
+				"type": 6,
+				"value": 44
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6102,
+		"race": 3,
+		"rarity": 2,
+		"rawHero": 113
+	},
+	"114": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8160
+			},
+			"2": {
+				"type": 3,
+				"value": 12240
+			},
+			"3": {
+				"type": 4,
+				"value": 9800
+			},
+			"4": {
+				"type": 5,
+				"value": 9800
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 50
+			},
+			"2": {
+				"type": 3,
+				"value": 76
+			},
+			"3": {
+				"type": 4,
+				"value": 24
+			},
+			"4": {
+				"type": 5,
+				"value": 457
+			},
+			"5": {
+				"type": 6,
+				"value": 62
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6102,
+		"race": 3,
+		"rarity": 3,
+		"rawHero": 114
+	},
+	"115": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8240
+			},
+			"2": {
+				"type": 3,
+				"value": 12360
+			},
+			"3": {
+				"type": 4,
+				"value": 9700
+			},
+			"4": {
+				"type": 5,
+				"value": 9700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 74
+			},
+			"2": {
+				"type": 3,
+				"value": 111
+			},
+			"3": {
+				"type": 4,
+				"value": 35
+			},
+			"4": {
+				"type": 5,
+				"value": 658
+			},
+			"5": {
+				"type": 6,
+				"value": 53
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6102,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 115
+	},
+	"116": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7840
+			},
+			"2": {
+				"type": 3,
+				"value": 11760
+			},
+			"3": {
+				"type": 4,
+				"value": 10200
+			},
+			"4": {
+				"type": 5,
+				"value": 10200
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 70
+			},
+			"2": {
+				"type": 3,
+				"value": 106
+			},
+			"3": {
+				"type": 4,
+				"value": 36
+			},
+			"4": {
+				"type": 5,
+				"value": 692
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6103,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 116
+	},
+	"117": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8280
+			},
+			"2": {
+				"type": 3,
+				"value": 12420
+			},
+			"3": {
+				"type": 4,
+				"value": 9650
+			},
+			"4": {
+				"type": 5,
+				"value": 9650
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 74
+			},
+			"2": {
+				"type": 3,
+				"value": 112
+			},
+			"3": {
+				"type": 4,
+				"value": 34
+			},
+			"4": {
+				"type": 5,
+				"value": 655
+			},
+			"5": {
+				"type": 6,
+				"value": 52
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6104,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 117
+	},
+	"118": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7680
+			},
+			"2": {
+				"type": 3,
+				"value": 11520
+			},
+			"3": {
+				"type": 4,
+				"value": 9950
+			},
+			"4": {
+				"type": 5,
+				"value": 10700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 69
+			},
+			"2": {
+				"type": 3,
+				"value": 104
+			},
+			"3": {
+				"type": 4,
+				"value": 36
+			},
+			"4": {
+				"type": 5,
+				"value": 726
+			},
+			"5": {
+				"type": 6,
+				"value": 38
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6105,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 118
+	},
+	"119": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8360
+			},
+			"2": {
+				"type": 3,
+				"value": 12540
+			},
+			"3": {
+				"type": 4,
+				"value": 9930
+			},
+			"4": {
+				"type": 5,
+				"value": 9300
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 75
+			},
+			"2": {
+				"type": 3,
+				"value": 113
+			},
+			"3": {
+				"type": 4,
+				"value": 35
+			},
+			"4": {
+				"type": 5,
+				"value": 631
+			},
+			"5": {
+				"type": 6,
+				"value": 43
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6106,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 119
+	},
+	"120": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8240
+			},
+			"2": {
+				"type": 3,
+				"value": 12360
+			},
+			"3": {
+				"type": 4,
+				"value": 9700
+			},
+			"4": {
+				"type": 5,
+				"value": 9700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 74
+			},
+			"2": {
+				"type": 3,
+				"value": 111
+			},
+			"3": {
+				"type": 4,
+				"value": 35
+			},
+			"4": {
+				"type": 5,
+				"value": 658
+			},
+			"5": {
+				"type": 6,
+				"value": 55
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6107,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 120
+	},
+	"120000": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7680
+			},
+			"2": {
+				"type": 3,
+				"value": 11520
+			},
+			"3": {
+				"type": 4,
+				"value": 10850
+			},
+			"4": {
+				"type": 5,
+				"value": 10100
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 80
+			},
+			"2": {
+				"type": 3,
+				"value": 120
+			},
+			"3": {
+				"type": 4,
+				"value": 40
+			},
+			"4": {
+				"type": 5,
+				"value": 750
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "民兵",
+		"piece": 6200,
+		"race": 1,
+		"rarity": 2,
+		"rawHero": 120000
+	},
+	"120100": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7680
+			},
+			"2": {
+				"type": 3,
+				"value": 11520
+			},
+			"3": {
+				"type": 4,
+				"value": 10400
+			},
+			"4": {
+				"type": 5,
+				"value": 10400
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 120
+			},
+			"2": {
+				"type": 3,
+				"value": 180
+			},
+			"3": {
+				"type": 4,
+				"value": 60
+			},
+			"4": {
+				"type": 5,
+				"value": 1125
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "步兵",
+		"piece": 6201,
+		"race": 1,
+		"rarity": 3,
+		"rawHero": 120100
+	},
+	"120200": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8320
+			},
+			"2": {
+				"type": 3,
+				"value": 12480
+			},
+			"3": {
+				"type": 4,
+				"value": 9600
+			},
+			"4": {
+				"type": 5,
+				"value": 9600
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 120
+			},
+			"2": {
+				"type": 3,
+				"value": 180
+			},
+			"3": {
+				"type": 4,
+				"value": 60
+			},
+			"4": {
+				"type": 5,
+				"value": 450
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "卡尔德",
+		"piece": 6202,
+		"race": 1,
+		"rarity": 3,
+		"rawHero": 120200
+	},
+	"120300": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8400
+			},
+			"2": {
+				"type": 3,
+				"value": 12600
+			},
+			"3": {
+				"type": 4,
+				"value": 9500
+			},
+			"4": {
+				"type": 5,
+				"value": 9500
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 600
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "凯伊",
+		"piece": 6203,
+		"race": 1,
+		"rarity": 4,
+		"rawHero": 120300
+	},
+	"120400": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8360
+			},
+			"2": {
+				"type": 3,
+				"value": 12540
+			},
+			"3": {
+				"type": 4,
+				"value": 9550
+			},
+			"4": {
+				"type": 5,
+				"value": 9550
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "牧师",
+		"piece": 6204,
+		"race": 1,
+		"rarity": 4,
+		"rawHero": 120400
+	},
+	"120500": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8400
+			},
+			"2": {
+				"type": 3,
+				"value": 12600
+			},
+			"3": {
+				"type": 4,
+				"value": 9500
+			},
+			"4": {
+				"type": 5,
+				"value": 9500
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "女巫",
+		"piece": 6205,
+		"race": 1,
+		"rarity": 4,
+		"rawHero": 120500
+	},
+	"120600": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7640
+			},
+			"2": {
+				"type": 3,
+				"value": 11460
+			},
+			"3": {
+				"type": 4,
+				"value": 10450
+			},
+			"4": {
+				"type": 5,
+				"value": 10450
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 600
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "比尔加",
+		"piece": 6206,
+		"race": 1,
+		"rarity": 4,
+		"rawHero": 120600
+	},
+	"120700": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8480
+			},
+			"2": {
+				"type": 3,
+				"value": 12720
+			},
+			"3": {
+				"type": 4,
+				"value": 9550
+			},
+			"4": {
+				"type": 5,
+				"value": 9300
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "骑士",
+		"piece": 6207,
+		"race": 1,
+		"rarity": 4,
+		"rawHero": 120700
+	},
+	"120800": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8080
+			},
+			"2": {
+				"type": 3,
+				"value": 12120
+			},
+			"3": {
+				"type": 4,
+				"value": 9900
+			},
+			"4": {
+				"type": 5,
+				"value": 9900
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "狮鹫",
+		"piece": 6208,
+		"race": 1,
+		"rarity": 4,
+		"rawHero": 120800
+	},
+	"120900": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8240
+			},
+			"2": {
+				"type": 3,
+				"value": 12360
+			},
+			"3": {
+				"type": 4,
+				"value": 9700
+			},
+			"4": {
+				"type": 5,
+				"value": 9700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 240
+			},
+			"2": {
+				"type": 3,
+				"value": 360
+			},
+			"3": {
+				"type": 4,
+				"value": 120
+			},
+			"4": {
+				"type": 5,
+				"value": 900
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "甘道夫",
+		"piece": 6209,
+		"race": 1,
+		"rarity": 5,
+		"rawHero": 120900
+	},
+	"121": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8320
+			},
+			"2": {
+				"type": 3,
+				"value": 12480
+			},
+			"3": {
+				"type": 4,
+				"value": 9600
+			},
+			"4": {
+				"type": 5,
+				"value": 9600
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 75
+			},
+			"2": {
+				"type": 3,
+				"value": 113
+			},
+			"3": {
+				"type": 4,
+				"value": 34
+			},
+			"4": {
+				"type": 5,
+				"value": 651
+			},
+			"5": {
+				"type": 6,
+				"value": 57
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6108,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 121
+	},
+	"122": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8080
+			},
+			"2": {
+				"type": 3,
+				"value": 12120
+			},
+			"3": {
+				"type": 4,
+				"value": 10000
+			},
+			"4": {
+				"type": 5,
+				"value": 9840
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 73
+			},
+			"2": {
+				"type": 3,
+				"value": 109
+			},
+			"3": {
+				"type": 4,
+				"value": 36
+			},
+			"4": {
+				"type": 5,
+				"value": 668
+			},
+			"5": {
+				"type": 6,
+				"value": 59
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6109,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 122
+	},
+	"123": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7840
+			},
+			"2": {
+				"type": 3,
+				"value": 11760
+			},
+			"3": {
+				"type": 4,
+				"value": 10200
+			},
+			"4": {
+				"type": 5,
+				"value": 10200
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 70
+			},
+			"2": {
+				"type": 3,
+				"value": 106
+			},
+			"3": {
+				"type": 4,
+				"value": 36
+			},
+			"4": {
+				"type": 5,
+				"value": 692
+			},
+			"5": {
+				"type": 6,
+				"value": 42
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6109,
+		"race": 3,
+		"rarity": 4,
+		"rawHero": 123
+	},
+	"124": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8000
+			},
+			"2": {
+				"type": 3,
+				"value": 12000
+			},
+			"3": {
+				"type": 4,
+				"value": 10000
+			},
+			"4": {
+				"type": 5,
+				"value": 10000
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 108
+			},
+			"2": {
+				"type": 3,
+				"value": 162
+			},
+			"3": {
+				"type": 4,
+				"value": 54
+			},
+			"4": {
+				"type": 5,
+				"value": 1018
+			},
+			"5": {
+				"type": 6,
+				"value": 60
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6109,
+		"race": 3,
+		"rarity": 5,
+		"rawHero": 124
+	},
+	"125": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7680
+			},
+			"2": {
+				"type": 3,
+				"value": 11520
+			},
+			"3": {
+				"type": 4,
+				"value": 10400
+			},
+			"4": {
+				"type": 5,
+				"value": 10400
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 104
+			},
+			"2": {
+				"type": 3,
+				"value": 156
+			},
+			"3": {
+				"type": 4,
+				"value": 56
+			},
+			"4": {
+				"type": 5,
+				"value": 1059
+			},
+			"5": {
+				"type": 6,
+				"value": 42
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6109,
+		"race": 3,
+		"rarity": 5,
+		"rawHero": 125
+	},
+	"126": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8000
+			},
+			"2": {
+				"type": 3,
+				"value": 12000
+			},
+			"3": {
+				"type": 4,
+				"value": 10000
+			},
+			"4": {
+				"type": 5,
+				"value": 10000
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 31
+			},
+			"2": {
+				"type": 3,
+				"value": 47
+			},
+			"3": {
+				"type": 4,
+				"value": 15
+			},
+			"4": {
+				"type": 5,
+				"value": 297
+			},
+			"5": {
+				"type": 6,
+				"value": 35
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6202,
+		"race": 2,
+		"rarity": 2,
+		"rawHero": 126
+	},
+	"127": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7760
+			},
+			"2": {
+				"type": 3,
+				"value": 11640
+			},
+			"3": {
+				"type": 4,
+				"value": 10300
+			},
+			"4": {
+				"type": 5,
+				"value": 10300
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 48
+			},
+			"2": {
+				"type": 3,
+				"value": 72
+			},
+			"3": {
+				"type": 4,
+				"value": 25
+			},
+			"4": {
+				"type": 5,
+				"value": 480
+			},
+			"5": {
+				"type": 6,
+				"value": 30
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6202,
+		"race": 2,
+		"rarity": 3,
+		"rawHero": 127
+	},
+	"128": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8200
+			},
+			"2": {
+				"type": 3,
+				"value": 12300
+			},
+			"3": {
+				"type": 4,
+				"value": 9750
+			},
+			"4": {
+				"type": 5,
+				"value": 9750
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 74
+			},
+			"2": {
+				"type": 3,
+				"value": 111
+			},
+			"3": {
+				"type": 4,
+				"value": 35
+			},
+			"4": {
+				"type": 5,
+				"value": 662
+			},
+			"5": {
+				"type": 6,
+				"value": 65
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6202,
+		"race": 2,
+		"rarity": 4,
+		"rawHero": 128
+	},
+	"129": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8336
+			},
+			"2": {
+				"type": 3,
+				"value": 12504
+			},
+			"3": {
+				"type": 4,
+				"value": 9580
+			},
+			"4": {
+				"type": 5,
+				"value": 9580
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 75
+			},
+			"2": {
+				"type": 3,
+				"value": 113
+			},
+			"3": {
+				"type": 4,
+				"value": 34
+			},
+			"4": {
+				"type": 5,
+				"value": 650
+			},
+			"5": {
+				"type": 6,
+				"value": 60
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6203,
+		"race": 2,
+		"rarity": 4,
+		"rawHero": 129
+	},
+	"130": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8080
+			},
+			"2": {
+				"type": 3,
+				"value": 12120
+			},
+			"3": {
+				"type": 4,
+				"value": 9750
+			},
+			"4": {
+				"type": 5,
+				"value": 10000
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 73
+			},
+			"2": {
+				"type": 3,
+				"value": 109
+			},
+			"3": {
+				"type": 4,
+				"value": 35
+			},
+			"4": {
+				"type": 5,
+				"value": 679
+			},
+			"5": {
+				"type": 6,
+				"value": 57
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6204,
+		"race": 2,
+		"rarity": 4,
+		"rawHero": 130
+	},
+	"130000": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8240
+			},
+			"2": {
+				"type": 3,
+				"value": 12360
+			},
+			"3": {
+				"type": 4,
+				"value": 9700
+			},
+			"4": {
+				"type": 5,
+				"value": 9700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 80
+			},
+			"2": {
+				"type": 3,
+				"value": 120
+			},
+			"3": {
+				"type": 4,
+				"value": 40
+			},
+			"4": {
+				"type": 5,
+				"value": 750
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "弓箭手",
+		"piece": 6300,
+		"race": 4,
+		"rarity": 2,
+		"rawHero": 130000
+	},
+	"130100": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7840
+			},
+			"2": {
+				"type": 3,
+				"value": 11760
+			},
+			"3": {
+				"type": 4,
+				"value": 10200
+			},
+			"4": {
+				"type": 5,
+				"value": 10200
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 120
+			},
+			"2": {
+				"type": 3,
+				"value": 180
+			},
+			"3": {
+				"type": 4,
+				"value": 60
+			},
+			"4": {
+				"type": 5,
+				"value": 1125
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "男精灵弓箭手",
+		"piece": 6301,
+		"race": 4,
+		"rarity": 3,
+		"rawHero": 130100
+	},
+	"130200": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8280
+			},
+			"2": {
+				"type": 3,
+				"value": 12420
+			},
+			"3": {
+				"type": 4,
+				"value": 9650
+			},
+			"4": {
+				"type": 5,
+				"value": 9650
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 600
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "艾尔达",
+		"piece": 6302,
+		"race": 4,
+		"rarity": 4,
+		"rawHero": 130200
+	},
+	"130300": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7680
+			},
+			"2": {
+				"type": 3,
+				"value": 11520
+			},
+			"3": {
+				"type": 4,
+				"value": 9950
+			},
+			"4": {
+				"type": 5,
+				"value": 10700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "女精灵法师",
+		"piece": 6303,
+		"race": 4,
+		"rarity": 4,
+		"rawHero": 130300
+	},
+	"130400": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8360
+			},
+			"2": {
+				"type": 3,
+				"value": 12540
+			},
+			"3": {
+				"type": 4,
+				"value": 9930
+			},
+			"4": {
+				"type": 5,
+				"value": 9300
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 600
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "斯拉格",
+		"piece": 6304,
+		"race": 4,
+		"rarity": 4,
+		"rawHero": 130400
+	},
+	"130500": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8240
+			},
+			"2": {
+				"type": 3,
+				"value": 12360
+			},
+			"3": {
+				"type": 4,
+				"value": 9700
+			},
+			"4": {
+				"type": 5,
+				"value": 9700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 600
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "雷恩",
+		"piece": 6305,
+		"race": 4,
+		"rarity": 4,
+		"rawHero": 130500
+	},
+	"130600": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8320
+			},
+			"2": {
+				"type": 3,
+				"value": 12480
+			},
+			"3": {
+				"type": 4,
+				"value": 9600
+			},
+			"4": {
+				"type": 5,
+				"value": 9600
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 600
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "佐伊",
+		"piece": 6306,
+		"race": 4,
+		"rarity": 4,
+		"rawHero": 130600
+	},
+	"130700": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8080
+			},
+			"2": {
+				"type": 3,
+				"value": 12120
+			},
+			"3": {
+				"type": 4,
+				"value": 10000
+			},
+			"4": {
+				"type": 5,
+				"value": 9840
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "山岭巨人",
+		"piece": 6307,
+		"race": 4,
+		"rarity": 4,
+		"rawHero": 130700
+	},
+	"130800": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7840
+			},
+			"2": {
+				"type": 3,
+				"value": 11760
+			},
+			"3": {
+				"type": 4,
+				"value": 10200
+			},
+			"4": {
+				"type": 5,
+				"value": 10200
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 160
+			},
+			"2": {
+				"type": 3,
+				"value": 240
+			},
+			"3": {
+				"type": 4,
+				"value": 80
+			},
+			"4": {
+				"type": 5,
+				"value": 1500
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "独角兽",
+		"piece": 6308,
+		"race": 4,
+		"rarity": 4,
+		"rawHero": 130800
+	},
+	"130900": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8000
+			},
+			"2": {
+				"type": 3,
+				"value": 12000
+			},
+			"3": {
+				"type": 4,
+				"value": 10000
+			},
+			"4": {
+				"type": 5,
+				"value": 10000
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 240
+			},
+			"2": {
+				"type": 3,
+				"value": 360
+			},
+			"3": {
+				"type": 4,
+				"value": 120
+			},
+			"4": {
+				"type": 5,
+				"value": 2250
+			},
+			"5": {
+				"type": 6,
+				"value": 40
+			},
+			"6": {
+				"type": 14,
+				"value": 1000
+			},
+			"7": {
+				"type": 18,
+				"value": 1000
+			},
+			"8": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"name": "月之女祭司",
+		"piece": 6309,
+		"race": 4,
+		"rarity": 5,
+		"rawHero": 130900
+	},
+	"131": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8160
+			},
+			"2": {
+				"type": 3,
+				"value": 12240
+			},
+			"3": {
+				"type": 4,
+				"value": 9800
+			},
+			"4": {
+				"type": 5,
+				"value": 9800
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 73
+			},
+			"2": {
+				"type": 3,
+				"value": 110
+			},
+			"3": {
+				"type": 4,
+				"value": 35
+			},
+			"4": {
+				"type": 5,
+				"value": 665
+			},
+			"5": {
+				"type": 6,
+				"value": 57
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6205,
+		"race": 2,
+		"rarity": 4,
+		"rawHero": 131
+	},
+	"132": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8200
+			},
+			"2": {
+				"type": 3,
+				"value": 12300
+			},
+			"3": {
+				"type": 4,
+				"value": 9750
+			},
+			"4": {
+				"type": 5,
+				"value": 9750
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 74
+			},
+			"2": {
+				"type": 3,
+				"value": 111
+			},
+			"3": {
+				"type": 4,
+				"value": 35
+			},
+			"4": {
+				"type": 5,
+				"value": 662
+			},
+			"5": {
+				"type": 6,
+				"value": 55
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6206,
+		"race": 2,
+		"rarity": 4,
+		"rawHero": 132
+	},
+	"133": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8240
+			},
+			"2": {
+				"type": 3,
+				"value": 12360
+			},
+			"3": {
+				"type": 4,
+				"value": 9700
+			},
+			"4": {
+				"type": 5,
+				"value": 9700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 111
+			},
+			"2": {
+				"type": 3,
+				"value": 167
+			},
+			"3": {
+				"type": 4,
+				"value": 52
+			},
+			"4": {
+				"type": 5,
+				"value": 988
+			},
+			"5": {
+				"type": 6,
+				"value": 56
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6209,
+		"race": 2,
+		"rarity": 5,
+		"rawHero": 133
+	},
+	"134": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8240
+			},
+			"2": {
+				"type": 3,
+				"value": 12360
+			},
+			"3": {
+				"type": 4,
+				"value": 9700
+			},
+			"4": {
+				"type": 5,
+				"value": 9700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 51
+			},
+			"2": {
+				"type": 3,
+				"value": 76
+			},
+			"3": {
+				"type": 4,
+				"value": 24
+			},
+			"4": {
+				"type": 5,
+				"value": 452
+			},
+			"5": {
+				"type": 6,
+				"value": 66
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6302,
+		"race": 4,
+		"rarity": 3,
+		"rawHero": 134
+	},
+	"135": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8000
+			},
+			"2": {
+				"type": 3,
+				"value": 12000
+			},
+			"3": {
+				"type": 4,
+				"value": 10300
+			},
+			"4": {
+				"type": 5,
+				"value": 9800
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 72
+			},
+			"2": {
+				"type": 3,
+				"value": 108
+			},
+			"3": {
+				"type": 4,
+				"value": 37
+			},
+			"4": {
+				"type": 5,
+				"value": 665
+			},
+			"5": {
+				"type": 6,
+				"value": 36
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6303,
+		"race": 4,
+		"rarity": 4,
+		"rawHero": 135
+	},
+	"136": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8000
+			},
+			"2": {
+				"type": 3,
+				"value": 12000
+			},
+			"3": {
+				"type": 4,
+				"value": 9700
+			},
+			"4": {
+				"type": 5,
+				"value": 10200
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 72
+			},
+			"2": {
+				"type": 3,
+				"value": 108
+			},
+			"3": {
+				"type": 4,
+				"value": 35
+			},
+			"4": {
+				"type": 5,
+				"value": 692
+			},
+			"5": {
+				"type": 6,
+				"value": 68
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6304,
+		"race": 4,
+		"rarity": 4,
+		"rawHero": 136
+	},
+	"137": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8080
+			},
+			"2": {
+				"type": 3,
+				"value": 12120
+			},
+			"3": {
+				"type": 4,
+				"value": 9750
+			},
+			"4": {
+				"type": 5,
+				"value": 10000
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 73
+			},
+			"2": {
+				"type": 3,
+				"value": 109
+			},
+			"3": {
+				"type": 4,
+				"value": 35
+			},
+			"4": {
+				"type": 5,
+				"value": 679
+			},
+			"5": {
+				"type": 6,
+				"value": 70
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6305,
+		"race": 4,
+		"rarity": 4,
+		"rawHero": 137
+	},
+	"138": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7680
+			},
+			"2": {
+				"type": 3,
+				"value": 11520
+			},
+			"3": {
+				"type": 4,
+				"value": 9800
+			},
+			"4": {
+				"type": 5,
+				"value": 10800
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 69
+			},
+			"2": {
+				"type": 3,
+				"value": 104
+			},
+			"3": {
+				"type": 4,
+				"value": 35
+			},
+			"4": {
+				"type": 5,
+				"value": 733
+			},
+			"5": {
+				"type": 6,
+				"value": 33
+			},
+			"6": {
+				"type": 14,
+				"value": 3000
+			},
+			"7": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6306,
+		"race": 4,
+		"rarity": 4,
+		"rawHero": 138
+	},
+	"200": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 8000
+			},
+			"2": {
+				"type": 3,
+				"value": 12000
+			},
+			"3": {
+				"type": 4,
+				"value": 10000
+			},
+			"4": {
+				"type": 5,
+				"value": 10000
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 210
+			},
+			"2": {
+				"type": 3,
+				"value": 310
+			},
+			"3": {
+				"type": 4,
+				"value": 100
+			},
+			"4": {
+				"type": 5,
+				"value": 1960
+			},
+			"5": {
+				"type": 6,
+				"value": 33
+			},
+			"6": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6307,
+		"race": 2,
+		"rarity": 2,
+		"rawHero": 200
+	},
+	"210": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7760
+			},
+			"2": {
+				"type": 3,
+				"value": 11640
+			},
+			"3": {
+				"type": 4,
+				"value": 10300
+			},
+			"4": {
+				"type": 5,
+				"value": 10300
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 230
+			},
+			"2": {
+				"type": 3,
+				"value": 350
+			},
+			"3": {
+				"type": 4,
+				"value": 120
+			},
+			"4": {
+				"type": 5,
+				"value": 2330
+			},
+			"5": {
+				"type": 6,
+				"value": 38
+			},
+			"6": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6308,
+		"race": 2,
+		"rarity": 2,
+		"rawHero": 210
+	},
+	"220": {
+		"attrRatio": {
+			"1": {
+				"type": 2,
+				"value": 7600
+			},
+			"2": {
+				"type": 3,
+				"value": 11400
+			},
+			"3": {
+				"type": 4,
+				"value": 10200
+			},
+			"4": {
+				"type": 5,
+				"value": 10700
+			}
+		},
+		"attrs": {
+			"1": {
+				"type": 2,
+				"value": 270
+			},
+			"2": {
+				"type": 3,
+				"value": 410
+			},
+			"3": {
+				"type": 4,
+				"value": 150
+			},
+			"4": {
+				"type": 5,
+				"value": 2950
+			},
+			"5": {
+				"type": 6,
+				"value": 41
+			},
+			"6": {
+				"type": 16,
+				"value": 20000
+			}
+		},
+		"piece": 6309,
+		"race": 1,
+		"rarity": 3,
+		"rawHero": 220
+	}
+}

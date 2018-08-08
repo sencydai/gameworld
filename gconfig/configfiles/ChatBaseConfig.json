@@ -1,0 +1,10 @@
+{
+	"channelCD": {
+		"1": 30,
+		"2": 15,
+		"4": 15
+	},
+	"maxBlacklist": 30,
+	"maxChar": 100,
+	"maxFriend": 50
+}

@@ -3,11 +3,12 @@ package bag
 import (
 	"fmt"
 	"sort"
+	"strings"
 
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
 	c "github.com/sencydai/gameworld/constdefine"
 	g "github.com/sencydai/gameworld/gconfig"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	"github.com/sencydai/gameworld/service"
 	t "github.com/sencydai/gameworld/typedefine"
 
@@ -23,7 +24,7 @@ func init() {
 	service.RegConfigLoadFinish(onConfigLoadFinish)
 }
 
-func onConfigLoadFinish() {
+func onConfigLoadFinish(isGameStart bool) {
 	singleItemIds = make(map[int]int)
 	multItemIds = make(map[int][]int)
 }
@@ -213,25 +214,20 @@ func CheckDeductItems2(actor *t.Actor, items map[int]int) bool {
 	return true
 }
 
-func DeductItem(actor *t.Actor, id, count int, check bool, logText string) bool {
+func DeductItem(actor *t.Actor, id, count int, check bool, logText string) (ok bool, realLeft int) {
 	if check && !CheckDeductItem(actor, id, count) {
-		return false
+		return false, 0
 	}
 
 	itemConf := g.GItemConfig[id]
 	items := GetItemTypeBag(actor, itemConf.Type)
-	old := items[id]
 	items[id] -= count
-	var left int
-	if left = items[id]; left <= 0 {
-		if left < 0 {
-			log.Infof("DeductItem %s: no enough item count, actor(%d),id(%d),old(%d),deduct(%d)", logText, actor.ActorId, id, old, count)
-			left = 0
-		}
+	realLeft = items[id]
+	left := realLeft
+	if realLeft <= 0 {
+		left = 0
 		delete(items, id)
 	}
-
-	log.Infof("DeductItem %s: actor(%d),id(%d),deduct(%d),left(%d)", logText, actor.ActorId, id, count, left)
 
 	if itemConf.Type == c.ITCurrency {
 		writer := pack.AllocPack(
@@ -254,7 +250,11 @@ func DeductItem(actor *t.Actor, id, count int, check bool, logText string) bool 
 		actor.ReplyWriter(writer)
 	}
 
-	return true
+	if len(logText) > 0 {
+		log.Infof("DeductItem %s: actor(%d),id(%d),deduct(%d),left(%d)", logText, actor.ActorId, id, count, realLeft)
+	}
+
+	return true, realLeft
 }
 
 func DeductItems(actor *t.Actor, items map[int]t.AwardItem, check bool, logText string) bool {
@@ -262,9 +262,15 @@ func DeductItems(actor *t.Actor, items map[int]t.AwardItem, check bool, logText 
 		return false
 	}
 
+	text := make([]string, len(items))
+	var index int
 	for _, item := range items {
-		DeductItem(actor, item.Id, item.Count, false, logText)
+		_, left := DeductItem(actor, item.Id, item.Count, false, "")
+		text[index] = fmt.Sprintf("id(%d),deduct(%d),left(%d)", item.Id, item.Count, left)
+		index++
 	}
+
+	log.Infof("DeductItem %s: actor(%d),%s", logText, actor.ActorId, strings.Join(text, ";"))
 
 	return true
 }
@@ -274,9 +280,19 @@ func DeductItems2(actor *t.Actor, items map[int]int, check bool, logText string)
 		return false
 	}
 
+	text := make([]string, len(items))
+	var index int
+	infof := log.Infof
 	for id, count := range items {
-		DeductItem(actor, id, count, false, logText)
+		_, left := DeductItem(actor, id, count, false, "")
+		text[index] = fmt.Sprintf("id(%d),deduct(%d),left(%d)", id, count, left)
+		if left < 0 {
+			infof = log.Warnf
+		}
+		index++
 	}
+
+	infof("DeductItem %s: actor(%d),%s", logText, actor.ActorId, strings.Join(text, ";"))
 
 	return true
 }

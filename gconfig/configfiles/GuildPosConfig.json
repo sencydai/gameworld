@@ -1,0 +1,33 @@
+{
+	"1": {
+		"authority": {
+			"approve": 1,
+			"building": 1,
+			"icon": 1,
+			"notice": 1,
+			"setpos": 1,
+			"upgrade": 1
+		},
+		"count": 1,
+		"type": 1
+	},
+	"2": {
+		"authority": {
+			"approve": 1,
+			"building": 1,
+			"icon": 1,
+			"notice": 1,
+			"setpos": 1,
+			"upgrade": 1
+		},
+		"count": 2,
+		"type": 2
+	},
+	"3": {
+		"count": 5,
+		"type": 3
+	},
+	"4": {
+		"type": 4
+	}
+}

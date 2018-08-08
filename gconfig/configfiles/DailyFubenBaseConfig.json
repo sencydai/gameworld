@@ -1,0 +1,20 @@
+{
+	"buyPrice": {
+		"1": {
+			"count": 20,
+			"times": 1
+		},
+		"2": {
+			"count": 40,
+			"times": 3
+		},
+		"3": {
+			"count": 60,
+			"times": 5
+		},
+		"4": {
+			"count": 100,
+			"times": 10
+		}
+	}
+}

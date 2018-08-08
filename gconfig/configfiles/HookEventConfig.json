@@ -1,0 +1,590 @@
+{
+	"1": {
+		"awards": {
+			"1": {
+				"count": 300,
+				"id": 1,
+				"rand": 5000,
+				"type": 1
+			},
+			"2": {
+				"count": 500,
+				"id": 1,
+				"rand": 5000,
+				"type": 1
+			}
+		},
+		"collectTime": 20,
+		"eventType": 2,
+		"id": 1,
+		"section": {
+			"max": 1000,
+			"min": 1
+		},
+		"weight": 1000
+	},
+	"10": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2,
+				"rand": 5000,
+				"type": 1
+			},
+			"2": {
+				"count": 300,
+				"id": 2,
+				"rand": 5000,
+				"type": 1
+			}
+		},
+		"eventType": 1,
+		"id": 10,
+		"lord": {
+			"id": 2001,
+			"level": 1,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 120900,
+				"level": 1,
+				"pos": 1,
+				"template": 1
+			},
+			"2": {
+				"id": 120200,
+				"level": 1,
+				"pos": 2,
+				"template": 1
+			},
+			"3": {
+				"id": 130600,
+				"level": 1,
+				"pos": 3,
+				"template": 1
+			},
+			"4": {
+				"id": 130400,
+				"level": 1,
+				"pos": 4,
+				"template": 1
+			},
+			"5": {
+				"id": 120600,
+				"level": 1,
+				"pos": 5,
+				"template": 1
+			},
+			"6": {
+				"id": 120300,
+				"level": 1,
+				"pos": 6,
+				"template": 1
+			}
+		},
+		"section": {
+			"max": 1000,
+			"min": 1
+		},
+		"weight": 1500
+	},
+	"2": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2,
+				"rand": 5000,
+				"type": 1
+			},
+			"2": {
+				"count": 300,
+				"id": 2,
+				"rand": 5000,
+				"type": 1
+			}
+		},
+		"collectTime": 20,
+		"eventType": 2,
+		"id": 2,
+		"section": {
+			"max": 1000,
+			"min": 1
+		},
+		"weight": 1000
+	},
+	"3": {
+		"awards": {
+			"1": {
+				"count": 3,
+				"id": 2005,
+				"rand": 5000,
+				"type": 1
+			},
+			"2": {
+				"count": 5,
+				"id": 2005,
+				"rand": 5000,
+				"type": 1
+			}
+		},
+		"eventType": 1,
+		"id": 3,
+		"lord": {
+			"id": 2001,
+			"level": 1,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 120900,
+				"level": 1,
+				"pos": 1,
+				"template": 1
+			},
+			"2": {
+				"id": 120200,
+				"level": 1,
+				"pos": 2,
+				"template": 1
+			},
+			"3": {
+				"id": 130600,
+				"level": 1,
+				"pos": 3,
+				"template": 1
+			},
+			"4": {
+				"id": 130400,
+				"level": 1,
+				"pos": 4,
+				"template": 1
+			},
+			"5": {
+				"id": 120600,
+				"level": 1,
+				"pos": 5,
+				"template": 1
+			},
+			"6": {
+				"id": 120300,
+				"level": 1,
+				"pos": 6,
+				"template": 1
+			}
+		},
+		"section": {
+			"max": 1000,
+			"min": 1
+		},
+		"weight": 1000
+	},
+	"4": {
+		"awards": {
+			"1": {
+				"count": 3,
+				"id": 2003,
+				"rand": 5000,
+				"type": 1
+			},
+			"2": {
+				"count": 5,
+				"id": 2003,
+				"rand": 5000,
+				"type": 1
+			}
+		},
+		"eventType": 1,
+		"id": 4,
+		"lord": {
+			"id": 2001,
+			"level": 1,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 120900,
+				"level": 1,
+				"pos": 1,
+				"template": 1
+			},
+			"2": {
+				"id": 120200,
+				"level": 1,
+				"pos": 2,
+				"template": 1
+			},
+			"3": {
+				"id": 130600,
+				"level": 1,
+				"pos": 3,
+				"template": 1
+			},
+			"4": {
+				"id": 130400,
+				"level": 1,
+				"pos": 4,
+				"template": 1
+			},
+			"5": {
+				"id": 120600,
+				"level": 1,
+				"pos": 5,
+				"template": 1
+			},
+			"6": {
+				"id": 120300,
+				"level": 1,
+				"pos": 6,
+				"template": 1
+			}
+		},
+		"section": {
+			"max": 1000,
+			"min": 1
+		},
+		"weight": 1000
+	},
+	"5": {
+		"awards": {
+			"1": {
+				"count": 1,
+				"id": 7011,
+				"rand": 2500,
+				"type": 1
+			},
+			"2": {
+				"count": 1,
+				"id": 7012,
+				"rand": 2500,
+				"type": 1
+			},
+			"3": {
+				"count": 1,
+				"id": 7013,
+				"rand": 2500,
+				"type": 1
+			},
+			"4": {
+				"count": 1,
+				"id": 7014,
+				"rand": 2500,
+				"type": 1
+			}
+		},
+		"eventType": 1,
+		"id": 5,
+		"lord": {
+			"id": 2001,
+			"level": 1,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 120900,
+				"level": 1,
+				"pos": 1,
+				"template": 1
+			},
+			"2": {
+				"id": 120200,
+				"level": 1,
+				"pos": 2,
+				"template": 1
+			},
+			"3": {
+				"id": 130600,
+				"level": 1,
+				"pos": 3,
+				"template": 1
+			},
+			"4": {
+				"id": 130400,
+				"level": 1,
+				"pos": 4,
+				"template": 1
+			},
+			"5": {
+				"id": 120600,
+				"level": 1,
+				"pos": 5,
+				"template": 1
+			},
+			"6": {
+				"id": 120300,
+				"level": 1,
+				"pos": 6,
+				"template": 1
+			}
+		},
+		"section": {
+			"max": 1000,
+			"min": 1
+		},
+		"weight": 400
+	},
+	"6": {
+		"awards": {
+			"1": {
+				"count": 1,
+				"id": 7111,
+				"rand": 2500,
+				"type": 1
+			},
+			"2": {
+				"count": 1,
+				"id": 7112,
+				"rand": 2500,
+				"type": 1
+			},
+			"3": {
+				"count": 1,
+				"id": 7113,
+				"rand": 2500,
+				"type": 1
+			},
+			"4": {
+				"count": 1,
+				"id": 7114,
+				"rand": 2500,
+				"type": 1
+			}
+		},
+		"eventType": 1,
+		"id": 6,
+		"lord": {
+			"id": 2002,
+			"level": 2,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 120900,
+				"level": 1,
+				"pos": 1,
+				"template": 1
+			},
+			"2": {
+				"id": 120200,
+				"level": 1,
+				"pos": 2,
+				"template": 1
+			},
+			"3": {
+				"id": 130600,
+				"level": 1,
+				"pos": 3,
+				"template": 1
+			},
+			"4": {
+				"id": 130400,
+				"level": 1,
+				"pos": 4,
+				"template": 1
+			},
+			"5": {
+				"id": 120600,
+				"level": 1,
+				"pos": 5,
+				"template": 1
+			},
+			"6": {
+				"id": 120300,
+				"level": 1,
+				"pos": 6,
+				"template": 1
+			}
+		},
+		"section": {
+			"max": 1000,
+			"min": 1
+		},
+		"weight": 200
+	},
+	"7": {
+		"awards": {
+			"1": {
+				"count": 1,
+				"id": 3001,
+				"rand": 10000,
+				"type": 1
+			}
+		},
+		"eventType": 1,
+		"id": 7,
+		"lord": {
+			"id": 2002,
+			"level": 2,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 120900,
+				"level": 1,
+				"pos": 1,
+				"template": 1
+			},
+			"2": {
+				"id": 120200,
+				"level": 1,
+				"pos": 2,
+				"template": 1
+			},
+			"3": {
+				"id": 130600,
+				"level": 1,
+				"pos": 3,
+				"template": 1
+			},
+			"4": {
+				"id": 130400,
+				"level": 1,
+				"pos": 4,
+				"template": 1
+			},
+			"5": {
+				"id": 120600,
+				"level": 1,
+				"pos": 5,
+				"template": 1
+			},
+			"6": {
+				"id": 120300,
+				"level": 1,
+				"pos": 6,
+				"template": 1
+			}
+		},
+		"section": {
+			"max": 1000,
+			"min": 1
+		},
+		"weight": 200
+	},
+	"8": {
+		"awards": {
+			"1": {
+				"count": 1,
+				"id": 3013,
+				"rand": 10000,
+				"type": 1
+			}
+		},
+		"eventType": 1,
+		"id": 8,
+		"lord": {
+			"id": 2002,
+			"level": 2,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 120900,
+				"level": 1,
+				"pos": 1,
+				"template": 1
+			},
+			"2": {
+				"id": 120200,
+				"level": 1,
+				"pos": 2,
+				"template": 1
+			},
+			"3": {
+				"id": 130600,
+				"level": 1,
+				"pos": 3,
+				"template": 1
+			},
+			"4": {
+				"id": 130400,
+				"level": 1,
+				"pos": 4,
+				"template": 1
+			},
+			"5": {
+				"id": 120600,
+				"level": 1,
+				"pos": 5,
+				"template": 1
+			},
+			"6": {
+				"id": 120300,
+				"level": 1,
+				"pos": 6,
+				"template": 1
+			}
+		},
+		"section": {
+			"max": 1000,
+			"min": 1
+		},
+		"weight": 100
+	},
+	"9": {
+		"awards": {
+			"1": {
+				"count": 300,
+				"id": 1,
+				"rand": 5000,
+				"type": 1
+			},
+			"2": {
+				"count": 500,
+				"id": 1,
+				"rand": 5000,
+				"type": 1
+			}
+		},
+		"eventType": 1,
+		"id": 9,
+		"lord": {
+			"id": 2001,
+			"level": 1,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 120900,
+				"level": 1,
+				"pos": 1,
+				"template": 1
+			},
+			"2": {
+				"id": 120200,
+				"level": 1,
+				"pos": 2,
+				"template": 1
+			},
+			"3": {
+				"id": 130600,
+				"level": 1,
+				"pos": 3,
+				"template": 1
+			},
+			"4": {
+				"id": 130400,
+				"level": 1,
+				"pos": 4,
+				"template": 1
+			},
+			"5": {
+				"id": 120600,
+				"level": 1,
+				"pos": 5,
+				"template": 1
+			},
+			"6": {
+				"id": 120300,
+				"level": 1,
+				"pos": 6,
+				"template": 1
+			}
+		},
+		"section": {
+			"max": 1000,
+			"min": 1
+		},
+		"weight": 3600
+	}
+}

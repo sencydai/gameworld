@@ -1,0 +1,10 @@
+{
+	"clickAwardId": 1,
+	"clickDisappear": 1,
+	"clickRefresh": {
+		"1": 5,
+		"2": 10
+	},
+	"count": 10,
+	"period": 300
+}

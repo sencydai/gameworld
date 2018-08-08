@@ -1,8 +1,10 @@
 package base
 
 import (
+	"fmt"
 	"math/rand"
 	"reflect"
+	"runtime"
 )
 
 func Rand(start, end int) int {
@@ -97,10 +99,28 @@ func ReflectFunc(cbFunc interface{}, args []interface{}) (reflect.Value, []refle
 }
 
 func ReverseKeyValue(a map[int]int) map[int]int {
+	if len(a) == 0 {
+		return a
+	}
+
 	b := make(map[int]int)
 	for k, v := range a {
 		b[v] = k
 	}
 
 	return b
+}
+
+func FileLine(skip int) string {
+	_, file, line, _ := runtime.Caller(skip)
+	i, count := len(file)-4, 0
+	for ; i > 0; i-- {
+		if file[i] == '/' {
+			count++
+			if count == 2 {
+				break
+			}
+		}
+	}
+	return fmt.Sprintf("%s:%d", file[i+1:], line)
 }

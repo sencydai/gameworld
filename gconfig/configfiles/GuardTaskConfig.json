@@ -1,0 +1,82 @@
+{
+	"1": {
+		"exp": 1,
+		"id": 1,
+		"level": 10,
+		"needValue": 1,
+		"times": 5,
+		"type": 233
+	},
+	"10": {
+		"exp": 2,
+		"id": 10,
+		"level": 12,
+		"needValue": 1,
+		"times": 3,
+		"type": 221
+	},
+	"2": {
+		"exp": 1,
+		"id": 2,
+		"level": 10,
+		"needValue": 1,
+		"times": 10,
+		"type": 234
+	},
+	"3": {
+		"exp": 1,
+		"id": 3,
+		"level": 13,
+		"needValue": 1,
+		"times": 5,
+		"type": 212
+	},
+	"4": {
+		"exp": 1,
+		"id": 4,
+		"level": 15,
+		"needValue": 1,
+		"times": 5,
+		"type": 251
+	},
+	"5": {
+		"exp": 1,
+		"id": 5,
+		"level": 16,
+		"needValue": 1,
+		"times": 10,
+		"type": 242
+	},
+	"6": {
+		"exp": 5,
+		"id": 6,
+		"level": 25,
+		"needValue": 1,
+		"times": 1,
+		"type": 261
+	},
+	"7": {
+		"exp": 1,
+		"id": 7,
+		"level": 1,
+		"needValue": 1,
+		"times": 10,
+		"type": 85
+	},
+	"8": {
+		"exp": 1,
+		"id": 8,
+		"level": 1,
+		"needValue": 1,
+		"times": 5,
+		"type": 122
+	},
+	"9": {
+		"exp": 1,
+		"id": 9,
+		"level": 1,
+		"needValue": 1,
+		"times": 12,
+		"type": 161
+	}
+}

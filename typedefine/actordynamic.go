@@ -21,6 +21,8 @@ type ActorDynamicLordAttrData struct {
 	Level  map[int]float64
 	Equip  map[int]map[int]float64
 	Talent map[int]map[int]float64
+
+	GM map[int]float64
 }
 
 //ActorDynamicHeroAttrData 英雄属性
@@ -31,6 +33,8 @@ type ActorDynamicHeroAttrData struct {
 	Base  map[int]float64
 	Level map[int]float64
 	Stage map[int]float64
+
+	GM map[int]float64
 }
 
 func (actor *Actor) GetAttr() *ActorDynamicAttrData {
@@ -43,6 +47,7 @@ func (actor *Actor) GetAttr() *ActorDynamicAttrData {
 				make(map[int]float64),
 				make(map[int]map[int]float64),
 				make(map[int]map[int]float64),
+				make(map[int]float64),
 			},
 			Heros: make(map[int]*ActorDynamicHeroAttrData),
 		}
@@ -65,6 +70,7 @@ func (actor *Actor) GetHeroAttr(guid int) *ActorDynamicHeroAttrData {
 	hero, ok := heros[guid]
 	if !ok {
 		hero = &ActorDynamicHeroAttrData{
+			make(map[int]float64),
 			make(map[int]float64),
 			make(map[int]float64),
 			make(map[int]float64),

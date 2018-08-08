@@ -1,0 +1,16 @@
+{
+	"count": 10,
+	"fConsume": 10,
+	"level": 1,
+	"period": 300,
+	"rConsume": {
+		"1": {
+			"count": 10,
+			"times": 6
+		},
+		"2": {
+			"count": 20,
+			"times": 10
+		}
+	}
+}

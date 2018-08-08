@@ -1,0 +1,27 @@
+{
+	"buyPrice": {
+		"1": {
+			"count": 50,
+			"times": 1
+		},
+		"2": {
+			"count": 100,
+			"times": 3
+		},
+		"3": {
+			"count": 200,
+			"times": 3
+		}
+	},
+	"defmine": {
+		"1": 14,
+		"2": 28,
+		"3": 42
+	},
+	"duration": 6,
+	"forbidRob": 5,
+	"freeRob": 3,
+	"maxOccupy": 2,
+	"robConsume": 100000,
+	"robRatio": 50
+}

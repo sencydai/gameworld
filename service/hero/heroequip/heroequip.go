@@ -1,8 +1,8 @@
 package heroequip
 
 import (
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	"github.com/sencydai/gameworld/service"
 	t "github.com/sencydai/gameworld/typedefine"
 )

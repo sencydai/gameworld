@@ -1,0 +1,31 @@
+{
+	"maxEventTime": 2,
+	"maxOfflineTime": 24,
+	"offlineRound": {
+		"max": 12000,
+		"min": 8000
+	},
+	"qfAdd": 1,
+	"qfConsume": {
+		"1": {
+			"count": 20,
+			"times": 1
+		},
+		"2": {
+			"count": 50,
+			"times": 3
+		},
+		"3": {
+			"count": 100,
+			"times": 5
+		}
+	},
+	"qfTime": 120,
+	"qtAttr": {
+		"1": {
+			"type": 19,
+			"value": 1000
+		}
+	},
+	"qtAttrTime": 5
+}

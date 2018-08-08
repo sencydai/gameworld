@@ -1,0 +1,110 @@
+{
+	"1": {
+		"1": {
+			"building": 1,
+			"id": 1,
+			"pos": 1,
+			"vipLevel": 0
+		},
+		"2": {
+			"building": 1,
+			"id": 1,
+			"pos": 2,
+			"vipLevel": 1
+		},
+		"3": {
+			"building": 5,
+			"id": 1,
+			"pos": 3,
+			"vipLevel": 1
+		},
+		"4": {
+			"building": 15,
+			"id": 1,
+			"pos": 4,
+			"vipLevel": 1
+		},
+		"5": {
+			"building": 25,
+			"id": 1,
+			"pos": 5,
+			"vipLevel": 1
+		},
+		"6": {
+			"building": 45,
+			"id": 1,
+			"pos": 6,
+			"vipLevel": 2
+		}
+	},
+	"2": {
+		"1": {
+			"building": 55,
+			"id": 2,
+			"pos": 1,
+			"vipLevel": 1
+		},
+		"10": {
+			"id": 2,
+			"pos": 10,
+			"vipLevel": 10
+		},
+		"11": {
+			"id": 2,
+			"pos": 11,
+			"vipLevel": 11
+		},
+		"12": {
+			"id": 2,
+			"pos": 12,
+			"vipLevel": 12
+		},
+		"2": {
+			"building": 65,
+			"id": 2,
+			"pos": 2,
+			"vipLevel": 2
+		},
+		"3": {
+			"building": 75,
+			"id": 2,
+			"pos": 3,
+			"vipLevel": 3
+		},
+		"4": {
+			"building": 85,
+			"id": 2,
+			"pos": 4,
+			"vipLevel": 4
+		},
+		"5": {
+			"building": 95,
+			"id": 2,
+			"pos": 5,
+			"vipLevel": 5
+		},
+		"6": {
+			"building": 110,
+			"id": 2,
+			"pos": 6,
+			"vipLevel": 6
+		},
+		"7": {
+			"building": 130,
+			"id": 2,
+			"pos": 7,
+			"vipLevel": 7
+		},
+		"8": {
+			"building": 150,
+			"id": 2,
+			"pos": 8,
+			"vipLevel": 8
+		},
+		"9": {
+			"id": 2,
+			"pos": 9,
+			"vipLevel": 9
+		}
+	}
+}

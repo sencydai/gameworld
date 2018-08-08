@@ -1,0 +1,9 @@
+{
+	"limit": 60,
+	"maxCount": 12,
+	"rType": {
+		"1": 1,
+		"2": 2
+	},
+	"refresh": 5
+}

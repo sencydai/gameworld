@@ -16,19 +16,24 @@ type RankItem struct {
 }
 
 func NewRank(maxCount int) *RankData {
-	rankData := &RankData{
+	return &RankData{
 		MaxCount: maxCount,
 		RankList: make([]*RankItem, 0),
 		idPoints: make(map[int64]int64),
 	}
-
-	return rankData
 }
 
 func (rankData *RankData) OnDataLoaded() {
 	rankData.idPoints = make(map[int64]int64)
 	for _, item := range rankData.RankList {
 		rankData.idPoints[item.Id] = item.Point
+	}
+}
+
+func (rankData *RankData) Reset() {
+	rankData.RankList = make([]*RankItem, 0)
+	for id := range rankData.idPoints {
+		delete(rankData.idPoints, id)
 	}
 }
 
@@ -94,12 +99,18 @@ func (rankData *RankData) Insert(id, point int64) {
 		rankData.RankList = append(rankData.RankList[0:index], rankData.RankList[index+1:]...)
 		delete(rankData.idPoints, id)
 
-		if point < value {
-			rankData.insert(id, point, index, len(rankData.RankList)-1)
-		} else {
+		if point > value {
 			rankData.insert(id, point, 0, index-1)
+		} else {
+			rankData.insert(id, point, index, len(rankData.RankList)-1)
 		}
 	} else {
+		if rankData.MaxCount > 0 && len(rankData.RankList) >= rankData.MaxCount {
+			last := rankData.RankList[len(rankData.RankList)-1]
+			if point <= last.Point {
+				return
+			}
+		}
 		rankData.insert(id, point, 0, len(rankData.RankList)-1)
 	}
 }

@@ -1,9 +1,5 @@
 package typedefine
 
-import (
-	"time"
-)
-
 type FightData struct {
 	Guid        int64
 	Type        int
@@ -22,8 +18,6 @@ type FightData struct {
 	Round     int16
 	BuffIndex int
 	Logs      []*FightLog
-
-	StartTime time.Time
 }
 
 type FightLord struct {
@@ -41,6 +35,7 @@ type FightLord struct {
 
 	Entity  *FightEntity //领主属性
 	AttrSum int
+	RawData *FightMonsterRawData
 
 	Heros map[int]*FightHeroTemplate //pos : FightHeroTemplate
 }
@@ -51,6 +46,11 @@ type FightHeroTemplate struct {
 	Skills    map[int][]int
 	RaceRatio float64
 	Feature   map[int]bool
+}
+
+type FightMonsterRawData struct {
+	Heros    map[int]int //位置 : 当前血量
+	RawHeros map[int]int //位置: 最大血量
 }
 
 //实体

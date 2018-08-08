@@ -1,0 +1,848 @@
+{
+	"106": {
+		"1": {
+			"awards": {
+				"1": {
+					"count": 5000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 50000,
+					"id": 1,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 106,
+			"index": 1,
+			"level": 10,
+			"lord": {
+				"id": 2001,
+				"level": 13,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 130400,
+					"level": 12,
+					"pos": 4,
+					"template": 5
+				},
+				"2": {
+					"id": 120600,
+					"level": 12,
+					"pos": 5,
+					"template": 5
+				},
+				"3": {
+					"id": 120300,
+					"level": 12,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		},
+		"2": {
+			"awards": {
+				"1": {
+					"count": 8000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 100000,
+					"id": 1,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 106,
+			"index": 2,
+			"level": 20,
+			"lord": {
+				"id": 2001,
+				"level": 20,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 130600,
+					"level": 20,
+					"pos": 3,
+					"template": 5
+				},
+				"2": {
+					"id": 130400,
+					"level": 20,
+					"pos": 4,
+					"template": 5
+				},
+				"3": {
+					"id": 120600,
+					"level": 20,
+					"pos": 5,
+					"template": 5
+				},
+				"4": {
+					"id": 120300,
+					"level": 20,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		},
+		"3": {
+			"awards": {
+				"1": {
+					"count": 10000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 150000,
+					"id": 1,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 106,
+			"index": 3,
+			"level": 40,
+			"lord": {
+				"id": 2001,
+				"level": 40,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 120900,
+					"level": 40,
+					"pos": 1,
+					"template": 5
+				},
+				"2": {
+					"id": 120200,
+					"level": 40,
+					"pos": 2,
+					"template": 5
+				},
+				"3": {
+					"id": 130600,
+					"level": 40,
+					"pos": 3,
+					"template": 5
+				},
+				"4": {
+					"id": 130400,
+					"level": 40,
+					"pos": 4,
+					"template": 5
+				},
+				"5": {
+					"id": 120600,
+					"level": 40,
+					"pos": 5,
+					"template": 5
+				},
+				"6": {
+					"id": 120300,
+					"level": 40,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		},
+		"4": {
+			"awards": {
+				"1": {
+					"count": 12000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 200000,
+					"id": 1,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 106,
+			"index": 4,
+			"level": 60,
+			"lord": {
+				"id": 2001,
+				"level": 60,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 120900,
+					"level": 60,
+					"pos": 1,
+					"template": 5
+				},
+				"2": {
+					"id": 120200,
+					"level": 60,
+					"pos": 2,
+					"template": 5
+				},
+				"3": {
+					"id": 130600,
+					"level": 60,
+					"pos": 3,
+					"template": 5
+				},
+				"4": {
+					"id": 130400,
+					"level": 60,
+					"pos": 4,
+					"template": 5
+				},
+				"5": {
+					"id": 120600,
+					"level": 60,
+					"pos": 5,
+					"template": 5
+				},
+				"6": {
+					"id": 120300,
+					"level": 60,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		},
+		"5": {
+			"awards": {
+				"1": {
+					"count": 15000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 250000,
+					"id": 1,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 106,
+			"index": 5,
+			"level": 80,
+			"lord": {
+				"id": 2001,
+				"level": 80,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 120900,
+					"level": 80,
+					"pos": 1,
+					"template": 5
+				},
+				"2": {
+					"id": 120200,
+					"level": 80,
+					"pos": 2,
+					"template": 5
+				},
+				"3": {
+					"id": 130600,
+					"level": 80,
+					"pos": 3,
+					"template": 5
+				},
+				"4": {
+					"id": 130400,
+					"level": 80,
+					"pos": 4,
+					"template": 5
+				},
+				"5": {
+					"id": 120600,
+					"level": 80,
+					"pos": 5,
+					"template": 5
+				},
+				"6": {
+					"id": 120300,
+					"level": 80,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		}
+	},
+	"107": {
+		"1": {
+			"awards": {
+				"1": {
+					"count": 5000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 30,
+					"id": 2005,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 107,
+			"index": 1,
+			"level": 10,
+			"lord": {
+				"id": 2001,
+				"level": 13,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 130400,
+					"level": 12,
+					"pos": 4,
+					"template": 5
+				},
+				"2": {
+					"id": 120600,
+					"level": 12,
+					"pos": 5,
+					"template": 5
+				},
+				"3": {
+					"id": 120300,
+					"level": 12,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		},
+		"2": {
+			"awards": {
+				"1": {
+					"count": 8000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 50,
+					"id": 2005,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 107,
+			"index": 2,
+			"level": 20,
+			"lord": {
+				"id": 2001,
+				"level": 20,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 130600,
+					"level": 20,
+					"pos": 3,
+					"template": 5
+				},
+				"2": {
+					"id": 130400,
+					"level": 20,
+					"pos": 4,
+					"template": 5
+				},
+				"3": {
+					"id": 120600,
+					"level": 20,
+					"pos": 5,
+					"template": 5
+				},
+				"4": {
+					"id": 120300,
+					"level": 20,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		},
+		"3": {
+			"awards": {
+				"1": {
+					"count": 10000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 70,
+					"id": 2005,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 107,
+			"index": 3,
+			"level": 40,
+			"lord": {
+				"id": 2001,
+				"level": 40,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 120900,
+					"level": 40,
+					"pos": 1,
+					"template": 5
+				},
+				"2": {
+					"id": 120200,
+					"level": 40,
+					"pos": 2,
+					"template": 5
+				},
+				"3": {
+					"id": 130600,
+					"level": 40,
+					"pos": 3,
+					"template": 5
+				},
+				"4": {
+					"id": 130400,
+					"level": 40,
+					"pos": 4,
+					"template": 5
+				},
+				"5": {
+					"id": 120600,
+					"level": 40,
+					"pos": 5,
+					"template": 5
+				},
+				"6": {
+					"id": 120300,
+					"level": 40,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		},
+		"4": {
+			"awards": {
+				"1": {
+					"count": 12000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 90,
+					"id": 2005,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 107,
+			"index": 4,
+			"level": 60,
+			"lord": {
+				"id": 2001,
+				"level": 60,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 120900,
+					"level": 60,
+					"pos": 1,
+					"template": 5
+				},
+				"2": {
+					"id": 120200,
+					"level": 60,
+					"pos": 2,
+					"template": 5
+				},
+				"3": {
+					"id": 130600,
+					"level": 60,
+					"pos": 3,
+					"template": 5
+				},
+				"4": {
+					"id": 130400,
+					"level": 60,
+					"pos": 4,
+					"template": 5
+				},
+				"5": {
+					"id": 120600,
+					"level": 60,
+					"pos": 5,
+					"template": 5
+				},
+				"6": {
+					"id": 120300,
+					"level": 60,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		},
+		"5": {
+			"awards": {
+				"1": {
+					"count": 15000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 110,
+					"id": 2005,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 107,
+			"index": 5,
+			"level": 80,
+			"lord": {
+				"id": 2001,
+				"level": 80,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 120900,
+					"level": 80,
+					"pos": 1,
+					"template": 5
+				},
+				"2": {
+					"id": 120200,
+					"level": 80,
+					"pos": 2,
+					"template": 5
+				},
+				"3": {
+					"id": 130600,
+					"level": 80,
+					"pos": 3,
+					"template": 5
+				},
+				"4": {
+					"id": 130400,
+					"level": 80,
+					"pos": 4,
+					"template": 5
+				},
+				"5": {
+					"id": 120600,
+					"level": 80,
+					"pos": 5,
+					"template": 5
+				},
+				"6": {
+					"id": 120300,
+					"level": 80,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		}
+	},
+	"108": {
+		"1": {
+			"awards": {
+				"1": {
+					"count": 5000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 30,
+					"id": 2003,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 108,
+			"index": 1,
+			"level": 10,
+			"lord": {
+				"id": 2001,
+				"level": 13,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 130400,
+					"level": 12,
+					"pos": 4,
+					"template": 5
+				},
+				"2": {
+					"id": 120600,
+					"level": 12,
+					"pos": 5,
+					"template": 5
+				},
+				"3": {
+					"id": 120300,
+					"level": 12,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		},
+		"2": {
+			"awards": {
+				"1": {
+					"count": 8000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 50,
+					"id": 2003,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 108,
+			"index": 2,
+			"level": 20,
+			"lord": {
+				"id": 2001,
+				"level": 20,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 130600,
+					"level": 20,
+					"pos": 3,
+					"template": 5
+				},
+				"2": {
+					"id": 130400,
+					"level": 20,
+					"pos": 4,
+					"template": 5
+				},
+				"3": {
+					"id": 120600,
+					"level": 20,
+					"pos": 5,
+					"template": 5
+				},
+				"4": {
+					"id": 120300,
+					"level": 20,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		},
+		"3": {
+			"awards": {
+				"1": {
+					"count": 10000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 70,
+					"id": 2003,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 108,
+			"index": 3,
+			"level": 40,
+			"lord": {
+				"id": 2001,
+				"level": 40,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 120900,
+					"level": 40,
+					"pos": 1,
+					"template": 5
+				},
+				"2": {
+					"id": 120200,
+					"level": 40,
+					"pos": 2,
+					"template": 5
+				},
+				"3": {
+					"id": 130600,
+					"level": 40,
+					"pos": 3,
+					"template": 5
+				},
+				"4": {
+					"id": 130400,
+					"level": 40,
+					"pos": 4,
+					"template": 5
+				},
+				"5": {
+					"id": 120600,
+					"level": 40,
+					"pos": 5,
+					"template": 5
+				},
+				"6": {
+					"id": 120300,
+					"level": 40,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		},
+		"4": {
+			"awards": {
+				"1": {
+					"count": 12000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 90,
+					"id": 2003,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 108,
+			"index": 4,
+			"level": 60,
+			"lord": {
+				"id": 2001,
+				"level": 60,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 120900,
+					"level": 60,
+					"pos": 1,
+					"template": 5
+				},
+				"2": {
+					"id": 120200,
+					"level": 60,
+					"pos": 2,
+					"template": 5
+				},
+				"3": {
+					"id": 130600,
+					"level": 60,
+					"pos": 3,
+					"template": 5
+				},
+				"4": {
+					"id": 130400,
+					"level": 60,
+					"pos": 4,
+					"template": 5
+				},
+				"5": {
+					"id": 120600,
+					"level": 60,
+					"pos": 5,
+					"template": 5
+				},
+				"6": {
+					"id": 120300,
+					"level": 60,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		},
+		"5": {
+			"awards": {
+				"1": {
+					"count": 15000,
+					"id": 4,
+					"rand": 10000,
+					"type": 1
+				},
+				"2": {
+					"count": 110,
+					"id": 2003,
+					"rand": 10000,
+					"type": 1
+				}
+			},
+			"id": 108,
+			"index": 5,
+			"level": 80,
+			"lord": {
+				"id": 2001,
+				"level": 80,
+				"template": 1
+			},
+			"monster": {
+				"1": {
+					"id": 120900,
+					"level": 80,
+					"pos": 1,
+					"template": 5
+				},
+				"2": {
+					"id": 120200,
+					"level": 80,
+					"pos": 2,
+					"template": 5
+				},
+				"3": {
+					"id": 130600,
+					"level": 80,
+					"pos": 3,
+					"template": 5
+				},
+				"4": {
+					"id": 130400,
+					"level": 80,
+					"pos": 4,
+					"template": 5
+				},
+				"5": {
+					"id": 120600,
+					"level": 80,
+					"pos": 5,
+					"template": 5
+				},
+				"6": {
+					"id": 120300,
+					"level": 80,
+					"pos": 6,
+					"template": 5
+				}
+			}
+		}
+	}
+}

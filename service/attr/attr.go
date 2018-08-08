@@ -1,9 +1,52 @@
 package attr
 
 import (
+	"fmt"
+	"math"
+	"strconv"
+
 	c "github.com/sencydai/gameworld/constdefine"
+	"github.com/sencydai/gameworld/data"
+	"github.com/sencydai/gameworld/service"
 	t "github.com/sencydai/gameworld/typedefine"
 )
+
+func init() {
+	service.RegGm("attr", onGmAttr)
+}
+
+func onGmAttr(values map[string]string) (int, string) {
+	aid, _ := strconv.ParseFloat(values["actor"], 64)
+	actor := data.GetActor(int64(aid))
+	if actor == nil {
+		return -1, fmt.Sprintf("not find actor %d", int64(aid))
+	}
+
+	pos, _ := strconv.Atoi(values["pos"])
+	t, _ := strconv.Atoi(values["type"])
+	value, _ := strconv.Atoi(values["value"])
+	v := int(math.Max(0, float64(value)))
+
+	if pos == 0 {
+		lordAttr := actor.GetLordAttr()
+		attrs := lordAttr.GM
+		attrs[t] = float64(v)
+
+		refreshLordTotalAttr(actor)
+	} else {
+		heros := actor.GetFightHeros()
+		guid, ok := heros[pos]
+		if !ok {
+			return -1, "no hero in pos"
+		}
+
+		heroAttr := actor.GetHeroAttr(guid)
+		heroAttr.GM[t] = float64(v)
+		refreshHeroTotalAttr(actor, actor.GetHeroStaticData(guid))
+	}
+
+	return 0, "success"
+}
 
 //RefreshAttr 更新玩家属性
 func RefreshAttr(actor *t.Actor) {

@@ -1,0 +1,5418 @@
+{
+	"10001": {
+		"1": {
+			"actionCD": 500,
+			"index": 1,
+			"skill": 10001
+		}
+	},
+	"10002": {
+		"1": {
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 10002,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"10003": {
+		"1": {
+			"effect": 1,
+			"effectParam": 7500,
+			"index": 1,
+			"random": 10000,
+			"skill": 10003,
+			"target": 2,
+			"targetParam": 1
+		}
+	},
+	"10004": {
+		"1": {
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 10004,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"10005": {
+		"1": {
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 10005,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"10006": {
+		"1": {
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 10006,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"10007": {
+		"1": {
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 10007,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"10008": {
+		"1": {
+			"effect": 1,
+			"effectParam": 99999,
+			"index": 1,
+			"random": 10000,
+			"skill": 10008,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"10009": {
+		"1": {
+			"effect": 1,
+			"effectParam": 6000,
+			"index": 1,
+			"random": 10000,
+			"skill": 10009,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"10010": {
+		"1": {
+			"effect": 8,
+			"effectParam": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 10010,
+			"target": 3,
+			"targetParam": 1
+		}
+	},
+	"10011": {
+		"1": {
+			"effect": 8,
+			"effectParam": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 10011,
+			"target": 6,
+			"targetParam": 4
+		}
+	},
+	"10012": {
+		"1": {
+			"effect": 25,
+			"effectParam": 2500,
+			"index": 1,
+			"random": 10000,
+			"skill": 10012,
+			"target": 7,
+			"targetParam": 1
+		}
+	},
+	"11001": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11001,
+			"index": 1,
+			"random": 10000,
+			"skill": 11001,
+			"target": 4
+		}
+	},
+	"11002": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11002,
+			"index": 1,
+			"random": 10000,
+			"skill": 11002,
+			"target": 4
+		}
+	},
+	"11003": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11003,
+			"index": 1,
+			"random": 10000,
+			"skill": 11003,
+			"target": 3,
+			"targetParam": 2
+		}
+	},
+	"11004": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11004,
+			"index": 1,
+			"random": 10000,
+			"skill": 11004,
+			"target": 4
+		}
+	},
+	"11005": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11005,
+			"index": 1,
+			"random": 10000,
+			"skill": 11005,
+			"target": 4
+		}
+	},
+	"11006": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11006,
+			"index": 1,
+			"random": 10000,
+			"skill": 11006,
+			"target": 3,
+			"targetParam": 3
+		}
+	},
+	"11007": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11007,
+			"index": 1,
+			"random": 10000,
+			"skill": 11007,
+			"target": 4
+		}
+	},
+	"11008": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11008,
+			"index": 1,
+			"random": 10000,
+			"skill": 11008,
+			"target": 4
+		}
+	},
+	"11009": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11009,
+			"index": 1,
+			"random": 10000,
+			"skill": 11009,
+			"target": 4
+		}
+	},
+	"11010": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11010,
+			"index": 1,
+			"random": 10000,
+			"skill": 11010,
+			"target": 1,
+			"targetParam": 3
+		}
+	},
+	"11011": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11011,
+			"index": 1,
+			"random": 10000,
+			"skill": 11011,
+			"target": 1,
+			"targetParam": 3
+		}
+	},
+	"11012": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11012,
+			"index": 1,
+			"random": 10000,
+			"skill": 11012,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"11013": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11013,
+			"index": 1,
+			"random": 10000,
+			"skill": 11013,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"11014": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11014,
+			"index": 1,
+			"random": 10000,
+			"skill": 11014,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"11015": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11015,
+			"index": 1,
+			"random": 10000,
+			"skill": 11015,
+			"target": 1,
+			"targetParam": 2
+		}
+	},
+	"11016": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11016,
+			"index": 1,
+			"random": 10000,
+			"skill": 11016,
+			"target": 3,
+			"targetParam": 2
+		}
+	},
+	"11017": {
+		"1": {
+			"effect": 30,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 11017,
+			"target": 4
+		}
+	},
+	"11018": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11018,
+			"index": 1,
+			"random": 10000,
+			"skill": 11018,
+			"target": 1,
+			"targetParam": 2
+		}
+	},
+	"12000": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11002,
+			"index": 1,
+			"random": 10000,
+			"skill": 12000,
+			"target": 4
+		}
+	},
+	"12001": {
+		"1": {
+			"effect": 11,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 12001,
+			"target": 4
+		}
+	},
+	"12002": {
+		"1": {
+			"effect": 9,
+			"index": 1,
+			"random": 10000,
+			"skill": 12002,
+			"target": 4
+		}
+	},
+	"12003": {
+		"1": {
+			"effect": 9,
+			"index": 1,
+			"random": 10000,
+			"skill": 12003,
+			"target": 4
+		}
+	},
+	"12004": {
+		"1": {
+			"effect": 12,
+			"effectParam": 10100,
+			"index": 1,
+			"random": 10000,
+			"skill": 12004,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"12005": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11006,
+			"index": 1,
+			"random": 10000,
+			"skill": 12005,
+			"target": 3,
+			"targetParam": 2
+		}
+	},
+	"12006": {
+		"1": {
+			"effect": 1,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 12006,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"12007": {
+		"1": {
+			"effect": 7,
+			"effectParam": 50,
+			"index": 1,
+			"random": 10000,
+			"skill": 12007,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"12008": {
+		"1": {
+			"effect": 15,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 12008,
+			"target": 3,
+			"targetParam": 3
+		}
+	},
+	"12009": {
+		"1": {
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 12009,
+			"target": 5
+		}
+	},
+	"12010": {
+		"1": {
+			"effect": 7,
+			"effectParam": 10,
+			"index": 1,
+			"random": 10000,
+			"skill": 12010,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"12011": {
+		"1": {
+			"effect": 1,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 12011,
+			"target": 1,
+			"targetParam": 3
+		}
+	},
+	"12012": {
+		"1": {
+			"effect": 12,
+			"effectParam": 11006,
+			"index": 1,
+			"random": 10000,
+			"skill": 12012,
+			"target": 3,
+			"targetParam": 3
+		}
+	},
+	"12013": {
+		"1": {
+			"effect": 1,
+			"effectParam": 2500,
+			"index": 1,
+			"random": 10000,
+			"skill": 12013,
+			"target": 1,
+			"targetParam": 3
+		}
+	},
+	"12014": {
+		"1": {
+			"effect": 15,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 12014,
+			"target": 3,
+			"targetParam": 1
+		}
+	},
+	"12015": {
+		"1": {
+			"effect": 15,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 12015,
+			"target": 3,
+			"targetParam": 1
+		}
+	},
+	"12016": {
+		"1": {
+			"effect": 16,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 12016,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"12017": {
+		"1": {
+			"effect": 15,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 12017,
+			"target": 4
+		}
+	},
+	"12018": {
+		"1": {
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 12018,
+			"target": 5
+		}
+	},
+	"12019": {
+		"1": {
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 12019,
+			"target": 5
+		}
+	},
+	"13002": {
+		"1": {
+			"effect": 1,
+			"effectParam": 7500,
+			"index": 1,
+			"random": 10000,
+			"skill": 13002,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"13003": {
+		"1": {
+			"effect": 3,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 13003,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"13004": {
+		"1": {
+			"effect": 4,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 13004,
+			"target": 4
+		}
+	},
+	"13005": {
+		"1": {
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 13005,
+			"target": 5
+		}
+	},
+	"13010": {
+		"1": {
+			"effect": 10,
+			"effectParam": 30,
+			"index": 1,
+			"random": 10000,
+			"skill": 13010,
+			"target": 4
+		}
+	},
+	"13011": {
+		"1": {
+			"effect": 11,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 13011,
+			"target": 4
+		}
+	},
+	"13013": {
+		"1": {
+			"effect": 13,
+			"effectParam": 3,
+			"index": 1,
+			"random": 10000,
+			"skill": 13013,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"13014": {
+		"1": {
+			"effect": 14,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 13014,
+			"target": 1,
+			"targetParam": 2
+		}
+	},
+	"13015": {
+		"1": {
+			"effect": 15,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 13015,
+			"target": 3,
+			"targetParam": 3
+		}
+	},
+	"13016": {
+		"1": {
+			"effect": 16,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 13016,
+			"target": 1,
+			"targetParam": 3
+		}
+	},
+	"13017": {
+		"1": {
+			"effect": 17,
+			"effectExParam": 2,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 13017,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"13018": {
+		"1": {
+			"effect": 18,
+			"effectExParam": 2,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 13018,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"13019": {
+		"1": {
+			"effect": 19,
+			"effectExParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 13019,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"13020": {
+		"1": {
+			"effect": 20,
+			"effectExParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 13020,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"13021": {
+		"1": {
+			"effect": 21,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 13021,
+			"target": 4
+		}
+	},
+	"13022": {
+		"1": {
+			"effect": 22,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 13022,
+			"target": 4
+		}
+	},
+	"13023": {
+		"1": {
+			"effect": 23,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 13023,
+			"target": 4
+		}
+	},
+	"13024": {
+		"1": {
+			"effect": 24,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 13024,
+			"target": 4
+		}
+	},
+	"13025": {
+		"1": {
+			"effect": 26,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 13025,
+			"target": 4
+		}
+	},
+	"13026": {
+		"1": {
+			"effect": 27,
+			"index": 1,
+			"random": 10000,
+			"skill": 13026,
+			"target": 4
+		}
+	},
+	"13027": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 300,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 13027,
+			"target": 3,
+			"targetParam": 1
+		}
+	},
+	"13028": {
+		"1": {
+			"effect": 29,
+			"effectExParam": -10000,
+			"effectParam": 4,
+			"index": 1,
+			"random": 10000,
+			"skill": 13028,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"14001": {
+		"1": {
+			"effect": 1,
+			"effectParam": 18000,
+			"index": 1,
+			"random": 10000,
+			"skill": 14001,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"14002": {
+		"1": {
+			"effect": 1,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 14002,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"14003": {
+		"1": {
+			"effect": 1,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 14003,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"14004": {
+		"1": {
+			"effect": 1,
+			"effectParam": 9999999,
+			"index": 1,
+			"random": 10000,
+			"skill": 14004,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"14005": {
+		"1": {
+			"effect": 5,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 14005,
+			"target": 4
+		}
+	},
+	"14006": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 3000,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 14006,
+			"target": 4
+		}
+	},
+	"15001": {
+		"1": {
+			"effect": 15,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15001,
+			"target": 3,
+			"targetParam": 1
+		}
+	},
+	"15002": {
+		"1": {
+			"effect": 15,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15002,
+			"target": 3,
+			"targetParam": 2
+		}
+	},
+	"15003": {
+		"1": {
+			"effect": 15,
+			"effectParam": 2,
+			"index": 1,
+			"random": 10000,
+			"skill": 15003,
+			"target": 3,
+			"targetParam": 3
+		}
+	},
+	"15004": {
+		"1": {
+			"effect": 15,
+			"effectParam": 2,
+			"index": 1,
+			"random": 10000,
+			"skill": 15004,
+			"target": 3,
+			"targetParam": 5
+		}
+	},
+	"15005": {
+		"1": {
+			"effect": 15,
+			"effectParam": 3,
+			"index": 1,
+			"random": 10000,
+			"skill": 15005,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15006": {
+		"1": {
+			"effect": 15,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15006,
+			"target": 3,
+			"targetParam": 1
+		}
+	},
+	"15007": {
+		"1": {
+			"effect": 15,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15007,
+			"target": 3,
+			"targetParam": 2
+		}
+	},
+	"15008": {
+		"1": {
+			"effect": 15,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15008,
+			"target": 3,
+			"targetParam": 3
+		}
+	},
+	"15009": {
+		"1": {
+			"effect": 15,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15009,
+			"target": 3,
+			"targetParam": 4
+		}
+	},
+	"15010": {
+		"1": {
+			"effect": 15,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15010,
+			"target": 3,
+			"targetParam": 5
+		}
+	},
+	"15011": {
+		"1": {
+			"effect": 8,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 15011,
+			"target": 3,
+			"targetParam": 1
+		}
+	},
+	"15012": {
+		"1": {
+			"effect": 8,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 15012,
+			"target": 3,
+			"targetParam": 2
+		}
+	},
+	"15013": {
+		"1": {
+			"effect": 8,
+			"effectParam": 1500,
+			"index": 1,
+			"random": 10000,
+			"skill": 15013,
+			"target": 3,
+			"targetParam": 3
+		}
+	},
+	"15014": {
+		"1": {
+			"effect": 8,
+			"effectParam": 1500,
+			"index": 1,
+			"random": 10000,
+			"skill": 15014,
+			"target": 3,
+			"targetParam": 5
+		}
+	},
+	"15015": {
+		"1": {
+			"effect": 8,
+			"effectParam": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 15015,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15016": {
+		"1": {
+			"effect": 8,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 15016,
+			"target": 3,
+			"targetParam": 1
+		}
+	},
+	"15017": {
+		"1": {
+			"effect": 8,
+			"effectParam": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 15017,
+			"target": 3,
+			"targetParam": 1
+		}
+	},
+	"15018": {
+		"1": {
+			"effect": 8,
+			"effectParam": 3000,
+			"index": 1,
+			"random": 10000,
+			"skill": 15018,
+			"target": 3,
+			"targetParam": 1
+		}
+	},
+	"15019": {
+		"1": {
+			"effect": 8,
+			"effectParam": 4000,
+			"index": 1,
+			"random": 10000,
+			"skill": 15019,
+			"target": 3,
+			"targetParam": 1
+		}
+	},
+	"15020": {
+		"1": {
+			"effect": 8,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 15020,
+			"target": 3,
+			"targetParam": 1
+		}
+	},
+	"15021": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 20,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15021,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15022": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 40,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15022,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15023": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 60,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15023,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15024": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 80,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15024,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15025": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 100,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15025,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15026": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 20,
+			"effectParam": 4,
+			"index": 1,
+			"random": 10000,
+			"skill": 15026,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15027": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 40,
+			"effectParam": 4,
+			"index": 1,
+			"random": 10000,
+			"skill": 15027,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15028": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 60,
+			"effectParam": 4,
+			"index": 1,
+			"random": 10000,
+			"skill": 15028,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15029": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 80,
+			"effectParam": 4,
+			"index": 1,
+			"random": 10000,
+			"skill": 15029,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15030": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 100,
+			"effectParam": 4,
+			"index": 1,
+			"random": 10000,
+			"skill": 15030,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15031": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 140,
+			"effectParam": 5,
+			"index": 1,
+			"random": 10000,
+			"skill": 15031,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15032": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 280,
+			"effectParam": 5,
+			"index": 1,
+			"random": 10000,
+			"skill": 15032,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15033": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 420,
+			"effectParam": 5,
+			"index": 1,
+			"random": 10000,
+			"skill": 15033,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15034": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 560,
+			"effectParam": 5,
+			"index": 1,
+			"random": 10000,
+			"skill": 15034,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15035": {
+		"1": {
+			"effect": 28,
+			"effectExParam": 700,
+			"effectParam": 5,
+			"index": 1,
+			"random": 10000,
+			"skill": 15035,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15036": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 1,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15036,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15037": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 2,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15037,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15038": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 3,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15038,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15039": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 4,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15039,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15040": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 5,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 15040,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15041": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 1,
+			"effectParam": 4,
+			"index": 1,
+			"random": 10000,
+			"skill": 15041,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15042": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 2,
+			"effectParam": 4,
+			"index": 1,
+			"random": 10000,
+			"skill": 15042,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15043": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 3,
+			"effectParam": 4,
+			"index": 1,
+			"random": 10000,
+			"skill": 15043,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15044": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 4,
+			"effectParam": 4,
+			"index": 1,
+			"random": 10000,
+			"skill": 15044,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15045": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 5,
+			"effectParam": 4,
+			"index": 1,
+			"random": 10000,
+			"skill": 15045,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15046": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 1,
+			"effectParam": 5,
+			"index": 1,
+			"random": 10000,
+			"skill": 15046,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15047": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 2,
+			"effectParam": 5,
+			"index": 1,
+			"random": 10000,
+			"skill": 15047,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15048": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 3,
+			"effectParam": 5,
+			"index": 1,
+			"random": 10000,
+			"skill": 15048,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15049": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 4,
+			"effectParam": 5,
+			"index": 1,
+			"random": 10000,
+			"skill": 15049,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15050": {
+		"1": {
+			"effect": 29,
+			"effectExParam": 5,
+			"effectParam": 5,
+			"index": 1,
+			"random": 10000,
+			"skill": 15050,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15051": {
+		"1": {
+			"effect": 8,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 15051,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15052": {
+		"1": {
+			"effect": 8,
+			"effectParam": 1500,
+			"index": 1,
+			"random": 10000,
+			"skill": 15052,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15053": {
+		"1": {
+			"effect": 8,
+			"effectParam": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 15053,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15054": {
+		"1": {
+			"effect": 8,
+			"effectParam": 2500,
+			"index": 1,
+			"random": 10000,
+			"skill": 15054,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"15055": {
+		"1": {
+			"effect": 8,
+			"effectParam": 3000,
+			"index": 1,
+			"random": 10000,
+			"skill": 15055,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"16001": {
+		"1": {
+			"effect": 16,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 16001,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"16002": {
+		"1": {
+			"effect": 16,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 16002,
+			"target": 1,
+			"targetParam": 2
+		}
+	},
+	"16003": {
+		"1": {
+			"effect": 16,
+			"effectParam": 2,
+			"index": 1,
+			"random": 10000,
+			"skill": 16003,
+			"target": 1,
+			"targetParam": 3
+		}
+	},
+	"16004": {
+		"1": {
+			"effect": 16,
+			"effectParam": 2,
+			"index": 1,
+			"random": 10000,
+			"skill": 16004,
+			"target": 1,
+			"targetParam": 5
+		}
+	},
+	"16005": {
+		"1": {
+			"effect": 16,
+			"effectParam": 3,
+			"index": 1,
+			"random": 10000,
+			"skill": 16005,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"16006": {
+		"1": {
+			"effect": 16,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 16006,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"16007": {
+		"1": {
+			"effect": 16,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 16007,
+			"target": 1,
+			"targetParam": 2
+		}
+	},
+	"16008": {
+		"1": {
+			"effect": 16,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 16008,
+			"target": 1,
+			"targetParam": 3
+		}
+	},
+	"16009": {
+		"1": {
+			"effect": 16,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 16009,
+			"target": 1,
+			"targetParam": 4
+		}
+	},
+	"16010": {
+		"1": {
+			"effect": 16,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 16010
+		}
+	},
+	"16011": {
+		"1": {
+			"effect": 1,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16011,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"16012": {
+		"1": {
+			"effect": 1,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16012,
+			"target": 1,
+			"targetParam": 2
+		}
+	},
+	"16013": {
+		"1": {
+			"effect": 1,
+			"effectParam": 1500,
+			"index": 1,
+			"random": 10000,
+			"skill": 16013,
+			"target": 1,
+			"targetParam": 3
+		}
+	},
+	"16014": {
+		"1": {
+			"effect": 1,
+			"effectParam": 1500,
+			"index": 1,
+			"random": 10000,
+			"skill": 16014,
+			"target": 1,
+			"targetParam": 5
+		}
+	},
+	"16015": {
+		"1": {
+			"effect": 1,
+			"effectParam": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16015,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"16016": {
+		"1": {
+			"effect": 1,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16016,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"16017": {
+		"1": {
+			"effect": 1,
+			"effectParam": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16017,
+			"target": 1,
+			"targetParam": 2
+		}
+	},
+	"16018": {
+		"1": {
+			"effect": 1,
+			"effectParam": 3000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16018,
+			"target": 1,
+			"targetParam": 3
+		}
+	},
+	"16019": {
+		"1": {
+			"effect": 1,
+			"effectParam": 4000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16019,
+			"target": 1,
+			"targetParam": 5
+		}
+	},
+	"16020": {
+		"1": {
+			"effect": 1,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16020,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"16021": {
+		"1": {
+			"effect": 1,
+			"effectParam": 15000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16021,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"16022": {
+		"1": {
+			"effect": 1,
+			"effectParam": 17500,
+			"index": 1,
+			"random": 10000,
+			"skill": 16022,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"16023": {
+		"1": {
+			"effect": 1,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16023,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"16024": {
+		"1": {
+			"effect": 1,
+			"effectParam": 22500,
+			"index": 1,
+			"random": 10000,
+			"skill": 16024,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"16025": {
+		"1": {
+			"effect": 1,
+			"effectParam": 25000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16025,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"16026": {
+		"1": {
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16026,
+			"target": 1,
+			"targetParam": 2
+		}
+	},
+	"16027": {
+		"1": {
+			"effect": 1,
+			"effectParam": 12000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16027,
+			"target": 1,
+			"targetParam": 2
+		}
+	},
+	"16028": {
+		"1": {
+			"effect": 1,
+			"effectParam": 14000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16028,
+			"target": 1,
+			"targetParam": 2
+		}
+	},
+	"16029": {
+		"1": {
+			"effect": 1,
+			"effectParam": 16000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16029,
+			"target": 1,
+			"targetParam": 2
+		}
+	},
+	"16030": {
+		"1": {
+			"effect": 1,
+			"effectParam": 18000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16030,
+			"target": 1,
+			"targetParam": 2
+		}
+	},
+	"16031": {
+		"1": {
+			"effect": 1,
+			"effectParam": 9000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16031,
+			"target": 1,
+			"targetParam": 4
+		}
+	},
+	"16032": {
+		"1": {
+			"effect": 1,
+			"effectParam": 10500,
+			"index": 1,
+			"random": 10000,
+			"skill": 16032,
+			"target": 1,
+			"targetParam": 4
+		}
+	},
+	"16033": {
+		"1": {
+			"effect": 1,
+			"effectParam": 12000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16033,
+			"target": 1,
+			"targetParam": 4
+		}
+	},
+	"16034": {
+		"1": {
+			"effect": 1,
+			"effectParam": 13500,
+			"index": 1,
+			"random": 10000,
+			"skill": 16034,
+			"target": 1,
+			"targetParam": 4
+		}
+	},
+	"16035": {
+		"1": {
+			"effect": 1,
+			"effectParam": 15000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16035,
+			"target": 1,
+			"targetParam": 4
+		}
+	},
+	"16036": {
+		"1": {
+			"effect": 1,
+			"effectParam": 30000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16036,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"16037": {
+		"1": {
+			"effect": 1,
+			"effectParam": 35000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16037,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"16038": {
+		"1": {
+			"effect": 1,
+			"effectParam": 40000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16038,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"16039": {
+		"1": {
+			"effect": 1,
+			"effectParam": 45000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16039,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"16040": {
+		"1": {
+			"effect": 1,
+			"effectParam": 50000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16040,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"16041": {
+		"1": {
+			"effect": 1,
+			"effectParam": 8000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16041,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"16042": {
+		"1": {
+			"effect": 1,
+			"effectParam": 9000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16042,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"16043": {
+		"1": {
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16043,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"16044": {
+		"1": {
+			"effect": 1,
+			"effectParam": 11000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16044,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"16045": {
+		"1": {
+			"effect": 1,
+			"effectParam": 12000,
+			"index": 1,
+			"random": 10000,
+			"skill": 16045,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"500011": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 8500,
+			"index": 1,
+			"random": 10000,
+			"skill": 500011,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"500012": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 8500,
+			"index": 1,
+			"random": 10000,
+			"skill": 500012,
+			"target": 1,
+			"targetParam": 6
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 20,
+			"effectParam": 99,
+			"index": 2,
+			"random": 10000,
+			"skill": 500012
+		}
+	},
+	"500013": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 8500,
+			"index": 1,
+			"random": 10000,
+			"skill": 500013,
+			"target": 1,
+			"targetParam": 6
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10000,
+			"index": 2,
+			"random": 10000,
+			"skill": 500013
+		}
+	},
+	"500014": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 11000,
+			"index": 1,
+			"random": 10000,
+			"skill": 500014,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"500021": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 8,
+			"effectParam": 500,
+			"index": 1,
+			"random": 10000,
+			"skill": 500021,
+			"target": 3,
+			"targetParam": 6
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 7,
+			"effectParam": 1,
+			"index": 2,
+			"random": 10000,
+			"skill": 500021
+		}
+	},
+	"500022": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 8,
+			"effectParam": 500,
+			"index": 1,
+			"random": 10000,
+			"skill": 500022,
+			"target": 3,
+			"targetParam": 6
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 7,
+			"effectParam": 1,
+			"index": 2,
+			"random": 10000,
+			"skill": 500022
+		},
+		"3": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10100,
+			"index": 3,
+			"random": 10000,
+			"skill": 500022
+		}
+	},
+	"500023": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 8,
+			"effectParam": 500,
+			"index": 1,
+			"random": 10000,
+			"skill": 500023,
+			"target": 3,
+			"targetParam": 6
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 7,
+			"effectParam": 1,
+			"index": 2,
+			"random": 10000,
+			"skill": 500023
+		},
+		"3": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10000,
+			"index": 3,
+			"random": 10000,
+			"skill": 500023
+		}
+	},
+	"500024": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 8,
+			"effectParam": 500,
+			"index": 1,
+			"random": 10000,
+			"skill": 500024,
+			"target": 3,
+			"targetParam": 6
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 7,
+			"effectParam": 1,
+			"index": 2,
+			"random": 10000,
+			"skill": 500024
+		},
+		"3": {
+			"actionCD": 2000,
+			"effect": 39,
+			"effectParam": 99,
+			"index": 3,
+			"random": 10000,
+			"skill": 500024
+		}
+	},
+	"500031": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 12000,
+			"index": 1,
+			"random": 10000,
+			"skill": 500031,
+			"target": 1,
+			"targetParam": 3
+		}
+	},
+	"500032": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 12000,
+			"index": 1,
+			"random": 10000,
+			"skill": 500032,
+			"target": 1,
+			"targetParam": 3
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20500,
+			"index": 2,
+			"random": 3300,
+			"skill": 500032
+		}
+	},
+	"500033": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 12000,
+			"index": 1,
+			"random": 10000,
+			"skill": 500033,
+			"target": 1,
+			"targetParam": 3
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20200,
+			"index": 2,
+			"random": 10000,
+			"skill": 500033
+		}
+	},
+	"500034": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 12000,
+			"index": 1,
+			"random": 10000,
+			"skill": 500034,
+			"target": 1,
+			"targetParam": 3
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20800,
+			"index": 2,
+			"random": 1000,
+			"skill": 500034
+		}
+	},
+	"500041": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 25000,
+			"index": 1,
+			"random": 10000,
+			"skill": 500041,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"500042": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 25000,
+			"index": 1,
+			"random": 10000,
+			"skill": 500042,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"500043": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 25000,
+			"index": 1,
+			"random": 10000,
+			"skill": 500043,
+			"target": 1,
+			"targetParam": 1
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20000,
+			"index": 2,
+			"random": 10000,
+			"skill": 500043
+		}
+	},
+	"500044": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 25000,
+			"index": 1,
+			"random": 10000,
+			"skill": 500044,
+			"target": 1,
+			"targetParam": 1
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20100,
+			"index": 2,
+			"random": 10000,
+			"skill": 500044
+		}
+	},
+	"600000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 15000,
+			"index": 1,
+			"random": 10000,
+			"skill": 600000,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"600001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 600001,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"600100": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 600100,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"600200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 8,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 600200,
+			"target": 4
+		}
+	},
+	"600210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 25000,
+			"index": 1,
+			"random": 10000,
+			"skill": 600210,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"600300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 8,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 600300,
+			"target": 4
+		}
+	},
+	"600310": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 30000,
+			"index": 1,
+			"random": 10000,
+			"skill": 600310,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"600400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 402000,
+			"index": 1,
+			"random": 10000,
+			"skill": 600400,
+			"target": 4
+		}
+	},
+	"600410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 401000,
+			"index": 1,
+			"random": 10000,
+			"skill": 600410,
+			"target": 4
+		}
+	},
+	"600420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 600420,
+			"target": 1,
+			"targetParam": 1
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 501000,
+			"index": 2,
+			"random": 5000,
+			"skill": 600420
+		},
+		"3": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 502000,
+			"index": 3,
+			"random": 5000,
+			"skill": 600420
+		}
+	},
+	"600500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 402000,
+			"index": 1,
+			"random": 10000,
+			"skill": 600500,
+			"target": 4
+		}
+	},
+	"600510": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 401000,
+			"index": 1,
+			"random": 10000,
+			"skill": 600510,
+			"target": 4
+		}
+	},
+	"600520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 600520,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"601000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 11,
+			"effectParam": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 601000,
+			"target": 4
+		}
+	},
+	"601001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 601001,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"601100": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 10,
+			"effectParam": 30,
+			"index": 1,
+			"random": 10000,
+			"skill": 601100,
+			"target": 4
+		}
+	},
+	"601200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 502000,
+			"index": 1,
+			"random": 10000,
+			"skill": 601200,
+			"target": 5
+		}
+	},
+	"601210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 407000,
+			"index": 1,
+			"random": 10000,
+			"skill": 601210,
+			"target": 4
+		}
+	},
+	"601300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 502000,
+			"index": 1,
+			"random": 10000,
+			"skill": 601300,
+			"target": 5
+		}
+	},
+	"601310": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 407000,
+			"index": 1,
+			"random": 10000,
+			"skill": 601310,
+			"target": 4
+		}
+	},
+	"601400": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 601400,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"601410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 5,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 601410,
+			"target": 4
+		}
+	},
+	"601420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 601420,
+			"target": 5
+		}
+	},
+	"601500": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 601500,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"601510": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 5,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 601510,
+			"target": 4
+		}
+	},
+	"601520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 601520,
+			"target": 5
+		}
+	},
+	"606000": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 606000
+		}
+	},
+	"606001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 606001,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"606100": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 606100
+		}
+	},
+	"606200": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 606200,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"606210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 16,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 606210,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"606300": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 606300
+		}
+	},
+	"606310": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 16,
+			"effectParam": 2,
+			"index": 1,
+			"random": 10000,
+			"skill": 606310,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"606400": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 606400
+		}
+	},
+	"606410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 16,
+			"effectParam": 2,
+			"index": 1,
+			"random": 10000,
+			"skill": 606410,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"606420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 512000,
+			"index": 1,
+			"random": 10000,
+			"skill": 606420,
+			"target": 2,
+			"targetParam": 1
+		}
+	},
+	"606500": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 606500
+		}
+	},
+	"606510": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 16,
+			"effectParam": 2,
+			"index": 1,
+			"random": 10000,
+			"skill": 606510,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"606520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 512000,
+			"index": 1,
+			"random": 10000,
+			"skill": 606520,
+			"target": 2,
+			"targetParam": 1
+		}
+	},
+	"700000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 30,
+			"effectParam": 1200,
+			"index": 1,
+			"random": 10000,
+			"skill": 700000,
+			"target": 4
+		}
+	},
+	"700001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 700001,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"700100": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"skill": 700100
+		}
+	},
+	"700200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 31,
+			"effectParam": 2500,
+			"index": 1,
+			"perCond": 3,
+			"perCondParam": 9000,
+			"random": 10000,
+			"skill": 700200,
+			"target": 4
+		}
+	},
+	"700210": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"skill": 700210
+		}
+	},
+	"700300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 31,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 3,
+			"perCondParam": 9000,
+			"random": 10000,
+			"skill": 700300,
+			"target": 4
+		}
+	},
+	"700310": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"skill": 700310
+		}
+	},
+	"700400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 700400,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"700410": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"skill": 700410
+		}
+	},
+	"700420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 30000,
+			"index": 1,
+			"random": 10000,
+			"skill": 700420,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"700500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 700500,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"700510": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"skill": 700510
+		}
+	},
+	"700520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 30000,
+			"index": 1,
+			"random": 10000,
+			"skill": 700520,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"701000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 701000,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"701001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 701001,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"701100": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 401000,
+			"index": 1,
+			"random": 10000,
+			"skill": 701100,
+			"target": 4
+		}
+	},
+	"701200": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 701200,
+			"target": 4
+		}
+	},
+	"701210": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 701210,
+			"target": 4
+		}
+	},
+	"701300": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 701300,
+			"target": 4
+		}
+	},
+	"701310": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 701310,
+			"target": 4
+		}
+	},
+	"701400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 403000,
+			"index": 1,
+			"random": 10000,
+			"skill": 701400,
+			"target": 4
+		}
+	},
+	"701410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 510000,
+			"index": 1,
+			"random": 10000,
+			"skill": 701410
+		}
+	},
+	"701420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 26,
+			"index": 1,
+			"random": 10000,
+			"skill": 701420,
+			"target": 4
+		}
+	},
+	"701500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 403000,
+			"index": 1,
+			"random": 10000,
+			"skill": 701500,
+			"target": 4
+		}
+	},
+	"701510": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 510000,
+			"index": 1,
+			"random": 10000,
+			"skill": 701510
+		}
+	},
+	"701520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 26,
+			"index": 1,
+			"random": 10000,
+			"skill": 701520,
+			"target": 4
+		}
+	},
+	"703000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 6900,
+			"index": 1,
+			"random": 10000,
+			"skill": 703000,
+			"target": 2,
+			"targetParam": 1
+		}
+	},
+	"703001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20100,
+			"index": 1,
+			"random": 10000,
+			"skill": 703001,
+			"target": 5
+		}
+	},
+	"703002": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 703002,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"703100": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 703100,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"703200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 31,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 3,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 703200,
+			"target": 4
+		}
+	},
+	"703210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 11,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 4,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 703210,
+			"target": 4
+		}
+	},
+	"703300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 31,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 3,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 703300,
+			"target": 4
+		}
+	},
+	"703310": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 11,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 4,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 703310,
+			"target": 4
+		}
+	},
+	"703400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 34,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 703400,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"703410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 9,
+			"index": 1,
+			"random": 10000,
+			"skill": 703410,
+			"target": 4
+		}
+	},
+	"703411": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 703411,
+			"target": 5
+		}
+	},
+	"703420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 703420,
+			"target": 8,
+			"targetParam": 1
+		}
+	},
+	"703421": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 703421,
+			"target": 2,
+			"targetParam": 1,
+			"targetSpec": 2
+		}
+	},
+	"703422": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 703422,
+			"target": 1,
+			"targetParam": 1,
+			"targetSpec": 2
+		}
+	},
+	"703423": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 703423,
+			"target": 1,
+			"targetParam": 1,
+			"targetSpec": 2
+		}
+	},
+	"703500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 34,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 703500,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"703510": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 9,
+			"index": 1,
+			"random": 10000,
+			"skill": 703510,
+			"target": 4
+		}
+	},
+	"703511": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 703511,
+			"target": 5
+		}
+	},
+	"703520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 703520,
+			"target": 8,
+			"targetParam": 1
+		}
+	},
+	"708000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 708000,
+			"target": 1,
+			"targetParam": 1
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 8,
+			"effectParam": 700,
+			"index": 2,
+			"random": 1500,
+			"skill": 708000,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"708001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 708001,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"708100": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10900,
+			"index": 1,
+			"random": 10000,
+			"skill": 708100,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"708200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10400,
+			"index": 1,
+			"random": 10000,
+			"skill": 708200,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"708210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 29,
+			"effectExParam": 1000,
+			"effectParam": 18,
+			"index": 1,
+			"random": 10000,
+			"skill": 708210,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"708300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10400,
+			"index": 1,
+			"random": 10000,
+			"skill": 708300,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"708310": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 29,
+			"effectExParam": 2000,
+			"effectParam": 18,
+			"index": 1,
+			"random": 10000,
+			"skill": 708310,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"708400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10300,
+			"index": 1,
+			"random": 10000,
+			"skill": 708400,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"708410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 29,
+			"effectExParam": 1000,
+			"effectParam": 15,
+			"index": 1,
+			"random": 10000,
+			"skill": 708410,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"708420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 11000,
+			"index": 1,
+			"random": 10000,
+			"skill": 708420,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"708500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10300,
+			"index": 1,
+			"random": 10000,
+			"skill": 708500,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"708510": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 29,
+			"effectExParam": 2000,
+			"effectParam": 15,
+			"index": 1,
+			"random": 10000,
+			"skill": 708510,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"708520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 11000,
+			"index": 1,
+			"random": 10000,
+			"skill": 708520,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"709000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 18000,
+			"index": 1,
+			"random": 10000,
+			"skill": 709000,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"709001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 709001,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"709100": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"skill": 709100
+		}
+	},
+	"709200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 709200,
+			"target": 5
+		}
+	},
+	"709210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 709210,
+			"target": 1,
+			"targetParam": 3
+		}
+	},
+	"709300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 709300,
+			"target": 5
+		}
+	},
+	"709310": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 15000,
+			"index": 1,
+			"random": 10000,
+			"skill": 709310,
+			"target": 1,
+			"targetParam": 3
+		}
+	},
+	"709400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 36,
+			"effectParam": 2500,
+			"index": 1,
+			"random": 10000,
+			"skill": 709400,
+			"target": 4
+		}
+	},
+	"709410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 9999999,
+			"index": 1,
+			"perCond": 4,
+			"perCondParam": 1500,
+			"random": 10000,
+			"skill": 709410,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"709420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 709420,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"709500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 36,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 709500,
+			"target": 4
+		}
+	},
+	"709510": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 9999999,
+			"index": 1,
+			"perCond": 4,
+			"perCondParam": 2000,
+			"random": 10000,
+			"skill": 709510,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"709520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 709520,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"802000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 5300,
+			"index": 1,
+			"random": 10000,
+			"skill": 802000,
+			"target": 1,
+			"targetParam": 1
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 2,
+			"effectParam": 2,
+			"index": 2,
+			"random": 10000,
+			"skill": 802000
+		}
+	},
+	"802001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 802001,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"802100": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 28,
+			"effectExParam": 0,
+			"effectParam": 16,
+			"index": 1,
+			"random": 10000,
+			"skill": 802100,
+			"target": 4
+		}
+	},
+	"802101": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"skill": 802101
+		}
+	},
+	"802200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 33,
+			"effectParam": 10000,
+			"index": 1,
+			"perCond": 9,
+			"perCondParam": 2,
+			"random": 10000,
+			"skill": 802200,
+			"target": 4
+		}
+	},
+	"802210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 33,
+			"effectParam": 10000,
+			"index": 1,
+			"perCond": 10,
+			"perCondParam": 2,
+			"random": 10000,
+			"skill": 802210,
+			"target": 4
+		}
+	},
+	"802300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 33,
+			"effectParam": 10000,
+			"index": 1,
+			"perCond": 9,
+			"perCondParam": 1,
+			"random": 10000,
+			"skill": 802300,
+			"target": 4
+		}
+	},
+	"802310": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 33,
+			"effectParam": 10000,
+			"index": 1,
+			"perCond": 10,
+			"perCondParam": 1,
+			"random": 10000,
+			"skill": 802310,
+			"target": 4
+		}
+	},
+	"802400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 15,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 802400,
+			"target": 4
+		}
+	},
+	"802410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 38,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 802410,
+			"target": 5
+		}
+	},
+	"802420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 28,
+			"effectExParam": 0,
+			"effectParam": 16,
+			"index": 1,
+			"random": 10000,
+			"skill": 802420,
+			"target": 4
+		}
+	},
+	"802421": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"skill": 802421
+		}
+	},
+	"802422": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 15000,
+			"index": 1,
+			"random": 10000,
+			"skill": 802422,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"802500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 15,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 802500,
+			"target": 4
+		}
+	},
+	"802510": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 38,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 802510,
+			"target": 5
+		}
+	},
+	"802520": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"skill": 802520
+		}
+	},
+	"803000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 8,
+			"effectParam": 500,
+			"index": 1,
+			"random": 10000,
+			"skill": 803000,
+			"target": 3,
+			"targetParam": 1
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 2,
+			"random": 10000,
+			"skill": 803000,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"803100": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 39,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 803100,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"803200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 803200,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"803210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10100,
+			"index": 1,
+			"random": 10000,
+			"skill": 803210,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"803300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 803300,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"803310": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10100,
+			"index": 1,
+			"random": 10000,
+			"skill": 803310,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"803400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10300,
+			"index": 1,
+			"random": 10000,
+			"skill": 803400,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"803410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10200,
+			"index": 1,
+			"random": 10000,
+			"skill": 803410,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"803420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10700,
+			"index": 1,
+			"random": 10000,
+			"skill": 803420,
+			"target": 3,
+			"targetParam": 1
+		}
+	},
+	"803500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10300,
+			"index": 1,
+			"random": 10000,
+			"skill": 803500,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"803510": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10200,
+			"index": 1,
+			"random": 10000,
+			"skill": 803510,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"803520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10700,
+			"index": 1,
+			"random": 10000,
+			"skill": 803520,
+			"target": 3,
+			"targetParam": 1
+		}
+	},
+	"806000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 16400,
+			"index": 1,
+			"random": 10000,
+			"skill": 806000,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"806001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 806001,
+			"target": 5
+		}
+	},
+	"806002": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 806002,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"806100": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 806100,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"806200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 31,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 3,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 806200,
+			"target": 4
+		}
+	},
+	"806210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 31,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 4,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 806210,
+			"target": 4
+		}
+	},
+	"806300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 31,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 3,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 806300,
+			"target": 4
+		}
+	},
+	"806310": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 31,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 4,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 806310,
+			"target": 4
+		}
+	},
+	"806400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 8,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 806400,
+			"target": 4
+		}
+	},
+	"806410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 11,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 4,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 806410,
+			"target": 4
+		}
+	},
+	"806420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 30000,
+			"index": 1,
+			"random": 10000,
+			"skill": 806420,
+			"target": 1,
+			"targetParam": 1,
+			"targetSpec": 6
+		}
+	},
+	"806421": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 15000,
+			"index": 1,
+			"random": 10000,
+			"skill": 806421,
+			"target": 1,
+			"targetParam": 1,
+			"targetSpec": 6
+		}
+	},
+	"806422": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 806422,
+			"target": 1,
+			"targetParam": 1,
+			"targetSpec": 6
+		}
+	},
+	"806500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 8,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 806500,
+			"target": 4
+		}
+	},
+	"806510": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 11,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 4,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 806510,
+			"target": 4
+		}
+	},
+	"806520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 30000,
+			"index": 1,
+			"random": 10000,
+			"skill": 806520,
+			"target": 1,
+			"targetParam": 1,
+			"targetSpec": 6
+		}
+	},
+	"809000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 6800,
+			"index": 1,
+			"random": 10000,
+			"skill": 809000,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"809001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20200,
+			"index": 1,
+			"random": 10000,
+			"skill": 809001,
+			"target": 5
+		}
+	},
+	"809002": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 809002,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"809100": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20800,
+			"index": 1,
+			"perCond": 2,
+			"perCondParam": 3,
+			"random": 10000,
+			"skill": 809100,
+			"target": 5
+		}
+	},
+	"809110": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20801,
+			"index": 1,
+			"perCond": 2,
+			"perCondParam": 3,
+			"random": 10000,
+			"skill": 809110,
+			"target": 5
+		}
+	},
+	"809200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 809200,
+			"target": 1,
+			"targetParam": 6
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 2,
+			"effectParam": 1,
+			"index": 2,
+			"random": 5000,
+			"skill": 809200
+		}
+	},
+	"809210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20801,
+			"index": 1,
+			"perCond": 2,
+			"perCondParam": 3,
+			"random": 10000,
+			"skill": 809210,
+			"target": 5
+		}
+	},
+	"809300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 809300,
+			"target": 1,
+			"targetParam": 6
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 2,
+			"effectParam": 1,
+			"index": 2,
+			"random": 5000,
+			"skill": 809300
+		}
+	},
+	"809310": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20801,
+			"index": 1,
+			"perCond": 2,
+			"perCondParam": 3,
+			"random": 10000,
+			"skill": 809310,
+			"target": 5
+		}
+	},
+	"809400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 809400,
+			"target": 1,
+			"targetParam": 6
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 2,
+			"effectParam": 1,
+			"index": 2,
+			"random": 5000,
+			"skill": 809400
+		}
+	},
+	"809401": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 16,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 809401,
+			"target": 5
+		}
+	},
+	"809410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 2,
+			"perCondParam": 13,
+			"random": 10000,
+			"skill": 809410,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"809420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 28,
+			"effectExParam": 0,
+			"effectParam": 16,
+			"index": 1,
+			"random": 10000,
+			"skill": 809420,
+			"target": 4
+		}
+	},
+	"809500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 809500,
+			"target": 1,
+			"targetParam": 6
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 2,
+			"effectParam": 1,
+			"index": 2,
+			"random": 5000,
+			"skill": 809500
+		}
+	},
+	"809510": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 2,
+			"perCondParam": 13,
+			"random": 10000,
+			"skill": 809510,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"809520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 28,
+			"effectExParam": 0,
+			"effectParam": 16,
+			"index": 1,
+			"random": 10000,
+			"skill": 809520,
+			"target": 4
+		}
+	},
+	"901000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 901000,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"901001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 901001,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"901100": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 901100,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"901200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 901200,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"901210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 901210,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"901300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 901300,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"901310": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 901310,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"901400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 901400,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"901410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 901410,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"901420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 27,
+			"index": 1,
+			"random": 10000,
+			"skill": 901420,
+			"target": 4
+		}
+	},
+	"901421": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 8,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 901421,
+			"target": 4
+		}
+	},
+	"901500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 901500,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"901510": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 901510,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"901520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 8,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 901520,
+			"target": 4
+		}
+	},
+	"902000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 902000,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"902001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 15000,
+			"index": 1,
+			"random": 10000,
+			"skill": 902001,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"902002": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20500,
+			"index": 1,
+			"random": 10000,
+			"skill": 902002,
+			"target": 5
+		}
+	},
+	"902100": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 38,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 902100,
+			"target": 5
+		}
+	},
+	"902200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 28,
+			"effectExParam": 0,
+			"effectParam": 16,
+			"index": 1,
+			"random": 10000,
+			"skill": 902200,
+			"target": 4
+		}
+	},
+	"902201": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 4,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 902201,
+			"target": 4
+		}
+	},
+	"902210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 28,
+			"effectExParam": 0,
+			"effectParam": 16,
+			"index": 1,
+			"random": 10000,
+			"skill": 902210,
+			"target": 4
+		}
+	},
+	"902211": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 41,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 902211,
+			"target": 4
+		}
+	},
+	"902300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 4,
+			"effectParam": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 902300,
+			"target": 4
+		}
+	},
+	"902310": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 41,
+			"effectParam": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 902310,
+			"target": 4
+		}
+	},
+	"902400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 3,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 902400,
+			"target": 4
+		}
+	},
+	"902401": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 15000,
+			"index": 1,
+			"random": 10000,
+			"skill": 902401,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"902410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20500,
+			"index": 1,
+			"random": 10000,
+			"skill": 902410,
+			"target": 5
+		}
+	},
+	"902420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 4,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 902420,
+			"target": 4
+		}
+	},
+	"902421": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 15000,
+			"index": 1,
+			"random": 10000,
+			"skill": 902421,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"902422": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 38,
+			"effectParam": 99,
+			"index": 1,
+			"random": 10000,
+			"skill": 902422,
+			"target": 5
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 39,
+			"effectParam": 99,
+			"index": 2,
+			"random": 5000,
+			"skill": 902422
+		}
+	},
+	"902500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 3,
+			"effectParam": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 902500,
+			"target": 4
+		}
+	},
+	"902510": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20500,
+			"index": 1,
+			"random": 10000,
+			"skill": 902510,
+			"target": 5
+		}
+	},
+	"902520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 4,
+			"effectParam": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 902520,
+			"target": 4
+		}
+	},
+	"904000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 904000,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"904001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20100,
+			"index": 1,
+			"random": 10000,
+			"skill": 904001,
+			"target": 5
+		}
+	},
+	"904002": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 904002,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"904100": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20400,
+			"index": 1,
+			"random": 10000,
+			"skill": 904100,
+			"target": 5
+		}
+	},
+	"904200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 904200,
+			"target": 1,
+			"targetParam": 2
+		}
+	},
+	"904201": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20800,
+			"index": 1,
+			"random": 10000,
+			"skill": 904201,
+			"target": 5
+		}
+	},
+	"904202": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 15,
+			"effectParam": 2,
+			"index": 1,
+			"random": 10000,
+			"skill": 904202,
+			"target": 5
+		}
+	},
+	"904210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 904210,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"904211": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20100,
+			"index": 1,
+			"random": 10000,
+			"skill": 904211,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"904300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20800,
+			"index": 1,
+			"random": 10000,
+			"skill": 904300,
+			"target": 5
+		}
+	},
+	"904301": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 15,
+			"effectParam": 2,
+			"index": 1,
+			"random": 10000,
+			"skill": 904301,
+			"target": 5
+		}
+	},
+	"904310": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20100,
+			"index": 1,
+			"random": 10000,
+			"skill": 904310,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"904400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 904400,
+			"target": 1,
+			"targetParam": 2
+		}
+	},
+	"904401": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20800,
+			"index": 1,
+			"random": 10000,
+			"skill": 904401,
+			"target": 5
+		}
+	},
+	"904410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 904410,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"904411": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 904411,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"904420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20400,
+			"index": 1,
+			"random": 10000,
+			"skill": 904420,
+			"target": 5
+		}
+	},
+	"904421": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 904421,
+			"target": 5
+		}
+	},
+	"904500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20800,
+			"index": 1,
+			"random": 10000,
+			"skill": 904500,
+			"target": 5
+		}
+	},
+	"904510": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 904510,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"904520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20400,
+			"index": 1,
+			"random": 10000,
+			"skill": 904520,
+			"target": 5
+		}
+	},
+	"904521": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 904521,
+			"target": 5
+		}
+	},
+	"905000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10001,
+			"index": 1,
+			"random": 10000,
+			"skill": 905000,
+			"target": 3,
+			"targetParam": 1
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 2,
+			"random": 10000,
+			"skill": 905000,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"905001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 905001,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"905100": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 905100,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"905200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 8,
+			"effectParam": 500,
+			"index": 1,
+			"perCond": 4,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 905200,
+			"target": 4
+		}
+	},
+	"905210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 28,
+			"effectExParam": 0,
+			"effectParam": 1,
+			"index": 1,
+			"random": 10000,
+			"skill": 905210,
+			"target": 4
+		}
+	},
+	"905211": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"skill": 905211
+		}
+	},
+	"905300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 8,
+			"effectParam": 1000,
+			"index": 1,
+			"perCond": 4,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 905300,
+			"target": 4
+		}
+	},
+	"905310": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"skill": 905310
+		}
+	},
+	"905400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 25,
+			"effectParam": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 905400,
+			"target": 4
+		}
+	},
+	"905410": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"skill": 905410
+		}
+	},
+	"905420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 11,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 4,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 905420,
+			"target": 4
+		}
+	},
+	"905421": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 31,
+			"effectParam": 10000,
+			"index": 1,
+			"perCond": 3,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 905421,
+			"target": 4
+		}
+	},
+	"905500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 25,
+			"effectParam": 3000,
+			"index": 1,
+			"random": 10000,
+			"skill": 905500,
+			"target": 4
+		}
+	},
+	"905510": {
+		"1": {
+			"actionCD": 2000,
+			"index": 1,
+			"skill": 905510
+		}
+	},
+	"905520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 11,
+			"effectParam": 5000,
+			"index": 1,
+			"perCond": 4,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 905520,
+			"target": 4
+		}
+	},
+	"905521": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 31,
+			"effectParam": 10000,
+			"index": 1,
+			"perCond": 3,
+			"perCondParam": 5000,
+			"random": 10000,
+			"skill": 905521,
+			"target": 4
+		}
+	},
+	"906000": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 6600,
+			"index": 1,
+			"random": 10000,
+			"skill": 906000,
+			"target": 1,
+			"targetParam": 1
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 6600,
+			"index": 2,
+			"random": 10000,
+			"skill": 906000,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"906001": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 906001,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"906100": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 12,
+			"effectParam": 20100,
+			"index": 1,
+			"random": 10000,
+			"skill": 906100,
+			"target": 5
+		}
+	},
+	"906200": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 906200,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"906210": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 906210,
+			"target": 1,
+			"targetParam": 2
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 2,
+			"effectParam": 4,
+			"index": 2,
+			"random": 10000,
+			"skill": 906210
+		}
+	},
+	"906300": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 906300,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"906310": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 5000,
+			"index": 1,
+			"random": 10000,
+			"skill": 906310,
+			"target": 1,
+			"targetParam": 2
+		},
+		"2": {
+			"actionCD": 2000,
+			"effect": 2,
+			"effectParam": 4,
+			"index": 2,
+			"random": 10000,
+			"skill": 906310
+		}
+	},
+	"906400": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 36,
+			"effectParam": 1000,
+			"index": 1,
+			"random": 10000,
+			"skill": 906400,
+			"target": 4
+		}
+	},
+	"906401": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 20000,
+			"index": 1,
+			"random": 10000,
+			"skill": 906401,
+			"target": 1,
+			"targetParam": 1
+		}
+	},
+	"906410": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 17,
+			"effectExParam": 1,
+			"effectParam": 2,
+			"index": 1,
+			"perCond": 2,
+			"perCondParam": 2,
+			"random": 10000,
+			"skill": 906410,
+			"target": 5
+		}
+	},
+	"906420": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 10000,
+			"index": 1,
+			"random": 10000,
+			"skill": 906420,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"906500": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 36,
+			"effectParam": 2000,
+			"index": 1,
+			"random": 10000,
+			"skill": 906500,
+			"target": 4
+		}
+	},
+	"906511": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 17,
+			"effectExParam": 2,
+			"effectParam": 2,
+			"index": 1,
+			"perCond": 2,
+			"perCondParam": 2,
+			"random": 10000,
+			"skill": 906511,
+			"target": 5
+		}
+	},
+	"906520": {
+		"1": {
+			"actionCD": 2000,
+			"effect": 1,
+			"effectParam": 15000,
+			"index": 1,
+			"random": 10000,
+			"skill": 906520,
+			"target": 1,
+			"targetParam": 6
+		}
+	},
+	"907000": {
+		"1": {
+			"effect": 12,
+			"index": 1,
+			"random": 10000,
+			"skill": 907000,
+			"target": 4
+		}
+	},
+	"907100": {
+		"1": {
+			"effect": 12,
+			"index": 1,
+			"random": 10000,
+			"skill": 907100,
+			"target": 4
+		}
+	},
+	"907200": {
+		"1": {
+			"effect": 11,
+			"effectParam": 4902,
+			"index": 1,
+			"random": 10000,
+			"skill": 907200,
+			"target": 4
+		}
+	},
+	"907210": {
+		"1": {
+			"effect": 12,
+			"index": 1,
+			"random": 10000,
+			"skill": 907210,
+			"target": 4
+		}
+	},
+	"907300": {
+		"1": {
+			"effect": 11,
+			"effectParam": 8297,
+			"index": 1,
+			"random": 10000,
+			"skill": 907300,
+			"target": 4
+		}
+	},
+	"907310": {
+		"1": {
+			"effect": 12,
+			"index": 1,
+			"random": 10000,
+			"skill": 907310,
+			"target": 4
+		}
+	},
+	"907400": {
+		"1": {
+			"effectParam": 30.82,
+			"index": 1,
+			"random": 10000,
+			"skill": 907400,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"907410": {
+		"1": {
+			"effect": 5,
+			"effectParam": 1644,
+			"index": 1,
+			"random": 10000,
+			"skill": 907410
+		}
+	},
+	"907420": {
+		"1": {
+			"effect": 9,
+			"effectParam": 16000,
+			"index": 1,
+			"random": 10000,
+			"skill": 907420
+		}
+	},
+	"907500": {
+		"1": {
+			"effectParam": 52.94,
+			"index": 1,
+			"random": 10000,
+			"skill": 907500,
+			"target": 3,
+			"targetParam": 6
+		}
+	},
+	"907510": {
+		"1": {
+			"effect": 5,
+			"effectParam": 2824,
+			"index": 1,
+			"random": 10000,
+			"skill": 907510
+		}
+	},
+	"907520": {
+		"1": {
+			"effect": 9,
+			"effectParam": 22000,
+			"index": 1,
+			"random": 10000,
+			"skill": 907520
+		}
+	}
+}

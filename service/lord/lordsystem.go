@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
 	"github.com/sencydai/gameworld/base"
 	c "github.com/sencydai/gameworld/constdefine"
 	"github.com/sencydai/gameworld/data"
 	"github.com/sencydai/gameworld/dispatch"
 	g "github.com/sencydai/gameworld/gconfig"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	"github.com/sencydai/gameworld/service"
 	"github.com/sencydai/gameworld/service/actormgr"
 	"github.com/sencydai/gameworld/service/attr"
@@ -31,6 +31,15 @@ func init() {
 
 	dispatch.RegCrossMsg(proto.CrossLookLordReq, onCrossLookLordReq)
 	dispatch.RegCrossMsg(proto.CrossLookLordRes, onCrossLookLordRes)
+}
+
+func getClientData(actor *t.Actor) map[int]string {
+	exData := actor.GetExData()
+	if exData.ClientData == nil {
+		exData.ClientData = make(map[int]string)
+	}
+
+	return exData.ClientData
 }
 
 func onGameStart() {
@@ -72,7 +81,7 @@ func onSendBaseInfo(actor *t.Actor) {
 	for job := range jobData.Jobs {
 		pack.Write(writer, job)
 	}
-	pack.Write(writer, float64(actor.Power))
+	pack.Write(writer, float64(actor.Power), exData.ChangeName)
 	actor.ReplyWriter(writer)
 }
 
@@ -86,7 +95,7 @@ func onSyncTime(actor *t.Actor) {
 }
 
 func onSyncClientData(actor *t.Actor) {
-	clientData := actor.GetClientData()
+	clientData := getClientData(actor)
 	writer := pack.AllocPack(proto.Base, proto.BaseSClientData, int16(len(clientData)))
 	for k, v := range clientData {
 		pack.Write(writer, k, v)
@@ -136,7 +145,7 @@ func onUpdateClientData(actor *t.Actor, reader *bytes.Reader) {
 	)
 	pack.Read(reader, &key, &value)
 
-	clientData := actor.GetClientData()
+	clientData := getClientData(actor)
 	clientData[key] = value
 }
 

@@ -10,8 +10,8 @@ import (
 	g "github.com/sencydai/gameworld/gconfig"
 	"github.com/sencydai/gameworld/service"
 
-	"github.com/sencydai/gamecommon/pack"
 	"github.com/sencydai/gameworld/log"
+	"github.com/sencydai/gameworld/proto/pack"
 )
 
 var (

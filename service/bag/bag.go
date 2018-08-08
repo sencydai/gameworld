@@ -7,12 +7,12 @@ import (
 
 	"github.com/sencydai/gameworld/data"
 
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
 	"github.com/sencydai/gameworld/base"
 	c "github.com/sencydai/gameworld/constdefine"
 	g "github.com/sencydai/gameworld/gconfig"
 	"github.com/sencydai/gameworld/log"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	t "github.com/sencydai/gameworld/typedefine"
 
 	"github.com/sencydai/gameworld/service"

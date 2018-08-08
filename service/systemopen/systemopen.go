@@ -6,10 +6,10 @@ import (
 
 	"github.com/sencydai/gameworld/data"
 
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
 	c "github.com/sencydai/gameworld/constdefine"
 	g "github.com/sencydai/gameworld/gconfig"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	"github.com/sencydai/gameworld/service"
 	"github.com/sencydai/gameworld/timer"
 	t "github.com/sencydai/gameworld/typedefine"
@@ -27,16 +27,13 @@ const (
 )
 
 var (
-	systemOpens = make(map[int]map[int]*systemOpenData)
-	openIds     = make(map[int]int)
+	systemOpens map[int]map[int]*systemOpenData
+	openIds     map[int]int
 
 	openPackData []byte
 )
 
 func init() {
-	systemOpens[openStatusOpen] = make(map[int]*systemOpenData)
-	systemOpens[openStatusComing] = make(map[int]*systemOpenData)
-
 	service.RegConfigLoadFinish(onConfigLoadFinish)
 	service.RegActorLogin(onActorLogin)
 }
@@ -58,16 +55,11 @@ func IsOpen(actor *t.Actor, id int) bool {
 	return true
 }
 
-func onConfigLoadFinish() {
-	for _, opens := range systemOpens {
-		for id := range opens {
-			delete(opens, id)
-		}
-	}
-
-	for id := range openIds {
-		delete(openIds, id)
-	}
+func onConfigLoadFinish(isGameStart bool) {
+	openIds = make(map[int]int)
+	systemOpens = make(map[int]map[int]*systemOpenData)
+	systemOpens[openStatusOpen] = make(map[int]*systemOpenData)
+	systemOpens[openStatusComing] = make(map[int]*systemOpenData)
 
 	for _, conf := range g.GSystemOpenConfig {
 		conf.Time = g.ParseTime(conf.TimeType, conf.TimeSubType, conf.Time)
@@ -78,8 +70,18 @@ func onConfigLoadFinish() {
 	}
 }
 
+func onSystemTimeChange() {
+	for _, conf := range g.GSystemOpenConfig {
+		checkOpen(conf.Type, openStatusOpen, true)
+		checkOpen(conf.Type, openStatusComing, true)
+	}
+}
+
 func checkOpen(id int, openStatus int, update bool) {
 	delete(systemOpens[openStatus], id)
+
+	timerCheck := fmt.Sprintf("systemopen_%d_%d", openStatus, id)
+	timer.StopTimer(nil, timerCheck)
 
 	var (
 		timeType    int
@@ -93,6 +95,7 @@ func checkOpen(id int, openStatus int, update bool) {
 		if update {
 			onUpdate(id)
 		}
+		return
 	}
 
 	switch openStatus {
@@ -109,16 +112,10 @@ func checkOpen(id int, openStatus int, update bool) {
 	case c.TimeStatusUnlimit:
 		systemOpens[openStatus][id] = &systemOpenData{start: -1, end: -1}
 	case c.TimeStatusOutside:
-		timerName := fmt.Sprintf("systemopen_outside_%d_%d", openStatus, id)
-		timer.StopTimer(nil, timerName)
-
-		timer.After(nil, timerName, time.Second*time.Duration(start), checkOpen, id, openStatus, true)
+		timer.After(nil, timerCheck, time.Second*time.Duration(start), checkOpen, id, openStatus, true)
 	case c.TimeStatusInRange:
-		timerName := fmt.Sprintf("systemopen_inrange_%d_%d", openStatus, id)
-		timer.StopTimer(nil, timerName)
-
 		systemOpens[openStatus][id] = &systemOpenData{start: start, end: int(now.Unix()) + end}
-		timer.After(nil, timerName, time.Second*time.Duration(end), checkOpen, id, openStatus, true)
+		timer.After(nil, timerCheck, time.Second*time.Duration(end), checkOpen, id, openStatus, true)
 	}
 
 	updateOpenIds(id)

@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
 	c "github.com/sencydai/gameworld/constdefine"
 	"github.com/sencydai/gameworld/dispatch"
 	g "github.com/sencydai/gameworld/gconfig"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	"github.com/sencydai/gameworld/service"
 	"github.com/sencydai/gameworld/service/bag"
 	t "github.com/sencydai/gameworld/typedefine"
@@ -35,7 +35,7 @@ func init() {
 	dispatch.RegActorMsgHandle(proto.Building, proto.BuildingCUpgrade, onUpgrade)
 }
 
-func onConfigLoadFinish() {
+func onConfigLoadFinish(isGameStart bool) {
 	minOutputBuildings = make(map[int]bool)
 	for _, conf := range g.GBuildingConfig {
 		if conf.OutputType == outputMinute {

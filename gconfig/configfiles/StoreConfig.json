@@ -1,0 +1,57 @@
+{
+	"1": {
+		"count": 10,
+		"id": 1,
+		"interval": {
+			"1": 5
+		},
+		"rule": 1
+	},
+	"101": {
+		"id": 101,
+		"rule": 0
+	},
+	"2": {
+		"consume": {
+			"1": {
+				"count": 50,
+				"currency": 2007,
+				"times": 1
+			},
+			"2": {
+				"count": 100,
+				"currency": 2007,
+				"times": 3
+			},
+			"3": {
+				"count": 200,
+				"currency": 2007,
+				"times": 10
+			}
+		},
+		"count": 6,
+		"freeCount": 3,
+		"id": 2,
+		"rule": 2
+	},
+	"3": {
+		"id": 3,
+		"rule": 0
+	},
+	"4": {
+		"id": 4,
+		"rule": 0
+	},
+	"5": {
+		"id": 5,
+		"rule": 0
+	},
+	"6": {
+		"id": 6,
+		"rule": 0
+	},
+	"7": {
+		"id": 7,
+		"rule": 0
+	}
+}

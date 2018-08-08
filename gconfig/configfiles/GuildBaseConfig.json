@@ -1,0 +1,29 @@
+{
+	"blessAward": {
+		"1": {
+			"count": 20000,
+			"id": 1,
+			"type": 1
+		},
+		"2": {
+			"count": 1,
+			"id": 3002,
+			"type": 1
+		}
+	},
+	"createDiamond": 500,
+	"createLevel": 17,
+	"dissolve": 24,
+	"exitInterval": 24,
+	"joinLevel": 17,
+	"leaderTimeout": 7,
+	"maxNotice": 200,
+	"nameLen": {
+		"max": 8,
+		"min": 1
+	},
+	"newLeaderLogin": 2,
+	"taskReset": 3,
+	"unActiveDays": 7,
+	"unActiveTimes": 1
+}

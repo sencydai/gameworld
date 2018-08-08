@@ -1,0 +1,1397 @@
+{
+	"1": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 16021,
+			"talent": 1
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 16022,
+			"talent": 1
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 16023,
+			"talent": 1
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 16024,
+			"talent": 1
+		},
+		"5": {
+			"level": 5,
+			"skillId": 16025,
+			"talent": 1
+		}
+	},
+	"10": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 10
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 10
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 10
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 10
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 10
+		}
+	},
+	"11": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 11
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 11
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 11
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 11
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 11
+		}
+	},
+	"12": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 12
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 12
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 12
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 12
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 12
+		}
+	},
+	"13": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 13
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 13
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 13
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 13
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 13
+		}
+	},
+	"14": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 14
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 14
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 14
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 14
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 14
+		}
+	},
+	"15": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 15
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 15
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 15
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 15
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 15
+		}
+	},
+	"16": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 16
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 16
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 16
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 16
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 16
+		}
+	},
+	"17": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 17
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 17
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 17
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 17
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 17
+		}
+	},
+	"18": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 18
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 18
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 18
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 18
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 18
+		}
+	},
+	"19": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 19
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 19
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 19
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 19
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 19
+		}
+	},
+	"2": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 2
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 2
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 2
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 2
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 2
+		}
+	},
+	"20": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 20
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 20
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 20
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 20
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 20
+		}
+	},
+	"21": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 21
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 21
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 21
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 21
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 21
+		}
+	},
+	"22": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 22
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 22
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 22
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 22
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 22
+		}
+	},
+	"23": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 23
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 23
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 23
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 23
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 23
+		}
+	},
+	"24": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 24
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 24
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 24
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 24
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 24
+		}
+	},
+	"25": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 25
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 25
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 25
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 25
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 25
+		}
+	},
+	"26": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 26
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 26
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 26
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 26
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 26
+		}
+	},
+	"27": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 27
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 27
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 27
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 27
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 27
+		}
+	},
+	"28": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 28
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 28
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 28
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 28
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 28
+		}
+	},
+	"29": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 29
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 29
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 29
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 29
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 29
+		}
+	},
+	"3": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 3
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 3
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 3
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 3
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 3
+		}
+	},
+	"30": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 30
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 30
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 30
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 30
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 30
+		}
+	},
+	"31": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 31
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 31
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 31
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 31
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 31
+		}
+	},
+	"32": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 32
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 32
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 32
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 32
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 32
+		}
+	},
+	"33": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 33
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 33
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 33
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 33
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 33
+		}
+	},
+	"34": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 34
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 34
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 34
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 34
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 34
+		}
+	},
+	"35": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 35
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 35
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 35
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 35
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 35
+		}
+	},
+	"36": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 36
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 36
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 36
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 36
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 36
+		}
+	},
+	"37": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 37
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 37
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 37
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 37
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 37
+		}
+	},
+	"38": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 38
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 38
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 38
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 38
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 38
+		}
+	},
+	"39": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 39
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 39
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 39
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 39
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 39
+		}
+	},
+	"4": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 4
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 4
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 4
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 4
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 4
+		}
+	},
+	"40": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 40
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 40
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 40
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 40
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 40
+		}
+	},
+	"41": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 41
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 41
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 41
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 41
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 41
+		}
+	},
+	"42": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 42
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 42
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 42
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 42
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 42
+		}
+	},
+	"43": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 43
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 43
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 43
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 43
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 43
+		}
+	},
+	"44": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 44
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 44
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 44
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 44
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 44
+		}
+	},
+	"45": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 45
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 45
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 45
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 45
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 45
+		}
+	},
+	"5": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 5
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 5
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 5
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 5
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 5
+		}
+	},
+	"6": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 6
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 6
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 6
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 6
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 6
+		}
+	},
+	"7": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 7
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 7
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 7
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 7
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 7
+		}
+	},
+	"8": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 8
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 8
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 8
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 8
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 8
+		}
+	},
+	"9": {
+		"1": {
+			"cost": 1,
+			"level": 1,
+			"skillId": 15021,
+			"talent": 9
+		},
+		"2": {
+			"cost": 1,
+			"level": 2,
+			"skillId": 15022,
+			"talent": 9
+		},
+		"3": {
+			"cost": 1,
+			"level": 3,
+			"skillId": 15023,
+			"talent": 9
+		},
+		"4": {
+			"cost": 1,
+			"level": 4,
+			"skillId": 15024,
+			"talent": 9
+		},
+		"5": {
+			"level": 5,
+			"skillId": 15025,
+			"talent": 9
+		}
+	}
+}

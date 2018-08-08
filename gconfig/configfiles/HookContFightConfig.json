@@ -1,0 +1,48 @@
+{
+	"1202": {
+		"id": 1202,
+		"lord": {
+			"id": 2003,
+			"level": 0,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 120900,
+				"level": 1,
+				"pos": 1,
+				"template": 1
+			},
+			"2": {
+				"id": 120200,
+				"level": 1,
+				"pos": 2,
+				"template": 1
+			},
+			"3": {
+				"id": 130600,
+				"level": 1,
+				"pos": 3,
+				"template": 1
+			},
+			"4": {
+				"id": 130400,
+				"level": 1,
+				"pos": 4,
+				"template": 1
+			},
+			"5": {
+				"id": 120600,
+				"level": 1,
+				"pos": 5,
+				"template": 1
+			},
+			"6": {
+				"id": 120300,
+				"level": 1,
+				"pos": 6,
+				"template": 1
+			}
+		}
+	}
+}

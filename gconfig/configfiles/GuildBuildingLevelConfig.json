@@ -1,0 +1,4810 @@
+{
+	"1": {
+		"1": {
+			"fund": 3000,
+			"guildLevel": 1,
+			"id": 1,
+			"level": 1,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 10
+				}
+			}
+		},
+		"10": {
+			"fund": 4800,
+			"guildLevel": 2,
+			"id": 1,
+			"level": 10,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 100
+				}
+			}
+		},
+		"100": {
+			"fund": 22800,
+			"guildLevel": 20,
+			"id": 1,
+			"level": 100,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 1000
+				}
+			}
+		},
+		"11": {
+			"fund": 5000,
+			"guildLevel": 3,
+			"id": 1,
+			"level": 11,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 110
+				}
+			}
+		},
+		"12": {
+			"fund": 5200,
+			"guildLevel": 3,
+			"id": 1,
+			"level": 12,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 120
+				}
+			}
+		},
+		"13": {
+			"fund": 5400,
+			"guildLevel": 3,
+			"id": 1,
+			"level": 13,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 130
+				}
+			}
+		},
+		"14": {
+			"fund": 5600,
+			"guildLevel": 3,
+			"id": 1,
+			"level": 14,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 140
+				}
+			}
+		},
+		"15": {
+			"fund": 5800,
+			"guildLevel": 3,
+			"id": 1,
+			"level": 15,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 150
+				}
+			}
+		},
+		"16": {
+			"fund": 6000,
+			"guildLevel": 4,
+			"id": 1,
+			"level": 16,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 160
+				}
+			}
+		},
+		"17": {
+			"fund": 6200,
+			"guildLevel": 4,
+			"id": 1,
+			"level": 17,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 170
+				}
+			}
+		},
+		"18": {
+			"fund": 6400,
+			"guildLevel": 4,
+			"id": 1,
+			"level": 18,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 180
+				}
+			}
+		},
+		"19": {
+			"fund": 6600,
+			"guildLevel": 4,
+			"id": 1,
+			"level": 19,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 190
+				}
+			}
+		},
+		"2": {
+			"fund": 3200,
+			"guildLevel": 1,
+			"id": 1,
+			"level": 2,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 20
+				}
+			}
+		},
+		"20": {
+			"fund": 6800,
+			"guildLevel": 4,
+			"id": 1,
+			"level": 20,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 200
+				}
+			}
+		},
+		"21": {
+			"fund": 7000,
+			"guildLevel": 5,
+			"id": 1,
+			"level": 21,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 210
+				}
+			}
+		},
+		"22": {
+			"fund": 7200,
+			"guildLevel": 5,
+			"id": 1,
+			"level": 22,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 220
+				}
+			}
+		},
+		"23": {
+			"fund": 7400,
+			"guildLevel": 5,
+			"id": 1,
+			"level": 23,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 230
+				}
+			}
+		},
+		"24": {
+			"fund": 7600,
+			"guildLevel": 5,
+			"id": 1,
+			"level": 24,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 240
+				}
+			}
+		},
+		"25": {
+			"fund": 7800,
+			"guildLevel": 5,
+			"id": 1,
+			"level": 25,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 250
+				}
+			}
+		},
+		"26": {
+			"fund": 8000,
+			"guildLevel": 6,
+			"id": 1,
+			"level": 26,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 260
+				}
+			}
+		},
+		"27": {
+			"fund": 8200,
+			"guildLevel": 6,
+			"id": 1,
+			"level": 27,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 270
+				}
+			}
+		},
+		"28": {
+			"fund": 8400,
+			"guildLevel": 6,
+			"id": 1,
+			"level": 28,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 280
+				}
+			}
+		},
+		"29": {
+			"fund": 8600,
+			"guildLevel": 6,
+			"id": 1,
+			"level": 29,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 290
+				}
+			}
+		},
+		"3": {
+			"fund": 3400,
+			"guildLevel": 1,
+			"id": 1,
+			"level": 3,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 30
+				}
+			}
+		},
+		"30": {
+			"fund": 8800,
+			"guildLevel": 6,
+			"id": 1,
+			"level": 30,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 300
+				}
+			}
+		},
+		"31": {
+			"fund": 9000,
+			"guildLevel": 7,
+			"id": 1,
+			"level": 31,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 310
+				}
+			}
+		},
+		"32": {
+			"fund": 9200,
+			"guildLevel": 7,
+			"id": 1,
+			"level": 32,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 320
+				}
+			}
+		},
+		"33": {
+			"fund": 9400,
+			"guildLevel": 7,
+			"id": 1,
+			"level": 33,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 330
+				}
+			}
+		},
+		"34": {
+			"fund": 9600,
+			"guildLevel": 7,
+			"id": 1,
+			"level": 34,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 340
+				}
+			}
+		},
+		"35": {
+			"fund": 9800,
+			"guildLevel": 7,
+			"id": 1,
+			"level": 35,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 350
+				}
+			}
+		},
+		"36": {
+			"fund": 10000,
+			"guildLevel": 8,
+			"id": 1,
+			"level": 36,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 360
+				}
+			}
+		},
+		"37": {
+			"fund": 10200,
+			"guildLevel": 8,
+			"id": 1,
+			"level": 37,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 370
+				}
+			}
+		},
+		"38": {
+			"fund": 10400,
+			"guildLevel": 8,
+			"id": 1,
+			"level": 38,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 380
+				}
+			}
+		},
+		"39": {
+			"fund": 10600,
+			"guildLevel": 8,
+			"id": 1,
+			"level": 39,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 390
+				}
+			}
+		},
+		"4": {
+			"fund": 3600,
+			"guildLevel": 1,
+			"id": 1,
+			"level": 4,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 40
+				}
+			}
+		},
+		"40": {
+			"fund": 10800,
+			"guildLevel": 8,
+			"id": 1,
+			"level": 40,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 400
+				}
+			}
+		},
+		"41": {
+			"fund": 11000,
+			"guildLevel": 9,
+			"id": 1,
+			"level": 41,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 410
+				}
+			}
+		},
+		"42": {
+			"fund": 11200,
+			"guildLevel": 9,
+			"id": 1,
+			"level": 42,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 420
+				}
+			}
+		},
+		"43": {
+			"fund": 11400,
+			"guildLevel": 9,
+			"id": 1,
+			"level": 43,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 430
+				}
+			}
+		},
+		"44": {
+			"fund": 11600,
+			"guildLevel": 9,
+			"id": 1,
+			"level": 44,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 440
+				}
+			}
+		},
+		"45": {
+			"fund": 11800,
+			"guildLevel": 9,
+			"id": 1,
+			"level": 45,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 450
+				}
+			}
+		},
+		"46": {
+			"fund": 12000,
+			"guildLevel": 10,
+			"id": 1,
+			"level": 46,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 460
+				}
+			}
+		},
+		"47": {
+			"fund": 12200,
+			"guildLevel": 10,
+			"id": 1,
+			"level": 47,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 470
+				}
+			}
+		},
+		"48": {
+			"fund": 12400,
+			"guildLevel": 10,
+			"id": 1,
+			"level": 48,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 480
+				}
+			}
+		},
+		"49": {
+			"fund": 12600,
+			"guildLevel": 10,
+			"id": 1,
+			"level": 49,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 490
+				}
+			}
+		},
+		"5": {
+			"fund": 3800,
+			"guildLevel": 1,
+			"id": 1,
+			"level": 5,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 50
+				}
+			}
+		},
+		"50": {
+			"fund": 12800,
+			"guildLevel": 10,
+			"id": 1,
+			"level": 50,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 500
+				}
+			}
+		},
+		"51": {
+			"fund": 13000,
+			"guildLevel": 11,
+			"id": 1,
+			"level": 51,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 510
+				}
+			}
+		},
+		"52": {
+			"fund": 13200,
+			"guildLevel": 11,
+			"id": 1,
+			"level": 52,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 520
+				}
+			}
+		},
+		"53": {
+			"fund": 13400,
+			"guildLevel": 11,
+			"id": 1,
+			"level": 53,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 530
+				}
+			}
+		},
+		"54": {
+			"fund": 13600,
+			"guildLevel": 11,
+			"id": 1,
+			"level": 54,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 540
+				}
+			}
+		},
+		"55": {
+			"fund": 13800,
+			"guildLevel": 11,
+			"id": 1,
+			"level": 55,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 550
+				}
+			}
+		},
+		"56": {
+			"fund": 14000,
+			"guildLevel": 12,
+			"id": 1,
+			"level": 56,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 560
+				}
+			}
+		},
+		"57": {
+			"fund": 14200,
+			"guildLevel": 12,
+			"id": 1,
+			"level": 57,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 570
+				}
+			}
+		},
+		"58": {
+			"fund": 14400,
+			"guildLevel": 12,
+			"id": 1,
+			"level": 58,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 580
+				}
+			}
+		},
+		"59": {
+			"fund": 14600,
+			"guildLevel": 12,
+			"id": 1,
+			"level": 59,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 590
+				}
+			}
+		},
+		"6": {
+			"fund": 4000,
+			"guildLevel": 2,
+			"id": 1,
+			"level": 6,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 60
+				}
+			}
+		},
+		"60": {
+			"fund": 14800,
+			"guildLevel": 12,
+			"id": 1,
+			"level": 60,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 600
+				}
+			}
+		},
+		"61": {
+			"fund": 15000,
+			"guildLevel": 13,
+			"id": 1,
+			"level": 61,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 610
+				}
+			}
+		},
+		"62": {
+			"fund": 15200,
+			"guildLevel": 13,
+			"id": 1,
+			"level": 62,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 620
+				}
+			}
+		},
+		"63": {
+			"fund": 15400,
+			"guildLevel": 13,
+			"id": 1,
+			"level": 63,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 630
+				}
+			}
+		},
+		"64": {
+			"fund": 15600,
+			"guildLevel": 13,
+			"id": 1,
+			"level": 64,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 640
+				}
+			}
+		},
+		"65": {
+			"fund": 15800,
+			"guildLevel": 13,
+			"id": 1,
+			"level": 65,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 650
+				}
+			}
+		},
+		"66": {
+			"fund": 16000,
+			"guildLevel": 14,
+			"id": 1,
+			"level": 66,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 660
+				}
+			}
+		},
+		"67": {
+			"fund": 16200,
+			"guildLevel": 14,
+			"id": 1,
+			"level": 67,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 670
+				}
+			}
+		},
+		"68": {
+			"fund": 16400,
+			"guildLevel": 14,
+			"id": 1,
+			"level": 68,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 680
+				}
+			}
+		},
+		"69": {
+			"fund": 16600,
+			"guildLevel": 14,
+			"id": 1,
+			"level": 69,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 690
+				}
+			}
+		},
+		"7": {
+			"fund": 4200,
+			"guildLevel": 2,
+			"id": 1,
+			"level": 7,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 70
+				}
+			}
+		},
+		"70": {
+			"fund": 16800,
+			"guildLevel": 14,
+			"id": 1,
+			"level": 70,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 700
+				}
+			}
+		},
+		"71": {
+			"fund": 17000,
+			"guildLevel": 15,
+			"id": 1,
+			"level": 71,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 710
+				}
+			}
+		},
+		"72": {
+			"fund": 17200,
+			"guildLevel": 15,
+			"id": 1,
+			"level": 72,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 720
+				}
+			}
+		},
+		"73": {
+			"fund": 17400,
+			"guildLevel": 15,
+			"id": 1,
+			"level": 73,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 730
+				}
+			}
+		},
+		"74": {
+			"fund": 17600,
+			"guildLevel": 15,
+			"id": 1,
+			"level": 74,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 740
+				}
+			}
+		},
+		"75": {
+			"fund": 17800,
+			"guildLevel": 15,
+			"id": 1,
+			"level": 75,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 750
+				}
+			}
+		},
+		"76": {
+			"fund": 18000,
+			"guildLevel": 16,
+			"id": 1,
+			"level": 76,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 760
+				}
+			}
+		},
+		"77": {
+			"fund": 18200,
+			"guildLevel": 16,
+			"id": 1,
+			"level": 77,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 770
+				}
+			}
+		},
+		"78": {
+			"fund": 18400,
+			"guildLevel": 16,
+			"id": 1,
+			"level": 78,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 780
+				}
+			}
+		},
+		"79": {
+			"fund": 18600,
+			"guildLevel": 16,
+			"id": 1,
+			"level": 79,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 790
+				}
+			}
+		},
+		"8": {
+			"fund": 4400,
+			"guildLevel": 2,
+			"id": 1,
+			"level": 8,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 80
+				}
+			}
+		},
+		"80": {
+			"fund": 18800,
+			"guildLevel": 16,
+			"id": 1,
+			"level": 80,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 800
+				}
+			}
+		},
+		"81": {
+			"fund": 19000,
+			"guildLevel": 17,
+			"id": 1,
+			"level": 81,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 810
+				}
+			}
+		},
+		"82": {
+			"fund": 19200,
+			"guildLevel": 17,
+			"id": 1,
+			"level": 82,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 820
+				}
+			}
+		},
+		"83": {
+			"fund": 19400,
+			"guildLevel": 17,
+			"id": 1,
+			"level": 83,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 830
+				}
+			}
+		},
+		"84": {
+			"fund": 19600,
+			"guildLevel": 17,
+			"id": 1,
+			"level": 84,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 840
+				}
+			}
+		},
+		"85": {
+			"fund": 19800,
+			"guildLevel": 17,
+			"id": 1,
+			"level": 85,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 850
+				}
+			}
+		},
+		"86": {
+			"fund": 20000,
+			"guildLevel": 18,
+			"id": 1,
+			"level": 86,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 860
+				}
+			}
+		},
+		"87": {
+			"fund": 20200,
+			"guildLevel": 18,
+			"id": 1,
+			"level": 87,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 870
+				}
+			}
+		},
+		"88": {
+			"fund": 20400,
+			"guildLevel": 18,
+			"id": 1,
+			"level": 88,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 880
+				}
+			}
+		},
+		"89": {
+			"fund": 20600,
+			"guildLevel": 18,
+			"id": 1,
+			"level": 89,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 890
+				}
+			}
+		},
+		"9": {
+			"fund": 4600,
+			"guildLevel": 2,
+			"id": 1,
+			"level": 9,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 90
+				}
+			}
+		},
+		"90": {
+			"fund": 20800,
+			"guildLevel": 18,
+			"id": 1,
+			"level": 90,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 900
+				}
+			}
+		},
+		"91": {
+			"fund": 21000,
+			"guildLevel": 19,
+			"id": 1,
+			"level": 91,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 910
+				}
+			}
+		},
+		"92": {
+			"fund": 21200,
+			"guildLevel": 19,
+			"id": 1,
+			"level": 92,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 920
+				}
+			}
+		},
+		"93": {
+			"fund": 21400,
+			"guildLevel": 19,
+			"id": 1,
+			"level": 93,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 930
+				}
+			}
+		},
+		"94": {
+			"fund": 21600,
+			"guildLevel": 19,
+			"id": 1,
+			"level": 94,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 940
+				}
+			}
+		},
+		"95": {
+			"fund": 21800,
+			"guildLevel": 19,
+			"id": 1,
+			"level": 95,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 950
+				}
+			}
+		},
+		"96": {
+			"fund": 22000,
+			"guildLevel": 20,
+			"id": 1,
+			"level": 96,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 960
+				}
+			}
+		},
+		"97": {
+			"fund": 22200,
+			"guildLevel": 20,
+			"id": 1,
+			"level": 97,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 970
+				}
+			}
+		},
+		"98": {
+			"fund": 22400,
+			"guildLevel": 20,
+			"id": 1,
+			"level": 98,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 980
+				}
+			}
+		},
+		"99": {
+			"fund": 22600,
+			"guildLevel": 20,
+			"id": 1,
+			"level": 99,
+			"loadAttrs": {
+				"1": {
+					"type": 29,
+					"value": 990
+				}
+			}
+		}
+	},
+	"2": {
+		"1": {
+			"fund": 3000,
+			"guildLevel": 1,
+			"id": 2,
+			"level": 1,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 10
+				}
+			}
+		},
+		"10": {
+			"fund": 4800,
+			"guildLevel": 2,
+			"id": 2,
+			"level": 10,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 100
+				}
+			}
+		},
+		"100": {
+			"fund": 22800,
+			"guildLevel": 20,
+			"id": 2,
+			"level": 100,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 1000
+				}
+			}
+		},
+		"11": {
+			"fund": 5000,
+			"guildLevel": 3,
+			"id": 2,
+			"level": 11,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 110
+				}
+			}
+		},
+		"12": {
+			"fund": 5200,
+			"guildLevel": 3,
+			"id": 2,
+			"level": 12,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 120
+				}
+			}
+		},
+		"13": {
+			"fund": 5400,
+			"guildLevel": 3,
+			"id": 2,
+			"level": 13,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 130
+				}
+			}
+		},
+		"14": {
+			"fund": 5600,
+			"guildLevel": 3,
+			"id": 2,
+			"level": 14,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 140
+				}
+			}
+		},
+		"15": {
+			"fund": 5800,
+			"guildLevel": 3,
+			"id": 2,
+			"level": 15,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 150
+				}
+			}
+		},
+		"16": {
+			"fund": 6000,
+			"guildLevel": 4,
+			"id": 2,
+			"level": 16,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 160
+				}
+			}
+		},
+		"17": {
+			"fund": 6200,
+			"guildLevel": 4,
+			"id": 2,
+			"level": 17,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 170
+				}
+			}
+		},
+		"18": {
+			"fund": 6400,
+			"guildLevel": 4,
+			"id": 2,
+			"level": 18,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 180
+				}
+			}
+		},
+		"19": {
+			"fund": 6600,
+			"guildLevel": 4,
+			"id": 2,
+			"level": 19,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 190
+				}
+			}
+		},
+		"2": {
+			"fund": 3200,
+			"guildLevel": 1,
+			"id": 2,
+			"level": 2,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 20
+				}
+			}
+		},
+		"20": {
+			"fund": 6800,
+			"guildLevel": 4,
+			"id": 2,
+			"level": 20,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 200
+				}
+			}
+		},
+		"21": {
+			"fund": 7000,
+			"guildLevel": 5,
+			"id": 2,
+			"level": 21,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 210
+				}
+			}
+		},
+		"22": {
+			"fund": 7200,
+			"guildLevel": 5,
+			"id": 2,
+			"level": 22,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 220
+				}
+			}
+		},
+		"23": {
+			"fund": 7400,
+			"guildLevel": 5,
+			"id": 2,
+			"level": 23,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 230
+				}
+			}
+		},
+		"24": {
+			"fund": 7600,
+			"guildLevel": 5,
+			"id": 2,
+			"level": 24,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 240
+				}
+			}
+		},
+		"25": {
+			"fund": 7800,
+			"guildLevel": 5,
+			"id": 2,
+			"level": 25,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 250
+				}
+			}
+		},
+		"26": {
+			"fund": 8000,
+			"guildLevel": 6,
+			"id": 2,
+			"level": 26,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 260
+				}
+			}
+		},
+		"27": {
+			"fund": 8200,
+			"guildLevel": 6,
+			"id": 2,
+			"level": 27,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 270
+				}
+			}
+		},
+		"28": {
+			"fund": 8400,
+			"guildLevel": 6,
+			"id": 2,
+			"level": 28,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 280
+				}
+			}
+		},
+		"29": {
+			"fund": 8600,
+			"guildLevel": 6,
+			"id": 2,
+			"level": 29,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 290
+				}
+			}
+		},
+		"3": {
+			"fund": 3400,
+			"guildLevel": 1,
+			"id": 2,
+			"level": 3,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 30
+				}
+			}
+		},
+		"30": {
+			"fund": 8800,
+			"guildLevel": 6,
+			"id": 2,
+			"level": 30,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 300
+				}
+			}
+		},
+		"31": {
+			"fund": 9000,
+			"guildLevel": 7,
+			"id": 2,
+			"level": 31,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 310
+				}
+			}
+		},
+		"32": {
+			"fund": 9200,
+			"guildLevel": 7,
+			"id": 2,
+			"level": 32,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 320
+				}
+			}
+		},
+		"33": {
+			"fund": 9400,
+			"guildLevel": 7,
+			"id": 2,
+			"level": 33,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 330
+				}
+			}
+		},
+		"34": {
+			"fund": 9600,
+			"guildLevel": 7,
+			"id": 2,
+			"level": 34,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 340
+				}
+			}
+		},
+		"35": {
+			"fund": 9800,
+			"guildLevel": 7,
+			"id": 2,
+			"level": 35,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 350
+				}
+			}
+		},
+		"36": {
+			"fund": 10000,
+			"guildLevel": 8,
+			"id": 2,
+			"level": 36,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 360
+				}
+			}
+		},
+		"37": {
+			"fund": 10200,
+			"guildLevel": 8,
+			"id": 2,
+			"level": 37,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 370
+				}
+			}
+		},
+		"38": {
+			"fund": 10400,
+			"guildLevel": 8,
+			"id": 2,
+			"level": 38,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 380
+				}
+			}
+		},
+		"39": {
+			"fund": 10600,
+			"guildLevel": 8,
+			"id": 2,
+			"level": 39,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 390
+				}
+			}
+		},
+		"4": {
+			"fund": 3600,
+			"guildLevel": 1,
+			"id": 2,
+			"level": 4,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 40
+				}
+			}
+		},
+		"40": {
+			"fund": 10800,
+			"guildLevel": 8,
+			"id": 2,
+			"level": 40,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 400
+				}
+			}
+		},
+		"41": {
+			"fund": 11000,
+			"guildLevel": 9,
+			"id": 2,
+			"level": 41,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 410
+				}
+			}
+		},
+		"42": {
+			"fund": 11200,
+			"guildLevel": 9,
+			"id": 2,
+			"level": 42,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 420
+				}
+			}
+		},
+		"43": {
+			"fund": 11400,
+			"guildLevel": 9,
+			"id": 2,
+			"level": 43,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 430
+				}
+			}
+		},
+		"44": {
+			"fund": 11600,
+			"guildLevel": 9,
+			"id": 2,
+			"level": 44,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 440
+				}
+			}
+		},
+		"45": {
+			"fund": 11800,
+			"guildLevel": 9,
+			"id": 2,
+			"level": 45,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 450
+				}
+			}
+		},
+		"46": {
+			"fund": 12000,
+			"guildLevel": 10,
+			"id": 2,
+			"level": 46,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 460
+				}
+			}
+		},
+		"47": {
+			"fund": 12200,
+			"guildLevel": 10,
+			"id": 2,
+			"level": 47,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 470
+				}
+			}
+		},
+		"48": {
+			"fund": 12400,
+			"guildLevel": 10,
+			"id": 2,
+			"level": 48,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 480
+				}
+			}
+		},
+		"49": {
+			"fund": 12600,
+			"guildLevel": 10,
+			"id": 2,
+			"level": 49,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 490
+				}
+			}
+		},
+		"5": {
+			"fund": 3800,
+			"guildLevel": 1,
+			"id": 2,
+			"level": 5,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 50
+				}
+			}
+		},
+		"50": {
+			"fund": 12800,
+			"guildLevel": 10,
+			"id": 2,
+			"level": 50,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 500
+				}
+			}
+		},
+		"51": {
+			"fund": 13000,
+			"guildLevel": 11,
+			"id": 2,
+			"level": 51,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 510
+				}
+			}
+		},
+		"52": {
+			"fund": 13200,
+			"guildLevel": 11,
+			"id": 2,
+			"level": 52,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 520
+				}
+			}
+		},
+		"53": {
+			"fund": 13400,
+			"guildLevel": 11,
+			"id": 2,
+			"level": 53,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 530
+				}
+			}
+		},
+		"54": {
+			"fund": 13600,
+			"guildLevel": 11,
+			"id": 2,
+			"level": 54,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 540
+				}
+			}
+		},
+		"55": {
+			"fund": 13800,
+			"guildLevel": 11,
+			"id": 2,
+			"level": 55,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 550
+				}
+			}
+		},
+		"56": {
+			"fund": 14000,
+			"guildLevel": 12,
+			"id": 2,
+			"level": 56,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 560
+				}
+			}
+		},
+		"57": {
+			"fund": 14200,
+			"guildLevel": 12,
+			"id": 2,
+			"level": 57,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 570
+				}
+			}
+		},
+		"58": {
+			"fund": 14400,
+			"guildLevel": 12,
+			"id": 2,
+			"level": 58,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 580
+				}
+			}
+		},
+		"59": {
+			"fund": 14600,
+			"guildLevel": 12,
+			"id": 2,
+			"level": 59,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 590
+				}
+			}
+		},
+		"6": {
+			"fund": 4000,
+			"guildLevel": 2,
+			"id": 2,
+			"level": 6,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 60
+				}
+			}
+		},
+		"60": {
+			"fund": 14800,
+			"guildLevel": 12,
+			"id": 2,
+			"level": 60,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 600
+				}
+			}
+		},
+		"61": {
+			"fund": 15000,
+			"guildLevel": 13,
+			"id": 2,
+			"level": 61,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 610
+				}
+			}
+		},
+		"62": {
+			"fund": 15200,
+			"guildLevel": 13,
+			"id": 2,
+			"level": 62,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 620
+				}
+			}
+		},
+		"63": {
+			"fund": 15400,
+			"guildLevel": 13,
+			"id": 2,
+			"level": 63,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 630
+				}
+			}
+		},
+		"64": {
+			"fund": 15600,
+			"guildLevel": 13,
+			"id": 2,
+			"level": 64,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 640
+				}
+			}
+		},
+		"65": {
+			"fund": 15800,
+			"guildLevel": 13,
+			"id": 2,
+			"level": 65,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 650
+				}
+			}
+		},
+		"66": {
+			"fund": 16000,
+			"guildLevel": 14,
+			"id": 2,
+			"level": 66,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 660
+				}
+			}
+		},
+		"67": {
+			"fund": 16200,
+			"guildLevel": 14,
+			"id": 2,
+			"level": 67,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 670
+				}
+			}
+		},
+		"68": {
+			"fund": 16400,
+			"guildLevel": 14,
+			"id": 2,
+			"level": 68,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 680
+				}
+			}
+		},
+		"69": {
+			"fund": 16600,
+			"guildLevel": 14,
+			"id": 2,
+			"level": 69,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 690
+				}
+			}
+		},
+		"7": {
+			"fund": 4200,
+			"guildLevel": 2,
+			"id": 2,
+			"level": 7,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 70
+				}
+			}
+		},
+		"70": {
+			"fund": 16800,
+			"guildLevel": 14,
+			"id": 2,
+			"level": 70,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 700
+				}
+			}
+		},
+		"71": {
+			"fund": 17000,
+			"guildLevel": 15,
+			"id": 2,
+			"level": 71,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 710
+				}
+			}
+		},
+		"72": {
+			"fund": 17200,
+			"guildLevel": 15,
+			"id": 2,
+			"level": 72,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 720
+				}
+			}
+		},
+		"73": {
+			"fund": 17400,
+			"guildLevel": 15,
+			"id": 2,
+			"level": 73,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 730
+				}
+			}
+		},
+		"74": {
+			"fund": 17600,
+			"guildLevel": 15,
+			"id": 2,
+			"level": 74,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 740
+				}
+			}
+		},
+		"75": {
+			"fund": 17800,
+			"guildLevel": 15,
+			"id": 2,
+			"level": 75,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 750
+				}
+			}
+		},
+		"76": {
+			"fund": 18000,
+			"guildLevel": 16,
+			"id": 2,
+			"level": 76,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 760
+				}
+			}
+		},
+		"77": {
+			"fund": 18200,
+			"guildLevel": 16,
+			"id": 2,
+			"level": 77,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 770
+				}
+			}
+		},
+		"78": {
+			"fund": 18400,
+			"guildLevel": 16,
+			"id": 2,
+			"level": 78,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 780
+				}
+			}
+		},
+		"79": {
+			"fund": 18600,
+			"guildLevel": 16,
+			"id": 2,
+			"level": 79,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 790
+				}
+			}
+		},
+		"8": {
+			"fund": 4400,
+			"guildLevel": 2,
+			"id": 2,
+			"level": 8,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 80
+				}
+			}
+		},
+		"80": {
+			"fund": 18800,
+			"guildLevel": 16,
+			"id": 2,
+			"level": 80,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 800
+				}
+			}
+		},
+		"81": {
+			"fund": 19000,
+			"guildLevel": 17,
+			"id": 2,
+			"level": 81,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 810
+				}
+			}
+		},
+		"82": {
+			"fund": 19200,
+			"guildLevel": 17,
+			"id": 2,
+			"level": 82,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 820
+				}
+			}
+		},
+		"83": {
+			"fund": 19400,
+			"guildLevel": 17,
+			"id": 2,
+			"level": 83,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 830
+				}
+			}
+		},
+		"84": {
+			"fund": 19600,
+			"guildLevel": 17,
+			"id": 2,
+			"level": 84,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 840
+				}
+			}
+		},
+		"85": {
+			"fund": 19800,
+			"guildLevel": 17,
+			"id": 2,
+			"level": 85,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 850
+				}
+			}
+		},
+		"86": {
+			"fund": 20000,
+			"guildLevel": 18,
+			"id": 2,
+			"level": 86,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 860
+				}
+			}
+		},
+		"87": {
+			"fund": 20200,
+			"guildLevel": 18,
+			"id": 2,
+			"level": 87,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 870
+				}
+			}
+		},
+		"88": {
+			"fund": 20400,
+			"guildLevel": 18,
+			"id": 2,
+			"level": 88,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 880
+				}
+			}
+		},
+		"89": {
+			"fund": 20600,
+			"guildLevel": 18,
+			"id": 2,
+			"level": 89,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 890
+				}
+			}
+		},
+		"9": {
+			"fund": 4600,
+			"guildLevel": 2,
+			"id": 2,
+			"level": 9,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 90
+				}
+			}
+		},
+		"90": {
+			"fund": 20800,
+			"guildLevel": 18,
+			"id": 2,
+			"level": 90,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 900
+				}
+			}
+		},
+		"91": {
+			"fund": 21000,
+			"guildLevel": 19,
+			"id": 2,
+			"level": 91,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 910
+				}
+			}
+		},
+		"92": {
+			"fund": 21200,
+			"guildLevel": 19,
+			"id": 2,
+			"level": 92,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 920
+				}
+			}
+		},
+		"93": {
+			"fund": 21400,
+			"guildLevel": 19,
+			"id": 2,
+			"level": 93,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 930
+				}
+			}
+		},
+		"94": {
+			"fund": 21600,
+			"guildLevel": 19,
+			"id": 2,
+			"level": 94,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 940
+				}
+			}
+		},
+		"95": {
+			"fund": 21800,
+			"guildLevel": 19,
+			"id": 2,
+			"level": 95,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 950
+				}
+			}
+		},
+		"96": {
+			"fund": 22000,
+			"guildLevel": 20,
+			"id": 2,
+			"level": 96,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 960
+				}
+			}
+		},
+		"97": {
+			"fund": 22200,
+			"guildLevel": 20,
+			"id": 2,
+			"level": 97,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 970
+				}
+			}
+		},
+		"98": {
+			"fund": 22400,
+			"guildLevel": 20,
+			"id": 2,
+			"level": 98,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 980
+				}
+			}
+		},
+		"99": {
+			"fund": 22600,
+			"guildLevel": 20,
+			"id": 2,
+			"level": 99,
+			"loadAttrs": {
+				"1": {
+					"type": 30,
+					"value": 990
+				}
+			}
+		}
+	},
+	"3": {
+		"1": {
+			"fund": 3000,
+			"guildLevel": 1,
+			"id": 3,
+			"level": 1,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 10
+				}
+			}
+		},
+		"10": {
+			"fund": 4800,
+			"guildLevel": 2,
+			"id": 3,
+			"level": 10,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 100
+				}
+			}
+		},
+		"100": {
+			"fund": 22800,
+			"guildLevel": 20,
+			"id": 3,
+			"level": 100,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 1000
+				}
+			}
+		},
+		"11": {
+			"fund": 5000,
+			"guildLevel": 3,
+			"id": 3,
+			"level": 11,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 110
+				}
+			}
+		},
+		"12": {
+			"fund": 5200,
+			"guildLevel": 3,
+			"id": 3,
+			"level": 12,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 120
+				}
+			}
+		},
+		"13": {
+			"fund": 5400,
+			"guildLevel": 3,
+			"id": 3,
+			"level": 13,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 130
+				}
+			}
+		},
+		"14": {
+			"fund": 5600,
+			"guildLevel": 3,
+			"id": 3,
+			"level": 14,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 140
+				}
+			}
+		},
+		"15": {
+			"fund": 5800,
+			"guildLevel": 3,
+			"id": 3,
+			"level": 15,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 150
+				}
+			}
+		},
+		"16": {
+			"fund": 6000,
+			"guildLevel": 4,
+			"id": 3,
+			"level": 16,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 160
+				}
+			}
+		},
+		"17": {
+			"fund": 6200,
+			"guildLevel": 4,
+			"id": 3,
+			"level": 17,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 170
+				}
+			}
+		},
+		"18": {
+			"fund": 6400,
+			"guildLevel": 4,
+			"id": 3,
+			"level": 18,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 180
+				}
+			}
+		},
+		"19": {
+			"fund": 6600,
+			"guildLevel": 4,
+			"id": 3,
+			"level": 19,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 190
+				}
+			}
+		},
+		"2": {
+			"fund": 3200,
+			"guildLevel": 1,
+			"id": 3,
+			"level": 2,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 20
+				}
+			}
+		},
+		"20": {
+			"fund": 6800,
+			"guildLevel": 4,
+			"id": 3,
+			"level": 20,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 200
+				}
+			}
+		},
+		"21": {
+			"fund": 7000,
+			"guildLevel": 5,
+			"id": 3,
+			"level": 21,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 210
+				}
+			}
+		},
+		"22": {
+			"fund": 7200,
+			"guildLevel": 5,
+			"id": 3,
+			"level": 22,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 220
+				}
+			}
+		},
+		"23": {
+			"fund": 7400,
+			"guildLevel": 5,
+			"id": 3,
+			"level": 23,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 230
+				}
+			}
+		},
+		"24": {
+			"fund": 7600,
+			"guildLevel": 5,
+			"id": 3,
+			"level": 24,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 240
+				}
+			}
+		},
+		"25": {
+			"fund": 7800,
+			"guildLevel": 5,
+			"id": 3,
+			"level": 25,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 250
+				}
+			}
+		},
+		"26": {
+			"fund": 8000,
+			"guildLevel": 6,
+			"id": 3,
+			"level": 26,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 260
+				}
+			}
+		},
+		"27": {
+			"fund": 8200,
+			"guildLevel": 6,
+			"id": 3,
+			"level": 27,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 270
+				}
+			}
+		},
+		"28": {
+			"fund": 8400,
+			"guildLevel": 6,
+			"id": 3,
+			"level": 28,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 280
+				}
+			}
+		},
+		"29": {
+			"fund": 8600,
+			"guildLevel": 6,
+			"id": 3,
+			"level": 29,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 290
+				}
+			}
+		},
+		"3": {
+			"fund": 3400,
+			"guildLevel": 1,
+			"id": 3,
+			"level": 3,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 30
+				}
+			}
+		},
+		"30": {
+			"fund": 8800,
+			"guildLevel": 6,
+			"id": 3,
+			"level": 30,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 300
+				}
+			}
+		},
+		"31": {
+			"fund": 9000,
+			"guildLevel": 7,
+			"id": 3,
+			"level": 31,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 310
+				}
+			}
+		},
+		"32": {
+			"fund": 9200,
+			"guildLevel": 7,
+			"id": 3,
+			"level": 32,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 320
+				}
+			}
+		},
+		"33": {
+			"fund": 9400,
+			"guildLevel": 7,
+			"id": 3,
+			"level": 33,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 330
+				}
+			}
+		},
+		"34": {
+			"fund": 9600,
+			"guildLevel": 7,
+			"id": 3,
+			"level": 34,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 340
+				}
+			}
+		},
+		"35": {
+			"fund": 9800,
+			"guildLevel": 7,
+			"id": 3,
+			"level": 35,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 350
+				}
+			}
+		},
+		"36": {
+			"fund": 10000,
+			"guildLevel": 8,
+			"id": 3,
+			"level": 36,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 360
+				}
+			}
+		},
+		"37": {
+			"fund": 10200,
+			"guildLevel": 8,
+			"id": 3,
+			"level": 37,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 370
+				}
+			}
+		},
+		"38": {
+			"fund": 10400,
+			"guildLevel": 8,
+			"id": 3,
+			"level": 38,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 380
+				}
+			}
+		},
+		"39": {
+			"fund": 10600,
+			"guildLevel": 8,
+			"id": 3,
+			"level": 39,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 390
+				}
+			}
+		},
+		"4": {
+			"fund": 3600,
+			"guildLevel": 1,
+			"id": 3,
+			"level": 4,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 40
+				}
+			}
+		},
+		"40": {
+			"fund": 10800,
+			"guildLevel": 8,
+			"id": 3,
+			"level": 40,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 400
+				}
+			}
+		},
+		"41": {
+			"fund": 11000,
+			"guildLevel": 9,
+			"id": 3,
+			"level": 41,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 410
+				}
+			}
+		},
+		"42": {
+			"fund": 11200,
+			"guildLevel": 9,
+			"id": 3,
+			"level": 42,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 420
+				}
+			}
+		},
+		"43": {
+			"fund": 11400,
+			"guildLevel": 9,
+			"id": 3,
+			"level": 43,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 430
+				}
+			}
+		},
+		"44": {
+			"fund": 11600,
+			"guildLevel": 9,
+			"id": 3,
+			"level": 44,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 440
+				}
+			}
+		},
+		"45": {
+			"fund": 11800,
+			"guildLevel": 9,
+			"id": 3,
+			"level": 45,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 450
+				}
+			}
+		},
+		"46": {
+			"fund": 12000,
+			"guildLevel": 10,
+			"id": 3,
+			"level": 46,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 460
+				}
+			}
+		},
+		"47": {
+			"fund": 12200,
+			"guildLevel": 10,
+			"id": 3,
+			"level": 47,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 470
+				}
+			}
+		},
+		"48": {
+			"fund": 12400,
+			"guildLevel": 10,
+			"id": 3,
+			"level": 48,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 480
+				}
+			}
+		},
+		"49": {
+			"fund": 12600,
+			"guildLevel": 10,
+			"id": 3,
+			"level": 49,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 490
+				}
+			}
+		},
+		"5": {
+			"fund": 3800,
+			"guildLevel": 1,
+			"id": 3,
+			"level": 5,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 50
+				}
+			}
+		},
+		"50": {
+			"fund": 12800,
+			"guildLevel": 10,
+			"id": 3,
+			"level": 50,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 500
+				}
+			}
+		},
+		"51": {
+			"fund": 13000,
+			"guildLevel": 11,
+			"id": 3,
+			"level": 51,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 510
+				}
+			}
+		},
+		"52": {
+			"fund": 13200,
+			"guildLevel": 11,
+			"id": 3,
+			"level": 52,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 520
+				}
+			}
+		},
+		"53": {
+			"fund": 13400,
+			"guildLevel": 11,
+			"id": 3,
+			"level": 53,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 530
+				}
+			}
+		},
+		"54": {
+			"fund": 13600,
+			"guildLevel": 11,
+			"id": 3,
+			"level": 54,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 540
+				}
+			}
+		},
+		"55": {
+			"fund": 13800,
+			"guildLevel": 11,
+			"id": 3,
+			"level": 55,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 550
+				}
+			}
+		},
+		"56": {
+			"fund": 14000,
+			"guildLevel": 12,
+			"id": 3,
+			"level": 56,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 560
+				}
+			}
+		},
+		"57": {
+			"fund": 14200,
+			"guildLevel": 12,
+			"id": 3,
+			"level": 57,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 570
+				}
+			}
+		},
+		"58": {
+			"fund": 14400,
+			"guildLevel": 12,
+			"id": 3,
+			"level": 58,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 580
+				}
+			}
+		},
+		"59": {
+			"fund": 14600,
+			"guildLevel": 12,
+			"id": 3,
+			"level": 59,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 590
+				}
+			}
+		},
+		"6": {
+			"fund": 4000,
+			"guildLevel": 2,
+			"id": 3,
+			"level": 6,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 60
+				}
+			}
+		},
+		"60": {
+			"fund": 14800,
+			"guildLevel": 12,
+			"id": 3,
+			"level": 60,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 600
+				}
+			}
+		},
+		"61": {
+			"fund": 15000,
+			"guildLevel": 13,
+			"id": 3,
+			"level": 61,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 610
+				}
+			}
+		},
+		"62": {
+			"fund": 15200,
+			"guildLevel": 13,
+			"id": 3,
+			"level": 62,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 620
+				}
+			}
+		},
+		"63": {
+			"fund": 15400,
+			"guildLevel": 13,
+			"id": 3,
+			"level": 63,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 630
+				}
+			}
+		},
+		"64": {
+			"fund": 15600,
+			"guildLevel": 13,
+			"id": 3,
+			"level": 64,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 640
+				}
+			}
+		},
+		"65": {
+			"fund": 15800,
+			"guildLevel": 13,
+			"id": 3,
+			"level": 65,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 650
+				}
+			}
+		},
+		"66": {
+			"fund": 16000,
+			"guildLevel": 14,
+			"id": 3,
+			"level": 66,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 660
+				}
+			}
+		},
+		"67": {
+			"fund": 16200,
+			"guildLevel": 14,
+			"id": 3,
+			"level": 67,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 670
+				}
+			}
+		},
+		"68": {
+			"fund": 16400,
+			"guildLevel": 14,
+			"id": 3,
+			"level": 68,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 680
+				}
+			}
+		},
+		"69": {
+			"fund": 16600,
+			"guildLevel": 14,
+			"id": 3,
+			"level": 69,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 690
+				}
+			}
+		},
+		"7": {
+			"fund": 4200,
+			"guildLevel": 2,
+			"id": 3,
+			"level": 7,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 70
+				}
+			}
+		},
+		"70": {
+			"fund": 16800,
+			"guildLevel": 14,
+			"id": 3,
+			"level": 70,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 700
+				}
+			}
+		},
+		"71": {
+			"fund": 17000,
+			"guildLevel": 15,
+			"id": 3,
+			"level": 71,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 710
+				}
+			}
+		},
+		"72": {
+			"fund": 17200,
+			"guildLevel": 15,
+			"id": 3,
+			"level": 72,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 720
+				}
+			}
+		},
+		"73": {
+			"fund": 17400,
+			"guildLevel": 15,
+			"id": 3,
+			"level": 73,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 730
+				}
+			}
+		},
+		"74": {
+			"fund": 17600,
+			"guildLevel": 15,
+			"id": 3,
+			"level": 74,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 740
+				}
+			}
+		},
+		"75": {
+			"fund": 17800,
+			"guildLevel": 15,
+			"id": 3,
+			"level": 75,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 750
+				}
+			}
+		},
+		"76": {
+			"fund": 18000,
+			"guildLevel": 16,
+			"id": 3,
+			"level": 76,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 760
+				}
+			}
+		},
+		"77": {
+			"fund": 18200,
+			"guildLevel": 16,
+			"id": 3,
+			"level": 77,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 770
+				}
+			}
+		},
+		"78": {
+			"fund": 18400,
+			"guildLevel": 16,
+			"id": 3,
+			"level": 78,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 780
+				}
+			}
+		},
+		"79": {
+			"fund": 18600,
+			"guildLevel": 16,
+			"id": 3,
+			"level": 79,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 790
+				}
+			}
+		},
+		"8": {
+			"fund": 4400,
+			"guildLevel": 2,
+			"id": 3,
+			"level": 8,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 80
+				}
+			}
+		},
+		"80": {
+			"fund": 18800,
+			"guildLevel": 16,
+			"id": 3,
+			"level": 80,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 800
+				}
+			}
+		},
+		"81": {
+			"fund": 19000,
+			"guildLevel": 17,
+			"id": 3,
+			"level": 81,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 810
+				}
+			}
+		},
+		"82": {
+			"fund": 19200,
+			"guildLevel": 17,
+			"id": 3,
+			"level": 82,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 820
+				}
+			}
+		},
+		"83": {
+			"fund": 19400,
+			"guildLevel": 17,
+			"id": 3,
+			"level": 83,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 830
+				}
+			}
+		},
+		"84": {
+			"fund": 19600,
+			"guildLevel": 17,
+			"id": 3,
+			"level": 84,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 840
+				}
+			}
+		},
+		"85": {
+			"fund": 19800,
+			"guildLevel": 17,
+			"id": 3,
+			"level": 85,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 850
+				}
+			}
+		},
+		"86": {
+			"fund": 20000,
+			"guildLevel": 18,
+			"id": 3,
+			"level": 86,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 860
+				}
+			}
+		},
+		"87": {
+			"fund": 20200,
+			"guildLevel": 18,
+			"id": 3,
+			"level": 87,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 870
+				}
+			}
+		},
+		"88": {
+			"fund": 20400,
+			"guildLevel": 18,
+			"id": 3,
+			"level": 88,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 880
+				}
+			}
+		},
+		"89": {
+			"fund": 20600,
+			"guildLevel": 18,
+			"id": 3,
+			"level": 89,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 890
+				}
+			}
+		},
+		"9": {
+			"fund": 4600,
+			"guildLevel": 2,
+			"id": 3,
+			"level": 9,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 90
+				}
+			}
+		},
+		"90": {
+			"fund": 20800,
+			"guildLevel": 18,
+			"id": 3,
+			"level": 90,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 900
+				}
+			}
+		},
+		"91": {
+			"fund": 21000,
+			"guildLevel": 19,
+			"id": 3,
+			"level": 91,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 910
+				}
+			}
+		},
+		"92": {
+			"fund": 21200,
+			"guildLevel": 19,
+			"id": 3,
+			"level": 92,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 920
+				}
+			}
+		},
+		"93": {
+			"fund": 21400,
+			"guildLevel": 19,
+			"id": 3,
+			"level": 93,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 930
+				}
+			}
+		},
+		"94": {
+			"fund": 21600,
+			"guildLevel": 19,
+			"id": 3,
+			"level": 94,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 940
+				}
+			}
+		},
+		"95": {
+			"fund": 21800,
+			"guildLevel": 19,
+			"id": 3,
+			"level": 95,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 950
+				}
+			}
+		},
+		"96": {
+			"fund": 22000,
+			"guildLevel": 20,
+			"id": 3,
+			"level": 96,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 960
+				}
+			}
+		},
+		"97": {
+			"fund": 22200,
+			"guildLevel": 20,
+			"id": 3,
+			"level": 97,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 970
+				}
+			}
+		},
+		"98": {
+			"fund": 22400,
+			"guildLevel": 20,
+			"id": 3,
+			"level": 98,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 980
+				}
+			}
+		},
+		"99": {
+			"fund": 22600,
+			"guildLevel": 20,
+			"id": 3,
+			"level": 99,
+			"loadAttrs": {
+				"1": {
+					"type": 27,
+					"value": 990
+				}
+			}
+		}
+	},
+	"4": {
+		"1": {
+			"fund": 3000,
+			"guildLevel": 1,
+			"id": 4,
+			"level": 1,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 10
+				}
+			}
+		},
+		"10": {
+			"fund": 4800,
+			"guildLevel": 2,
+			"id": 4,
+			"level": 10,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 100
+				}
+			}
+		},
+		"100": {
+			"fund": 22800,
+			"guildLevel": 20,
+			"id": 4,
+			"level": 100,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 1000
+				}
+			}
+		},
+		"11": {
+			"fund": 5000,
+			"guildLevel": 3,
+			"id": 4,
+			"level": 11,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 110
+				}
+			}
+		},
+		"12": {
+			"fund": 5200,
+			"guildLevel": 3,
+			"id": 4,
+			"level": 12,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 120
+				}
+			}
+		},
+		"13": {
+			"fund": 5400,
+			"guildLevel": 3,
+			"id": 4,
+			"level": 13,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 130
+				}
+			}
+		},
+		"14": {
+			"fund": 5600,
+			"guildLevel": 3,
+			"id": 4,
+			"level": 14,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 140
+				}
+			}
+		},
+		"15": {
+			"fund": 5800,
+			"guildLevel": 3,
+			"id": 4,
+			"level": 15,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 150
+				}
+			}
+		},
+		"16": {
+			"fund": 6000,
+			"guildLevel": 4,
+			"id": 4,
+			"level": 16,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 160
+				}
+			}
+		},
+		"17": {
+			"fund": 6200,
+			"guildLevel": 4,
+			"id": 4,
+			"level": 17,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 170
+				}
+			}
+		},
+		"18": {
+			"fund": 6400,
+			"guildLevel": 4,
+			"id": 4,
+			"level": 18,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 180
+				}
+			}
+		},
+		"19": {
+			"fund": 6600,
+			"guildLevel": 4,
+			"id": 4,
+			"level": 19,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 190
+				}
+			}
+		},
+		"2": {
+			"fund": 3200,
+			"guildLevel": 1,
+			"id": 4,
+			"level": 2,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 20
+				}
+			}
+		},
+		"20": {
+			"fund": 6800,
+			"guildLevel": 4,
+			"id": 4,
+			"level": 20,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 200
+				}
+			}
+		},
+		"21": {
+			"fund": 7000,
+			"guildLevel": 5,
+			"id": 4,
+			"level": 21,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 210
+				}
+			}
+		},
+		"22": {
+			"fund": 7200,
+			"guildLevel": 5,
+			"id": 4,
+			"level": 22,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 220
+				}
+			}
+		},
+		"23": {
+			"fund": 7400,
+			"guildLevel": 5,
+			"id": 4,
+			"level": 23,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 230
+				}
+			}
+		},
+		"24": {
+			"fund": 7600,
+			"guildLevel": 5,
+			"id": 4,
+			"level": 24,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 240
+				}
+			}
+		},
+		"25": {
+			"fund": 7800,
+			"guildLevel": 5,
+			"id": 4,
+			"level": 25,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 250
+				}
+			}
+		},
+		"26": {
+			"fund": 8000,
+			"guildLevel": 6,
+			"id": 4,
+			"level": 26,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 260
+				}
+			}
+		},
+		"27": {
+			"fund": 8200,
+			"guildLevel": 6,
+			"id": 4,
+			"level": 27,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 270
+				}
+			}
+		},
+		"28": {
+			"fund": 8400,
+			"guildLevel": 6,
+			"id": 4,
+			"level": 28,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 280
+				}
+			}
+		},
+		"29": {
+			"fund": 8600,
+			"guildLevel": 6,
+			"id": 4,
+			"level": 29,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 290
+				}
+			}
+		},
+		"3": {
+			"fund": 3400,
+			"guildLevel": 1,
+			"id": 4,
+			"level": 3,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 30
+				}
+			}
+		},
+		"30": {
+			"fund": 8800,
+			"guildLevel": 6,
+			"id": 4,
+			"level": 30,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 300
+				}
+			}
+		},
+		"31": {
+			"fund": 9000,
+			"guildLevel": 7,
+			"id": 4,
+			"level": 31,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 310
+				}
+			}
+		},
+		"32": {
+			"fund": 9200,
+			"guildLevel": 7,
+			"id": 4,
+			"level": 32,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 320
+				}
+			}
+		},
+		"33": {
+			"fund": 9400,
+			"guildLevel": 7,
+			"id": 4,
+			"level": 33,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 330
+				}
+			}
+		},
+		"34": {
+			"fund": 9600,
+			"guildLevel": 7,
+			"id": 4,
+			"level": 34,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 340
+				}
+			}
+		},
+		"35": {
+			"fund": 9800,
+			"guildLevel": 7,
+			"id": 4,
+			"level": 35,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 350
+				}
+			}
+		},
+		"36": {
+			"fund": 10000,
+			"guildLevel": 8,
+			"id": 4,
+			"level": 36,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 360
+				}
+			}
+		},
+		"37": {
+			"fund": 10200,
+			"guildLevel": 8,
+			"id": 4,
+			"level": 37,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 370
+				}
+			}
+		},
+		"38": {
+			"fund": 10400,
+			"guildLevel": 8,
+			"id": 4,
+			"level": 38,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 380
+				}
+			}
+		},
+		"39": {
+			"fund": 10600,
+			"guildLevel": 8,
+			"id": 4,
+			"level": 39,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 390
+				}
+			}
+		},
+		"4": {
+			"fund": 3600,
+			"guildLevel": 1,
+			"id": 4,
+			"level": 4,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 40
+				}
+			}
+		},
+		"40": {
+			"fund": 10800,
+			"guildLevel": 8,
+			"id": 4,
+			"level": 40,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 400
+				}
+			}
+		},
+		"41": {
+			"fund": 11000,
+			"guildLevel": 9,
+			"id": 4,
+			"level": 41,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 410
+				}
+			}
+		},
+		"42": {
+			"fund": 11200,
+			"guildLevel": 9,
+			"id": 4,
+			"level": 42,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 420
+				}
+			}
+		},
+		"43": {
+			"fund": 11400,
+			"guildLevel": 9,
+			"id": 4,
+			"level": 43,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 430
+				}
+			}
+		},
+		"44": {
+			"fund": 11600,
+			"guildLevel": 9,
+			"id": 4,
+			"level": 44,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 440
+				}
+			}
+		},
+		"45": {
+			"fund": 11800,
+			"guildLevel": 9,
+			"id": 4,
+			"level": 45,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 450
+				}
+			}
+		},
+		"46": {
+			"fund": 12000,
+			"guildLevel": 10,
+			"id": 4,
+			"level": 46,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 460
+				}
+			}
+		},
+		"47": {
+			"fund": 12200,
+			"guildLevel": 10,
+			"id": 4,
+			"level": 47,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 470
+				}
+			}
+		},
+		"48": {
+			"fund": 12400,
+			"guildLevel": 10,
+			"id": 4,
+			"level": 48,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 480
+				}
+			}
+		},
+		"49": {
+			"fund": 12600,
+			"guildLevel": 10,
+			"id": 4,
+			"level": 49,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 490
+				}
+			}
+		},
+		"5": {
+			"fund": 3800,
+			"guildLevel": 1,
+			"id": 4,
+			"level": 5,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 50
+				}
+			}
+		},
+		"50": {
+			"fund": 12800,
+			"guildLevel": 10,
+			"id": 4,
+			"level": 50,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 500
+				}
+			}
+		},
+		"51": {
+			"fund": 13000,
+			"guildLevel": 11,
+			"id": 4,
+			"level": 51,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 510
+				}
+			}
+		},
+		"52": {
+			"fund": 13200,
+			"guildLevel": 11,
+			"id": 4,
+			"level": 52,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 520
+				}
+			}
+		},
+		"53": {
+			"fund": 13400,
+			"guildLevel": 11,
+			"id": 4,
+			"level": 53,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 530
+				}
+			}
+		},
+		"54": {
+			"fund": 13600,
+			"guildLevel": 11,
+			"id": 4,
+			"level": 54,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 540
+				}
+			}
+		},
+		"55": {
+			"fund": 13800,
+			"guildLevel": 11,
+			"id": 4,
+			"level": 55,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 550
+				}
+			}
+		},
+		"56": {
+			"fund": 14000,
+			"guildLevel": 12,
+			"id": 4,
+			"level": 56,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 560
+				}
+			}
+		},
+		"57": {
+			"fund": 14200,
+			"guildLevel": 12,
+			"id": 4,
+			"level": 57,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 570
+				}
+			}
+		},
+		"58": {
+			"fund": 14400,
+			"guildLevel": 12,
+			"id": 4,
+			"level": 58,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 580
+				}
+			}
+		},
+		"59": {
+			"fund": 14600,
+			"guildLevel": 12,
+			"id": 4,
+			"level": 59,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 590
+				}
+			}
+		},
+		"6": {
+			"fund": 4000,
+			"guildLevel": 2,
+			"id": 4,
+			"level": 6,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 60
+				}
+			}
+		},
+		"60": {
+			"fund": 14800,
+			"guildLevel": 12,
+			"id": 4,
+			"level": 60,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 600
+				}
+			}
+		},
+		"61": {
+			"fund": 15000,
+			"guildLevel": 13,
+			"id": 4,
+			"level": 61,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 610
+				}
+			}
+		},
+		"62": {
+			"fund": 15200,
+			"guildLevel": 13,
+			"id": 4,
+			"level": 62,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 620
+				}
+			}
+		},
+		"63": {
+			"fund": 15400,
+			"guildLevel": 13,
+			"id": 4,
+			"level": 63,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 630
+				}
+			}
+		},
+		"64": {
+			"fund": 15600,
+			"guildLevel": 13,
+			"id": 4,
+			"level": 64,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 640
+				}
+			}
+		},
+		"65": {
+			"fund": 15800,
+			"guildLevel": 13,
+			"id": 4,
+			"level": 65,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 650
+				}
+			}
+		},
+		"66": {
+			"fund": 16000,
+			"guildLevel": 14,
+			"id": 4,
+			"level": 66,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 660
+				}
+			}
+		},
+		"67": {
+			"fund": 16200,
+			"guildLevel": 14,
+			"id": 4,
+			"level": 67,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 670
+				}
+			}
+		},
+		"68": {
+			"fund": 16400,
+			"guildLevel": 14,
+			"id": 4,
+			"level": 68,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 680
+				}
+			}
+		},
+		"69": {
+			"fund": 16600,
+			"guildLevel": 14,
+			"id": 4,
+			"level": 69,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 690
+				}
+			}
+		},
+		"7": {
+			"fund": 4200,
+			"guildLevel": 2,
+			"id": 4,
+			"level": 7,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 70
+				}
+			}
+		},
+		"70": {
+			"fund": 16800,
+			"guildLevel": 14,
+			"id": 4,
+			"level": 70,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 700
+				}
+			}
+		},
+		"71": {
+			"fund": 17000,
+			"guildLevel": 15,
+			"id": 4,
+			"level": 71,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 710
+				}
+			}
+		},
+		"72": {
+			"fund": 17200,
+			"guildLevel": 15,
+			"id": 4,
+			"level": 72,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 720
+				}
+			}
+		},
+		"73": {
+			"fund": 17400,
+			"guildLevel": 15,
+			"id": 4,
+			"level": 73,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 730
+				}
+			}
+		},
+		"74": {
+			"fund": 17600,
+			"guildLevel": 15,
+			"id": 4,
+			"level": 74,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 740
+				}
+			}
+		},
+		"75": {
+			"fund": 17800,
+			"guildLevel": 15,
+			"id": 4,
+			"level": 75,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 750
+				}
+			}
+		},
+		"76": {
+			"fund": 18000,
+			"guildLevel": 16,
+			"id": 4,
+			"level": 76,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 760
+				}
+			}
+		},
+		"77": {
+			"fund": 18200,
+			"guildLevel": 16,
+			"id": 4,
+			"level": 77,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 770
+				}
+			}
+		},
+		"78": {
+			"fund": 18400,
+			"guildLevel": 16,
+			"id": 4,
+			"level": 78,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 780
+				}
+			}
+		},
+		"79": {
+			"fund": 18600,
+			"guildLevel": 16,
+			"id": 4,
+			"level": 79,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 790
+				}
+			}
+		},
+		"8": {
+			"fund": 4400,
+			"guildLevel": 2,
+			"id": 4,
+			"level": 8,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 80
+				}
+			}
+		},
+		"80": {
+			"fund": 18800,
+			"guildLevel": 16,
+			"id": 4,
+			"level": 80,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 800
+				}
+			}
+		},
+		"81": {
+			"fund": 19000,
+			"guildLevel": 17,
+			"id": 4,
+			"level": 81,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 810
+				}
+			}
+		},
+		"82": {
+			"fund": 19200,
+			"guildLevel": 17,
+			"id": 4,
+			"level": 82,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 820
+				}
+			}
+		},
+		"83": {
+			"fund": 19400,
+			"guildLevel": 17,
+			"id": 4,
+			"level": 83,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 830
+				}
+			}
+		},
+		"84": {
+			"fund": 19600,
+			"guildLevel": 17,
+			"id": 4,
+			"level": 84,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 840
+				}
+			}
+		},
+		"85": {
+			"fund": 19800,
+			"guildLevel": 17,
+			"id": 4,
+			"level": 85,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 850
+				}
+			}
+		},
+		"86": {
+			"fund": 20000,
+			"guildLevel": 18,
+			"id": 4,
+			"level": 86,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 860
+				}
+			}
+		},
+		"87": {
+			"fund": 20200,
+			"guildLevel": 18,
+			"id": 4,
+			"level": 87,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 870
+				}
+			}
+		},
+		"88": {
+			"fund": 20400,
+			"guildLevel": 18,
+			"id": 4,
+			"level": 88,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 880
+				}
+			}
+		},
+		"89": {
+			"fund": 20600,
+			"guildLevel": 18,
+			"id": 4,
+			"level": 89,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 890
+				}
+			}
+		},
+		"9": {
+			"fund": 4600,
+			"guildLevel": 2,
+			"id": 4,
+			"level": 9,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 90
+				}
+			}
+		},
+		"90": {
+			"fund": 20800,
+			"guildLevel": 18,
+			"id": 4,
+			"level": 90,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 900
+				}
+			}
+		},
+		"91": {
+			"fund": 21000,
+			"guildLevel": 19,
+			"id": 4,
+			"level": 91,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 910
+				}
+			}
+		},
+		"92": {
+			"fund": 21200,
+			"guildLevel": 19,
+			"id": 4,
+			"level": 92,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 920
+				}
+			}
+		},
+		"93": {
+			"fund": 21400,
+			"guildLevel": 19,
+			"id": 4,
+			"level": 93,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 930
+				}
+			}
+		},
+		"94": {
+			"fund": 21600,
+			"guildLevel": 19,
+			"id": 4,
+			"level": 94,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 940
+				}
+			}
+		},
+		"95": {
+			"fund": 21800,
+			"guildLevel": 19,
+			"id": 4,
+			"level": 95,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 950
+				}
+			}
+		},
+		"96": {
+			"fund": 22000,
+			"guildLevel": 20,
+			"id": 4,
+			"level": 96,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 960
+				}
+			}
+		},
+		"97": {
+			"fund": 22200,
+			"guildLevel": 20,
+			"id": 4,
+			"level": 97,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 970
+				}
+			}
+		},
+		"98": {
+			"fund": 22400,
+			"guildLevel": 20,
+			"id": 4,
+			"level": 98,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 980
+				}
+			}
+		},
+		"99": {
+			"fund": 22600,
+			"guildLevel": 20,
+			"id": 4,
+			"level": 99,
+			"loadAttrs": {
+				"1": {
+					"type": 28,
+					"value": 990
+				}
+			}
+		}
+	}
+}

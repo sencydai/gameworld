@@ -5,8 +5,8 @@ import (
 	g "github.com/sencydai/gameworld/gconfig"
 	t "github.com/sencydai/gameworld/typedefine"
 
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 
 	_ "github.com/sencydai/gameworld/log"
 )
@@ -97,6 +97,11 @@ func refreshLordTotalAttr(actor *t.Actor) {
 		for t, vv := range v {
 			attrs[t] += vv
 		}
+	}
+
+	//gm
+	for t, v := range lordAttr.GM {
+		attrs[t] += v
 	}
 
 	//更新英雄的领主属性

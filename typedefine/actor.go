@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 )
 
 type Actor struct {

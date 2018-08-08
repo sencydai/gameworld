@@ -140,11 +140,13 @@ func CheckTimeStatus(now time.Time, timeType, timeSubtype int, timeData interfac
 		openServer := t.GetSysOpenServerTime()
 		y, m, d := openServer.Year(), openServer.Month(), openServer.Day()
 		end := base.Date(y, m, d, timeOpen.EHour, timeOpen.EMin, timeOpen.ESec)
+		end = end.AddDate(0, 0, timeOpen.EDay-1)
 		//now >= end
 		if !now.Before(end) {
 			return c.TimeStatusExpire, 0, 0
 		}
 		start := base.Date(y, m, d, timeOpen.SHour, timeOpen.SMin, timeOpen.SSec)
+		start = start.AddDate(0, 0, timeOpen.SDay-1)
 		//now < start
 		if now.Before(start) {
 			return c.TimeStatusOutside, int(start.Sub(now) / time.Second), 0

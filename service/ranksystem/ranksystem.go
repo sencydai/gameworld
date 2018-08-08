@@ -3,11 +3,11 @@ package ranksystem
 import (
 	"bytes"
 
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
 	c "github.com/sencydai/gameworld/constdefine"
 	"github.com/sencydai/gameworld/data"
 	"github.com/sencydai/gameworld/dispatch"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	t "github.com/sencydai/gameworld/typedefine"
 )
 

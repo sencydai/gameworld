@@ -6,10 +6,10 @@ import (
 
 	"github.com/json-iterator/go"
 
-	proto "github.com/sencydai/gamecommon/protocol"
 	"github.com/sencydai/gameworld/base"
 	"github.com/sencydai/gameworld/engine"
 	"github.com/sencydai/gameworld/log"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	"github.com/sencydai/gameworld/service"
 	"github.com/sencydai/gameworld/timer"
 	t "github.com/sencydai/gameworld/typedefine"
@@ -22,6 +22,7 @@ var (
 
 func init() {
 	service.RegGameStart(onGameStart)
+	service.RegSystemTimeChange(onSystemTimeChange)
 }
 
 func loadData(index int, data interface{}, defValue string) {
@@ -99,6 +100,12 @@ func onGameStart() {
 		onNewDay()
 		return 0, "success"
 	})
+}
+
+func onSystemTimeChange() {
+	timer.StopTimer(nil, "newday")
+	data := t.GetSysCommonData()
+	timer.LoopDayMoment("newday", base.Unix(data.NewDay), 0, 0, 10, onNewDay)
 }
 
 func onNewDay() {

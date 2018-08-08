@@ -1,0 +1,938 @@
+{
+	"1": {
+		"ais": 8,
+		"dan": 1,
+		"downRank": 11,
+		"loseAwards": {
+			"1": {
+				"count": 100,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 1000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 50,
+		"robots": {
+			"max": 40,
+			"min": 20
+		},
+		"roles": 2,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 200,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"10": {
+		"ais": 7,
+		"dan": 10,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 150,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 1500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 40,
+		"robots": {
+			"max": 50,
+			"min": 40
+		},
+		"roles": 3,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 300,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 3000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"11": {
+		"ais": 6,
+		"dan": 11,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 200,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 30,
+		"robots": {
+			"max": 55,
+			"min": 48
+		},
+		"roles": 4,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 400,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 4000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"12": {
+		"ais": 6,
+		"dan": 12,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 200,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 30,
+		"robots": {
+			"max": 55,
+			"min": 48
+		},
+		"roles": 4,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 400,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 4001,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"13": {
+		"ais": 6,
+		"dan": 13,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 200,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 30,
+		"robots": {
+			"max": 55,
+			"min": 48
+		},
+		"roles": 4,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 400,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 4002,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"14": {
+		"ais": 6,
+		"dan": 14,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 200,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 30,
+		"robots": {
+			"max": 55,
+			"min": 48
+		},
+		"roles": 4,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 400,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 4003,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"15": {
+		"ais": 6,
+		"dan": 15,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 200,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 30,
+		"robots": {
+			"max": 55,
+			"min": 48
+		},
+		"roles": 4,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 400,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 4004,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"16": {
+		"ais": 4,
+		"dan": 16,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 250,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 20,
+		"robots": {
+			"max": 60,
+			"min": 53
+		},
+		"roles": 6,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 500,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 5000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"17": {
+		"ais": 4,
+		"dan": 17,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 250,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 20,
+		"robots": {
+			"max": 60,
+			"min": 53
+		},
+		"roles": 6,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 500,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 5000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"18": {
+		"ais": 4,
+		"dan": 18,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 250,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 20,
+		"robots": {
+			"max": 60,
+			"min": 53
+		},
+		"roles": 6,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 500,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 5000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"19": {
+		"ais": 4,
+		"dan": 19,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 250,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 20,
+		"robots": {
+			"max": 60,
+			"min": 53
+		},
+		"roles": 6,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 500,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 5000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"2": {
+		"ais": 8,
+		"dan": 2,
+		"downRank": 11,
+		"loseAwards": {
+			"1": {
+				"count": 100,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 1000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 50,
+		"robots": {
+			"max": 40,
+			"min": 20
+		},
+		"roles": 2,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 200,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"20": {
+		"ais": 4,
+		"dan": 20,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 250,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 20,
+		"robots": {
+			"max": 60,
+			"min": 53
+		},
+		"roles": 6,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 500,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 5000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"21": {
+		"ais": 2,
+		"dan": 21,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 300,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 3000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 10,
+		"robots": {
+			"max": 68,
+			"min": 60
+		},
+		"roles": 8,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 600,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 6000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"22": {
+		"ais": 2,
+		"dan": 22,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 300,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 3000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 10,
+		"robots": {
+			"max": 68,
+			"min": 60
+		},
+		"roles": 8,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 600,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 6000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"23": {
+		"ais": 2,
+		"dan": 23,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 300,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 3000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 10,
+		"robots": {
+			"max": 68,
+			"min": 60
+		},
+		"roles": 8,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 600,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 6000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"24": {
+		"ais": 2,
+		"dan": 24,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 300,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 3000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 10,
+		"robots": {
+			"max": 68,
+			"min": 60
+		},
+		"roles": 8,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 600,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 6000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"25": {
+		"ais": 2,
+		"dan": 25,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 300,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 3000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 10,
+		"robots": {
+			"max": 68,
+			"min": 60
+		},
+		"roles": 8,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 600,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 6000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"26": {
+		"ais": 2,
+		"dan": 26,
+		"downRank": 5,
+		"loseAwards": {
+			"1": {
+				"count": 300,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 3000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 0,
+		"robots": {
+			"max": 71,
+			"min": 68
+		},
+		"roles": 8,
+		"upRank": 0,
+		"winAwards": {
+			"1": {
+				"count": 600,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 6000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"3": {
+		"ais": 8,
+		"dan": 3,
+		"downRank": 11,
+		"loseAwards": {
+			"1": {
+				"count": 100,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 1000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 50,
+		"robots": {
+			"max": 40,
+			"min": 20
+		},
+		"roles": 2,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 200,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"4": {
+		"ais": 8,
+		"dan": 4,
+		"downRank": 11,
+		"loseAwards": {
+			"1": {
+				"count": 100,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 1000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 50,
+		"robots": {
+			"max": 40,
+			"min": 20
+		},
+		"roles": 2,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 200,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"5": {
+		"ais": 8,
+		"dan": 5,
+		"downRank": 11,
+		"loseAwards": {
+			"1": {
+				"count": 100,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 1000,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 50,
+		"robots": {
+			"max": 40,
+			"min": 20
+		},
+		"roles": 2,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 200,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 2000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"6": {
+		"ais": 7,
+		"dan": 6,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 150,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 1500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 40,
+		"robots": {
+			"max": 50,
+			"min": 40
+		},
+		"roles": 3,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 300,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 3000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"7": {
+		"ais": 7,
+		"dan": 7,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 150,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 1500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 40,
+		"robots": {
+			"max": 50,
+			"min": 40
+		},
+		"roles": 3,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 300,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 3000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"8": {
+		"ais": 7,
+		"dan": 8,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 150,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 1500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 40,
+		"robots": {
+			"max": 50,
+			"min": 40
+		},
+		"roles": 3,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 300,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 3000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	},
+	"9": {
+		"ais": 7,
+		"dan": 9,
+		"downRank": 7,
+		"loseAwards": {
+			"1": {
+				"count": 150,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 1500,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"ratio": 40,
+		"robots": {
+			"max": 50,
+			"min": 40
+		},
+		"roles": 3,
+		"upRank": 3,
+		"winAwards": {
+			"1": {
+				"count": 300,
+				"id": 9,
+				"type": 1
+			},
+			"2": {
+				"count": 3000,
+				"id": 1,
+				"type": 1
+			}
+		}
+	}
+}

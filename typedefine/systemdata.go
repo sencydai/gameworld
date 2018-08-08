@@ -42,7 +42,20 @@ type SystemStaticGuildData struct {
 }
 
 type SystemStaticCommonData struct {
-	NewDay int64
+	NewDay   int64
+	Worlboss map[int]*SystemWorldBossStaticData //世界boss id
+}
+
+type SystemWorldBossStaticData struct {
+	Id int //boss id
+
+	Refresh int64 //下次刷新时间
+
+	Killer   int64           //杀死的玩家
+	Lucky    int64           //幸运玩家
+	Fighting map[int64]int64 //正在挑战的玩家 id : fight guid
+
+	RawData *FightMonsterRawData
 }
 
 type SystemDynamicData struct {
@@ -63,6 +76,10 @@ func GetSysActorData(actorId int64) *SystemStaticActorData {
 
 func GetRank(name string) *rank.RankData {
 	return sysData.Rank[name]
+}
+
+func DeleteRank(name string) {
+	delete(sysData.Rank, name)
 }
 
 func NewRank(name string, maxRankCount int) *rank.RankData {

@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 
 	//"github.com/sencydai/gameworld/data"
 	c "github.com/sencydai/gameworld/constdefine"
@@ -113,4 +113,8 @@ func onSendChat(actor *t.Actor, reader *bytes.Reader) {
 
 	data.BroadcastWriter(writer)
 	//log.Infof("actor(%d),cost(%v) chat: %s", actor.ActorId, time.Since(tick), content)
+}
+
+func BroadcastMsg(noticeType byte, channel string, roll byte, msg string) {
+	data.Broadcast(proto.Chat, proto.ChatSSysMsg, noticeType, channel, roll, msg)
 }

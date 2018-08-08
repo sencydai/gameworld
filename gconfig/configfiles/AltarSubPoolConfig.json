@@ -1,0 +1,814 @@
+{
+	"11": {
+		"1": {
+			"award": {
+				"count": 1,
+				"id": 110000,
+				"type": 7
+			},
+			"id": 11,
+			"item": 1,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 1000
+		},
+		"2": {
+			"award": {
+				"count": 1,
+				"id": 120200,
+				"type": 7
+			},
+			"id": 11,
+			"item": 2,
+			"rarity": {
+				"1": 2
+			},
+			"weight": 1000
+		},
+		"3": {
+			"award": {
+				"count": 1,
+				"id": 2000,
+				"type": 1
+			},
+			"id": 11,
+			"item": 3,
+			"rarity": {
+				"1": 3
+			},
+			"weight": 1000
+		},
+		"4": {
+			"award": {
+				"count": 5,
+				"id": 2005,
+				"type": 1
+			},
+			"id": 11,
+			"item": 4,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 1000
+		},
+		"5": {
+			"award": {
+				"count": 5,
+				"id": 2003,
+				"type": 1
+			},
+			"id": 11,
+			"item": 5,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 1000
+		},
+		"6": {
+			"award": {
+				"count": 5,
+				"id": 2006,
+				"type": 1
+			},
+			"id": 11,
+			"item": 6,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 1000
+		}
+	},
+	"21": {
+		"1": {
+			"award": {
+				"count": 1,
+				"id": 6103,
+				"type": 1
+			},
+			"id": 21,
+			"item": 1,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 1200
+		},
+		"10": {
+			"award": {
+				"count": 1,
+				"id": 7212,
+				"type": 1
+			},
+			"id": 21,
+			"item": 10,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 800
+		},
+		"11": {
+			"award": {
+				"count": 1,
+				"id": 7213,
+				"type": 1
+			},
+			"id": 21,
+			"item": 11,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 800
+		},
+		"12": {
+			"award": {
+				"count": 1,
+				"id": 7214,
+				"type": 1
+			},
+			"id": 21,
+			"item": 12,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 800
+		},
+		"13": {
+			"award": {
+				"count": 1,
+				"id": 7221,
+				"type": 1
+			},
+			"id": 21,
+			"item": 13,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 800
+		},
+		"14": {
+			"award": {
+				"count": 1,
+				"id": 7222,
+				"type": 1
+			},
+			"id": 21,
+			"item": 14,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 800
+		},
+		"15": {
+			"award": {
+				"count": 1,
+				"id": 7223,
+				"type": 1
+			},
+			"id": 21,
+			"item": 15,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 800
+		},
+		"16": {
+			"award": {
+				"count": 1,
+				"id": 7224,
+				"type": 1
+			},
+			"id": 21,
+			"item": 16,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 800
+		},
+		"17": {
+			"award": {
+				"count": 1,
+				"id": 7231,
+				"type": 1
+			},
+			"id": 21,
+			"item": 17,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 800
+		},
+		"18": {
+			"award": {
+				"count": 1,
+				"id": 7232,
+				"type": 1
+			},
+			"id": 21,
+			"item": 18,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 800
+		},
+		"19": {
+			"award": {
+				"count": 1,
+				"id": 7233,
+				"type": 1
+			},
+			"id": 21,
+			"item": 19,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 800
+		},
+		"2": {
+			"award": {
+				"count": 1,
+				"id": 6108,
+				"type": 1
+			},
+			"id": 21,
+			"item": 2,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 1200
+		},
+		"20": {
+			"award": {
+				"count": 1,
+				"id": 7234,
+				"type": 1
+			},
+			"id": 21,
+			"item": 20,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 800
+		},
+		"21": {
+			"award": {
+				"count": 120,
+				"id": 2005,
+				"type": 1
+			},
+			"id": 21,
+			"item": 21,
+			"rarity": {
+				"1": 2
+			},
+			"weight": 1000
+		},
+		"22": {
+			"award": {
+				"count": 100,
+				"id": 2003,
+				"type": 1
+			},
+			"id": 21,
+			"item": 22,
+			"rarity": {
+				"1": 2
+			},
+			"weight": 1000
+		},
+		"23": {
+			"award": {
+				"count": 100,
+				"id": 2009,
+				"type": 1
+			},
+			"id": 21,
+			"item": 23,
+			"rarity": {
+				"1": 2
+			},
+			"weight": 1000
+		},
+		"24": {
+			"award": {
+				"count": 2,
+				"id": 2001,
+				"type": 1
+			},
+			"id": 21,
+			"item": 24,
+			"rarity": {
+				"1": 2
+			},
+			"weight": 500
+		},
+		"25": {
+			"award": {
+				"count": 1,
+				"id": 6109,
+				"type": 1
+			},
+			"id": 21,
+			"item": 25,
+			"rarity": {
+				"1": 3
+			},
+			"weight": 1000
+		},
+		"26": {
+			"award": {
+				"count": 1,
+				"id": 6209,
+				"type": 1
+			},
+			"id": 21,
+			"item": 26,
+			"rarity": {
+				"1": 3
+			},
+			"weight": 1000
+		},
+		"27": {
+			"award": {
+				"count": 1,
+				"id": 110300,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 27,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 1200
+		},
+		"28": {
+			"award": {
+				"count": 1,
+				"id": 110800,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 28,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 1200
+		},
+		"29": {
+			"award": {
+				"count": 1,
+				"id": 120300,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 29,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 1200
+		},
+		"3": {
+			"award": {
+				"count": 1,
+				"id": 6203,
+				"type": 1
+			},
+			"id": 21,
+			"item": 3,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 1200
+		},
+		"30": {
+			"award": {
+				"count": 1,
+				"id": 120600,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 30,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 1200
+		},
+		"31": {
+			"award": {
+				"count": 1,
+				"id": 130200,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 31,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 1200
+		},
+		"32": {
+			"award": {
+				"count": 1,
+				"id": 130400,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 32,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 1200
+		},
+		"33": {
+			"award": {
+				"count": 1,
+				"id": 130500,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 33,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 1200
+		},
+		"34": {
+			"award": {
+				"count": 1,
+				"id": 130600,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 34,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 1200
+		},
+		"35": {
+			"award": {
+				"count": 1,
+				"id": 10211,
+				"type": 8
+			},
+			"id": 21,
+			"index": 1,
+			"item": 35,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 800
+		},
+		"36": {
+			"award": {
+				"count": 1,
+				"id": 10212,
+				"type": 8
+			},
+			"id": 21,
+			"index": 1,
+			"item": 36,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 800
+		},
+		"37": {
+			"award": {
+				"count": 1,
+				"id": 10213,
+				"type": 8
+			},
+			"id": 21,
+			"index": 1,
+			"item": 37,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 800
+		},
+		"38": {
+			"award": {
+				"count": 1,
+				"id": 10214,
+				"type": 8
+			},
+			"id": 21,
+			"index": 1,
+			"item": 38,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 800
+		},
+		"39": {
+			"award": {
+				"count": 1,
+				"id": 10221,
+				"type": 8
+			},
+			"id": 21,
+			"index": 1,
+			"item": 39,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 800
+		},
+		"4": {
+			"award": {
+				"count": 1,
+				"id": 6206,
+				"type": 1
+			},
+			"id": 21,
+			"item": 4,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 1200
+		},
+		"40": {
+			"award": {
+				"count": 1,
+				"id": 10222,
+				"type": 8
+			},
+			"id": 21,
+			"index": 1,
+			"item": 40,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 800
+		},
+		"41": {
+			"award": {
+				"count": 1,
+				"id": 10223,
+				"type": 8
+			},
+			"id": 21,
+			"index": 1,
+			"item": 41,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 800
+		},
+		"42": {
+			"award": {
+				"count": 1,
+				"id": 10224,
+				"type": 8
+			},
+			"id": 21,
+			"index": 1,
+			"item": 42,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 800
+		},
+		"43": {
+			"award": {
+				"count": 1,
+				"id": 10231,
+				"type": 8
+			},
+			"id": 21,
+			"index": 1,
+			"item": 43,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 800
+		},
+		"44": {
+			"award": {
+				"count": 1,
+				"id": 10232,
+				"type": 8
+			},
+			"id": 21,
+			"index": 1,
+			"item": 44,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 800
+		},
+		"45": {
+			"award": {
+				"count": 1,
+				"id": 10233,
+				"type": 8
+			},
+			"id": 21,
+			"index": 1,
+			"item": 45,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 800
+		},
+		"46": {
+			"award": {
+				"count": 1,
+				"id": 10234,
+				"type": 8
+			},
+			"id": 21,
+			"index": 1,
+			"item": 46,
+			"rarity": {
+				"1": 4
+			},
+			"weight": 800
+		},
+		"47": {
+			"award": {
+				"count": 1,
+				"id": 110300,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 47,
+			"rarity": {
+				"1": 5
+			},
+			"weight": 1200
+		},
+		"48": {
+			"award": {
+				"count": 1,
+				"id": 110800,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 48,
+			"rarity": {
+				"1": 5
+			},
+			"weight": 1200
+		},
+		"49": {
+			"award": {
+				"count": 1,
+				"id": 120300,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 49,
+			"rarity": {
+				"1": 5
+			},
+			"weight": 1200
+		},
+		"5": {
+			"award": {
+				"count": 1,
+				"id": 6302,
+				"type": 1
+			},
+			"id": 21,
+			"item": 5,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 1200
+		},
+		"50": {
+			"award": {
+				"count": 1,
+				"id": 120600,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 50,
+			"rarity": {
+				"1": 5
+			},
+			"weight": 1200
+		},
+		"51": {
+			"award": {
+				"count": 1,
+				"id": 130200,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 51,
+			"rarity": {
+				"1": 5
+			},
+			"weight": 1200
+		},
+		"52": {
+			"award": {
+				"count": 1,
+				"id": 130400,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 52,
+			"rarity": {
+				"1": 5
+			},
+			"weight": 1200
+		},
+		"53": {
+			"award": {
+				"count": 1,
+				"id": 130500,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 53,
+			"rarity": {
+				"1": 5
+			},
+			"weight": 1200
+		},
+		"54": {
+			"award": {
+				"count": 1,
+				"id": 130600,
+				"type": 7
+			},
+			"id": 21,
+			"index": 1,
+			"item": 54,
+			"rarity": {
+				"1": 5
+			},
+			"weight": 1200
+		},
+		"6": {
+			"award": {
+				"count": 1,
+				"id": 6304,
+				"type": 1
+			},
+			"id": 21,
+			"item": 6,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 1200
+		},
+		"7": {
+			"award": {
+				"count": 1,
+				"id": 6305,
+				"type": 1
+			},
+			"id": 21,
+			"item": 7,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 1200
+		},
+		"8": {
+			"award": {
+				"count": 1,
+				"id": 6306,
+				"type": 1
+			},
+			"id": 21,
+			"item": 8,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 1200
+		},
+		"9": {
+			"award": {
+				"count": 1,
+				"id": 7211,
+				"type": 1
+			},
+			"id": 21,
+			"item": 9,
+			"rarity": {
+				"1": 1
+			},
+			"weight": 800
+		}
+	}
+}

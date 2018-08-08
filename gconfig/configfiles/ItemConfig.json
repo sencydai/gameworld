@@ -1,0 +1,2244 @@
+{
+	"1": {
+		"id": 1,
+		"name": "银币",
+		"rarity": 1,
+		"subType": 1,
+		"type": 1
+	},
+	"10": {
+		"id": 10,
+		"name": "亲卫经验",
+		"rarity": 1,
+		"subType": 10,
+		"type": 1
+	},
+	"11": {
+		"id": 11,
+		"name": "地区声望",
+		"rarity": 1,
+		"subType": 11,
+		"type": 1
+	},
+	"12": {
+		"id": 12,
+		"name": "地区物资",
+		"rarity": 1,
+		"subType": 12,
+		"type": 1
+	},
+	"2": {
+		"id": 2,
+		"name": "金币",
+		"rarity": 1,
+		"subType": 2,
+		"type": 1
+	},
+	"2000": {
+		"id": 2000,
+		"name": "经验之书",
+		"rarity": 2,
+		"subType": 1,
+		"type": 2,
+		"worth": 1000
+	},
+	"2001": {
+		"id": 2001,
+		"name": "高级经验之书",
+		"rarity": 3,
+		"subType": 1,
+		"type": 2,
+		"worth": 5000
+	},
+	"2002": {
+		"id": 2002,
+		"name": "超级经验之书",
+		"rarity": 4,
+		"subType": 1,
+		"type": 2,
+		"worth": 20000
+	},
+	"2003": {
+		"id": 2003,
+		"name": "知识之书",
+		"rarity": 3,
+		"subType": 2,
+		"type": 2
+	},
+	"2004": {
+		"id": 2004,
+		"name": "转职之书",
+		"rarity": 5,
+		"subType": 3,
+		"type": 2
+	},
+	"2005": {
+		"id": 2005,
+		"name": "强化石",
+		"rarity": 2,
+		"subType": 4,
+		"type": 2
+	},
+	"2006": {
+		"id": 2006,
+		"name": "上古碎片",
+		"rarity": 3,
+		"subType": 5,
+		"type": 2
+	},
+	"2007": {
+		"id": 2007,
+		"name": "灵魂精华",
+		"rarity": 2,
+		"subType": 7,
+		"type": 2
+	},
+	"2008": {
+		"id": 2008,
+		"name": "装备精华",
+		"rarity": 2,
+		"subType": 8,
+		"type": 2
+	},
+	"2009": {
+		"id": 2009,
+		"name": "神器精华",
+		"rarity": 3,
+		"subType": 9,
+		"type": 2
+	},
+	"2010": {
+		"id": 2010,
+		"name": "灵石",
+		"rarity": 2,
+		"subType": 10,
+		"type": 2
+	},
+	"3": {
+		"id": 3,
+		"name": "钻石",
+		"rarity": 1,
+		"subType": 3,
+		"type": 1
+	},
+	"3001": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5003,
+				"rand": 10000,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3001,
+		"name": "青铜宝箱",
+		"openKey": 3002,
+		"rarity": 2,
+		"subType": 1,
+		"type": 3
+	},
+	"3002": {
+		"id": 3002,
+		"name": "青铜钥匙",
+		"rarity": 2,
+		"subType": 6,
+		"type": 2
+	},
+	"3010": {
+		"award": {
+			"1": {
+				"count": 2000,
+				"id": 2008,
+				"rand": 1,
+				"type": 1
+			}
+		},
+		"awardType": 2,
+		"id": 3010,
+		"name": "领主经验宝箱",
+		"rarity": 2,
+		"subType": 1,
+		"type": 3
+	},
+	"3011": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5001,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3011,
+		"name": "英雄碎片箱",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3012": {
+		"award": {
+			"1": {
+				"count": 50,
+				"id": 3,
+				"rand": 1,
+				"type": 1
+			}
+		},
+		"awardType": 2,
+		"id": 3012,
+		"name": "钻石包",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3013": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5004,
+				"rand": 10000,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3013,
+		"name": "白银宝箱",
+		"openKey": 3014,
+		"rarity": 3,
+		"subType": 1,
+		"type": 3
+	},
+	"3014": {
+		"id": 3014,
+		"name": "白银钥匙",
+		"rarity": 3,
+		"subType": 6,
+		"type": 2
+	},
+	"3015": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5002,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3015,
+		"name": "紫装碎片箱",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3016": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3016,
+		"name": "精英宝箱（1级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3017": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3017,
+		"name": "精英宝箱（2级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3018": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3018,
+		"name": "精英宝箱（3级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3019": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3019,
+		"name": "精英宝箱（4级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3020": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3020,
+		"name": "精英宝箱（5级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3021": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3021,
+		"name": "精英宝箱（6级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3022": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3022,
+		"name": "精英宝箱（7级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3023": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3023,
+		"name": "精英宝箱（8级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3024": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3024,
+		"name": "精英宝箱（9级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3025": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3025,
+		"name": "精英宝箱（10级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3026": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3026,
+		"name": "精英宝箱（11级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3027": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3027,
+		"name": "精英宝箱（12级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3028": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3028,
+		"name": "精英宝箱（13级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3029": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3029,
+		"name": "精英宝箱（14级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3030": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3030,
+		"name": "精英宝箱（15级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3031": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3031,
+		"name": "精英宝箱（16级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3032": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3032,
+		"name": "精英宝箱（17级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3033": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5005,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3033,
+		"name": "精英宝箱（18级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3100": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5006,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3100,
+		"name": "橙色英雄碎片箱",
+		"rarity": 5,
+		"subType": 1,
+		"type": 3
+	},
+	"3101": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5007,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3101,
+		"name": "资源包",
+		"rarity": 5,
+		"subType": 1,
+		"type": 3
+	},
+	"3102": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5008,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3102,
+		"name": "随机橙装",
+		"rarity": 5,
+		"subType": 1,
+		"type": 3
+	},
+	"3103": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5009,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3103,
+		"name": "随机橙装碎片",
+		"rarity": 5,
+		"subType": 1,
+		"type": 3
+	},
+	"3104": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5010,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3104,
+		"name": "紫色英雄碎片箱",
+		"rarity": 5,
+		"subType": 1,
+		"type": 3
+	},
+	"3110": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5201,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3110,
+		"name": "白色神器",
+		"rarity": 1,
+		"subType": 1,
+		"type": 3
+	},
+	"3111": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5202,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3111,
+		"name": "绿色神器",
+		"rarity": 2,
+		"subType": 1,
+		"type": 3
+	},
+	"3112": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5203,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3112,
+		"name": "蓝色神器",
+		"rarity": 3,
+		"subType": 1,
+		"type": 3
+	},
+	"3113": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5204,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3113,
+		"name": "紫色神器",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3114": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5205,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3114,
+		"name": "橙色神器",
+		"rarity": 5,
+		"subType": 1,
+		"type": 3
+	},
+	"3201": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5101,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3201,
+		"name": "boss奖励（20级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3202": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5102,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3202,
+		"name": "boss奖励（30级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3203": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5103,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3203,
+		"name": "boss奖励（40级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3204": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5104,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3204,
+		"name": "boss奖励（50级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3205": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5105,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3205,
+		"name": "boss奖励（60级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3206": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5106,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3206,
+		"name": "boss奖励（70级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3207": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5107,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3207,
+		"name": "boss奖励（80级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3208": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5108,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3208,
+		"name": "boss奖励（90级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3209": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5109,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3209,
+		"name": "boss奖励（100级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3210": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5110,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3210,
+		"name": "boss奖励（110级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3211": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5111,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3211,
+		"name": "boss奖励（120级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3212": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5112,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3212,
+		"name": "boss奖励（130级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3213": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5113,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3213,
+		"name": "boss奖励（140级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3214": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5114,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3214,
+		"name": "boss奖励（150级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3215": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5115,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3215,
+		"name": "boss奖励（160级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3216": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5116,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3216,
+		"name": "boss奖励（170级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3217": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5117,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3217,
+		"name": "boss奖励（180级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3218": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5118,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3218,
+		"name": "boss奖励（190级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3219": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5119,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3219,
+		"name": "boss奖励（200级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3220": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5120,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3220,
+		"name": "boss奖励（210级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3221": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5121,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3221,
+		"name": "boss奖励（220级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3222": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5122,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3222,
+		"name": "boss奖励（230级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3223": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5123,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3223,
+		"name": "boss奖励（240级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3224": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5124,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3224,
+		"name": "boss奖励（250级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3225": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5125,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3225,
+		"name": "boss奖励（260级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3226": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5126,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3226,
+		"name": "boss奖励（270级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3227": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5127,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3227,
+		"name": "boss奖励（280级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3228": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5128,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3228,
+		"name": "boss奖励（290级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3229": {
+		"award": {
+			"1": {
+				"count": 1,
+				"id": 5129,
+				"rand": 1,
+				"type": 2
+			}
+		},
+		"awardType": 2,
+		"id": 3229,
+		"name": "boss奖励（300级）",
+		"rarity": 4,
+		"subType": 1,
+		"type": 3
+	},
+	"3999": {
+		"award": {
+			"1": {
+				"count": 6,
+				"id": 10335,
+				"rand": 10000,
+				"type": 8
+			},
+			"2": {
+				"count": 6,
+				"id": 10336,
+				"rand": 10000,
+				"type": 8
+			},
+			"3": {
+				"count": 6,
+				"id": 10337,
+				"rand": 10000,
+				"type": 8
+			},
+			"4": {
+				"count": 6,
+				"id": 10338,
+				"rand": 10000,
+				"type": 8
+			}
+		},
+		"awardType": 1,
+		"id": 3999,
+		"name": "GM英雄武器包",
+		"rarity": 5,
+		"subType": 1,
+		"type": 3
+	},
+	"4": {
+		"id": 4,
+		"name": "领主经验",
+		"rarity": 1,
+		"subType": 4,
+		"type": 1
+	},
+	"4001": {
+		"id": 4001,
+		"name": "1组1英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4002": {
+		"id": 4002,
+		"name": "1组2英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4003": {
+		"id": 4003,
+		"name": "1组3英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4004": {
+		"id": 4004,
+		"name": "1组4英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4005": {
+		"id": 4005,
+		"name": "1组5英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4006": {
+		"id": 4006,
+		"name": "1组6英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4007": {
+		"id": 4007,
+		"name": "1组7英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4008": {
+		"id": 4008,
+		"name": "1组8英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4009": {
+		"id": 4009,
+		"name": "1组9英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4010": {
+		"id": 4010,
+		"name": "1组10英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4011": {
+		"id": 4011,
+		"name": "1组11英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4101": {
+		"id": 4101,
+		"name": "2组1英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4102": {
+		"id": 4102,
+		"name": "2组2英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4103": {
+		"id": 4103,
+		"name": "2组3英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4104": {
+		"id": 4104,
+		"name": "2组4英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4105": {
+		"id": 4105,
+		"name": "2组5英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4106": {
+		"id": 4106,
+		"name": "2组6英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4107": {
+		"id": 4107,
+		"name": "2组7英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4108": {
+		"id": 4108,
+		"name": "2组8英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4109": {
+		"id": 4109,
+		"name": "2组9英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4110": {
+		"id": 4110,
+		"name": "2组10英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4111": {
+		"id": 4111,
+		"name": "2组11英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4112": {
+		"id": 4112,
+		"name": "2组12英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4201": {
+		"id": 4201,
+		"name": "3组1英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4202": {
+		"id": 4202,
+		"name": "3组2英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4203": {
+		"id": 4203,
+		"name": "3组3英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4204": {
+		"id": 4204,
+		"name": "3组4英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4205": {
+		"id": 4205,
+		"name": "3组5英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4206": {
+		"id": 4206,
+		"name": "3组6英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4207": {
+		"id": 4207,
+		"name": "3组7英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4208": {
+		"id": 4208,
+		"name": "3组8英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4209": {
+		"id": 4209,
+		"name": "3组9英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4210": {
+		"id": 4210,
+		"name": "3组10英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"4211": {
+		"id": 4211,
+		"name": "3组11英灵",
+		"rarity": 5,
+		"type": 5
+	},
+	"5": {
+		"id": 5,
+		"name": "科技点",
+		"rarity": 1,
+		"subType": 5,
+		"type": 1
+	},
+	"6": {
+		"id": 6,
+		"name": "天梯荣誉",
+		"rarity": 1,
+		"subType": 6,
+		"type": 1
+	},
+	"6000": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 100000,
+			"type": 7
+		},
+		"id": 6000,
+		"name": "骷髅兵碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6001": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 100100,
+			"type": 7
+		},
+		"id": 6001,
+		"name": "恶魔碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6002": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 100200,
+			"type": 7
+		},
+		"id": 6002,
+		"name": "憎恶碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6003": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 100300,
+			"type": 7
+		},
+		"id": 6003,
+		"name": "女妖碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6004": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 100400,
+			"type": 7
+		},
+		"id": 6004,
+		"name": "绞肉车碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6005": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 100500,
+			"type": 7
+		},
+		"id": 6005,
+		"name": "亡灵巫师碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6006": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 100600,
+			"type": 7
+		},
+		"id": 6006,
+		"name": "魅魔碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6007": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 100700,
+			"type": 7
+		},
+		"id": 6007,
+		"name": "紫色未有碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6008": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 100800,
+			"type": 7
+		},
+		"id": 6008,
+		"name": "冰霜巨龙碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6009": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 100900,
+			"type": 7
+		},
+		"id": 6009,
+		"name": "死亡骑士碎片",
+		"rarity": 5,
+		"subType": 1,
+		"type": 4
+	},
+	"6100": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 110000,
+			"type": 7
+		},
+		"id": 6100,
+		"name": "兽人步兵",
+		"rarity": 2,
+		"subType": 1,
+		"type": 4
+	},
+	"6101": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 110100,
+			"type": 7
+		},
+		"id": 6101,
+		"name": "哥布林投矛手",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6102": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 110200,
+			"type": 7
+		},
+		"id": 6102,
+		"name": "狼骑兵碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6103": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 110300,
+			"type": 7
+		},
+		"id": 6103,
+		"name": "牛头人战士碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6104": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 110400,
+			"type": 7
+		},
+		"id": 6104,
+		"name": "狼人碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6105": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 110500,
+			"type": 7
+		},
+		"id": 6105,
+		"name": "科多兽碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6106": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 110600,
+			"type": 7
+		},
+		"id": 6106,
+		"name": "投石车碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6107": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 110700,
+			"type": 7
+		},
+		"id": 6107,
+		"name": "鹰身人斥候碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6108": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 110800,
+			"type": 7
+		},
+		"id": 6108,
+		"name": "巫医碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6109": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 110900,
+			"type": 7
+		},
+		"id": 6109,
+		"name": "剑圣碎片",
+		"rarity": 5,
+		"subType": 1,
+		"type": 4
+	},
+	"6200": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 120000,
+			"type": 7
+		},
+		"id": 6200,
+		"name": "民兵",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6201": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 120100,
+			"type": 7
+		},
+		"id": 6201,
+		"name": "步兵",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6202": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 120200,
+			"type": 7
+		},
+		"id": 6202,
+		"name": "火枪手碎片",
+		"rarity": 3,
+		"subType": 1,
+		"type": 4
+	},
+	"6203": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 120300,
+			"type": 7
+		},
+		"id": 6203,
+		"name": "吟游诗人碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6204": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 120400,
+			"type": 7
+		},
+		"id": 6204,
+		"name": "牧师碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6205": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 120500,
+			"type": 7
+		},
+		"id": 6205,
+		"name": "女巫碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6206": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 120600,
+			"type": 7
+		},
+		"id": 6206,
+		"name": "圣骑士碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6207": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 120700,
+			"type": 7
+		},
+		"id": 6207,
+		"name": "骑士碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6208": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 120800,
+			"type": 7
+		},
+		"id": 6208,
+		"name": "狮鹫碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6209": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 120900,
+			"type": 7
+		},
+		"id": 6209,
+		"name": "大法师碎片",
+		"rarity": 5,
+		"subType": 1,
+		"type": 4
+	},
+	"6300": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 130000,
+			"type": 7
+		},
+		"id": 6300,
+		"name": "弓箭手",
+		"rarity": 5,
+		"subType": 1,
+		"type": 4
+	},
+	"6301": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 130100,
+			"type": 7
+		},
+		"id": 6301,
+		"name": "男精灵弓箭手",
+		"rarity": 5,
+		"subType": 1,
+		"type": 4
+	},
+	"6302": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 130200,
+			"type": 7
+		},
+		"id": 6302,
+		"name": "小鹿碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6303": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 130300,
+			"type": 7
+		},
+		"id": 6303,
+		"name": "女精灵法师碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6304": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 130400,
+			"type": 7
+		},
+		"id": 6304,
+		"name": "男精灵枪兵碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6305": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 130500,
+			"type": 7
+		},
+		"id": 6305,
+		"name": "熊德碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6306": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 130600,
+			"type": 7
+		},
+		"id": 6306,
+		"name": "精灵龙碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6307": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 130700,
+			"type": 7
+		},
+		"id": 6307,
+		"name": "山岭巨人碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6308": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 130800,
+			"type": 7
+		},
+		"id": 6308,
+		"name": "独角兽碎片",
+		"rarity": 4,
+		"subType": 1,
+		"type": 4
+	},
+	"6309": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 130900,
+			"type": 7
+		},
+		"id": 6309,
+		"name": "月之女祭司碎片",
+		"rarity": 5,
+		"subType": 1,
+		"type": 4
+	},
+	"7": {
+		"id": 7,
+		"name": "公会贡献",
+		"rarity": 1,
+		"subType": 7,
+		"type": 1
+	},
+	"7011": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 10011,
+			"type": 8
+		},
+		"id": 7011,
+		"name": "精灵利刃碎片",
+		"rarity": 2,
+		"subType": 2,
+		"type": 4
+	},
+	"7012": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 10012,
+			"type": 8
+		},
+		"id": 7012,
+		"name": "精灵头罩碎片",
+		"rarity": 2,
+		"subType": 2,
+		"type": 4
+	},
+	"7013": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 10013,
+			"type": 8
+		},
+		"id": 7013,
+		"name": "精灵长衫碎片",
+		"rarity": 2,
+		"subType": 2,
+		"type": 4
+	},
+	"7014": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 10014,
+			"type": 8
+		},
+		"id": 7014,
+		"name": "精灵指环碎片",
+		"rarity": 2,
+		"subType": 2,
+		"type": 4
+	},
+	"7111": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 10111,
+			"type": 8
+		},
+		"id": 7111,
+		"name": "神秘之剑碎片",
+		"rarity": 3,
+		"subType": 2,
+		"type": 4
+	},
+	"7112": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 10112,
+			"type": 8
+		},
+		"id": 7112,
+		"name": "神秘头盔碎片",
+		"rarity": 3,
+		"subType": 2,
+		"type": 4
+	},
+	"7113": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 10113,
+			"type": 8
+		},
+		"id": 7113,
+		"name": "神秘盔甲碎片",
+		"rarity": 3,
+		"subType": 2,
+		"type": 4
+	},
+	"7114": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 10114,
+			"type": 8
+		},
+		"id": 7114,
+		"name": "神秘披风碎片",
+		"rarity": 3,
+		"subType": 2,
+		"type": 4
+	},
+	"7211": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10211,
+			"type": 8
+		},
+		"id": 7211,
+		"name": "强袭之剑碎片",
+		"rarity": 4,
+		"subType": 2,
+		"type": 4
+	},
+	"7212": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10212,
+			"type": 8
+		},
+		"id": 7212,
+		"name": "强袭头盔碎片",
+		"rarity": 4,
+		"subType": 2,
+		"type": 4
+	},
+	"7213": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10213,
+			"type": 8
+		},
+		"id": 7213,
+		"name": "强袭铠甲碎片",
+		"rarity": 4,
+		"subType": 2,
+		"type": 4
+	},
+	"7214": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10214,
+			"type": 8
+		},
+		"id": 7214,
+		"name": "强袭之戒碎片",
+		"rarity": 4,
+		"subType": 2,
+		"type": 4
+	},
+	"7221": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10221,
+			"type": 8
+		},
+		"id": 7221,
+		"name": "荆棘之剑碎片",
+		"rarity": 4,
+		"subType": 2,
+		"type": 4
+	},
+	"7222": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10222,
+			"type": 8
+		},
+		"id": 7222,
+		"name": "荆棘头盔碎片",
+		"rarity": 4,
+		"subType": 2,
+		"type": 4
+	},
+	"7223": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10223,
+			"type": 8
+		},
+		"id": 7223,
+		"name": "荆棘铠甲碎片",
+		"rarity": 4,
+		"subType": 2,
+		"type": 4
+	},
+	"7224": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10224,
+			"type": 8
+		},
+		"id": 7224,
+		"name": "荆棘披风碎片",
+		"rarity": 4,
+		"subType": 2,
+		"type": 4
+	},
+	"7231": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10231,
+			"type": 8
+		},
+		"id": 7231,
+		"name": "饮血镰刀碎片",
+		"rarity": 4,
+		"subType": 2,
+		"type": 4
+	},
+	"7232": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10232,
+			"type": 8
+		},
+		"id": 7232,
+		"name": "饮血头盔碎片",
+		"rarity": 4,
+		"subType": 2,
+		"type": 4
+	},
+	"7233": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10233,
+			"type": 8
+		},
+		"id": 7233,
+		"name": "饮血铠甲碎片",
+		"rarity": 4,
+		"subType": 2,
+		"type": 4
+	},
+	"7234": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10234,
+			"type": 8
+		},
+		"id": 7234,
+		"name": "饮血披风碎片",
+		"rarity": 4,
+		"subType": 2,
+		"type": 4
+	},
+	"7311": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10331,
+			"type": 8
+		},
+		"id": 7311,
+		"name": "光辉圣剑碎片",
+		"rarity": 5,
+		"subType": 2,
+		"type": 4
+	},
+	"7312": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10332,
+			"type": 8
+		},
+		"id": 7312,
+		"name": "光辉皇冠碎片",
+		"rarity": 5,
+		"subType": 2,
+		"type": 4
+	},
+	"7313": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10333,
+			"type": 8
+		},
+		"id": 7313,
+		"name": "光辉战衣碎片",
+		"rarity": 5,
+		"subType": 2,
+		"type": 4
+	},
+	"7314": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10334,
+			"type": 8
+		},
+		"id": 7314,
+		"name": "光辉战袍碎片",
+		"rarity": 5,
+		"subType": 2,
+		"type": 4
+	},
+	"7315": {
+		"comCount": 10,
+		"comTarget": {
+			"id": 10335,
+			"type": 8
+		},
+		"id": 7315,
+		"name": "测试剑碎片",
+		"rarity": 5,
+		"subType": 2,
+		"type": 4
+	},
+	"7316": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10336,
+			"type": 8
+		},
+		"id": 7316,
+		"name": "测试帽碎片",
+		"rarity": 5,
+		"subType": 2,
+		"type": 4
+	},
+	"7317": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10337,
+			"type": 8
+		},
+		"id": 7317,
+		"name": "测试衣碎片",
+		"rarity": 5,
+		"subType": 2,
+		"type": 4
+	},
+	"7318": {
+		"comCount": 20,
+		"comTarget": {
+			"id": 10338,
+			"type": 8
+		},
+		"id": 7318,
+		"name": "测试镜碎片",
+		"rarity": 5,
+		"subType": 2,
+		"type": 4
+	},
+	"8": {
+		"id": 8,
+		"name": "公会资金",
+		"rarity": 1,
+		"subType": 8,
+		"type": 1
+	},
+	"9": {
+		"id": 9,
+		"name": "段位荣耀",
+		"rarity": 1,
+		"subType": 9,
+		"type": 1
+	}
+}

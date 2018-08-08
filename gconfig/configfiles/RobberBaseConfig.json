@@ -1,0 +1,9 @@
+{
+	"extraNum": 10,
+	"maxCount": 5,
+	"oneKeyConsume": 80,
+	"oneKeyCurrency": 2,
+	"recover": 30,
+	"starConsume": 30,
+	"starCurrency": 2
+}

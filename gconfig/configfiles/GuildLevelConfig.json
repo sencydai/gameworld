@@ -1,0 +1,102 @@
+{
+	"1": {
+		"fund": 2000,
+		"level": 1,
+		"maxCount": 30
+	},
+	"10": {
+		"fund": 16000,
+		"level": 10,
+		"maxCount": 48
+	},
+	"11": {
+		"fund": 18000,
+		"level": 11,
+		"maxCount": 50
+	},
+	"12": {
+		"fund": 20000,
+		"level": 12,
+		"maxCount": 52
+	},
+	"13": {
+		"fund": 25000,
+		"level": 13,
+		"maxCount": 54
+	},
+	"14": {
+		"fund": 30000,
+		"level": 14,
+		"maxCount": 56
+	},
+	"15": {
+		"fund": 35000,
+		"level": 15,
+		"maxCount": 58
+	},
+	"16": {
+		"fund": 40000,
+		"level": 16,
+		"maxCount": 60
+	},
+	"17": {
+		"fund": 45000,
+		"level": 17,
+		"maxCount": 60
+	},
+	"18": {
+		"fund": 50000,
+		"level": 18,
+		"maxCount": 60
+	},
+	"19": {
+		"fund": 55000,
+		"level": 19,
+		"maxCount": 60
+	},
+	"2": {
+		"fund": 3000,
+		"level": 2,
+		"maxCount": 32
+	},
+	"20": {
+		"fund": 60000,
+		"level": 20,
+		"maxCount": 60
+	},
+	"3": {
+		"fund": 4000,
+		"level": 3,
+		"maxCount": 34
+	},
+	"4": {
+		"fund": 5000,
+		"level": 4,
+		"maxCount": 36
+	},
+	"5": {
+		"fund": 6000,
+		"level": 5,
+		"maxCount": 38
+	},
+	"6": {
+		"fund": 8000,
+		"level": 6,
+		"maxCount": 40
+	},
+	"7": {
+		"fund": 10000,
+		"level": 7,
+		"maxCount": 42
+	},
+	"8": {
+		"fund": 12000,
+		"level": 8,
+		"maxCount": 44
+	},
+	"9": {
+		"fund": 14000,
+		"level": 9,
+		"maxCount": 46
+	}
+}

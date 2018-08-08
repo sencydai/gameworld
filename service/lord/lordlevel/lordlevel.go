@@ -1,11 +1,11 @@
 package lordlevel
 
 import (
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
 	c "github.com/sencydai/gameworld/constdefine"
 	g "github.com/sencydai/gameworld/gconfig"
 	"github.com/sencydai/gameworld/log"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	"github.com/sencydai/gameworld/service"
 	"github.com/sencydai/gameworld/service/attr"
 	"github.com/sencydai/gameworld/service/bag"

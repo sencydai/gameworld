@@ -7,8 +7,6 @@ import (
 	"math"
 	"time"
 
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
 	"github.com/sencydai/gameworld/base"
 	c "github.com/sencydai/gameworld/constdefine"
 	"github.com/sencydai/gameworld/data"
@@ -16,6 +14,8 @@ import (
 	"github.com/sencydai/gameworld/engine"
 	g "github.com/sencydai/gameworld/gconfig"
 	"github.com/sencydai/gameworld/log"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	"github.com/sencydai/gameworld/service"
 	"github.com/sencydai/gameworld/timer"
 	t "github.com/sencydai/gameworld/typedefine"
@@ -336,7 +336,8 @@ func OnGameClose() {
 
 func onGetActorCount(map[string]string) (int, string) {
 	return 0, fmt.Sprintf(
-		"account: %d, online: %d, offline: %d, engineBuff: %d",
+		"max: %d, account: %d, online: %d, offline: %d, engineBuff: %d",
+		g.GetMaxCount(),
 		data.GetAccountCount(),
 		data.GetOnlineCount(),
 		data.GetCacheCount(),

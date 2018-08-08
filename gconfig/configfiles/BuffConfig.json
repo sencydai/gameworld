@@ -1,0 +1,288 @@
+{
+	"10000": {
+		"effect": {
+			"round": 1,
+			"trigger": 5,
+			"type": 2,
+			"value": 1000
+		},
+		"gainType": 1,
+		"id": 10000,
+		"immediate": 1,
+		"type": 1
+	},
+	"10001": {
+		"effect": {
+			"round": 1,
+			"trigger": 5,
+			"type": 2,
+			"value": 2000
+		},
+		"gainType": 1,
+		"id": 10001,
+		"immediate": 1,
+		"type": 1
+	},
+	"10100": {
+		"effect": {
+			"round": 1,
+			"trigger": 5,
+			"type": 2,
+			"value": 1000
+		},
+		"gainType": 1,
+		"id": 10100,
+		"immediate": 1,
+		"type": 2
+	},
+	"10200": {
+		"effect": {
+			"round": 1,
+			"trigger": 5,
+			"type": 1,
+			"value": 10
+		},
+		"gainType": 1,
+		"id": 10200,
+		"immediate": 1,
+		"type": 3
+	},
+	"10300": {
+		"effect": {
+			"round": 1,
+			"trigger": 5,
+			"type": 2,
+			"value": 1000
+		},
+		"gainType": 1,
+		"id": 10300,
+		"immediate": 1,
+		"type": 4
+	},
+	"10400": {
+		"effect": {
+			"round": 1,
+			"trigger": 5,
+			"type": 2,
+			"value": 1000
+		},
+		"gainType": 1,
+		"id": 10400,
+		"immediate": 1,
+		"type": 5
+	},
+	"10500": {
+		"effect": {
+			"round": 1,
+			"trigger": 5,
+			"type": 2,
+			"value": 1000
+		},
+		"gainType": 1,
+		"id": 10500,
+		"immediate": 1,
+		"type": 6
+	},
+	"10600": {
+		"effect": {
+			"round": 1,
+			"trigger": 5
+		},
+		"gainType": 1,
+		"id": 10600,
+		"immediate": 1,
+		"type": 7
+	},
+	"10700": {
+		"effect": {
+			"round": 1,
+			"trigger": 5
+		},
+		"gainType": 1,
+		"id": 10700,
+		"immediate": 1,
+		"type": 8
+	},
+	"10800": {
+		"effect": {
+			"round": 2,
+			"trigger": 2,
+			"type": 2,
+			"value": 2000
+		},
+		"gainType": 1,
+		"id": 10800,
+		"immediate": 0,
+		"type": 9
+	},
+	"10900": {
+		"effect": {
+			"round": 2,
+			"trigger": 2,
+			"type": 2,
+			"value": 1000
+		},
+		"gainType": 1,
+		"id": 10900,
+		"immediate": 0,
+		"type": 16
+	},
+	"11000": {
+		"effect": {
+			"round": 1,
+			"trigger": 5,
+			"type": 2,
+			"value": 1000
+		},
+		"gainType": 1,
+		"id": 11000,
+		"immediate": 1,
+		"type": 17
+	},
+	"20000": {
+		"effect": {
+			"round": 1,
+			"trigger": 5,
+			"type": 2,
+			"value": 1000
+		},
+		"gainType": 2,
+		"id": 20000,
+		"immediate": 1,
+		"type": 1
+	},
+	"20100": {
+		"effect": {
+			"round": 1,
+			"trigger": 5,
+			"type": 2,
+			"value": 2000
+		},
+		"gainType": 2,
+		"id": 20100,
+		"immediate": 1,
+		"type": 2
+	},
+	"20200": {
+		"effect": {
+			"round": 1,
+			"trigger": 5,
+			"type": 1,
+			"value": 30
+		},
+		"gainType": 2,
+		"id": 20200,
+		"immediate": 1,
+		"type": 3
+	},
+	"20300": {
+		"effect": {
+			"round": 1,
+			"trigger": 5,
+			"type": 2,
+			"value": 1000
+		},
+		"gainType": 2,
+		"id": 20300,
+		"immediate": 1,
+		"type": 4
+	},
+	"20400": {
+		"effect": {
+			"round": 1,
+			"trigger": 5,
+			"type": 2,
+			"value": 1000
+		},
+		"gainType": 2,
+		"id": 20400,
+		"immediate": 1,
+		"type": 5
+	},
+	"20500": {
+		"effect": {
+			"round": 2,
+			"trigger": 2,
+			"type": 2,
+			"value": 800
+		},
+		"gainType": 2,
+		"id": 20500,
+		"immediate": 0,
+		"type": 10
+	},
+	"20501": {
+		"effect": {
+			"round": 1,
+			"trigger": 2,
+			"type": 2,
+			"value": 800
+		},
+		"gainType": 2,
+		"id": 20501,
+		"immediate": 0,
+		"type": 10
+	},
+	"20600": {
+		"effect": {
+			"round": 1,
+			"trigger": 2,
+			"type": 1,
+			"value": 100
+		},
+		"gainType": 2,
+		"id": 20600,
+		"immediate": 0,
+		"type": 11
+	},
+	"20700": {
+		"effect": {
+			"round": 1,
+			"trigger": 5
+		},
+		"gainType": 2,
+		"id": 20700,
+		"immediate": 1,
+		"type": 12
+	},
+	"20800": {
+		"effect": {
+			"round": 1,
+			"trigger": 5
+		},
+		"gainType": 2,
+		"id": 20800,
+		"immediate": 1,
+		"type": 13
+	},
+	"20801": {
+		"effect": {
+			"round": 1,
+			"trigger": 5
+		},
+		"gainType": 2,
+		"id": 20801,
+		"immediate": 1,
+		"type": 13
+	},
+	"20900": {
+		"effect": {
+			"round": 1,
+			"trigger": 5
+		},
+		"gainType": 2,
+		"id": 20900,
+		"immediate": 1,
+		"type": 14
+	},
+	"21000": {
+		"effect": {
+			"round": 1,
+			"trigger": 5
+		},
+		"gainType": 2,
+		"id": 21000,
+		"immediate": 1,
+		"type": 15
+	}
+}

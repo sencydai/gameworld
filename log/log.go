@@ -4,9 +4,9 @@ import (
 	"bufio"
 	"fmt"
 	"github.com/sencydai/gameworld/base"
-	"github.com/sencydai/utils"
 	"os"
 	"path"
+	"sync"
 	"time"
 )
 
@@ -30,7 +30,7 @@ const (
 	sERROR = "ERROR"
 	sFATAL = "FATAL"
 
-	syncPeriod     = time.Millisecond * 100
+	syncPeriod     = time.Second
 	defaultBufSize = 1024 * 1024
 )
 
@@ -79,11 +79,15 @@ type logger struct {
 	level    LogLevel
 	fileName string
 	lastTime time.Time
-	file     *os.File
-	writer   *bufio.Writer
 
-	buffers chan string
-	close   chan bool
+	file   *os.File
+	writer *bufio.Writer
+	lock   sync.Mutex
+
+	buffers      chan string
+	fatalBuffers chan string
+
+	close chan bool
 }
 
 type loggerBuffer struct {
@@ -92,53 +96,101 @@ type loggerBuffer struct {
 	content string
 }
 
+func (l *logger) closed() {
+	l.lock.Lock()
+	defer l.lock.Unlock()
+	if l.writer != nil {
+		l.writer.Flush()
+		l.file.Sync()
+	}
+	l.close <- true
+}
+
+func (l *logger) flush(buffer string) {
+	l.lock.Lock()
+	defer l.lock.Unlock()
+
+	if l.writer == nil {
+		return
+	}
+
+	now := time.Now()
+	if !base.IsSameDay(l.lastTime, now) {
+		l.writer.Flush()
+		l.file.Sync()
+
+		fileName := fmt.Sprintf("%s_%s.log", l.fileName, now.Format("20060102"))
+		if file, err := os.OpenFile(fileName, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0666); err == nil {
+			l.file.Close()
+			l.lastTime, l.file, l.writer = now, file, bufio.NewWriterSize(file, defaultBufSize)
+		}
+	}
+
+	l.writer.WriteString(buffer)
+}
+
+func (l *logger) sync() {
+	l.lock.Lock()
+	defer l.lock.Unlock()
+
+	if l.writer == nil {
+		return
+	}
+
+	l.writer.Flush()
+	l.file.Sync()
+}
+
 func newLogger() *logger {
-	logger := &logger{level: DEBUG_N, buffers: make(chan string, 10000), close: make(chan bool, 1)}
+	logger := &logger{
+		level:        DEBUG_N,
+		buffers:      make(chan string, 10000),
+		fatalBuffers: make(chan string, 1000),
+		close:        make(chan bool, 1),
+	}
+	chError := make(chan bool, 1)
 	go func() {
-		var buffer string
 		write := os.Stdout.WriteString
-		var logCount int
-		for {
-			select {
-			case buffer = <-logger.buffers:
-				if len(buffer) == 0 {
-					if logger.writer != nil {
-						logger.writer.Flush()
-						logger.file.Sync()
-					}
-
-					logger.close <- true
-					return
-				}
-
-				write(buffer)
-				if logger.writer != nil {
-					logger.writer.WriteString(buffer)
-					logCount++
-					if logCount > 1000 {
-						logger.writer.Flush()
-						logger.file.Sync()
-						logCount = 0
-					}
-				}
-			case <-time.After(syncPeriod):
-				if logCount > 0 {
-					logger.writer.Flush()
-					logger.file.Sync()
-					logCount = 0
-				}
-
-				if logger.writer != nil {
-					now := time.Now()
-					if !base.IsSameDay(logger.lastTime, now) {
-						fileName := fmt.Sprintf("%s_%s.log", logger.fileName, now.Format("20060102"))
-						if file, err := os.OpenFile(fileName, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0666); err == nil {
-							logger.file.Close()
-							logger.lastTime, logger.file, logger.writer = now, file, bufio.NewWriterSize(file, defaultBufSize)
-						}
-					}
-				}
+		for buffer := range logger.buffers {
+			if len(buffer) == 0 {
+				logger.fatalBuffers <- ""
+				<-chError
+				logger.closed()
+				return
 			}
+			logger.flush(buffer)
+			write(buffer)
+		}
+	}()
+
+	go func() {
+		lastTime := time.Now()
+		var file *os.File
+		for buffer := range logger.fatalBuffers {
+			if len(buffer) == 0 {
+				chError <- true
+				return
+			}
+
+			if len(logger.fileName) == 0 {
+				continue
+			}
+
+			now := time.Now()
+			if file == nil || !base.IsSameDay(lastTime, now) {
+				if file != nil {
+					file.Close()
+				}
+				
+				lastTime = now
+
+				fileName := fmt.Sprintf("%s_%s.error", logger.fileName, lastTime.Format("20060102"))
+				os.MkdirAll(path.Dir(fileName), os.ModeDir)
+				file, _ = os.OpenFile(fileName, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0666)
+			}
+
+			file.WriteString(buffer)
+			file.Sync()
 		}
 	}()
 
@@ -150,12 +202,23 @@ func (l *logger) SetFileName(fileName string) error {
 	l.lastTime = time.Now()
 	fileName = fmt.Sprintf("%s_%s.log", fileName, l.lastTime.Format("20060102"))
 	os.MkdirAll(path.Dir(fileName), os.ModeDir)
-	if file, err := os.OpenFile(fileName, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0666); err != nil {
+	file, err := os.OpenFile(fileName, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0666)
+	if err != nil {
 		return err
-	} else {
-		l.file, l.writer = file, bufio.NewWriterSize(file, defaultBufSize)
-		return nil
 	}
+
+	l.file, l.writer = file, bufio.NewWriterSize(file, defaultBufSize)
+
+	go func() {
+		for {
+			select {
+			case <-time.After(syncPeriod):
+				l.sync()
+			}
+		}
+	}()
+
+	return nil
 }
 
 func (l *logger) SetLevel(level LogLevel) bool {
@@ -175,24 +238,25 @@ func (l *logger) Close() {
 func (l *logger) writeBufferf(level LogLevel, format string, data ...interface{}) {
 	if level >= l.level {
 		now := base.FormatDateTime(time.Now())
-		fileLine := utils.FileLine(skipLevel)
-		text := levelText[level]
-		l.buffers <- fmt.Sprintf("%s %s [%s] - %s\n", now, text, fileLine, fmt.Sprintf(format, data...))
+		fileLine := base.FileLine(skipLevel)
+		text := fmt.Sprintf("%s %s [%s] - %s\n", now, levelText[level], fileLine, fmt.Sprintf(format, data...))
 		if level == FATAL_N {
-			//l.buffers <- string(debug.Stack())
+			l.fatalBuffers <- text
 		}
+
+		l.buffers <- text
 	}
 }
 
 func (l *logger) writeBuffer(level LogLevel, data ...interface{}) {
 	if level >= l.level {
 		now := base.FormatDateTime(time.Now())
-		fileLine := utils.FileLine(skipLevel)
-		text := levelText[level]
-		l.buffers <- fmt.Sprintf("%s %s [%s] - %s\n", now, text, fileLine, fmt.Sprint(data...))
+		fileLine := base.FileLine(skipLevel)
+		text := fmt.Sprintf("%s %s [%s] - %s\n", now, levelText[level], fileLine, fmt.Sprint(data...))
 		if level == FATAL_N {
-			//l.buffers <- string(debug.Stack())
+			l.fatalBuffers <- text
 		}
+		l.buffers <- text
 	}
 }
 

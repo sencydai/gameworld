@@ -1,0 +1,1504 @@
+{
+	"1": {
+		"1": {
+			"exp": 1000,
+			"expIndex": 1,
+			"level": 1
+		},
+		"10": {
+			"exp": 2800,
+			"expIndex": 1,
+			"level": 10
+		},
+		"100": {
+			"exp": 20800,
+			"expIndex": 1,
+			"level": 100
+		},
+		"101": {
+			"exp": 21000,
+			"expIndex": 1,
+			"level": 101
+		},
+		"102": {
+			"exp": 21200,
+			"expIndex": 1,
+			"level": 102
+		},
+		"103": {
+			"exp": 21400,
+			"expIndex": 1,
+			"level": 103
+		},
+		"104": {
+			"exp": 21600,
+			"expIndex": 1,
+			"level": 104
+		},
+		"105": {
+			"exp": 21800,
+			"expIndex": 1,
+			"level": 105
+		},
+		"106": {
+			"exp": 22000,
+			"expIndex": 1,
+			"level": 106
+		},
+		"107": {
+			"exp": 22200,
+			"expIndex": 1,
+			"level": 107
+		},
+		"108": {
+			"exp": 22400,
+			"expIndex": 1,
+			"level": 108
+		},
+		"109": {
+			"exp": 22600,
+			"expIndex": 1,
+			"level": 109
+		},
+		"11": {
+			"exp": 3000,
+			"expIndex": 1,
+			"level": 11
+		},
+		"110": {
+			"exp": 22800,
+			"expIndex": 1,
+			"level": 110
+		},
+		"111": {
+			"exp": 23000,
+			"expIndex": 1,
+			"level": 111
+		},
+		"112": {
+			"exp": 23200,
+			"expIndex": 1,
+			"level": 112
+		},
+		"113": {
+			"exp": 23400,
+			"expIndex": 1,
+			"level": 113
+		},
+		"114": {
+			"exp": 23600,
+			"expIndex": 1,
+			"level": 114
+		},
+		"115": {
+			"exp": 23800,
+			"expIndex": 1,
+			"level": 115
+		},
+		"116": {
+			"exp": 24000,
+			"expIndex": 1,
+			"level": 116
+		},
+		"117": {
+			"exp": 24200,
+			"expIndex": 1,
+			"level": 117
+		},
+		"118": {
+			"exp": 24400,
+			"expIndex": 1,
+			"level": 118
+		},
+		"119": {
+			"exp": 24600,
+			"expIndex": 1,
+			"level": 119
+		},
+		"12": {
+			"exp": 3200,
+			"expIndex": 1,
+			"level": 12
+		},
+		"120": {
+			"exp": 24800,
+			"expIndex": 1,
+			"level": 120
+		},
+		"121": {
+			"exp": 25000,
+			"expIndex": 1,
+			"level": 121
+		},
+		"122": {
+			"exp": 25200,
+			"expIndex": 1,
+			"level": 122
+		},
+		"123": {
+			"exp": 25400,
+			"expIndex": 1,
+			"level": 123
+		},
+		"124": {
+			"exp": 25600,
+			"expIndex": 1,
+			"level": 124
+		},
+		"125": {
+			"exp": 25800,
+			"expIndex": 1,
+			"level": 125
+		},
+		"126": {
+			"exp": 26000,
+			"expIndex": 1,
+			"level": 126
+		},
+		"127": {
+			"exp": 26200,
+			"expIndex": 1,
+			"level": 127
+		},
+		"128": {
+			"exp": 26400,
+			"expIndex": 1,
+			"level": 128
+		},
+		"129": {
+			"exp": 26600,
+			"expIndex": 1,
+			"level": 129
+		},
+		"13": {
+			"exp": 3400,
+			"expIndex": 1,
+			"level": 13
+		},
+		"130": {
+			"exp": 26800,
+			"expIndex": 1,
+			"level": 130
+		},
+		"131": {
+			"exp": 27000,
+			"expIndex": 1,
+			"level": 131
+		},
+		"132": {
+			"exp": 27200,
+			"expIndex": 1,
+			"level": 132
+		},
+		"133": {
+			"exp": 27400,
+			"expIndex": 1,
+			"level": 133
+		},
+		"134": {
+			"exp": 27600,
+			"expIndex": 1,
+			"level": 134
+		},
+		"135": {
+			"exp": 27800,
+			"expIndex": 1,
+			"level": 135
+		},
+		"136": {
+			"exp": 28000,
+			"expIndex": 1,
+			"level": 136
+		},
+		"137": {
+			"exp": 28200,
+			"expIndex": 1,
+			"level": 137
+		},
+		"138": {
+			"exp": 28400,
+			"expIndex": 1,
+			"level": 138
+		},
+		"139": {
+			"exp": 28600,
+			"expIndex": 1,
+			"level": 139
+		},
+		"14": {
+			"exp": 3600,
+			"expIndex": 1,
+			"level": 14
+		},
+		"140": {
+			"exp": 28800,
+			"expIndex": 1,
+			"level": 140
+		},
+		"141": {
+			"exp": 29000,
+			"expIndex": 1,
+			"level": 141
+		},
+		"142": {
+			"exp": 29200,
+			"expIndex": 1,
+			"level": 142
+		},
+		"143": {
+			"exp": 29400,
+			"expIndex": 1,
+			"level": 143
+		},
+		"144": {
+			"exp": 29600,
+			"expIndex": 1,
+			"level": 144
+		},
+		"145": {
+			"exp": 29800,
+			"expIndex": 1,
+			"level": 145
+		},
+		"146": {
+			"exp": 30000,
+			"expIndex": 1,
+			"level": 146
+		},
+		"147": {
+			"exp": 30200,
+			"expIndex": 1,
+			"level": 147
+		},
+		"148": {
+			"exp": 30400,
+			"expIndex": 1,
+			"level": 148
+		},
+		"149": {
+			"exp": 30600,
+			"expIndex": 1,
+			"level": 149
+		},
+		"15": {
+			"exp": 3800,
+			"expIndex": 1,
+			"level": 15
+		},
+		"150": {
+			"exp": 30800,
+			"expIndex": 1,
+			"level": 150
+		},
+		"151": {
+			"exp": 31000,
+			"expIndex": 1,
+			"level": 151
+		},
+		"152": {
+			"exp": 31200,
+			"expIndex": 1,
+			"level": 152
+		},
+		"153": {
+			"exp": 31400,
+			"expIndex": 1,
+			"level": 153
+		},
+		"154": {
+			"exp": 31600,
+			"expIndex": 1,
+			"level": 154
+		},
+		"155": {
+			"exp": 31800,
+			"expIndex": 1,
+			"level": 155
+		},
+		"156": {
+			"exp": 32000,
+			"expIndex": 1,
+			"level": 156
+		},
+		"157": {
+			"exp": 32200,
+			"expIndex": 1,
+			"level": 157
+		},
+		"158": {
+			"exp": 32400,
+			"expIndex": 1,
+			"level": 158
+		},
+		"159": {
+			"exp": 32600,
+			"expIndex": 1,
+			"level": 159
+		},
+		"16": {
+			"exp": 4000,
+			"expIndex": 1,
+			"level": 16
+		},
+		"160": {
+			"exp": 32800,
+			"expIndex": 1,
+			"level": 160
+		},
+		"161": {
+			"exp": 33000,
+			"expIndex": 1,
+			"level": 161
+		},
+		"162": {
+			"exp": 33200,
+			"expIndex": 1,
+			"level": 162
+		},
+		"163": {
+			"exp": 33400,
+			"expIndex": 1,
+			"level": 163
+		},
+		"164": {
+			"exp": 33600,
+			"expIndex": 1,
+			"level": 164
+		},
+		"165": {
+			"exp": 33800,
+			"expIndex": 1,
+			"level": 165
+		},
+		"166": {
+			"exp": 34000,
+			"expIndex": 1,
+			"level": 166
+		},
+		"167": {
+			"exp": 34200,
+			"expIndex": 1,
+			"level": 167
+		},
+		"168": {
+			"exp": 34400,
+			"expIndex": 1,
+			"level": 168
+		},
+		"169": {
+			"exp": 34600,
+			"expIndex": 1,
+			"level": 169
+		},
+		"17": {
+			"exp": 4200,
+			"expIndex": 1,
+			"level": 17
+		},
+		"170": {
+			"exp": 34800,
+			"expIndex": 1,
+			"level": 170
+		},
+		"171": {
+			"exp": 35000,
+			"expIndex": 1,
+			"level": 171
+		},
+		"172": {
+			"exp": 35200,
+			"expIndex": 1,
+			"level": 172
+		},
+		"173": {
+			"exp": 35400,
+			"expIndex": 1,
+			"level": 173
+		},
+		"174": {
+			"exp": 35600,
+			"expIndex": 1,
+			"level": 174
+		},
+		"175": {
+			"exp": 35800,
+			"expIndex": 1,
+			"level": 175
+		},
+		"176": {
+			"exp": 36000,
+			"expIndex": 1,
+			"level": 176
+		},
+		"177": {
+			"exp": 36200,
+			"expIndex": 1,
+			"level": 177
+		},
+		"178": {
+			"exp": 36400,
+			"expIndex": 1,
+			"level": 178
+		},
+		"179": {
+			"exp": 36600,
+			"expIndex": 1,
+			"level": 179
+		},
+		"18": {
+			"exp": 4400,
+			"expIndex": 1,
+			"level": 18
+		},
+		"180": {
+			"exp": 36800,
+			"expIndex": 1,
+			"level": 180
+		},
+		"181": {
+			"exp": 37000,
+			"expIndex": 1,
+			"level": 181
+		},
+		"182": {
+			"exp": 37200,
+			"expIndex": 1,
+			"level": 182
+		},
+		"183": {
+			"exp": 37400,
+			"expIndex": 1,
+			"level": 183
+		},
+		"184": {
+			"exp": 37600,
+			"expIndex": 1,
+			"level": 184
+		},
+		"185": {
+			"exp": 37800,
+			"expIndex": 1,
+			"level": 185
+		},
+		"186": {
+			"exp": 38000,
+			"expIndex": 1,
+			"level": 186
+		},
+		"187": {
+			"exp": 38200,
+			"expIndex": 1,
+			"level": 187
+		},
+		"188": {
+			"exp": 38400,
+			"expIndex": 1,
+			"level": 188
+		},
+		"189": {
+			"exp": 38600,
+			"expIndex": 1,
+			"level": 189
+		},
+		"19": {
+			"exp": 4600,
+			"expIndex": 1,
+			"level": 19
+		},
+		"190": {
+			"exp": 38800,
+			"expIndex": 1,
+			"level": 190
+		},
+		"191": {
+			"exp": 39000,
+			"expIndex": 1,
+			"level": 191
+		},
+		"192": {
+			"exp": 39200,
+			"expIndex": 1,
+			"level": 192
+		},
+		"193": {
+			"exp": 39400,
+			"expIndex": 1,
+			"level": 193
+		},
+		"194": {
+			"exp": 39600,
+			"expIndex": 1,
+			"level": 194
+		},
+		"195": {
+			"exp": 39800,
+			"expIndex": 1,
+			"level": 195
+		},
+		"196": {
+			"exp": 40000,
+			"expIndex": 1,
+			"level": 196
+		},
+		"197": {
+			"exp": 40200,
+			"expIndex": 1,
+			"level": 197
+		},
+		"198": {
+			"exp": 40400,
+			"expIndex": 1,
+			"level": 198
+		},
+		"199": {
+			"exp": 40600,
+			"expIndex": 1,
+			"level": 199
+		},
+		"2": {
+			"exp": 1200,
+			"expIndex": 1,
+			"level": 2
+		},
+		"20": {
+			"exp": 4800,
+			"expIndex": 1,
+			"level": 20
+		},
+		"200": {
+			"exp": 40800,
+			"expIndex": 1,
+			"level": 200
+		},
+		"201": {
+			"exp": 41000,
+			"expIndex": 1,
+			"level": 201
+		},
+		"202": {
+			"exp": 41200,
+			"expIndex": 1,
+			"level": 202
+		},
+		"203": {
+			"exp": 41400,
+			"expIndex": 1,
+			"level": 203
+		},
+		"204": {
+			"exp": 41600,
+			"expIndex": 1,
+			"level": 204
+		},
+		"205": {
+			"exp": 41800,
+			"expIndex": 1,
+			"level": 205
+		},
+		"206": {
+			"exp": 42000,
+			"expIndex": 1,
+			"level": 206
+		},
+		"207": {
+			"exp": 42200,
+			"expIndex": 1,
+			"level": 207
+		},
+		"208": {
+			"exp": 42400,
+			"expIndex": 1,
+			"level": 208
+		},
+		"209": {
+			"exp": 42600,
+			"expIndex": 1,
+			"level": 209
+		},
+		"21": {
+			"exp": 5000,
+			"expIndex": 1,
+			"level": 21
+		},
+		"210": {
+			"exp": 42800,
+			"expIndex": 1,
+			"level": 210
+		},
+		"211": {
+			"exp": 43000,
+			"expIndex": 1,
+			"level": 211
+		},
+		"212": {
+			"exp": 43200,
+			"expIndex": 1,
+			"level": 212
+		},
+		"213": {
+			"exp": 43400,
+			"expIndex": 1,
+			"level": 213
+		},
+		"214": {
+			"exp": 43600,
+			"expIndex": 1,
+			"level": 214
+		},
+		"215": {
+			"exp": 43800,
+			"expIndex": 1,
+			"level": 215
+		},
+		"216": {
+			"exp": 44000,
+			"expIndex": 1,
+			"level": 216
+		},
+		"217": {
+			"exp": 44200,
+			"expIndex": 1,
+			"level": 217
+		},
+		"218": {
+			"exp": 44400,
+			"expIndex": 1,
+			"level": 218
+		},
+		"219": {
+			"exp": 44600,
+			"expIndex": 1,
+			"level": 219
+		},
+		"22": {
+			"exp": 5200,
+			"expIndex": 1,
+			"level": 22
+		},
+		"220": {
+			"exp": 44800,
+			"expIndex": 1,
+			"level": 220
+		},
+		"221": {
+			"exp": 45000,
+			"expIndex": 1,
+			"level": 221
+		},
+		"222": {
+			"exp": 45200,
+			"expIndex": 1,
+			"level": 222
+		},
+		"223": {
+			"exp": 45400,
+			"expIndex": 1,
+			"level": 223
+		},
+		"224": {
+			"exp": 45600,
+			"expIndex": 1,
+			"level": 224
+		},
+		"225": {
+			"exp": 45800,
+			"expIndex": 1,
+			"level": 225
+		},
+		"226": {
+			"exp": 46000,
+			"expIndex": 1,
+			"level": 226
+		},
+		"227": {
+			"exp": 46200,
+			"expIndex": 1,
+			"level": 227
+		},
+		"228": {
+			"exp": 46400,
+			"expIndex": 1,
+			"level": 228
+		},
+		"229": {
+			"exp": 46600,
+			"expIndex": 1,
+			"level": 229
+		},
+		"23": {
+			"exp": 5400,
+			"expIndex": 1,
+			"level": 23
+		},
+		"230": {
+			"exp": 46800,
+			"expIndex": 1,
+			"level": 230
+		},
+		"231": {
+			"exp": 47000,
+			"expIndex": 1,
+			"level": 231
+		},
+		"232": {
+			"exp": 47200,
+			"expIndex": 1,
+			"level": 232
+		},
+		"233": {
+			"exp": 47400,
+			"expIndex": 1,
+			"level": 233
+		},
+		"234": {
+			"exp": 47600,
+			"expIndex": 1,
+			"level": 234
+		},
+		"235": {
+			"exp": 47800,
+			"expIndex": 1,
+			"level": 235
+		},
+		"236": {
+			"exp": 48000,
+			"expIndex": 1,
+			"level": 236
+		},
+		"237": {
+			"exp": 48200,
+			"expIndex": 1,
+			"level": 237
+		},
+		"238": {
+			"exp": 48400,
+			"expIndex": 1,
+			"level": 238
+		},
+		"239": {
+			"exp": 48600,
+			"expIndex": 1,
+			"level": 239
+		},
+		"24": {
+			"exp": 5600,
+			"expIndex": 1,
+			"level": 24
+		},
+		"240": {
+			"exp": 48800,
+			"expIndex": 1,
+			"level": 240
+		},
+		"241": {
+			"exp": 49000,
+			"expIndex": 1,
+			"level": 241
+		},
+		"242": {
+			"exp": 49200,
+			"expIndex": 1,
+			"level": 242
+		},
+		"243": {
+			"exp": 49400,
+			"expIndex": 1,
+			"level": 243
+		},
+		"244": {
+			"exp": 49600,
+			"expIndex": 1,
+			"level": 244
+		},
+		"245": {
+			"exp": 49800,
+			"expIndex": 1,
+			"level": 245
+		},
+		"246": {
+			"exp": 50000,
+			"expIndex": 1,
+			"level": 246
+		},
+		"247": {
+			"exp": 50200,
+			"expIndex": 1,
+			"level": 247
+		},
+		"248": {
+			"exp": 50400,
+			"expIndex": 1,
+			"level": 248
+		},
+		"249": {
+			"exp": 50600,
+			"expIndex": 1,
+			"level": 249
+		},
+		"25": {
+			"exp": 5800,
+			"expIndex": 1,
+			"level": 25
+		},
+		"250": {
+			"exp": 50800,
+			"expIndex": 1,
+			"level": 250
+		},
+		"251": {
+			"exp": 51000,
+			"expIndex": 1,
+			"level": 251
+		},
+		"252": {
+			"exp": 51200,
+			"expIndex": 1,
+			"level": 252
+		},
+		"253": {
+			"exp": 51400,
+			"expIndex": 1,
+			"level": 253
+		},
+		"254": {
+			"exp": 51600,
+			"expIndex": 1,
+			"level": 254
+		},
+		"255": {
+			"exp": 51800,
+			"expIndex": 1,
+			"level": 255
+		},
+		"256": {
+			"exp": 52000,
+			"expIndex": 1,
+			"level": 256
+		},
+		"257": {
+			"exp": 52200,
+			"expIndex": 1,
+			"level": 257
+		},
+		"258": {
+			"exp": 52400,
+			"expIndex": 1,
+			"level": 258
+		},
+		"259": {
+			"exp": 52600,
+			"expIndex": 1,
+			"level": 259
+		},
+		"26": {
+			"exp": 6000,
+			"expIndex": 1,
+			"level": 26
+		},
+		"260": {
+			"exp": 52800,
+			"expIndex": 1,
+			"level": 260
+		},
+		"261": {
+			"exp": 53000,
+			"expIndex": 1,
+			"level": 261
+		},
+		"262": {
+			"exp": 53200,
+			"expIndex": 1,
+			"level": 262
+		},
+		"263": {
+			"exp": 53400,
+			"expIndex": 1,
+			"level": 263
+		},
+		"264": {
+			"exp": 53600,
+			"expIndex": 1,
+			"level": 264
+		},
+		"265": {
+			"exp": 53800,
+			"expIndex": 1,
+			"level": 265
+		},
+		"266": {
+			"exp": 54000,
+			"expIndex": 1,
+			"level": 266
+		},
+		"267": {
+			"exp": 54200,
+			"expIndex": 1,
+			"level": 267
+		},
+		"268": {
+			"exp": 54400,
+			"expIndex": 1,
+			"level": 268
+		},
+		"269": {
+			"exp": 54600,
+			"expIndex": 1,
+			"level": 269
+		},
+		"27": {
+			"exp": 6200,
+			"expIndex": 1,
+			"level": 27
+		},
+		"270": {
+			"exp": 54800,
+			"expIndex": 1,
+			"level": 270
+		},
+		"271": {
+			"exp": 55000,
+			"expIndex": 1,
+			"level": 271
+		},
+		"272": {
+			"exp": 55200,
+			"expIndex": 1,
+			"level": 272
+		},
+		"273": {
+			"exp": 55400,
+			"expIndex": 1,
+			"level": 273
+		},
+		"274": {
+			"exp": 55600,
+			"expIndex": 1,
+			"level": 274
+		},
+		"275": {
+			"exp": 55800,
+			"expIndex": 1,
+			"level": 275
+		},
+		"276": {
+			"exp": 56000,
+			"expIndex": 1,
+			"level": 276
+		},
+		"277": {
+			"exp": 56200,
+			"expIndex": 1,
+			"level": 277
+		},
+		"278": {
+			"exp": 56400,
+			"expIndex": 1,
+			"level": 278
+		},
+		"279": {
+			"exp": 56600,
+			"expIndex": 1,
+			"level": 279
+		},
+		"28": {
+			"exp": 6400,
+			"expIndex": 1,
+			"level": 28
+		},
+		"280": {
+			"exp": 56800,
+			"expIndex": 1,
+			"level": 280
+		},
+		"281": {
+			"exp": 57000,
+			"expIndex": 1,
+			"level": 281
+		},
+		"282": {
+			"exp": 57200,
+			"expIndex": 1,
+			"level": 282
+		},
+		"283": {
+			"exp": 57400,
+			"expIndex": 1,
+			"level": 283
+		},
+		"284": {
+			"exp": 57600,
+			"expIndex": 1,
+			"level": 284
+		},
+		"285": {
+			"exp": 57800,
+			"expIndex": 1,
+			"level": 285
+		},
+		"286": {
+			"exp": 58000,
+			"expIndex": 1,
+			"level": 286
+		},
+		"287": {
+			"exp": 58200,
+			"expIndex": 1,
+			"level": 287
+		},
+		"288": {
+			"exp": 58400,
+			"expIndex": 1,
+			"level": 288
+		},
+		"289": {
+			"exp": 58600,
+			"expIndex": 1,
+			"level": 289
+		},
+		"29": {
+			"exp": 6600,
+			"expIndex": 1,
+			"level": 29
+		},
+		"290": {
+			"exp": 58800,
+			"expIndex": 1,
+			"level": 290
+		},
+		"291": {
+			"exp": 59000,
+			"expIndex": 1,
+			"level": 291
+		},
+		"292": {
+			"exp": 59200,
+			"expIndex": 1,
+			"level": 292
+		},
+		"293": {
+			"exp": 59400,
+			"expIndex": 1,
+			"level": 293
+		},
+		"294": {
+			"exp": 59600,
+			"expIndex": 1,
+			"level": 294
+		},
+		"295": {
+			"exp": 59800,
+			"expIndex": 1,
+			"level": 295
+		},
+		"296": {
+			"exp": 60000,
+			"expIndex": 1,
+			"level": 296
+		},
+		"297": {
+			"exp": 60200,
+			"expIndex": 1,
+			"level": 297
+		},
+		"298": {
+			"exp": 60400,
+			"expIndex": 1,
+			"level": 298
+		},
+		"299": {
+			"exp": 60600,
+			"expIndex": 1,
+			"level": 299
+		},
+		"3": {
+			"exp": 1400,
+			"expIndex": 1,
+			"level": 3
+		},
+		"30": {
+			"exp": 6800,
+			"expIndex": 1,
+			"level": 30
+		},
+		"300": {
+			"exp": 60800,
+			"expIndex": 1,
+			"level": 300
+		},
+		"31": {
+			"exp": 7000,
+			"expIndex": 1,
+			"level": 31
+		},
+		"32": {
+			"exp": 7200,
+			"expIndex": 1,
+			"level": 32
+		},
+		"33": {
+			"exp": 7400,
+			"expIndex": 1,
+			"level": 33
+		},
+		"34": {
+			"exp": 7600,
+			"expIndex": 1,
+			"level": 34
+		},
+		"35": {
+			"exp": 7800,
+			"expIndex": 1,
+			"level": 35
+		},
+		"36": {
+			"exp": 8000,
+			"expIndex": 1,
+			"level": 36
+		},
+		"37": {
+			"exp": 8200,
+			"expIndex": 1,
+			"level": 37
+		},
+		"38": {
+			"exp": 8400,
+			"expIndex": 1,
+			"level": 38
+		},
+		"39": {
+			"exp": 8600,
+			"expIndex": 1,
+			"level": 39
+		},
+		"4": {
+			"exp": 1600,
+			"expIndex": 1,
+			"level": 4
+		},
+		"40": {
+			"exp": 8800,
+			"expIndex": 1,
+			"level": 40
+		},
+		"41": {
+			"exp": 9000,
+			"expIndex": 1,
+			"level": 41
+		},
+		"42": {
+			"exp": 9200,
+			"expIndex": 1,
+			"level": 42
+		},
+		"43": {
+			"exp": 9400,
+			"expIndex": 1,
+			"level": 43
+		},
+		"44": {
+			"exp": 9600,
+			"expIndex": 1,
+			"level": 44
+		},
+		"45": {
+			"exp": 9800,
+			"expIndex": 1,
+			"level": 45
+		},
+		"46": {
+			"exp": 10000,
+			"expIndex": 1,
+			"level": 46
+		},
+		"47": {
+			"exp": 10200,
+			"expIndex": 1,
+			"level": 47
+		},
+		"48": {
+			"exp": 10400,
+			"expIndex": 1,
+			"level": 48
+		},
+		"49": {
+			"exp": 10600,
+			"expIndex": 1,
+			"level": 49
+		},
+		"5": {
+			"exp": 1800,
+			"expIndex": 1,
+			"level": 5
+		},
+		"50": {
+			"exp": 10800,
+			"expIndex": 1,
+			"level": 50
+		},
+		"51": {
+			"exp": 11000,
+			"expIndex": 1,
+			"level": 51
+		},
+		"52": {
+			"exp": 11200,
+			"expIndex": 1,
+			"level": 52
+		},
+		"53": {
+			"exp": 11400,
+			"expIndex": 1,
+			"level": 53
+		},
+		"54": {
+			"exp": 11600,
+			"expIndex": 1,
+			"level": 54
+		},
+		"55": {
+			"exp": 11800,
+			"expIndex": 1,
+			"level": 55
+		},
+		"56": {
+			"exp": 12000,
+			"expIndex": 1,
+			"level": 56
+		},
+		"57": {
+			"exp": 12200,
+			"expIndex": 1,
+			"level": 57
+		},
+		"58": {
+			"exp": 12400,
+			"expIndex": 1,
+			"level": 58
+		},
+		"59": {
+			"exp": 12600,
+			"expIndex": 1,
+			"level": 59
+		},
+		"6": {
+			"exp": 2000,
+			"expIndex": 1,
+			"level": 6
+		},
+		"60": {
+			"exp": 12800,
+			"expIndex": 1,
+			"level": 60
+		},
+		"61": {
+			"exp": 13000,
+			"expIndex": 1,
+			"level": 61
+		},
+		"62": {
+			"exp": 13200,
+			"expIndex": 1,
+			"level": 62
+		},
+		"63": {
+			"exp": 13400,
+			"expIndex": 1,
+			"level": 63
+		},
+		"64": {
+			"exp": 13600,
+			"expIndex": 1,
+			"level": 64
+		},
+		"65": {
+			"exp": 13800,
+			"expIndex": 1,
+			"level": 65
+		},
+		"66": {
+			"exp": 14000,
+			"expIndex": 1,
+			"level": 66
+		},
+		"67": {
+			"exp": 14200,
+			"expIndex": 1,
+			"level": 67
+		},
+		"68": {
+			"exp": 14400,
+			"expIndex": 1,
+			"level": 68
+		},
+		"69": {
+			"exp": 14600,
+			"expIndex": 1,
+			"level": 69
+		},
+		"7": {
+			"exp": 2200,
+			"expIndex": 1,
+			"level": 7
+		},
+		"70": {
+			"exp": 14800,
+			"expIndex": 1,
+			"level": 70
+		},
+		"71": {
+			"exp": 15000,
+			"expIndex": 1,
+			"level": 71
+		},
+		"72": {
+			"exp": 15200,
+			"expIndex": 1,
+			"level": 72
+		},
+		"73": {
+			"exp": 15400,
+			"expIndex": 1,
+			"level": 73
+		},
+		"74": {
+			"exp": 15600,
+			"expIndex": 1,
+			"level": 74
+		},
+		"75": {
+			"exp": 15800,
+			"expIndex": 1,
+			"level": 75
+		},
+		"76": {
+			"exp": 16000,
+			"expIndex": 1,
+			"level": 76
+		},
+		"77": {
+			"exp": 16200,
+			"expIndex": 1,
+			"level": 77
+		},
+		"78": {
+			"exp": 16400,
+			"expIndex": 1,
+			"level": 78
+		},
+		"79": {
+			"exp": 16600,
+			"expIndex": 1,
+			"level": 79
+		},
+		"8": {
+			"exp": 2400,
+			"expIndex": 1,
+			"level": 8
+		},
+		"80": {
+			"exp": 16800,
+			"expIndex": 1,
+			"level": 80
+		},
+		"81": {
+			"exp": 17000,
+			"expIndex": 1,
+			"level": 81
+		},
+		"82": {
+			"exp": 17200,
+			"expIndex": 1,
+			"level": 82
+		},
+		"83": {
+			"exp": 17400,
+			"expIndex": 1,
+			"level": 83
+		},
+		"84": {
+			"exp": 17600,
+			"expIndex": 1,
+			"level": 84
+		},
+		"85": {
+			"exp": 17800,
+			"expIndex": 1,
+			"level": 85
+		},
+		"86": {
+			"exp": 18000,
+			"expIndex": 1,
+			"level": 86
+		},
+		"87": {
+			"exp": 18200,
+			"expIndex": 1,
+			"level": 87
+		},
+		"88": {
+			"exp": 18400,
+			"expIndex": 1,
+			"level": 88
+		},
+		"89": {
+			"exp": 18600,
+			"expIndex": 1,
+			"level": 89
+		},
+		"9": {
+			"exp": 2600,
+			"expIndex": 1,
+			"level": 9
+		},
+		"90": {
+			"exp": 18800,
+			"expIndex": 1,
+			"level": 90
+		},
+		"91": {
+			"exp": 19000,
+			"expIndex": 1,
+			"level": 91
+		},
+		"92": {
+			"exp": 19200,
+			"expIndex": 1,
+			"level": 92
+		},
+		"93": {
+			"exp": 19400,
+			"expIndex": 1,
+			"level": 93
+		},
+		"94": {
+			"exp": 19600,
+			"expIndex": 1,
+			"level": 94
+		},
+		"95": {
+			"exp": 19800,
+			"expIndex": 1,
+			"level": 95
+		},
+		"96": {
+			"exp": 20000,
+			"expIndex": 1,
+			"level": 96
+		},
+		"97": {
+			"exp": 20200,
+			"expIndex": 1,
+			"level": 97
+		},
+		"98": {
+			"exp": 20400,
+			"expIndex": 1,
+			"level": 98
+		},
+		"99": {
+			"exp": 20600,
+			"expIndex": 1,
+			"level": 99
+		}
+	}
+}

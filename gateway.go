@@ -8,9 +8,9 @@ import (
 	"sync"
 
 	"github.com/gorilla/websocket"
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
 	"github.com/sencydai/gameworld/log"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 
 	"github.com/sencydai/gameworld/dispatch"
 	g "github.com/sencydai/gameworld/gconfig"
@@ -29,14 +29,14 @@ var (
 
 	systemId = proto.System
 
-	connCount   = 0
+	connCount   uint
 	connCountMu sync.Mutex
 )
 
 func addConnCount() bool {
 	connCountMu.Lock()
 	defer connCountMu.Unlock()
-	if connCount >= g.GameConfig.MaxConnection {
+	if connCount >= g.GetMaxCount() {
 		return false
 	}
 	connCount++
@@ -81,7 +81,12 @@ func handleConnection(w http.ResponseWriter, r *http.Request) {
 		log.Error(err.Error())
 		return
 	}
-	if !addConnCount() || readSelfSalt(conn) != nil || readCheckKey(conn) != nil {
+	if !addConnCount() {
+		conn.Close()
+		return
+	}
+	if readSelfSalt(conn) != nil || readCheckKey(conn) != nil {
+		subConnCount()
 		conn.Close()
 		return
 	}

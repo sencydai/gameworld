@@ -1,0 +1,9612 @@
+{
+	"1": {
+		"0": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 26
+				},
+				"2": {
+					"type": 8,
+					"value": 10
+				},
+				"3": {
+					"type": 9,
+					"value": 211
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 400
+				},
+				"2": {
+					"type": 15,
+					"value": 400
+				},
+				"3": {
+					"type": 17,
+					"value": 400
+				},
+				"4": {
+					"type": 18,
+					"value": 400
+				},
+				"5": {
+					"type": 19,
+					"value": 400
+				},
+				"6": {
+					"type": 20,
+					"value": 400
+				},
+				"7": {
+					"type": 22,
+					"value": 400
+				}
+			},
+			"rarity": 1,
+			"stage": 0
+		},
+		"1": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 54
+				},
+				"2": {
+					"type": 8,
+					"value": 21
+				},
+				"3": {
+					"type": 9,
+					"value": 432
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 450
+				},
+				"2": {
+					"type": 15,
+					"value": 450
+				},
+				"3": {
+					"type": 17,
+					"value": 450
+				},
+				"4": {
+					"type": 18,
+					"value": 450
+				},
+				"5": {
+					"type": 19,
+					"value": 450
+				},
+				"6": {
+					"type": 20,
+					"value": 450
+				},
+				"7": {
+					"type": 22,
+					"value": 450
+				}
+			},
+			"rarity": 1,
+			"stage": 1
+		},
+		"10": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 356
+				},
+				"2": {
+					"type": 8,
+					"value": 142
+				},
+				"3": {
+					"type": 9,
+					"value": 2851
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 900
+				},
+				"2": {
+					"type": 15,
+					"value": 900
+				},
+				"3": {
+					"type": 17,
+					"value": 900
+				},
+				"4": {
+					"type": 18,
+					"value": 900
+				},
+				"5": {
+					"type": 19,
+					"value": 900
+				},
+				"6": {
+					"type": 20,
+					"value": 900
+				},
+				"7": {
+					"type": 22,
+					"value": 900
+				}
+			},
+			"rarity": 1,
+			"stage": 10
+		},
+		"11": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 396
+				},
+				"2": {
+					"type": 8,
+					"value": 158
+				},
+				"3": {
+					"type": 9,
+					"value": 3168
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 950
+				},
+				"2": {
+					"type": 15,
+					"value": 950
+				},
+				"3": {
+					"type": 17,
+					"value": 950
+				},
+				"4": {
+					"type": 18,
+					"value": 950
+				},
+				"5": {
+					"type": 19,
+					"value": 950
+				},
+				"6": {
+					"type": 20,
+					"value": 950
+				},
+				"7": {
+					"type": 22,
+					"value": 950
+				}
+			},
+			"rarity": 1,
+			"stage": 11
+		},
+		"12": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 436
+				},
+				"2": {
+					"type": 8,
+					"value": 174
+				},
+				"3": {
+					"type": 9,
+					"value": 3494
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1000
+				},
+				"2": {
+					"type": 15,
+					"value": 1000
+				},
+				"3": {
+					"type": 17,
+					"value": 1000
+				},
+				"4": {
+					"type": 18,
+					"value": 1000
+				},
+				"5": {
+					"type": 19,
+					"value": 1000
+				},
+				"6": {
+					"type": 20,
+					"value": 1000
+				},
+				"7": {
+					"type": 22,
+					"value": 1000
+				}
+			},
+			"rarity": 1,
+			"stage": 12
+		},
+		"13": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 478
+				},
+				"2": {
+					"type": 8,
+					"value": 191
+				},
+				"3": {
+					"type": 9,
+					"value": 3830
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1050
+				},
+				"2": {
+					"type": 15,
+					"value": 1050
+				},
+				"3": {
+					"type": 17,
+					"value": 1050
+				},
+				"4": {
+					"type": 18,
+					"value": 1050
+				},
+				"5": {
+					"type": 19,
+					"value": 1050
+				},
+				"6": {
+					"type": 20,
+					"value": 1050
+				},
+				"7": {
+					"type": 22,
+					"value": 1050
+				}
+			},
+			"rarity": 1,
+			"stage": 13
+		},
+		"14": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 522
+				},
+				"2": {
+					"type": 8,
+					"value": 208
+				},
+				"3": {
+					"type": 9,
+					"value": 4176
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1100
+				},
+				"2": {
+					"type": 15,
+					"value": 1100
+				},
+				"3": {
+					"type": 17,
+					"value": 1100
+				},
+				"4": {
+					"type": 18,
+					"value": 1100
+				},
+				"5": {
+					"type": 19,
+					"value": 1100
+				},
+				"6": {
+					"type": 20,
+					"value": 1100
+				},
+				"7": {
+					"type": 22,
+					"value": 1100
+				}
+			},
+			"rarity": 1,
+			"stage": 14
+		},
+		"15": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 566
+				},
+				"2": {
+					"type": 8,
+					"value": 226
+				},
+				"3": {
+					"type": 9,
+					"value": 4531
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1150
+				},
+				"2": {
+					"type": 15,
+					"value": 1150
+				},
+				"3": {
+					"type": 17,
+					"value": 1150
+				},
+				"4": {
+					"type": 18,
+					"value": 1150
+				},
+				"5": {
+					"type": 19,
+					"value": 1150
+				},
+				"6": {
+					"type": 20,
+					"value": 1150
+				},
+				"7": {
+					"type": 22,
+					"value": 1150
+				}
+			},
+			"rarity": 1,
+			"stage": 15
+		},
+		"16": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 612
+				},
+				"2": {
+					"type": 8,
+					"value": 244
+				},
+				"3": {
+					"type": 9,
+					"value": 4896
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1200
+				},
+				"2": {
+					"type": 15,
+					"value": 1200
+				},
+				"3": {
+					"type": 17,
+					"value": 1200
+				},
+				"4": {
+					"type": 18,
+					"value": 1200
+				},
+				"5": {
+					"type": 19,
+					"value": 1200
+				},
+				"6": {
+					"type": 20,
+					"value": 1200
+				},
+				"7": {
+					"type": 22,
+					"value": 1200
+				}
+			},
+			"rarity": 1,
+			"stage": 16
+		},
+		"17": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 658
+				},
+				"2": {
+					"type": 8,
+					"value": 263
+				},
+				"3": {
+					"type": 9,
+					"value": 5270
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1250
+				},
+				"2": {
+					"type": 15,
+					"value": 1250
+				},
+				"3": {
+					"type": 17,
+					"value": 1250
+				},
+				"4": {
+					"type": 18,
+					"value": 1250
+				},
+				"5": {
+					"type": 19,
+					"value": 1250
+				},
+				"6": {
+					"type": 20,
+					"value": 1250
+				},
+				"7": {
+					"type": 22,
+					"value": 1250
+				}
+			},
+			"rarity": 1,
+			"stage": 17
+		},
+		"18": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 706
+				},
+				"2": {
+					"type": 8,
+					"value": 282
+				},
+				"3": {
+					"type": 9,
+					"value": 5654
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1300
+				},
+				"2": {
+					"type": 15,
+					"value": 1300
+				},
+				"3": {
+					"type": 17,
+					"value": 1300
+				},
+				"4": {
+					"type": 18,
+					"value": 1300
+				},
+				"5": {
+					"type": 19,
+					"value": 1300
+				},
+				"6": {
+					"type": 20,
+					"value": 1300
+				},
+				"7": {
+					"type": 22,
+					"value": 1300
+				}
+			},
+			"rarity": 1,
+			"stage": 18
+		},
+		"19": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 756
+				},
+				"2": {
+					"type": 8,
+					"value": 302
+				},
+				"3": {
+					"type": 9,
+					"value": 6048
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1350
+				},
+				"2": {
+					"type": 15,
+					"value": 1350
+				},
+				"3": {
+					"type": 17,
+					"value": 1350
+				},
+				"4": {
+					"type": 18,
+					"value": 1350
+				},
+				"5": {
+					"type": 19,
+					"value": 1350
+				},
+				"6": {
+					"type": 20,
+					"value": 1350
+				},
+				"7": {
+					"type": 22,
+					"value": 1350
+				}
+			},
+			"rarity": 1,
+			"stage": 19
+		},
+		"2": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 82
+				},
+				"2": {
+					"type": 8,
+					"value": 32
+				},
+				"3": {
+					"type": 9,
+					"value": 662
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 500
+				},
+				"2": {
+					"type": 15,
+					"value": 500
+				},
+				"3": {
+					"type": 17,
+					"value": 500
+				},
+				"4": {
+					"type": 18,
+					"value": 500
+				},
+				"5": {
+					"type": 19,
+					"value": 500
+				},
+				"6": {
+					"type": 20,
+					"value": 500
+				},
+				"7": {
+					"type": 22,
+					"value": 500
+				}
+			},
+			"rarity": 1,
+			"stage": 2
+		},
+		"20": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 806
+				},
+				"2": {
+					"type": 8,
+					"value": 322
+				},
+				"3": {
+					"type": 9,
+					"value": 6451
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1400
+				},
+				"2": {
+					"type": 15,
+					"value": 1400
+				},
+				"3": {
+					"type": 17,
+					"value": 1400
+				},
+				"4": {
+					"type": 18,
+					"value": 1400
+				},
+				"5": {
+					"type": 19,
+					"value": 1400
+				},
+				"6": {
+					"type": 20,
+					"value": 1400
+				},
+				"7": {
+					"type": 22,
+					"value": 1400
+				}
+			},
+			"rarity": 1,
+			"stage": 20
+		},
+		"21": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 858
+				},
+				"2": {
+					"type": 8,
+					"value": 343
+				},
+				"3": {
+					"type": 9,
+					"value": 6864
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1450
+				},
+				"2": {
+					"type": 15,
+					"value": 1450
+				},
+				"3": {
+					"type": 17,
+					"value": 1450
+				},
+				"4": {
+					"type": 18,
+					"value": 1450
+				},
+				"5": {
+					"type": 19,
+					"value": 1450
+				},
+				"6": {
+					"type": 20,
+					"value": 1450
+				},
+				"7": {
+					"type": 22,
+					"value": 1450
+				}
+			},
+			"rarity": 1,
+			"stage": 21
+		},
+		"22": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 910
+				},
+				"2": {
+					"type": 8,
+					"value": 364
+				},
+				"3": {
+					"type": 9,
+					"value": 7286
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1500
+				},
+				"2": {
+					"type": 15,
+					"value": 1500
+				},
+				"3": {
+					"type": 17,
+					"value": 1500
+				},
+				"4": {
+					"type": 18,
+					"value": 1500
+				},
+				"5": {
+					"type": 19,
+					"value": 1500
+				},
+				"6": {
+					"type": 20,
+					"value": 1500
+				},
+				"7": {
+					"type": 22,
+					"value": 1500
+				}
+			},
+			"rarity": 1,
+			"stage": 22
+		},
+		"23": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 964
+				},
+				"2": {
+					"type": 8,
+					"value": 385
+				},
+				"3": {
+					"type": 9,
+					"value": 7718
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1550
+				},
+				"2": {
+					"type": 15,
+					"value": 1550
+				},
+				"3": {
+					"type": 17,
+					"value": 1550
+				},
+				"4": {
+					"type": 18,
+					"value": 1550
+				},
+				"5": {
+					"type": 19,
+					"value": 1550
+				},
+				"6": {
+					"type": 20,
+					"value": 1550
+				},
+				"7": {
+					"type": 22,
+					"value": 1550
+				}
+			},
+			"rarity": 1,
+			"stage": 23
+		},
+		"24": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1020
+				},
+				"2": {
+					"type": 8,
+					"value": 408
+				},
+				"3": {
+					"type": 9,
+					"value": 8160
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1600
+				},
+				"2": {
+					"type": 15,
+					"value": 1600
+				},
+				"3": {
+					"type": 17,
+					"value": 1600
+				},
+				"4": {
+					"type": 18,
+					"value": 1600
+				},
+				"5": {
+					"type": 19,
+					"value": 1600
+				},
+				"6": {
+					"type": 20,
+					"value": 1600
+				},
+				"7": {
+					"type": 22,
+					"value": 1600
+				}
+			},
+			"rarity": 1,
+			"stage": 24
+		},
+		"25": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1076
+				},
+				"2": {
+					"type": 8,
+					"value": 430
+				},
+				"3": {
+					"type": 9,
+					"value": 8611
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1650
+				},
+				"2": {
+					"type": 15,
+					"value": 1650
+				},
+				"3": {
+					"type": 17,
+					"value": 1650
+				},
+				"4": {
+					"type": 18,
+					"value": 1650
+				},
+				"5": {
+					"type": 19,
+					"value": 1650
+				},
+				"6": {
+					"type": 20,
+					"value": 1650
+				},
+				"7": {
+					"type": 22,
+					"value": 1650
+				}
+			},
+			"rarity": 1,
+			"stage": 25
+		},
+		"26": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1134
+				},
+				"2": {
+					"type": 8,
+					"value": 453
+				},
+				"3": {
+					"type": 9,
+					"value": 9072
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1700
+				},
+				"2": {
+					"type": 15,
+					"value": 1700
+				},
+				"3": {
+					"type": 17,
+					"value": 1700
+				},
+				"4": {
+					"type": 18,
+					"value": 1700
+				},
+				"5": {
+					"type": 19,
+					"value": 1700
+				},
+				"6": {
+					"type": 20,
+					"value": 1700
+				},
+				"7": {
+					"type": 22,
+					"value": 1700
+				}
+			},
+			"rarity": 1,
+			"stage": 26
+		},
+		"27": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1192
+				},
+				"2": {
+					"type": 8,
+					"value": 476
+				},
+				"3": {
+					"type": 9,
+					"value": 9542
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1750
+				},
+				"2": {
+					"type": 15,
+					"value": 1750
+				},
+				"3": {
+					"type": 17,
+					"value": 1750
+				},
+				"4": {
+					"type": 18,
+					"value": 1750
+				},
+				"5": {
+					"type": 19,
+					"value": 1750
+				},
+				"6": {
+					"type": 20,
+					"value": 1750
+				},
+				"7": {
+					"type": 22,
+					"value": 1750
+				}
+			},
+			"rarity": 1,
+			"stage": 27
+		},
+		"28": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1252
+				},
+				"2": {
+					"type": 8,
+					"value": 500
+				},
+				"3": {
+					"type": 9,
+					"value": 10022
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1800
+				},
+				"2": {
+					"type": 15,
+					"value": 1800
+				},
+				"3": {
+					"type": 17,
+					"value": 1800
+				},
+				"4": {
+					"type": 18,
+					"value": 1800
+				},
+				"5": {
+					"type": 19,
+					"value": 1800
+				},
+				"6": {
+					"type": 20,
+					"value": 1800
+				},
+				"7": {
+					"type": 22,
+					"value": 1800
+				}
+			},
+			"rarity": 1,
+			"stage": 28
+		},
+		"29": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1314
+				},
+				"2": {
+					"type": 8,
+					"value": 525
+				},
+				"3": {
+					"type": 9,
+					"value": 10512
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1850
+				},
+				"2": {
+					"type": 15,
+					"value": 1850
+				},
+				"3": {
+					"type": 17,
+					"value": 1850
+				},
+				"4": {
+					"type": 18,
+					"value": 1850
+				},
+				"5": {
+					"type": 19,
+					"value": 1850
+				},
+				"6": {
+					"type": 20,
+					"value": 1850
+				},
+				"7": {
+					"type": 22,
+					"value": 1850
+				}
+			},
+			"rarity": 1,
+			"stage": 29
+		},
+		"3": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 112
+				},
+				"2": {
+					"type": 8,
+					"value": 44
+				},
+				"3": {
+					"type": 9,
+					"value": 902
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 550
+				},
+				"2": {
+					"type": 15,
+					"value": 550
+				},
+				"3": {
+					"type": 17,
+					"value": 550
+				},
+				"4": {
+					"type": 18,
+					"value": 550
+				},
+				"5": {
+					"type": 19,
+					"value": 550
+				},
+				"6": {
+					"type": 20,
+					"value": 550
+				},
+				"7": {
+					"type": 22,
+					"value": 550
+				}
+			},
+			"rarity": 1,
+			"stage": 3
+		},
+		"30": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1376
+				},
+				"2": {
+					"type": 8,
+					"value": 550
+				},
+				"3": {
+					"type": 9,
+					"value": 11011
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1900
+				},
+				"2": {
+					"type": 15,
+					"value": 1900
+				},
+				"3": {
+					"type": 17,
+					"value": 1900
+				},
+				"4": {
+					"type": 18,
+					"value": 1900
+				},
+				"5": {
+					"type": 19,
+					"value": 1900
+				},
+				"6": {
+					"type": 20,
+					"value": 1900
+				},
+				"7": {
+					"type": 22,
+					"value": 1900
+				}
+			},
+			"rarity": 1,
+			"stage": 30
+		},
+		"31": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1440
+				},
+				"2": {
+					"type": 8,
+					"value": 576
+				},
+				"3": {
+					"type": 9,
+					"value": 11520
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1950
+				},
+				"2": {
+					"type": 15,
+					"value": 1950
+				},
+				"3": {
+					"type": 17,
+					"value": 1950
+				},
+				"4": {
+					"type": 18,
+					"value": 1950
+				},
+				"5": {
+					"type": 19,
+					"value": 1950
+				},
+				"6": {
+					"type": 20,
+					"value": 1950
+				},
+				"7": {
+					"type": 22,
+					"value": 1950
+				}
+			},
+			"rarity": 1,
+			"stage": 31
+		},
+		"32": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1504
+				},
+				"2": {
+					"type": 8,
+					"value": 601
+				},
+				"3": {
+					"type": 9,
+					"value": 12038
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2000
+				},
+				"2": {
+					"type": 15,
+					"value": 2000
+				},
+				"3": {
+					"type": 17,
+					"value": 2000
+				},
+				"4": {
+					"type": 18,
+					"value": 2000
+				},
+				"5": {
+					"type": 19,
+					"value": 2000
+				},
+				"6": {
+					"type": 20,
+					"value": 2000
+				},
+				"7": {
+					"type": 22,
+					"value": 2000
+				}
+			},
+			"rarity": 1,
+			"stage": 32
+		},
+		"33": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1570
+				},
+				"2": {
+					"type": 8,
+					"value": 628
+				},
+				"3": {
+					"type": 9,
+					"value": 12566
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2050
+				},
+				"2": {
+					"type": 15,
+					"value": 2050
+				},
+				"3": {
+					"type": 17,
+					"value": 2050
+				},
+				"4": {
+					"type": 18,
+					"value": 2050
+				},
+				"5": {
+					"type": 19,
+					"value": 2050
+				},
+				"6": {
+					"type": 20,
+					"value": 2050
+				},
+				"7": {
+					"type": 22,
+					"value": 2050
+				}
+			},
+			"rarity": 1,
+			"stage": 33
+		},
+		"34": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1638
+				},
+				"2": {
+					"type": 8,
+					"value": 655
+				},
+				"3": {
+					"type": 9,
+					"value": 13104
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2100
+				},
+				"2": {
+					"type": 15,
+					"value": 2100
+				},
+				"3": {
+					"type": 17,
+					"value": 2100
+				},
+				"4": {
+					"type": 18,
+					"value": 2100
+				},
+				"5": {
+					"type": 19,
+					"value": 2100
+				},
+				"6": {
+					"type": 20,
+					"value": 2100
+				},
+				"7": {
+					"type": 22,
+					"value": 2100
+				}
+			},
+			"rarity": 1,
+			"stage": 34
+		},
+		"35": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1706
+				},
+				"2": {
+					"type": 8,
+					"value": 682
+				},
+				"3": {
+					"type": 9,
+					"value": 13651
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2150
+				},
+				"2": {
+					"type": 15,
+					"value": 2150
+				},
+				"3": {
+					"type": 17,
+					"value": 2150
+				},
+				"4": {
+					"type": 18,
+					"value": 2150
+				},
+				"5": {
+					"type": 19,
+					"value": 2150
+				},
+				"6": {
+					"type": 20,
+					"value": 2150
+				},
+				"7": {
+					"type": 22,
+					"value": 2150
+				}
+			},
+			"rarity": 1,
+			"stage": 35
+		},
+		"36": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1776
+				},
+				"2": {
+					"type": 8,
+					"value": 710
+				},
+				"3": {
+					"type": 9,
+					"value": 14208
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2200
+				},
+				"2": {
+					"type": 15,
+					"value": 2200
+				},
+				"3": {
+					"type": 17,
+					"value": 2200
+				},
+				"4": {
+					"type": 18,
+					"value": 2200
+				},
+				"5": {
+					"type": 19,
+					"value": 2200
+				},
+				"6": {
+					"type": 20,
+					"value": 2200
+				},
+				"7": {
+					"type": 22,
+					"value": 2200
+				}
+			},
+			"rarity": 1,
+			"stage": 36
+		},
+		"37": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1846
+				},
+				"2": {
+					"type": 8,
+					"value": 738
+				},
+				"3": {
+					"type": 9,
+					"value": 14774
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2250
+				},
+				"2": {
+					"type": 15,
+					"value": 2250
+				},
+				"3": {
+					"type": 17,
+					"value": 2250
+				},
+				"4": {
+					"type": 18,
+					"value": 2250
+				},
+				"5": {
+					"type": 19,
+					"value": 2250
+				},
+				"6": {
+					"type": 20,
+					"value": 2250
+				},
+				"7": {
+					"type": 22,
+					"value": 2250
+				}
+			},
+			"rarity": 1,
+			"stage": 37
+		},
+		"38": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1918
+				},
+				"2": {
+					"type": 8,
+					"value": 767
+				},
+				"3": {
+					"type": 9,
+					"value": 15350
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2300
+				},
+				"2": {
+					"type": 15,
+					"value": 2300
+				},
+				"3": {
+					"type": 17,
+					"value": 2300
+				},
+				"4": {
+					"type": 18,
+					"value": 2300
+				},
+				"5": {
+					"type": 19,
+					"value": 2300
+				},
+				"6": {
+					"type": 20,
+					"value": 2300
+				},
+				"7": {
+					"type": 22,
+					"value": 2300
+				}
+			},
+			"rarity": 1,
+			"stage": 38
+		},
+		"39": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1992
+				},
+				"2": {
+					"type": 8,
+					"value": 796
+				},
+				"3": {
+					"type": 9,
+					"value": 15936
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2350
+				},
+				"2": {
+					"type": 15,
+					"value": 2350
+				},
+				"3": {
+					"type": 17,
+					"value": 2350
+				},
+				"4": {
+					"type": 18,
+					"value": 2350
+				},
+				"5": {
+					"type": 19,
+					"value": 2350
+				},
+				"6": {
+					"type": 20,
+					"value": 2350
+				},
+				"7": {
+					"type": 22,
+					"value": 2350
+				}
+			},
+			"rarity": 1,
+			"stage": 39
+		},
+		"4": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 144
+				},
+				"2": {
+					"type": 8,
+					"value": 57
+				},
+				"3": {
+					"type": 9,
+					"value": 1152
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 600
+				},
+				"2": {
+					"type": 15,
+					"value": 600
+				},
+				"3": {
+					"type": 17,
+					"value": 600
+				},
+				"4": {
+					"type": 18,
+					"value": 600
+				},
+				"5": {
+					"type": 19,
+					"value": 600
+				},
+				"6": {
+					"type": 20,
+					"value": 600
+				},
+				"7": {
+					"type": 22,
+					"value": 600
+				}
+			},
+			"rarity": 1,
+			"stage": 4
+		},
+		"5": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 176
+				},
+				"2": {
+					"type": 8,
+					"value": 70
+				},
+				"3": {
+					"type": 9,
+					"value": 1411
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 650
+				},
+				"2": {
+					"type": 15,
+					"value": 650
+				},
+				"3": {
+					"type": 17,
+					"value": 650
+				},
+				"4": {
+					"type": 18,
+					"value": 650
+				},
+				"5": {
+					"type": 19,
+					"value": 650
+				},
+				"6": {
+					"type": 20,
+					"value": 650
+				},
+				"7": {
+					"type": 22,
+					"value": 650
+				}
+			},
+			"rarity": 1,
+			"stage": 5
+		},
+		"6": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 210
+				},
+				"2": {
+					"type": 8,
+					"value": 84
+				},
+				"3": {
+					"type": 9,
+					"value": 1680
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 700
+				},
+				"2": {
+					"type": 15,
+					"value": 700
+				},
+				"3": {
+					"type": 17,
+					"value": 700
+				},
+				"4": {
+					"type": 18,
+					"value": 700
+				},
+				"5": {
+					"type": 19,
+					"value": 700
+				},
+				"6": {
+					"type": 20,
+					"value": 700
+				},
+				"7": {
+					"type": 22,
+					"value": 700
+				}
+			},
+			"rarity": 1,
+			"stage": 6
+		},
+		"7": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 244
+				},
+				"2": {
+					"type": 8,
+					"value": 97
+				},
+				"3": {
+					"type": 9,
+					"value": 1958
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 750
+				},
+				"2": {
+					"type": 15,
+					"value": 750
+				},
+				"3": {
+					"type": 17,
+					"value": 750
+				},
+				"4": {
+					"type": 18,
+					"value": 750
+				},
+				"5": {
+					"type": 19,
+					"value": 750
+				},
+				"6": {
+					"type": 20,
+					"value": 750
+				},
+				"7": {
+					"type": 22,
+					"value": 750
+				}
+			},
+			"rarity": 1,
+			"stage": 7
+		},
+		"8": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 280
+				},
+				"2": {
+					"type": 8,
+					"value": 112
+				},
+				"3": {
+					"type": 9,
+					"value": 2246
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 800
+				},
+				"2": {
+					"type": 15,
+					"value": 800
+				},
+				"3": {
+					"type": 17,
+					"value": 800
+				},
+				"4": {
+					"type": 18,
+					"value": 800
+				},
+				"5": {
+					"type": 19,
+					"value": 800
+				},
+				"6": {
+					"type": 20,
+					"value": 800
+				},
+				"7": {
+					"type": 22,
+					"value": 800
+				}
+			},
+			"rarity": 1,
+			"stage": 8
+		},
+		"9": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 318
+				},
+				"2": {
+					"type": 8,
+					"value": 127
+				},
+				"3": {
+					"type": 9,
+					"value": 2544
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 850
+				},
+				"2": {
+					"type": 15,
+					"value": 850
+				},
+				"3": {
+					"type": 17,
+					"value": 850
+				},
+				"4": {
+					"type": 18,
+					"value": 850
+				},
+				"5": {
+					"type": 19,
+					"value": 850
+				},
+				"6": {
+					"type": 20,
+					"value": 850
+				},
+				"7": {
+					"type": 22,
+					"value": 850
+				}
+			},
+			"rarity": 1,
+			"stage": 9
+		}
+	},
+	"2": {
+		"0": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 39
+				},
+				"2": {
+					"type": 8,
+					"value": 15
+				},
+				"3": {
+					"type": 9,
+					"value": 316
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 500
+				},
+				"2": {
+					"type": 15,
+					"value": 500
+				},
+				"3": {
+					"type": 17,
+					"value": 500
+				},
+				"4": {
+					"type": 18,
+					"value": 500
+				},
+				"5": {
+					"type": 19,
+					"value": 500
+				},
+				"6": {
+					"type": 20,
+					"value": 500
+				},
+				"7": {
+					"type": 22,
+					"value": 500
+				}
+			},
+			"rarity": 2,
+			"stage": 0
+		},
+		"1": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 81
+				},
+				"2": {
+					"type": 8,
+					"value": 32
+				},
+				"3": {
+					"type": 9,
+					"value": 648
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 570
+				},
+				"2": {
+					"type": 15,
+					"value": 570
+				},
+				"3": {
+					"type": 17,
+					"value": 570
+				},
+				"4": {
+					"type": 18,
+					"value": 570
+				},
+				"5": {
+					"type": 19,
+					"value": 570
+				},
+				"6": {
+					"type": 20,
+					"value": 570
+				},
+				"7": {
+					"type": 22,
+					"value": 570
+				}
+			},
+			"rarity": 2,
+			"stage": 1
+		},
+		"10": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 534
+				},
+				"2": {
+					"type": 8,
+					"value": 213
+				},
+				"3": {
+					"type": 9,
+					"value": 4276
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1200
+				},
+				"2": {
+					"type": 15,
+					"value": 1200
+				},
+				"3": {
+					"type": 17,
+					"value": 1200
+				},
+				"4": {
+					"type": 18,
+					"value": 1200
+				},
+				"5": {
+					"type": 19,
+					"value": 1200
+				},
+				"6": {
+					"type": 20,
+					"value": 1200
+				},
+				"7": {
+					"type": 22,
+					"value": 1200
+				}
+			},
+			"rarity": 2,
+			"stage": 10
+		},
+		"11": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 594
+				},
+				"2": {
+					"type": 8,
+					"value": 237
+				},
+				"3": {
+					"type": 9,
+					"value": 4752
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1270
+				},
+				"2": {
+					"type": 15,
+					"value": 1270
+				},
+				"3": {
+					"type": 17,
+					"value": 1270
+				},
+				"4": {
+					"type": 18,
+					"value": 1270
+				},
+				"5": {
+					"type": 19,
+					"value": 1270
+				},
+				"6": {
+					"type": 20,
+					"value": 1270
+				},
+				"7": {
+					"type": 22,
+					"value": 1270
+				}
+			},
+			"rarity": 2,
+			"stage": 11
+		},
+		"12": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 655
+				},
+				"2": {
+					"type": 8,
+					"value": 261
+				},
+				"3": {
+					"type": 9,
+					"value": 5241
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1340
+				},
+				"2": {
+					"type": 15,
+					"value": 1340
+				},
+				"3": {
+					"type": 17,
+					"value": 1340
+				},
+				"4": {
+					"type": 18,
+					"value": 1340
+				},
+				"5": {
+					"type": 19,
+					"value": 1340
+				},
+				"6": {
+					"type": 20,
+					"value": 1340
+				},
+				"7": {
+					"type": 22,
+					"value": 1340
+				}
+			},
+			"rarity": 2,
+			"stage": 12
+		},
+		"13": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 718
+				},
+				"2": {
+					"type": 8,
+					"value": 286
+				},
+				"3": {
+					"type": 9,
+					"value": 5745
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1410
+				},
+				"2": {
+					"type": 15,
+					"value": 1410
+				},
+				"3": {
+					"type": 17,
+					"value": 1410
+				},
+				"4": {
+					"type": 18,
+					"value": 1410
+				},
+				"5": {
+					"type": 19,
+					"value": 1410
+				},
+				"6": {
+					"type": 20,
+					"value": 1410
+				},
+				"7": {
+					"type": 22,
+					"value": 1410
+				}
+			},
+			"rarity": 2,
+			"stage": 13
+		},
+		"14": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 783
+				},
+				"2": {
+					"type": 8,
+					"value": 313
+				},
+				"3": {
+					"type": 9,
+					"value": 6264
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1480
+				},
+				"2": {
+					"type": 15,
+					"value": 1480
+				},
+				"3": {
+					"type": 17,
+					"value": 1480
+				},
+				"4": {
+					"type": 18,
+					"value": 1480
+				},
+				"5": {
+					"type": 19,
+					"value": 1480
+				},
+				"6": {
+					"type": 20,
+					"value": 1480
+				},
+				"7": {
+					"type": 22,
+					"value": 1480
+				}
+			},
+			"rarity": 2,
+			"stage": 14
+		},
+		"15": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 849
+				},
+				"2": {
+					"type": 8,
+					"value": 339
+				},
+				"3": {
+					"type": 9,
+					"value": 6796
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1550
+				},
+				"2": {
+					"type": 15,
+					"value": 1550
+				},
+				"3": {
+					"type": 17,
+					"value": 1550
+				},
+				"4": {
+					"type": 18,
+					"value": 1550
+				},
+				"5": {
+					"type": 19,
+					"value": 1550
+				},
+				"6": {
+					"type": 20,
+					"value": 1550
+				},
+				"7": {
+					"type": 22,
+					"value": 1550
+				}
+			},
+			"rarity": 2,
+			"stage": 15
+		},
+		"16": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 918
+				},
+				"2": {
+					"type": 8,
+					"value": 367
+				},
+				"3": {
+					"type": 9,
+					"value": 7344
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1620
+				},
+				"2": {
+					"type": 15,
+					"value": 1620
+				},
+				"3": {
+					"type": 17,
+					"value": 1620
+				},
+				"4": {
+					"type": 18,
+					"value": 1620
+				},
+				"5": {
+					"type": 19,
+					"value": 1620
+				},
+				"6": {
+					"type": 20,
+					"value": 1620
+				},
+				"7": {
+					"type": 22,
+					"value": 1620
+				}
+			},
+			"rarity": 2,
+			"stage": 16
+		},
+		"17": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 988
+				},
+				"2": {
+					"type": 8,
+					"value": 394
+				},
+				"3": {
+					"type": 9,
+					"value": 7905
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1690
+				},
+				"2": {
+					"type": 15,
+					"value": 1690
+				},
+				"3": {
+					"type": 17,
+					"value": 1690
+				},
+				"4": {
+					"type": 18,
+					"value": 1690
+				},
+				"5": {
+					"type": 19,
+					"value": 1690
+				},
+				"6": {
+					"type": 20,
+					"value": 1690
+				},
+				"7": {
+					"type": 22,
+					"value": 1690
+				}
+			},
+			"rarity": 2,
+			"stage": 17
+		},
+		"18": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1060
+				},
+				"2": {
+					"type": 8,
+					"value": 423
+				},
+				"3": {
+					"type": 9,
+					"value": 8481
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1760
+				},
+				"2": {
+					"type": 15,
+					"value": 1760
+				},
+				"3": {
+					"type": 17,
+					"value": 1760
+				},
+				"4": {
+					"type": 18,
+					"value": 1760
+				},
+				"5": {
+					"type": 19,
+					"value": 1760
+				},
+				"6": {
+					"type": 20,
+					"value": 1760
+				},
+				"7": {
+					"type": 22,
+					"value": 1760
+				}
+			},
+			"rarity": 2,
+			"stage": 18
+		},
+		"19": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1134
+				},
+				"2": {
+					"type": 8,
+					"value": 453
+				},
+				"3": {
+					"type": 9,
+					"value": 9072
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1830
+				},
+				"2": {
+					"type": 15,
+					"value": 1830
+				},
+				"3": {
+					"type": 17,
+					"value": 1830
+				},
+				"4": {
+					"type": 18,
+					"value": 1830
+				},
+				"5": {
+					"type": 19,
+					"value": 1830
+				},
+				"6": {
+					"type": 20,
+					"value": 1830
+				},
+				"7": {
+					"type": 22,
+					"value": 1830
+				}
+			},
+			"rarity": 2,
+			"stage": 19
+		},
+		"2": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 124
+				},
+				"2": {
+					"type": 8,
+					"value": 49
+				},
+				"3": {
+					"type": 9,
+					"value": 993
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 640
+				},
+				"2": {
+					"type": 15,
+					"value": 640
+				},
+				"3": {
+					"type": 17,
+					"value": 640
+				},
+				"4": {
+					"type": 18,
+					"value": 640
+				},
+				"5": {
+					"type": 19,
+					"value": 640
+				},
+				"6": {
+					"type": 20,
+					"value": 640
+				},
+				"7": {
+					"type": 22,
+					"value": 640
+				}
+			},
+			"rarity": 2,
+			"stage": 2
+		},
+		"20": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1209
+				},
+				"2": {
+					"type": 8,
+					"value": 483
+				},
+				"3": {
+					"type": 9,
+					"value": 9676
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1900
+				},
+				"2": {
+					"type": 15,
+					"value": 1900
+				},
+				"3": {
+					"type": 17,
+					"value": 1900
+				},
+				"4": {
+					"type": 18,
+					"value": 1900
+				},
+				"5": {
+					"type": 19,
+					"value": 1900
+				},
+				"6": {
+					"type": 20,
+					"value": 1900
+				},
+				"7": {
+					"type": 22,
+					"value": 1900
+				}
+			},
+			"rarity": 2,
+			"stage": 20
+		},
+		"21": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1287
+				},
+				"2": {
+					"type": 8,
+					"value": 514
+				},
+				"3": {
+					"type": 9,
+					"value": 10296
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1970
+				},
+				"2": {
+					"type": 15,
+					"value": 1970
+				},
+				"3": {
+					"type": 17,
+					"value": 1970
+				},
+				"4": {
+					"type": 18,
+					"value": 1970
+				},
+				"5": {
+					"type": 19,
+					"value": 1970
+				},
+				"6": {
+					"type": 20,
+					"value": 1970
+				},
+				"7": {
+					"type": 22,
+					"value": 1970
+				}
+			},
+			"rarity": 2,
+			"stage": 21
+		},
+		"22": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1366
+				},
+				"2": {
+					"type": 8,
+					"value": 546
+				},
+				"3": {
+					"type": 9,
+					"value": 10929
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2040
+				},
+				"2": {
+					"type": 15,
+					"value": 2040
+				},
+				"3": {
+					"type": 17,
+					"value": 2040
+				},
+				"4": {
+					"type": 18,
+					"value": 2040
+				},
+				"5": {
+					"type": 19,
+					"value": 2040
+				},
+				"6": {
+					"type": 20,
+					"value": 2040
+				},
+				"7": {
+					"type": 22,
+					"value": 2040
+				}
+			},
+			"rarity": 2,
+			"stage": 22
+		},
+		"23": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1447
+				},
+				"2": {
+					"type": 8,
+					"value": 578
+				},
+				"3": {
+					"type": 9,
+					"value": 11577
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2110
+				},
+				"2": {
+					"type": 15,
+					"value": 2110
+				},
+				"3": {
+					"type": 17,
+					"value": 2110
+				},
+				"4": {
+					"type": 18,
+					"value": 2110
+				},
+				"5": {
+					"type": 19,
+					"value": 2110
+				},
+				"6": {
+					"type": 20,
+					"value": 2110
+				},
+				"7": {
+					"type": 22,
+					"value": 2110
+				}
+			},
+			"rarity": 2,
+			"stage": 23
+		},
+		"24": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1530
+				},
+				"2": {
+					"type": 8,
+					"value": 612
+				},
+				"3": {
+					"type": 9,
+					"value": 12240
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2180
+				},
+				"2": {
+					"type": 15,
+					"value": 2180
+				},
+				"3": {
+					"type": 17,
+					"value": 2180
+				},
+				"4": {
+					"type": 18,
+					"value": 2180
+				},
+				"5": {
+					"type": 19,
+					"value": 2180
+				},
+				"6": {
+					"type": 20,
+					"value": 2180
+				},
+				"7": {
+					"type": 22,
+					"value": 2180
+				}
+			},
+			"rarity": 2,
+			"stage": 24
+		},
+		"25": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1614
+				},
+				"2": {
+					"type": 8,
+					"value": 645
+				},
+				"3": {
+					"type": 9,
+					"value": 12916
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2250
+				},
+				"2": {
+					"type": 15,
+					"value": 2250
+				},
+				"3": {
+					"type": 17,
+					"value": 2250
+				},
+				"4": {
+					"type": 18,
+					"value": 2250
+				},
+				"5": {
+					"type": 19,
+					"value": 2250
+				},
+				"6": {
+					"type": 20,
+					"value": 2250
+				},
+				"7": {
+					"type": 22,
+					"value": 2250
+				}
+			},
+			"rarity": 2,
+			"stage": 25
+		},
+		"26": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1701
+				},
+				"2": {
+					"type": 8,
+					"value": 680
+				},
+				"3": {
+					"type": 9,
+					"value": 13608
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2320
+				},
+				"2": {
+					"type": 15,
+					"value": 2320
+				},
+				"3": {
+					"type": 17,
+					"value": 2320
+				},
+				"4": {
+					"type": 18,
+					"value": 2320
+				},
+				"5": {
+					"type": 19,
+					"value": 2320
+				},
+				"6": {
+					"type": 20,
+					"value": 2320
+				},
+				"7": {
+					"type": 22,
+					"value": 2320
+				}
+			},
+			"rarity": 2,
+			"stage": 26
+		},
+		"27": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1789
+				},
+				"2": {
+					"type": 8,
+					"value": 715
+				},
+				"3": {
+					"type": 9,
+					"value": 14313
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2390
+				},
+				"2": {
+					"type": 15,
+					"value": 2390
+				},
+				"3": {
+					"type": 17,
+					"value": 2390
+				},
+				"4": {
+					"type": 18,
+					"value": 2390
+				},
+				"5": {
+					"type": 19,
+					"value": 2390
+				},
+				"6": {
+					"type": 20,
+					"value": 2390
+				},
+				"7": {
+					"type": 22,
+					"value": 2390
+				}
+			},
+			"rarity": 2,
+			"stage": 27
+		},
+		"28": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1879
+				},
+				"2": {
+					"type": 8,
+					"value": 751
+				},
+				"3": {
+					"type": 9,
+					"value": 15033
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2460
+				},
+				"2": {
+					"type": 15,
+					"value": 2460
+				},
+				"3": {
+					"type": 17,
+					"value": 2460
+				},
+				"4": {
+					"type": 18,
+					"value": 2460
+				},
+				"5": {
+					"type": 19,
+					"value": 2460
+				},
+				"6": {
+					"type": 20,
+					"value": 2460
+				},
+				"7": {
+					"type": 22,
+					"value": 2460
+				}
+			},
+			"rarity": 2,
+			"stage": 28
+		},
+		"29": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1971
+				},
+				"2": {
+					"type": 8,
+					"value": 788
+				},
+				"3": {
+					"type": 9,
+					"value": 15768
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2530
+				},
+				"2": {
+					"type": 15,
+					"value": 2530
+				},
+				"3": {
+					"type": 17,
+					"value": 2530
+				},
+				"4": {
+					"type": 18,
+					"value": 2530
+				},
+				"5": {
+					"type": 19,
+					"value": 2530
+				},
+				"6": {
+					"type": 20,
+					"value": 2530
+				},
+				"7": {
+					"type": 22,
+					"value": 2530
+				}
+			},
+			"rarity": 2,
+			"stage": 29
+		},
+		"3": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 169
+				},
+				"2": {
+					"type": 8,
+					"value": 67
+				},
+				"3": {
+					"type": 9,
+					"value": 1353
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 710
+				},
+				"2": {
+					"type": 15,
+					"value": 710
+				},
+				"3": {
+					"type": 17,
+					"value": 710
+				},
+				"4": {
+					"type": 18,
+					"value": 710
+				},
+				"5": {
+					"type": 19,
+					"value": 710
+				},
+				"6": {
+					"type": 20,
+					"value": 710
+				},
+				"7": {
+					"type": 22,
+					"value": 710
+				}
+			},
+			"rarity": 2,
+			"stage": 3
+		},
+		"30": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2064
+				},
+				"2": {
+					"type": 8,
+					"value": 825
+				},
+				"3": {
+					"type": 9,
+					"value": 16516
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2600
+				},
+				"2": {
+					"type": 15,
+					"value": 2600
+				},
+				"3": {
+					"type": 17,
+					"value": 2600
+				},
+				"4": {
+					"type": 18,
+					"value": 2600
+				},
+				"5": {
+					"type": 19,
+					"value": 2600
+				},
+				"6": {
+					"type": 20,
+					"value": 2600
+				},
+				"7": {
+					"type": 22,
+					"value": 2600
+				}
+			},
+			"rarity": 2,
+			"stage": 30
+		},
+		"31": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2160
+				},
+				"2": {
+					"type": 8,
+					"value": 864
+				},
+				"3": {
+					"type": 9,
+					"value": 17280
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2670
+				},
+				"2": {
+					"type": 15,
+					"value": 2670
+				},
+				"3": {
+					"type": 17,
+					"value": 2670
+				},
+				"4": {
+					"type": 18,
+					"value": 2670
+				},
+				"5": {
+					"type": 19,
+					"value": 2670
+				},
+				"6": {
+					"type": 20,
+					"value": 2670
+				},
+				"7": {
+					"type": 22,
+					"value": 2670
+				}
+			},
+			"rarity": 2,
+			"stage": 31
+		},
+		"32": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2257
+				},
+				"2": {
+					"type": 8,
+					"value": 902
+				},
+				"3": {
+					"type": 9,
+					"value": 18057
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2740
+				},
+				"2": {
+					"type": 15,
+					"value": 2740
+				},
+				"3": {
+					"type": 17,
+					"value": 2740
+				},
+				"4": {
+					"type": 18,
+					"value": 2740
+				},
+				"5": {
+					"type": 19,
+					"value": 2740
+				},
+				"6": {
+					"type": 20,
+					"value": 2740
+				},
+				"7": {
+					"type": 22,
+					"value": 2740
+				}
+			},
+			"rarity": 2,
+			"stage": 32
+		},
+		"33": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2356
+				},
+				"2": {
+					"type": 8,
+					"value": 942
+				},
+				"3": {
+					"type": 9,
+					"value": 18849
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2810
+				},
+				"2": {
+					"type": 15,
+					"value": 2810
+				},
+				"3": {
+					"type": 17,
+					"value": 2810
+				},
+				"4": {
+					"type": 18,
+					"value": 2810
+				},
+				"5": {
+					"type": 19,
+					"value": 2810
+				},
+				"6": {
+					"type": 20,
+					"value": 2810
+				},
+				"7": {
+					"type": 22,
+					"value": 2810
+				}
+			},
+			"rarity": 2,
+			"stage": 33
+		},
+		"34": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2457
+				},
+				"2": {
+					"type": 8,
+					"value": 982
+				},
+				"3": {
+					"type": 9,
+					"value": 19656
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2880
+				},
+				"2": {
+					"type": 15,
+					"value": 2880
+				},
+				"3": {
+					"type": 17,
+					"value": 2880
+				},
+				"4": {
+					"type": 18,
+					"value": 2880
+				},
+				"5": {
+					"type": 19,
+					"value": 2880
+				},
+				"6": {
+					"type": 20,
+					"value": 2880
+				},
+				"7": {
+					"type": 22,
+					"value": 2880
+				}
+			},
+			"rarity": 2,
+			"stage": 34
+		},
+		"35": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2559
+				},
+				"2": {
+					"type": 8,
+					"value": 1023
+				},
+				"3": {
+					"type": 9,
+					"value": 20476
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2950
+				},
+				"2": {
+					"type": 15,
+					"value": 2950
+				},
+				"3": {
+					"type": 17,
+					"value": 2950
+				},
+				"4": {
+					"type": 18,
+					"value": 2950
+				},
+				"5": {
+					"type": 19,
+					"value": 2950
+				},
+				"6": {
+					"type": 20,
+					"value": 2950
+				},
+				"7": {
+					"type": 22,
+					"value": 2950
+				}
+			},
+			"rarity": 2,
+			"stage": 35
+		},
+		"36": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2664
+				},
+				"2": {
+					"type": 8,
+					"value": 1065
+				},
+				"3": {
+					"type": 9,
+					"value": 21312
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3020
+				},
+				"2": {
+					"type": 15,
+					"value": 3020
+				},
+				"3": {
+					"type": 17,
+					"value": 3020
+				},
+				"4": {
+					"type": 18,
+					"value": 3020
+				},
+				"5": {
+					"type": 19,
+					"value": 3020
+				},
+				"6": {
+					"type": 20,
+					"value": 3020
+				},
+				"7": {
+					"type": 22,
+					"value": 3020
+				}
+			},
+			"rarity": 2,
+			"stage": 36
+		},
+		"37": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2770
+				},
+				"2": {
+					"type": 8,
+					"value": 1107
+				},
+				"3": {
+					"type": 9,
+					"value": 22161
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3090
+				},
+				"2": {
+					"type": 15,
+					"value": 3090
+				},
+				"3": {
+					"type": 17,
+					"value": 3090
+				},
+				"4": {
+					"type": 18,
+					"value": 3090
+				},
+				"5": {
+					"type": 19,
+					"value": 3090
+				},
+				"6": {
+					"type": 20,
+					"value": 3090
+				},
+				"7": {
+					"type": 22,
+					"value": 3090
+				}
+			},
+			"rarity": 2,
+			"stage": 37
+		},
+		"38": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2878
+				},
+				"2": {
+					"type": 8,
+					"value": 1150
+				},
+				"3": {
+					"type": 9,
+					"value": 23025
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3160
+				},
+				"2": {
+					"type": 15,
+					"value": 3160
+				},
+				"3": {
+					"type": 17,
+					"value": 3160
+				},
+				"4": {
+					"type": 18,
+					"value": 3160
+				},
+				"5": {
+					"type": 19,
+					"value": 3160
+				},
+				"6": {
+					"type": 20,
+					"value": 3160
+				},
+				"7": {
+					"type": 22,
+					"value": 3160
+				}
+			},
+			"rarity": 2,
+			"stage": 38
+		},
+		"39": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2988
+				},
+				"2": {
+					"type": 8,
+					"value": 1195
+				},
+				"3": {
+					"type": 9,
+					"value": 23904
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3230
+				},
+				"2": {
+					"type": 15,
+					"value": 3230
+				},
+				"3": {
+					"type": 17,
+					"value": 3230
+				},
+				"4": {
+					"type": 18,
+					"value": 3230
+				},
+				"5": {
+					"type": 19,
+					"value": 3230
+				},
+				"6": {
+					"type": 20,
+					"value": 3230
+				},
+				"7": {
+					"type": 22,
+					"value": 3230
+				}
+			},
+			"rarity": 2,
+			"stage": 39
+		},
+		"4": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 216
+				},
+				"2": {
+					"type": 8,
+					"value": 86
+				},
+				"3": {
+					"type": 9,
+					"value": 1728
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 780
+				},
+				"2": {
+					"type": 15,
+					"value": 780
+				},
+				"3": {
+					"type": 17,
+					"value": 780
+				},
+				"4": {
+					"type": 18,
+					"value": 780
+				},
+				"5": {
+					"type": 19,
+					"value": 780
+				},
+				"6": {
+					"type": 20,
+					"value": 780
+				},
+				"7": {
+					"type": 22,
+					"value": 780
+				}
+			},
+			"rarity": 2,
+			"stage": 4
+		},
+		"5": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 264
+				},
+				"2": {
+					"type": 8,
+					"value": 105
+				},
+				"3": {
+					"type": 9,
+					"value": 2116
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 850
+				},
+				"2": {
+					"type": 15,
+					"value": 850
+				},
+				"3": {
+					"type": 17,
+					"value": 850
+				},
+				"4": {
+					"type": 18,
+					"value": 850
+				},
+				"5": {
+					"type": 19,
+					"value": 850
+				},
+				"6": {
+					"type": 20,
+					"value": 850
+				},
+				"7": {
+					"type": 22,
+					"value": 850
+				}
+			},
+			"rarity": 2,
+			"stage": 5
+		},
+		"6": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 315
+				},
+				"2": {
+					"type": 8,
+					"value": 126
+				},
+				"3": {
+					"type": 9,
+					"value": 2520
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 920
+				},
+				"2": {
+					"type": 15,
+					"value": 920
+				},
+				"3": {
+					"type": 17,
+					"value": 920
+				},
+				"4": {
+					"type": 18,
+					"value": 920
+				},
+				"5": {
+					"type": 19,
+					"value": 920
+				},
+				"6": {
+					"type": 20,
+					"value": 920
+				},
+				"7": {
+					"type": 22,
+					"value": 920
+				}
+			},
+			"rarity": 2,
+			"stage": 6
+		},
+		"7": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 367
+				},
+				"2": {
+					"type": 8,
+					"value": 146
+				},
+				"3": {
+					"type": 9,
+					"value": 2937
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 990
+				},
+				"2": {
+					"type": 15,
+					"value": 990
+				},
+				"3": {
+					"type": 17,
+					"value": 990
+				},
+				"4": {
+					"type": 18,
+					"value": 990
+				},
+				"5": {
+					"type": 19,
+					"value": 990
+				},
+				"6": {
+					"type": 20,
+					"value": 990
+				},
+				"7": {
+					"type": 22,
+					"value": 990
+				}
+			},
+			"rarity": 2,
+			"stage": 7
+		},
+		"8": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 421
+				},
+				"2": {
+					"type": 8,
+					"value": 168
+				},
+				"3": {
+					"type": 9,
+					"value": 3369
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1060
+				},
+				"2": {
+					"type": 15,
+					"value": 1060
+				},
+				"3": {
+					"type": 17,
+					"value": 1060
+				},
+				"4": {
+					"type": 18,
+					"value": 1060
+				},
+				"5": {
+					"type": 19,
+					"value": 1060
+				},
+				"6": {
+					"type": 20,
+					"value": 1060
+				},
+				"7": {
+					"type": 22,
+					"value": 1060
+				}
+			},
+			"rarity": 2,
+			"stage": 8
+		},
+		"9": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 477
+				},
+				"2": {
+					"type": 8,
+					"value": 190
+				},
+				"3": {
+					"type": 9,
+					"value": 3816
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1130
+				},
+				"2": {
+					"type": 15,
+					"value": 1130
+				},
+				"3": {
+					"type": 17,
+					"value": 1130
+				},
+				"4": {
+					"type": 18,
+					"value": 1130
+				},
+				"5": {
+					"type": 19,
+					"value": 1130
+				},
+				"6": {
+					"type": 20,
+					"value": 1130
+				},
+				"7": {
+					"type": 22,
+					"value": 1130
+				}
+			},
+			"rarity": 2,
+			"stage": 9
+		}
+	},
+	"3": {
+		"0": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 52
+				},
+				"2": {
+					"type": 8,
+					"value": 20
+				},
+				"3": {
+					"type": 9,
+					"value": 422
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 600
+				},
+				"2": {
+					"type": 15,
+					"value": 600
+				},
+				"3": {
+					"type": 17,
+					"value": 600
+				},
+				"4": {
+					"type": 18,
+					"value": 600
+				},
+				"5": {
+					"type": 19,
+					"value": 600
+				},
+				"6": {
+					"type": 20,
+					"value": 600
+				},
+				"7": {
+					"type": 22,
+					"value": 600
+				}
+			},
+			"rarity": 3,
+			"stage": 0
+		},
+		"1": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 108
+				},
+				"2": {
+					"type": 8,
+					"value": 43
+				},
+				"3": {
+					"type": 9,
+					"value": 864
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 690
+				},
+				"2": {
+					"type": 15,
+					"value": 690
+				},
+				"3": {
+					"type": 17,
+					"value": 690
+				},
+				"4": {
+					"type": 18,
+					"value": 690
+				},
+				"5": {
+					"type": 19,
+					"value": 690
+				},
+				"6": {
+					"type": 20,
+					"value": 690
+				},
+				"7": {
+					"type": 22,
+					"value": 690
+				}
+			},
+			"rarity": 3,
+			"stage": 1
+		},
+		"10": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 712
+				},
+				"2": {
+					"type": 8,
+					"value": 284
+				},
+				"3": {
+					"type": 9,
+					"value": 5702
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1500
+				},
+				"2": {
+					"type": 15,
+					"value": 1500
+				},
+				"3": {
+					"type": 17,
+					"value": 1500
+				},
+				"4": {
+					"type": 18,
+					"value": 1500
+				},
+				"5": {
+					"type": 19,
+					"value": 1500
+				},
+				"6": {
+					"type": 20,
+					"value": 1500
+				},
+				"7": {
+					"type": 22,
+					"value": 1500
+				}
+			},
+			"rarity": 3,
+			"stage": 10
+		},
+		"11": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 792
+				},
+				"2": {
+					"type": 8,
+					"value": 316
+				},
+				"3": {
+					"type": 9,
+					"value": 6336
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1590
+				},
+				"2": {
+					"type": 15,
+					"value": 1590
+				},
+				"3": {
+					"type": 17,
+					"value": 1590
+				},
+				"4": {
+					"type": 18,
+					"value": 1590
+				},
+				"5": {
+					"type": 19,
+					"value": 1590
+				},
+				"6": {
+					"type": 20,
+					"value": 1590
+				},
+				"7": {
+					"type": 22,
+					"value": 1590
+				}
+			},
+			"rarity": 3,
+			"stage": 11
+		},
+		"12": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 873
+				},
+				"2": {
+					"type": 8,
+					"value": 348
+				},
+				"3": {
+					"type": 9,
+					"value": 6988
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1680
+				},
+				"2": {
+					"type": 15,
+					"value": 1680
+				},
+				"3": {
+					"type": 17,
+					"value": 1680
+				},
+				"4": {
+					"type": 18,
+					"value": 1680
+				},
+				"5": {
+					"type": 19,
+					"value": 1680
+				},
+				"6": {
+					"type": 20,
+					"value": 1680
+				},
+				"7": {
+					"type": 22,
+					"value": 1680
+				}
+			},
+			"rarity": 3,
+			"stage": 12
+		},
+		"13": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 957
+				},
+				"2": {
+					"type": 8,
+					"value": 382
+				},
+				"3": {
+					"type": 9,
+					"value": 7660
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1770
+				},
+				"2": {
+					"type": 15,
+					"value": 1770
+				},
+				"3": {
+					"type": 17,
+					"value": 1770
+				},
+				"4": {
+					"type": 18,
+					"value": 1770
+				},
+				"5": {
+					"type": 19,
+					"value": 1770
+				},
+				"6": {
+					"type": 20,
+					"value": 1770
+				},
+				"7": {
+					"type": 22,
+					"value": 1770
+				}
+			},
+			"rarity": 3,
+			"stage": 13
+		},
+		"14": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1044
+				},
+				"2": {
+					"type": 8,
+					"value": 417
+				},
+				"3": {
+					"type": 9,
+					"value": 8352
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1860
+				},
+				"2": {
+					"type": 15,
+					"value": 1860
+				},
+				"3": {
+					"type": 17,
+					"value": 1860
+				},
+				"4": {
+					"type": 18,
+					"value": 1860
+				},
+				"5": {
+					"type": 19,
+					"value": 1860
+				},
+				"6": {
+					"type": 20,
+					"value": 1860
+				},
+				"7": {
+					"type": 22,
+					"value": 1860
+				}
+			},
+			"rarity": 3,
+			"stage": 14
+		},
+		"15": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1132
+				},
+				"2": {
+					"type": 8,
+					"value": 452
+				},
+				"3": {
+					"type": 9,
+					"value": 9062
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1950
+				},
+				"2": {
+					"type": 15,
+					"value": 1950
+				},
+				"3": {
+					"type": 17,
+					"value": 1950
+				},
+				"4": {
+					"type": 18,
+					"value": 1950
+				},
+				"5": {
+					"type": 19,
+					"value": 1950
+				},
+				"6": {
+					"type": 20,
+					"value": 1950
+				},
+				"7": {
+					"type": 22,
+					"value": 1950
+				}
+			},
+			"rarity": 3,
+			"stage": 15
+		},
+		"16": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1224
+				},
+				"2": {
+					"type": 8,
+					"value": 489
+				},
+				"3": {
+					"type": 9,
+					"value": 9792
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2040
+				},
+				"2": {
+					"type": 15,
+					"value": 2040
+				},
+				"3": {
+					"type": 17,
+					"value": 2040
+				},
+				"4": {
+					"type": 18,
+					"value": 2040
+				},
+				"5": {
+					"type": 19,
+					"value": 2040
+				},
+				"6": {
+					"type": 20,
+					"value": 2040
+				},
+				"7": {
+					"type": 22,
+					"value": 2040
+				}
+			},
+			"rarity": 3,
+			"stage": 16
+		},
+		"17": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1317
+				},
+				"2": {
+					"type": 8,
+					"value": 526
+				},
+				"3": {
+					"type": 9,
+					"value": 10540
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2130
+				},
+				"2": {
+					"type": 15,
+					"value": 2130
+				},
+				"3": {
+					"type": 17,
+					"value": 2130
+				},
+				"4": {
+					"type": 18,
+					"value": 2130
+				},
+				"5": {
+					"type": 19,
+					"value": 2130
+				},
+				"6": {
+					"type": 20,
+					"value": 2130
+				},
+				"7": {
+					"type": 22,
+					"value": 2130
+				}
+			},
+			"rarity": 3,
+			"stage": 17
+		},
+		"18": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1413
+				},
+				"2": {
+					"type": 8,
+					"value": 564
+				},
+				"3": {
+					"type": 9,
+					"value": 11308
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2220
+				},
+				"2": {
+					"type": 15,
+					"value": 2220
+				},
+				"3": {
+					"type": 17,
+					"value": 2220
+				},
+				"4": {
+					"type": 18,
+					"value": 2220
+				},
+				"5": {
+					"type": 19,
+					"value": 2220
+				},
+				"6": {
+					"type": 20,
+					"value": 2220
+				},
+				"7": {
+					"type": 22,
+					"value": 2220
+				}
+			},
+			"rarity": 3,
+			"stage": 18
+		},
+		"19": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1512
+				},
+				"2": {
+					"type": 8,
+					"value": 604
+				},
+				"3": {
+					"type": 9,
+					"value": 12096
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2310
+				},
+				"2": {
+					"type": 15,
+					"value": 2310
+				},
+				"3": {
+					"type": 17,
+					"value": 2310
+				},
+				"4": {
+					"type": 18,
+					"value": 2310
+				},
+				"5": {
+					"type": 19,
+					"value": 2310
+				},
+				"6": {
+					"type": 20,
+					"value": 2310
+				},
+				"7": {
+					"type": 22,
+					"value": 2310
+				}
+			},
+			"rarity": 3,
+			"stage": 19
+		},
+		"2": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 165
+				},
+				"2": {
+					"type": 8,
+					"value": 65
+				},
+				"3": {
+					"type": 9,
+					"value": 1324
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 780
+				},
+				"2": {
+					"type": 15,
+					"value": 780
+				},
+				"3": {
+					"type": 17,
+					"value": 780
+				},
+				"4": {
+					"type": 18,
+					"value": 780
+				},
+				"5": {
+					"type": 19,
+					"value": 780
+				},
+				"6": {
+					"type": 20,
+					"value": 780
+				},
+				"7": {
+					"type": 22,
+					"value": 780
+				}
+			},
+			"rarity": 3,
+			"stage": 2
+		},
+		"20": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1612
+				},
+				"2": {
+					"type": 8,
+					"value": 644
+				},
+				"3": {
+					"type": 9,
+					"value": 12902
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2400
+				},
+				"2": {
+					"type": 15,
+					"value": 2400
+				},
+				"3": {
+					"type": 17,
+					"value": 2400
+				},
+				"4": {
+					"type": 18,
+					"value": 2400
+				},
+				"5": {
+					"type": 19,
+					"value": 2400
+				},
+				"6": {
+					"type": 20,
+					"value": 2400
+				},
+				"7": {
+					"type": 22,
+					"value": 2400
+				}
+			},
+			"rarity": 3,
+			"stage": 20
+		},
+		"21": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1716
+				},
+				"2": {
+					"type": 8,
+					"value": 686
+				},
+				"3": {
+					"type": 9,
+					"value": 13728
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2490
+				},
+				"2": {
+					"type": 15,
+					"value": 2490
+				},
+				"3": {
+					"type": 17,
+					"value": 2490
+				},
+				"4": {
+					"type": 18,
+					"value": 2490
+				},
+				"5": {
+					"type": 19,
+					"value": 2490
+				},
+				"6": {
+					"type": 20,
+					"value": 2490
+				},
+				"7": {
+					"type": 22,
+					"value": 2490
+				}
+			},
+			"rarity": 3,
+			"stage": 21
+		},
+		"22": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1821
+				},
+				"2": {
+					"type": 8,
+					"value": 728
+				},
+				"3": {
+					"type": 9,
+					"value": 14572
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2580
+				},
+				"2": {
+					"type": 15,
+					"value": 2580
+				},
+				"3": {
+					"type": 17,
+					"value": 2580
+				},
+				"4": {
+					"type": 18,
+					"value": 2580
+				},
+				"5": {
+					"type": 19,
+					"value": 2580
+				},
+				"6": {
+					"type": 20,
+					"value": 2580
+				},
+				"7": {
+					"type": 22,
+					"value": 2580
+				}
+			},
+			"rarity": 3,
+			"stage": 22
+		},
+		"23": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1929
+				},
+				"2": {
+					"type": 8,
+					"value": 771
+				},
+				"3": {
+					"type": 9,
+					"value": 15436
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2670
+				},
+				"2": {
+					"type": 15,
+					"value": 2670
+				},
+				"3": {
+					"type": 17,
+					"value": 2670
+				},
+				"4": {
+					"type": 18,
+					"value": 2670
+				},
+				"5": {
+					"type": 19,
+					"value": 2670
+				},
+				"6": {
+					"type": 20,
+					"value": 2670
+				},
+				"7": {
+					"type": 22,
+					"value": 2670
+				}
+			},
+			"rarity": 3,
+			"stage": 23
+		},
+		"24": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2040
+				},
+				"2": {
+					"type": 8,
+					"value": 816
+				},
+				"3": {
+					"type": 9,
+					"value": 16320
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2760
+				},
+				"2": {
+					"type": 15,
+					"value": 2760
+				},
+				"3": {
+					"type": 17,
+					"value": 2760
+				},
+				"4": {
+					"type": 18,
+					"value": 2760
+				},
+				"5": {
+					"type": 19,
+					"value": 2760
+				},
+				"6": {
+					"type": 20,
+					"value": 2760
+				},
+				"7": {
+					"type": 22,
+					"value": 2760
+				}
+			},
+			"rarity": 3,
+			"stage": 24
+		},
+		"25": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2152
+				},
+				"2": {
+					"type": 8,
+					"value": 860
+				},
+				"3": {
+					"type": 9,
+					"value": 17222
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2850
+				},
+				"2": {
+					"type": 15,
+					"value": 2850
+				},
+				"3": {
+					"type": 17,
+					"value": 2850
+				},
+				"4": {
+					"type": 18,
+					"value": 2850
+				},
+				"5": {
+					"type": 19,
+					"value": 2850
+				},
+				"6": {
+					"type": 20,
+					"value": 2850
+				},
+				"7": {
+					"type": 22,
+					"value": 2850
+				}
+			},
+			"rarity": 3,
+			"stage": 25
+		},
+		"26": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2268
+				},
+				"2": {
+					"type": 8,
+					"value": 907
+				},
+				"3": {
+					"type": 9,
+					"value": 18144
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2940
+				},
+				"2": {
+					"type": 15,
+					"value": 2940
+				},
+				"3": {
+					"type": 17,
+					"value": 2940
+				},
+				"4": {
+					"type": 18,
+					"value": 2940
+				},
+				"5": {
+					"type": 19,
+					"value": 2940
+				},
+				"6": {
+					"type": 20,
+					"value": 2940
+				},
+				"7": {
+					"type": 22,
+					"value": 2940
+				}
+			},
+			"rarity": 3,
+			"stage": 26
+		},
+		"27": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2385
+				},
+				"2": {
+					"type": 8,
+					"value": 953
+				},
+				"3": {
+					"type": 9,
+					"value": 19084
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3030
+				},
+				"2": {
+					"type": 15,
+					"value": 3030
+				},
+				"3": {
+					"type": 17,
+					"value": 3030
+				},
+				"4": {
+					"type": 18,
+					"value": 3030
+				},
+				"5": {
+					"type": 19,
+					"value": 3030
+				},
+				"6": {
+					"type": 20,
+					"value": 3030
+				},
+				"7": {
+					"type": 22,
+					"value": 3030
+				}
+			},
+			"rarity": 3,
+			"stage": 27
+		},
+		"28": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2505
+				},
+				"2": {
+					"type": 8,
+					"value": 1001
+				},
+				"3": {
+					"type": 9,
+					"value": 20044
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3120
+				},
+				"2": {
+					"type": 15,
+					"value": 3120
+				},
+				"3": {
+					"type": 17,
+					"value": 3120
+				},
+				"4": {
+					"type": 18,
+					"value": 3120
+				},
+				"5": {
+					"type": 19,
+					"value": 3120
+				},
+				"6": {
+					"type": 20,
+					"value": 3120
+				},
+				"7": {
+					"type": 22,
+					"value": 3120
+				}
+			},
+			"rarity": 3,
+			"stage": 28
+		},
+		"29": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2628
+				},
+				"2": {
+					"type": 8,
+					"value": 1051
+				},
+				"3": {
+					"type": 9,
+					"value": 21024
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3210
+				},
+				"2": {
+					"type": 15,
+					"value": 3210
+				},
+				"3": {
+					"type": 17,
+					"value": 3210
+				},
+				"4": {
+					"type": 18,
+					"value": 3210
+				},
+				"5": {
+					"type": 19,
+					"value": 3210
+				},
+				"6": {
+					"type": 20,
+					"value": 3210
+				},
+				"7": {
+					"type": 22,
+					"value": 3210
+				}
+			},
+			"rarity": 3,
+			"stage": 29
+		},
+		"3": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 225
+				},
+				"2": {
+					"type": 8,
+					"value": 89
+				},
+				"3": {
+					"type": 9,
+					"value": 1804
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 870
+				},
+				"2": {
+					"type": 15,
+					"value": 870
+				},
+				"3": {
+					"type": 17,
+					"value": 870
+				},
+				"4": {
+					"type": 18,
+					"value": 870
+				},
+				"5": {
+					"type": 19,
+					"value": 870
+				},
+				"6": {
+					"type": 20,
+					"value": 870
+				},
+				"7": {
+					"type": 22,
+					"value": 870
+				}
+			},
+			"rarity": 3,
+			"stage": 3
+		},
+		"30": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2752
+				},
+				"2": {
+					"type": 8,
+					"value": 1100
+				},
+				"3": {
+					"type": 9,
+					"value": 22022
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3300
+				},
+				"2": {
+					"type": 15,
+					"value": 3300
+				},
+				"3": {
+					"type": 17,
+					"value": 3300
+				},
+				"4": {
+					"type": 18,
+					"value": 3300
+				},
+				"5": {
+					"type": 19,
+					"value": 3300
+				},
+				"6": {
+					"type": 20,
+					"value": 3300
+				},
+				"7": {
+					"type": 22,
+					"value": 3300
+				}
+			},
+			"rarity": 3,
+			"stage": 30
+		},
+		"31": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2880
+				},
+				"2": {
+					"type": 8,
+					"value": 1152
+				},
+				"3": {
+					"type": 9,
+					"value": 23040
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3390
+				},
+				"2": {
+					"type": 15,
+					"value": 3390
+				},
+				"3": {
+					"type": 17,
+					"value": 3390
+				},
+				"4": {
+					"type": 18,
+					"value": 3390
+				},
+				"5": {
+					"type": 19,
+					"value": 3390
+				},
+				"6": {
+					"type": 20,
+					"value": 3390
+				},
+				"7": {
+					"type": 22,
+					"value": 3390
+				}
+			},
+			"rarity": 3,
+			"stage": 31
+		},
+		"32": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3009
+				},
+				"2": {
+					"type": 8,
+					"value": 1203
+				},
+				"3": {
+					"type": 9,
+					"value": 24076
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3480
+				},
+				"2": {
+					"type": 15,
+					"value": 3480
+				},
+				"3": {
+					"type": 17,
+					"value": 3480
+				},
+				"4": {
+					"type": 18,
+					"value": 3480
+				},
+				"5": {
+					"type": 19,
+					"value": 3480
+				},
+				"6": {
+					"type": 20,
+					"value": 3480
+				},
+				"7": {
+					"type": 22,
+					"value": 3480
+				}
+			},
+			"rarity": 3,
+			"stage": 32
+		},
+		"33": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3141
+				},
+				"2": {
+					"type": 8,
+					"value": 1256
+				},
+				"3": {
+					"type": 9,
+					"value": 25132
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3570
+				},
+				"2": {
+					"type": 15,
+					"value": 3570
+				},
+				"3": {
+					"type": 17,
+					"value": 3570
+				},
+				"4": {
+					"type": 18,
+					"value": 3570
+				},
+				"5": {
+					"type": 19,
+					"value": 3570
+				},
+				"6": {
+					"type": 20,
+					"value": 3570
+				},
+				"7": {
+					"type": 22,
+					"value": 3570
+				}
+			},
+			"rarity": 3,
+			"stage": 33
+		},
+		"34": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3276
+				},
+				"2": {
+					"type": 8,
+					"value": 1310
+				},
+				"3": {
+					"type": 9,
+					"value": 26208
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3660
+				},
+				"2": {
+					"type": 15,
+					"value": 3660
+				},
+				"3": {
+					"type": 17,
+					"value": 3660
+				},
+				"4": {
+					"type": 18,
+					"value": 3660
+				},
+				"5": {
+					"type": 19,
+					"value": 3660
+				},
+				"6": {
+					"type": 20,
+					"value": 3660
+				},
+				"7": {
+					"type": 22,
+					"value": 3660
+				}
+			},
+			"rarity": 3,
+			"stage": 34
+		},
+		"35": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3412
+				},
+				"2": {
+					"type": 8,
+					"value": 1364
+				},
+				"3": {
+					"type": 9,
+					"value": 27302
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3750
+				},
+				"2": {
+					"type": 15,
+					"value": 3750
+				},
+				"3": {
+					"type": 17,
+					"value": 3750
+				},
+				"4": {
+					"type": 18,
+					"value": 3750
+				},
+				"5": {
+					"type": 19,
+					"value": 3750
+				},
+				"6": {
+					"type": 20,
+					"value": 3750
+				},
+				"7": {
+					"type": 22,
+					"value": 3750
+				}
+			},
+			"rarity": 3,
+			"stage": 35
+		},
+		"36": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3552
+				},
+				"2": {
+					"type": 8,
+					"value": 1420
+				},
+				"3": {
+					"type": 9,
+					"value": 28416
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3840
+				},
+				"2": {
+					"type": 15,
+					"value": 3840
+				},
+				"3": {
+					"type": 17,
+					"value": 3840
+				},
+				"4": {
+					"type": 18,
+					"value": 3840
+				},
+				"5": {
+					"type": 19,
+					"value": 3840
+				},
+				"6": {
+					"type": 20,
+					"value": 3840
+				},
+				"7": {
+					"type": 22,
+					"value": 3840
+				}
+			},
+			"rarity": 3,
+			"stage": 36
+		},
+		"37": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3693
+				},
+				"2": {
+					"type": 8,
+					"value": 1476
+				},
+				"3": {
+					"type": 9,
+					"value": 29548
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3930
+				},
+				"2": {
+					"type": 15,
+					"value": 3930
+				},
+				"3": {
+					"type": 17,
+					"value": 3930
+				},
+				"4": {
+					"type": 18,
+					"value": 3930
+				},
+				"5": {
+					"type": 19,
+					"value": 3930
+				},
+				"6": {
+					"type": 20,
+					"value": 3930
+				},
+				"7": {
+					"type": 22,
+					"value": 3930
+				}
+			},
+			"rarity": 3,
+			"stage": 37
+		},
+		"38": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3837
+				},
+				"2": {
+					"type": 8,
+					"value": 1534
+				},
+				"3": {
+					"type": 9,
+					"value": 30700
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4020
+				},
+				"2": {
+					"type": 15,
+					"value": 4020
+				},
+				"3": {
+					"type": 17,
+					"value": 4020
+				},
+				"4": {
+					"type": 18,
+					"value": 4020
+				},
+				"5": {
+					"type": 19,
+					"value": 4020
+				},
+				"6": {
+					"type": 20,
+					"value": 4020
+				},
+				"7": {
+					"type": 22,
+					"value": 4020
+				}
+			},
+			"rarity": 3,
+			"stage": 38
+		},
+		"39": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3984
+				},
+				"2": {
+					"type": 8,
+					"value": 1593
+				},
+				"3": {
+					"type": 9,
+					"value": 31872
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4110
+				},
+				"2": {
+					"type": 15,
+					"value": 4110
+				},
+				"3": {
+					"type": 17,
+					"value": 4110
+				},
+				"4": {
+					"type": 18,
+					"value": 4110
+				},
+				"5": {
+					"type": 19,
+					"value": 4110
+				},
+				"6": {
+					"type": 20,
+					"value": 4110
+				},
+				"7": {
+					"type": 22,
+					"value": 4110
+				}
+			},
+			"rarity": 3,
+			"stage": 39
+		},
+		"4": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 288
+				},
+				"2": {
+					"type": 8,
+					"value": 115
+				},
+				"3": {
+					"type": 9,
+					"value": 2304
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 960
+				},
+				"2": {
+					"type": 15,
+					"value": 960
+				},
+				"3": {
+					"type": 17,
+					"value": 960
+				},
+				"4": {
+					"type": 18,
+					"value": 960
+				},
+				"5": {
+					"type": 19,
+					"value": 960
+				},
+				"6": {
+					"type": 20,
+					"value": 960
+				},
+				"7": {
+					"type": 22,
+					"value": 960
+				}
+			},
+			"rarity": 3,
+			"stage": 4
+		},
+		"5": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 352
+				},
+				"2": {
+					"type": 8,
+					"value": 140
+				},
+				"3": {
+					"type": 9,
+					"value": 2822
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1050
+				},
+				"2": {
+					"type": 15,
+					"value": 1050
+				},
+				"3": {
+					"type": 17,
+					"value": 1050
+				},
+				"4": {
+					"type": 18,
+					"value": 1050
+				},
+				"5": {
+					"type": 19,
+					"value": 1050
+				},
+				"6": {
+					"type": 20,
+					"value": 1050
+				},
+				"7": {
+					"type": 22,
+					"value": 1050
+				}
+			},
+			"rarity": 3,
+			"stage": 5
+		},
+		"6": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 420
+				},
+				"2": {
+					"type": 8,
+					"value": 168
+				},
+				"3": {
+					"type": 9,
+					"value": 3360
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1140
+				},
+				"2": {
+					"type": 15,
+					"value": 1140
+				},
+				"3": {
+					"type": 17,
+					"value": 1140
+				},
+				"4": {
+					"type": 18,
+					"value": 1140
+				},
+				"5": {
+					"type": 19,
+					"value": 1140
+				},
+				"6": {
+					"type": 20,
+					"value": 1140
+				},
+				"7": {
+					"type": 22,
+					"value": 1140
+				}
+			},
+			"rarity": 3,
+			"stage": 6
+		},
+		"7": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 489
+				},
+				"2": {
+					"type": 8,
+					"value": 195
+				},
+				"3": {
+					"type": 9,
+					"value": 3916
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1230
+				},
+				"2": {
+					"type": 15,
+					"value": 1230
+				},
+				"3": {
+					"type": 17,
+					"value": 1230
+				},
+				"4": {
+					"type": 18,
+					"value": 1230
+				},
+				"5": {
+					"type": 19,
+					"value": 1230
+				},
+				"6": {
+					"type": 20,
+					"value": 1230
+				},
+				"7": {
+					"type": 22,
+					"value": 1230
+				}
+			},
+			"rarity": 3,
+			"stage": 7
+		},
+		"8": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 561
+				},
+				"2": {
+					"type": 8,
+					"value": 224
+				},
+				"3": {
+					"type": 9,
+					"value": 4492
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1320
+				},
+				"2": {
+					"type": 15,
+					"value": 1320
+				},
+				"3": {
+					"type": 17,
+					"value": 1320
+				},
+				"4": {
+					"type": 18,
+					"value": 1320
+				},
+				"5": {
+					"type": 19,
+					"value": 1320
+				},
+				"6": {
+					"type": 20,
+					"value": 1320
+				},
+				"7": {
+					"type": 22,
+					"value": 1320
+				}
+			},
+			"rarity": 3,
+			"stage": 8
+		},
+		"9": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 636
+				},
+				"2": {
+					"type": 8,
+					"value": 254
+				},
+				"3": {
+					"type": 9,
+					"value": 5088
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1410
+				},
+				"2": {
+					"type": 15,
+					"value": 1410
+				},
+				"3": {
+					"type": 17,
+					"value": 1410
+				},
+				"4": {
+					"type": 18,
+					"value": 1410
+				},
+				"5": {
+					"type": 19,
+					"value": 1410
+				},
+				"6": {
+					"type": 20,
+					"value": 1410
+				},
+				"7": {
+					"type": 22,
+					"value": 1410
+				}
+			},
+			"rarity": 3,
+			"stage": 9
+		}
+	},
+	"4": {
+		"0": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 66
+				},
+				"2": {
+					"type": 8,
+					"value": 26
+				},
+				"3": {
+					"type": 9,
+					"value": 528
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 800
+				},
+				"2": {
+					"type": 15,
+					"value": 800
+				},
+				"3": {
+					"type": 17,
+					"value": 800
+				},
+				"4": {
+					"type": 18,
+					"value": 800
+				},
+				"5": {
+					"type": 19,
+					"value": 800
+				},
+				"6": {
+					"type": 20,
+					"value": 800
+				},
+				"7": {
+					"type": 22,
+					"value": 800
+				}
+			},
+			"rarity": 4,
+			"stage": 0
+		},
+		"1": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 135
+				},
+				"2": {
+					"type": 8,
+					"value": 54
+				},
+				"3": {
+					"type": 9,
+					"value": 1080
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 910
+				},
+				"2": {
+					"type": 15,
+					"value": 910
+				},
+				"3": {
+					"type": 17,
+					"value": 910
+				},
+				"4": {
+					"type": 18,
+					"value": 910
+				},
+				"5": {
+					"type": 19,
+					"value": 910
+				},
+				"6": {
+					"type": 20,
+					"value": 910
+				},
+				"7": {
+					"type": 22,
+					"value": 910
+				}
+			},
+			"rarity": 4,
+			"stage": 1
+		},
+		"10": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 891
+				},
+				"2": {
+					"type": 8,
+					"value": 356
+				},
+				"3": {
+					"type": 9,
+					"value": 7128
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1900
+				},
+				"2": {
+					"type": 15,
+					"value": 1900
+				},
+				"3": {
+					"type": 17,
+					"value": 1900
+				},
+				"4": {
+					"type": 18,
+					"value": 1900
+				},
+				"5": {
+					"type": 19,
+					"value": 1900
+				},
+				"6": {
+					"type": 20,
+					"value": 1900
+				},
+				"7": {
+					"type": 22,
+					"value": 1900
+				}
+			},
+			"rarity": 4,
+			"stage": 10
+		},
+		"11": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 990
+				},
+				"2": {
+					"type": 8,
+					"value": 396
+				},
+				"3": {
+					"type": 9,
+					"value": 7920
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2010
+				},
+				"2": {
+					"type": 15,
+					"value": 2010
+				},
+				"3": {
+					"type": 17,
+					"value": 2010
+				},
+				"4": {
+					"type": 18,
+					"value": 2010
+				},
+				"5": {
+					"type": 19,
+					"value": 2010
+				},
+				"6": {
+					"type": 20,
+					"value": 2010
+				},
+				"7": {
+					"type": 22,
+					"value": 2010
+				}
+			},
+			"rarity": 4,
+			"stage": 11
+		},
+		"12": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1092
+				},
+				"2": {
+					"type": 8,
+					"value": 436
+				},
+				"3": {
+					"type": 9,
+					"value": 8736
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2120
+				},
+				"2": {
+					"type": 15,
+					"value": 2120
+				},
+				"3": {
+					"type": 17,
+					"value": 2120
+				},
+				"4": {
+					"type": 18,
+					"value": 2120
+				},
+				"5": {
+					"type": 19,
+					"value": 2120
+				},
+				"6": {
+					"type": 20,
+					"value": 2120
+				},
+				"7": {
+					"type": 22,
+					"value": 2120
+				}
+			},
+			"rarity": 4,
+			"stage": 12
+		},
+		"13": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1197
+				},
+				"2": {
+					"type": 8,
+					"value": 478
+				},
+				"3": {
+					"type": 9,
+					"value": 9576
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2230
+				},
+				"2": {
+					"type": 15,
+					"value": 2230
+				},
+				"3": {
+					"type": 17,
+					"value": 2230
+				},
+				"4": {
+					"type": 18,
+					"value": 2230
+				},
+				"5": {
+					"type": 19,
+					"value": 2230
+				},
+				"6": {
+					"type": 20,
+					"value": 2230
+				},
+				"7": {
+					"type": 22,
+					"value": 2230
+				}
+			},
+			"rarity": 4,
+			"stage": 13
+		},
+		"14": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1305
+				},
+				"2": {
+					"type": 8,
+					"value": 522
+				},
+				"3": {
+					"type": 9,
+					"value": 10440
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2340
+				},
+				"2": {
+					"type": 15,
+					"value": 2340
+				},
+				"3": {
+					"type": 17,
+					"value": 2340
+				},
+				"4": {
+					"type": 18,
+					"value": 2340
+				},
+				"5": {
+					"type": 19,
+					"value": 2340
+				},
+				"6": {
+					"type": 20,
+					"value": 2340
+				},
+				"7": {
+					"type": 22,
+					"value": 2340
+				}
+			},
+			"rarity": 4,
+			"stage": 14
+		},
+		"15": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1416
+				},
+				"2": {
+					"type": 8,
+					"value": 566
+				},
+				"3": {
+					"type": 9,
+					"value": 11328
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2450
+				},
+				"2": {
+					"type": 15,
+					"value": 2450
+				},
+				"3": {
+					"type": 17,
+					"value": 2450
+				},
+				"4": {
+					"type": 18,
+					"value": 2450
+				},
+				"5": {
+					"type": 19,
+					"value": 2450
+				},
+				"6": {
+					"type": 20,
+					"value": 2450
+				},
+				"7": {
+					"type": 22,
+					"value": 2450
+				}
+			},
+			"rarity": 4,
+			"stage": 15
+		},
+		"16": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1530
+				},
+				"2": {
+					"type": 8,
+					"value": 612
+				},
+				"3": {
+					"type": 9,
+					"value": 12240
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2560
+				},
+				"2": {
+					"type": 15,
+					"value": 2560
+				},
+				"3": {
+					"type": 17,
+					"value": 2560
+				},
+				"4": {
+					"type": 18,
+					"value": 2560
+				},
+				"5": {
+					"type": 19,
+					"value": 2560
+				},
+				"6": {
+					"type": 20,
+					"value": 2560
+				},
+				"7": {
+					"type": 22,
+					"value": 2560
+				}
+			},
+			"rarity": 4,
+			"stage": 16
+		},
+		"17": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1647
+				},
+				"2": {
+					"type": 8,
+					"value": 658
+				},
+				"3": {
+					"type": 9,
+					"value": 13176
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2670
+				},
+				"2": {
+					"type": 15,
+					"value": 2670
+				},
+				"3": {
+					"type": 17,
+					"value": 2670
+				},
+				"4": {
+					"type": 18,
+					"value": 2670
+				},
+				"5": {
+					"type": 19,
+					"value": 2670
+				},
+				"6": {
+					"type": 20,
+					"value": 2670
+				},
+				"7": {
+					"type": 22,
+					"value": 2670
+				}
+			},
+			"rarity": 4,
+			"stage": 17
+		},
+		"18": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1767
+				},
+				"2": {
+					"type": 8,
+					"value": 706
+				},
+				"3": {
+					"type": 9,
+					"value": 14136
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2780
+				},
+				"2": {
+					"type": 15,
+					"value": 2780
+				},
+				"3": {
+					"type": 17,
+					"value": 2780
+				},
+				"4": {
+					"type": 18,
+					"value": 2780
+				},
+				"5": {
+					"type": 19,
+					"value": 2780
+				},
+				"6": {
+					"type": 20,
+					"value": 2780
+				},
+				"7": {
+					"type": 22,
+					"value": 2780
+				}
+			},
+			"rarity": 4,
+			"stage": 18
+		},
+		"19": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1890
+				},
+				"2": {
+					"type": 8,
+					"value": 756
+				},
+				"3": {
+					"type": 9,
+					"value": 15120
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2890
+				},
+				"2": {
+					"type": 15,
+					"value": 2890
+				},
+				"3": {
+					"type": 17,
+					"value": 2890
+				},
+				"4": {
+					"type": 18,
+					"value": 2890
+				},
+				"5": {
+					"type": 19,
+					"value": 2890
+				},
+				"6": {
+					"type": 20,
+					"value": 2890
+				},
+				"7": {
+					"type": 22,
+					"value": 2890
+				}
+			},
+			"rarity": 4,
+			"stage": 19
+		},
+		"2": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 207
+				},
+				"2": {
+					"type": 8,
+					"value": 82
+				},
+				"3": {
+					"type": 9,
+					"value": 1656
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1020
+				},
+				"2": {
+					"type": 15,
+					"value": 1020
+				},
+				"3": {
+					"type": 17,
+					"value": 1020
+				},
+				"4": {
+					"type": 18,
+					"value": 1020
+				},
+				"5": {
+					"type": 19,
+					"value": 1020
+				},
+				"6": {
+					"type": 20,
+					"value": 1020
+				},
+				"7": {
+					"type": 22,
+					"value": 1020
+				}
+			},
+			"rarity": 4,
+			"stage": 2
+		},
+		"20": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2016
+				},
+				"2": {
+					"type": 8,
+					"value": 806
+				},
+				"3": {
+					"type": 9,
+					"value": 16128
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3000
+				},
+				"2": {
+					"type": 15,
+					"value": 3000
+				},
+				"3": {
+					"type": 17,
+					"value": 3000
+				},
+				"4": {
+					"type": 18,
+					"value": 3000
+				},
+				"5": {
+					"type": 19,
+					"value": 3000
+				},
+				"6": {
+					"type": 20,
+					"value": 3000
+				},
+				"7": {
+					"type": 22,
+					"value": 3000
+				}
+			},
+			"rarity": 4,
+			"stage": 20
+		},
+		"21": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2145
+				},
+				"2": {
+					"type": 8,
+					"value": 858
+				},
+				"3": {
+					"type": 9,
+					"value": 17160
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3110
+				},
+				"2": {
+					"type": 15,
+					"value": 3110
+				},
+				"3": {
+					"type": 17,
+					"value": 3110
+				},
+				"4": {
+					"type": 18,
+					"value": 3110
+				},
+				"5": {
+					"type": 19,
+					"value": 3110
+				},
+				"6": {
+					"type": 20,
+					"value": 3110
+				},
+				"7": {
+					"type": 22,
+					"value": 3110
+				}
+			},
+			"rarity": 4,
+			"stage": 21
+		},
+		"22": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2277
+				},
+				"2": {
+					"type": 8,
+					"value": 910
+				},
+				"3": {
+					"type": 9,
+					"value": 18216
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3220
+				},
+				"2": {
+					"type": 15,
+					"value": 3220
+				},
+				"3": {
+					"type": 17,
+					"value": 3220
+				},
+				"4": {
+					"type": 18,
+					"value": 3220
+				},
+				"5": {
+					"type": 19,
+					"value": 3220
+				},
+				"6": {
+					"type": 20,
+					"value": 3220
+				},
+				"7": {
+					"type": 22,
+					"value": 3220
+				}
+			},
+			"rarity": 4,
+			"stage": 22
+		},
+		"23": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2412
+				},
+				"2": {
+					"type": 8,
+					"value": 964
+				},
+				"3": {
+					"type": 9,
+					"value": 19296
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3330
+				},
+				"2": {
+					"type": 15,
+					"value": 3330
+				},
+				"3": {
+					"type": 17,
+					"value": 3330
+				},
+				"4": {
+					"type": 18,
+					"value": 3330
+				},
+				"5": {
+					"type": 19,
+					"value": 3330
+				},
+				"6": {
+					"type": 20,
+					"value": 3330
+				},
+				"7": {
+					"type": 22,
+					"value": 3330
+				}
+			},
+			"rarity": 4,
+			"stage": 23
+		},
+		"24": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2550
+				},
+				"2": {
+					"type": 8,
+					"value": 1020
+				},
+				"3": {
+					"type": 9,
+					"value": 20400
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3440
+				},
+				"2": {
+					"type": 15,
+					"value": 3440
+				},
+				"3": {
+					"type": 17,
+					"value": 3440
+				},
+				"4": {
+					"type": 18,
+					"value": 3440
+				},
+				"5": {
+					"type": 19,
+					"value": 3440
+				},
+				"6": {
+					"type": 20,
+					"value": 3440
+				},
+				"7": {
+					"type": 22,
+					"value": 3440
+				}
+			},
+			"rarity": 4,
+			"stage": 24
+		},
+		"25": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2691
+				},
+				"2": {
+					"type": 8,
+					"value": 1076
+				},
+				"3": {
+					"type": 9,
+					"value": 21528
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3550
+				},
+				"2": {
+					"type": 15,
+					"value": 3550
+				},
+				"3": {
+					"type": 17,
+					"value": 3550
+				},
+				"4": {
+					"type": 18,
+					"value": 3550
+				},
+				"5": {
+					"type": 19,
+					"value": 3550
+				},
+				"6": {
+					"type": 20,
+					"value": 3550
+				},
+				"7": {
+					"type": 22,
+					"value": 3550
+				}
+			},
+			"rarity": 4,
+			"stage": 25
+		},
+		"26": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2835
+				},
+				"2": {
+					"type": 8,
+					"value": 1134
+				},
+				"3": {
+					"type": 9,
+					"value": 22680
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3660
+				},
+				"2": {
+					"type": 15,
+					"value": 3660
+				},
+				"3": {
+					"type": 17,
+					"value": 3660
+				},
+				"4": {
+					"type": 18,
+					"value": 3660
+				},
+				"5": {
+					"type": 19,
+					"value": 3660
+				},
+				"6": {
+					"type": 20,
+					"value": 3660
+				},
+				"7": {
+					"type": 22,
+					"value": 3660
+				}
+			},
+			"rarity": 4,
+			"stage": 26
+		},
+		"27": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2982
+				},
+				"2": {
+					"type": 8,
+					"value": 1192
+				},
+				"3": {
+					"type": 9,
+					"value": 23856
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3770
+				},
+				"2": {
+					"type": 15,
+					"value": 3770
+				},
+				"3": {
+					"type": 17,
+					"value": 3770
+				},
+				"4": {
+					"type": 18,
+					"value": 3770
+				},
+				"5": {
+					"type": 19,
+					"value": 3770
+				},
+				"6": {
+					"type": 20,
+					"value": 3770
+				},
+				"7": {
+					"type": 22,
+					"value": 3770
+				}
+			},
+			"rarity": 4,
+			"stage": 27
+		},
+		"28": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3132
+				},
+				"2": {
+					"type": 8,
+					"value": 1252
+				},
+				"3": {
+					"type": 9,
+					"value": 25056
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3880
+				},
+				"2": {
+					"type": 15,
+					"value": 3880
+				},
+				"3": {
+					"type": 17,
+					"value": 3880
+				},
+				"4": {
+					"type": 18,
+					"value": 3880
+				},
+				"5": {
+					"type": 19,
+					"value": 3880
+				},
+				"6": {
+					"type": 20,
+					"value": 3880
+				},
+				"7": {
+					"type": 22,
+					"value": 3880
+				}
+			},
+			"rarity": 4,
+			"stage": 28
+		},
+		"29": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3285
+				},
+				"2": {
+					"type": 8,
+					"value": 1314
+				},
+				"3": {
+					"type": 9,
+					"value": 26280
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3990
+				},
+				"2": {
+					"type": 15,
+					"value": 3990
+				},
+				"3": {
+					"type": 17,
+					"value": 3990
+				},
+				"4": {
+					"type": 18,
+					"value": 3990
+				},
+				"5": {
+					"type": 19,
+					"value": 3990
+				},
+				"6": {
+					"type": 20,
+					"value": 3990
+				},
+				"7": {
+					"type": 22,
+					"value": 3990
+				}
+			},
+			"rarity": 4,
+			"stage": 29
+		},
+		"3": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 282
+				},
+				"2": {
+					"type": 8,
+					"value": 112
+				},
+				"3": {
+					"type": 9,
+					"value": 2256
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1130
+				},
+				"2": {
+					"type": 15,
+					"value": 1130
+				},
+				"3": {
+					"type": 17,
+					"value": 1130
+				},
+				"4": {
+					"type": 18,
+					"value": 1130
+				},
+				"5": {
+					"type": 19,
+					"value": 1130
+				},
+				"6": {
+					"type": 20,
+					"value": 1130
+				},
+				"7": {
+					"type": 22,
+					"value": 1130
+				}
+			},
+			"rarity": 4,
+			"stage": 3
+		},
+		"30": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3441
+				},
+				"2": {
+					"type": 8,
+					"value": 1376
+				},
+				"3": {
+					"type": 9,
+					"value": 27528
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4100
+				},
+				"2": {
+					"type": 15,
+					"value": 4100
+				},
+				"3": {
+					"type": 17,
+					"value": 4100
+				},
+				"4": {
+					"type": 18,
+					"value": 4100
+				},
+				"5": {
+					"type": 19,
+					"value": 4100
+				},
+				"6": {
+					"type": 20,
+					"value": 4100
+				},
+				"7": {
+					"type": 22,
+					"value": 4100
+				}
+			},
+			"rarity": 4,
+			"stage": 30
+		},
+		"31": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3600
+				},
+				"2": {
+					"type": 8,
+					"value": 1440
+				},
+				"3": {
+					"type": 9,
+					"value": 28800
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4210
+				},
+				"2": {
+					"type": 15,
+					"value": 4210
+				},
+				"3": {
+					"type": 17,
+					"value": 4210
+				},
+				"4": {
+					"type": 18,
+					"value": 4210
+				},
+				"5": {
+					"type": 19,
+					"value": 4210
+				},
+				"6": {
+					"type": 20,
+					"value": 4210
+				},
+				"7": {
+					"type": 22,
+					"value": 4210
+				}
+			},
+			"rarity": 4,
+			"stage": 31
+		},
+		"32": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3762
+				},
+				"2": {
+					"type": 8,
+					"value": 1504
+				},
+				"3": {
+					"type": 9,
+					"value": 30096
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4320
+				},
+				"2": {
+					"type": 15,
+					"value": 4320
+				},
+				"3": {
+					"type": 17,
+					"value": 4320
+				},
+				"4": {
+					"type": 18,
+					"value": 4320
+				},
+				"5": {
+					"type": 19,
+					"value": 4320
+				},
+				"6": {
+					"type": 20,
+					"value": 4320
+				},
+				"7": {
+					"type": 22,
+					"value": 4320
+				}
+			},
+			"rarity": 4,
+			"stage": 32
+		},
+		"33": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3927
+				},
+				"2": {
+					"type": 8,
+					"value": 1570
+				},
+				"3": {
+					"type": 9,
+					"value": 31416
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4430
+				},
+				"2": {
+					"type": 15,
+					"value": 4430
+				},
+				"3": {
+					"type": 17,
+					"value": 4430
+				},
+				"4": {
+					"type": 18,
+					"value": 4430
+				},
+				"5": {
+					"type": 19,
+					"value": 4430
+				},
+				"6": {
+					"type": 20,
+					"value": 4430
+				},
+				"7": {
+					"type": 22,
+					"value": 4430
+				}
+			},
+			"rarity": 4,
+			"stage": 33
+		},
+		"34": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 4095
+				},
+				"2": {
+					"type": 8,
+					"value": 1638
+				},
+				"3": {
+					"type": 9,
+					"value": 32760
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4540
+				},
+				"2": {
+					"type": 15,
+					"value": 4540
+				},
+				"3": {
+					"type": 17,
+					"value": 4540
+				},
+				"4": {
+					"type": 18,
+					"value": 4540
+				},
+				"5": {
+					"type": 19,
+					"value": 4540
+				},
+				"6": {
+					"type": 20,
+					"value": 4540
+				},
+				"7": {
+					"type": 22,
+					"value": 4540
+				}
+			},
+			"rarity": 4,
+			"stage": 34
+		},
+		"35": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 4266
+				},
+				"2": {
+					"type": 8,
+					"value": 1706
+				},
+				"3": {
+					"type": 9,
+					"value": 34128
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4650
+				},
+				"2": {
+					"type": 15,
+					"value": 4650
+				},
+				"3": {
+					"type": 17,
+					"value": 4650
+				},
+				"4": {
+					"type": 18,
+					"value": 4650
+				},
+				"5": {
+					"type": 19,
+					"value": 4650
+				},
+				"6": {
+					"type": 20,
+					"value": 4650
+				},
+				"7": {
+					"type": 22,
+					"value": 4650
+				}
+			},
+			"rarity": 4,
+			"stage": 35
+		},
+		"36": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 4440
+				},
+				"2": {
+					"type": 8,
+					"value": 1776
+				},
+				"3": {
+					"type": 9,
+					"value": 35520
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4760
+				},
+				"2": {
+					"type": 15,
+					"value": 4760
+				},
+				"3": {
+					"type": 17,
+					"value": 4760
+				},
+				"4": {
+					"type": 18,
+					"value": 4760
+				},
+				"5": {
+					"type": 19,
+					"value": 4760
+				},
+				"6": {
+					"type": 20,
+					"value": 4760
+				},
+				"7": {
+					"type": 22,
+					"value": 4760
+				}
+			},
+			"rarity": 4,
+			"stage": 36
+		},
+		"37": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 4617
+				},
+				"2": {
+					"type": 8,
+					"value": 1846
+				},
+				"3": {
+					"type": 9,
+					"value": 36936
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4870
+				},
+				"2": {
+					"type": 15,
+					"value": 4870
+				},
+				"3": {
+					"type": 17,
+					"value": 4870
+				},
+				"4": {
+					"type": 18,
+					"value": 4870
+				},
+				"5": {
+					"type": 19,
+					"value": 4870
+				},
+				"6": {
+					"type": 20,
+					"value": 4870
+				},
+				"7": {
+					"type": 22,
+					"value": 4870
+				}
+			},
+			"rarity": 4,
+			"stage": 37
+		},
+		"38": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 4797
+				},
+				"2": {
+					"type": 8,
+					"value": 1918
+				},
+				"3": {
+					"type": 9,
+					"value": 38376
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4980
+				},
+				"2": {
+					"type": 15,
+					"value": 4980
+				},
+				"3": {
+					"type": 17,
+					"value": 4980
+				},
+				"4": {
+					"type": 18,
+					"value": 4980
+				},
+				"5": {
+					"type": 19,
+					"value": 4980
+				},
+				"6": {
+					"type": 20,
+					"value": 4980
+				},
+				"7": {
+					"type": 22,
+					"value": 4980
+				}
+			},
+			"rarity": 4,
+			"stage": 38
+		},
+		"39": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 4980
+				},
+				"2": {
+					"type": 8,
+					"value": 1992
+				},
+				"3": {
+					"type": 9,
+					"value": 39840
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 5090
+				},
+				"2": {
+					"type": 15,
+					"value": 5090
+				},
+				"3": {
+					"type": 17,
+					"value": 5090
+				},
+				"4": {
+					"type": 18,
+					"value": 5090
+				},
+				"5": {
+					"type": 19,
+					"value": 5090
+				},
+				"6": {
+					"type": 20,
+					"value": 5090
+				},
+				"7": {
+					"type": 22,
+					"value": 5090
+				}
+			},
+			"rarity": 4,
+			"stage": 39
+		},
+		"4": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 360
+				},
+				"2": {
+					"type": 8,
+					"value": 144
+				},
+				"3": {
+					"type": 9,
+					"value": 2880
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1240
+				},
+				"2": {
+					"type": 15,
+					"value": 1240
+				},
+				"3": {
+					"type": 17,
+					"value": 1240
+				},
+				"4": {
+					"type": 18,
+					"value": 1240
+				},
+				"5": {
+					"type": 19,
+					"value": 1240
+				},
+				"6": {
+					"type": 20,
+					"value": 1240
+				},
+				"7": {
+					"type": 22,
+					"value": 1240
+				}
+			},
+			"rarity": 4,
+			"stage": 4
+		},
+		"5": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 441
+				},
+				"2": {
+					"type": 8,
+					"value": 176
+				},
+				"3": {
+					"type": 9,
+					"value": 3528
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1350
+				},
+				"2": {
+					"type": 15,
+					"value": 1350
+				},
+				"3": {
+					"type": 17,
+					"value": 1350
+				},
+				"4": {
+					"type": 18,
+					"value": 1350
+				},
+				"5": {
+					"type": 19,
+					"value": 1350
+				},
+				"6": {
+					"type": 20,
+					"value": 1350
+				},
+				"7": {
+					"type": 22,
+					"value": 1350
+				}
+			},
+			"rarity": 4,
+			"stage": 5
+		},
+		"6": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 525
+				},
+				"2": {
+					"type": 8,
+					"value": 210
+				},
+				"3": {
+					"type": 9,
+					"value": 4200
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1460
+				},
+				"2": {
+					"type": 15,
+					"value": 1460
+				},
+				"3": {
+					"type": 17,
+					"value": 1460
+				},
+				"4": {
+					"type": 18,
+					"value": 1460
+				},
+				"5": {
+					"type": 19,
+					"value": 1460
+				},
+				"6": {
+					"type": 20,
+					"value": 1460
+				},
+				"7": {
+					"type": 22,
+					"value": 1460
+				}
+			},
+			"rarity": 4,
+			"stage": 6
+		},
+		"7": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 612
+				},
+				"2": {
+					"type": 8,
+					"value": 244
+				},
+				"3": {
+					"type": 9,
+					"value": 4896
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1570
+				},
+				"2": {
+					"type": 15,
+					"value": 1570
+				},
+				"3": {
+					"type": 17,
+					"value": 1570
+				},
+				"4": {
+					"type": 18,
+					"value": 1570
+				},
+				"5": {
+					"type": 19,
+					"value": 1570
+				},
+				"6": {
+					"type": 20,
+					"value": 1570
+				},
+				"7": {
+					"type": 22,
+					"value": 1570
+				}
+			},
+			"rarity": 4,
+			"stage": 7
+		},
+		"8": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 702
+				},
+				"2": {
+					"type": 8,
+					"value": 280
+				},
+				"3": {
+					"type": 9,
+					"value": 5616
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1680
+				},
+				"2": {
+					"type": 15,
+					"value": 1680
+				},
+				"3": {
+					"type": 17,
+					"value": 1680
+				},
+				"4": {
+					"type": 18,
+					"value": 1680
+				},
+				"5": {
+					"type": 19,
+					"value": 1680
+				},
+				"6": {
+					"type": 20,
+					"value": 1680
+				},
+				"7": {
+					"type": 22,
+					"value": 1680
+				}
+			},
+			"rarity": 4,
+			"stage": 8
+		},
+		"9": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 795
+				},
+				"2": {
+					"type": 8,
+					"value": 318
+				},
+				"3": {
+					"type": 9,
+					"value": 6360
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1790
+				},
+				"2": {
+					"type": 15,
+					"value": 1790
+				},
+				"3": {
+					"type": 17,
+					"value": 1790
+				},
+				"4": {
+					"type": 18,
+					"value": 1790
+				},
+				"5": {
+					"type": 19,
+					"value": 1790
+				},
+				"6": {
+					"type": 20,
+					"value": 1790
+				},
+				"7": {
+					"type": 22,
+					"value": 1790
+				}
+			},
+			"rarity": 4,
+			"stage": 9
+		}
+	},
+	"5": {
+		"0": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 79
+				},
+				"2": {
+					"type": 8,
+					"value": 31
+				},
+				"3": {
+					"type": 9,
+					"value": 633
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 800
+				},
+				"2": {
+					"type": 15,
+					"value": 800
+				},
+				"3": {
+					"type": 17,
+					"value": 800
+				},
+				"4": {
+					"type": 18,
+					"value": 800
+				},
+				"5": {
+					"type": 19,
+					"value": 800
+				},
+				"6": {
+					"type": 20,
+					"value": 800
+				},
+				"7": {
+					"type": 22,
+					"value": 800
+				}
+			},
+			"rarity": 5,
+			"stage": 0
+		},
+		"1": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 162
+				},
+				"2": {
+					"type": 8,
+					"value": 64
+				},
+				"3": {
+					"type": 9,
+					"value": 1296
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 910
+				},
+				"2": {
+					"type": 15,
+					"value": 910
+				},
+				"3": {
+					"type": 17,
+					"value": 910
+				},
+				"4": {
+					"type": 18,
+					"value": 910
+				},
+				"5": {
+					"type": 19,
+					"value": 910
+				},
+				"6": {
+					"type": 20,
+					"value": 910
+				},
+				"7": {
+					"type": 22,
+					"value": 910
+				}
+			},
+			"rarity": 5,
+			"stage": 1
+		},
+		"10": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1069
+				},
+				"2": {
+					"type": 8,
+					"value": 427
+				},
+				"3": {
+					"type": 9,
+					"value": 8553
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1900
+				},
+				"2": {
+					"type": 15,
+					"value": 1900
+				},
+				"3": {
+					"type": 17,
+					"value": 1900
+				},
+				"4": {
+					"type": 18,
+					"value": 1900
+				},
+				"5": {
+					"type": 19,
+					"value": 1900
+				},
+				"6": {
+					"type": 20,
+					"value": 1900
+				},
+				"7": {
+					"type": 22,
+					"value": 1900
+				}
+			},
+			"rarity": 5,
+			"stage": 10
+		},
+		"11": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1188
+				},
+				"2": {
+					"type": 8,
+					"value": 475
+				},
+				"3": {
+					"type": 9,
+					"value": 9504
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2010
+				},
+				"2": {
+					"type": 15,
+					"value": 2010
+				},
+				"3": {
+					"type": 17,
+					"value": 2010
+				},
+				"4": {
+					"type": 18,
+					"value": 2010
+				},
+				"5": {
+					"type": 19,
+					"value": 2010
+				},
+				"6": {
+					"type": 20,
+					"value": 2010
+				},
+				"7": {
+					"type": 22,
+					"value": 2010
+				}
+			},
+			"rarity": 5,
+			"stage": 11
+		},
+		"12": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1310
+				},
+				"2": {
+					"type": 8,
+					"value": 523
+				},
+				"3": {
+					"type": 9,
+					"value": 10483
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2120
+				},
+				"2": {
+					"type": 15,
+					"value": 2120
+				},
+				"3": {
+					"type": 17,
+					"value": 2120
+				},
+				"4": {
+					"type": 18,
+					"value": 2120
+				},
+				"5": {
+					"type": 19,
+					"value": 2120
+				},
+				"6": {
+					"type": 20,
+					"value": 2120
+				},
+				"7": {
+					"type": 22,
+					"value": 2120
+				}
+			},
+			"rarity": 5,
+			"stage": 12
+		},
+		"13": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1436
+				},
+				"2": {
+					"type": 8,
+					"value": 573
+				},
+				"3": {
+					"type": 9,
+					"value": 11491
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2230
+				},
+				"2": {
+					"type": 15,
+					"value": 2230
+				},
+				"3": {
+					"type": 17,
+					"value": 2230
+				},
+				"4": {
+					"type": 18,
+					"value": 2230
+				},
+				"5": {
+					"type": 19,
+					"value": 2230
+				},
+				"6": {
+					"type": 20,
+					"value": 2230
+				},
+				"7": {
+					"type": 22,
+					"value": 2230
+				}
+			},
+			"rarity": 5,
+			"stage": 13
+		},
+		"14": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1566
+				},
+				"2": {
+					"type": 8,
+					"value": 626
+				},
+				"3": {
+					"type": 9,
+					"value": 12528
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2340
+				},
+				"2": {
+					"type": 15,
+					"value": 2340
+				},
+				"3": {
+					"type": 17,
+					"value": 2340
+				},
+				"4": {
+					"type": 18,
+					"value": 2340
+				},
+				"5": {
+					"type": 19,
+					"value": 2340
+				},
+				"6": {
+					"type": 20,
+					"value": 2340
+				},
+				"7": {
+					"type": 22,
+					"value": 2340
+				}
+			},
+			"rarity": 5,
+			"stage": 14
+		},
+		"15": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1699
+				},
+				"2": {
+					"type": 8,
+					"value": 679
+				},
+				"3": {
+					"type": 9,
+					"value": 13593
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2450
+				},
+				"2": {
+					"type": 15,
+					"value": 2450
+				},
+				"3": {
+					"type": 17,
+					"value": 2450
+				},
+				"4": {
+					"type": 18,
+					"value": 2450
+				},
+				"5": {
+					"type": 19,
+					"value": 2450
+				},
+				"6": {
+					"type": 20,
+					"value": 2450
+				},
+				"7": {
+					"type": 22,
+					"value": 2450
+				}
+			},
+			"rarity": 5,
+			"stage": 15
+		},
+		"16": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1836
+				},
+				"2": {
+					"type": 8,
+					"value": 734
+				},
+				"3": {
+					"type": 9,
+					"value": 14688
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2560
+				},
+				"2": {
+					"type": 15,
+					"value": 2560
+				},
+				"3": {
+					"type": 17,
+					"value": 2560
+				},
+				"4": {
+					"type": 18,
+					"value": 2560
+				},
+				"5": {
+					"type": 19,
+					"value": 2560
+				},
+				"6": {
+					"type": 20,
+					"value": 2560
+				},
+				"7": {
+					"type": 22,
+					"value": 2560
+				}
+			},
+			"rarity": 5,
+			"stage": 16
+		},
+		"17": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 1976
+				},
+				"2": {
+					"type": 8,
+					"value": 789
+				},
+				"3": {
+					"type": 9,
+					"value": 15811
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2670
+				},
+				"2": {
+					"type": 15,
+					"value": 2670
+				},
+				"3": {
+					"type": 17,
+					"value": 2670
+				},
+				"4": {
+					"type": 18,
+					"value": 2670
+				},
+				"5": {
+					"type": 19,
+					"value": 2670
+				},
+				"6": {
+					"type": 20,
+					"value": 2670
+				},
+				"7": {
+					"type": 22,
+					"value": 2670
+				}
+			},
+			"rarity": 5,
+			"stage": 17
+		},
+		"18": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2120
+				},
+				"2": {
+					"type": 8,
+					"value": 847
+				},
+				"3": {
+					"type": 9,
+					"value": 16963
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2780
+				},
+				"2": {
+					"type": 15,
+					"value": 2780
+				},
+				"3": {
+					"type": 17,
+					"value": 2780
+				},
+				"4": {
+					"type": 18,
+					"value": 2780
+				},
+				"5": {
+					"type": 19,
+					"value": 2780
+				},
+				"6": {
+					"type": 20,
+					"value": 2780
+				},
+				"7": {
+					"type": 22,
+					"value": 2780
+				}
+			},
+			"rarity": 5,
+			"stage": 18
+		},
+		"19": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2268
+				},
+				"2": {
+					"type": 8,
+					"value": 907
+				},
+				"3": {
+					"type": 9,
+					"value": 18144
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 2890
+				},
+				"2": {
+					"type": 15,
+					"value": 2890
+				},
+				"3": {
+					"type": 17,
+					"value": 2890
+				},
+				"4": {
+					"type": 18,
+					"value": 2890
+				},
+				"5": {
+					"type": 19,
+					"value": 2890
+				},
+				"6": {
+					"type": 20,
+					"value": 2890
+				},
+				"7": {
+					"type": 22,
+					"value": 2890
+				}
+			},
+			"rarity": 5,
+			"stage": 19
+		},
+		"2": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 248
+				},
+				"2": {
+					"type": 8,
+					"value": 98
+				},
+				"3": {
+					"type": 9,
+					"value": 1987
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1020
+				},
+				"2": {
+					"type": 15,
+					"value": 1020
+				},
+				"3": {
+					"type": 17,
+					"value": 1020
+				},
+				"4": {
+					"type": 18,
+					"value": 1020
+				},
+				"5": {
+					"type": 19,
+					"value": 1020
+				},
+				"6": {
+					"type": 20,
+					"value": 1020
+				},
+				"7": {
+					"type": 22,
+					"value": 1020
+				}
+			},
+			"rarity": 5,
+			"stage": 2
+		},
+		"20": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2419
+				},
+				"2": {
+					"type": 8,
+					"value": 967
+				},
+				"3": {
+					"type": 9,
+					"value": 19353
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3000
+				},
+				"2": {
+					"type": 15,
+					"value": 3000
+				},
+				"3": {
+					"type": 17,
+					"value": 3000
+				},
+				"4": {
+					"type": 18,
+					"value": 3000
+				},
+				"5": {
+					"type": 19,
+					"value": 3000
+				},
+				"6": {
+					"type": 20,
+					"value": 3000
+				},
+				"7": {
+					"type": 22,
+					"value": 3000
+				}
+			},
+			"rarity": 5,
+			"stage": 20
+		},
+		"21": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2574
+				},
+				"2": {
+					"type": 8,
+					"value": 1029
+				},
+				"3": {
+					"type": 9,
+					"value": 20592
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3110
+				},
+				"2": {
+					"type": 15,
+					"value": 3110
+				},
+				"3": {
+					"type": 17,
+					"value": 3110
+				},
+				"4": {
+					"type": 18,
+					"value": 3110
+				},
+				"5": {
+					"type": 19,
+					"value": 3110
+				},
+				"6": {
+					"type": 20,
+					"value": 3110
+				},
+				"7": {
+					"type": 22,
+					"value": 3110
+				}
+			},
+			"rarity": 5,
+			"stage": 21
+		},
+		"22": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2732
+				},
+				"2": {
+					"type": 8,
+					"value": 1092
+				},
+				"3": {
+					"type": 9,
+					"value": 21859
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3220
+				},
+				"2": {
+					"type": 15,
+					"value": 3220
+				},
+				"3": {
+					"type": 17,
+					"value": 3220
+				},
+				"4": {
+					"type": 18,
+					"value": 3220
+				},
+				"5": {
+					"type": 19,
+					"value": 3220
+				},
+				"6": {
+					"type": 20,
+					"value": 3220
+				},
+				"7": {
+					"type": 22,
+					"value": 3220
+				}
+			},
+			"rarity": 5,
+			"stage": 22
+		},
+		"23": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 2894
+				},
+				"2": {
+					"type": 8,
+					"value": 1156
+				},
+				"3": {
+					"type": 9,
+					"value": 23155
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3330
+				},
+				"2": {
+					"type": 15,
+					"value": 3330
+				},
+				"3": {
+					"type": 17,
+					"value": 3330
+				},
+				"4": {
+					"type": 18,
+					"value": 3330
+				},
+				"5": {
+					"type": 19,
+					"value": 3330
+				},
+				"6": {
+					"type": 20,
+					"value": 3330
+				},
+				"7": {
+					"type": 22,
+					"value": 3330
+				}
+			},
+			"rarity": 5,
+			"stage": 23
+		},
+		"24": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3060
+				},
+				"2": {
+					"type": 8,
+					"value": 1224
+				},
+				"3": {
+					"type": 9,
+					"value": 24480
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3440
+				},
+				"2": {
+					"type": 15,
+					"value": 3440
+				},
+				"3": {
+					"type": 17,
+					"value": 3440
+				},
+				"4": {
+					"type": 18,
+					"value": 3440
+				},
+				"5": {
+					"type": 19,
+					"value": 3440
+				},
+				"6": {
+					"type": 20,
+					"value": 3440
+				},
+				"7": {
+					"type": 22,
+					"value": 3440
+				}
+			},
+			"rarity": 5,
+			"stage": 24
+		},
+		"25": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3229
+				},
+				"2": {
+					"type": 8,
+					"value": 1291
+				},
+				"3": {
+					"type": 9,
+					"value": 25833
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3550
+				},
+				"2": {
+					"type": 15,
+					"value": 3550
+				},
+				"3": {
+					"type": 17,
+					"value": 3550
+				},
+				"4": {
+					"type": 18,
+					"value": 3550
+				},
+				"5": {
+					"type": 19,
+					"value": 3550
+				},
+				"6": {
+					"type": 20,
+					"value": 3550
+				},
+				"7": {
+					"type": 22,
+					"value": 3550
+				}
+			},
+			"rarity": 5,
+			"stage": 25
+		},
+		"26": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3402
+				},
+				"2": {
+					"type": 8,
+					"value": 1360
+				},
+				"3": {
+					"type": 9,
+					"value": 27216
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3660
+				},
+				"2": {
+					"type": 15,
+					"value": 3660
+				},
+				"3": {
+					"type": 17,
+					"value": 3660
+				},
+				"4": {
+					"type": 18,
+					"value": 3660
+				},
+				"5": {
+					"type": 19,
+					"value": 3660
+				},
+				"6": {
+					"type": 20,
+					"value": 3660
+				},
+				"7": {
+					"type": 22,
+					"value": 3660
+				}
+			},
+			"rarity": 5,
+			"stage": 26
+		},
+		"27": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3578
+				},
+				"2": {
+					"type": 8,
+					"value": 1430
+				},
+				"3": {
+					"type": 9,
+					"value": 28627
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3770
+				},
+				"2": {
+					"type": 15,
+					"value": 3770
+				},
+				"3": {
+					"type": 17,
+					"value": 3770
+				},
+				"4": {
+					"type": 18,
+					"value": 3770
+				},
+				"5": {
+					"type": 19,
+					"value": 3770
+				},
+				"6": {
+					"type": 20,
+					"value": 3770
+				},
+				"7": {
+					"type": 22,
+					"value": 3770
+				}
+			},
+			"rarity": 5,
+			"stage": 27
+		},
+		"28": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3758
+				},
+				"2": {
+					"type": 8,
+					"value": 1502
+				},
+				"3": {
+					"type": 9,
+					"value": 30067
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3880
+				},
+				"2": {
+					"type": 15,
+					"value": 3880
+				},
+				"3": {
+					"type": 17,
+					"value": 3880
+				},
+				"4": {
+					"type": 18,
+					"value": 3880
+				},
+				"5": {
+					"type": 19,
+					"value": 3880
+				},
+				"6": {
+					"type": 20,
+					"value": 3880
+				},
+				"7": {
+					"type": 22,
+					"value": 3880
+				}
+			},
+			"rarity": 5,
+			"stage": 28
+		},
+		"29": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 3942
+				},
+				"2": {
+					"type": 8,
+					"value": 1576
+				},
+				"3": {
+					"type": 9,
+					"value": 31536
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 3990
+				},
+				"2": {
+					"type": 15,
+					"value": 3990
+				},
+				"3": {
+					"type": 17,
+					"value": 3990
+				},
+				"4": {
+					"type": 18,
+					"value": 3990
+				},
+				"5": {
+					"type": 19,
+					"value": 3990
+				},
+				"6": {
+					"type": 20,
+					"value": 3990
+				},
+				"7": {
+					"type": 22,
+					"value": 3990
+				}
+			},
+			"rarity": 5,
+			"stage": 29
+		},
+		"3": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 338
+				},
+				"2": {
+					"type": 8,
+					"value": 134
+				},
+				"3": {
+					"type": 9,
+					"value": 2707
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1130
+				},
+				"2": {
+					"type": 15,
+					"value": 1130
+				},
+				"3": {
+					"type": 17,
+					"value": 1130
+				},
+				"4": {
+					"type": 18,
+					"value": 1130
+				},
+				"5": {
+					"type": 19,
+					"value": 1130
+				},
+				"6": {
+					"type": 20,
+					"value": 1130
+				},
+				"7": {
+					"type": 22,
+					"value": 1130
+				}
+			},
+			"rarity": 5,
+			"stage": 3
+		},
+		"30": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 4129
+				},
+				"2": {
+					"type": 8,
+					"value": 1651
+				},
+				"3": {
+					"type": 9,
+					"value": 33033
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4100
+				},
+				"2": {
+					"type": 15,
+					"value": 4100
+				},
+				"3": {
+					"type": 17,
+					"value": 4100
+				},
+				"4": {
+					"type": 18,
+					"value": 4100
+				},
+				"5": {
+					"type": 19,
+					"value": 4100
+				},
+				"6": {
+					"type": 20,
+					"value": 4100
+				},
+				"7": {
+					"type": 22,
+					"value": 4100
+				}
+			},
+			"rarity": 5,
+			"stage": 30
+		},
+		"31": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 4320
+				},
+				"2": {
+					"type": 8,
+					"value": 1728
+				},
+				"3": {
+					"type": 9,
+					"value": 34560
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4210
+				},
+				"2": {
+					"type": 15,
+					"value": 4210
+				},
+				"3": {
+					"type": 17,
+					"value": 4210
+				},
+				"4": {
+					"type": 18,
+					"value": 4210
+				},
+				"5": {
+					"type": 19,
+					"value": 4210
+				},
+				"6": {
+					"type": 20,
+					"value": 4210
+				},
+				"7": {
+					"type": 22,
+					"value": 4210
+				}
+			},
+			"rarity": 5,
+			"stage": 31
+		},
+		"32": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 4514
+				},
+				"2": {
+					"type": 8,
+					"value": 1804
+				},
+				"3": {
+					"type": 9,
+					"value": 36115
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4320
+				},
+				"2": {
+					"type": 15,
+					"value": 4320
+				},
+				"3": {
+					"type": 17,
+					"value": 4320
+				},
+				"4": {
+					"type": 18,
+					"value": 4320
+				},
+				"5": {
+					"type": 19,
+					"value": 4320
+				},
+				"6": {
+					"type": 20,
+					"value": 4320
+				},
+				"7": {
+					"type": 22,
+					"value": 4320
+				}
+			},
+			"rarity": 5,
+			"stage": 32
+		},
+		"33": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 4712
+				},
+				"2": {
+					"type": 8,
+					"value": 1884
+				},
+				"3": {
+					"type": 9,
+					"value": 37699
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4430
+				},
+				"2": {
+					"type": 15,
+					"value": 4430
+				},
+				"3": {
+					"type": 17,
+					"value": 4430
+				},
+				"4": {
+					"type": 18,
+					"value": 4430
+				},
+				"5": {
+					"type": 19,
+					"value": 4430
+				},
+				"6": {
+					"type": 20,
+					"value": 4430
+				},
+				"7": {
+					"type": 22,
+					"value": 4430
+				}
+			},
+			"rarity": 5,
+			"stage": 33
+		},
+		"34": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 4914
+				},
+				"2": {
+					"type": 8,
+					"value": 1965
+				},
+				"3": {
+					"type": 9,
+					"value": 39312
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4540
+				},
+				"2": {
+					"type": 15,
+					"value": 4540
+				},
+				"3": {
+					"type": 17,
+					"value": 4540
+				},
+				"4": {
+					"type": 18,
+					"value": 4540
+				},
+				"5": {
+					"type": 19,
+					"value": 4540
+				},
+				"6": {
+					"type": 20,
+					"value": 4540
+				},
+				"7": {
+					"type": 22,
+					"value": 4540
+				}
+			},
+			"rarity": 5,
+			"stage": 34
+		},
+		"35": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 5119
+				},
+				"2": {
+					"type": 8,
+					"value": 2047
+				},
+				"3": {
+					"type": 9,
+					"value": 40953
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4650
+				},
+				"2": {
+					"type": 15,
+					"value": 4650
+				},
+				"3": {
+					"type": 17,
+					"value": 4650
+				},
+				"4": {
+					"type": 18,
+					"value": 4650
+				},
+				"5": {
+					"type": 19,
+					"value": 4650
+				},
+				"6": {
+					"type": 20,
+					"value": 4650
+				},
+				"7": {
+					"type": 22,
+					"value": 4650
+				}
+			},
+			"rarity": 5,
+			"stage": 35
+		},
+		"36": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 5328
+				},
+				"2": {
+					"type": 8,
+					"value": 2131
+				},
+				"3": {
+					"type": 9,
+					"value": 42624
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4760
+				},
+				"2": {
+					"type": 15,
+					"value": 4760
+				},
+				"3": {
+					"type": 17,
+					"value": 4760
+				},
+				"4": {
+					"type": 18,
+					"value": 4760
+				},
+				"5": {
+					"type": 19,
+					"value": 4760
+				},
+				"6": {
+					"type": 20,
+					"value": 4760
+				},
+				"7": {
+					"type": 22,
+					"value": 4760
+				}
+			},
+			"rarity": 5,
+			"stage": 36
+		},
+		"37": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 5540
+				},
+				"2": {
+					"type": 8,
+					"value": 2215
+				},
+				"3": {
+					"type": 9,
+					"value": 44323
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4870
+				},
+				"2": {
+					"type": 15,
+					"value": 4870
+				},
+				"3": {
+					"type": 17,
+					"value": 4870
+				},
+				"4": {
+					"type": 18,
+					"value": 4870
+				},
+				"5": {
+					"type": 19,
+					"value": 4870
+				},
+				"6": {
+					"type": 20,
+					"value": 4870
+				},
+				"7": {
+					"type": 22,
+					"value": 4870
+				}
+			},
+			"rarity": 5,
+			"stage": 37
+		},
+		"38": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 5756
+				},
+				"2": {
+					"type": 8,
+					"value": 2301
+				},
+				"3": {
+					"type": 9,
+					"value": 46051
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 4980
+				},
+				"2": {
+					"type": 15,
+					"value": 4980
+				},
+				"3": {
+					"type": 17,
+					"value": 4980
+				},
+				"4": {
+					"type": 18,
+					"value": 4980
+				},
+				"5": {
+					"type": 19,
+					"value": 4980
+				},
+				"6": {
+					"type": 20,
+					"value": 4980
+				},
+				"7": {
+					"type": 22,
+					"value": 4980
+				}
+			},
+			"rarity": 5,
+			"stage": 38
+		},
+		"39": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 5976
+				},
+				"2": {
+					"type": 8,
+					"value": 2390
+				},
+				"3": {
+					"type": 9,
+					"value": 47808
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 5090
+				},
+				"2": {
+					"type": 15,
+					"value": 5090
+				},
+				"3": {
+					"type": 17,
+					"value": 5090
+				},
+				"4": {
+					"type": 18,
+					"value": 5090
+				},
+				"5": {
+					"type": 19,
+					"value": 5090
+				},
+				"6": {
+					"type": 20,
+					"value": 5090
+				},
+				"7": {
+					"type": 22,
+					"value": 5090
+				}
+			},
+			"rarity": 5,
+			"stage": 39
+		},
+		"4": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 432
+				},
+				"2": {
+					"type": 8,
+					"value": 172
+				},
+				"3": {
+					"type": 9,
+					"value": 3456
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1240
+				},
+				"2": {
+					"type": 15,
+					"value": 1240
+				},
+				"3": {
+					"type": 17,
+					"value": 1240
+				},
+				"4": {
+					"type": 18,
+					"value": 1240
+				},
+				"5": {
+					"type": 19,
+					"value": 1240
+				},
+				"6": {
+					"type": 20,
+					"value": 1240
+				},
+				"7": {
+					"type": 22,
+					"value": 1240
+				}
+			},
+			"rarity": 5,
+			"stage": 4
+		},
+		"5": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 529
+				},
+				"2": {
+					"type": 8,
+					"value": 211
+				},
+				"3": {
+					"type": 9,
+					"value": 4233
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1350
+				},
+				"2": {
+					"type": 15,
+					"value": 1350
+				},
+				"3": {
+					"type": 17,
+					"value": 1350
+				},
+				"4": {
+					"type": 18,
+					"value": 1350
+				},
+				"5": {
+					"type": 19,
+					"value": 1350
+				},
+				"6": {
+					"type": 20,
+					"value": 1350
+				},
+				"7": {
+					"type": 22,
+					"value": 1350
+				}
+			},
+			"rarity": 5,
+			"stage": 5
+		},
+		"6": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 630
+				},
+				"2": {
+					"type": 8,
+					"value": 252
+				},
+				"3": {
+					"type": 9,
+					"value": 5040
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1460
+				},
+				"2": {
+					"type": 15,
+					"value": 1460
+				},
+				"3": {
+					"type": 17,
+					"value": 1460
+				},
+				"4": {
+					"type": 18,
+					"value": 1460
+				},
+				"5": {
+					"type": 19,
+					"value": 1460
+				},
+				"6": {
+					"type": 20,
+					"value": 1460
+				},
+				"7": {
+					"type": 22,
+					"value": 1460
+				}
+			},
+			"rarity": 5,
+			"stage": 6
+		},
+		"7": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 734
+				},
+				"2": {
+					"type": 8,
+					"value": 292
+				},
+				"3": {
+					"type": 9,
+					"value": 5875
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1570
+				},
+				"2": {
+					"type": 15,
+					"value": 1570
+				},
+				"3": {
+					"type": 17,
+					"value": 1570
+				},
+				"4": {
+					"type": 18,
+					"value": 1570
+				},
+				"5": {
+					"type": 19,
+					"value": 1570
+				},
+				"6": {
+					"type": 20,
+					"value": 1570
+				},
+				"7": {
+					"type": 22,
+					"value": 1570
+				}
+			},
+			"rarity": 5,
+			"stage": 7
+		},
+		"8": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 842
+				},
+				"2": {
+					"type": 8,
+					"value": 336
+				},
+				"3": {
+					"type": 9,
+					"value": 6739
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1680
+				},
+				"2": {
+					"type": 15,
+					"value": 1680
+				},
+				"3": {
+					"type": 17,
+					"value": 1680
+				},
+				"4": {
+					"type": 18,
+					"value": 1680
+				},
+				"5": {
+					"type": 19,
+					"value": 1680
+				},
+				"6": {
+					"type": 20,
+					"value": 1680
+				},
+				"7": {
+					"type": 22,
+					"value": 1680
+				}
+			},
+			"rarity": 5,
+			"stage": 8
+		},
+		"9": {
+			"baseAttrs": {
+				"1": {
+					"type": 7,
+					"value": 954
+				},
+				"2": {
+					"type": 8,
+					"value": 381
+				},
+				"3": {
+					"type": 9,
+					"value": 7632
+				}
+			},
+			"rariAttrs": {
+				"1": {
+					"type": 14,
+					"value": 1790
+				},
+				"2": {
+					"type": 15,
+					"value": 1790
+				},
+				"3": {
+					"type": 17,
+					"value": 1790
+				},
+				"4": {
+					"type": 18,
+					"value": 1790
+				},
+				"5": {
+					"type": 19,
+					"value": 1790
+				},
+				"6": {
+					"type": 20,
+					"value": 1790
+				},
+				"7": {
+					"type": 22,
+					"value": 1790
+				}
+			},
+			"rarity": 5,
+			"stage": 9
+		}
+	}
+}

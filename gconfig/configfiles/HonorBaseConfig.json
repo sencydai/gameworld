@@ -1,0 +1,19 @@
+{
+	"lordLevel": 60,
+	"rank": 50,
+	"repeatCD": {
+		"1": {
+			"cd": 10,
+			"times": 8
+		},
+		"2": {
+			"cd": 12,
+			"times": 9
+		},
+		"3": {
+			"cd": 14,
+			"times": 10
+		}
+	},
+	"vipLevel": 3
+}

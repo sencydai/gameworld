@@ -1,0 +1,163 @@
+{
+	"1": {
+		"level": 1,
+		"timeType": 0,
+		"type": 1
+	},
+	"10": {
+		"level": 1,
+		"timeType": 0,
+		"type": 10
+	},
+	"101": {
+		"level": 17,
+		"timeType": 0,
+		"type": 101
+	},
+	"102": {
+		"level": 35,
+		"timeType": 0,
+		"type": 102
+	},
+	"103": {
+		"fight": 100,
+		"level": 8,
+		"timeType": 0,
+		"type": 103
+	},
+	"104": {
+		"level": 23,
+		"timeType": 0,
+		"type": 104
+	},
+	"105": {
+		"level": 19,
+		"timeType": 0,
+		"type": 105
+	},
+	"106": {
+		"hTimeType": 0,
+		"level": 14,
+		"time": {
+			"eHour": 23,
+			"eMin": 59,
+			"eSec": 59,
+			"sHour": 0,
+			"week": {
+				"1": 1,
+				"2": 4,
+				"3": 7
+			}
+		},
+		"timeSubType": 1,
+		"timeType": 1,
+		"type": 106
+	},
+	"107": {
+		"hTimeType": 0,
+		"level": 14,
+		"time": {
+			"eHour": 23,
+			"eMin": 59,
+			"eSec": 59,
+			"sHour": 0,
+			"week": {
+				"1": 2,
+				"2": 5,
+				"3": 7
+			}
+		},
+		"timeSubType": 1,
+		"timeType": 1,
+		"type": 107
+	},
+	"108": {
+		"hTimeType": 0,
+		"level": 14,
+		"time": {
+			"eHour": 23,
+			"eMin": 59,
+			"eSec": 59,
+			"sHour": 0,
+			"week": {
+				"1": 3,
+				"2": 6,
+				"3": 7
+			}
+		},
+		"timeSubType": 1,
+		"timeType": 1,
+		"type": 108
+	},
+	"109": {
+		"level": 25,
+		"taskId": 1,
+		"timeType": 0,
+		"type": 109
+	},
+	"113": {
+		"level": 1,
+		"timeType": 0,
+		"type": 113
+	},
+	"115": {
+		"level": 16,
+		"timeType": 0,
+		"type": 115
+	},
+	"116": {
+		"level": 10,
+		"timeType": 0,
+		"type": 116
+	},
+	"117": {
+		"level": 30,
+		"timeType": 0,
+		"type": 117
+	},
+	"118": {
+		"level": 32,
+		"timeType": 0,
+		"type": 118
+	},
+	"2": {
+		"level": 1,
+		"timeType": 0,
+		"type": 2
+	},
+	"3": {
+		"level": 10,
+		"timeType": 0,
+		"type": 3
+	},
+	"4": {
+		"level": 10,
+		"timeType": 0,
+		"type": 4
+	},
+	"5": {
+		"level": 1,
+		"timeType": 0,
+		"type": 5
+	},
+	"6": {
+		"level": 1,
+		"timeType": 0,
+		"type": 6
+	},
+	"7": {
+		"level": 1,
+		"timeType": 0,
+		"type": 7
+	},
+	"8": {
+		"level": 1,
+		"timeType": 0,
+		"type": 8
+	},
+	"9": {
+		"level": 1,
+		"timeType": 0,
+		"type": 9
+	}
+}

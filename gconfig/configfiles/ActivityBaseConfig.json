@@ -1,0 +1,11 @@
+{
+	"growFundBuy": {
+		"6": {
+			"consume": 200,
+			"vip": 2
+		}
+	},
+	"itemExchangeClear": {
+		"1": 9
+	}
+}

@@ -1,0 +1,3602 @@
+{
+	"1": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 1,
+		"randAward": 2000
+	},
+	"10": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 10,
+		"randAward": 2000
+	},
+	"100": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 100,
+		"randAward": 2000
+	},
+	"101": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 101,
+		"randAward": 2000
+	},
+	"102": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 102,
+		"randAward": 2000
+	},
+	"103": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 103,
+		"randAward": 2000
+	},
+	"104": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 104,
+		"randAward": 2000
+	},
+	"105": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 105,
+		"randAward": 2000
+	},
+	"106": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 106,
+		"randAward": 2000
+	},
+	"107": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 107,
+		"randAward": 2000
+	},
+	"108": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 108,
+		"randAward": 2000
+	},
+	"109": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 109,
+		"randAward": 2000
+	},
+	"11": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 11,
+		"randAward": 2000
+	},
+	"110": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 110,
+		"randAward": 2000
+	},
+	"111": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 111,
+		"randAward": 2000
+	},
+	"112": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 112,
+		"randAward": 2000
+	},
+	"113": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 113,
+		"randAward": 2000
+	},
+	"114": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 114,
+		"randAward": 2000
+	},
+	"115": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 115,
+		"randAward": 2000
+	},
+	"116": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 116,
+		"randAward": 2000
+	},
+	"117": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 117,
+		"randAward": 2000
+	},
+	"118": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 118,
+		"randAward": 2000
+	},
+	"119": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 119,
+		"randAward": 2000
+	},
+	"12": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 12,
+		"randAward": 2000
+	},
+	"120": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 120,
+		"randAward": 2000
+	},
+	"121": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 121,
+		"randAward": 2000
+	},
+	"122": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 122,
+		"randAward": 2000
+	},
+	"123": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 123,
+		"randAward": 2000
+	},
+	"124": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 124,
+		"randAward": 2000
+	},
+	"125": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 125,
+		"randAward": 2000
+	},
+	"126": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 126,
+		"randAward": 2000
+	},
+	"127": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 127,
+		"randAward": 2000
+	},
+	"128": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 128,
+		"randAward": 2000
+	},
+	"129": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 129,
+		"randAward": 2000
+	},
+	"13": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 13,
+		"randAward": 2000
+	},
+	"130": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 130,
+		"randAward": 2000
+	},
+	"131": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 131,
+		"randAward": 2000
+	},
+	"132": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 132,
+		"randAward": 2000
+	},
+	"133": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 133,
+		"randAward": 2000
+	},
+	"134": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 134,
+		"randAward": 2000
+	},
+	"135": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 135,
+		"randAward": 2000
+	},
+	"136": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 136,
+		"randAward": 2000
+	},
+	"137": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 137,
+		"randAward": 2000
+	},
+	"138": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 138,
+		"randAward": 2000
+	},
+	"139": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 139,
+		"randAward": 2000
+	},
+	"14": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 14,
+		"randAward": 2000
+	},
+	"140": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 140,
+		"randAward": 2000
+	},
+	"141": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 141,
+		"randAward": 2000
+	},
+	"142": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 142,
+		"randAward": 2000
+	},
+	"143": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 143,
+		"randAward": 2000
+	},
+	"144": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 144,
+		"randAward": 2000
+	},
+	"145": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 145,
+		"randAward": 2000
+	},
+	"146": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 146,
+		"randAward": 2000
+	},
+	"147": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 147,
+		"randAward": 2000
+	},
+	"148": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 148,
+		"randAward": 2000
+	},
+	"149": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 149,
+		"randAward": 2000
+	},
+	"15": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 15,
+		"randAward": 2000
+	},
+	"150": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 150,
+		"randAward": 2000
+	},
+	"151": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 151,
+		"randAward": 2000
+	},
+	"152": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 152,
+		"randAward": 2000
+	},
+	"153": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 153,
+		"randAward": 2000
+	},
+	"154": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 154,
+		"randAward": 2000
+	},
+	"155": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 155,
+		"randAward": 2000
+	},
+	"156": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 156,
+		"randAward": 2000
+	},
+	"157": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 157,
+		"randAward": 2000
+	},
+	"158": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 158,
+		"randAward": 2000
+	},
+	"159": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 159,
+		"randAward": 2000
+	},
+	"16": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 16,
+		"randAward": 2000
+	},
+	"160": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 160,
+		"randAward": 2000
+	},
+	"161": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 161,
+		"randAward": 2000
+	},
+	"162": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 162,
+		"randAward": 2000
+	},
+	"163": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 163,
+		"randAward": 2000
+	},
+	"164": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 164,
+		"randAward": 2000
+	},
+	"165": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 165,
+		"randAward": 2000
+	},
+	"166": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 166,
+		"randAward": 2000
+	},
+	"167": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 167,
+		"randAward": 2000
+	},
+	"168": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 168,
+		"randAward": 2000
+	},
+	"169": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 169,
+		"randAward": 2000
+	},
+	"17": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 17,
+		"randAward": 2000
+	},
+	"170": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 170,
+		"randAward": 2000
+	},
+	"171": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 171,
+		"randAward": 2000
+	},
+	"172": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 172,
+		"randAward": 2000
+	},
+	"173": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 173,
+		"randAward": 2000
+	},
+	"174": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 174,
+		"randAward": 2000
+	},
+	"175": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 175,
+		"randAward": 2000
+	},
+	"176": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 176,
+		"randAward": 2000
+	},
+	"177": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 177,
+		"randAward": 2000
+	},
+	"178": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 178,
+		"randAward": 2000
+	},
+	"179": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 179,
+		"randAward": 2000
+	},
+	"18": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 18,
+		"randAward": 2000
+	},
+	"180": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 180,
+		"randAward": 2000
+	},
+	"181": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 181,
+		"randAward": 2000
+	},
+	"182": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 182,
+		"randAward": 2000
+	},
+	"183": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 183,
+		"randAward": 2000
+	},
+	"184": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 184,
+		"randAward": 2000
+	},
+	"185": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 185,
+		"randAward": 2000
+	},
+	"186": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 186,
+		"randAward": 2000
+	},
+	"187": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 187,
+		"randAward": 2000
+	},
+	"188": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 188,
+		"randAward": 2000
+	},
+	"189": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 189,
+		"randAward": 2000
+	},
+	"19": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 19,
+		"randAward": 2000
+	},
+	"190": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 190,
+		"randAward": 2000
+	},
+	"191": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 191,
+		"randAward": 2000
+	},
+	"192": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 192,
+		"randAward": 2000
+	},
+	"193": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 193,
+		"randAward": 2000
+	},
+	"194": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 194,
+		"randAward": 2000
+	},
+	"195": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 195,
+		"randAward": 2000
+	},
+	"196": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 196,
+		"randAward": 2000
+	},
+	"197": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 197,
+		"randAward": 2000
+	},
+	"198": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 198,
+		"randAward": 2000
+	},
+	"199": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 199,
+		"randAward": 2000
+	},
+	"2": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 2,
+		"randAward": 2000
+	},
+	"20": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 20,
+		"randAward": 2000
+	},
+	"200": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 200,
+		"randAward": 2000
+	},
+	"201": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 201,
+		"randAward": 2000
+	},
+	"202": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 202,
+		"randAward": 2000
+	},
+	"203": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 203,
+		"randAward": 2000
+	},
+	"204": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 204,
+		"randAward": 2000
+	},
+	"205": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 205,
+		"randAward": 2000
+	},
+	"206": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 206,
+		"randAward": 2000
+	},
+	"207": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 207,
+		"randAward": 2000
+	},
+	"208": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 208,
+		"randAward": 2000
+	},
+	"209": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 209,
+		"randAward": 2000
+	},
+	"21": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 21,
+		"randAward": 2000
+	},
+	"210": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 210,
+		"randAward": 2000
+	},
+	"211": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 211,
+		"randAward": 2000
+	},
+	"212": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 212,
+		"randAward": 2000
+	},
+	"213": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 213,
+		"randAward": 2000
+	},
+	"214": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 214,
+		"randAward": 2000
+	},
+	"215": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 215,
+		"randAward": 2000
+	},
+	"216": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 216,
+		"randAward": 2000
+	},
+	"217": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 217,
+		"randAward": 2000
+	},
+	"218": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 218,
+		"randAward": 2000
+	},
+	"219": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 219,
+		"randAward": 2000
+	},
+	"22": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 22,
+		"randAward": 2000
+	},
+	"220": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 220,
+		"randAward": 2000
+	},
+	"221": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 221,
+		"randAward": 2000
+	},
+	"222": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 222,
+		"randAward": 2000
+	},
+	"223": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 223,
+		"randAward": 2000
+	},
+	"224": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 224,
+		"randAward": 2000
+	},
+	"225": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 225,
+		"randAward": 2000
+	},
+	"226": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 226,
+		"randAward": 2000
+	},
+	"227": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 227,
+		"randAward": 2000
+	},
+	"228": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 228,
+		"randAward": 2000
+	},
+	"229": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 229,
+		"randAward": 2000
+	},
+	"23": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 23,
+		"randAward": 2000
+	},
+	"230": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 230,
+		"randAward": 2000
+	},
+	"231": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 231,
+		"randAward": 2000
+	},
+	"232": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 232,
+		"randAward": 2000
+	},
+	"233": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 233,
+		"randAward": 2000
+	},
+	"234": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 234,
+		"randAward": 2000
+	},
+	"235": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 235,
+		"randAward": 2000
+	},
+	"236": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 236,
+		"randAward": 2000
+	},
+	"237": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 237,
+		"randAward": 2000
+	},
+	"238": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 238,
+		"randAward": 2000
+	},
+	"239": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 239,
+		"randAward": 2000
+	},
+	"24": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 24,
+		"randAward": 2000
+	},
+	"240": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 240,
+		"randAward": 2000
+	},
+	"241": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 241,
+		"randAward": 2000
+	},
+	"242": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 242,
+		"randAward": 2000
+	},
+	"243": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 243,
+		"randAward": 2000
+	},
+	"244": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 244,
+		"randAward": 2000
+	},
+	"245": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 245,
+		"randAward": 2000
+	},
+	"246": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 246,
+		"randAward": 2000
+	},
+	"247": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 247,
+		"randAward": 2000
+	},
+	"248": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 248,
+		"randAward": 2000
+	},
+	"249": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 249,
+		"randAward": 2000
+	},
+	"25": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 25,
+		"randAward": 2000
+	},
+	"250": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 250,
+		"randAward": 2000
+	},
+	"251": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 251,
+		"randAward": 2000
+	},
+	"252": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 252,
+		"randAward": 2000
+	},
+	"253": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 253,
+		"randAward": 2000
+	},
+	"254": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 254,
+		"randAward": 2000
+	},
+	"255": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 255,
+		"randAward": 2000
+	},
+	"256": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 256,
+		"randAward": 2000
+	},
+	"257": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 257,
+		"randAward": 2000
+	},
+	"258": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 258,
+		"randAward": 2000
+	},
+	"259": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 259,
+		"randAward": 2000
+	},
+	"26": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 26,
+		"randAward": 2000
+	},
+	"260": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 260,
+		"randAward": 2000
+	},
+	"261": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 261,
+		"randAward": 2000
+	},
+	"262": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 262,
+		"randAward": 2000
+	},
+	"263": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 263,
+		"randAward": 2000
+	},
+	"264": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 264,
+		"randAward": 2000
+	},
+	"265": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 265,
+		"randAward": 2000
+	},
+	"266": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 266,
+		"randAward": 2000
+	},
+	"267": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 267,
+		"randAward": 2000
+	},
+	"268": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 268,
+		"randAward": 2000
+	},
+	"269": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 269,
+		"randAward": 2000
+	},
+	"27": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 27,
+		"randAward": 2000
+	},
+	"270": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 270,
+		"randAward": 2000
+	},
+	"271": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 271,
+		"randAward": 2000
+	},
+	"272": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 272,
+		"randAward": 2000
+	},
+	"273": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 273,
+		"randAward": 2000
+	},
+	"274": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 274,
+		"randAward": 2000
+	},
+	"275": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 275,
+		"randAward": 2000
+	},
+	"276": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 276,
+		"randAward": 2000
+	},
+	"277": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 277,
+		"randAward": 2000
+	},
+	"278": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 278,
+		"randAward": 2000
+	},
+	"279": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 279,
+		"randAward": 2000
+	},
+	"28": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 28,
+		"randAward": 2000
+	},
+	"280": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 280,
+		"randAward": 2000
+	},
+	"281": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 281,
+		"randAward": 2000
+	},
+	"282": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 282,
+		"randAward": 2000
+	},
+	"283": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 283,
+		"randAward": 2000
+	},
+	"284": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 284,
+		"randAward": 2000
+	},
+	"285": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 285,
+		"randAward": 2000
+	},
+	"286": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 286,
+		"randAward": 2000
+	},
+	"287": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 287,
+		"randAward": 2000
+	},
+	"288": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 288,
+		"randAward": 2000
+	},
+	"289": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 289,
+		"randAward": 2000
+	},
+	"29": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 29,
+		"randAward": 2000
+	},
+	"290": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 290,
+		"randAward": 2000
+	},
+	"291": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 291,
+		"randAward": 2000
+	},
+	"292": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 292,
+		"randAward": 2000
+	},
+	"293": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 293,
+		"randAward": 2000
+	},
+	"294": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 294,
+		"randAward": 2000
+	},
+	"295": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 295,
+		"randAward": 2000
+	},
+	"296": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 296,
+		"randAward": 2000
+	},
+	"297": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 297,
+		"randAward": 2000
+	},
+	"298": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 298,
+		"randAward": 2000
+	},
+	"299": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 299,
+		"randAward": 2000
+	},
+	"3": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 3,
+		"randAward": 2000
+	},
+	"30": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 30,
+		"randAward": 2000
+	},
+	"300": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 300,
+		"randAward": 2000
+	},
+	"31": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 31,
+		"randAward": 2000
+	},
+	"32": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 32,
+		"randAward": 2000
+	},
+	"33": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 33,
+		"randAward": 2000
+	},
+	"34": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 34,
+		"randAward": 2000
+	},
+	"35": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 35,
+		"randAward": 2000
+	},
+	"36": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 36,
+		"randAward": 2000
+	},
+	"37": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 37,
+		"randAward": 2000
+	},
+	"38": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 38,
+		"randAward": 2000
+	},
+	"39": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 39,
+		"randAward": 2000
+	},
+	"4": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 4,
+		"randAward": 2000
+	},
+	"40": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 40,
+		"randAward": 2000
+	},
+	"41": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 41,
+		"randAward": 2000
+	},
+	"42": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 42,
+		"randAward": 2000
+	},
+	"43": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 43,
+		"randAward": 2000
+	},
+	"44": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 44,
+		"randAward": 2000
+	},
+	"45": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 45,
+		"randAward": 2000
+	},
+	"46": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 46,
+		"randAward": 2000
+	},
+	"47": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 47,
+		"randAward": 2000
+	},
+	"48": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 48,
+		"randAward": 2000
+	},
+	"49": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 49,
+		"randAward": 2000
+	},
+	"5": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 5,
+		"randAward": 2000
+	},
+	"50": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 50,
+		"randAward": 2000
+	},
+	"51": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 51,
+		"randAward": 2000
+	},
+	"52": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 52,
+		"randAward": 2000
+	},
+	"53": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 53,
+		"randAward": 2000
+	},
+	"54": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 54,
+		"randAward": 2000
+	},
+	"55": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 55,
+		"randAward": 2000
+	},
+	"56": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 56,
+		"randAward": 2000
+	},
+	"57": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 57,
+		"randAward": 2000
+	},
+	"58": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 58,
+		"randAward": 2000
+	},
+	"59": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 59,
+		"randAward": 2000
+	},
+	"6": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 6,
+		"randAward": 2000
+	},
+	"60": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 60,
+		"randAward": 2000
+	},
+	"61": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 61,
+		"randAward": 2000
+	},
+	"62": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 62,
+		"randAward": 2000
+	},
+	"63": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 63,
+		"randAward": 2000
+	},
+	"64": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 64,
+		"randAward": 2000
+	},
+	"65": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 65,
+		"randAward": 2000
+	},
+	"66": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 66,
+		"randAward": 2000
+	},
+	"67": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 67,
+		"randAward": 2000
+	},
+	"68": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 68,
+		"randAward": 2000
+	},
+	"69": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 69,
+		"randAward": 2000
+	},
+	"7": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 7,
+		"randAward": 2000
+	},
+	"70": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 70,
+		"randAward": 2000
+	},
+	"71": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 71,
+		"randAward": 2000
+	},
+	"72": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 72,
+		"randAward": 2000
+	},
+	"73": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 73,
+		"randAward": 2000
+	},
+	"74": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 74,
+		"randAward": 2000
+	},
+	"75": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 75,
+		"randAward": 2000
+	},
+	"76": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 76,
+		"randAward": 2000
+	},
+	"77": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 77,
+		"randAward": 2000
+	},
+	"78": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 78,
+		"randAward": 2000
+	},
+	"79": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 79,
+		"randAward": 2000
+	},
+	"8": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 8,
+		"randAward": 2000
+	},
+	"80": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 80,
+		"randAward": 2000
+	},
+	"81": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 81,
+		"randAward": 2000
+	},
+	"82": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 82,
+		"randAward": 2000
+	},
+	"83": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 83,
+		"randAward": 2000
+	},
+	"84": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 84,
+		"randAward": 2000
+	},
+	"85": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 85,
+		"randAward": 2000
+	},
+	"86": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 86,
+		"randAward": 2000
+	},
+	"87": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 87,
+		"randAward": 2000
+	},
+	"88": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 88,
+		"randAward": 2000
+	},
+	"89": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 89,
+		"randAward": 2000
+	},
+	"9": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 9,
+		"randAward": 2000
+	},
+	"90": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 90,
+		"randAward": 2000
+	},
+	"91": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 91,
+		"randAward": 2000
+	},
+	"92": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 92,
+		"randAward": 2000
+	},
+	"93": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 93,
+		"randAward": 2000
+	},
+	"94": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 94,
+		"randAward": 2000
+	},
+	"95": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 95,
+		"randAward": 2000
+	},
+	"96": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 96,
+		"randAward": 2000
+	},
+	"97": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 97,
+		"randAward": 2000
+	},
+	"98": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 98,
+		"randAward": 2000
+	},
+	"99": {
+		"awards": {
+			"1": {
+				"count": 200,
+				"id": 2010,
+				"type": 1
+			}
+		},
+		"fight": 1,
+		"id": 99,
+		"randAward": 2000
+	}
+}

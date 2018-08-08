@@ -1,0 +1,37 @@
+{
+	"1": {
+		"expIndex": 1,
+		"levelRatio": 2000,
+		"rarity": 1,
+		"stageRatio": 2000,
+		"worth": 100
+	},
+	"2": {
+		"expIndex": 1,
+		"levelRatio": 4000,
+		"rarity": 2,
+		"stageRatio": 4000,
+		"worth": 100
+	},
+	"3": {
+		"expIndex": 1,
+		"levelRatio": 6000,
+		"rarity": 3,
+		"stageRatio": 6000,
+		"worth": 100
+	},
+	"4": {
+		"expIndex": 1,
+		"levelRatio": 10000,
+		"rarity": 4,
+		"stageRatio": 10000,
+		"worth": 100
+	},
+	"5": {
+		"expIndex": 1,
+		"levelRatio": 20000,
+		"rarity": 5,
+		"stageRatio": 20000,
+		"worth": 100
+	}
+}

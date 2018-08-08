@@ -15,20 +15,22 @@ import (
 )
 
 func startFighting(actor *t.Actor, fightData *t.FightData) {
-	if fightData.Data[0].AttrSum < fightData.Data[1].AttrSum {
-		fightData.Order[0], fightData.Order[1] = fightData.Order[1], fightData.Order[0]
-	}
+	if !checkOver(fightData) {
+		if fightData.Data[0].AttrSum < fightData.Data[1].AttrSum {
+			fightData.Order[0], fightData.Order[1] = fightData.Order[1], fightData.Order[0]
+		}
 
-	//英雄战斗开始时技能
-	for _, entity := range fightData.Entities {
-		entityFighting(triggerBegin, fightData, entity, nil)
-	}
+		//英雄战斗开始时技能
+		for _, entity := range fightData.Entities {
+			entityFighting(triggerBegin, fightData, entity, nil)
+		}
 
-	//双方领主释放被动技能
-	for _, index := range fightData.Order {
-		lord := fightData.Data[index]
-		for _, skillId := range lord.PassSkills {
-			useSkill(triggerBegin, fightData, lord.Entity, nil, skillId)
+		//双方领主释放被动技能
+		for _, index := range fightData.Order {
+			lord := fightData.Data[index]
+			for _, skillId := range lord.PassSkills {
+				useSkill(triggerBegin, fightData, lord.Entity, nil, skillId)
+			}
 		}
 	}
 
@@ -39,18 +41,32 @@ func startFighting(actor *t.Actor, fightData *t.FightData) {
 func loopRoundFighting(actor *t.Actor, fightData *t.FightData) {
 	onSendFightLogs(actor, fightData)
 
+	//血量同步
+	handle, ok := actorFightHpSyncHandles[fightData.Type]
+	if ok {
+		handle(actor, fightData)
+	}
+
 	//战斗结束
 	if fightData.FightResult != 0 {
-		timer.Next(actor, fmt.Sprintf("onFightClear_%d", fightData.Type), onFightClear, fightData)
+		timer.Next(actor, fmt.Sprintf("OnFightClear_%d", fightData.Type), OnFightClear, fightData)
 		return
 	}
-	roundFighting(actor, fightData)
-	//timer.NextGo(actor, fmt.Sprintf("roundFighting_%d", fightData.Type), roundFighting, fightData)
+
+	if !ok || fightData.Round == 0 {
+		roundFighting(actor, fightData)
+	}
+
+	// if _, ok := g.GFightSkipConfig[fightData.Type]; ok {
+	// 	roundFighting(actor, fightData)
+	// } else {
+	// 	timer.Next(actor, fmt.Sprintf("roundFighting_%d", fightData.Type), roundFighting, fightData)
+	// }
 }
 
 func roundFighting(actor *t.Actor, fightData *t.FightData) {
 	data := actor.GetFightData()
-	if data == nil || data.Guid != fightData.Guid || fightData.FightResult != 0 {
+	if data == nil || data != fightData || fightData.FightResult != 0 {
 		return
 	}
 

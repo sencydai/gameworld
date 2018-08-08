@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/sencydai/gamecommon/pack"
 	"github.com/sencydai/gameworld/engine"
 	g "github.com/sencydai/gameworld/gconfig"
 	"github.com/sencydai/gameworld/log"
+	"github.com/sencydai/gameworld/proto/pack"
 	"github.com/sencydai/gameworld/service"
 	t "github.com/sencydai/gameworld/typedefine"
 )

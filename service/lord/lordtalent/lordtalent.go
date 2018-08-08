@@ -3,11 +3,11 @@ package lordtalent
 import (
 	"bytes"
 
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
 	c "github.com/sencydai/gameworld/constdefine"
 	"github.com/sencydai/gameworld/dispatch"
 	g "github.com/sencydai/gameworld/gconfig"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	"github.com/sencydai/gameworld/service"
 	"github.com/sencydai/gameworld/service/bag"
 	t "github.com/sencydai/gameworld/typedefine"
@@ -74,7 +74,7 @@ func onLearnTalent(actor *t.Actor, reader *bytes.Reader) {
 
 	//学习消耗点数
 	if conf.Cost > 0 {
-		if !bag.DeductItem(actor, c.CTScienceP, conf.Cost, true, "learnTalent") {
+		if ok, _ := bag.DeductItem(actor, c.CTScienceP, conf.Cost, true, "learnTalent"); !ok {
 			return
 		}
 		talentData.Count += conf.Cost
@@ -104,7 +104,7 @@ func onUpgradeTalent(actor *t.Actor, reader *bytes.Reader) {
 	}
 
 	conf := levelConfs[level]
-	if !bag.DeductItem(actor, c.CTScienceP, conf.Cost, true, "upgradeTalent") {
+	if ok, _ := bag.DeductItem(actor, c.CTScienceP, conf.Cost, true, "upgradeTalent"); !ok {
 		return
 	}
 	talentData.Count += conf.Cost

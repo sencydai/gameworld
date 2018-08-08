@@ -1,0 +1,98 @@
+{
+	"1": {
+		"1": {
+			"id": 1,
+			"index": 1,
+			"level": 60,
+			"lordLevel": 1,
+			"skillId": 500011
+		},
+		"2": {
+			"id": 1,
+			"index": 2,
+			"skillId": 500012
+		},
+		"3": {
+			"id": 1,
+			"index": 3,
+			"skillId": 500013
+		},
+		"4": {
+			"id": 1,
+			"index": 4,
+			"skillId": 500014
+		}
+	},
+	"2": {
+		"1": {
+			"id": 2,
+			"index": 1,
+			"level": 70,
+			"lordLevel": 20,
+			"skillId": 500021
+		},
+		"2": {
+			"id": 2,
+			"index": 2,
+			"skillId": 500022
+		},
+		"3": {
+			"id": 2,
+			"index": 3,
+			"skillId": 500023
+		},
+		"4": {
+			"id": 2,
+			"index": 4,
+			"skillId": 500024
+		}
+	},
+	"3": {
+		"1": {
+			"id": 3,
+			"index": 1,
+			"level": 80,
+			"lordLevel": 30,
+			"skillId": 500031
+		},
+		"2": {
+			"id": 3,
+			"index": 2,
+			"skillId": 500032
+		},
+		"3": {
+			"id": 3,
+			"index": 3,
+			"skillId": 500033
+		},
+		"4": {
+			"id": 3,
+			"index": 4,
+			"skillId": 500034
+		}
+	},
+	"4": {
+		"1": {
+			"id": 4,
+			"index": 1,
+			"level": 90,
+			"lordLevel": 40,
+			"skillId": 500041
+		},
+		"2": {
+			"id": 4,
+			"index": 2,
+			"skillId": 500042
+		},
+		"3": {
+			"id": 4,
+			"index": 3,
+			"skillId": 500043
+		},
+		"4": {
+			"id": 4,
+			"index": 4,
+			"skillId": 500044
+		}
+	}
+}

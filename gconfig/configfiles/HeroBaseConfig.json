@@ -1,0 +1,44 @@
+{
+	"attrWorthRatio": {
+		"1": {
+			"type": 2,
+			"value": 10000
+		},
+		"2": {
+			"type": 3,
+			"value": 10000
+		},
+		"3": {
+			"type": 4,
+			"value": 10000
+		},
+		"4": {
+			"type": 5,
+			"value": 1000
+		}
+	},
+	"baseScaleRatio": {
+		"1": {
+			"type": 2,
+			"value": 10000
+		},
+		"2": {
+			"type": 3,
+			"value": 10000
+		},
+		"3": {
+			"type": 4,
+			"value": 4000
+		},
+		"4": {
+			"type": 5,
+			"value": 3000
+		}
+	},
+	"levelExp": 16000,
+	"levelMult": 260000,
+	"maxAssistHero": 12,
+	"maxFightHero": 6,
+	"rebuild": 100,
+	"stageBase": 10000
+}

@@ -4,12 +4,14 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"math"
 	"math/rand"
 	"os"
 	"os/signal"
 	"runtime"
 	"runtime/debug"
-	"runtime/pprof"
+	//"runtime/pprof"
+	"strconv"
 	"time"
 
 	"github.com/sencydai/gameworld/log"
@@ -40,10 +42,67 @@ import (
 	_ "github.com/sencydai/gameworld/service/mainfuben"
 	_ "github.com/sencydai/gameworld/service/ranksystem"
 	_ "github.com/sencydai/gameworld/service/systemopen"
+	_ "github.com/sencydai/gameworld/service/worldboss"
 )
 
 func init() {
 	service.RegGm("reload", onReLoadConfig)
+	service.RegGm("maxaccount", onSetMaxAccount)
+	service.RegGameStart(onGameStart)
+}
+
+func onGameStart() {
+	monitorMaxAccountCount()
+	monitorSystemTime()
+}
+
+func monitorMaxAccountCount() {
+	//服务器不拥堵，增加人数上限,否则减少人数上限
+	go func() {
+		loop := time.Second * 5
+		min := time.Microsecond * 200
+		max := time.Millisecond * 100
+		chSync := make(chan bool, 1)
+		for {
+			select {
+			case <-time.After(loop):
+				tick := time.Now()
+				dispatch.PushSystemMsg(func() {
+					chSync <- true
+				})
+
+				<-chSync
+
+				delay := time.Since(tick)
+				if delay < min {
+					count := uint(data.GetAccountCount() * 2)
+					if count >= g.GetMaxCount() {
+						g.AddMaxCount()
+					}
+				} else if delay > max {
+					g.SetRealCount(uint(data.GetOnlineCount() - 5))
+				}
+			}
+		}
+	}()
+}
+
+func monitorSystemTime() {
+	//监控系统时间改变
+	go func() {
+		loop := time.Second * 10
+		for {
+			tick := time.Now()
+			select {
+			case <-time.After(loop):
+				delay := time.Now().Unix() - tick.Unix()
+				if math.Abs(float64(delay)) >= 20 {
+					log.Info("system time changed")
+					dispatch.PushSystemMsg(service.OnSystemTimeChange)
+				}
+			}
+		}
+	}()
 }
 
 func main() {
@@ -60,13 +119,15 @@ func main() {
 
 	g.ServerIdML = int64(g.GameConfig.ServerId) << 32
 
-	file, err := os.Create(fmt.Sprintf("%s/server_%d.profile", g.GameConfig.LogPath, g.GameConfig.ServerId))
-	if err != nil {
-		fmt.Printf("create profile error: %s\n", err.Error())
-		return
-	}
-	pprof.StartCPUProfile(file)
-	defer pprof.StopCPUProfile()
+	dispatch.InitData(g.GameConfig.MaxConnection)
+
+	// file, err := os.Create(fmt.Sprintf("%s/server_%d.profile", g.GameConfig.LogPath, g.GameConfig.ServerId))
+	// if err != nil {
+	// 	fmt.Printf("create profile error: %s\n", err.Error())
+	// 	return
+	// }
+	//pprof.StartCPUProfile(file)
+	//defer pprof.StopCPUProfile()
 
 	if err := log.SetFileName(fmt.Sprintf("%s/server_%d", g.GameConfig.LogPath, g.GameConfig.ServerId)); err != nil {
 		fmt.Printf("create log file error: %s\n", err.Error())
@@ -81,7 +142,7 @@ func main() {
 		log.Close()
 	}()
 
-	tick := time.Now()
+	startT := time.Now()
 	log.Info("server starting...")
 
 	//加载配置表
@@ -96,8 +157,6 @@ func main() {
 	log.Info("load random names...")
 	g.LoadRandomNames(g.GameConfig.ConfigPath)
 
-	service.OnConfigReloadFinish()
-
 	//数据库引擎
 	log.Info("start database engine...")
 	engine.InitEngine()
@@ -108,12 +167,13 @@ func main() {
 
 	dispatch.OnRun()
 
+	service.OnConfigReloadFinish(true)
 	service.OnGameStart()
 
 	startGateWay()
 
 	log.Info("============================================================")
-	log.Infof("server started success, cost:%v", time.Since(tick))
+	log.Infof("server started success, cost:%v", time.Since(startT))
 	log.Info("============================================================")
 
 	signalC := make(chan os.Signal, 1)
@@ -122,7 +182,7 @@ func main() {
 	case <-signalC:
 	}
 
-	tick = time.Now()
+	tick := time.Now()
 	log.Info("server closing...")
 
 	//保存所有玩家数据
@@ -149,7 +209,7 @@ func main() {
 	// 	data.OnGameClose()
 	// }
 
-	log.Infof("server closed success, cost:%v", time.Since(tick))
+	log.Infof("server closed success, cost:%v; running time:%v", time.Since(tick), time.Since(startT))
 }
 
 func onReLoadConfig(map[string]string) (int, string) {
@@ -165,9 +225,16 @@ func onReLoadConfig(map[string]string) (int, string) {
 	log.Info("load random names...")
 	g.LoadRandomNames(g.GameConfig.ConfigPath)
 
-	service.OnConfigReloadFinish()
+	service.OnConfigReloadFinish(false)
 
 	log.Info("==============reload config success===============")
 
 	return 0, "reload success"
+}
+
+func onSetMaxAccount(values map[string]string) (int, string) {
+	count, _ := strconv.Atoi(values["count"])
+	g.SetMaxCount(uint(count))
+
+	return 0, fmt.Sprintf("max account %d", g.GetMaxCount())
 }

@@ -1,0 +1,132 @@
+{
+	"0": {
+		"attrRatio": 0,
+		"needBook": 100,
+		"needGold": 10000,
+		"needHero": 0,
+		"needLevel": 10,
+		"stage": 0
+	},
+	"1": {
+		"attrRatio": 141,
+		"needBook": 200,
+		"needGold": 20000,
+		"needHero": 0,
+		"needLevel": 20,
+		"stage": 1
+	},
+	"10": {
+		"attrRatio": 716,
+		"needBook": 18000,
+		"needGold": 2000000,
+		"needHero": 20,
+		"needLevel": 110,
+		"stage": 10
+	},
+	"11": {
+		"attrRatio": 858,
+		"needBook": 24000,
+		"needGold": 3000000,
+		"needHero": 24,
+		"needLevel": 120,
+		"stage": 11
+	},
+	"12": {
+		"attrRatio": 1028,
+		"jobLevel": 4,
+		"needBook": 32000,
+		"needGold": 4000000,
+		"needHero": 32,
+		"needLevel": 130,
+		"stage": 12
+	},
+	"13": {
+		"attrRatio": 1233,
+		"needBook": 40000,
+		"needGold": 5000000,
+		"needHero": 40,
+		"needLevel": 140,
+		"stage": 13
+	},
+	"14": {
+		"attrRatio": 1479,
+		"needBook": 60000,
+		"needGold": 6000000,
+		"needHero": 50,
+		"needLevel": 150,
+		"stage": 14
+	},
+	"15": {
+		"attrRatio": 1782,
+		"jobLevel": 5,
+		"needLevel": 160,
+		"stage": 15
+	},
+	"2": {
+		"attrRatio": 170,
+		"needBook": 400,
+		"needGold": 50000,
+		"needHero": 1,
+		"needLevel": 30,
+		"stage": 2
+	},
+	"3": {
+		"attrRatio": 203,
+		"jobLevel": 1,
+		"needBook": 600,
+		"needGold": 80000,
+		"needHero": 1,
+		"needLevel": 40,
+		"stage": 3
+	},
+	"4": {
+		"attrRatio": 242,
+		"needBook": 1000,
+		"needGold": 120000,
+		"needHero": 2,
+		"needLevel": 50,
+		"stage": 4
+	},
+	"5": {
+		"attrRatio": 290,
+		"needBook": 2000,
+		"needGold": 150000,
+		"needHero": 4,
+		"needLevel": 60,
+		"stage": 5
+	},
+	"6": {
+		"attrRatio": 347,
+		"jobLevel": 2,
+		"needBook": 3000,
+		"needGold": 300000,
+		"needHero": 6,
+		"needLevel": 70,
+		"stage": 6
+	},
+	"7": {
+		"attrRatio": 416,
+		"needBook": 5000,
+		"needGold": 500000,
+		"needHero": 8,
+		"needLevel": 80,
+		"stage": 7
+	},
+	"8": {
+		"attrRatio": 498,
+		"needBook": 8000,
+		"needGold": 1000000,
+		"needHero": 12,
+		"needLevel": 90,
+		"stage": 8
+	},
+	"9": {
+		"attrRatio": 597,
+		"jobLevel": 3,
+		"needBook": 12000,
+		"needGold": 1500000,
+		"needHero": 16,
+		"needLevel": 100,
+		"stage": 9
+	}
+}

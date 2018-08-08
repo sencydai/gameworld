@@ -1,0 +1,930 @@
+{
+	"1": {
+		"cd": 2,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 1,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 20,
+		"lord": {
+			"id": 2001,
+			"level": 20,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 20,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"10": {
+		"cd": 30,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 10,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 110,
+		"lord": {
+			"id": 2001,
+			"level": 110,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 110,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"11": {
+		"cd": 35,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 11,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 120,
+		"lord": {
+			"id": 2001,
+			"level": 120,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 120,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"12": {
+		"cd": 40,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 12,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 130,
+		"lord": {
+			"id": 2001,
+			"level": 130,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 130,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"13": {
+		"cd": 45,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 13,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 140,
+		"lord": {
+			"id": 2001,
+			"level": 140,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 140,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"14": {
+		"cd": 50,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 14,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 150,
+		"lord": {
+			"id": 2001,
+			"level": 150,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 150,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"15": {
+		"cd": 55,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 15,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 160,
+		"lord": {
+			"id": 2001,
+			"level": 160,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 160,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"16": {
+		"cd": 60,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 16,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 170,
+		"lord": {
+			"id": 2001,
+			"level": 170,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 170,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"17": {
+		"cd": 65,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 17,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 180,
+		"lord": {
+			"id": 2001,
+			"level": 180,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 180,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"18": {
+		"cd": 70,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 18,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 190,
+		"lord": {
+			"id": 2001,
+			"level": 190,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 190,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"19": {
+		"cd": 75,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 19,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 200,
+		"lord": {
+			"id": 2001,
+			"level": 200,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 200,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"2": {
+		"cd": 3,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 2,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 30,
+		"lord": {
+			"id": 2001,
+			"level": 30,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 30,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"20": {
+		"cd": 80,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 20,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 210,
+		"lord": {
+			"id": 2001,
+			"level": 210,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 210,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"21": {
+		"cd": 85,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 21,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 220,
+		"lord": {
+			"id": 2001,
+			"level": 220,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 220,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"22": {
+		"cd": 90,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 22,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 230,
+		"lord": {
+			"id": 2001,
+			"level": 230,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 230,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"23": {
+		"cd": 95,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 23,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 240,
+		"lord": {
+			"id": 2001,
+			"level": 240,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 240,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"24": {
+		"cd": 100,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 24,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 250,
+		"lord": {
+			"id": 2001,
+			"level": 250,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 250,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"25": {
+		"cd": 105,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 25,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 260,
+		"lord": {
+			"id": 2001,
+			"level": 260,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 260,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"26": {
+		"cd": 110,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 26,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 270,
+		"lord": {
+			"id": 2001,
+			"level": 270,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 270,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"27": {
+		"cd": 115,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 27,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 280,
+		"lord": {
+			"id": 2001,
+			"level": 280,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 280,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"28": {
+		"cd": 120,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 28,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 290,
+		"lord": {
+			"id": 2001,
+			"level": 290,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 290,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"29": {
+		"cd": 125,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 29,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 300,
+		"lord": {
+			"id": 2001,
+			"level": 300,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 300,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"3": {
+		"cd": 5,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 3,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 40,
+		"lord": {
+			"id": 2001,
+			"level": 40,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 40,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"4": {
+		"cd": 8,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 4,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 50,
+		"lord": {
+			"id": 2001,
+			"level": 50,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 50,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"5": {
+		"cd": 10,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 5,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 60,
+		"lord": {
+			"id": 2001,
+			"level": 60,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 60,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"6": {
+		"cd": 12,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 6,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 70,
+		"lord": {
+			"id": 2001,
+			"level": 70,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 70,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"7": {
+		"cd": 15,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 7,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 80,
+		"lord": {
+			"id": 2001,
+			"level": 80,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 80,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"8": {
+		"cd": 20,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 8,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 90,
+		"lord": {
+			"id": 2001,
+			"level": 90,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 90,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	},
+	"9": {
+		"cd": 25,
+		"drops": {
+			"1": {
+				"count": 1,
+				"id": 3011,
+				"type": 1
+			}
+		},
+		"id": 9,
+		"kill": {
+			"1": {
+				"count": 1,
+				"id": 1,
+				"type": 1
+			}
+		},
+		"level": 100,
+		"lord": {
+			"id": 2001,
+			"level": 100,
+			"template": 1
+		},
+		"monster": {
+			"1": {
+				"id": 199993,
+				"level": 100,
+				"pos": 3,
+				"template": 401
+			}
+		}
+	}
+}

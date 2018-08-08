@@ -1,0 +1,10202 @@
+{
+	"1": {
+		"1": {
+			"difficulty": 1,
+			"id": 1,
+			"level": 22,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 1,
+			"level": 26,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 1,
+			"level": 30,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		}
+	},
+	"10": {
+		"1": {
+			"difficulty": 1,
+			"id": 10,
+			"level": 31,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 10,
+			"level": 35,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 10,
+			"level": 39,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		}
+	},
+	"100": {
+		"1": {
+			"difficulty": 1,
+			"id": 100,
+			"level": 121,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 86,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 100,
+			"level": 125,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 86,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 100,
+			"level": 129,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 86,
+			"template": 7
+		}
+	},
+	"101": {
+		"1": {
+			"difficulty": 1,
+			"id": 101,
+			"level": 122,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 87,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 101,
+			"level": 126,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 87,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 101,
+			"level": 130,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 87,
+			"template": 7
+		}
+	},
+	"102": {
+		"1": {
+			"difficulty": 1,
+			"id": 102,
+			"level": 123,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 88,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 102,
+			"level": 127,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 88,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 102,
+			"level": 131,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 88,
+			"template": 7
+		}
+	},
+	"103": {
+		"1": {
+			"difficulty": 1,
+			"id": 103,
+			"level": 124,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 89,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 103,
+			"level": 128,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 89,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 103,
+			"level": 132,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 89,
+			"template": 7
+		}
+	},
+	"104": {
+		"1": {
+			"difficulty": 1,
+			"id": 104,
+			"level": 125,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 90,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 104,
+			"level": 129,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 90,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 104,
+			"level": 133,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 90,
+			"template": 7
+		}
+	},
+	"105": {
+		"1": {
+			"difficulty": 1,
+			"id": 105,
+			"level": 126,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 91,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 105,
+			"level": 130,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 91,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 105,
+			"level": 134,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 91,
+			"template": 7
+		}
+	},
+	"106": {
+		"1": {
+			"difficulty": 1,
+			"id": 106,
+			"level": 127,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 92,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 106,
+			"level": 131,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 92,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 106,
+			"level": 135,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 92,
+			"template": 7
+		}
+	},
+	"107": {
+		"1": {
+			"difficulty": 1,
+			"id": 107,
+			"level": 128,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 93,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 107,
+			"level": 132,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 93,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 107,
+			"level": 136,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 93,
+			"template": 7
+		}
+	},
+	"108": {
+		"1": {
+			"difficulty": 1,
+			"id": 108,
+			"level": 129,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 94,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 108,
+			"level": 133,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 94,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 108,
+			"level": 137,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 94,
+			"template": 7
+		}
+	},
+	"109": {
+		"1": {
+			"difficulty": 1,
+			"id": 109,
+			"level": 130,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 95,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 109,
+			"level": 134,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 95,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 109,
+			"level": 138,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 95,
+			"template": 7
+		}
+	},
+	"11": {
+		"1": {
+			"difficulty": 1,
+			"id": 11,
+			"level": 32,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 11,
+			"level": 36,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 11,
+			"level": 40,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		}
+	},
+	"110": {
+		"1": {
+			"difficulty": 1,
+			"id": 110,
+			"level": 131,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 96,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 110,
+			"level": 135,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 96,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 110,
+			"level": 139,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 96,
+			"template": 7
+		}
+	},
+	"111": {
+		"1": {
+			"difficulty": 1,
+			"id": 111,
+			"level": 132,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 97,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 111,
+			"level": 136,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 97,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 111,
+			"level": 140,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 97,
+			"template": 7
+		}
+	},
+	"112": {
+		"1": {
+			"difficulty": 1,
+			"id": 112,
+			"level": 133,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 98,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 112,
+			"level": 137,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 98,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 112,
+			"level": 141,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 98,
+			"template": 7
+		}
+	},
+	"113": {
+		"1": {
+			"difficulty": 1,
+			"id": 113,
+			"level": 134,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 99,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 113,
+			"level": 138,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 99,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 113,
+			"level": 142,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 99,
+			"template": 7
+		}
+	},
+	"114": {
+		"1": {
+			"difficulty": 1,
+			"id": 114,
+			"level": 135,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 100,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 114,
+			"level": 139,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 100,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 114,
+			"level": 143,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 100,
+			"template": 7
+		}
+	},
+	"115": {
+		"1": {
+			"difficulty": 1,
+			"id": 115,
+			"level": 136,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 101,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 115,
+			"level": 140,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 101,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 115,
+			"level": 144,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 101,
+			"template": 7
+		}
+	},
+	"116": {
+		"1": {
+			"difficulty": 1,
+			"id": 116,
+			"level": 137,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 102,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 116,
+			"level": 141,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 102,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 116,
+			"level": 145,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 102,
+			"template": 7
+		}
+	},
+	"117": {
+		"1": {
+			"difficulty": 1,
+			"id": 117,
+			"level": 138,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 103,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 117,
+			"level": 142,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 103,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 117,
+			"level": 146,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 103,
+			"template": 7
+		}
+	},
+	"118": {
+		"1": {
+			"difficulty": 1,
+			"id": 118,
+			"level": 139,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 104,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 118,
+			"level": 143,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 104,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 118,
+			"level": 147,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 104,
+			"template": 7
+		}
+	},
+	"119": {
+		"1": {
+			"difficulty": 1,
+			"id": 119,
+			"level": 140,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 105,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 119,
+			"level": 144,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 105,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 119,
+			"level": 148,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 105,
+			"template": 7
+		}
+	},
+	"12": {
+		"1": {
+			"difficulty": 1,
+			"id": 12,
+			"level": 33,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 12,
+			"level": 37,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 12,
+			"level": 41,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		}
+	},
+	"120": {
+		"1": {
+			"difficulty": 1,
+			"id": 120,
+			"level": 141,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 106,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 120,
+			"level": 145,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 106,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 120,
+			"level": 149,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 106,
+			"template": 7
+		}
+	},
+	"121": {
+		"1": {
+			"difficulty": 1,
+			"id": 121,
+			"level": 142,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 107,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 121,
+			"level": 146,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 107,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 121,
+			"level": 150,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 107,
+			"template": 7
+		}
+	},
+	"122": {
+		"1": {
+			"difficulty": 1,
+			"id": 122,
+			"level": 143,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 108,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 122,
+			"level": 147,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 108,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 122,
+			"level": 151,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 108,
+			"template": 7
+		}
+	},
+	"123": {
+		"1": {
+			"difficulty": 1,
+			"id": 123,
+			"level": 144,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 109,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 123,
+			"level": 148,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 109,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 123,
+			"level": 152,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 109,
+			"template": 7
+		}
+	},
+	"124": {
+		"1": {
+			"difficulty": 1,
+			"id": 124,
+			"level": 145,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 110,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 124,
+			"level": 149,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 110,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 124,
+			"level": 153,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 110,
+			"template": 7
+		}
+	},
+	"125": {
+		"1": {
+			"difficulty": 1,
+			"id": 125,
+			"level": 146,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 111,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 125,
+			"level": 150,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 111,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 125,
+			"level": 154,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 111,
+			"template": 7
+		}
+	},
+	"126": {
+		"1": {
+			"difficulty": 1,
+			"id": 126,
+			"level": 147,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 112,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 126,
+			"level": 151,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 112,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 126,
+			"level": 155,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 112,
+			"template": 7
+		}
+	},
+	"127": {
+		"1": {
+			"difficulty": 1,
+			"id": 127,
+			"level": 148,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 113,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 127,
+			"level": 152,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 113,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 127,
+			"level": 156,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 113,
+			"template": 7
+		}
+	},
+	"128": {
+		"1": {
+			"difficulty": 1,
+			"id": 128,
+			"level": 149,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 114,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 128,
+			"level": 153,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 114,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 128,
+			"level": 157,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 114,
+			"template": 7
+		}
+	},
+	"129": {
+		"1": {
+			"difficulty": 1,
+			"id": 129,
+			"level": 150,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 115,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 129,
+			"level": 154,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 115,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 129,
+			"level": 158,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 115,
+			"template": 7
+		}
+	},
+	"13": {
+		"1": {
+			"difficulty": 1,
+			"id": 13,
+			"level": 34,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 13,
+			"level": 38,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 13,
+			"level": 42,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		}
+	},
+	"130": {
+		"1": {
+			"difficulty": 1,
+			"id": 130,
+			"level": 151,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 116,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 130,
+			"level": 155,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 116,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 130,
+			"level": 159,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 116,
+			"template": 7
+		}
+	},
+	"131": {
+		"1": {
+			"difficulty": 1,
+			"id": 131,
+			"level": 152,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 117,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 131,
+			"level": 156,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 117,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 131,
+			"level": 160,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 117,
+			"template": 7
+		}
+	},
+	"132": {
+		"1": {
+			"difficulty": 1,
+			"id": 132,
+			"level": 153,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 118,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 132,
+			"level": 157,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 118,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 132,
+			"level": 161,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 118,
+			"template": 7
+		}
+	},
+	"133": {
+		"1": {
+			"difficulty": 1,
+			"id": 133,
+			"level": 154,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 119,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 133,
+			"level": 158,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 119,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 133,
+			"level": 162,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 119,
+			"template": 7
+		}
+	},
+	"134": {
+		"1": {
+			"difficulty": 1,
+			"id": 134,
+			"level": 155,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 120,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 134,
+			"level": 159,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 120,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 134,
+			"level": 163,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 120,
+			"template": 7
+		}
+	},
+	"135": {
+		"1": {
+			"difficulty": 1,
+			"id": 135,
+			"level": 156,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 121,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 135,
+			"level": 160,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 121,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 135,
+			"level": 164,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 121,
+			"template": 7
+		}
+	},
+	"136": {
+		"1": {
+			"difficulty": 1,
+			"id": 136,
+			"level": 157,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 122,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 136,
+			"level": 161,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 122,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 136,
+			"level": 165,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 122,
+			"template": 7
+		}
+	},
+	"137": {
+		"1": {
+			"difficulty": 1,
+			"id": 137,
+			"level": 158,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 123,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 137,
+			"level": 162,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 123,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 137,
+			"level": 166,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 123,
+			"template": 7
+		}
+	},
+	"138": {
+		"1": {
+			"difficulty": 1,
+			"id": 138,
+			"level": 159,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 124,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 138,
+			"level": 163,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 124,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 138,
+			"level": 167,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 124,
+			"template": 7
+		}
+	},
+	"139": {
+		"1": {
+			"difficulty": 1,
+			"id": 139,
+			"level": 160,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 125,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 139,
+			"level": 164,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 125,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 139,
+			"level": 168,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 125,
+			"template": 7
+		}
+	},
+	"14": {
+		"1": {
+			"difficulty": 1,
+			"id": 14,
+			"level": 35,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 14,
+			"level": 39,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 14,
+			"level": 43,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		}
+	},
+	"140": {
+		"1": {
+			"difficulty": 1,
+			"id": 140,
+			"level": 161,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 126,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 140,
+			"level": 165,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 126,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 140,
+			"level": 169,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 126,
+			"template": 7
+		}
+	},
+	"141": {
+		"1": {
+			"difficulty": 1,
+			"id": 141,
+			"level": 162,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 127,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 141,
+			"level": 166,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 127,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 141,
+			"level": 170,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 127,
+			"template": 7
+		}
+	},
+	"142": {
+		"1": {
+			"difficulty": 1,
+			"id": 142,
+			"level": 163,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 128,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 142,
+			"level": 167,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 128,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 142,
+			"level": 171,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 128,
+			"template": 7
+		}
+	},
+	"143": {
+		"1": {
+			"difficulty": 1,
+			"id": 143,
+			"level": 164,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 129,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 143,
+			"level": 168,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 129,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 143,
+			"level": 172,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 129,
+			"template": 7
+		}
+	},
+	"144": {
+		"1": {
+			"difficulty": 1,
+			"id": 144,
+			"level": 165,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 130,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 144,
+			"level": 169,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 130,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 144,
+			"level": 173,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 130,
+			"template": 7
+		}
+	},
+	"145": {
+		"1": {
+			"difficulty": 1,
+			"id": 145,
+			"level": 166,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 131,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 145,
+			"level": 170,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 131,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 145,
+			"level": 174,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 131,
+			"template": 7
+		}
+	},
+	"146": {
+		"1": {
+			"difficulty": 1,
+			"id": 146,
+			"level": 167,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 132,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 146,
+			"level": 171,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 132,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 146,
+			"level": 175,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 132,
+			"template": 7
+		}
+	},
+	"147": {
+		"1": {
+			"difficulty": 1,
+			"id": 147,
+			"level": 168,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 133,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 147,
+			"level": 172,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 133,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 147,
+			"level": 176,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 133,
+			"template": 7
+		}
+	},
+	"148": {
+		"1": {
+			"difficulty": 1,
+			"id": 148,
+			"level": 169,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 134,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 148,
+			"level": 173,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 134,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 148,
+			"level": 177,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 134,
+			"template": 7
+		}
+	},
+	"149": {
+		"1": {
+			"difficulty": 1,
+			"id": 149,
+			"level": 170,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 135,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 149,
+			"level": 174,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 135,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 149,
+			"level": 178,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 135,
+			"template": 7
+		}
+	},
+	"15": {
+		"1": {
+			"difficulty": 1,
+			"id": 15,
+			"level": 36,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 1,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 15,
+			"level": 40,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 1,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 15,
+			"level": 44,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 1,
+			"template": 7
+		}
+	},
+	"150": {
+		"1": {
+			"difficulty": 1,
+			"id": 150,
+			"level": 171,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 136,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 150,
+			"level": 175,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 136,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 150,
+			"level": 179,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 5,
+					"2": 2
+				},
+				"2": {
+					"1": 6,
+					"2": 4
+				}
+			},
+			"skipFuben": 136,
+			"template": 7
+		}
+	},
+	"16": {
+		"1": {
+			"difficulty": 1,
+			"id": 16,
+			"level": 37,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 2,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 16,
+			"level": 41,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 2,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 16,
+			"level": 45,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 2,
+			"template": 7
+		}
+	},
+	"17": {
+		"1": {
+			"difficulty": 1,
+			"id": 17,
+			"level": 38,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 3,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 17,
+			"level": 42,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 3,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 17,
+			"level": 46,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 3,
+			"template": 7
+		}
+	},
+	"18": {
+		"1": {
+			"difficulty": 1,
+			"id": 18,
+			"level": 39,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 4,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 18,
+			"level": 43,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 4,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 18,
+			"level": 47,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 4,
+			"template": 7
+		}
+	},
+	"19": {
+		"1": {
+			"difficulty": 1,
+			"id": 19,
+			"level": 40,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 5,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 19,
+			"level": 44,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 5,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 19,
+			"level": 48,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 5,
+			"template": 7
+		}
+	},
+	"2": {
+		"1": {
+			"difficulty": 1,
+			"id": 2,
+			"level": 23,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 2,
+			"level": 27,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 2,
+			"level": 31,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		}
+	},
+	"20": {
+		"1": {
+			"difficulty": 1,
+			"id": 20,
+			"level": 41,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 6,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 20,
+			"level": 45,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 6,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 20,
+			"level": 49,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 6,
+			"template": 7
+		}
+	},
+	"21": {
+		"1": {
+			"difficulty": 1,
+			"id": 21,
+			"level": 42,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 7,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 21,
+			"level": 46,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 7,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 21,
+			"level": 50,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 7,
+			"template": 7
+		}
+	},
+	"22": {
+		"1": {
+			"difficulty": 1,
+			"id": 22,
+			"level": 43,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 8,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 22,
+			"level": 47,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 8,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 22,
+			"level": 51,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 8,
+			"template": 7
+		}
+	},
+	"23": {
+		"1": {
+			"difficulty": 1,
+			"id": 23,
+			"level": 44,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 9,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 23,
+			"level": 48,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 9,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 23,
+			"level": 52,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 9,
+			"template": 7
+		}
+	},
+	"24": {
+		"1": {
+			"difficulty": 1,
+			"id": 24,
+			"level": 45,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 10,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 24,
+			"level": 49,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 10,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 24,
+			"level": 53,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 10,
+			"template": 7
+		}
+	},
+	"25": {
+		"1": {
+			"difficulty": 1,
+			"id": 25,
+			"level": 46,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 11,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 25,
+			"level": 50,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 11,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 25,
+			"level": 54,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 11,
+			"template": 7
+		}
+	},
+	"26": {
+		"1": {
+			"difficulty": 1,
+			"id": 26,
+			"level": 47,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 12,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 26,
+			"level": 51,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 12,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 26,
+			"level": 55,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 12,
+			"template": 7
+		}
+	},
+	"27": {
+		"1": {
+			"difficulty": 1,
+			"id": 27,
+			"level": 48,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 13,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 27,
+			"level": 52,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 13,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 27,
+			"level": 56,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 13,
+			"template": 7
+		}
+	},
+	"28": {
+		"1": {
+			"difficulty": 1,
+			"id": 28,
+			"level": 49,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 14,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 28,
+			"level": 53,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 14,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 28,
+			"level": 57,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 14,
+			"template": 7
+		}
+	},
+	"29": {
+		"1": {
+			"difficulty": 1,
+			"id": 29,
+			"level": 50,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 15,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 29,
+			"level": 54,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 15,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 29,
+			"level": 58,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 15,
+			"template": 7
+		}
+	},
+	"3": {
+		"1": {
+			"difficulty": 1,
+			"id": 3,
+			"level": 24,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 3,
+			"level": 28,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 3,
+			"level": 32,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		}
+	},
+	"30": {
+		"1": {
+			"difficulty": 1,
+			"id": 30,
+			"level": 51,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 16,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 30,
+			"level": 55,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 16,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 30,
+			"level": 59,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 16,
+			"template": 7
+		}
+	},
+	"31": {
+		"1": {
+			"difficulty": 1,
+			"id": 31,
+			"level": 52,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 17,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 31,
+			"level": 56,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 17,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 31,
+			"level": 60,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 17,
+			"template": 7
+		}
+	},
+	"32": {
+		"1": {
+			"difficulty": 1,
+			"id": 32,
+			"level": 53,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 18,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 32,
+			"level": 57,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 18,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 32,
+			"level": 61,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 18,
+			"template": 7
+		}
+	},
+	"33": {
+		"1": {
+			"difficulty": 1,
+			"id": 33,
+			"level": 54,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 19,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 33,
+			"level": 58,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 19,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 33,
+			"level": 62,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 19,
+			"template": 7
+		}
+	},
+	"34": {
+		"1": {
+			"difficulty": 1,
+			"id": 34,
+			"level": 55,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 20,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 34,
+			"level": 59,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 20,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 34,
+			"level": 63,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 20,
+			"template": 7
+		}
+	},
+	"35": {
+		"1": {
+			"difficulty": 1,
+			"id": 35,
+			"level": 56,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 21,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 35,
+			"level": 60,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 21,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 35,
+			"level": 64,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 21,
+			"template": 7
+		}
+	},
+	"36": {
+		"1": {
+			"difficulty": 1,
+			"id": 36,
+			"level": 57,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 22,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 36,
+			"level": 61,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 22,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 36,
+			"level": 65,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 22,
+			"template": 7
+		}
+	},
+	"37": {
+		"1": {
+			"difficulty": 1,
+			"id": 37,
+			"level": 58,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 23,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 37,
+			"level": 62,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 23,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 37,
+			"level": 66,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 23,
+			"template": 7
+		}
+	},
+	"38": {
+		"1": {
+			"difficulty": 1,
+			"id": 38,
+			"level": 59,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 24,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 38,
+			"level": 63,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 24,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 38,
+			"level": 67,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 24,
+			"template": 7
+		}
+	},
+	"39": {
+		"1": {
+			"difficulty": 1,
+			"id": 39,
+			"level": 60,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 25,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 39,
+			"level": 64,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 25,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 39,
+			"level": 68,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 25,
+			"template": 7
+		}
+	},
+	"4": {
+		"1": {
+			"difficulty": 1,
+			"id": 4,
+			"level": 25,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 4,
+			"level": 29,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 4,
+			"level": 33,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		}
+	},
+	"40": {
+		"1": {
+			"difficulty": 1,
+			"id": 40,
+			"level": 61,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 26,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 40,
+			"level": 65,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 26,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 40,
+			"level": 69,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 26,
+			"template": 7
+		}
+	},
+	"41": {
+		"1": {
+			"difficulty": 1,
+			"id": 41,
+			"level": 62,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 27,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 41,
+			"level": 66,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 27,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 41,
+			"level": 70,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 27,
+			"template": 7
+		}
+	},
+	"42": {
+		"1": {
+			"difficulty": 1,
+			"id": 42,
+			"level": 63,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 28,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 42,
+			"level": 67,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 28,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 42,
+			"level": 71,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 28,
+			"template": 7
+		}
+	},
+	"43": {
+		"1": {
+			"difficulty": 1,
+			"id": 43,
+			"level": 64,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 29,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 43,
+			"level": 68,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 29,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 43,
+			"level": 72,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 29,
+			"template": 7
+		}
+	},
+	"44": {
+		"1": {
+			"difficulty": 1,
+			"id": 44,
+			"level": 65,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 30,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 44,
+			"level": 69,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 30,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 44,
+			"level": 73,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 30,
+			"template": 7
+		}
+	},
+	"45": {
+		"1": {
+			"difficulty": 1,
+			"id": 45,
+			"level": 66,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 31,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 45,
+			"level": 70,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 31,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 45,
+			"level": 74,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 31,
+			"template": 7
+		}
+	},
+	"46": {
+		"1": {
+			"difficulty": 1,
+			"id": 46,
+			"level": 67,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 32,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 46,
+			"level": 71,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 32,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 46,
+			"level": 75,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 32,
+			"template": 7
+		}
+	},
+	"47": {
+		"1": {
+			"difficulty": 1,
+			"id": 47,
+			"level": 68,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 33,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 47,
+			"level": 72,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 33,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 47,
+			"level": 76,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 33,
+			"template": 7
+		}
+	},
+	"48": {
+		"1": {
+			"difficulty": 1,
+			"id": 48,
+			"level": 69,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 34,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 48,
+			"level": 73,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 34,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 48,
+			"level": 77,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 34,
+			"template": 7
+		}
+	},
+	"49": {
+		"1": {
+			"difficulty": 1,
+			"id": 49,
+			"level": 70,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 35,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 49,
+			"level": 74,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 35,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 49,
+			"level": 78,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 35,
+			"template": 7
+		}
+	},
+	"5": {
+		"1": {
+			"difficulty": 1,
+			"id": 5,
+			"level": 26,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 5,
+			"level": 30,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 5,
+			"level": 34,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		}
+	},
+	"50": {
+		"1": {
+			"difficulty": 1,
+			"id": 50,
+			"level": 71,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 36,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 50,
+			"level": 75,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 36,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 50,
+			"level": 79,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 36,
+			"template": 7
+		}
+	},
+	"51": {
+		"1": {
+			"difficulty": 1,
+			"id": 51,
+			"level": 72,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 37,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 51,
+			"level": 76,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 37,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 51,
+			"level": 80,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 37,
+			"template": 7
+		}
+	},
+	"52": {
+		"1": {
+			"difficulty": 1,
+			"id": 52,
+			"level": 73,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 38,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 52,
+			"level": 77,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 38,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 52,
+			"level": 81,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 38,
+			"template": 7
+		}
+	},
+	"53": {
+		"1": {
+			"difficulty": 1,
+			"id": 53,
+			"level": 74,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 39,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 53,
+			"level": 78,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 39,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 53,
+			"level": 82,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 39,
+			"template": 7
+		}
+	},
+	"54": {
+		"1": {
+			"difficulty": 1,
+			"id": 54,
+			"level": 75,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 40,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 54,
+			"level": 79,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 40,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 54,
+			"level": 83,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 40,
+			"template": 7
+		}
+	},
+	"55": {
+		"1": {
+			"difficulty": 1,
+			"id": 55,
+			"level": 76,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 41,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 55,
+			"level": 80,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 41,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 55,
+			"level": 84,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 41,
+			"template": 7
+		}
+	},
+	"56": {
+		"1": {
+			"difficulty": 1,
+			"id": 56,
+			"level": 77,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 42,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 56,
+			"level": 81,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 42,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 56,
+			"level": 85,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 42,
+			"template": 7
+		}
+	},
+	"57": {
+		"1": {
+			"difficulty": 1,
+			"id": 57,
+			"level": 78,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 43,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 57,
+			"level": 82,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 43,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 57,
+			"level": 86,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 43,
+			"template": 7
+		}
+	},
+	"58": {
+		"1": {
+			"difficulty": 1,
+			"id": 58,
+			"level": 79,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 44,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 58,
+			"level": 83,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 44,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 58,
+			"level": 87,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 44,
+			"template": 7
+		}
+	},
+	"59": {
+		"1": {
+			"difficulty": 1,
+			"id": 59,
+			"level": 80,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 45,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 59,
+			"level": 84,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 45,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 59,
+			"level": 88,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 45,
+			"template": 7
+		}
+	},
+	"6": {
+		"1": {
+			"difficulty": 1,
+			"id": 6,
+			"level": 27,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 6,
+			"level": 31,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 6,
+			"level": 35,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		}
+	},
+	"60": {
+		"1": {
+			"difficulty": 1,
+			"id": 60,
+			"level": 81,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 46,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 60,
+			"level": 85,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 46,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 60,
+			"level": 89,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 46,
+			"template": 7
+		}
+	},
+	"61": {
+		"1": {
+			"difficulty": 1,
+			"id": 61,
+			"level": 82,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 47,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 61,
+			"level": 86,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 47,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 61,
+			"level": 90,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 47,
+			"template": 7
+		}
+	},
+	"62": {
+		"1": {
+			"difficulty": 1,
+			"id": 62,
+			"level": 83,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 48,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 62,
+			"level": 87,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 48,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 62,
+			"level": 91,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 48,
+			"template": 7
+		}
+	},
+	"63": {
+		"1": {
+			"difficulty": 1,
+			"id": 63,
+			"level": 84,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 49,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 63,
+			"level": 88,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 49,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 63,
+			"level": 92,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 49,
+			"template": 7
+		}
+	},
+	"64": {
+		"1": {
+			"difficulty": 1,
+			"id": 64,
+			"level": 85,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 50,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 64,
+			"level": 89,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 50,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 64,
+			"level": 93,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 50,
+			"template": 7
+		}
+	},
+	"65": {
+		"1": {
+			"difficulty": 1,
+			"id": 65,
+			"level": 86,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 51,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 65,
+			"level": 90,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 51,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 65,
+			"level": 94,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 51,
+			"template": 7
+		}
+	},
+	"66": {
+		"1": {
+			"difficulty": 1,
+			"id": 66,
+			"level": 87,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 52,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 66,
+			"level": 91,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 52,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 66,
+			"level": 95,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 52,
+			"template": 7
+		}
+	},
+	"67": {
+		"1": {
+			"difficulty": 1,
+			"id": 67,
+			"level": 88,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 53,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 67,
+			"level": 92,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 53,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 67,
+			"level": 96,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 53,
+			"template": 7
+		}
+	},
+	"68": {
+		"1": {
+			"difficulty": 1,
+			"id": 68,
+			"level": 89,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 54,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 68,
+			"level": 93,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 54,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 68,
+			"level": 97,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 54,
+			"template": 7
+		}
+	},
+	"69": {
+		"1": {
+			"difficulty": 1,
+			"id": 69,
+			"level": 90,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 55,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 69,
+			"level": 94,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 55,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 69,
+			"level": 98,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 55,
+			"template": 7
+		}
+	},
+	"7": {
+		"1": {
+			"difficulty": 1,
+			"id": 7,
+			"level": 28,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 7,
+			"level": 32,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 7,
+			"level": 36,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		}
+	},
+	"70": {
+		"1": {
+			"difficulty": 1,
+			"id": 70,
+			"level": 91,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 56,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 70,
+			"level": 95,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 56,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 70,
+			"level": 99,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 56,
+			"template": 7
+		}
+	},
+	"71": {
+		"1": {
+			"difficulty": 1,
+			"id": 71,
+			"level": 92,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 57,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 71,
+			"level": 96,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 57,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 71,
+			"level": 100,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 57,
+			"template": 7
+		}
+	},
+	"72": {
+		"1": {
+			"difficulty": 1,
+			"id": 72,
+			"level": 93,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 58,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 72,
+			"level": 97,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 58,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 72,
+			"level": 101,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 58,
+			"template": 7
+		}
+	},
+	"73": {
+		"1": {
+			"difficulty": 1,
+			"id": 73,
+			"level": 94,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 59,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 73,
+			"level": 98,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 59,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 73,
+			"level": 102,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 59,
+			"template": 7
+		}
+	},
+	"74": {
+		"1": {
+			"difficulty": 1,
+			"id": 74,
+			"level": 95,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 60,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 74,
+			"level": 99,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 60,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 74,
+			"level": 103,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 60,
+			"template": 7
+		}
+	},
+	"75": {
+		"1": {
+			"difficulty": 1,
+			"id": 75,
+			"level": 96,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 61,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 75,
+			"level": 100,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 61,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 75,
+			"level": 104,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 61,
+			"template": 7
+		}
+	},
+	"76": {
+		"1": {
+			"difficulty": 1,
+			"id": 76,
+			"level": 97,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 62,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 76,
+			"level": 101,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 62,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 76,
+			"level": 105,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 62,
+			"template": 7
+		}
+	},
+	"77": {
+		"1": {
+			"difficulty": 1,
+			"id": 77,
+			"level": 98,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 63,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 77,
+			"level": 102,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 63,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 77,
+			"level": 106,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 63,
+			"template": 7
+		}
+	},
+	"78": {
+		"1": {
+			"difficulty": 1,
+			"id": 78,
+			"level": 99,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 64,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 78,
+			"level": 103,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 64,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 78,
+			"level": 107,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 64,
+			"template": 7
+		}
+	},
+	"79": {
+		"1": {
+			"difficulty": 1,
+			"id": 79,
+			"level": 100,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 65,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 79,
+			"level": 104,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 65,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 79,
+			"level": 108,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 65,
+			"template": 7
+		}
+	},
+	"8": {
+		"1": {
+			"difficulty": 1,
+			"id": 8,
+			"level": 29,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 8,
+			"level": 33,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 8,
+			"level": 37,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		}
+	},
+	"80": {
+		"1": {
+			"difficulty": 1,
+			"id": 80,
+			"level": 101,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 66,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 80,
+			"level": 105,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 66,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 80,
+			"level": 109,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 66,
+			"template": 7
+		}
+	},
+	"81": {
+		"1": {
+			"difficulty": 1,
+			"id": 81,
+			"level": 102,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 67,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 81,
+			"level": 106,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 67,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 81,
+			"level": 110,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 67,
+			"template": 7
+		}
+	},
+	"82": {
+		"1": {
+			"difficulty": 1,
+			"id": 82,
+			"level": 103,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 68,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 82,
+			"level": 107,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 68,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 82,
+			"level": 111,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 68,
+			"template": 7
+		}
+	},
+	"83": {
+		"1": {
+			"difficulty": 1,
+			"id": 83,
+			"level": 104,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 69,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 83,
+			"level": 108,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 69,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 83,
+			"level": 112,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 69,
+			"template": 7
+		}
+	},
+	"84": {
+		"1": {
+			"difficulty": 1,
+			"id": 84,
+			"level": 105,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 70,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 84,
+			"level": 109,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 70,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 84,
+			"level": 113,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 70,
+			"template": 7
+		}
+	},
+	"85": {
+		"1": {
+			"difficulty": 1,
+			"id": 85,
+			"level": 106,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 71,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 85,
+			"level": 110,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 71,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 85,
+			"level": 114,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 71,
+			"template": 7
+		}
+	},
+	"86": {
+		"1": {
+			"difficulty": 1,
+			"id": 86,
+			"level": 107,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 72,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 86,
+			"level": 111,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 72,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 86,
+			"level": 115,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 72,
+			"template": 7
+		}
+	},
+	"87": {
+		"1": {
+			"difficulty": 1,
+			"id": 87,
+			"level": 108,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 73,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 87,
+			"level": 112,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 73,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 87,
+			"level": 116,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 73,
+			"template": 7
+		}
+	},
+	"88": {
+		"1": {
+			"difficulty": 1,
+			"id": 88,
+			"level": 109,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 74,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 88,
+			"level": 113,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 74,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 88,
+			"level": 117,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 74,
+			"template": 7
+		}
+	},
+	"89": {
+		"1": {
+			"difficulty": 1,
+			"id": 89,
+			"level": 110,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 75,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 89,
+			"level": 114,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 75,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 89,
+			"level": 118,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 75,
+			"template": 7
+		}
+	},
+	"9": {
+		"1": {
+			"difficulty": 1,
+			"id": 9,
+			"level": 30,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 9,
+			"level": 34,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 9,
+			"level": 38,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 1,
+					"2": 2
+				},
+				"2": {
+					"1": 2,
+					"2": 4
+				}
+			},
+			"skipFuben": 0,
+			"template": 7
+		}
+	},
+	"90": {
+		"1": {
+			"difficulty": 1,
+			"id": 90,
+			"level": 111,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 76,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 90,
+			"level": 115,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 76,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 90,
+			"level": 119,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 76,
+			"template": 7
+		}
+	},
+	"91": {
+		"1": {
+			"difficulty": 1,
+			"id": 91,
+			"level": 112,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 77,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 91,
+			"level": 116,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 77,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 91,
+			"level": 120,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 77,
+			"template": 7
+		}
+	},
+	"92": {
+		"1": {
+			"difficulty": 1,
+			"id": 92,
+			"level": 113,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 78,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 92,
+			"level": 117,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 78,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 92,
+			"level": 121,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 78,
+			"template": 7
+		}
+	},
+	"93": {
+		"1": {
+			"difficulty": 1,
+			"id": 93,
+			"level": 114,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 79,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 93,
+			"level": 118,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 79,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 93,
+			"level": 122,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 79,
+			"template": 7
+		}
+	},
+	"94": {
+		"1": {
+			"difficulty": 1,
+			"id": 94,
+			"level": 115,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 80,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 94,
+			"level": 119,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 80,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 94,
+			"level": 123,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 80,
+			"template": 7
+		}
+	},
+	"95": {
+		"1": {
+			"difficulty": 1,
+			"id": 95,
+			"level": 116,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 81,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 95,
+			"level": 120,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 81,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 95,
+			"level": 124,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 81,
+			"template": 7
+		}
+	},
+	"96": {
+		"1": {
+			"difficulty": 1,
+			"id": 96,
+			"level": 117,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 82,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 96,
+			"level": 121,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 82,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 96,
+			"level": 125,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 82,
+			"template": 7
+		}
+	},
+	"97": {
+		"1": {
+			"difficulty": 1,
+			"id": 97,
+			"level": 118,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 83,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 97,
+			"level": 122,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 83,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 97,
+			"level": 126,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 83,
+			"template": 7
+		}
+	},
+	"98": {
+		"1": {
+			"difficulty": 1,
+			"id": 98,
+			"level": 119,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 84,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 98,
+			"level": 123,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 84,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 98,
+			"level": 127,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 84,
+			"template": 7
+		}
+	},
+	"99": {
+		"1": {
+			"difficulty": 1,
+			"id": 99,
+			"level": 120,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 85,
+			"template": 7
+		},
+		"2": {
+			"difficulty": 2,
+			"id": 99,
+			"level": 124,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 85,
+			"template": 7
+		},
+		"3": {
+			"difficulty": 3,
+			"id": 99,
+			"level": 128,
+			"lord": {
+				"id": 2003,
+				"level": 1,
+				"template": 1
+			},
+			"monsterPool": {
+				"1": {
+					"1": 3,
+					"2": 2
+				},
+				"2": {
+					"1": 4,
+					"2": 4
+				}
+			},
+			"skipFuben": 85,
+			"template": 7
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"1": {
+		"day": 0,
+		"func": "globalTest",
+		"hour": 0,
+		"minute": 0,
+		"month": 1,
+		"openSrv": 0,
+		"params": null,
+		"week": {
+			"1": 8
+		}
+	}
+}

@@ -2,8 +2,10 @@ package typedefine
 
 import (
 	"sync"
+	"time"
 
 	"github.com/gorilla/websocket"
+	"github.com/sencydai/gameworld/log"
 )
 
 type AccountActor struct {
@@ -27,12 +29,12 @@ type Account struct {
 }
 
 func NewAccount(conn *websocket.Conn) *Account {
-	account := &Account{conn: conn, writer: make(chan []byte, 32)}
+	account := &Account{conn: conn, writer: make(chan []byte, 64)}
 	go func() {
+		write := account.conn.WriteMessage
+		bm := websocket.BinaryMessage
 		for data := range account.writer {
-			if account.conn.WriteMessage(websocket.BinaryMessage, data) != nil {
-				break
-			}
+			write(bm, data)
 		}
 	}()
 	return account
@@ -46,8 +48,8 @@ func (account *Account) Close() {
 		return
 	}
 	account.closed = true
-	close(account.writer)
 	account.conn.Close()
+	close(account.writer)
 }
 
 func (account *Account) IsClose() bool {
@@ -58,14 +60,19 @@ func (account *Account) IsClose() bool {
 }
 
 func (account *Account) Reply(data []byte) {
-	account.closeMu.RLock()
-	defer account.closeMu.RUnlock()
-
+	account.closeMu.Lock()
+	defer account.closeMu.Unlock()
 	if account.closed {
 		return
 	}
 
-	account.writer <- data
+	select {
+	case account.writer <- data:
+	case <-time.After(time.Second):
+		account.closed = true
+		account.conn.Close()
+		close(account.writer)
 
-	//account.conn.WriteMessage(websocket.BinaryMessage, data)
+		log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
+	}
 }

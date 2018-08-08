@@ -6,13 +6,12 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
 	"github.com/sencydai/gameworld/base"
 	g "github.com/sencydai/gameworld/gconfig"
 	"github.com/sencydai/gameworld/log"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	t "github.com/sencydai/gameworld/typedefine"
-	"github.com/sencydai/utils"
 )
 
 //AccountMsgHandler 客户端信息处理接口定义
@@ -35,8 +34,7 @@ const (
 	mtTimerActor    messageType = 9  //玩家定时器消息
 	mtTimerActorGo  messageType = 10 //玩家定时器go消息
 
-	chanMessageLen = 20000
-	clientTimeout  = time.Second * 5
+	clientTimeout = time.Second * 5
 )
 
 type message struct {
@@ -47,9 +45,10 @@ type message struct {
 }
 
 var (
-	systemId        = proto.System
-	messages        = make(chan *message, chanMessageLen)
-	clientMessages  = make(chan *message, chanMessageLen/2)
+	systemId       = proto.System
+	messages       chan *message
+	clientMessages chan *message
+
 	accountMsgs     = make(map[byte]accountMsgHandler)
 	actorMsgs       = make(map[int]actorMsgHandler)
 	crossMsgHandles = make(map[int]crossMsgHandler)
@@ -59,6 +58,11 @@ var (
 	TriggerActorMsg    func(*t.Actor, string, bool, reflect.Value, []reflect.Value)
 	TriggerActorMsgGo  func(*t.Actor, string, bool, reflect.Value, []reflect.Value)
 )
+
+func InitData(maxActorCount uint) {
+	messages = make(chan *message, maxActorCount*10)
+	clientMessages = make(chan *message, maxActorCount*5)
+}
 
 //RegAccountMsgHandle 注册客户端消息处理函数
 func RegAccountMsgHandle(cmdId byte, handle func(*t.Account, *bytes.Reader)) {
@@ -77,7 +81,7 @@ func RegCrossMsg(msgId int, handle func(int, *bytes.Reader)) {
 func PushClientMsg(account *t.Account, sysId, cmdId byte, reader *bytes.Reader) {
 	if sysId == systemId {
 		if _, ok := accountMsgs[cmdId]; ok && account.Actor == nil {
-			clientMessages <- &message{mtType: mtClientAccount, cbArgs: []interface{}{account, cmdId, reader}}
+			writerClientMsg(account, &message{mtType: mtClientAccount, cbArgs: []interface{}{account, cmdId, reader}})
 		}
 	} else {
 		actor := account.Actor
@@ -86,8 +90,18 @@ func PushClientMsg(account *t.Account, sysId, cmdId byte, reader *bytes.Reader) 
 		}
 		cmd := (int(sysId) << 16) + int(cmdId)
 		if _, ok := actorMsgs[cmd]; ok {
-			clientMessages <- &message{mtType: mtClientActor, cbArgs: []interface{}{cmd, reader}, actor: actor}
+			writerClientMsg(account, &message{mtType: mtClientActor, cbArgs: []interface{}{cmd, reader}, actor: actor})
 		}
+	}
+}
+
+func writerClientMsg(account *t.Account, msg *message) {
+	select {
+	case clientMessages <- msg:
+		// case <-time.After(time.Second):
+		// 	account.Close()
+		// 	g.ReduceMaxCount()
+		// 	log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
 	}
 }
 
@@ -140,7 +154,7 @@ func dispatch(msg *message) {
 	defer func() {
 		if err := recover(); err != nil {
 			if err == pack.ReadEOF {
-				log.Errorf("%v ==> %s", err, utils.FileLine(5))
+				log.Fatalf("%v ==> %s", err, base.FileLine(5))
 			} else {
 				log.Fatalf("%v,%s", err, string(debug.Stack()))
 			}
@@ -157,8 +171,11 @@ func dispatch(msg *message) {
 		cmdId := args[1].(byte)
 		reader := args[2].(*bytes.Reader)
 		tick := args[3].(time.Time)
-		if time.Since(tick) >= clientTimeout {
+		delay := time.Since(tick)
+		if delay >= clientTimeout {
+			g.ReduceMaxCount()
 			account.Close()
+			log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
 			return
 		}
 
@@ -173,9 +190,11 @@ func dispatch(msg *message) {
 		cmd := args[0].(int)
 		reader := args[1].(*bytes.Reader)
 		tick := args[2].(time.Time)
-		if time.Since(tick) >= clientTimeout {
+		delay := time.Since(tick)
+		if delay >= clientTimeout {
+			g.ReduceMaxCount()
 			account.Close()
-			return
+			log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
 		}
 		actorMsgs[cmd](actor, reader)
 	case mtActor:
@@ -259,27 +278,34 @@ func OnRun() {
 	}()
 
 	go func() {
-		waitTime := time.Millisecond
+		waiting := time.Microsecond * 250
 		for msg := range clientMessages {
 			if g.IsGameClose() {
 				break
 			}
 			args := msg.cbArgs.([]interface{})
+			var account *t.Account
 			if msg.actor == nil {
-				account := args[0].(*t.Account)
+				account = args[0].(*t.Account)
 				if account.IsClose() {
 					continue
 				}
 			} else {
-				account := msg.actor.Account
+				account = msg.actor.Account
 				if account == nil || account.IsClose() {
 					continue
 				}
 			}
 
 			msg.cbArgs = append(args, time.Now())
-			messages <- msg
-			time.Sleep(waitTime)
+			select {
+			case messages <- msg:
+				time.Sleep(waiting)
+			case <-time.After(clientTimeout):
+				g.ReduceMaxCount()
+				account.Close()
+				log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
+			}
 		}
 	}()
 }

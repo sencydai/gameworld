@@ -1,0 +1,338 @@
+{
+	"1": {
+		"cost": 1,
+		"job": 1,
+		"section": 1,
+		"talent": 1,
+		"totalCost": 0
+	},
+	"10": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 6,
+		"section": 4,
+		"talent": 10,
+		"totalCost": 20
+	},
+	"11": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 7,
+		"section": 4,
+		"talent": 11,
+		"totalCost": 20
+	},
+	"12": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 8,
+		"section": 4,
+		"talent": 12,
+		"totalCost": 20
+	},
+	"13": {
+		"cost": 1,
+		"job": 2,
+		"section": 5,
+		"talent": 13,
+		"totalCost": 30
+	},
+	"14": {
+		"cost": 1,
+		"job": 2,
+		"section": 5,
+		"talent": 14,
+		"totalCost": 30
+	},
+	"15": {
+		"cost": 1,
+		"job": 3,
+		"perTalent": 13,
+		"section": 6,
+		"talent": 15,
+		"totalCost": 35
+	},
+	"16": {
+		"cost": 1,
+		"job": 3,
+		"perTalent": 14,
+		"section": 6,
+		"talent": 16,
+		"totalCost": 35
+	},
+	"17": {
+		"cost": 1,
+		"job": 1,
+		"section": 7,
+		"talent": 17,
+		"totalCost": 40
+	},
+	"18": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 15,
+		"section": 7,
+		"talent": 18,
+		"totalCost": 40
+	},
+	"19": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 16,
+		"section": 7,
+		"talent": 19,
+		"totalCost": 40
+	},
+	"2": {
+		"cost": 1,
+		"job": 1,
+		"section": 1,
+		"talent": 2,
+		"totalCost": 0
+	},
+	"20": {
+		"cost": 1,
+		"job": 1,
+		"section": 8,
+		"talent": 20,
+		"totalCost": 45
+	},
+	"21": {
+		"cost": 1,
+		"job": 1,
+		"section": 8,
+		"talent": 21,
+		"totalCost": 45
+	},
+	"22": {
+		"cost": 1,
+		"job": 1,
+		"section": 8,
+		"talent": 22,
+		"totalCost": 45
+	},
+	"23": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 20,
+		"section": 9,
+		"talent": 23,
+		"totalCost": 50
+	},
+	"24": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 21,
+		"section": 9,
+		"talent": 24,
+		"totalCost": 50
+	},
+	"25": {
+		"cost": 1,
+		"job": 1,
+		"section": 9,
+		"talent": 25,
+		"totalCost": 50
+	},
+	"26": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 23,
+		"section": 10,
+		"talent": 26,
+		"totalCost": 60
+	},
+	"27": {
+		"cost": 1,
+		"job": 1,
+		"section": 10,
+		"talent": 27,
+		"totalCost": 60
+	},
+	"28": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 25,
+		"section": 10,
+		"talent": 28,
+		"totalCost": 60
+	},
+	"29": {
+		"cost": 1,
+		"job": 4,
+		"section": 11,
+		"talent": 29,
+		"totalCost": 65
+	},
+	"3": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 1,
+		"section": 2,
+		"talent": 3,
+		"totalCost": 5
+	},
+	"30": {
+		"cost": 1,
+		"job": 4,
+		"section": 11,
+		"talent": 30,
+		"totalCost": 65
+	},
+	"31": {
+		"cost": 1,
+		"job": 5,
+		"perTalent": 29,
+		"section": 12,
+		"talent": 31,
+		"totalCost": 70
+	},
+	"32": {
+		"cost": 1,
+		"job": 5,
+		"perTalent": 30,
+		"section": 12,
+		"talent": 32,
+		"totalCost": 70
+	},
+	"33": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 32,
+		"section": 13,
+		"talent": 33,
+		"totalCost": 75
+	},
+	"34": {
+		"cost": 1,
+		"job": 1,
+		"section": 13,
+		"talent": 34,
+		"totalCost": 75
+	},
+	"35": {
+		"cost": 1,
+		"job": 1,
+		"section": 13,
+		"talent": 35,
+		"totalCost": 75
+	},
+	"36": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 34,
+		"section": 14,
+		"talent": 36,
+		"totalCost": 80
+	},
+	"37": {
+		"cost": 1,
+		"job": 1,
+		"section": 14,
+		"talent": 37,
+		"totalCost": 80
+	},
+	"38": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 36,
+		"section": 15,
+		"talent": 38,
+		"totalCost": 85
+	},
+	"39": {
+		"cost": 1,
+		"job": 1,
+		"section": 15,
+		"talent": 39,
+		"totalCost": 85
+	},
+	"4": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 2,
+		"section": 2,
+		"talent": 4,
+		"totalCost": 5
+	},
+	"40": {
+		"cost": 1,
+		"job": 6,
+		"section": 16,
+		"talent": 40,
+		"totalCost": 90
+	},
+	"41": {
+		"cost": 1,
+		"job": 6,
+		"section": 16,
+		"talent": 41,
+		"totalCost": 90
+	},
+	"42": {
+		"cost": 1,
+		"job": 7,
+		"perTalent": 40,
+		"section": 17,
+		"talent": 42,
+		"totalCost": 95
+	},
+	"43": {
+		"cost": 1,
+		"job": 7,
+		"perTalent": 41,
+		"section": 17,
+		"talent": 43,
+		"totalCost": 95
+	},
+	"44": {
+		"cost": 1,
+		"job": 1,
+		"section": 18,
+		"talent": 44,
+		"totalCost": 100
+	},
+	"45": {
+		"cost": 1,
+		"job": 1,
+		"section": 18,
+		"talent": 45,
+		"totalCost": 100
+	},
+	"5": {
+		"cost": 1,
+		"job": 1,
+		"section": 3,
+		"talent": 5,
+		"totalCost": 10
+	},
+	"6": {
+		"cost": 1,
+		"job": 1,
+		"section": 3,
+		"talent": 6,
+		"totalCost": 10
+	},
+	"7": {
+		"cost": 1,
+		"job": 1,
+		"section": 3,
+		"talent": 7,
+		"totalCost": 10
+	},
+	"8": {
+		"cost": 1,
+		"job": 1,
+		"section": 3,
+		"talent": 8,
+		"totalCost": 10
+	},
+	"9": {
+		"cost": 1,
+		"job": 1,
+		"perTalent": 5,
+		"section": 4,
+		"talent": 9,
+		"totalCost": 20
+	}
+}

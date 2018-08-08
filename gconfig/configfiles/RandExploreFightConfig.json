@@ -1,0 +1,152 @@
+{
+	"1": {
+		"fight": {
+			"def": 9000,
+			"down": 200,
+			"max": 50000,
+			"min": 8000,
+			"up": 200
+		},
+		"floor": 1,
+		"id": 1,
+		"items": {
+			"1": {
+				"count": 50,
+				"id": 2003,
+				"level": 1,
+				"weight": 100
+			},
+			"2": {
+				"count": 20,
+				"id": 2005,
+				"level": 1,
+				"weight": 100
+			},
+			"3": {
+				"count": 5,
+				"id": 2001,
+				"level": 1,
+				"weight": 100
+			},
+			"4": {
+				"count": 30,
+				"id": 2006,
+				"level": 1,
+				"weight": 100
+			},
+			"5": {
+				"count": 1,
+				"id": 3001,
+				"level": 1,
+				"weight": 100
+			},
+			"6": {
+				"count": 10000,
+				"id": 2,
+				"level": 1,
+				"weight": 100
+			}
+		},
+		"upper": 10000
+	},
+	"2": {
+		"fight": {
+			"def": 9000,
+			"down": 100,
+			"max": 20000,
+			"min": 8000,
+			"up": 100
+		},
+		"floor": 10001,
+		"id": 2,
+		"items": {
+			"1": {
+				"count": 20,
+				"id": 2003,
+				"level": 1,
+				"weight": 100
+			},
+			"2": {
+				"count": 20,
+				"id": 2005,
+				"level": 1,
+				"weight": 100
+			},
+			"3": {
+				"count": 5,
+				"id": 2001,
+				"level": 1,
+				"weight": 100
+			},
+			"4": {
+				"count": 30,
+				"id": 2006,
+				"level": 1,
+				"weight": 100
+			},
+			"5": {
+				"count": 1,
+				"id": 3001,
+				"level": 1,
+				"weight": 100
+			},
+			"6": {
+				"count": 10000,
+				"id": 2,
+				"level": 1,
+				"weight": 100
+			}
+		},
+		"upper": 100000
+	},
+	"3": {
+		"fight": {
+			"def": 9000,
+			"down": 50,
+			"max": 20000,
+			"min": 8000,
+			"up": 50
+		},
+		"floor": 100001,
+		"id": 3,
+		"items": {
+			"1": {
+				"count": 20,
+				"id": 2003,
+				"level": 1,
+				"weight": 100
+			},
+			"2": {
+				"count": 20,
+				"id": 2005,
+				"level": 1,
+				"weight": 100
+			},
+			"3": {
+				"count": 5,
+				"id": 2001,
+				"level": 1,
+				"weight": 100
+			},
+			"4": {
+				"count": 30,
+				"id": 2006,
+				"level": 1,
+				"weight": 100
+			},
+			"5": {
+				"count": 1,
+				"id": 3001,
+				"level": 1,
+				"weight": 100
+			},
+			"6": {
+				"count": 10000,
+				"id": 2,
+				"level": 1,
+				"weight": 100
+			}
+		},
+		"upper": 999999999
+	}
+}

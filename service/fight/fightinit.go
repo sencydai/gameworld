@@ -2,12 +2,12 @@ package fight
 
 import (
 	"fmt"
-	"time"
+	"math"
 
-	"github.com/sencydai/gamecommon/pack"
-	proto "github.com/sencydai/gamecommon/protocol"
 	c "github.com/sencydai/gameworld/constdefine"
 	g "github.com/sencydai/gameworld/gconfig"
+	"github.com/sencydai/gameworld/proto/pack"
+	proto "github.com/sencydai/gameworld/proto/protocol"
 	"github.com/sencydai/gameworld/service"
 	"github.com/sencydai/gameworld/service/attr"
 	"github.com/sencydai/gameworld/timer"
@@ -16,6 +16,8 @@ import (
 
 type actorFightClear func(actor *t.Actor, fightData *t.FightData)
 type actorFightAward func(actor *t.Actor, fightData *t.FightData)
+type actorFightHpSync func(actor *t.Actor, fightData *t.FightData)
+type actorFightGiveup func(actor *t.Actor, fightData *t.FightData)
 
 var (
 	heroTemplates     map[int]*t.FightHeroTemplate //英雄模板
@@ -30,8 +32,10 @@ var (
 	maxLordSkillCount int
 	fightIndex        int64
 
-	actorFightClearHandles = make(map[int]actorFightClear)
-	actorFightAwardHandles = make(map[int]actorFightAward)
+	actorFightClearHandles  = make(map[int]actorFightClear)
+	actorFightAwardHandles  = make(map[int]actorFightAward)
+	actorFightHpSyncHandles = make(map[int]actorFightHpSync)
+	actorFightGiveupHandles = make(map[int]actorFightGiveup)
 )
 
 func RegFightClear(fightType int, handle func(*t.Actor, *t.FightData)) {
@@ -40,6 +44,14 @@ func RegFightClear(fightType int, handle func(*t.Actor, *t.FightData)) {
 
 func RegFightAward(fightType int, handle func(*t.Actor, *t.FightData)) {
 	actorFightAwardHandles[fightType] = handle
+}
+
+func RegFightHpSync(fightType int, handle func(*t.Actor, *t.FightData)) {
+	actorFightHpSyncHandles[fightType] = handle
+}
+
+func RegFightGiveup(fightType int, handle func(*t.Actor, *t.FightData)) {
+	actorFightGiveupHandles[fightType] = handle
 }
 
 func newFightIndex() int64 {
@@ -51,7 +63,7 @@ func init() {
 	service.RegConfigLoadFinish(onConfigLoadFinish)
 }
 
-func onConfigLoadFinish() {
+func onConfigLoadFinish(isGameStart bool) {
 	heroTemplates = make(map[int]*t.FightHeroTemplate)
 	monsterTemplates = make(map[int]*t.FightHeroTemplate)
 	guardModels = make(map[int][]int)
@@ -200,7 +212,6 @@ func NewFightData(actor *t.Actor, fightType int, cbArgs []interface{}) *t.FightD
 		Entities:    make(map[int]*t.FightEntity),
 		RawEntities: make(map[int]*t.FightEntity),
 		Logs:        make([]*t.FightLog, 0),
-		StartTime:   time.Now(),
 	}
 
 	for i := 0; i < 2; i++ {
@@ -216,42 +227,68 @@ func NewFightData(actor *t.Actor, fightType int, cbArgs []interface{}) *t.FightD
 }
 
 func Fighting(actor *t.Actor, fightData *t.FightData, packArgs []interface{}) {
-	timer.NextGo(actor, fmt.Sprintf("Fighting_%d", fightData.Type), func(actor *t.Actor) {
-		writer := pack.AllocPack(proto.Fight, proto.FightSInit, fightData.Type, float64(fightData.Guid))
-		pack.Write(writer, int16(len(fightData.Data)+len(fightData.Entities)))
-		for _, lord := range fightData.Data {
-			pack.Write(writer,
-				"",
-				lord.Name,
-				lord.Pos,
-				lord.Model,
-				0,
-				0,
-			)
-			pack.Write(writer, int8(len(lord.Gmodel)), lord.Gmodel[0], lord.Gmodel[1])
-			pack.Write(writer, int8(len(lord.Equips)))
-			for pos, id := range lord.Equips {
-				pack.Write(writer, pos, id)
+	if _, ok := actorFightHpSyncHandles[fightData.Type]; ok {
+		timer.Next(actor, fmt.Sprintf("triggerFighting_%d", fightData.Type), triggerFighting, fightData, packArgs)
+	} else {
+		timer.NextGo(actor, fmt.Sprintf("triggerFighting_%d", fightData.Type), triggerFighting, fightData, packArgs)
+	}
+}
+
+func triggerFighting(actor *t.Actor, fightData *t.FightData, packArgs []interface{}) {
+	for index, data := range fightData.Data {
+		if data.RawData == nil {
+			continue
+		}
+		heros := data.RawData.Heros
+		rawHeros := data.RawData.RawHeros
+		for _, entity := range fightData.Entities {
+			if entity.LordIndex != index {
+				continue
+			}
+			if hp, ok := heros[entity.HeroPos]; ok {
+				entity.RawAttrs[c.AttrHp] = float64(rawHeros[entity.HeroPos])
+				entity.Attrs[c.AttrHp] = math.Min(float64(hp), entity.RawAttrs[c.AttrHp])
+			} else {
+				delete(fightData.Entities, entity.Pos)
+				delete(fightData.RawEntities, entity.Pos)
 			}
 		}
+	}
 
-		for _, entity := range fightData.Entities {
-			heroTemp := fightData.Data[entity.LordIndex].Heros[entity.HeroPos]
-			pack.Write(writer, "", "", entity.Pos, heroTemp.Model, int(entity.RawAttrs[c.AttrHp]), int(entity.Attrs[c.AttrHp]))
+	writer := pack.AllocPack(proto.Fight, proto.FightSInit, fightData.Type, float64(fightData.Guid))
+	pack.Write(writer, int16(len(fightData.Data)+len(fightData.Entities)))
+	for _, lord := range fightData.Data {
+		pack.Write(writer,
+			"",
+			lord.Name,
+			lord.Pos,
+			lord.Model,
+			0,
+			0,
+		)
+		pack.Write(writer, int8(len(lord.Gmodel)), lord.Gmodel[0], lord.Gmodel[1])
+		pack.Write(writer, int8(len(lord.Equips)))
+		for pos, id := range lord.Equips {
+			pack.Write(writer, pos, id)
 		}
+	}
 
-		pack.Write(writer, packArgs...)
+	for _, entity := range fightData.Entities {
+		heroTemp := fightData.Data[entity.LordIndex].Heros[entity.HeroPos]
+		pack.Write(writer, "", "", entity.Pos, heroTemp.Model, int(entity.RawAttrs[c.AttrHp]), int(entity.Attrs[c.AttrHp]))
+	}
 
-		actor.ReplyWriter(writer)
+	pack.Write(writer, packArgs...)
 
-		startFighting(actor, fightData)
-	})
+	actor.ReplyWriter(writer)
+
+	startFighting(actor, fightData)
 }
 
 //NewPvE pve
 func NewPvE(actor *t.Actor, fightType int,
 	monsterLord t.MonsterLord, monsterHeros map[int]t.MonsterHero,
-	monsterName string, monsterLevel int,
+	monsterName string, monsterLevel int, monsterRawData *t.FightMonsterRawData,
 	packArgs []interface{}, cbArgs ...interface{}) *t.FightData {
 	fightData := NewFightData(actor, fightType, cbArgs)
 	if fightData == nil {
@@ -259,7 +296,7 @@ func NewPvE(actor *t.Actor, fightType int,
 	}
 
 	InitActorFightData(fightData, fightData.Data[0], actor, 0)
-	InitMonsterFightData(fightData, fightData.Data[1], monsterLord, monsterHeros, monsterName, monsterLevel)
+	InitMonsterFightData(fightData, fightData.Data[1], monsterLord, monsterHeros, monsterName, monsterLevel, monsterRawData)
 
 	Fighting(actor, fightData, packArgs)
 
@@ -381,7 +418,7 @@ func InitActorFightData(data *t.FightData, lord *t.FightLord, actor *t.Actor, ma
 //InitMonsterFightData 怪物战斗数据
 func InitMonsterFightData(data *t.FightData, lord *t.FightLord,
 	monsterLord t.MonsterLord, monsterHeros map[int]t.MonsterHero,
-	monsterName string, monsterLevel int) {
+	monsterName string, monsterLevel int, rawData *t.FightMonsterRawData) {
 
 	lordConf := g.GMonsterLordConfig[monsterLord.Id]
 	lord.Model = lordConf.Model
@@ -442,9 +479,10 @@ func InitMonsterFightData(data *t.FightData, lord *t.FightLord,
 	}
 
 	lord.AttrSum = int(attrs[c.AttrAttackCom] + attrs[c.AttrDefenseCom] + attrs[c.AttrLordDamage] + attrs[c.AttrLordDamageSub])
+	lord.RawData = rawData
 
 	for _, monsterHero := range monsterHeros {
-		heroTemp := getHeroTemplate(monsterHero.Id)
+		heroTemp := getMonsterTemplate(monsterHero.Id)
 		lord.Heros[monsterHero.Pos] = heroTemp
 
 		var level int
@@ -459,7 +497,7 @@ func InitMonsterFightData(data *t.FightData, lord *t.FightLord,
 			LordIndex:   lord.Entity.LordIndex,
 			HeroPos:     monsterHero.Pos,
 			RaceRatio:   heroTemp.RaceRatio,
-			RawAttrs:    calcMonsterAttr(monsterHero.Id, monsterHero.Template, level, nil),
+			RawAttrs:    CalcMonsterAttr(monsterHero.Id, monsterHero.Template, level, nil),
 			Attrs:       make(map[int]float64),
 			Feature:     heroTemp.Feature,
 			Buffs:       make(map[int]*t.FightBuff),
@@ -477,15 +515,13 @@ func InitMonsterFightData(data *t.FightData, lord *t.FightLord,
 		for t, v := range entity.RawAttrs {
 			attrs[t] = v
 		}
-
 		data.Entities[entity.Pos] = entity
 		data.RawEntities[entity.Pos] = entity
-
 		//log.Infof("pos:%d,attrs:%v", entity.Pos, entity.Attrs)
 	}
 }
 
-func calcMonsterAttr(id, template, level int, exAttrs map[int]t.Attr) map[int]float64 {
+func CalcMonsterAttr(id, template, level int, exAttrs map[int]t.Attr) map[int]float64 {
 	monsterConf := g.GMonsterConfig[id]
 	templateConf := g.GMonsterTemplateConfig[template][level]
 
@@ -509,4 +545,19 @@ func calcMonsterAttr(id, template, level int, exAttrs map[int]t.Attr) map[int]fl
 	attr.CalcEntityFightAttr(attrs)
 
 	return attrs
+}
+
+func CreatFightMonsterRawData(monsterHeros map[int]t.MonsterHero) *t.FightMonsterRawData {
+	heros := make(map[int]int)
+	rawHeros := make(map[int]int)
+	for _, monsterHero := range monsterHeros {
+		attrs := CalcMonsterAttr(monsterHero.Id, monsterHero.Template, monsterHero.Level, nil)
+		heros[monsterHero.Pos] = int(attrs[c.AttrHp])
+		rawHeros[monsterHero.Pos] = int(attrs[c.AttrHp])
+	}
+
+	return &t.FightMonsterRawData{
+		Heros:    heros,
+		RawHeros: rawHeros,
+	}
 }

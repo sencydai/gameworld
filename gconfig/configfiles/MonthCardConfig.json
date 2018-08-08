@@ -1,0 +1,22 @@
+{
+	"8": {
+		"1": {
+			"daily": 150,
+			"days": 30,
+			"diamond": 300,
+			"id": 8,
+			"index": 1,
+			"item": 8,
+			"money": 30
+		},
+		"2": {
+			"daily": 60,
+			"days": 15,
+			"diamond": 60,
+			"id": 8,
+			"index": 2,
+			"item": 9,
+			"money": 6
+		}
+	}
+}
