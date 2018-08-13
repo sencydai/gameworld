@@ -10,7 +10,7 @@ type AwardType = int
 const (
 	ATItem      AwardType = 1 //物品
 	ATItemGroup AwardType = 2 //物品组
-	ATLEquip    AwardType = 3 //领主装备
+	//ATLEquip    AwardType = 3 //领主装备
 	ATLHead     AwardType = 4 //领主头像
 	ATLFrame    AwardType = 5 //领主头像边框
 	ATLChat     AwardType = 6 //领主聊天框
@@ -119,12 +119,7 @@ const (
 type LordEquipPos = int
 
 const (
-	LEPWeapon LordEquipPos = 1 //武器
-	LEPArmor  LordEquipPos = 2 //铠甲
-	LEPHelmet LordEquipPos = 3 //头盔
-	LEPMount  LordEquipPos = 4 //坐骑
-
-	LEPMax LordEquipPos = 4
+	LEPMax LordEquipPos = 8
 )
 
 //英雄位置类型

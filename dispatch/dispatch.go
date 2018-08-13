@@ -53,10 +53,10 @@ var (
 	actorMsgs       = make(map[int]actorMsgHandler)
 	crossMsgHandles = make(map[int]crossMsgHandler)
 
-	TriggerSystemMsg   func(string, bool, reflect.Value, []reflect.Value)
-	TriggerSystemMsgGo func(string, bool, reflect.Value, []reflect.Value)
-	TriggerActorMsg    func(*t.Actor, string, bool, reflect.Value, []reflect.Value)
-	TriggerActorMsgGo  func(*t.Actor, string, bool, reflect.Value, []reflect.Value)
+	TriggerSystemMsg   func(string, *time.Timer, bool, reflect.Value, []reflect.Value)
+	TriggerSystemMsgGo func(string, *time.Timer, bool, reflect.Value, []reflect.Value)
+	TriggerActorMsg    func(*t.Actor, string, *time.Timer, bool, reflect.Value, []reflect.Value)
+	TriggerActorMsgGo  func(*t.Actor, string, *time.Timer, bool, reflect.Value, []reflect.Value)
 )
 
 func InitData(maxActorCount uint) {
@@ -96,13 +96,7 @@ func PushClientMsg(account *t.Account, sysId, cmdId byte, reader *bytes.Reader) 
 }
 
 func writerClientMsg(account *t.Account, msg *message) {
-	select {
-	case clientMessages <- msg:
-		// case <-time.After(time.Second):
-		// 	account.Close()
-		// 	g.ReduceMaxCount()
-		// 	log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
-	}
+	clientMessages <- msg
 }
 
 func PushActorMsg(actor *t.Actor, handler interface{}, args ...interface{}) {
@@ -173,7 +167,7 @@ func dispatch(msg *message) {
 		tick := args[3].(time.Time)
 		delay := time.Since(tick)
 		if delay >= clientTimeout {
-			g.ReduceMaxCount()
+			g.ReduceRealCount()
 			account.Close()
 			log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
 			return
@@ -192,7 +186,7 @@ func dispatch(msg *message) {
 		tick := args[2].(time.Time)
 		delay := time.Since(tick)
 		if delay >= clientTimeout {
-			g.ReduceMaxCount()
+			g.ReduceRealCount()
 			account.Close()
 			log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
 		}
@@ -229,17 +223,19 @@ func dispatch(msg *message) {
 	case mtTimerSystem:
 		args := msg.cbArgs.([]interface{})
 		name := args[0].(string)
-		stop := args[1].(bool)
-		cb := args[2].(reflect.Value)
-		values := args[3].([]reflect.Value)
-		TriggerSystemMsg(name, stop, cb, values)
+		t := args[1].(*time.Timer)
+		stop := args[2].(bool)
+		cb := args[3].(reflect.Value)
+		values := args[4].([]reflect.Value)
+		TriggerSystemMsg(name, t, stop, cb, values)
 	case mtTimerSystemGo:
 		args := msg.cbArgs.([]interface{})
 		name := args[0].(string)
-		stop := args[1].(bool)
-		cb := args[2].(reflect.Value)
-		values := args[3].([]reflect.Value)
-		TriggerSystemMsgGo(name, stop, cb, values)
+		t := args[1].(*time.Timer)
+		stop := args[2].(bool)
+		cb := args[3].(reflect.Value)
+		values := args[4].([]reflect.Value)
+		TriggerSystemMsgGo(name, t, stop, cb, values)
 	case mtTimerActor:
 		actor := msg.actor
 		account := actor.Account
@@ -248,10 +244,11 @@ func dispatch(msg *message) {
 		}
 		args := msg.cbArgs.([]interface{})
 		name := args[0].(string)
-		stop := args[1].(bool)
-		cb := args[2].(reflect.Value)
-		values := args[3].([]reflect.Value)
-		TriggerActorMsg(actor, name, stop, cb, values)
+		t := args[1].(*time.Timer)
+		stop := args[2].(bool)
+		cb := args[3].(reflect.Value)
+		values := args[4].([]reflect.Value)
+		TriggerActorMsg(actor, name, t, stop, cb, values)
 	case mtTimerActorGo:
 		actor := msg.actor
 		account := actor.Account
@@ -260,10 +257,11 @@ func dispatch(msg *message) {
 		}
 		args := msg.cbArgs.([]interface{})
 		name := args[0].(string)
-		stop := args[1].(bool)
-		cb := args[2].(reflect.Value)
-		values := args[3].([]reflect.Value)
-		TriggerActorMsgGo(actor, name, stop, cb, values)
+		t := args[1].(*time.Timer)
+		stop := args[2].(bool)
+		cb := args[3].(reflect.Value)
+		values := args[4].([]reflect.Value)
+		TriggerActorMsgGo(actor, name, t, stop, cb, values)
 	}
 }
 
@@ -302,7 +300,7 @@ func OnRun() {
 			case messages <- msg:
 				time.Sleep(waiting)
 			case <-time.After(clientTimeout):
-				g.ReduceMaxCount()
+				g.ReduceRealCount()
 				account.Close()
 				log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
 			}

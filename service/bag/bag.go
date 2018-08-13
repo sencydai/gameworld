@@ -23,7 +23,6 @@ var (
 	onObtainAreaPrestige func(actor *t.Actor, count int)
 	onObtainGuildContri  func(actor *t.Actor, count int)
 	onObtainGuildFund    func(actor *t.Actor, count int)
-	onObtainLordEquip    func(actor *t.Actor, id, count int)
 	onObtainLordDecor    func(actor *t.Actor, ldt c.LordDecorType, id int)
 )
 
@@ -118,10 +117,6 @@ func RegObtainGuildFund(handle func(actor *t.Actor, count int)) {
 
 func RegObtainLordDecor(handle func(actor *t.Actor, ldt c.LordDecorType, id int)) {
 	onObtainLordDecor = handle
-}
-
-func RegObtainLordEquip(handle func(actor *t.Actor, id, count int)) {
-	onObtainLordEquip = handle
 }
 
 func onActorCreate(actor *t.Actor) {
@@ -401,11 +396,6 @@ func PutAwards2Bag(actor *t.Actor, awards map[int]t.Award, flush bool, checkFull
 			if onObtainLordDecor != nil {
 				onObtainLordDecor(actor, c.LDTChat, award.Id)
 			}
-		//领主装备
-		case c.ATLEquip:
-			if onObtainLordEquip != nil {
-				onObtainLordEquip(actor, award.Id, award.Count)
-			}
 		//英雄
 		case c.ATHero:
 			if _, ok := g.GHeroConfig[award.Id]; !ok {
@@ -453,7 +443,7 @@ func PutAwards2Bag(actor *t.Actor, awards map[int]t.Award, flush bool, checkFull
 
 	actor.ReplyWriter(writer)
 
-	log.Infof("PutAwards2Bag %s: actor(%d),awards(%s)", logText, actor.ActorId, AwardsString(awards))
+	log.Optf("PutAwards2Bag %s: actor(%d),awards(%s)", logText, actor.ActorId, AwardsString(awards))
 
 	return true
 }

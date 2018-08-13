@@ -163,13 +163,6 @@ func refreshLordEquipsAttr(actor *t.Actor) {
 	for pos, equip := range equipData.Equips {
 		posAttrs := make(map[int]float64)
 		attrs[pos] = posAttrs
-		//装备属性
-		if equip.Id > 0 {
-			equipConf := g.GLordEquipConfig[equip.Id]
-			for _, attr := range equipConf.Attrs {
-				posAttrs[attr.Type] = float64(attr.Value)
-			}
-		}
 		//强化属性
 		strengConf := g.GLordEquipStrengConfig[equip.Stage][equip.Level]
 		for _, attr := range strengConf.Attrs[pos] {
@@ -188,13 +181,6 @@ func RefreshLordEquipAttr(actor *t.Actor, pos int) {
 	if equip, ok := equipData.Equips[pos]; ok {
 		posAttrs := make(map[int]float64)
 		attrs[pos] = posAttrs
-		//装备属性
-		if equip.Id > 0 {
-			equipConf := g.GLordEquipConfig[equip.Id]
-			for _, attr := range equipConf.Attrs {
-				posAttrs[attr.Type] = float64(attr.Value)
-			}
-		}
 		//强化属性
 		strengConf := g.GLordEquipStrengConfig[equip.Stage][equip.Level]
 		for _, attr := range strengConf.Attrs[pos] {

@@ -26,7 +26,6 @@ type FightLord struct {
 	Name   string
 	Gmodel []int
 	Power  int
-	Equips map[int]int
 
 	PassSkills          []int       //初动技能id
 	ActiveSkills        map[int]int //主动技能 pos:skillId

@@ -49,10 +49,8 @@ type ActorBaseLordEquipData struct {
 }
 
 type ActorBaseLordEquipPosData struct {
-	Stage  int         //等阶
-	Level  int         //等级
-	Id     int         //当前穿着装备id
-	Unlock map[int]int //已解锁装备id : 过期时间戳
+	Stage int //等阶
+	Level int //等级
 }
 
 //ActorBaseLordTalentData 天赋
@@ -191,10 +189,8 @@ func (actor *Actor) GetLordEquipData() *ActorBaseLordEquipData {
 		}
 		for i := 1; i <= c.LEPMax; i++ {
 			baseData.LEquip.Equips[i] = &ActorBaseLordEquipPosData{
-				Stage:  0,
-				Level:  0,
-				Id:     -1,
-				Unlock: make(map[int]int),
+				Stage: 0,
+				Level: 0,
 			}
 		}
 	}

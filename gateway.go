@@ -36,7 +36,7 @@ var (
 func addConnCount() bool {
 	connCountMu.Lock()
 	defer connCountMu.Unlock()
-	if connCount >= g.GetMaxCount() {
+	if connCount >= g.GetRealCount() {
 		return false
 	}
 	connCount++

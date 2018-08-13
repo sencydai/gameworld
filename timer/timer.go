@@ -16,7 +16,7 @@ import (
 var (
 	sysTimers   = make(map[string]*time.Timer)
 	actorTimers = make(map[*t.Actor]map[string]*time.Timer)
-	mutex       sync.Mutex
+	mutex       sync.RWMutex
 )
 
 func init() {
@@ -31,9 +31,8 @@ func addTimer(actor *t.Actor, name string, delay time.Duration) *time.Timer {
 	defer mutex.Unlock()
 
 	if actor == nil {
-		if _, ok := sysTimers[name]; ok {
-			log.Errorf("timer %s is existed", name)
-			return nil
+		if t, ok := sysTimers[name]; ok {
+			t.Stop()
 		}
 		t := time.NewTimer(delay)
 		sysTimers[name] = t
@@ -44,9 +43,8 @@ func addTimer(actor *t.Actor, name string, delay time.Duration) *time.Timer {
 	if !ok {
 		actors = make(map[string]*time.Timer)
 		actorTimers[actor] = actors
-	} else if _, ok = actors[name]; ok {
-		log.Errorf("timer %s is existed", name)
-		return nil
+	} else if t, ok := actors[name]; ok {
+		t.Stop()
 	}
 
 	t := time.NewTimer(delay)
@@ -80,8 +78,8 @@ func StopTimer(actor *t.Actor, name string) bool {
 }
 
 func IsStoped(actor *t.Actor, name string) bool {
-	mutex.Lock()
-	defer mutex.Unlock()
+	mutex.RLock()
+	defer mutex.RUnlock()
 
 	if actor == nil {
 		_, ok := sysTimers[name]
@@ -89,10 +87,52 @@ func IsStoped(actor *t.Actor, name string) bool {
 	}
 	actors, ok := actorTimers[actor]
 	if !ok {
-		return !ok
+		return true
 	}
 	_, ok = actors[name]
 	return !ok
+}
+
+func stopTimer(actor *t.Actor, name string, t *time.Timer) bool {
+	mutex.Lock()
+	defer mutex.Unlock()
+
+	if actor == nil {
+		timer, ok := sysTimers[name]
+		if ok && timer == t {
+			timer.Stop()
+			delete(sysTimers, name)
+			return true
+		}
+		return false
+	}
+	actors, ok := actorTimers[actor]
+	if !ok {
+		return ok
+	}
+	timer, ok := actors[name]
+	if ok {
+		timer.Stop()
+		delete(actors, name)
+	}
+
+	return ok
+}
+
+func isStoped(actor *t.Actor, name string, t *time.Timer) bool {
+	mutex.RLock()
+	defer mutex.RUnlock()
+
+	if actor == nil {
+		timer, ok := sysTimers[name]
+		return !ok || timer != t
+	}
+	actors, ok := actorTimers[actor]
+	if !ok {
+		return true
+	}
+	timer, ok := actors[name]
+	return !ok || timer != t
 }
 
 func StopActorTimers(actor *t.Actor) {
@@ -107,19 +147,19 @@ func StopActorTimers(actor *t.Actor) {
 	}
 }
 
-func triggerSystemMsg(name string, stop bool, cb reflect.Value, values []reflect.Value) {
+func triggerSystemMsg(name string, t *time.Timer, stop bool, cb reflect.Value, values []reflect.Value) {
 	if stop {
-		if !StopTimer(nil, name) {
+		if !stopTimer(nil, name, t) {
 			return
 		}
-	} else if IsStoped(nil, name) {
+	} else if isStoped(nil, name, t) {
 		return
 	}
 
 	cb.Call(values)
 }
 
-func triggerSystemMsgGo(name string, stop bool, cb reflect.Value, values []reflect.Value) {
+func triggerSystemMsgGo(name string, t *time.Timer, stop bool, cb reflect.Value, values []reflect.Value) {
 	go func() {
 		defer func() {
 			if err := recover(); err != nil {
@@ -127,16 +167,16 @@ func triggerSystemMsgGo(name string, stop bool, cb reflect.Value, values []refle
 			}
 		}()
 
-		triggerSystemMsg(name, stop, cb, values)
+		triggerSystemMsg(name, t, stop, cb, values)
 	}()
 }
 
-func triggerActorMsg(actor *t.Actor, name string, stop bool, cb reflect.Value, values []reflect.Value) {
+func triggerActorMsg(actor *t.Actor, name string, t *time.Timer, stop bool, cb reflect.Value, values []reflect.Value) {
 	if stop {
-		if !StopTimer(actor, name) {
+		if !stopTimer(actor, name, t) {
 			return
 		}
-	} else if IsStoped(actor, name) {
+	} else if isStoped(actor, name, t) {
 		return
 	}
 
@@ -150,7 +190,7 @@ func triggerActorMsg(actor *t.Actor, name string, stop bool, cb reflect.Value, v
 	cb.Call(values)
 }
 
-func triggerActorMsgGo(actor *t.Actor, name string, stop bool, cb reflect.Value, values []reflect.Value) {
+func triggerActorMsgGo(actor *t.Actor, name string, t *time.Timer, stop bool, cb reflect.Value, values []reflect.Value) {
 	go func() {
 		defer func() {
 			if err := recover(); err != nil {
@@ -158,42 +198,36 @@ func triggerActorMsgGo(actor *t.Actor, name string, stop bool, cb reflect.Value,
 			}
 		}()
 
-		triggerActorMsg(actor, name, stop, cb, values)
+		triggerActorMsg(actor, name, t, stop, cb, values)
 	}()
 
 }
 
 func After(actor *t.Actor, name string, delay time.Duration, cbFunc interface{}, args ...interface{}) {
-	t := addTimer(actor, name, delay)
-	if t == nil {
-		return
-	}
 	go func() {
+		t := addTimer(actor, name, delay)
 		select {
 		case <-t.C:
 			cb, values := base.ReflectFunc(cbFunc, args)
 			if actor == nil {
-				dispatch.PushSystemMsg(triggerSystemMsg, name, true, cb, values)
+				dispatch.PushSystemMsg(triggerSystemMsg, name, t, true, cb, values)
 			} else {
-				dispatch.PushActorMsg(actor, triggerActorMsg, name, true, cb, values)
+				dispatch.PushActorMsg(actor, triggerActorMsg, name, t, true, cb, values)
 			}
 		}
 	}()
 }
 
 func AfterGo(actor *t.Actor, name string, delay time.Duration, cbFunc interface{}, args ...interface{}) {
-	t := addTimer(actor, name, delay)
-	if t == nil {
-		return
-	}
 	go func() {
+		t := addTimer(actor, name, delay)
 		select {
 		case <-t.C:
 			cb, values := base.ReflectFunc(cbFunc, args)
 			if actor == nil {
-				dispatch.PushSystemMsg(triggerSystemMsgGo, name, true, cb, values)
+				dispatch.PushSystemMsg(triggerSystemMsgGo, name, t, true, cb, values)
 			} else {
-				dispatch.PushActorMsg(actor, triggerActorMsgGo, name, true, cb, values)
+				dispatch.PushActorMsg(actor, triggerActorMsgGo, name, t, true, cb, values)
 			}
 		}
 	}()
@@ -208,11 +242,8 @@ func NextGo(actor *t.Actor, name string, cbFunc interface{}, args ...interface{}
 }
 
 func Loop(actor *t.Actor, name string, delay, interval time.Duration, times int, cbFunc interface{}, args ...interface{}) {
-	t := addTimer(actor, name, delay)
-	if t == nil {
-		return
-	}
 	go func() {
+		t := addTimer(actor, name, delay)
 		cb, values := base.ReflectFunc(cbFunc, args)
 
 		var count int
@@ -223,37 +254,43 @@ func Loop(actor *t.Actor, name string, delay, interval time.Duration, times int,
 					if count < times {
 						count++
 						if count == times {
-							go loopPush(actor, name, true, cb, values)
+							go loopPush(actor, name, t, true, cb, values)
 							return
 						}
 
 						t.Reset(interval)
-						go loopPush(actor, name, false, cb, values)
+						go loopPush(actor, name, t, false, cb, values)
 					}
 
 					continue
 				}
 
 				t.Reset(interval)
-				go loopPush(actor, name, false, cb, values)
+				go loopPush(actor, name, t, false, cb, values)
 			}
 		}
 	}()
 }
 
-func loopPush(actor *t.Actor, name string, stop bool, cb reflect.Value, values []reflect.Value) {
+func loopPush(actor *t.Actor, name string, t *time.Timer, stop bool, cb reflect.Value, values []reflect.Value) {
 	if actor == nil {
-		dispatch.PushSystemMsg(triggerSystemMsg, name, stop, cb, values)
+		dispatch.PushSystemMsg(triggerSystemMsg, name, t, stop, cb, values)
 	} else {
-		dispatch.PushActorMsg(actor, triggerActorMsg, name, stop, cb, values)
+		dispatch.PushActorMsg(actor, triggerActorMsg, name, t, stop, cb, values)
 	}
 }
 
 func LoopDayMoment(name string, last time.Time, hour, min, sec int, cbFunc interface{}, args ...interface{}) {
+	cb, values := base.ReflectFunc(cbFunc, args)
 	if base.CheckMomentHappend(last, hour, min, sec) {
-		cb, values := base.ReflectFunc(cbFunc, args)
 		cb.Call(values)
 	}
+	After(nil, name, base.GetMomentDelay(hour, min, sec), loopDayMoment, name, hour, min, sec, cb, values)
 
-	Loop(nil, name, base.GetMomentDelay(hour, min, sec), time.Hour*24, -1, cbFunc, args...)
+	//Loop(nil, name, base.GetMomentDelay(hour, min, sec), time.Hour*24, -1, cbFunc, args...)
+}
+
+func loopDayMoment(name string, hour, min, sec int, cb reflect.Value, values []reflect.Value) {
+	After(nil, name, base.GetMomentDelay(hour, min, sec), loopDayMoment, name, hour, min, sec, cb, values)
+	cb.Call(values)
 }

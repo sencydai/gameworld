@@ -267,10 +267,6 @@ func triggerFighting(actor *t.Actor, fightData *t.FightData, packArgs []interfac
 			0,
 		)
 		pack.Write(writer, int8(len(lord.Gmodel)), lord.Gmodel[0], lord.Gmodel[1])
-		pack.Write(writer, int8(len(lord.Equips)))
-		for pos, id := range lord.Equips {
-			pack.Write(writer, pos, id)
-		}
 	}
 
 	for _, entity := range fightData.Entities {
@@ -316,16 +312,6 @@ func InitActorFightData(data *t.FightData, lord *t.FightLord, actor *t.Actor, ma
 	guard := actor.GetGuardData()
 	lord.Gmodel = getGuardModel(guard.Model)
 	lord.Power = actor.Power
-
-	equipData := actor.GetLordEquipData()
-	if len(equipData.Equips) > 0 {
-		lord.Equips = make(map[int]int)
-		for pos, equip := range equipData.Equips {
-			if equip.Id > 0 {
-				lord.Equips[pos] = equip.Id
-			}
-		}
-	}
 
 	talentData := actor.GetLordTalentData()
 	if len(talentData.Learn) > 0 {
@@ -429,12 +415,6 @@ func InitMonsterFightData(data *t.FightData, lord *t.FightLord,
 	}
 	guard := lordConf.GuardModel
 	lord.Gmodel = []int{guard[1], guard[2]}
-
-	lord.Equips = make(map[int]int)
-	for _, equipId := range lordConf.Equips {
-		equipConf := g.GLordEquipConfig[equipId]
-		lord.Equips[equipConf.Pos] = equipId
-	}
 
 	if len(lordConf.LordPassive) > 0 {
 		lord.PassSkills = make([]int, len(lordConf.LordPassive))

@@ -251,7 +251,7 @@ func DeductItem(actor *t.Actor, id, count int, check bool, logText string) (ok b
 	}
 
 	if len(logText) > 0 {
-		log.Infof("DeductItem %s: actor(%d),id(%d),deduct(%d),left(%d)", logText, actor.ActorId, id, count, realLeft)
+		log.Optf("DeductItem %s: actor(%d),id(%d),deduct(%d),left(%d)", logText, actor.ActorId, id, count, realLeft)
 	}
 
 	return true, realLeft
@@ -270,7 +270,7 @@ func DeductItems(actor *t.Actor, items map[int]t.AwardItem, check bool, logText 
 		index++
 	}
 
-	log.Infof("DeductItem %s: actor(%d),%s", logText, actor.ActorId, strings.Join(text, ";"))
+	log.Optf("DeductItem %s: actor(%d),%s", logText, actor.ActorId, strings.Join(text, ";"))
 
 	return true
 }
@@ -282,17 +282,13 @@ func DeductItems2(actor *t.Actor, items map[int]int, check bool, logText string)
 
 	text := make([]string, len(items))
 	var index int
-	infof := log.Infof
 	for id, count := range items {
 		_, left := DeductItem(actor, id, count, false, "")
 		text[index] = fmt.Sprintf("id(%d),deduct(%d),left(%d)", id, count, left)
-		if left < 0 {
-			infof = log.Warnf
-		}
 		index++
 	}
 
-	infof("DeductItem %s: actor(%d),%s", logText, actor.ActorId, strings.Join(text, ";"))
+	log.Optf("DeductItem %s: actor(%d),%s", logText, actor.ActorId, strings.Join(text, ";"))
 
 	return true
 }

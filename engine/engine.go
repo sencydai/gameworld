@@ -60,6 +60,17 @@ func InitEngine() {
 		panic(err)
 	}
 
+	go func() {
+		for {
+			select {
+			case <-time.After(time.Hour):
+				if err := engine.Ping(); err != nil {
+					log.Fatal(err)
+				}
+			}
+		}
+	}()
+
 	stmtAccount, err = engine.Prepare("select accountid,password,gmlevel from account where accountname=?")
 	if err != nil {
 		panic(err)

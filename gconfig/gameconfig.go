@@ -49,10 +49,16 @@ func SetRealCount(count uint) {
 func GetMaxCount() uint {
 	GameConfig.lock.RLock()
 	GameConfig.lock.RUnlock()
+	return GameConfig.MaxConnection
+}
+
+func GetRealCount() uint {
+	GameConfig.lock.RLock()
+	GameConfig.lock.RUnlock()
 	return GameConfig.RealMax
 }
 
-func ReduceMaxCount() {
+func ReduceRealCount() {
 	GameConfig.lock.Lock()
 	defer GameConfig.lock.Unlock()
 

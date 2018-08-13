@@ -5,8 +5,6 @@ import (
 	"fmt"
 	"github.com/sencydai/gameworld/base"
 	"os"
-	"path"
-	"sync"
 	"time"
 )
 
@@ -68,6 +66,8 @@ var (
 	Errorf = Logger.Errorf
 	Fatal  = Logger.Fatal
 	Fatalf = Logger.Fatalf
+	Opt    = Logger.Opt
+	Optf   = Logger.Optf
 )
 
 var (
@@ -76,147 +76,51 @@ var (
 )
 
 type logger struct {
-	level    LogLevel
-	fileName string
-	lastTime time.Time
+	level LogLevel
 
-	file   *os.File
-	writer *bufio.Writer
-	lock   sync.Mutex
-
-	buffers      chan string
-	fatalBuffers chan string
+	print  *loggerPrint
+	record *loggerFile
+	opt    *loggerFile
+	fatal  *loggerFile
 
 	close chan bool
 }
 
-type loggerBuffer struct {
-	tm      time.Time
-	level   LogLevel
-	content string
-}
-
-func (l *logger) closed() {
-	l.lock.Lock()
-	defer l.lock.Unlock()
-	if l.writer != nil {
-		l.writer.Flush()
-		l.file.Sync()
-	}
-	l.close <- true
-}
-
-func (l *logger) flush(buffer string) {
-	l.lock.Lock()
-	defer l.lock.Unlock()
-
-	if l.writer == nil {
-		return
-	}
-
-	now := time.Now()
-	if !base.IsSameDay(l.lastTime, now) {
-		l.writer.Flush()
-		l.file.Sync()
-
-		fileName := fmt.Sprintf("%s_%s.log", l.fileName, now.Format("20060102"))
-		if file, err := os.OpenFile(fileName, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0666); err == nil {
-			l.file.Close()
-			l.lastTime, l.file, l.writer = now, file, bufio.NewWriterSize(file, defaultBufSize)
-		}
-	}
-
-	l.writer.WriteString(buffer)
-}
-
-func (l *logger) sync() {
-	l.lock.Lock()
-	defer l.lock.Unlock()
-
-	if l.writer == nil {
-		return
-	}
-
-	l.writer.Flush()
-	l.file.Sync()
-}
-
 func newLogger() *logger {
+	print := &loggerPrint{}
+	print.file, print.writer = os.Stdout, bufio.NewWriterSize(os.Stdout, defaultBufSize)
+
 	logger := &logger{
-		level:        DEBUG_N,
-		buffers:      make(chan string, 10000),
-		fatalBuffers: make(chan string, 1000),
-		close:        make(chan bool, 1),
+		level: DEBUG_N,
+		print: print,
+		close: make(chan bool, 1),
 	}
-	chError := make(chan bool, 1)
-	go func() {
-		write := os.Stdout.WriteString
-		for buffer := range logger.buffers {
-			if len(buffer) == 0 {
-				logger.fatalBuffers <- ""
-				<-chError
-				logger.closed()
-				return
-			}
-			logger.flush(buffer)
-			write(buffer)
-		}
-	}()
 
-	go func() {
-		lastTime := time.Now()
-		var file *os.File
-		for buffer := range logger.fatalBuffers {
-			if len(buffer) == 0 {
-				chError <- true
-				return
-			}
-
-			if len(logger.fileName) == 0 {
-				continue
-			}
-
-			now := time.Now()
-			if file == nil || !base.IsSameDay(lastTime, now) {
-				if file != nil {
-					file.Close()
-				}
-				
-				lastTime = now
-
-				fileName := fmt.Sprintf("%s_%s.error", logger.fileName, lastTime.Format("20060102"))
-				os.MkdirAll(path.Dir(fileName), os.ModeDir)
-				file, _ = os.OpenFile(fileName, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0666)
-			}
-
-			file.WriteString(buffer)
-			file.Sync()
-		}
-	}()
+	print.run()
 
 	return logger
 }
 
 func (l *logger) SetFileName(fileName string) error {
-	l.fileName = fileName
-	l.lastTime = time.Now()
-	fileName = fmt.Sprintf("%s_%s.log", fileName, l.lastTime.Format("20060102"))
-	os.MkdirAll(path.Dir(fileName), os.ModeDir)
-	file, err := os.OpenFile(fileName, os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0666)
-	if err != nil {
-		return err
+	l.record = &loggerFile{
+		fileName: fileName,
+		suffix:   "log",
+		lastTime: time.Now(),
+	}
+	l.opt = &loggerFile{
+		fileName: fileName,
+		suffix:   "opt",
+		lastTime: time.Now(),
+	}
+	l.fatal = &loggerFile{
+		fileName: fileName,
+		suffix:   "error",
+		lastTime: time.Now(),
 	}
 
-	l.file, l.writer = file, bufio.NewWriterSize(file, defaultBufSize)
-
-	go func() {
-		for {
-			select {
-			case <-time.After(syncPeriod):
-				l.sync()
-			}
-		}
-	}()
+	l.record.run()
+	l.opt.run()
+	l.fatal.run()
 
 	return nil
 }
@@ -231,32 +135,52 @@ func (l *logger) SetLevel(level LogLevel) bool {
 }
 
 func (l *logger) Close() {
-	l.buffers <- ""
-	<-l.close
+	l.print.close()
+
+	if l.record != nil {
+		l.record.close()
+	}
+
+	if l.fatal != nil {
+		l.fatal.close()
+	}
+
+	l.close <- true
 }
 
 func (l *logger) writeBufferf(level LogLevel, format string, data ...interface{}) {
+	now := time.Now()
+	fileLine := base.FileLine(skipLevel)
+	text := fmt.Sprintf("%s %s [%s] - %s\n", base.FormatDateTime(now), levelText[level], fileLine, fmt.Sprintf(format, data...))
+
+	l.print.flush(text)
+
 	if level >= l.level {
-		now := base.FormatDateTime(time.Now())
-		fileLine := base.FileLine(skipLevel)
-		text := fmt.Sprintf("%s %s [%s] - %s\n", now, levelText[level], fileLine, fmt.Sprintf(format, data...))
-		if level == FATAL_N {
-			l.fatalBuffers <- text
+		if l.record != nil {
+			l.record.flush(now, text)
 		}
 
-		l.buffers <- text
+		if level == FATAL_N && l.fatal != nil {
+			l.fatal.flush(now, text)
+		}
 	}
 }
 
 func (l *logger) writeBuffer(level LogLevel, data ...interface{}) {
+	now := time.Now()
+	fileLine := base.FileLine(skipLevel)
+	text := fmt.Sprintf("%s %s [%s] - %s\n", base.FormatDateTime(now), levelText[level], fileLine, fmt.Sprint(data...))
+
+	l.print.flush(text)
+	
 	if level >= l.level {
-		now := base.FormatDateTime(time.Now())
-		fileLine := base.FileLine(skipLevel)
-		text := fmt.Sprintf("%s %s [%s] - %s\n", now, levelText[level], fileLine, fmt.Sprint(data...))
-		if level == FATAL_N {
-			l.fatalBuffers <- text
+		if l.record != nil {
+			l.record.flush(now, text)
 		}
-		l.buffers <- text
+
+		if level == FATAL_N && l.fatal != nil {
+			l.fatal.flush(now, text)
+		}
 	}
 }
 
@@ -298,4 +222,18 @@ func (l *logger) Fatal(data ...interface{}) {
 
 func (l *logger) Fatalf(format string, data ...interface{}) {
 	l.writeBufferf(FATAL_N, format, data...)
+}
+
+func (l *logger) Opt(data ...interface{}) {
+	if l.opt != nil {
+		now := time.Now()
+		l.opt.flush(now, fmt.Sprintf("%s - %s\n", base.FormatDateTime(now), fmt.Sprint(data...)))
+	}
+}
+
+func (l *logger) Optf(format string, data ...interface{}) {
+	if l.opt != nil {
+		now := time.Now()
+		l.opt.flush(now, fmt.Sprintf("%s - %s\n", base.FormatDateTime(now), fmt.Sprintf(format, data...)))
+	}
 }

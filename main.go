@@ -48,6 +48,7 @@ import (
 func init() {
 	service.RegGm("reload", onReLoadConfig)
 	service.RegGm("maxaccount", onSetMaxAccount)
+	service.RegGm("realaccount", onSetRealAccount)
 	service.RegGameStart(onGameStart)
 }
 
@@ -80,7 +81,7 @@ func monitorMaxAccountCount() {
 						g.AddMaxCount()
 					}
 				} else if delay > max {
-					g.SetRealCount(uint(data.GetOnlineCount() - 5))
+					g.ReduceRealCount()
 				}
 			}
 		}
@@ -237,4 +238,11 @@ func onSetMaxAccount(values map[string]string) (int, string) {
 	g.SetMaxCount(uint(count))
 
 	return 0, fmt.Sprintf("max account %d", g.GetMaxCount())
+}
+
+func onSetRealAccount(values map[string]string) (int, string) {
+	count, _ := strconv.Atoi(values["count"])
+	g.SetRealCount(uint(count))
+
+	return 0, fmt.Sprintf("real account %d", g.GetRealCount())
 }

@@ -171,14 +171,7 @@ func packActorData(writer *bytes.Buffer, aid int64, aName string) {
 		actor.Level,
 		0,
 		float64(actor.Power),
-		int16(c.LEPMax),
 	)
-
-	equipData := actor.GetLordEquipData()
-	for i := 1; i <= c.LEPMax; i++ {
-		equip := equipData.Equips[i]
-		pack.Write(writer, equip.Id)
-	}
 
 	heros := actor.GetFightHeros()
 	pack.Write(writer, int16(len(heros)))

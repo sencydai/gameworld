@@ -89,7 +89,7 @@ func onGameStart() {
 
 	timer.Loop(nil, "clearactorcache", cacheTimeout, cacheTimeout, -1, clearTimeoutActorCache)
 	data := t.GetSysCommonData()
-	timer.LoopDayMoment("newday", base.Unix(data.NewDay), 0, 0, 10, onNewDay)
+	timer.LoopDayMoment("newday", base.Unix(data.NewDay), 0, 0, 0, onNewDay)
 
 	service.RegGm("flush", func(map[string]string) (int, string) {
 		saveData()
@@ -100,12 +100,23 @@ func onGameStart() {
 		onNewDay()
 		return 0, "success"
 	})
+
+	_, min, sec := time.Now().Clock()
+	min = min % 10
+	timer.After(nil, "statOnlineActors", time.Second*time.Duration(600-min*60-sec), onStatOnlineActors)
+}
+
+func onStatOnlineActors() {
+	log.Optf("online actors: %d", len(onlineActors))
+
+	_, min, sec := time.Now().Clock()
+	min = min % 10
+	timer.After(nil, "statOnlineActors", time.Second*time.Duration(600-min*60-sec), onStatOnlineActors)
 }
 
 func onSystemTimeChange() {
-	timer.StopTimer(nil, "newday")
 	data := t.GetSysCommonData()
-	timer.LoopDayMoment("newday", base.Unix(data.NewDay), 0, 0, 10, onNewDay)
+	timer.LoopDayMoment("newday", base.Unix(data.NewDay), 0, 0, 0, onNewDay)
 }
 
 func onNewDay() {

@@ -336,8 +336,9 @@ func OnGameClose() {
 
 func onGetActorCount(map[string]string) (int, string) {
 	return 0, fmt.Sprintf(
-		"max: %d, account: %d, online: %d, offline: %d, engineBuff: %d",
+		"max: %d, real: %d, account: %d, online: %d, offline: %d, engineBuff: %d",
 		g.GetMaxCount(),
+		g.GetRealCount(),
 		data.GetAccountCount(),
 		data.GetOnlineCount(),
 		data.GetCacheCount(),
