@@ -24,17 +24,16 @@ type Account struct {
 	closed  bool
 	closeMu sync.RWMutex
 
-	writer map[int][]byte
-	start  int
-	end    int
-	wLock  sync.Mutex
+	datas [][]byte
+	start int
+	end   int
+	wLock sync.Mutex
 }
 
 func NewAccount(conn *websocket.Conn) *Account {
-	account := &Account{conn: conn, writer: make(map[int][]byte)}
+	account := &Account{conn: conn, datas: make([][]byte, 0)}
 	go func() {
 		write := account.conn.WriteMessage
-		datas := account.writer
 		bm := websocket.BinaryMessage
 		loopTime := time.Millisecond * 25
 		timeout := time.Millisecond
@@ -46,18 +45,23 @@ func NewAccount(conn *websocket.Conn) *Account {
 				}
 
 				account.wLock.Lock()
+				if len(account.datas) == 0 {
+					account.wLock.Unlock()
+					break
+				}
 
 				tick := time.Now()
-				for account.start < account.end {
-					if write(bm, datas[account.start]) != nil {
+				var index int
+				for _, data := range account.datas {
+					if write(bm, data) != nil {
 						break
 					}
-					delete(datas, account.start)
-					account.start++
+					index++
 					if time.Since(tick) > timeout {
 						break
 					}
 				}
+				account.datas = account.datas[index:]
 
 				account.wLock.Unlock()
 			}
@@ -89,6 +93,5 @@ func (account *Account) Reply(data []byte) {
 	account.wLock.Lock()
 	defer account.wLock.Unlock()
 
-	account.writer[account.end] = data
-	account.end++
+	account.datas = append(account.datas, data)
 }
