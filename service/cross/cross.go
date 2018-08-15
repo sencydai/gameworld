@@ -19,7 +19,7 @@ var (
 )
 
 func init() {
-	service.RegGameStart(onGameStart)
+	//service.RegGameStart(onGameStart)
 }
 
 func onDisconnect(*nats.Conn) {
