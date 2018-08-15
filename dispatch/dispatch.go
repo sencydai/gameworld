@@ -45,9 +45,8 @@ type message struct {
 }
 
 var (
-	systemId       = proto.System
-	messages       chan *message
-	clientMessages chan *message
+	systemId = proto.System
+	messages chan *message
 
 	accountMsgs     = make(map[byte]accountMsgHandler)
 	actorMsgs       = make(map[int]actorMsgHandler)
@@ -61,7 +60,6 @@ var (
 
 func InitData(maxActorCount uint) {
 	messages = make(chan *message, maxActorCount*10)
-	clientMessages = make(chan *message, maxActorCount*5)
 }
 
 //RegAccountMsgHandle 注册客户端消息处理函数
@@ -81,7 +79,7 @@ func RegCrossMsg(msgId int, handle func(int, *bytes.Reader)) {
 func PushClientMsg(account *t.Account, sysId, cmdId byte, reader *bytes.Reader) {
 	if sysId == systemId {
 		if _, ok := accountMsgs[cmdId]; ok && account.Actor == nil {
-			writerClientMsg(account, &message{mtType: mtClientAccount, cbArgs: []interface{}{account, cmdId, reader}})
+			writerClientMsg(account, &message{mtType: mtClientAccount, cbArgs: []interface{}{account, cmdId, reader, time.Now()}})
 		}
 	} else {
 		actor := account.Actor
@@ -90,13 +88,14 @@ func PushClientMsg(account *t.Account, sysId, cmdId byte, reader *bytes.Reader) 
 		}
 		cmd := (int(sysId) << 16) + int(cmdId)
 		if _, ok := actorMsgs[cmd]; ok {
-			writerClientMsg(account, &message{mtType: mtClientActor, cbArgs: []interface{}{cmd, reader}, actor: actor})
+			writerClientMsg(account, &message{mtType: mtClientActor, cbArgs: []interface{}{cmd, reader, time.Now()}, actor: actor})
 		}
 	}
 }
 
 func writerClientMsg(account *t.Account, msg *message) {
-	clientMessages <- msg
+	messages <- msg
+	time.Sleep(time.Millisecond * 100)
 }
 
 func PushActorMsg(actor *t.Actor, handler interface{}, args ...interface{}) {
@@ -272,38 +271,6 @@ func OnRun() {
 				break
 			}
 			dispatch(msg)
-		}
-	}()
-
-	go func() {
-		waiting := time.Microsecond * 250
-		for msg := range clientMessages {
-			if g.IsGameClose() {
-				break
-			}
-			args := msg.cbArgs.([]interface{})
-			var account *t.Account
-			if msg.actor == nil {
-				account = args[0].(*t.Account)
-				if account.IsClose() {
-					continue
-				}
-			} else {
-				account = msg.actor.Account
-				if account == nil || account.IsClose() {
-					continue
-				}
-			}
-
-			msg.cbArgs = append(args, time.Now())
-			select {
-			case messages <- msg:
-				time.Sleep(waiting)
-			case <-time.After(clientTimeout):
-				g.ReduceRealCount()
-				account.Close()
-				log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
-			}
 		}
 	}()
 }

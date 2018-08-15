@@ -63,6 +63,7 @@
 		["FightSkipConfig",1],
 		["WorldBossBaseConfig",0],
 		["WorldBossConfig",1],
-		["WorldBossRankConfig",2]
+		["WorldBossRankConfig",2],
+		["AreaBaseConfig",0]
 	]
 }

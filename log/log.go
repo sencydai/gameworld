@@ -68,6 +68,7 @@ var (
 	Fatalf = Logger.Fatalf
 	Opt    = Logger.Opt
 	Optf   = Logger.Optf
+	Chat   = Logger.Chat
 )
 
 var (
@@ -78,12 +79,12 @@ var (
 type logger struct {
 	level LogLevel
 
-	print  *loggerPrint
+	print *loggerPrint
+
 	record *loggerFile
 	opt    *loggerFile
 	fatal  *loggerFile
-
-	close chan bool
+	chat   *loggerFile
 }
 
 func newLogger() *logger {
@@ -93,7 +94,6 @@ func newLogger() *logger {
 	logger := &logger{
 		level: DEBUG_N,
 		print: print,
-		close: make(chan bool, 1),
 	}
 
 	print.run()
@@ -118,9 +118,16 @@ func (l *logger) SetFileName(fileName string) error {
 		lastTime: time.Now(),
 	}
 
+	l.chat = &loggerFile{
+		fileName: fileName,
+		suffix:   "chat",
+		lastTime: time.Now(),
+	}
+
 	l.record.run()
 	l.opt.run()
 	l.fatal.run()
+	l.chat.run()
 
 	return nil
 }
@@ -145,7 +152,13 @@ func (l *logger) Close() {
 		l.fatal.close()
 	}
 
-	l.close <- true
+	if l.opt != nil {
+		l.opt.close()
+	}
+
+	if l.chat != nil {
+		l.chat.close()
+	}
 }
 
 func (l *logger) writeBufferf(level LogLevel, format string, data ...interface{}) {
@@ -172,7 +185,7 @@ func (l *logger) writeBuffer(level LogLevel, data ...interface{}) {
 	text := fmt.Sprintf("%s %s [%s] - %s\n", base.FormatDateTime(now), levelText[level], fileLine, fmt.Sprint(data...))
 
 	l.print.flush(text)
-	
+
 	if level >= l.level {
 		if l.record != nil {
 			l.record.flush(now, text)
@@ -235,5 +248,12 @@ func (l *logger) Optf(format string, data ...interface{}) {
 	if l.opt != nil {
 		now := time.Now()
 		l.opt.flush(now, fmt.Sprintf("%s - %s\n", base.FormatDateTime(now), fmt.Sprintf(format, data...)))
+	}
+}
+
+func (l *logger) Chat(fromId int64, fromName string, toId int64, toName string, content string) {
+	if l.chat != nil {
+		now := time.Now()
+		l.chat.flush(now, fmt.Sprintf("%s (%d,%s)->(%d,%s) %s\n",base.FormatDateTime(now), fromId, fromName, toId, toName, content))
 	}
 }

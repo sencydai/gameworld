@@ -25,8 +25,6 @@ type Account struct {
 	closeMu sync.RWMutex
 
 	datas [][]byte
-	start int
-	end   int
 	wLock sync.Mutex
 }
 
@@ -35,7 +33,7 @@ func NewAccount(conn *websocket.Conn) *Account {
 	go func() {
 		write := account.conn.WriteMessage
 		bm := websocket.BinaryMessage
-		loopTime := time.Millisecond * 25
+		loopTime := time.Millisecond * 10
 		timeout := time.Millisecond
 		for {
 			select {
@@ -45,6 +43,7 @@ func NewAccount(conn *websocket.Conn) *Account {
 				}
 
 				account.wLock.Lock()
+
 				if len(account.datas) == 0 {
 					account.wLock.Unlock()
 					break

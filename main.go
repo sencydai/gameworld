@@ -62,7 +62,6 @@ func monitorMaxAccountCount() {
 	go func() {
 		loop := time.Second * 5
 		min := time.Microsecond * 200
-		max := time.Millisecond * 100
 		chSync := make(chan bool, 1)
 		for {
 			select {
@@ -80,8 +79,6 @@ func monitorMaxAccountCount() {
 					if count >= g.GetMaxCount() {
 						g.AddMaxCount()
 					}
-				} else if delay > max {
-					g.ReduceRealCount()
 				}
 			}
 		}

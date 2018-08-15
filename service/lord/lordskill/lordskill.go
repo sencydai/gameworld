@@ -158,12 +158,12 @@ func onExchangePos(actor *t.Actor, reader *bytes.Reader) {
 		pos2 int
 	)
 	pack.Read(reader, &pos1, &pos2)
-	if pos1 == pos2 || pos1 < 1 || pos2 < 2 || pos1 > len(g.GLordSkillCostConfig) || pos2 > len(g.GLordSkillCostConfig) {
+	if pos1 == pos2 || pos1 < 1 || pos2 < 1 || pos1 > len(g.GLordSkillCostConfig) || pos2 > len(g.GLordSkillCostConfig) {
 		return
 	}
 	skillData := actor.GetLordSkillData()
 	skill1, skill2 := skillData[pos1], skillData[pos2]
-	if skill1 == nil && skill2 == nil {
+	if skill1 == nil || skill2 == nil {
 		return
 	}
 

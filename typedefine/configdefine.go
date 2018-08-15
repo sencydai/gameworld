@@ -513,3 +513,11 @@ type WorldBossRankConfig struct {
 	Upper  int
 	Awards map[int]Award
 }
+
+type AreaBaseConfig struct {
+	Period         int
+	Count          int
+	ClickAwardId   int
+	ClickRefresh   map[int]int
+	ClickDisappear int
+}

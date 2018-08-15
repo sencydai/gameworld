@@ -112,6 +112,7 @@ func onSendChat(actor *t.Actor, reader *bytes.Reader) {
 	)
 
 	data.BroadcastWriter(writer)
+	log.Chat(actor.ActorId, actor.ActorName, int64(channel), "world", content)
 	//log.Infof("actor(%d),cost(%v) chat: %s", actor.ActorId, time.Since(tick), content)
 }
 
