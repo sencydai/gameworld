@@ -8,7 +8,7 @@ import (
 	"github.com/nats-io/go-nats"
 	"github.com/sencydai/gameworld/dispatch"
 	g "github.com/sencydai/gameworld/gconfig"
-	"github.com/sencydai/gameworld/service"
+	//"github.com/sencydai/gameworld/service"
 
 	"github.com/sencydai/gameworld/log"
 	"github.com/sencydai/gameworld/proto/pack"
