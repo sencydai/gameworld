@@ -116,13 +116,19 @@ func handleConnection(w http.ResponseWriter, r *http.Request) {
 	)
 	headSize := pack.HEAD_SIZE
 	defTag := pack.DEFAULT_TAG
+	buff := make([]byte, 0)
+	reader := bytes.NewReader(buff)
 	for {
 		_, data, err := conn.ReadMessage()
-		if err != nil || g.IsGameClose() || len(data) < headSize {
+		if err != nil || g.IsGameClose() {
 			break
 		}
+		buff = append(buff, data...)
+		if len(buff) < headSize {
+			continue
+		}
 
-		reader := bytes.NewReader(data)
+		reader.Reset(buff)
 		pack.Read(reader, &tag)
 		if tag != defTag {
 			break
@@ -131,10 +137,11 @@ func handleConnection(w http.ResponseWriter, r *http.Request) {
 		if dataLen < 2 {
 			break
 		}
-		data = data[headSize:]
-		if dataLen != len(data) {
-			break
+		data = buff[headSize : headSize+dataLen]
+		if len(data) < dataLen {
+			continue
 		}
+		buff = buff[headSize+dataLen:]
 		reader.Reset(data)
 		pack.Read(reader, &pid, &sysId, &cmdId)
 		dispatch.PushClientMsg(account, sysId, cmdId, reader)
