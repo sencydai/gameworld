@@ -37,7 +37,7 @@ gitPull() {
 }
 
 goBuild() {
-    buildResult=`go build -o "${targetDir}/${targetFile}" "$baseProjectDir" 2>&1`
+    buildResult=`go build -o "${targetDir}/${targetFile}" "$buildPkg" 2>&1`
 
     if [ -z "$buildResult" ]; then
       buildResult="success"
