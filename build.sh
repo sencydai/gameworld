@@ -4,7 +4,7 @@
 baseProjectDir="/usr/local/gopath/src/github.com/sencydai/gameworld"
 
 # targetDir 编译后的二进制文件目录
-targetDir="/data/server/h5cool/master"
+targetDir="/data/server/gameworld/master"
 
 # branch 编译的分支
 branch="master"
@@ -18,13 +18,6 @@ buildPkg="github.com/sencydai/gameworld"
 
 # buildResult 编译结果
 buildResult=""
-
-if [ -n "$1" ]; then
-  branch="$1"
-  echo "Switch branch to ${branch}"
-else
-  echo "Building Branch: ${branch}"
-fi
 
 gitPull() {
   pushd .
