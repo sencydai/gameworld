@@ -14,7 +14,7 @@ pwd=`pwd`
 targetFile=`basename $pwd`
 
 # buildPkg 编译的包名，main.go 所在的包
-buildPkg="gameworld"
+buildPkg="github.com/sencydai/gameworld"
 
 # buildResult 编译结果
 buildResult=""
