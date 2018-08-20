@@ -3,15 +3,13 @@
 # 项目地址，/go 在 GOPATH 里面
 baseProjectDir="/usr/local/gopath/src/github.com/sencydai/gameworld"
 
-# targetDir 编译后的二进制文件目录
-targetDir="/data/server/gameworld/master"
+pwd=`pwd`
+
+# targetFile 编译后的二进制文件
+targetFile="${pwd}/gameworld-new"
 
 # branch 编译的分支
 branch="master"
-
-pwd=`pwd`
-# targetFile 编译后的输出文件名称
-targetFile=`basename $pwd`
 
 # buildPkg 编译的包名，main.go 所在的包
 buildPkg="github.com/sencydai/gameworld"
@@ -30,7 +28,7 @@ gitPull() {
 }
 
 goBuild() {
-    buildResult=`go build -o "${targetDir}/${targetFile}-new" "$buildPkg" 2>&1`
+    buildResult=`go build -o "$targetFile" "$buildPkg" 2>&1`
 
     if [ -z "$buildResult" ]; then
       buildResult="success"
@@ -41,7 +39,7 @@ gitPull
 goBuild
 
 if [ "$buildResult" = "success" ]; then
-  chmod +x ${targetDir}/${targetFile}-new
+  chmod +x $targetFile
 else
   echo "build error $buildResult"
   exit
