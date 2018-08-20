@@ -4,7 +4,7 @@
 baseProjectDir="/usr/local/gopath/src/github.com/sencydai/gameworld"
 
 # targetDir 编译后的二进制文件目录
-targetDir="bin"
+targetDir="/data/server/h5cool/master"
 
 # branch 编译的分支
 branch="master"
@@ -37,7 +37,7 @@ gitPull() {
 }
 
 goBuild() {
-    buildResult=`go build -o "${targetDir}/${targetFile}" "$buildPkg" 2>&1`
+    buildResult=`go build -o "${targetDir}/${targetFile}" "$baseProjectDir" 2>&1`
 
     if [ -z "$buildResult" ]; then
       buildResult="success"
