@@ -1,7 +1,6 @@
 #!/bin/bash
 pwd=`pwd`
 name=`pwd`/gameworld
-pid=`ps aux |grep $name|grep -v grep|grep -v "/bin/bash"`
-echo "pid=${pid}"
+kill -2 `ps axu | grep $name |grep -v grep| awk '{print $2}'
 
 echo "kill "$name""
