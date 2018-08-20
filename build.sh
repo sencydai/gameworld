@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 项目地址，/go 在 GOPATH 里面
-baseProjectDir="/usr/local/gopath/src/github.com/sencydai/h5cool"
+baseProjectDir="/usr/local/gopath/src/github.com/sencydai/gameworld"
 
 # targetDir 编译后的二进制文件目录
 targetDir="bin"
@@ -14,7 +14,7 @@ pwd=`pwd`
 targetFile=`basename $pwd`
 
 # buildPkg 编译的包名，main.go 所在的包
-buildPkg="h5cool"
+buildPkg="gameworld"
 
 # buildResult 编译结果
 buildResult=""
