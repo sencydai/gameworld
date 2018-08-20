@@ -13,4 +13,4 @@ if [-n "$pid"];then
   done
 fi
 
-echo "kill "$name"
+echo "kill "$name""
