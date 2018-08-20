@@ -127,6 +127,10 @@ func main() {
 	//pprof.StartCPUProfile(file)
 	//defer pprof.StopCPUProfile()
 
+	if err := os.MkdirAll(g.GameConfig.LogPath, 0777); err != nil {
+		fmt.Printf("create log dir error: %s\n", err.Error())
+		return
+	}
 	if err := log.SetFileName(fmt.Sprintf("%s/server_%d", g.GameConfig.LogPath, g.GameConfig.ServerId)); err != nil {
 		fmt.Printf("create log file error: %s\n", err.Error())
 		return
