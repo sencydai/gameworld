@@ -137,11 +137,12 @@ func handleConnection(w http.ResponseWriter, r *http.Request) {
 		if dataLen < 2 {
 			break
 		}
-		data = buff[headSize : headSize+dataLen]
-		if len(data) < dataLen {
+		size := headSize + dataLen
+		if len(buff) < size {
 			continue
 		}
-		buff = buff[headSize+dataLen:]
+		data = buff[headSize:size]
+		buff = buff[size:]
 		reader.Reset(data)
 		pack.Read(reader, &pid, &sysId, &cmdId)
 		dispatch.PushClientMsg(account, sysId, cmdId, reader)

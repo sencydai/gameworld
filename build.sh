@@ -30,7 +30,7 @@ gitPull() {
 }
 
 goBuild() {
-    buildResult=`go build -o "${targetDir}/${targetFile}" "$buildPkg" 2>&1`
+    buildResult=`go build -o "${targetDir}/${targetFile}-new" "$buildPkg" 2>&1`
 
     if [ -z "$buildResult" ]; then
       buildResult="success"
@@ -41,8 +41,7 @@ gitPull
 goBuild
 
 if [ "$buildResult" = "success" ]; then
-  cp ${targetDir}/${targetFile} ${targetFile}-new
-  chmod +x ${targetFile}-new
+  chmod +x ${targetDir}/${targetFile}-new
 else
   echo "build error $buildResult"
   exit
