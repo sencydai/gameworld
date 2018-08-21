@@ -20,7 +20,7 @@ type actorMsgHandler func(actor *t.Actor, reader *bytes.Reader)
 
 type crossMsgHandler func(serverId int, reader *bytes.Reader)
 
-type messageType byte
+type messageType = byte
 
 const (
 	mtClientAccount messageType = 1  //客户端账号消息
@@ -33,20 +33,11 @@ const (
 	mtTimerSystemGo messageType = 8  //系统定时器go消息
 	mtTimerActor    messageType = 9  //玩家定时器消息
 	mtTimerActorGo  messageType = 10 //玩家定时器go消息
-
-	clientTimeout = time.Second * 5
 )
-
-type message struct {
-	mtType messageType
-	cbFunc interface{}
-	cbArgs interface{}
-	actor  *t.Actor
-}
 
 var (
 	systemId = proto.System
-	messages chan *message
+	messages chan *t.Message
 
 	accountMsgs     = make(map[byte]accountMsgHandler)
 	actorMsgs       = make(map[int]actorMsgHandler)
@@ -59,7 +50,7 @@ var (
 )
 
 func InitData(maxActorCount uint) {
-	messages = make(chan *message, maxActorCount*10)
+	messages = make(chan *t.Message, maxActorCount*10)
 }
 
 //RegAccountMsgHandle 注册客户端消息处理函数
@@ -79,7 +70,11 @@ func RegCrossMsg(msgId int, handle func(int, *bytes.Reader)) {
 func PushClientMsg(account *t.Account, sysId, cmdId byte, reader *bytes.Reader) {
 	if sysId == systemId {
 		if _, ok := accountMsgs[cmdId]; ok && account.Actor == nil {
-			writerClientMsg(account, &message{mtType: mtClientAccount, cbArgs: []interface{}{account, cmdId, reader}})
+			msg := account.Msg
+			msg.MtType = mtClientAccount
+			args := msg.CBArgs.([]interface{})
+			args[1] = cmdId
+			writerClientMsg(account)
 		}
 	} else {
 		if account.Actor == nil {
@@ -87,7 +82,11 @@ func PushClientMsg(account *t.Account, sysId, cmdId byte, reader *bytes.Reader) 
 		}
 		cmd := (int(sysId) << 16) + int(cmdId)
 		if _, ok := actorMsgs[cmd]; ok {
-			writerClientMsg(account, &message{mtType: mtClientActor, cbArgs: []interface{}{account, cmd, reader}})
+			msg := account.Msg
+			msg.MtType = mtClientActor
+			args := msg.CBArgs.([]interface{})
+			args[1] = cmd
+			writerClientMsg(account)
 		}
 	}
 }
@@ -97,9 +96,9 @@ const (
 	msgHandleTimeout = time.Second * 5
 )
 
-func writerClientMsg(account *t.Account, msg *message) {
+func writerClientMsg(account *t.Account) {
 	tick := time.Now()
-	messages <- msg
+	messages <- account.Msg
 	if time.Since(tick) > msgTimeout {
 		account.Close()
 		log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
@@ -118,12 +117,12 @@ func writerClientMsg(account *t.Account, msg *message) {
 
 func PushActorMsg(actor *t.Actor, handler interface{}, args ...interface{}) {
 	cb, values := base.ReflectFunc(handler, args)
-	messages <- &message{mtType: mtActor, cbFunc: cb, cbArgs: values, actor: actor}
+	messages <- &t.Message{MtType: mtActor, CBFunc: cb, CBArgs: values, Actor: actor}
 }
 
 func PushSystemMsg(handler interface{}, args ...interface{}) {
 	cb, values := base.ReflectFunc(handler, args)
-	messages <- &message{mtType: mtSystem, cbFunc: cb, cbArgs: values}
+	messages <- &t.Message{MtType: mtSystem, CBFunc: cb, CBArgs: values}
 }
 
 func PushSystemAsynMsg(cbFunc interface{}, asynFunc interface{}, asynArgs ...interface{}) {
@@ -134,7 +133,7 @@ func PushSystemAsynMsg(cbFunc interface{}, asynFunc interface{}, asynArgs ...int
 			}
 		}()
 		asynCb, values := base.ReflectFunc(asynFunc, asynArgs)
-		messages <- &message{mtType: mtSystemAsynCB, cbFunc: reflect.ValueOf(cbFunc), cbArgs: asynCb.Call(values)}
+		messages <- &t.Message{MtType: mtSystemAsynCB, CBFunc: reflect.ValueOf(cbFunc), CBArgs: asynCb.Call(values)}
 	}()
 }
 
@@ -142,26 +141,26 @@ func PushCrossMsg(serverId, msgId int, reader *bytes.Reader) {
 	if _, ok := crossMsgHandles[msgId]; !ok {
 		return
 	}
-	messages <- &message{mtType: mtCrossMsg, cbArgs: []interface{}{serverId, msgId, reader}}
+	messages <- &t.Message{MtType: mtCrossMsg, CBArgs: []interface{}{serverId, msgId, reader}}
 }
 
 func PushTimerSysMsg(args ...interface{}) {
-	messages <- &message{mtType: mtTimerSystem, cbArgs: args}
+	messages <- &t.Message{MtType: mtTimerSystem, CBArgs: args}
 }
 
 func PushTimerSysGoMsg(args ...interface{}) {
-	messages <- &message{mtType: mtTimerSystemGo, cbArgs: args}
+	messages <- &t.Message{MtType: mtTimerSystemGo, CBArgs: args}
 }
 
 func PushTimerActorMsg(actor *t.Actor, args ...interface{}) {
-	messages <- &message{mtType: mtTimerActor, cbArgs: args, actor: actor}
+	messages <- &t.Message{MtType: mtTimerActor, CBArgs: args, Actor: actor}
 }
 
 func PushTimerActorGoMsg(actor *t.Actor, args ...interface{}) {
-	messages <- &message{mtType: mtTimerActorGo, cbArgs: args, actor: actor}
+	messages <- &t.Message{MtType: mtTimerActorGo, CBArgs: args, Actor: actor}
 }
 
-func dispatch(msg *message) {
+func dispatch(msg *t.Message) {
 	var msgCh chan bool
 	defer func() {
 		if msgCh != nil {
@@ -177,9 +176,9 @@ func dispatch(msg *message) {
 		}
 	}()
 
-	switch msg.mtType {
+	switch msg.MtType {
 	case mtClientAccount:
-		args := msg.cbArgs.([]interface{})
+		args := msg.CBArgs.([]interface{})
 		account := args[0].(*t.Account)
 		msgCh = account.GetCmdCh()
 		if account.IsClose() {
@@ -189,7 +188,7 @@ func dispatch(msg *message) {
 		reader := args[2].(*bytes.Reader)
 		accountMsgs[cmdId](account, reader)
 	case mtClientActor:
-		args := msg.cbArgs.([]interface{})
+		args := msg.CBArgs.([]interface{})
 		account := args[0].(*t.Account)
 		msgCh = account.GetCmdCh()
 		actor := account.Actor
@@ -200,13 +199,13 @@ func dispatch(msg *message) {
 		reader := args[2].(*bytes.Reader)
 		actorMsgs[cmd](actor, reader)
 	case mtActor:
-		actor := msg.actor
+		actor := msg.Actor
 		account := actor.Account
 		if account == nil || account.IsClose() {
 			return
 		}
-		cb := msg.cbFunc.(reflect.Value)
-		args := msg.cbArgs.([]reflect.Value)
+		cb := msg.CBFunc.(reflect.Value)
+		args := msg.CBArgs.([]reflect.Value)
 		v := reflect.ValueOf(actor)
 		if len(args) == 0 {
 			args = []reflect.Value{v}
@@ -215,21 +214,21 @@ func dispatch(msg *message) {
 		}
 		cb.Call(args)
 	case mtSystem:
-		cb := msg.cbFunc.(reflect.Value)
-		args := msg.cbArgs.([]reflect.Value)
+		cb := msg.CBFunc.(reflect.Value)
+		args := msg.CBArgs.([]reflect.Value)
 		cb.Call(args)
 	case mtSystemAsynCB:
-		cb := msg.cbFunc.(reflect.Value)
-		values := msg.cbArgs.([]reflect.Value)
+		cb := msg.CBFunc.(reflect.Value)
+		values := msg.CBArgs.([]reflect.Value)
 		cb.Call(values)
 	case mtCrossMsg:
-		args := msg.cbArgs.([]interface{})
+		args := msg.CBArgs.([]interface{})
 		serverId := args[0].(int)
 		msgId := args[1].(int)
 		reader := args[2].(*bytes.Reader)
 		crossMsgHandles[msgId](serverId, reader)
 	case mtTimerSystem:
-		args := msg.cbArgs.([]interface{})
+		args := msg.CBArgs.([]interface{})
 		name := args[0].(string)
 		t := args[1].(*time.Timer)
 		stop := args[2].(bool)
@@ -237,7 +236,7 @@ func dispatch(msg *message) {
 		values := args[4].([]reflect.Value)
 		TriggerSystemMsg(name, t, stop, cb, values)
 	case mtTimerSystemGo:
-		args := msg.cbArgs.([]interface{})
+		args := msg.CBArgs.([]interface{})
 		name := args[0].(string)
 		t := args[1].(*time.Timer)
 		stop := args[2].(bool)
@@ -245,12 +244,12 @@ func dispatch(msg *message) {
 		values := args[4].([]reflect.Value)
 		TriggerSystemMsgGo(name, t, stop, cb, values)
 	case mtTimerActor:
-		actor := msg.actor
+		actor := msg.Actor
 		account := actor.Account
 		if account == nil || account.IsClose() {
 			return
 		}
-		args := msg.cbArgs.([]interface{})
+		args := msg.CBArgs.([]interface{})
 		name := args[0].(string)
 		t := args[1].(*time.Timer)
 		stop := args[2].(bool)
@@ -258,12 +257,12 @@ func dispatch(msg *message) {
 		values := args[4].([]reflect.Value)
 		TriggerActorMsg(actor, name, t, stop, cb, values)
 	case mtTimerActorGo:
-		actor := msg.actor
+		actor := msg.Actor
 		account := actor.Account
 		if account == nil || account.IsClose() {
 			return
 		}
-		args := msg.cbArgs.([]interface{})
+		args := msg.CBArgs.([]interface{})
 		name := args[0].(string)
 		t := args[1].(*time.Timer)
 		stop := args[2].(bool)

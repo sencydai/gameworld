@@ -91,7 +91,19 @@ func handleConnection(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	account := t.NewAccount(conn)
+	var (
+		tag     int
+		dataLen int
+
+		pid   uint32
+		sysId byte
+		cmdId byte
+	)
+	headSize := pack.HEAD_SIZE
+	defTag := pack.DEFAULT_TAG
+	buff := make([]byte, 0)
+	reader := bytes.NewReader(buff)
+	account := t.NewAccount(conn,reader)
 
 	defer func() {
 		if err := recover(); err != nil {
@@ -107,18 +119,6 @@ func handleConnection(w http.ResponseWriter, r *http.Request) {
 		dispatch.PushSystemMsg(actormgr.OnAccountLogout, account)
 	}()
 
-	var (
-		tag     int
-		dataLen int
-
-		pid   uint32
-		sysId byte
-		cmdId byte
-	)
-	headSize := pack.HEAD_SIZE
-	defTag := pack.DEFAULT_TAG
-	buff := make([]byte, 0)
-	reader := bytes.NewReader(buff)
 	for {
 		_, data, err := conn.ReadMessage()
 		if err != nil || g.IsGameClose() {

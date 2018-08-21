@@ -1,6 +1,7 @@
 package typedefine
 
 import (
+	"bytes"
 	"sync"
 	"time"
 
@@ -15,10 +16,19 @@ type AccountActor struct {
 	Level     int
 }
 
+type Message struct {
+	MtType byte
+	CBFunc interface{}
+	CBArgs interface{}
+	Actor  *Actor
+}
+
 type Account struct {
 	AccountId int
 	Actor     *Actor
 	GmLevel   byte
+
+	Msg *Message
 
 	cmdCh chan bool
 
@@ -30,8 +40,15 @@ type Account struct {
 	wLock sync.Mutex
 }
 
-func NewAccount(conn *websocket.Conn) *Account {
-	account := &Account{conn: conn, cmdCh: make(chan bool, 1), datas: make([][]byte, 0)}
+func NewAccount(conn *websocket.Conn, reader *bytes.Reader) *Account {
+	args := make([]interface{}, 3)
+	account := &Account{
+		conn:  conn,
+		Msg:   &Message{CBArgs: args},
+		cmdCh: make(chan bool, 1),
+		datas: make([][]byte, 0),
+	}
+	args[0],args[2] = account,reader
 	go func() {
 		write := account.conn.WriteMessage
 		bm := websocket.BinaryMessage
