@@ -20,6 +20,8 @@ type Account struct {
 	Actor     *Actor
 	GmLevel   byte
 
+	cmdCh chan bool
+
 	conn    *websocket.Conn
 	closed  bool
 	closeMu sync.RWMutex
@@ -29,7 +31,7 @@ type Account struct {
 }
 
 func NewAccount(conn *websocket.Conn) *Account {
-	account := &Account{conn: conn, datas: make([][]byte, 0)}
+	account := &Account{conn: conn, cmdCh: make(chan bool, 1), datas: make([][]byte, 0)}
 	go func() {
 		write := account.conn.WriteMessage
 		bm := websocket.BinaryMessage
@@ -68,6 +70,14 @@ func NewAccount(conn *websocket.Conn) *Account {
 	}()
 
 	return account
+}
+
+func (account *Account) GetCmdCh() chan bool {
+	return account.cmdCh
+}
+
+func (account *Account) SetCmdCh() {
+	account.cmdCh <- true
 }
 
 func (account *Account) Close() {

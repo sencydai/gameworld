@@ -95,6 +95,7 @@ func handleConnection(w http.ResponseWriter, r *http.Request) {
 
 	defer func() {
 		if err := recover(); err != nil {
+			log.Error(err)
 		}
 
 		subConnCount()

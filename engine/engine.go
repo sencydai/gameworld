@@ -60,6 +60,8 @@ func InitEngine() {
 		panic(err)
 	}
 
+	engine.SetConnMaxLifetime(0)
+
 	go func() {
 		for {
 			select {

@@ -79,23 +79,41 @@ func RegCrossMsg(msgId int, handle func(int, *bytes.Reader)) {
 func PushClientMsg(account *t.Account, sysId, cmdId byte, reader *bytes.Reader) {
 	if sysId == systemId {
 		if _, ok := accountMsgs[cmdId]; ok && account.Actor == nil {
-			writerClientMsg(account, &message{mtType: mtClientAccount, cbArgs: []interface{}{account, cmdId, reader, time.Now()}})
+			writerClientMsg(account, &message{mtType: mtClientAccount, cbArgs: []interface{}{account, cmdId, reader}})
 		}
 	} else {
-		actor := account.Actor
-		if actor == nil {
+		if account.Actor == nil {
 			return
 		}
 		cmd := (int(sysId) << 16) + int(cmdId)
 		if _, ok := actorMsgs[cmd]; ok {
-			writerClientMsg(account, &message{mtType: mtClientActor, cbArgs: []interface{}{cmd, reader, time.Now()}, actor: actor})
+			writerClientMsg(account, &message{mtType: mtClientActor, cbArgs: []interface{}{account, cmd, reader}})
 		}
 	}
 }
 
+const (
+	msgTimeout       = time.Millisecond * 5
+	msgHandleTimeout = time.Second * 5
+)
+
 func writerClientMsg(account *t.Account, msg *message) {
+	tick := time.Now()
 	messages <- msg
-	time.Sleep(time.Millisecond * 100)
+	if time.Since(tick) > msgTimeout {
+		account.Close()
+		log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
+		g.ReduceRealCount()
+		return
+	}
+
+	select {
+	case <-account.GetCmdCh():
+	case <-time.After(msgHandleTimeout):
+		account.Close()
+		log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
+		g.ReduceRealCount()
+	}
 }
 
 func PushActorMsg(actor *t.Actor, handler interface{}, args ...interface{}) {
@@ -144,7 +162,12 @@ func PushTimerActorGoMsg(actor *t.Actor, args ...interface{}) {
 }
 
 func dispatch(msg *message) {
+	var msgCh chan bool
 	defer func() {
+		if msgCh != nil {
+			msgCh <- true
+		}
+
 		if err := recover(); err != nil {
 			if err == pack.ReadEOF {
 				log.Fatalf("%v ==> %s", err, base.FileLine(5))
@@ -158,37 +181,23 @@ func dispatch(msg *message) {
 	case mtClientAccount:
 		args := msg.cbArgs.([]interface{})
 		account := args[0].(*t.Account)
+		msgCh = account.GetCmdCh()
 		if account.IsClose() {
 			return
 		}
 		cmdId := args[1].(byte)
 		reader := args[2].(*bytes.Reader)
-		tick := args[3].(time.Time)
-		delay := time.Since(tick)
-		if delay >= clientTimeout {
-			g.ReduceRealCount()
-			account.Close()
-			log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
-			return
-		}
-
 		accountMsgs[cmdId](account, reader)
 	case mtClientActor:
-		actor := msg.actor
-		account := actor.Account
-		if account == nil || account.IsClose() {
+		args := msg.cbArgs.([]interface{})
+		account := args[0].(*t.Account)
+		msgCh = account.GetCmdCh()
+		actor := account.Actor
+		if account.IsClose() || actor == nil {
 			return
 		}
-		args := msg.cbArgs.([]interface{})
-		cmd := args[0].(int)
-		reader := args[1].(*bytes.Reader)
-		tick := args[2].(time.Time)
-		delay := time.Since(tick)
-		if delay >= clientTimeout {
-			g.ReduceRealCount()
-			account.Close()
-			log.Warnf("server is very busy now,disconnect account %d", account.AccountId)
-		}
+		cmd := args[1].(int)
+		reader := args[2].(*bytes.Reader)
 		actorMsgs[cmd](actor, reader)
 	case mtActor:
 		actor := msg.actor
