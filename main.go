@@ -46,7 +46,9 @@ import (
 )
 
 func init() {
-	service.RegGm("reload", onReLoadConfig)
+	service.RegGm("reconf", onReLoadConfig)
+	service.RegGm("refilter", onReLoadFilterText)
+	service.RegGm("rerandname", onReLoadRandomNames)
 	service.RegGm("maxaccount", onSetMaxAccount)
 	service.RegGm("realaccount", onSetRealAccount)
 	service.RegGameStart(onGameStart)
@@ -216,20 +218,28 @@ func main() {
 
 func onReLoadConfig(map[string]string) (int, string) {
 	log.Info("=================reload config===================")
+
 	//加载配置表
-	log.Info("load config datas...")
 	g.LoadConfigs(g.GameConfig.ConfigPath)
-
-	//加载敏感词
-	log.Info("load filtertext...")
-	g.LoadFilterTexts(g.GameConfig.ConfigPath)
-
-	log.Info("load random names...")
-	g.LoadRandomNames(g.GameConfig.ConfigPath)
-
 	service.OnConfigReloadFinish(false)
 
 	log.Info("==============reload config success===============")
+
+	return 0, "reload success"
+}
+
+func onReLoadFilterText(map[string]string) (int, string) {
+	log.Info("=================reload filter text===================")
+	g.LoadFilterTexts(g.GameConfig.ConfigPath)
+	log.Info("==============reload filter text success===============")
+
+	return 0, "reload success"
+}
+
+func onReLoadRandomNames(map[string]string) (int, string) {
+	log.Info("=================reload random names===================")
+	g.LoadRandomNames(g.GameConfig.ConfigPath)
+	log.Info("==============reload random names success===============")
 
 	return 0, "reload success"
 }
