@@ -139,6 +139,7 @@ func onGetActorList(account *t.Account, reader *bytes.Reader) {
 			account.Reply(pack.EncodeData(proto.System, proto.SystemSActorLists, account.AccountId, -1))
 			return
 		}
+		account.ActorCount = len(actors)
 		writer := pack.AllocPack(proto.System, proto.SystemSActorLists, account.AccountId, len(actors))
 		for _, actor := range actors {
 			conf := g.GLordConfig[actor.Camp][actor.Sex]
@@ -175,6 +176,11 @@ func onCreateActor(account *t.Account, reader *bytes.Reader) {
 		account.Reply(pack.EncodeData(proto.System, proto.SystemSCreateActor, float64(actorId), errCode))
 	}()
 
+	if account.ActorCount != 0 {
+		errCode = -15
+		return
+	}
+
 	var (
 		name string
 		camp int
@@ -209,16 +215,6 @@ func onCreateActor(account *t.Account, reader *bytes.Reader) {
 		return
 	}
 
-	count, err := engine.GetActorCount(account.AccountId)
-	if err != nil {
-		log.Errorf("GetActorCount %d error: %s", account.AccountId, err.Error())
-		errCode = -1
-		return
-	}
-	if count > 0 {
-		errCode = -15
-		return
-	}
 	actorId = newActorId()
 	nowT := time.Now()
 	actor := &t.Actor{
@@ -238,12 +234,13 @@ func onCreateActor(account *t.Account, reader *bytes.Reader) {
 	service.OnActorCreate(actor)
 	service.OnActorUpgrade(actor, 0)
 
-	if err = engine.InsertActor(actor); err != nil {
+	if err := engine.InsertActor(actor); err != nil {
 		log.Errorf("create actor error: %s", err.Error())
 		errCode = -1
 		return
 	}
 
+	account.ActorCount++
 	AppendActorName(name, actorId)
 	g.UseRandomName(name)
 
@@ -260,42 +257,44 @@ func onActorLogin(account *t.Account, reader *bytes.Reader) {
 		pf  string
 	)
 	pack.Read(reader, &aId, &pf)
-	actor, err := engine.QueryActor(int64(aId))
-	if err != nil {
-		log.Errorf("login actor error: %s", err.Error())
-		account.Reply(pack.EncodeData(proto.System, proto.SystemSLoginGame, -1))
-		return
-	}
 
-	if actor.AccountId != account.AccountId {
-		account.Reply(pack.EncodeData(proto.System, proto.SystemSLoginGame, -2))
-		return
-	}
-	account.Reply(pack.EncodeData(proto.System, proto.SystemSLoginGame, 0))
+	dispatch.PushSystemAsynMsg(func(actor *t.Actor, err error) {
+		if err != nil {
+			log.Errorf("login actor error: %s", err.Error())
+			account.Reply(pack.EncodeData(proto.System, proto.SystemSLoginGame, -1))
+			return
+		}
 
-	exData := actor.GetExData()
-	exData.Pf = pf
-	account.Actor = actor
+		if actor.AccountId != account.AccountId {
+			account.Reply(pack.EncodeData(proto.System, proto.SystemSLoginGame, -2))
+			return
+		}
+		account.Reply(pack.EncodeData(proto.System, proto.SystemSLoginGame, 0))
 
-	account.Reply(pack.EncodeData(proto.Lord, proto.LordSCreateActor,
-		float64(actor.ActorId), float64(actor.ActorId),
-		g.GameConfig.ServerId, actor.ActorName))
+		exData := actor.GetExData()
+		exData.Pf = pf
+		account.Actor = actor
 
-	data.AddOnlineActor(actor)
+		account.Reply(pack.EncodeData(proto.Lord, proto.LordSCreateActor,
+			float64(actor.ActorId), float64(actor.ActorId),
+			g.GameConfig.ServerId, actor.ActorName))
 
-	offSec := int(time.Duration(math.Max(float64(actor.LoginTime.Sub(actor.LogoutTime)), 0)) / time.Second)
+		data.AddOnlineActor(actor)
 
-	service.OnActorBeforeLogin(actor, offSec)
+		offSec := int(time.Duration(math.Max(float64(actor.LoginTime.Sub(actor.LogoutTime)), 0)) / time.Second)
 
-	if !base.IsSameDay(time.Now(), base.Unix(exData.NewDay)) {
-		service.OnActorNewDay(actor)
-	}
+		service.OnActorBeforeLogin(actor, offSec)
 
-	actor.Account = account
-	service.OnActorLogin(actor, offSec)
+		if !base.IsSameDay(time.Now(), base.Unix(exData.NewDay)) {
+			service.OnActorNewDay(actor)
+		}
 
-	log.Infof("actor(%d) init success, cost %v", actor.ActorId, time.Since(tick))
-	timer.Loop(actor, "actorSaveData", time.Minute*30, time.Minute*30, -1, engine.UpdateActor)
+		actor.Account = account
+		service.OnActorLogin(actor, offSec)
+
+		log.Infof("actor(%d) init success, cost %v", actor.ActorId, time.Since(tick))
+		timer.Loop(actor, "actorSaveData", time.Minute*30, time.Minute*30, -1, engine.UpdateActor)
+	}, engine.QueryActor, int64(aId))
 }
 
 func actorLogout(actor *t.Actor) {

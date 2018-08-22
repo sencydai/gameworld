@@ -27,9 +27,10 @@ type Message struct {
 }
 
 type Account struct {
-	AccountId int
-	Actor     *Actor
-	GmLevel   byte
+	AccountId  int
+	Actor      *Actor
+	GmLevel    byte
+	ActorCount int
 
 	Msg *Message
 
@@ -45,7 +46,8 @@ type Account struct {
 
 func NewAccount(conn *websocket.Conn, reader *bytes.Reader) *Account {
 	account := &Account{
-		conn: conn,
+		conn:       conn,
+		ActorCount: -1,
 		Msg: &Message{
 			Reader: reader,
 		},

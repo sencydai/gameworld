@@ -9,6 +9,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 
 	"github.com/json-iterator/go"
+	"github.com/sencydai/gameworld/base"
 	g "github.com/sencydai/gameworld/gconfig"
 	t "github.com/sencydai/gameworld/typedefine"
 
@@ -35,18 +36,15 @@ var (
 
 	stmtSysMutex sync.Mutex
 
-	stmtAccount      *sql.Stmt
-	stmtAccountMutex sync.Mutex
-
-	stmtAccountActors      *sql.Stmt
-	stmtAccountActorsMutex sync.Mutex
-
-	stmtActorCount *sql.Stmt
+	stmtAccount       *sql.Stmt
+	stmtAccountActors *sql.Stmt
+	accountSemap      = base.NewSemaphore(5)
 
 	stmtInsertActor *sql.Stmt
 
 	stmtQueryActor      *sql.Stmt
 	stmtQueryCacheActor *sql.Stmt
+	querySemap          = base.NewSemaphore(5)
 
 	actorBuffers  = make(map[int64]*actorBuffer)
 	actorBufferMu sync.RWMutex
@@ -79,11 +77,6 @@ func InitEngine() {
 	}
 
 	stmtAccountActors, err = engine.Prepare("select actorid,actorname,camp,sex,level from actor where accountid=? order by level desc")
-	if err != nil {
-		panic(err)
-	}
-
-	stmtActorCount, err = engine.Prepare("select count(actorid) from actor where accountid=?")
 	if err != nil {
 		panic(err)
 	}
@@ -187,8 +180,8 @@ func FlushSystemData(values map[int]string) {
 }
 
 func GetAccountInfo(name string) (int, string, byte, error) {
-	stmtAccountMutex.Lock()
-	defer stmtAccountMutex.Unlock()
+	accountSemap.Require()
+	defer accountSemap.Release()
 
 	var (
 		accountid int
@@ -200,8 +193,8 @@ func GetAccountInfo(name string) (int, string, byte, error) {
 }
 
 func GetAccountActors(accountId int) ([]*t.AccountActor, error) {
-	stmtAccountActorsMutex.Lock()
-	defer stmtAccountActorsMutex.Unlock()
+	accountSemap.Require()
+	defer accountSemap.Release()
 
 	rows, err := stmtAccountActors.Query(accountId)
 	if err != nil {
@@ -228,15 +221,6 @@ func GetAccountActors(accountId int) ([]*t.AccountActor, error) {
 	}
 
 	return actors, nil
-}
-
-func GetActorCount(accountId int) (int, error) {
-	var result sql.NullInt64
-	err := stmtActorCount.QueryRow(accountId).Scan(&result)
-	if err != nil {
-		return 0, err
-	}
-	return int(result.Int64), nil
 }
 
 func InsertActor(actor *t.Actor) error {
@@ -272,6 +256,9 @@ func QueryActor(actorId int64) (*t.Actor, error) {
 		json.Unmarshal(buff.ExData, actor.ExData)
 		return actor, nil
 	}
+
+	querySemap.Require()
+	defer querySemap.Release()
 
 	var (
 		baseData sql.NullString

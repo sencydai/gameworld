@@ -124,3 +124,19 @@ func FileLine(skip int) string {
 	}
 	return fmt.Sprintf("%s:%d", file[i+1:], line)
 }
+
+type Semaphore struct {
+	locker chan bool
+}
+
+func NewSemaphore(n uint) *Semaphore {
+	return &Semaphore{locker: make(chan bool, n)}
+}
+
+func (s *Semaphore) Require() {
+	s.locker <- true
+}
+
+func (s *Semaphore) Release() {
+	<-s.locker
+}
