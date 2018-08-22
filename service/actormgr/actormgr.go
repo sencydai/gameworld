@@ -259,6 +259,9 @@ func onActorLogin(account *t.Account, reader *bytes.Reader) {
 	pack.Read(reader, &aId, &pf)
 
 	dispatch.PushSystemAsynMsg(func(actor *t.Actor, err error) {
+		if account.AccountId == 0 || account.Actor != nil {
+			return
+		}
 		if err != nil {
 			log.Errorf("login actor error: %s", err.Error())
 			account.Reply(pack.EncodeData(proto.System, proto.SystemSLoginGame, -1))
