@@ -20,7 +20,10 @@ type Message struct {
 	MtType byte
 	CBFunc interface{}
 	CBArgs interface{}
-	Actor  *Actor
+
+	Account *Account
+	Actor   *Actor
+	Reader  *bytes.Reader
 }
 
 type Account struct {
@@ -41,14 +44,15 @@ type Account struct {
 }
 
 func NewAccount(conn *websocket.Conn, reader *bytes.Reader) *Account {
-	args := make([]interface{}, 3)
 	account := &Account{
-		conn:  conn,
-		Msg:   &Message{CBArgs: args},
+		conn: conn,
+		Msg: &Message{
+			Reader: reader,
+		},
 		cmdCh: make(chan bool, 1),
 		datas: make([][]byte, 0),
 	}
-	args[0],args[2] = account,reader
+	account.Msg.Account = account
 	go func() {
 		write := account.conn.WriteMessage
 		bm := websocket.BinaryMessage
