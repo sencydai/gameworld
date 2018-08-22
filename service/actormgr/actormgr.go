@@ -8,7 +8,6 @@ import (
 	"time"
 
 	"github.com/sencydai/gameworld/base"
-	c "github.com/sencydai/gameworld/constdefine"
 	"github.com/sencydai/gameworld/data"
 	"github.com/sencydai/gameworld/dispatch"
 	"github.com/sencydai/gameworld/engine"
@@ -203,14 +202,8 @@ func onCreateActor(account *t.Account, reader *bytes.Reader) {
 		return
 	}
 	name = g.GetRandomName()
-	//角色名已存在
-	if IsActorNameExist(name) {
-		errCode = -6
-		return
-	}
-	rName := []rune(name)
 	//名称不合法
-	if len(rName) == 0 || len(rName) > c.MaxActorNameLen || g.QueryName(name) {
+	if len(name) == 0 {
 		errCode = -12
 		return
 	}
