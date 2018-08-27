@@ -103,7 +103,7 @@ func handleConnection(w http.ResponseWriter, r *http.Request) {
 	defTag := pack.DEFAULT_TAG
 	buff := make([]byte, 0)
 	reader := bytes.NewReader(buff)
-	account := t.NewAccount(conn,reader)
+	account := t.NewAccount(conn, reader)
 
 	defer func() {
 		if err := recover(); err != nil {
@@ -153,7 +153,13 @@ func handleConnection(w http.ResponseWriter, r *http.Request) {
 func startGateWay() {
 	server := http.NewServeMux()
 	server.HandleFunc("/", handleConnection)
-	go http.ListenAndServe(fmt.Sprintf(":%d", g.GameConfig.Port), server)
+
+	if len(g.GameConfig.CertFile) == 0 || len(g.GameConfig.KeyFile) == 0 {
+		go http.ListenAndServe(fmt.Sprintf(":%d", g.GameConfig.Port), server)
+	} else {
+		go http.ListenAndServeTLS(fmt.Sprintf(":%d", g.GameConfig.Port),
+			g.GameConfig.CertFile, g.GameConfig.KeyFile, server)
+	}
 
 	log.Info("gateway started...")
 }

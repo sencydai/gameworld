@@ -82,7 +82,12 @@ func handleGmCmd(w http.ResponseWriter, r *http.Request) {
 func onGameStart() {
 	server := http.NewServeMux()
 	server.HandleFunc("/backdoor/gmcmd", handleGmCmd)
-	go http.ListenAndServe(fmt.Sprintf(":%d", g.GameConfig.Port+1), server)
+	if len(g.GameConfig.CertFile) == 0 || len(g.GameConfig.KeyFile) == 0 {
+		go http.ListenAndServe(fmt.Sprintf(":%d", g.GameConfig.Port+1), server)
+	} else {
+		go http.ListenAndServeTLS(fmt.Sprintf(":%d", g.GameConfig.Port+1),
+			g.GameConfig.CertFile, g.GameConfig.KeyFile, server)
+	}
 
 	log.Info("start backdoor service")
 }

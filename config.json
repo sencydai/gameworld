@@ -2,6 +2,8 @@
 	"logPath": "d:/gamelog",
 	"logLevel": 1,
 	"port": 9402,
+	"certFile": "",
+	"keyFile": "",
 	"serverId": 10,
 	"maxConnection": 5000,
 	"realMax": 5000,

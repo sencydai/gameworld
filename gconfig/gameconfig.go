@@ -10,6 +10,8 @@ type gameConfig struct {
 	LogPath       string
 	LogLevel      log.LogLevel
 	Port          int
+	CertFile      string
+	KeyFile       string
 	ServerId      int
 	MaxConnection uint
 	RealMax       uint
