@@ -323,13 +323,13 @@ func onGameStart() {
 }
 
 func OnGameClose() {
-	tick := time.Now()
 	data.LoopActors(func(actor *t.Actor) bool {
 		service.OnActorLogout(actor)
 		actor.LogoutTime = time.Now()
 		engine.UpdateActor(actor)
 		return true
 	})
+	tick := time.Now()
 	engine.FlushActorBuffers()
 	log.Infof("save actors data: %v", time.Since(tick))
 }

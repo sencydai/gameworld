@@ -4,10 +4,10 @@
 	"port": 9402,
 	"certFile": "",
 	"keyFile": "",
-	"serverId": 10,
+	"serverId": 1,
 	"maxConnection": 5000,
 	"realMax": 5000,
 	"configPath": "./gconfig/configfiles",
-	"database": "root:0987abc123@tcp(127.0.0.1:3306)/game_10?loc=Local&parseTime=true&readTimeout=5s&writeTimeout=5s",
+	"database": "root:0987abc123@tcp(127.0.0.1:3306)/game_1?loc=Local&parseTime=true&readTimeout=5s&writeTimeout=5s",
 	"crossUrl": "nats://localhost:4222"
 }
