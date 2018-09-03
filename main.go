@@ -10,6 +10,7 @@ import (
 	"os/signal"
 	"runtime"
 	"runtime/debug"
+
 	//"runtime/pprof"
 	"strconv"
 	"time"
@@ -65,9 +66,11 @@ func monitorMaxAccountCount() {
 		loop := time.Second * 5
 		min := time.Microsecond * 200
 		chSync := make(chan bool, 1)
+
+		t := time.NewTimer(loop)
 		for {
 			select {
-			case <-time.After(loop):
+			case <-t.C:
 				tick := time.Now()
 				dispatch.PushSystemMsg(func() {
 					chSync <- true
@@ -82,6 +85,8 @@ func monitorMaxAccountCount() {
 						g.AddMaxCount()
 					}
 				}
+
+				t.Reset(loop)
 			}
 		}
 	}()
@@ -91,15 +96,17 @@ func monitorSystemTime() {
 	//监控系统时间改变
 	go func() {
 		loop := time.Second * 10
+		t := time.NewTimer(loop)
 		for {
 			tick := time.Now()
 			select {
-			case <-time.After(loop):
+			case <-t.C:
 				delay := time.Now().Unix() - tick.Unix()
 				if math.Abs(float64(delay)) >= 20 {
 					log.Info("system time changed")
 					dispatch.PushSystemMsg(service.OnSystemTimeChange)
 				}
+				t.Reset(loop)
 			}
 		}
 	}()
@@ -202,16 +209,6 @@ func main() {
 	})
 
 	<-waitClose
-
-	// select {
-	// case <-waitClose:
-	// case <-time.After(time.Second * 10):
-	// 	log.Warn("close server failed...")
-	// 	gconfig.CloseGame()
-	// 	actormgr.OnGameClose()
-	// 	service.OnGameClose()
-	// 	data.OnGameClose()
-	// }
 
 	log.Infof("server closed success, cost:%v; running time:%v", time.Since(tick), time.Since(startT))
 }

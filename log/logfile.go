@@ -63,11 +63,12 @@ func (l *loggerFile) flush(now time.Time, buffer string) {
 
 func (l *loggerFile) run() {
 	go func() {
-		t := time.Second
+		t := time.NewTimer(time.Second)
 		for {
 			select {
-			case <-time.After(t):
+			case <-t.C:
 				l.sync()
+				t.Reset(time.Second)
 			}
 		}
 	}()
@@ -102,11 +103,13 @@ func (l *loggerPrint) flush(buffer string) {
 
 func (l *loggerPrint) run() {
 	go func() {
-		t := time.Millisecond * 100
+		delay := time.Millisecond * 100
+		t := time.NewTimer(delay)
 		for {
 			select {
-			case <-time.After(t):
+			case <-t.C:
 				l.sync()
+				t.Reset(delay)
 			}
 		}
 	}()

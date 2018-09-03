@@ -64,11 +64,11 @@ func ReduceRealCount() {
 	GameConfig.lock.Lock()
 	defer GameConfig.lock.Unlock()
 
-	if GameConfig.RealMax <= 5 {
+	if GameConfig.RealMax <= 100 {
 		return
 	}
 
-	GameConfig.RealMax -= 5
+	GameConfig.RealMax -= 1
 }
 
 func AddMaxCount() {

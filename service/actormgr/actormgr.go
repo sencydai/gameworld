@@ -169,10 +169,11 @@ func onCreateActor(account *t.Account, reader *bytes.Reader) {
 	}
 
 	var errCode int
-	var actorId int64
 
 	defer func() {
-		account.Reply(pack.EncodeData(proto.System, proto.SystemSCreateActor, float64(actorId), errCode))
+		if errCode != 0 {
+			account.Reply(pack.EncodeData(proto.System, proto.SystemSCreateActor, float64(0), errCode))
+		}
 	}()
 
 	if account.ActorCount != 0 {
@@ -208,7 +209,7 @@ func onCreateActor(account *t.Account, reader *bytes.Reader) {
 		return
 	}
 
-	actorId = newActorId()
+	actorId := newActorId()
 	nowT := time.Now()
 	actor := &t.Actor{
 		ActorId:    actorId,
@@ -227,17 +228,21 @@ func onCreateActor(account *t.Account, reader *bytes.Reader) {
 	service.OnActorCreate(actor)
 	service.OnActorUpgrade(actor, 0)
 
-	if err := engine.InsertActor(actor); err != nil {
-		log.Errorf("create actor error: %s", err.Error())
-		errCode = -1
-		return
-	}
+	dispatch.PushSystemAsynMsg(func(err error) {
+		if err != nil {
+			log.Errorf("create actor error: %s", err.Error())
+			account.Reply(pack.EncodeData(proto.System, proto.SystemSCreateActor, float64(0), -1))
+			return
+		}
 
-	account.ActorCount++
-	AppendActorName(name, actorId)
-	g.UseRandomName(name)
+		account.ActorCount++
+		AppendActorName(name, actorId)
+		g.UseRandomName(name)
 
-	log.Infof("account(%d) create actor(%d) success", account.AccountId, actorId)
+		account.Reply(pack.EncodeData(proto.System, proto.SystemSCreateActor, float64(actorId), 0))
+		log.Infof("account(%d) create actor(%d) success", account.AccountId, actorId)
+
+	}, engine.InsertActor, actor)
 }
 
 func onActorLogin(account *t.Account, reader *bytes.Reader) {

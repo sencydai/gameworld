@@ -41,6 +41,7 @@ var (
 	accountSemap      = base.NewSemaphore(5)
 
 	stmtInsertActor *sql.Stmt
+	insertMu        sync.Mutex
 
 	stmtQueryActor      *sql.Stmt
 	stmtQueryCacheActor *sql.Stmt
@@ -61,12 +62,14 @@ func InitEngine() {
 	engine.SetConnMaxLifetime(0)
 
 	go func() {
+		t := time.NewTimer(time.Hour)
 		for {
 			select {
-			case <-time.After(time.Hour):
+			case <-t.C:
 				if err := engine.Ping(); err != nil {
 					log.Fatal(err)
 				}
+				t.Reset(time.Hour)
 			}
 		}
 	}()
@@ -232,6 +235,9 @@ func InsertActor(actor *t.Actor) error {
 	if err != nil {
 		return err
 	}
+	insertMu.Lock()
+	defer insertMu.Unlock()
+
 	_, err = stmtInsertActor.Exec(actor.ActorId, actor.ActorName, actor.AccountId,
 		g.GameConfig.ServerId, actor.Camp, actor.Sex, actor.Level, actor.Power,
 		actor.CreateTime, actor.LoginTime, actor.LogoutTime, string(baseData), string(exData))

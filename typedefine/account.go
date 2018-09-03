@@ -60,9 +60,13 @@ func NewAccount(conn *websocket.Conn, reader *bytes.Reader) *Account {
 		bm := websocket.BinaryMessage
 		loopTime := time.Millisecond * 10
 		timeout := time.Millisecond
+
+		t := time.NewTimer(loopTime)
+		defer t.Stop()
+
 		for {
 			select {
-			case <-time.After(loopTime):
+			case <-t.C:
 				if account.IsClose() {
 					return
 				}
@@ -71,6 +75,7 @@ func NewAccount(conn *websocket.Conn, reader *bytes.Reader) *Account {
 
 				if len(account.datas) == 0 {
 					account.wLock.Unlock()
+					t.Reset(loopTime)
 					break
 				}
 
@@ -88,6 +93,8 @@ func NewAccount(conn *websocket.Conn, reader *bytes.Reader) *Account {
 				account.datas = account.datas[index:]
 
 				account.wLock.Unlock()
+
+				t.Reset(loopTime)
 			}
 		}
 	}()
@@ -97,10 +104,6 @@ func NewAccount(conn *websocket.Conn, reader *bytes.Reader) *Account {
 
 func (account *Account) GetCmdCh() chan bool {
 	return account.cmdCh
-}
-
-func (account *Account) SetCmdCh() {
-	account.cmdCh <- true
 }
 
 func (account *Account) Close() {
